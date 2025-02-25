@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Human Dynamics on </title>
+    <link>http://estebanmoro.org/tags/human-dynamics/</link>
+    <description>Recent content in Human Dynamics on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sat, 02 Feb 2019 00:00:00 +0000</lastBuildDate><atom:link href="http://estebanmoro.org/tags/human-dynamics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The dynamic character of our networked society</title>
+      <link>http://estebanmoro.org/post/2019-02-02-the-dynamic-character-of-our-networked-society/</link>
+      <pubDate>Sat, 02 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2019-02-02-the-dynamic-character-of-our-networked-society/</guid>
+      <description>We live in a networked society and our actions, opinions, behaviors are affected and can affect other people. Understanding such social networked structures is one of the key challenges in our attempt to decode human behavior and its impact in our society. Although human interactions are dynamical by nature, most of our understanding relies in static representations of those social networks. However, social interactions are rarely static. Very often the networks evolve by means of processes that happen at diverse time scales, like link decay/formation, group formation, etc.</description>
+    </item>
+    
+    <item>
+      <title>Daily rhythms in mobile telephone communication</title>
+      <link>http://estebanmoro.org/post/2015-10-13-daily-rhythms-in-mobile-telephone-communication/</link>
+      <pubDate>Tue, 13 Oct 2015 13:23:36 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2015-10-13-daily-rhythms-in-mobile-telephone-communication/</guid>
+      <description>Authors:Talayeh Aledavood , Eduardo López, Sam G. B. Roberts, Felix Reed-Tsochas, Esteban Moro, Robin I. M. Dunbar, Jari Saramäki
+Journal: PLoS ONE 10(9), e0138098 (2015) LINK
+Abstract: Circadian rhythms are known to be important drivers of human activity and the recent availability of electronic records of human behaviour has provided fine-grained data of temporal patterns of activity on a large scale. Further, questionnaire studies have identified important individual differences in circadian rhythms, with people broadly categorised into morning-like or evening-like individuals.</description>
+    </item>
+    
+    <item>
+      <title>From Seconds to Months: multi-scale dynamics of mobile telephone calls</title>
+      <link>http://estebanmoro.org/post/2015-05-07-from-seconds-to-months-multi-scale-dynamics-of-mobile-telephone-calls/</link>
+      <pubDate>Thu, 07 May 2015 12:39:43 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2015-05-07-from-seconds-to-months-multi-scale-dynamics-of-mobile-telephone-calls/</guid>
+      <description>Authors:Jari Saramaki, Esteban Moro
+Journal: Eur. Phys. J. B (2015) 88: 164 LINK | **arXiv
+Abstract: Big Data on electronic records of social interactions allow approaching human behaviour and sociality from a quantitative point of view with unforeseen statistical power. Mobile telephone Call Detail Records (CDRs), automatically collected by telecom operators for billing purposes, have proven especially fruitful for understanding one-to-one communication patterns as well as the dynamics of social networks that are reflected in such patterns.</description>
+    </item>
+    
+  </channel>
+</rss>

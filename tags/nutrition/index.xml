@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>nutrition on </title>
+    <link>http://estebanmoro.org/tags/nutrition/</link>
+    <description>Recent content in nutrition on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Thu, 14 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://estebanmoro.org/tags/nutrition/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Effect of mobile food environments on fast food visits</title>
+      <link>http://estebanmoro.org/post/2022-09-22-you-are-where-you-eat-effect-of-mobile-food-environments-on-fast-food-visits/</link>
+      <pubDate>Thu, 14 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2022-09-22-you-are-where-you-eat-effect-of-mobile-food-environments-on-fast-food-visits/</guid>
+      <description>Authors: Bernardo Garcia-Bulle, Abigail L. Horn, Brooke M. Bell, Mohsen Bahrami, Burcin Bozkaya, Alex Pentland, Kayla de la Haye, and Esteban Moro
+Publication: Nature Communications 15, article number: 2291. LINK
+Abstract: Poor diets are a leading cause of morbidity and mortality. Exposure to low-quality food environments saturated with fast food outlets is hypothesized to negatively impact diet. However, food environment research has predominantly focused on static food environments around home neighborhoods and generated mixed findings.</description>
+    </item>
+    
+    <item>
+      <title>Behavioral-network determinants of health outcomes.</title>
+      <link>http://estebanmoro.org/post/2022-10-25-behavioral-network-determinants-of-health-outcomes/</link>
+      <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2022-10-25-behavioral-network-determinants-of-health-outcomes/</guid>
+      <description>Our behavior conditions our health. Exposure to infections depends on our and other people’s mobility. Exposure to healthy environments or habits depends on our choices and opportunities. Although human behavior is highly adaptive and dynamic, most social determinants of health are restricted to static aggregated representations of socio-demographic groups or residential environments.
+We have started a program to understand behavioral-network determinants of health outcomes by modeling physical exposure between people and environments using large datasets of human mobility and activity and multilayer networks.</description>
+    </item>
+    
+  </channel>
+</rss>

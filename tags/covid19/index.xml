@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>covid19 on </title>
+    <link>http://estebanmoro.org/tags/covid19/</link>
+    <description>Recent content in covid19 on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sun, 19 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://estebanmoro.org/tags/covid19/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The unequal effects of the health–economy trade-off during the COVID19 pandemic</title>
+      <link>http://estebanmoro.org/post/2023-11-20-the-unequal-effects-of-the-health-economy-trade-off-during-the-covid-19-pandemic/</link>
+      <pubDate>Sun, 19 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2023-11-20-the-unequal-effects-of-the-health-economy-trade-off-during-the-covid-19-pandemic/</guid>
+      <description>Authors: Marco Pangallo, Alberto Aleta, R. Maria del Rio-Chanona, Anton Pichler, David Martin-Corral, Matteo Chinazzi, Francois Lafond, Marco Ajelli, Esteban Moro, Yamir Moreno, Alessandro Vespignani, J. Doyne Farmer
+Publication: Nature Human Behavior, Nov 16th, (2023)
+LINK
+Abstract: Despite the global impact of the coronavirus disease 2019 pandemic, the question of whether mandated interventions have similar economic and public health effects as spontaneous behavioural change remains unresolved. Addressing this question, and understanding differential effects across socioeconomic groups, requires building quantitative and fine-grained mechanistic models.</description>
+    </item>
+    
+    <item>
+      <title>Behavioral changes during the COVID-19 pandemic decreased income diversity of urban encounters</title>
+      <link>http://estebanmoro.org/post/2023-04-21-behavioral-changes-during-the-covid-19-pandemic-decreased-income-diversity-of-urban-encounters/</link>
+      <pubDate>Fri, 21 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2023-04-21-behavioral-changes-during-the-covid-19-pandemic-decreased-income-diversity-of-urban-encounters/</guid>
+      <description>Authors: Takahiro Yabe, Bernardo García Bulle Bueno, Xiaowen Dong, Alex Pentland &amp;amp; Esteban Moro
+Publication: Nature Communications volume 14, Article number: 2310 (2023) LINK
+Abstract: Diversity of physical encounters in urban environments is known to spur economic productivity while also fostering social capital. However, mobility restrictions during the pandemic have forced people to reduce urban encounters, raising questions about the social implications of behavioral changes. In this paper, we study how individual income diversity of urban encounters changed during the pandemic, using a large-scale, privacy-enhanced mobility dataset of more than one million anonymized mobile phone users in Boston, Dallas, Los Angeles, and Seattle, across three years spanning before and during the pandemic.</description>
+    </item>
+    
+    <item>
+      <title>Quantifying the importance and location of SARS-CoV-2 transmission events in large metropolitan areas</title>
+      <link>http://estebanmoro.org/post/2022-06-13-quantifying-the-importance-and-location-of-sars-cov-2-transmission-events-in-large-metropolitan-areas/</link>
+      <pubDate>Mon, 13 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2022-06-13-quantifying-the-importance-and-location-of-sars-cov-2-transmission-events-in-large-metropolitan-areas/</guid>
+      <description>Authors: Alberto Aleta, David Martín-Corral, Michiel A.Bakker, Ana Pastore y Piontti, Marco Ajelli, Maria Litvinova , Matteo Chinazzi, Natalie E. Dean, M. Elizabeth Halloran,Ira M. Longini,Jr, Alex Pentland, Alessandro Vespignani, Yamir Moreno, and Esteban Moro. Publication: PNAS (2022). Link
+Abstract: Detailed characterization of severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) transmission across different settings can help design less disruptive interventions. We used real-time, privacy-enhanced mobility data in the New York City, NY and Seattle, WA metropolitan areas to build a detailed agent-based model of SARS-CoV-2infection to estimate the where, when, and magnitude of transmission events during thepandemic’s first wave.</description>
+    </item>
+    
+    <item>
+      <title>Effect of COVID-19 response policies on walking behavior in US cities</title>
+      <link>http://estebanmoro.org/post/2021-06-16-effect-of-covid-19-response-policies-on-walking-behavior-in-us-cities/</link>
+      <pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2021-06-16-effect-of-covid-19-response-policies-on-walking-behavior-in-us-cities/</guid>
+      <description>Authors: Ruth F. Hunter, Leandro Garcia, Thiago Herick de Sa, Belen Zapata-Diomedi, Christopher Millett, James Woodcock, Alex ’Sandy’ Pentland, and Esteban Moro Publication: Nature Communications (2021). Link
+Abstract: The COVID-19 pandemic is causing mass disruption to our daily lives. We integrate mobility data from mobile devices and area-level data to study the walking patterns of 1.62 million anonymous users in 10 metropolitan areas in the United States. The data covers the period from mid-February 2020 (pre-lockdown) to late June 2020 (easing of lockdown restrictions).</description>
+    </item>
+    
+    <item>
+      <title>Quantifying the importance and location of SARS-CoV-2 transmission events in large metropolitan areas</title>
+      <link>http://estebanmoro.org/post/2020-12-09-effect-of-covid-19-response-policies-on-walking-behavior-in-us-cities/</link>
+      <pubDate>Fri, 18 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2020-12-09-effect-of-covid-19-response-policies-on-walking-behavior-in-us-cities/</guid>
+      <description>Authors: Alberto Aleta, David Martin-Corral, Michiel Bakker, Ana Pastore y Piontti, Marco Ajelli, Maria Litvinova, Matteo Chinazzi, Natalie E Dean,M. Elizabeth Halloran, Ira M Longini, Alex Pentland, Alessandro Vespignani, Yamir Moreno, Esteban Moro
+Publication: medRxiv (2020). Link
+Abstract: Detailed characterizations of SARS-CoV-2 transmission risk across different social settings can inform the design of targeted and less disruptive non-pharmaceutical interventions (NPI), yet these data have been lacking. Here we integrate real-time, anonymous and privacy-enhanced geolocalized mobility data with census and demographic data in the New York City and Seattle metropolitan areas to build a detailed agent-based model of SARS-CoV-2 transmission.</description>
+    </item>
+    
+    <item>
+      <title>Modeling the impact of testing, contact tracing and household quarantine on second waves of COVID-19</title>
+      <link>http://estebanmoro.org/post/2020-09-18-modeling-the-impact-of-testing-contact-tracing-and-household-quarantine-on-second-waves-of-covid-19/</link>
+      <pubDate>Fri, 18 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2020-09-18-modeling-the-impact-of-testing-contact-tracing-and-household-quarantine-on-second-waves-of-covid-19/</guid>
+      <description>Video of my talk &amp;ldquo;Modeling the impact of testing, contact tracing and household quarantine on second waves of COVID-19&amp;rdquo; at the Cycles of Seminars Covid-19 Sponsored by MexSAIM in UNAM, Mexico, September 15, 2020.
+ </description>
+    </item>
+    
+    <item>
+      <title>Modeling the impact of social distancing, testing, contact tracing and household quarantine on second-wave scenarios of the COVID-19 epidemic</title>
+      <link>http://estebanmoro.org/post/2020-05-27-modeling-the-impact-of-social-distancing-testing-contact-tracing-and-household-quarantine-on-second-wave-scenarios-of-the-covid-19-epidemic/</link>
+      <pubDate>Wed, 27 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2020-05-27-modeling-the-impact-of-social-distancing-testing-contact-tracing-and-household-quarantine-on-second-wave-scenarios-of-the-covid-19-epidemic/</guid>
+      <description>Authors: Alberto Aleta, David Martíın-Corral, Ana Pastore y Piontti, Marco Ajelli, Maria Litvinova, Matteo Chinazzi, Natalie E. Dean, M. Elizabeth Halloran, Ira M. Longini, Jr., Stefano Merler, Alex Pentland, Alessandro Vespignani, Esteban Moro &amp;amp; Yamir Moreno
+Publication: Nature Human Behavior(2020). Link
+Abstract: While severe social-distancing measures have proven effective in slowing the coronavirus disease 2019 (COVID-19) pandemic, second-wave scenarios are likely to emerge as restrictions are lifted. Here we integrate anonymized, geolocalized mobility data with census and demographic data to build a detailed agent-based model of severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) transmission in the Boston metropolitan area.</description>
+    </item>
+    
+  </channel>
+</rss>

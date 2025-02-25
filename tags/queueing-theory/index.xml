@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Queueing theory on </title>
+    <link>http://estebanmoro.org/tags/queueing-theory/</link>
+    <description>Recent content in Queueing theory on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Wed, 28 Jan 2009 10:54:22 +0000</lastBuildDate><atom:link href="http://estebanmoro.org/tags/queueing-theory/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Waiting for the bus</title>
+      <link>http://estebanmoro.org/post/2009-01-28-waiting-for-the-bus/</link>
+      <pubDate>Wed, 28 Jan 2009 10:54:22 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2009-01-28-waiting-for-the-bus/</guid>
+      <description>Although the public transportation system in Madrid is very good, I don&amp;rsquo;t usually take the bus or the train to move around. But sometimes my car decides I should take public transportation (bus or train). One of things I always found intriguing is that I always wait way more for the bus than what is expected according to the frequency quoted by the transportation companies at the bus or train stop.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Social Networks on </title>
+    <link>http://estebanmoro.org/tags/social-networks/</link>
+    <description>Recent content in Social Networks on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Tue, 22 Oct 2019 00:00:00 +0000</lastBuildDate><atom:link href="http://estebanmoro.org/tags/social-networks/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Hide One&#39;s Relationships from Link Prediction Algorithms</title>
+      <link>http://estebanmoro.org/post/2019-10-22-how-to-hide-one-s-relationships-from-link-prediction-algorithms/</link>
+      <pubDate>Tue, 22 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2019-10-22-how-to-hide-one-s-relationships-from-link-prediction-algorithms/</guid>
+      <description>Authors: Marcin Waniek, Kai Zhou, Yevgeniy Vorobeychik, Esteban Moro, Tomasz P Michalak, Talal Rahwan
+Journal: Scientific Reports volume 9, Article number: 12208 (2019) Link
+Abstract: Our private connections can be exposed by link prediction algorithms. To date, this threat has only been addressed from the perspective of a central authority, completely neglecting the possibility that members of the social network can themselves mitigate such threats. We fill this gap by studying how an individual can rewire her own network neighborhood to hide her sensitive relationships.</description>
+    </item>
+    
+    <item>
+      <title>¿Cuánta gente vas a acabar conociendo en toda tu vida?</title>
+      <link>http://estebanmoro.org/post/2019-09-06-cua%CC%81nta-gente-vas-a-acabar-conociendo-en-toda-tu-vida/</link>
+      <pubDate>Fri, 06 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2019-09-06-cua%CC%81nta-gente-vas-a-acabar-conociendo-en-toda-tu-vida/</guid>
+      <description>Article (in Spanish) in the spanish newspaper El País about how many people we will know in our life. This is a summary of our recent research on how humans create/destroy relationships and how narrow and small is our world even throughout a life of encounters, relationships, work, etc.
+¿Cuánta gente vas a acabar conociendo en toda tu vida? Muy poca
+ En el mundo hay más de 7.500 millones de personas.</description>
+    </item>
+    
+    <item>
+      <title>The dynamic character of our networked society</title>
+      <link>http://estebanmoro.org/post/2019-02-02-the-dynamic-character-of-our-networked-society/</link>
+      <pubDate>Sat, 02 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2019-02-02-the-dynamic-character-of-our-networked-society/</guid>
+      <description>We live in a networked society and our actions, opinions, behaviors are affected and can affect other people. Understanding such social networked structures is one of the key challenges in our attempt to decode human behavior and its impact in our society. Although human interactions are dynamical by nature, most of our understanding relies in static representations of those social networks. However, social interactions are rarely static. Very often the networks evolve by means of processes that happen at diverse time scales, like link decay/formation, group formation, etc.</description>
+    </item>
+    
+    <item>
+      <title>Growing old in Twitter</title>
+      <link>http://estebanmoro.org/post/2018-12-14-growing-old-in-twitter/</link>
+      <pubDate>Fri, 14 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2018-12-14-growing-old-in-twitter/</guid>
+      <description>I started using Twitter more than 10 years ago (!). I open an account in this social network in 2008 and although I was not using it too much for the first year, I become a frequent user after that. It has helped me to get news, information both for my personal and professional interests. But not only that, Twitter has been also the data source for our research, that helped us to investigate the relationship between human behavior in the social platform and paramount problems in our society as information propagation, unemployment, disaster damage, political opinion.</description>
+    </item>
+    
+    <item>
+      <title>Talk at NICO &#34;The lifetime of strong ties in social networks&#34;</title>
+      <link>http://estebanmoro.org/post/2019-01-01-the-lifetime-of-strong-ties-in-social-networks/</link>
+      <pubDate>Wed, 11 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2019-01-01-the-lifetime-of-strong-ties-in-social-networks/</guid>
+      <description>Video of my talk &amp;ldquo;The lifetime of strong ties in social networks&amp;rdquo; at the Northwestern Institute of Complex Systems (NICO) in Evaston, Chicago, Oct 2017. What a great experience giving a talk at NICO!
+ </description>
+    </item>
+    
+    <item>
+      <title>Temporal patterns behind the strength of persistent ties</title>
+      <link>http://estebanmoro.org/post/2017-06-28-temporal-patterns-behind-the-strength-of-persistent-ties/</link>
+      <pubDate>Wed, 28 Jun 2017 12:54:18 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2017-06-28-temporal-patterns-behind-the-strength-of-persistent-ties/</guid>
+      <description>Authors: Henry Navarro, Giovanna Miritello, Arturo Canales, Esteban Moro
+Journal: EPJ Data Science (2017) 6:31 LINK
+Abstract: Social networks are made out of strong and weak ties having very different structural and dynamical properties. But what features of human interaction build a strong tie? Here we approach this question from a practical way by finding what are the properties of social interactions that make ties more persistent and thus stronger to maintain social interactions in the future.</description>
+    </item>
+    
+    <item>
+      <title>El romance entre Twitter y la ciencia</title>
+      <link>http://estebanmoro.org/post/2017-01-30-el-romance-entre-twitter-y-la-ciencia/</link>
+      <pubDate>Mon, 30 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2017-01-30-el-romance-entre-twitter-y-la-ciencia/</guid>
+      <description>Nice article (in Spanish) in Yorokobu magazine about the use of Twitter in science, highlighting our work on the use of social media for rapid assessment of natural disaster management
+El romance entre Twitter y la ciencia
+ «Twitter y las otras redes sociales están entre los más grandes archivos de actividad humana existentes y, al contrario que con las encuestas, ahora tenemos la posibilidad de analizar millones de mensajes, opiniones e interacciones de personas en diferentes contextos como la política, economía o el ocio», explica el matemático Esteban Moro, investigador en la Carlos III de Madrid.</description>
+    </item>
+    
+    <item>
+      <title>Searching for someone</title>
+      <link>http://estebanmoro.org/post/2016-02-19-searching-for-someone/</link>
+      <pubDate>Fri, 19 Feb 2016 11:52:48 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2016-02-19-searching-for-someone/</guid>
+      <description>From the “Small World Experiment” to the “Red Balloon Challenge,” and beyond
+We live in a small world, right? But the cost and fragility of navigating it could harm any potential strategy to leverage the power of social networks. Read this fascinating story of the research, experiments, and failures in the quest for using social networks to search information/people:
+[Excerpt of the article] Our ability to search social networks for people and information is fundamental to our success.</description>
+    </item>
+    
+    <item>
+      <title>Daily rhythms in mobile telephone communication</title>
+      <link>http://estebanmoro.org/post/2015-10-13-daily-rhythms-in-mobile-telephone-communication/</link>
+      <pubDate>Tue, 13 Oct 2015 13:23:36 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2015-10-13-daily-rhythms-in-mobile-telephone-communication/</guid>
+      <description>Authors:Talayeh Aledavood , Eduardo López, Sam G. B. Roberts, Felix Reed-Tsochas, Esteban Moro, Robin I. M. Dunbar, Jari Saramäki
+Journal: PLoS ONE 10(9), e0138098 (2015) LINK
+Abstract: Circadian rhythms are known to be important drivers of human activity and the recent availability of electronic records of human behaviour has provided fine-grained data of temporal patterns of activity on a large scale. Further, questionnaire studies have identified important individual differences in circadian rhythms, with people broadly categorised into morning-like or evening-like individuals.</description>
+    </item>
+    
+    <item>
+      <title>From Seconds to Months: multi-scale dynamics of mobile telephone calls</title>
+      <link>http://estebanmoro.org/post/2015-05-07-from-seconds-to-months-multi-scale-dynamics-of-mobile-telephone-calls/</link>
+      <pubDate>Thu, 07 May 2015 12:39:43 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2015-05-07-from-seconds-to-months-multi-scale-dynamics-of-mobile-telephone-calls/</guid>
+      <description>Authors:Jari Saramaki, Esteban Moro
+Journal: Eur. Phys. J. B (2015) 88: 164 LINK | **arXiv
+Abstract: Big Data on electronic records of social interactions allow approaching human behaviour and sociality from a quantitative point of view with unforeseen statistical power. Mobile telephone Call Detail Records (CDRs), automatically collected by telecom operators for billing purposes, have proven especially fruitful for understanding one-to-one communication patterns as well as the dynamics of social networks that are reflected in such patterns.</description>
+    </item>
+    
+    <item>
+      <title>Social media fingerprints of unemployment</title>
+      <link>http://estebanmoro.org/post/2014-11-13-social-media-fingerprints-of-unemployment/</link>
+      <pubDate>Thu, 07 May 2015 12:39:43 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2014-11-13-social-media-fingerprints-of-unemployment/</guid>
+      <description>Authors:Alejandro Llorente, Manuel García-Herránz, Manuel Cebrián and Esteban Moro
+Journal: PLoS ONE 10(5): e0128692 (2014) LINK
+Summary: Publicly available social media data can be used to quantify deviations from typical patterns of behavior and uncover how these deviations signal the socio-economical status of regions. Using data from geolocalized Twitter messages, we find that unemployment is correlated with technology adoption, daily activity, diversity in mobility patterns and correctness in communication style. These behavioral metrics serve to build simple, interpretable, and cost-effective socio-economical predictors from these novel digital datasets.</description>
+    </item>
+    
+    <item>
+      <title>Comunidades de partidarios en redes sociales: estudio de las elecciones catalanas de 2010 y 2012</title>
+      <link>http://estebanmoro.org/post/2014-04-22-comunidades-de-partidarios-en-redes-sociales-estudio-de-las-elecciones-catalanas-de-2010-y-2012/</link>
+      <pubDate>Tue, 22 Apr 2014 12:48:19 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2014-04-22-comunidades-de-partidarios-en-redes-sociales-estudio-de-las-elecciones-catalanas-de-2010-y-2012/</guid>
+      <description>Authors: Esteban Moro
+Book: Cotarelo, R. &amp;amp; Olmeda, J.A. (Comps.) (forthcoming). La democracia del siglo XXI. Política, medios de comunicación, internet y redes sociales. Actas de las II Jornadas españolas de ciberpolítica, 28 de mayo de 2013. Madrid: Centro de Estudios Políticos y Constitucionales. [pdf]
+Abstract: En los últimos años hemos asistido a un incremento notable de eventos de carácter político y/o social que han sido promovidos (cuando no originados) a través de medios de comunicación electrónicos.</description>
+    </item>
+    
+    <item>
+      <title>Using Friends as Sensors to Detect Global-Scale Contagious Outbreaks</title>
+      <link>http://estebanmoro.org/post/2014-04-09-using-friends-as-sensors/</link>
+      <pubDate>Wed, 09 Apr 2014 13:37:55 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2014-04-09-using-friends-as-sensors/</guid>
+      <description>Authors: Manuel Garcia-Herranz, Esteban Moro, Manuel Cebrian, Nicholas A. Christakis and James H. Fowler
+Journal: PLoS ONE 9(4): e92413 (2014) LINK
+SummaryRecent research has focused on the monitoring of global–scale online data for improved detection of epidemics, mood patterns, movements in the stock market political revolutions, box-office revenues, consumer behaviour and many other important phenomena. However, privacy considerations and the sheer scale of data available online are quickly making global monitoring infeasible, and existing methods do not take full advantage of local network structure to identify key nodes for monitoring.</description>
+    </item>
+    
+    <item>
+      <title>Performance of Social Network Sensors During Hurricane Sandy</title>
+      <link>http://estebanmoro.org/post/2014-02-13-performance-of-social-network-sensors-during-hurricane-sandy/</link>
+      <pubDate>Thu, 13 Feb 2014 13:57:24 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2014-02-13-performance-of-social-network-sensors-during-hurricane-sandy/</guid>
+      <description>Authors: Yury Kryvasheyeu, Haohui Chen, Esteban Moro, Pascal Van Hentenryck, Manuel Cebrian Journal: PLoS ONE 10(2): e0117288 (2015) LINK
+Summary Information flow during catastrophic events is a critical aspect of disaster management. Modern communication platforms, in particular online social networks, provide an opportunity to study such flow, and a mean to derive early-warning sensors, improving emergency preparedness and response. Performance of the social networks sensor method, based on topological and behavioural properties derived from the &amp;ldquo;friendship paradox&amp;rdquo;, is studied here for over 50 million Twitter messages posted before, during, and after Hurricane Sandy.</description>
+    </item>
+    
+    <item>
+      <title>Time allocation in social networks: correlation between social structure and human communication dynamics</title>
+      <link>http://estebanmoro.org/post/2013-05-17-time-allocation-in-social-networks-correlation-between-social-structure-and-human-communication-dynamics/</link>
+      <pubDate>Fri, 17 May 2013 07:47:26 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2013-05-17-time-allocation-in-social-networks-correlation-between-social-structure-and-human-communication-dynamics/</guid>
+      <description>Authors: Giovanna Miritello, Rubén Lara, and Esteban Moro
+Book: &amp;ldquo;Temporal Networks&amp;rdquo;, Springer, 2013. Series: Understanding Complex Systems. Holme, Petter; Saramaki, Jari (Eds.) [PDF]((http://arxiv.org/pdf/1305.3865v1.pdf)
+Summary Recent research has shown the deep impact of the dynamics of human interactions (or temporal social networks) on the spreading of information, opinion formation, etc. In general, the bursty nature of human interactions lowers the interaction between people to the extent that both the speed and reach of information diffusion are diminished.</description>
+    </item>
+    
+    <item>
+      <title>Limits of social mobilization</title>
+      <link>http://estebanmoro.org/post/2013-04-01-limits-of-social-mobilization/</link>
+      <pubDate>Mon, 01 Apr 2013 20:37:19 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2013-04-01-limits-of-social-mobilization/</guid>
+      <description>Authors: Alex Rutherford, Manuel Cebrian, Sohan Dsouza, Esteban Moro, Alex Pentland, and Iyad Rahwan
+Journal: PNAS 110 (16), 6281-6286 (2013) LINK
+Abstract: The Internet and social media have enabled the mobilization of large crowds to achieve time-critical feats, ranging from mapping crises in real time, to organizing mass rallies, to conducting search-and-rescue operations over large geographies. Despite significant success, selection bias may lead to inflated expectations of the efficacy of social mobilization for these tasks.</description>
+    </item>
+    
+    <item>
+      <title>Time as a limited resource: Communication Strategy in Mobile Phone Networks</title>
+      <link>http://estebanmoro.org/post/2013-01-14-time-as-a-limited-resource-communication-strategy-in-mobile-phone-networks/</link>
+      <pubDate>Mon, 14 Jan 2013 08:52:59 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2013-01-14-time-as-a-limited-resource-communication-strategy-in-mobile-phone-networks/</guid>
+      <description>Authors: Giovanna Miritello, Esteban Moro, Rubén Lara, Rocío Martínez-López, Sam G. B. Roberts, Robin I. M. Dunbar
+Journal: Social Networks 35, 89 (2013) LINK | arXiv
+Abstract: We used a large database of 9 billion calls from 20 million mobile users to examine the relationships between aggregated time spent on the phone, personal network size, tiestrength and the way in which users distributed their limited time across their network (disparity). Compared to those with smaller networks, those with large networks did not devote proportionally more time to communication and had on average weaker ties (as measured by time spent communicating).</description>
+    </item>
+    
+    <item>
+      <title>Temporal network of information diffusion in Twitter</title>
+      <link>http://estebanmoro.org/post/2012-10-29-temporal-network-of-information-diffusion-in-twitter/</link>
+      <pubDate>Mon, 29 Oct 2012 21:58:29 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2012-10-29-temporal-network-of-information-diffusion-in-twitter/</guid>
+      <description>Millions of tweets, retweets and mentions are exchanged in Twitter everyday about very different subjects, events, opinions, etc. While aggregating this data over a time window might help to understand some properties of those processes in online social networks, the speed of information diffusion around particular time-bound events requires a temporal analysis of them. To show that (and with the help of the Text &amp;amp; Opinion Mining Group at IIC) we collected all tweets (750k) of the vibrant conversation around the disputed subject of the general strike of March 29th in Spain.</description>
+    </item>
+    
+    <item>
+      <title>Predicting Human Preferences Using the Block Structure of Complex Social Networks</title>
+      <link>http://estebanmoro.org/post/2012-09-12-predicting-human-preferences-using-the-block-structure-of-complex-social-networks/</link>
+      <pubDate>Wed, 12 Sep 2012 12:19:43 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2012-09-12-predicting-human-preferences-using-the-block-structure-of-complex-social-networks/</guid>
+      <description>Authors: Roger Guimerà, Alejandro Llorente, Esteban Moro y Marta Sales-Pardo
+Journal: PLoS ONE 7, e44620 (2012) LINK
+Abstract: With ever-increasing available data, predicting individuals&#39; preferences and helping them locate the most relevant information has become a pressing need. Understanding and predicting preferences is also important from a fundamental point of view, as part of what has been called a “new” computational social science. Here, we propose a novel approach based on stochastic block models, which have been developed by sociologists as plausible models of complex networks of social interactions.</description>
+    </item>
+    
+    <item>
+      <title>Branching dynamics of viral information spreading</title>
+      <link>http://estebanmoro.org/post/2011-11-03-branching-dynamics-of-viral-information-spreading/</link>
+      <pubDate>Thu, 03 Nov 2011 09:51:44 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2011-11-03-branching-dynamics-of-viral-information-spreading/</guid>
+      <description>Authors: José Luis Iribarren and Esteban Moro
+Journal: Physical Review E 84, 046116 (2011) LINK | arXiv
+Abstract: Despite its importance for rumors or innovations propagation, peer-to-peer collaboration, social networking, or marketing, the dynamics of information spreading is not well understood. Since the diffusion depends on the heterogeneous patterns of human behavior and is driven by the participants’ decisions, its propagation dynamics shows surprising properties not explained by traditional epidemic or contagion models.</description>
+    </item>
+    
+    <item>
+      <title>Social Features of Online Networks: The Strength of Intermediary Ties in Online Social Media</title>
+      <link>http://estebanmoro.org/post/2011-07-21-social-features-of-online-networks-the-strength-of-weak-ties-in-online-social-media/</link>
+      <pubDate>Thu, 21 Jul 2011 09:06:07 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2011-07-21-social-features-of-online-networks-the-strength-of-weak-ties-in-online-social-media/</guid>
+      <description>Authors: P. A. Grabowicz, J. J. Ramasco, E. Moro, J. P. Pujol and V. M. Eguiluz
+Journal: PLoS ONE 7(1): e29358 (2012). LINK
+Abstract: An increasing fraction of today’s social interactions occur using online social media as communication channels. Recent worldwide events, such as social movements in Spain or revolts in the Middle East, highlight their capacity to boost people’s coordination. Online networks display in general a rich internal structure where users can choose among different types and intensity of interactions.</description>
+    </item>
+    
+    <item>
+      <title>Twitter y Política: Información, Opinión y ¿Predicción?</title>
+      <link>http://estebanmoro.org/post/2011-06-17-twitter-y-politica-informacion-opinion-y-prediccion/</link>
+      <pubDate>Fri, 17 Jun 2011 10:56:12 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2011-06-17-twitter-y-politica-informacion-opinion-y-prediccion/</guid>
+      <description>Authors: M. Luz Congosto, Montse Fernández y Esteban Moro
+Journal: Cuadernos de Comunicación Evoca 4 (2011). LINK
+Abstract: Estamos a las puertas de una nueva manera de medir la opinión política: mediante la conversación en Red, que permite no sólo conocer el feedback de los ciudadanos a la política, sino también la imagen de los políticos que se refleja en la Red, la dinámica de opinión en comunidades o grupos y el efecto de los diferentes medios de comunicación en dicha conversación.</description>
+    </item>
+    
+    <item>
+      <title>Complex Dynamics of Human Interactions, September 14th 2011</title>
+      <link>http://estebanmoro.org/2011/03/complex-dynamics-of-human-interactions-september-14th-2011/</link>
+      <pubDate>Mon, 28 Mar 2011 14:51:50 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/2011/03/complex-dynamics-of-human-interactions-september-14th-2011/</guid>
+      <description>We (together with Kimmo Kaski, Aalto University) are organizing the ECCS&#39;11 Satellite conference &amp;ldquo;Complex Dynamics of Human Interactions&amp;rdquo; to be held at Vienna, September 14th.
+You can find more info at http://www.complexdynamics.org
+&amp;ldquo;It&amp;rsquo;s not enough to have a map of the structure. It is crucial to understand the dynamics of a process”, L. Barábasi
+Scope The nature of human interaction has undergone a substantial change in the past years and the change does not seem to be over.</description>
+    </item>
+    
+    <item>
+      <title>Affinity Paths and information diffusion in social networks</title>
+      <link>http://estebanmoro.org/post/2011-02-08-affinity-paths-and-information-diffusion-in-social-networks/</link>
+      <pubDate>Tue, 08 Feb 2011 09:42:47 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2011-02-08-affinity-paths-and-information-diffusion-in-social-networks/</guid>
+      <description>Authors: José Luis Iribarren and Esteban Moro
+Journal: Social Networks 33, 134-142 (2011). LINK | arXiv
+Abstract: Widespread interest in the diffusion of information through social networks has produced a large number of Social Dynamics models. A majority of them use theoretical hypothesis to explain their diffusion mechanisms while the few empirically based ones average out their measures over many messages of different contents. Our empirical research tracking the step-by-step email propagation of an invariable viral marketing message delves into the content impact and has discovered new and striking features.</description>
+    </item>
+    
+    <item>
+      <title>Dynamical strength of social ties in information spreading</title>
+      <link>http://estebanmoro.org/post/2010-11-25-the-dynamical-strength-of-social-ties-in-information-spreading/</link>
+      <pubDate>Thu, 25 Nov 2010 10:19:44 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2010-11-25-the-dynamical-strength-of-social-ties-in-information-spreading/</guid>
+      <description>Authors: Giovanna Miritello, Esteban Moro y Rubén Lara
+Journal: Physical Review E (Rapid Comm) 83, 045102 (2011). LINK | arXiv
+Abstract: We investigate the temporal patterns of human communication and its influence on the spreading of information in social networks. The analysis of mobile phone calls of 20 million people in one country shows that human communication is bursty and happens in group conversations. These features have opposite effects in information reach: while bursts hinder propagation at large scales, conversations favor local rapid cascades.</description>
+    </item>
+    
+    <item>
+      <title>Relationship mining</title>
+      <link>http://estebanmoro.org/2010/01/relationship-mining/</link>
+      <pubDate>Mon, 11 Jan 2010 09:16:09 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/2010/01/relationship-mining/</guid>
+      <description>Each day trillions of emails, phone calls, comments on blogs, twitter messages, exchanges in online social networks, etc. are done. Not only the number of communications has increased, but also each of these transactions leaves a digital trace that can be recorded to reconstruct our high-frequency human activity. It is not only the amount and variety of data that is recorded what is important. Also its high-frequency character and its comprehensive nature have allowed researchers, companies and agencies to investigate individual and group dynamics at an unprecedented level of detail and applied them to client modeling, organizational analysis or epidemic spreading [1].</description>
+    </item>
+    
+    <item>
+      <title>Impact of Human Activity Patterns on the Dynamics of Information Diffusion</title>
+      <link>http://estebanmoro.org/post/2009-08-04-impact-of-human-activity-patterns-on-the-dynamics-of-information-diffusion/</link>
+      <pubDate>Tue, 04 Aug 2009 07:59:19 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2009-08-04-impact-of-human-activity-patterns-on-the-dynamics-of-information-diffusion/</guid>
+      <description>Authors: J. L. Iribarren and E. Moro
+Journal: Physical Review Letters 103, 038702 (2009) LINK arXiv
+Abstract: We study the impact of human activity patterns on information diffusion. To this end we ran a viral email experiment involving 31183 individuals in which we were able to track a speciﬁc piece of information through the social network. We found that, contrary to traditional models, information travels at an unexpectedly slow pace. By using a branching model which accurately describes the experiment, we show that the large heterogeneity found in the response time is responsible for the slow dynamics of information at the collective level.</description>
+    </item>
+    
+    <item>
+      <title>Publish and... perish</title>
+      <link>http://estebanmoro.org/2009/01/publish-and-perish/</link>
+      <pubDate>Mon, 12 Jan 2009 08:08:00 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/2009/01/publish-and-perish/</guid>
+      <description>In the old days, research quality was measured by the number of papers you published. Publishing was a hard process and only few scientists were able to publish several papers per year. However, with the bloom of new journals, the appearance of electronic editorial process, and the specialization of research fields, the number of publications per year has grow exponentially during the last decades. Thus publishing is not longer a good measure of the quality of research.</description>
+    </item>
+    
+    <item>
+      <title>Information diffusion epidemics in social networks</title>
+      <link>http://estebanmoro.org/post/2007-06-06-information-diffusion-epidemics-in-social-networks/</link>
+      <pubDate>Wed, 06 Jun 2007 07:37:32 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2007-06-06-information-diffusion-epidemics-in-social-networks/</guid>
+      <description>Authors: José Luis Iribarren, Esteban Moro
+Journal: Preprint 0706.0641 arXiv
+Abstract: The dynamics of information dissemination in social networks is of paramount importance in processes such as rumors or fads propagation, spread of product innovations or &amp;ldquo;word-of-mouth&amp;rdquo; communications. Due to the difficulty in tracking a specific information when it is transmitted by people, most understanding of information spreading in social networks comes from models or indirect measurements. Here we present an integrated experimental and theoretical framework to understand and quantitatively predict how and when information spreads over social networks.</description>
+    </item>
+    
+  </channel>
+</rss>

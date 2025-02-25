@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>causality on </title>
+    <link>http://estebanmoro.org/tags/causality/</link>
+    <description>Recent content in causality on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Wed, 25 Jan 2006 08:22:56 +0000</lastBuildDate><atom:link href="http://estebanmoro.org/tags/causality/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cum hoc ergo propter hoc</title>
+      <link>http://estebanmoro.org/2006/01/cum-hoc-ergo-propter-hoc/</link>
+      <pubDate>Wed, 25 Jan 2006 08:22:56 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/2006/01/cum-hoc-ergo-propter-hoc/</guid>
+      <description>Or… Correlation implies causality. This is a logical fallacy. Keep this in mind when analyzing data. There are numerous cases of how people use this logical fallacy nowadays (most typically in newspapers). For example, the following graph
+shows a correlation between global warming and the number of remaining pirates. But this does not imply (of course), any causality between them.
+By the way, this graph appears in a Bobby Henderson’s clever parody of the type of arguments in Intelligent Design.</description>
+    </item>
+    
+  </channel>
+</rss>

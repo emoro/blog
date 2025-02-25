@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Artificial Intelligence on </title>
+    <link>http://estebanmoro.org/tags/artificial-intelligence/</link>
+    <description>Recent content in Artificial Intelligence on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Tue, 26 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="http://estebanmoro.org/tags/artificial-intelligence/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Towards understanding the impact of artificial intelligence on labor</title>
+      <link>http://estebanmoro.org/post/2019-03-26-towards-understanding-the-impact-of-artificial-intelligence-on-labor/</link>
+      <pubDate>Tue, 26 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2019-03-26-towards-understanding-the-impact-of-artificial-intelligence-on-labor/</guid>
+      <description>title: &amp;lsquo;How to Organize your Deep Reinforcement Learning Agents: The Importance of Communication Topology&amp;rsquo; author: Esteban Moro date: &amp;lsquo;2018-12-14&amp;rsquo; categories:
+ Publications tags: Deep Learning Networks image: /img/posts/NetES.jpg   Authors: Frank, Morgan R and Autor, David and Bessen, James E and Brynjolfsson, Erik and Cebrian, Manuel and Deming, David J and Feldman, Maryann and Groh, Matthew and Lobo, José and Moro, Esteban and Wang, Dashun and Youn, Hyejin and Rahwan, Iyad</description>
+    </item>
+    
+  </channel>
+</rss>

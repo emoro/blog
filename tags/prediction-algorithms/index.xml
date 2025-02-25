@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Prediction algorithms on </title>
+    <link>http://estebanmoro.org/tags/prediction-algorithms/</link>
+    <description>Recent content in Prediction algorithms on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Tue, 22 Oct 2019 00:00:00 +0000</lastBuildDate><atom:link href="http://estebanmoro.org/tags/prediction-algorithms/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Hide One&#39;s Relationships from Link Prediction Algorithms</title>
+      <link>http://estebanmoro.org/post/2019-10-22-how-to-hide-one-s-relationships-from-link-prediction-algorithms/</link>
+      <pubDate>Tue, 22 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2019-10-22-how-to-hide-one-s-relationships-from-link-prediction-algorithms/</guid>
+      <description>Authors: Marcin Waniek, Kai Zhou, Yevgeniy Vorobeychik, Esteban Moro, Tomasz P Michalak, Talal Rahwan
+Journal: Scientific Reports volume 9, Article number: 12208 (2019) Link
+Abstract: Our private connections can be exposed by link prediction algorithms. To date, this threat has only been addressed from the perspective of a central authority, completely neglecting the possibility that members of the social network can themselves mitigate such threats. We fill this gap by studying how an individual can rewire her own network neighborhood to hide her sensitive relationships.</description>
+    </item>
+    
+  </channel>
+</rss>

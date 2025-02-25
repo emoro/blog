@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en-US" />
+<head>
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+    <title>Wordle is getting (slightly) harder &middot; </title>
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="http://estebanmoro.org/favicon.ico" />
+    <link rel="canonical" href="http://estebanmoro.org/post/2022-02-14-wordle-is-getting-harder/" />
+
+     <meta name="description" content="Marty, I’ve been to the future and I have bad news. Wordle is getting harder. Not much, but harder.
+ With millions of people playing the game Wordle online and " /> 
+
+     
+    
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:image" content="http://estebanmoro.org/img/posts/header_wordle.png"/>
+    
+ 
+    <meta name="twitter:title" content="Wordle is getting (slightly) harder"/>
+    <meta name="twitter:description" content="Marty, I’ve been to the future and I have bad news. Wordle is getting harder. Not much, but harder.
+ With millions of people playing the game Wordle online and "/>
+    <meta name="twitter:url" content="http://estebanmoro.org/post/2022-02-14-wordle-is-getting-harder/" />
+    <meta name="twitter:site" content="@estebanmoro"/>
+
+    <meta property="og:site_name" content="" />
+    <meta property="og:title" content="Wordle is getting (slightly) harder &middot; Implicit None" />
+    <meta property="og:url" content="http://estebanmoro.org/post/2022-02-14-wordle-is-getting-harder/" />
+    
+
+    <meta property="og:type" content="article" />
+    <meta property="og:description" content="Marty, I’ve been to the future and I have bad news. Wordle is getting harder. Not much, but harder.
+ With millions of people playing the game Wordle online and " />
+
+    <meta property="article:published_time" content="2022-02-14T00:00:00Z" />
+    <meta property="article:tag" content="wordle" /><meta property="article:tag" content="Rforeverythingelse" />
+
+    <meta property="og:image" content="http://estebanmoro.org/img/posts/header_wordle.png"/>
+
+
+
+    <meta name="generator" content="Hugo 0.92.2" />
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" type="text/css" href="http://estebanmoro.org/built/screen.css" /> 
+    <link rel="stylesheet" type="text/css" href="http://estebanmoro.org/css/casper-two.css" /> 
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/tomorrow-night-bright.min.css" />
+     <link rel="stylesheet" href="http://estebanmoro.org/css/overrides.css" /> 
+
+     
+
+</head>
+
+
+<body class="post-template">
+  <div class="site-wrapper"> 
+
+<header class="site-header outer">
+  <div class="inner">
+    <nav class="site-nav">
+      <div class="site-nav-left">
+
+        <ul class="nav" role="menu">
+        
+        
+        
+            <li class="" role="menuitem">
+              <a href="http://estebanmoro.org/">Home</a>
+            </li>
+        
+            <li class="" role="menuitem">
+              <a href="http://estebanmoro.org/categories/publications">Publications</a>
+            </li>
+        
+            <li class="" role="menuitem">
+              <a href="http://estebanmoro.org/categories/projects">Projects</a>
+            </li>
+        
+            <li class="" role="menuitem">
+              <a href="http://estebanmoro.org/categories/science">Science</a>
+            </li>
+        
+            <li class="" role="menuitem">
+              <a href="http://estebanmoro.org/categories/media">Media</a>
+            </li>
+        
+            <li class="" role="menuitem">
+              <a href="http://estebanmoro.org/categories/photos">Photos</a>
+            </li>
+        
+            <li class="" role="menuitem">
+              <a href="http://estebanmoro.org/categories/talks">Talks</a>
+            </li>
+        
+            <li class="" role="menuitem">
+              <a href="http://estebanmoro.org/categories/positions">Positions</a>
+            </li>
+        
+            <li class="" role="menuitem">
+              <a href="http://estebanmoro.org/categories/r">R</a>
+            </li>
+        
+            <li class="" role="menuitem">
+              <a href="http://estebanmoro.org/about/">About/CV</a>
+            </li>
+        
+            <li class="" role="menuitem">
+              <a href="http://estebanmoro.org/reading/">Reading</a>
+            </li>
+        
+      </ul></div>
+
+      <div class="site-nav-right">
+        <div class="social-links">
+                    
+
+                    <a class="social-link social-link-tw" href="https://twitter.com/estebanmoro" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M30.063 7.313c-.813 1.125-1.75 2.125-2.875 2.938v.75c0 1.563-.188 3.125-.688 4.625a15.088 15.088 0 0 1-2.063 4.438c-.875 1.438-2 2.688-3.25 3.813a15.015 15.015 0 0 1-4.625 2.563c-1.813.688-3.75 1-5.75 1-3.25 0-6.188-.875-8.875-2.625.438.063.875.125 1.375.125 2.688 0 5.063-.875 7.188-2.5-1.25 0-2.375-.375-3.375-1.125s-1.688-1.688-2.063-2.875c.438.063.813.125 1.125.125.5 0 1-.063 1.5-.25-1.313-.25-2.438-.938-3.313-1.938a5.673 5.673 0 0 1-1.313-3.688v-.063c.813.438 1.688.688 2.625.688a5.228 5.228 0 0 1-1.875-2c-.5-.875-.688-1.813-.688-2.75 0-1.063.25-2.063.75-2.938 1.438 1.75 3.188 3.188 5.25 4.25s4.313 1.688 6.688 1.813a5.579 5.579 0 0 1 1.5-5.438c1.125-1.125 2.5-1.688 4.125-1.688s3.063.625 4.188 1.813a11.48 11.48 0 0 0 3.688-1.375c-.438 1.375-1.313 2.438-2.563 3.188 1.125-.125 2.188-.438 3.313-.875z"/></svg></a>
+
+                    <a class="social-link" href="https://github.com/emoro" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></a>
+
+                    <a class="social-link" href="https://www.linkedin.com/in/esteban-moro" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 50 512 512"><path d="M150.65,100.682c0,27.992-22.508,50.683-50.273,50.683c-27.765,0-50.273-22.691-50.273-50.683 C50.104,72.691,72.612,50,100.377,50C128.143,50,150.65,72.691,150.65,100.682z M143.294,187.333H58.277V462h85.017V187.333z M279.195,187.333h-81.541V462h81.541c0,0,0-101.877,0-144.181c0-38.624,17.779-61.615,51.807-61.615 c31.268,0,46.289,22.071,46.289,61.615c0,39.545,0,144.181,0,144.181h84.605c0,0,0-100.344,0-173.915 s-41.689-109.131-99.934-109.131s-82.768,45.369-82.768,45.369V187.333z" /></svg></a>
+
+                    
+        </div>  
+        
+        <a class="subscribe-button" href="http://estebanmoro.org/index.xml">Subscribe</a>
+            
+      </div>
+
+    </nav>  
+
+  </div>
+</header>
+
+<main id="site-main" class="site-main outer" role="main">
+  <div class="inner">
+    
+      <article class="post-full post"> 
+    <header class="post-full-header">
+        <section class="post-full-meta">
+            <time class="post-full-meta-date" datetime="2022-02-14">14 February 2022</time>
+                <span class="date-divider">/</span> <a href="http://estebanmoro.org/tags/wordle/">#wordle</a>&nbsp;<a href="http://estebanmoro.org/tags/rforeverythingelse/">#Rforeverythingelse</a>&nbsp;
+        </section>
+        <h1 class="post-full-title">Wordle is getting (slightly) harder</h1>
+    </header>
+    
+    <figure class="post-full-image" style="background-image: url(http://estebanmoro.org/img/posts/header_wordle.png)">
+    </figure>
+
+    <section class="post-full-content">
+        <div class="kg-card-markdown">
+        
+<script src="http://estebanmoro.org/post/2022-02-14-wordle-is-getting-harder/index_files/header-attrs/header-attrs.js"></script>
+
+
+<blockquote>
+<p>Marty, I’ve been to the future and I have bad news. Wordle is getting harder. Not much, but harder.</p>
+</blockquote>
+<p><img src="656tqq.jpg" /></p>
+<p>With millions of people playing the game Wordle online and the recent takeover by the New York times, some speculation about whether the game is getting harder is unavoidable. Since Wordle chooses a different word every day, some players have started to complain recent target words are harder to be guessed:
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">It must be a coincidence, but the NY Times puzzles are hard and suddenly Wordle has questionable words</p>&mdash; anna spargo-ryan 🍉 (@annaspargoryan) <a href="https://twitter.com/annaspargoryan/status/1492576548137816067?ref_src=twsrc%5Etfw">February 12, 2022</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+</p>
+<p>Some claim that NYT might have changed something about the game. Even <a href="https://www.theguardian.com/media/2022/feb/14/is-wordle-getting-harder-viral-game-tests-players-after-new-york-times-takeover">some newspapers</a> have covered that worry.</p>
+<p>But <strong>this is not true</strong>: nothing has changed in the game since the takeover, and the code and data used to get every day’s word has not changed. Moreover, it is statistically impossible to show that the game is getting more complicated since the NYT took over the game (only a couple of weeks).</p>
+<p>Still, I’ve traveled to the future, and the answer is <strong>yes</strong>, Wordle is getting harder, but not because somebody has changed the game. It was bound to get harder in the future since its creation. Let me explain you how I investigate it using statistics and <code>R</code>.</p>
+<div id="defining-harder" class="section level1">
+<h1>Defining <em>harder</em></h1>
+<p>As you know, Wordle chooses a target word every day. Although there are 12972 5-letter words in the Wordle dictionary, one of the key ingredients of the game is that the target word is not chosen randomly from that dictionary. The very creator of the game, Josh Wardle <a href="https://www.nytimes.com/2022/01/03/technology/wordle-word-game-creator.html">revealed</a> that he <em>narrowed down the list of Wordle words to about 2,500</em> which are most likely to be known by his partner (the first recipient of the game).</p>
+<p>As I showed in a <a href="http://estebanmoro.org/post/2022-01-10-wordle/">previous post</a>, those words are more frequent in English than randomly chosen words from the dictionary. For example, the list of 2,500 contains words like <em>grade</em>, <em>robot</em>, <em>pride</em>, but not some unusual (possible) words like <em>aahed</em> or <em>bemix</em>.</p>
+<p><img src="657yri.jpg" /></p>
+<p>Let’s see how frequent possible answers are. To do that we are going to use the fantastic <code>wordle</code> <a href="https://github.com/coolbutuseless/wordle/">package</a> created by <a href="https://twitter.com/coolbutuseless">Mikefc</a>.</p>
+<pre class="r"><code>#remotes::install_github(&#39;coolbutuseless/wordle&#39;)
+library(wordle)
+library(tidyverse)
+helper &lt;- WordleHelper$new(nchar = 5)
+dictionary &lt;- helper$words
+length(dictionary)</code></pre>
+<pre><code>## [1] 12972</code></pre>
+<p>As we can see, there are 12972 5-letter words in the Wordle dictionary. Many places on the web have a list of past Wordle answers. You can download the list of past answers <a href="./data/past_answers.csv">here</a>, until yesterday’s:</p>
+<pre class="r"><code>past_answers &lt;- read.csv(&quot;./data/past_answers.csv&quot;)
+head(past_answers)</code></pre>
+<pre><code>##         date  word
+## 1 2021-06-19 cigar
+## 2 2021-06-20 rebut
+## 3 2021-06-21 sissy
+## 4 2021-06-22 humph
+## 5 2021-06-23 awake
+## 6 2021-06-24 blush</code></pre>
+<p>To define the game’s difficulty, we will use the same logic underneath Wardle’s choice of answers: their frequency in English. As in <a href="http://estebanmoro.org/post/2022-01-10-wordle/">my previous post</a>, we will use two corpora of commonly-used words in English to rank them according to the frequency. They are the <a href="https://www.kaggle.com/rtatman/english-word-frequency">corpus of commonly-used words from the Google Web Trillion Word Corpus</a> and the <a href="http://ucrel.lancs.ac.uk/bncfreq/flists.html">BNC word frequency list</a>. Let’s put them together:</p>
+<pre class="r"><code>helper = WordleHelper$new(nchar = 5)
+freq = tibble(word = helper$words) %&gt;%
+  left_join(read.csv(&quot;./data/unigram_freq.csv&quot;), 
+            by = &quot;word&quot;) %&gt;%
+  left_join(
+    read.csv(&quot;./data/bnc_freq.csv&quot;) %&gt;%
+      group_by(word) %&gt;%
+      summarise(count = sum(count)),
+    by = &quot;word&quot;
+  ) %&gt;%
+  mutate(
+    count.x = ifelse(is.na(count.x), 0, count.x),
+    count.y = ifelse(is.na(count.y), 0, count.y),
+    count = count.x/sum(count.x) + count.y/sum(count.y),
+    # need a nonzero count for all words, 
+    # so just assume words that don&#39;t
+    # appear at all are half as frequent as the 
+    # least frequent appearing word
+    count = ifelse(count==0,min(count[count != 0])/2,count),
+    # rough log of the count shifted above 0
+    # (we&#39;ll want this later)
+    log_count = log(count) - log(min(count)/2),
+    rank = rank(-count,ties.method = &quot;random&quot;,)
+  ) </code></pre>
+<p>Here are the top most frequent 5-letter words (top ranked):</p>
+<pre class="r"><code>freq %&gt;% arrange(rank) %&gt;% head()</code></pre>
+<pre><code>## # A tibble: 6 × 6
+##   word     count.x count.y  count log_count  rank
+##   &lt;chr&gt;      &lt;dbl&gt;   &lt;dbl&gt;  &lt;dbl&gt;     &lt;dbl&gt; &lt;int&gt;
+## 1 which  810514085    3719 0.0554      13.9     1
+## 2 there  701170205    3278 0.0486      13.8     2
+## 3 their  782849411    2608 0.0423      13.6     3
+## 4 about 1226734006    1971 0.0420      13.6     4
+## 5 would  572644147    2551 0.0383      13.5     5
+## 6 other  978481319    1421 0.0317      13.4     6</code></pre>
+<p>and the bottom less frequent</p>
+<pre class="r"><code>freq %&gt;% arrange(rank) %&gt;% tail()</code></pre>
+<pre><code>## # A tibble: 6 × 6
+##   word  count.x count.y       count log_count  rank
+##   &lt;chr&gt;   &lt;dbl&gt;   &lt;dbl&gt;       &lt;dbl&gt;     &lt;dbl&gt; &lt;int&gt;
+## 1 flews       0       0 0.000000101     0.693 12967
+## 2 trods       0       0 0.000000101     0.693 12968
+## 3 fusks       0       0 0.000000101     0.693 12969
+## 4 fugus       0       0 0.000000101     0.693 12970
+## 5 staps       0       0 0.000000101     0.693 12971
+## 6 jurel       0       0 0.000000101     0.693 12972</code></pre>
+<p>The average <em>rank</em> of the answers in Wordle is much smaller than randomly chosen words in the dictionary, as expected:</p>
+<pre class="r"><code>freq %&gt;% 
+  mutate(`Wordle Answer`=ifelse(word %in% past_answers$word,T,F)) %&gt;%
+  group_by(`Wordle Answer`) %&gt;% summarize(mean_rank=mean(rank))</code></pre>
+<pre><code>## # A tibble: 2 × 2
+##   `Wordle Answer` mean_rank
+##   &lt;lgl&gt;               &lt;dbl&gt;
+## 1 FALSE               6571.
+## 2 TRUE                1999.</code></pre>
+<p>We can investigate if the rank has changed since Wordle started in Jun 2021:</p>
+<pre class="r"><code>require(ggrepel)</code></pre>
+<pre><code>## Loading required package: ggrepel</code></pre>
+<pre class="r"><code>merge(past_answers,freq) %&gt;% 
+  ggplot(aes(x=as.Date(date),y=rank)) + geom_point() + geom_smooth() +
+  geom_text_repel(aes(label=ifelse(rank&gt;6000 | rank &lt; 100,word,&quot;&quot;))) +
+  geom_vline(xintercept = as.Date(&quot;2022-02-01&quot;),linetype=2) + 
+  scale_y_log10() + labs(x=&quot;Date&quot;,title=&quot;Rank (higher is harder)&quot;,y=&quot;&quot;)+
+  scale_x_date(date_labels = &quot;%b/%Y&quot;)</code></pre>
+<pre><code>## `geom_smooth()` using method = &#39;loess&#39; and formula &#39;y ~ x&#39;</code></pre>
+<p><img src="http://estebanmoro.org/post/2022-02-14-wordle-is-getting-harder/index_files/figure-html/unnamed-chunk-9-1.png" width="672" />
+The vertical dashed line is when the NYT took over. We don’t see any statistically significant change (consider the error bars). If anything, we can see a little bit of change towards the end, but to more frequent words in English! So, if any, the game is getting simpler more recently. However, this small change is not statistically significant. A t-test between the average rank before and after the NYT takeover shows that (p-value = 0.27):</p>
+<pre class="r"><code>library(ggpubr)
+merge(past_answers,freq) %&gt;% 
+  mutate(`NYT owned`=ifelse(date &gt;= &quot;2022-02-01&quot;,T,F)) %&gt;%
+  ggboxplot(x=&quot;NYT owned&quot;,y=&quot;rank&quot;,
+            color=&quot;NYT owned&quot;,add=&quot;jitter&quot;,palette=&quot;jco&quot;) +
+  stat_compare_means(method=&quot;t.test&quot;) + 
+  labs(y=&quot;Rank (larger is harder)&quot;,x=&quot;&quot;)</code></pre>
+<p><img src="http://estebanmoro.org/post/2022-02-14-wordle-is-getting-harder/index_files/figure-html/unnamed-chunk-10-1.png" width="672" />
+Again, nothing has changed in the dynamic and code of the game, so what the players might be reporting is just a statistical fluke. Or a personal impression.</p>
+</div>
+<div id="wordle-2027" class="section level1">
+<h1>Wordle 2027</h1>
+<p>If nothing changes, the only way the game could become harder is that answers are selected from less frequent words. Can we investigate it? Fortunately, I recently bought a DeLorean on eBay<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a>, and I went <em>back to the future</em> to obtain the list of all Wordle answers until October 2027. Yes, I got the Almanac in 2027 with all the past answers to the game!</p>
+<p><img src="almanac.jpg" /></p>
+<p>Let’s load them (out of respect to the game’s developer and the community of players, I won’t distribute them, so the code below only works on my computer. I only show the first ones in 2021):</p>
+<pre class="r"><code>all_answers &lt;- read.csv(&quot;all_solutions.csv&quot;)
+head(all_answers)</code></pre>
+<pre><code>##         date  word
+## 1 2021-06-19 cigar
+## 2 2021-06-20 rebut
+## 3 2021-06-21 sissy
+## 4 2021-06-22 humph
+## 5 2021-06-23 awake
+## 6 2021-06-24 blush</code></pre>
+<p>and add the rank of the chosen word each day</p>
+<pre class="r"><code>all_answers &lt;- merge(all_answers,freq)</code></pre>
+<p>Let’s see the evolution of the rank (how hard is the game) of the answers in the future (I have added a small amount of noise so it cannot be reversed)</p>
+<pre class="r"><code>all_answers %&gt;% 
+  ggplot(aes(x=as.Date(date),
+             y=rank+600*rnorm(length(rank)))) +
+  geom_point() + geom_smooth() +
+  geom_vline(xintercept = as.Date(&quot;2022-02-01&quot;),linetype=2)+
+  labs(x=&quot;Date&quot;,title=&quot;Rank (higher is harder)&quot;,y=&quot;&quot;)</code></pre>
+<pre><code>## `geom_smooth()` using method = &#39;gam&#39; and formula &#39;y ~ s(x, bs = &quot;cs&quot;)&#39;</code></pre>
+<p><img src="http://estebanmoro.org/post/2022-02-14-wordle-is-getting-harder/index_files/figure-html/unnamed-chunk-14-1.png" width="672" /></p>
+<p>As we can see, the rank of the words is more or less homogeneous. Although we can see a slight upwards tendency in the rank. Let’s see how the average rank changes by month and year.</p>
+<pre class="r"><code>require(lubridate)
+all_answers %&gt;% group_by(month=month(date),year=year(date)) %&gt;% 
+  summarize(mean_rank=mean(rank)) %&gt;%
+  mutate(date = lubridate::my(paste(month,year,sep=&quot;-&quot;))) %&gt;%
+  ggplot(aes(x=as.Date(date),y=mean_rank)) + geom_line() +
+  labs(x=&quot;Date&quot;,title=&quot;Average rank by month&quot;,y=&quot;&quot;)</code></pre>
+<p><img src="http://estebanmoro.org/post/2022-02-14-wordle-is-getting-harder/index_files/figure-html/unnamed-chunk-15-1.png" width="672" />
+The tendency is clear: the rank of the words will increase in the future, and the game will become more challenging because less frequent words will be chosen in the future. Actually, the beginning of 2022 looks promising since the average rank of the words chosen will be the lowest in the time series. However, it will be slightly harder than before around summer 2022.</p>
+<p>But why is it getting slightly harder? The reason is how Wardle chose the answers. When composing the list, maybe he decided first the most common words in English and later those less common words. This could explain the small change towards the end of the time series.</p>
+<p>Finally, we can test the statistical significance between 2022 and 2027.</p>
+<pre class="r"><code>all_answers %&gt;% filter(year(date) %in% c(&quot;2022&quot;,&quot;2027&quot;)) %&gt;%
+  mutate(year=year(date)) %&gt;% 
+  ggboxplot(x=&quot;year&quot;,y=&quot;rank&quot;,
+            color=&quot;year&quot;,add=&quot;jitter&quot;,palette=&quot;jco&quot;) +
+  stat_compare_means(method=&quot;t.test&quot;) + 
+  labs(y=&quot;Rank (larger is harder)&quot;,x=&quot;&quot;)</code></pre>
+<p><img src="http://estebanmoro.org/post/2022-02-14-wordle-is-getting-harder/index_files/figure-html/unnamed-chunk-16-1.png" width="672" />
+The statistical difference is there (at 0.05 p-value). Statistically speaking, we can say that Wordle 2027 will be harder (on average) than 2022.</p>
+</div>
+<div id="defining-harder-again" class="section level1">
+<h1>Defining <em>harder</em> (again)</h1>
+<p>In the end, the real difficulty of the game can only be measured by how hard it is for the players to find the answer. Although we cannot get data about it, we can still simulate a simple strategy to win the game and see how well it will perform in the future. In a previous post <a href="http://estebanmoro.org/post/2022-01-10-wordle/">I presented a possible strategy</a> based on choosing words according to their rank and a smart choice of the first word with a 97% winning probability in the past.</p>
+<p>To evaluate that strategy, I wrote a function in <code>R</code> named <code>play_game</code> that uses the package <code>wordle</code> to play against an answer given a first guess.</p>
+<pre class="r"><code>play_game &lt;- function(word,first_guess,quiet=FALSE){
+  helper = WordleHelper$new(nchar = nchar(word)) #initialize the game
+  game = WordleGame$new(helper$words, target_word = word)
+  
+  #make the first guess
+  if (!is.null(first_guess)) {
+    helper$update(first_guess, 
+                  game$try(first_guess, quiet = quiet))
+  }
+  
+  #iterate until solved
+  while (!game$is_solved()) {
+    guess = score_words(helper$words)$word[[1]] #choose next guess
+    helper$update(guess, game$try(guess,quiet=quiet))
+  }
+  game$attempts
+}</code></pre>
+<p>The strategy is encoded into the <code>score_words</code> function, which chooses always the most frequent word out of the compatible words in each round:</p>
+<pre class="r"><code>score_words &lt;- function(words){
+  ff &lt;- freq %&gt;% filter(word %in% words)
+  ff %&gt;% arrange(rank)
+}</code></pre>
+<p>For example, this is how it plays against the word for Jan 10 using <code>orate</code> as first guess:</p>
+<pre class="r"><code>answer &lt;- play_game(word=&quot;query&quot;,first_guess=&quot;orate&quot;,quiet=T)
+answer</code></pre>
+<pre><code>## [1] &quot;orate&quot; &quot;under&quot; &quot;query&quot;</code></pre>
+<p>This time it solved it in 3 tries.</p>
+<p>Fast forward, let’s get the number of tries it will take to solve every game until 2027 using <code>orate</code> as first guess:</p>
+<pre class="r"><code>try_orate &lt;- 
+  map_dfr(all_answers$word,
+          \(w) {
+            n &lt;- length(play_game(w,&quot;orate&quot;,quiet=T))
+            data.frame(word=w,ntries=n)
+          }
+  ) %&gt;%
+  merge(all_answers)</code></pre>
+<p>And once again, let’s see the average number of attempts by month and year:</p>
+<pre class="r"><code>try_orate %&gt;% group_by(month=month(date),year=year(date)) %&gt;% 
+  summarize(mean_tries=mean(ntries)) %&gt;%
+  mutate(date = lubridate::my(paste(month,year,sep=&quot;-&quot;))) %&gt;%
+  ggplot(aes(x=as.Date(date),y=mean_tries)) + geom_line() +
+  labs(x=&quot;Date&quot;,title=&quot;Average number of tries by month&quot;,y=&quot;&quot;)</code></pre>
+<pre><code>## `summarise()` has grouped output by &#39;month&#39;. You can override using the
+## `.groups` argument.</code></pre>
+<p><img src="http://estebanmoro.org/post/2022-02-14-wordle-is-getting-harder/index_files/figure-html/unnamed-chunk-21-1.png" width="672" />
+Again we can see that the strategy will perform worse in later years. Finally, this is the probability to win (less of equal to 6 tries)</p>
+<pre class="r"><code>try_orate %&gt;% group_by(month=month(date),year=year(date)) %&gt;% 
+  summarize(prob_win=100*mean(ntries &lt; 7)) %&gt;%
+  mutate(date = lubridate::my(paste(month,year,sep=&quot;-&quot;))) %&gt;%
+  ggplot(aes(x=as.Date(date),y=prob_win)) + geom_line() +
+  labs(x=&quot;Date&quot;,title=&quot;Probability of winning (%)&quot;,y=&quot;&quot;)</code></pre>
+<pre><code>## `summarise()` has grouped output by &#39;month&#39;. You can override using the
+## `.groups` argument.</code></pre>
+<p><img src="http://estebanmoro.org/post/2022-02-14-wordle-is-getting-harder/index_files/figure-html/unnamed-chunk-22-1.png" width="672" />
+At the end of 2027, the probability of wining even goes below 85%.</p>
+</div>
+<div id="conclusion" class="section level1">
+<h1>Conclusion</h1>
+<p>So, yes, Wordle is getting slightly more challenging. But it has nothing to do with the recent New York Times takeover. If the game does not change in the future, we can expect the answers to be less frequent words in English (especially in 2027). Not too much, though, so it will still be playable and enjoyed by the community.</p>
+<p>We still have time to practice those less common words. And most likely, the game will change before that. Perhaps since we now know the future, it will never become possible.</p>
+<p><img src="paradox.jpeg" /></p>
+</div>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p>The actual list of possible answers up to October 2027 is hard encoded in the Javascript of the game. Out of respect to the game’s developer and the community of players I don’t recommend or encourage anybody to hack the code to do it and will not show or distribute them. The results displayed on this page are just for the statistical analysis of the game’s evolution. Please, don’t cheat, enjoy the game as it was intended.<a href="#fnref1" class="footnote-back">↩︎</a></p></li>
+</ol>
+</div>
+    
+        </div>
+    </section>
+
+    <footer class="post-full-footer">
+      <section class="author-card">
+        <img class="author-profile-image" src="http://estebanmoro.org/img/whoami6.jpg" alt="Author" />
+        <section class="author-card-content">
+            <h4 class="author-card-name"><a href="http://estebanmoro.org/">Esteban Moro</a></h4>
+                <p>Professor at Northeastern University. Working on Complex Systems, Social Networks and Urban Science.</p>
+        </section>
+      </section>
+    </footer>
+</article>
+    
+    
+    
+
+<div id="disqus_thread"></div>
+<script>
+
+
+
+
+var disqus_config = function () {
+this.page.url = "http:\/\/estebanmoro.org\/post\/2022-02-14-wordle-is-getting-harder\/";  
+this.page.identifier = "http:\/\/estebanmoro.org\/post\/2022-02-14-wordle-is-getting-harder\/"; 
+};
+
+(function() { 
+var d = document, s = d.createElement('script');
+s.src = 'https://implicitnone.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+  </div>
+</main>
+
+
+<aside class="read-next outer">
+  <div class="inner">
+    <div class="read-next-feed">      
+      
+<article class="read-next-card" 
+            style="background-image: url(http://estebanmoro.org/img/mob.mp4);" >
+    <header class="read-next-card-header">
+        <small class="read-next-card-header-sitetitle">&mdash; Implicit None &mdash;</small>
+        
+        <h3 class="read-next-card-header-title"><a href="http://estebanmoro.org/tags/wordle/">#wordle</a></h3>
+    </header>
+    <div class="read-next-divider"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 14.5s2 3 5 3 5.5-2.463 5.5-5.5S21 6.5 18 6.5c-5 0-7 11-12 11C2.962 17.5.5 15.037.5 12S3 6.5 6 6.5s4.5 3.5 4.5 3.5"/></svg>
+    </div>
+
+    <div class="read-next-card-content">
+      
+        <ul>
+          <li><a href="http://estebanmoro.org/2006/02/humans-are-superdiffusive/">Humans are superdiffusive</a></li>            
+        
+          <li><a href="http://estebanmoro.org/2006/10/superconductivy-live/">Superconductivy Live!</a></li>            
+        
+          <li><a href="http://estebanmoro.org/post/2015-12-28-fully-nonlinear-dynamics-of-stochastic-thin-film-dewetting/">Fully nonlinear dynamics of stochastic thin-film dewetting</a></li>            
+        
+          <li><a href="http://estebanmoro.org/2006/03/the-future-of-the-science-might-be-wiki/">The future of the science might be wiki</a></li>            
+        </ul>
+    </div>
+    <footer class="read-next-card-footer">
+      
+        <a href="http://estebanmoro.org/tags/wordle/">See all related posts →</a>
+    </footer>
+</article>
+
+
+      
+      <article class="post-card post"> 
+    
+    <a class="post-card-image-link" href="http://estebanmoro.org/post/2022-06-13-quantifying-the-importance-and-location-of-sars-cov-2-transmission-events-in-large-metropolitan-areas/">
+      <div class="post-card-image" style="background-image: url(http://estebanmoro.org/img/posts/temporalNY.png)"></div>
+    </a>
+    
+
+    <div class="post-card-content">
+      <a class="post-card-content-link" href="http://estebanmoro.org/post/2022-06-13-quantifying-the-importance-and-location-of-sars-cov-2-transmission-events-in-large-metropolitan-areas/">
+          <header class="post-card-header">
+              <span class="post-card-tags">
+              #covid19 
+              #Mobile phone data 
+              #epidemics  </span>
+              
+              <h2 class="post-card-title">Quantifying the importance and location of SARS-CoV-2 transmission events in large metropolitan areas</h2>
+          </header>
+          <section class="post-card-excerpt">
+              
+                <p>Authors: Alberto Aleta, David Martín-Corral, Michiel A.Bakker, Ana Pastore y Piontti, Marco Ajelli, Maria Litvinova , Matteo Chinazzi, Natalie E. Dean, M. Elizabeth Halloran,Ira M. Longini,Jr, Alex Pentland, Alessandro Vespignani, Yamir Moreno, and Esteban Moro. Publication: PNAS (2022). Link
+Abstract: Detailed characterization of severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) transmission across different settings can help design less disruptive interventions. We used real-time, privacy-enhanced mobility data in the New York City, NY and Seattle, WA metropolitan areas to build a detailed agent-based model of SARS-CoV-2infection to estimate the where, when, and magnitude of transmission events during thepandemic’s first wave. ...  </p>
+              
+          </section>
+      </a>
+
+      <footer class="post-card-meta">
+          <img class="author-profile-image" src="http://estebanmoro.org/img/whoami6.jpg" alt="Author" />
+          <span class="post-card-author"><a href="http://estebanmoro.org/">Esteban Moro</a></span>
+      </footer>
+    </div>
+</article>
+      
+      
+      <article class="post-card post"> 
+    
+    <a class="post-card-image-link" href="http://estebanmoro.org/post/2022-01-31-generating-synthetic-mobility-data-for-a-realistic-population-with-rnns-to-improve-utility-and-privacy/">
+      <div class="post-card-image" style="background-image: url(http://estebanmoro.org/img/posts/rnnmobility.png)"></div>
+    </a>
+    
+
+    <div class="post-card-content">
+      <a class="post-card-content-link" href="http://estebanmoro.org/post/2022-01-31-generating-synthetic-mobility-data-for-a-realistic-population-with-rnns-to-improve-utility-and-privacy/">
+          <header class="post-card-header">
+              <span class="post-card-tags">
+              #Mobile Phone Data 
+              #Privacy 
+              #Deep Learning  </span>
+              
+              <h2 class="post-card-title">Generating synthetic mobility data for a realistic population with RNNs to improve utility and privacy</h2>
+          </header>
+          <section class="post-card-excerpt">
+              
+                <p>Authors: Alex Berke, Ronan Doorley, Kent Larson, Esteban Moro
+Publication: arXiv preprint arXiv:2201.01139 (2022). Link
+Abstract: Location data collected from mobile devices represent mobility behaviors at individual and societal levels. These data have important applications ranging from transportation planning to epidemic modeling. However, issues must be overcome to best serve these use cases: The data often represent a limited sample of the population and use of the data jeopardizes privacy. ...  </p>
+              
+          </section>
+      </a>
+
+      <footer class="post-card-meta">
+          <img class="author-profile-image" src="http://estebanmoro.org/img/whoami6.jpg" alt="Author" />
+          <span class="post-card-author"><a href="http://estebanmoro.org/">Esteban Moro</a></span>
+      </footer>
+    </div>
+</article>
+      
+    </div>
+  </div>
+</aside>
+
+<div class="floating-header">
+  <div class="floating-header-logo">
+    <a href="http://estebanmoro.org/">
+      
+      <span></span>
+    </a>
+  </div>
+  <span class="floating-header-divider">&mdash;</span>
+  <div class="floating-header-title">Wordle is getting (slightly) harder</div>
+  <div class="floating-header-share">
+    <div class="floating-header-share-label">Share this <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+     <path d="M7.5 15.5V4a1.5 1.5 0 1 1 3 0v4.5h2a1 1 0 0 1 1 1h2a1 1 0 0 1 1 1H18a1.5 1.5 0 0 1 1.5 1.5v3.099c0 .929-.13 1.854-.385 2.748L17.5 23.5h-9c-1.5-2-5.417-8.673-5.417-8.673a1.2 1.2 0 0 1 1.76-1.605L7.5 15.5zm6-6v2m-3-3.5v3.5m6-1v2"/></svg>
+    </div>
+    
+    <a class="floating-header-share-tw" href="https://twitter.com/share?text=Wordle%20is%20getting%20%28slightly%29%20harder&amp;url=http%3a%2f%2festebanmoro.org%2fpost%2f2022-02-14-wordle-is-getting-harder%2f"
+          onclick="window.open(this.href, 'share-twitter', 'width=550,height=235');return false;">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M30.063 7.313c-.813 1.125-1.75 2.125-2.875 2.938v.75c0 1.563-.188 3.125-.688 4.625a15.088 15.088 0 0 1-2.063 4.438c-.875 1.438-2 2.688-3.25 3.813a15.015 15.015 0 0 1-4.625 2.563c-1.813.688-3.75 1-5.75 1-3.25 0-6.188-.875-8.875-2.625.438.063.875.125 1.375.125 2.688 0 5.063-.875 7.188-2.5-1.25 0-2.375-.375-3.375-1.125s-1.688-1.688-2.063-2.875c.438.063.813.125 1.125.125.5 0 1-.063 1.5-.25-1.313-.25-2.438-.938-3.313-1.938a5.673 5.673 0 0 1-1.313-3.688v-.063c.813.438 1.688.688 2.625.688a5.228 5.228 0 0 1-1.875-2c-.5-.875-.688-1.813-.688-2.75 0-1.063.25-2.063.75-2.938 1.438 1.75 3.188 3.188 5.25 4.25s4.313 1.688 6.688 1.813a5.579 5.579 0 0 1 1.5-5.438c1.125-1.125 2.5-1.688 4.125-1.688s3.063.625 4.188 1.813a11.48 11.48 0 0 0 3.688-1.375c-.438 1.375-1.313 2.438-2.563 3.188 1.125-.125 2.188-.438 3.313-.875z"/></svg>
+      </a>
+      <a class="floating-header-share-fb" href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2festebanmoro.org%2fpost%2f2022-02-14-wordle-is-getting-harder%2f"
+          onclick="window.open(this.href, 'share-facebook','width=580,height=296');return false;">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M19 6h5V0h-5c-3.86 0-7 3.14-7 7v3H8v6h4v16h6V16h5l1-6h-6V7c0-.542.458-1 1-1z"/></svg>
+      </a>
+  </div>
+
+  <progress class="progress" value="0">
+    <div class="progress-container">
+      <span class="progress-bar"></span>
+    </div>
+  </progress>
+</div>
+
+
+<footer class="site-footer outer">
+  <div class="site-footer-content inner">
+    <section class="copyright" style="line-height: 1.3em;">
+      <a href="http://estebanmoro.org/">Esteban Moro</a> © 2020 <br>
+      <span style="font-size: 0.8em; color: #555;">Hugo port of <a href="https://github.com/TryGhost/Casper">Casper 2.1.7</a> by <a href="https://www.telematika.org">EM</a></span>
+    </section>
+    <nav class="site-footer-nav">
+        <a href="http://estebanmoro.org/">Latest Posts</a>
+        
+        <a href="https://twitter.com/estebanmoro" target="_blank" rel="noopener">Twitter</a>
+        <a href="https://github.com/emoro" target="_blank" rel="noopener">Github</a>
+        <a href="https://www.linkedin.com/in/esteban-moro" target="_blank" rel="noopener">LinkedIn</a>
+        
+    </nav>  
+  </div>
+</footer>
+
+</div>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="http://estebanmoro.org/js/jquery.fitvids.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script id="altmetric-embed-js" type="text/javascript" src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+
+
+<script>hljs.initHighlightingOnLoad();</script> 
+
+
+
+
+
+
+  <!-- Google Analytics -->
+  <script>
+    var _gaq=[['_setAccount','UA-131034910-1'],['_trackPageview']];
+    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+    g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+    s.parentNode.insertBefore(g,s)}(document,'script'));
+  </script>
+
+
+
+
+
+
+    <script>
+
+
+
+
+
+$(document).ready(function () {
+    
+    var $postContent = $(".post-full-content");
+    $postContent.fitVids();
+    
+
+    var progressBar = document.querySelector('progress');
+    var header = document.querySelector('.floating-header');
+    var title = document.querySelector('.post-full-title');
+
+    var lastScrollY = window.scrollY;
+    var lastWindowHeight = window.innerHeight;
+    var lastDocumentHeight = $(document).height();
+    var ticking = false;
+
+    function onScroll() {
+        lastScrollY = window.scrollY;
+        requestTick();
+    }
+
+    function onResize() {
+        lastWindowHeight = window.innerHeight;
+        lastDocumentHeight = $(document).height();
+        requestTick();
+    }
+
+    function requestTick() {
+        if (!ticking) {
+            requestAnimationFrame(update);
+        }
+        ticking = true;
+    }
+
+    function update() {
+        var trigger = title.getBoundingClientRect().top + window.scrollY;
+        var triggerOffset = title.offsetHeight + 35;
+        var progressMax = lastDocumentHeight - lastWindowHeight;
+
+        
+        if (lastScrollY >= trigger + triggerOffset) {
+            header.classList.add('floating-active');
+        } else {
+            header.classList.remove('floating-active');
+        }
+
+        progressBar.setAttribute('max', progressMax);
+        progressBar.setAttribute('value', lastScrollY);
+
+        ticking = false;
+    }
+
+    window.addEventListener('scroll', onScroll, {passive: true});
+    window.addEventListener('resize', onResize, false);
+
+    update();
+});
+</script>
+</body></html>

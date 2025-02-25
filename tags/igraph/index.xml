@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>igraph on </title>
+    <link>http://estebanmoro.org/tags/igraph/</link>
+    <description>Recent content in igraph on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Mon, 21 Dec 2015 21:17:18 +0000</lastBuildDate><atom:link href="http://estebanmoro.org/tags/igraph/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Temporal networks with R and igraph (updated)</title>
+      <link>http://estebanmoro.org/post/2015-12-21-temporal-networks-with-r-and-igraph-updated/</link>
+      <pubDate>Mon, 21 Dec 2015 21:17:18 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2015-12-21-temporal-networks-with-r-and-igraph-updated/</guid>
+      <description>A while ago, I wrote a post about how to create animations of temporal networks using R and the amazing package igraph package. The post was written in 2012 and the code does not work with the most recent versions (1.0) of igraph. Here I revisited that post, improving its performance and also making it consistent with the new versions of the package and R.
+First of all, let me remind you the basic idea: we want to get an animated evolution of a network in which nodes/edges appear (and/or disappear) dynamically.</description>
+    </item>
+    
+    <item>
+      <title>Temporal networks with igraph and R (with 20 lines of code!)</title>
+      <link>http://estebanmoro.org/post/2012-11-10-temporal-networks-with-igraph-and-r-with-20-lines-of-code/</link>
+      <pubDate>Sat, 10 Nov 2012 23:55:46 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2012-11-10-temporal-networks-with-igraph-and-r-with-20-lines-of-code/</guid>
+      <description>**UPDATE**: the version of the R code in this post does not work with newer versions of the igraph package (\ 1.0). I have posted an updated version of this post here: [Temporal networks with R and igraph (updated)](/post/2015-12-21-temporal-networks-with-r-and-igraph-updated/). Please visit the new post to use the new code and follow the discussion there.  In my last post about how a twitter conversation unfolds in time on Twitter, the dynamical nature of information diffusion in twitter was illustrated with a video of the temporal network of interactions (RTs) between accounts.</description>
+    </item>
+    
+    <item>
+      <title>Temporal network of information diffusion in Twitter</title>
+      <link>http://estebanmoro.org/post/2012-10-29-temporal-network-of-information-diffusion-in-twitter/</link>
+      <pubDate>Mon, 29 Oct 2012 21:58:29 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2012-10-29-temporal-network-of-information-diffusion-in-twitter/</guid>
+      <description>Millions of tweets, retweets and mentions are exchanged in Twitter everyday about very different subjects, events, opinions, etc. While aggregating this data over a time window might help to understand some properties of those processes in online social networks, the speed of information diffusion around particular time-bound events requires a temporal analysis of them. To show that (and with the help of the Text &amp;amp; Opinion Mining Group at IIC) we collected all tweets (750k) of the vibrant conversation around the disputed subject of the general strike of March 29th in Spain.</description>
+    </item>
+    
+  </channel>
+</rss>

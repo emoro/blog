@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>einstein on </title>
+    <link>http://estebanmoro.org/tags/einstein/</link>
+    <description>Recent content in einstein on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Thu, 18 Dec 2008 09:27:47 +0000</lastBuildDate><atom:link href="http://estebanmoro.org/tags/einstein/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Brown&#39;s observations on Brownian motion </title>
+      <link>http://estebanmoro.org/2008/12/browns-observations-on-brownian-motion/</link>
+      <pubDate>Thu, 18 Dec 2008 09:27:47 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/2008/12/browns-observations-on-brownian-motion/</guid>
+      <description>In 1828, Robert Brown published the manuscript entitled &amp;ldquo;A brief account of microscopical observations made in the months of June, July and August 1827, on the particles contained in the pollen of plants; and on the general existence of active molecules in organic and inorganic bodies&amp;rdquo; in the Edinburgh new Philosophical Journal [download it in pdf format here]. He suspended some of the pollen grains of the species Clarkia pulchella in water and examined them closely, only to see them &amp;ldquo;filled with particles&amp;rdquo; of around 5 µm diameter that were &amp;ldquo;very evidently in motion&amp;rdquo;.</description>
+    </item>
+    
+  </channel>
+</rss>

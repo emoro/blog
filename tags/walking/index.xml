@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>walking on </title>
+    <link>http://estebanmoro.org/tags/walking/</link>
+    <description>Recent content in walking on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Wed, 16 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://estebanmoro.org/tags/walking/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Effect of COVID-19 response policies on walking behavior in US cities</title>
+      <link>http://estebanmoro.org/post/2021-06-16-effect-of-covid-19-response-policies-on-walking-behavior-in-us-cities/</link>
+      <pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2021-06-16-effect-of-covid-19-response-policies-on-walking-behavior-in-us-cities/</guid>
+      <description>Authors: Ruth F. Hunter, Leandro Garcia, Thiago Herick de Sa, Belen Zapata-Diomedi, Christopher Millett, James Woodcock, Alex ’Sandy’ Pentland, and Esteban Moro Publication: Nature Communications (2021). Link
+Abstract: The COVID-19 pandemic is causing mass disruption to our daily lives. We integrate mobility data from mobile devices and area-level data to study the walking patterns of 1.62 million anonymous users in 10 metropolitan areas in the United States. The data covers the period from mid-February 2020 (pre-lockdown) to late June 2020 (easing of lockdown restrictions).</description>
+    </item>
+    
+  </channel>
+</rss>

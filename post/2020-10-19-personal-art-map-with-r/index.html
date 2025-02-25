@@ -1,0 +1,993 @@
+<!DOCTYPE html>
+<html lang="en-US" />
+<head>
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+    <title>Personal Art Map with R &middot; </title>
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="http://estebanmoro.org/favicon.ico" />
+    <link rel="canonical" href="http://estebanmoro.org/post/2020-10-19-personal-art-map-with-r/" />
+
+     <meta name="description" content="Map art makes beautiful posters. You can find them all over the internet and buy them even framed for your favorite city, area or country. Those posters&#39; beauty" /> 
+
+     
+    
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:image" content="http://estebanmoro.org/img/posts/my_personal_map_art.png"/>
+    
+ 
+    <meta name="twitter:title" content="Personal Art Map with R"/>
+    <meta name="twitter:description" content="Map art makes beautiful posters. You can find them all over the internet and buy them even framed for your favorite city, area or country. Those posters&#39; beauty"/>
+    <meta name="twitter:url" content="http://estebanmoro.org/post/2020-10-19-personal-art-map-with-r/" />
+    <meta name="twitter:site" content="@estebanmoro"/>
+
+    <meta property="og:site_name" content="" />
+    <meta property="og:title" content="Personal Art Map with R &middot; Implicit None" />
+    <meta property="og:url" content="http://estebanmoro.org/post/2020-10-19-personal-art-map-with-r/" />
+    
+
+    <meta property="og:type" content="article" />
+    <meta property="og:description" content="Map art makes beautiful posters. You can find them all over the internet and buy them even framed for your favorite city, area or country. Those posters&#39; beauty" />
+
+    <meta property="article:published_time" content="2020-10-19T00:00:00Z" />
+    <meta property="article:tag" content="maps" /><meta property="article:tag" content="Mobility" /><meta property="article:tag" content="Urban Science" />
+
+    <meta property="og:image" content="http://estebanmoro.org/img/posts/my_personal_map_art.png"/>
+
+
+
+    <meta name="generator" content="Hugo 0.92.2" />
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" type="text/css" href="http://estebanmoro.org/built/screen.css" /> 
+    <link rel="stylesheet" type="text/css" href="http://estebanmoro.org/css/casper-two.css" /> 
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/tomorrow-night-bright.min.css" />
+     <link rel="stylesheet" href="http://estebanmoro.org/css/overrides.css" /> 
+
+     
+
+</head>
+
+
+<body class="post-template">
+  <div class="site-wrapper"> 
+
+<header class="site-header outer">
+  <div class="inner">
+    <nav class="site-nav">
+      <div class="site-nav-left">
+
+        <ul class="nav" role="menu">
+        
+        
+        
+            <li class="" role="menuitem">
+              <a href="http://estebanmoro.org/">Home</a>
+            </li>
+        
+            <li class="" role="menuitem">
+              <a href="http://estebanmoro.org/categories/publications">Publications</a>
+            </li>
+        
+            <li class="" role="menuitem">
+              <a href="http://estebanmoro.org/categories/projects">Projects</a>
+            </li>
+        
+            <li class="" role="menuitem">
+              <a href="http://estebanmoro.org/categories/science">Science</a>
+            </li>
+        
+            <li class="" role="menuitem">
+              <a href="http://estebanmoro.org/categories/media">Media</a>
+            </li>
+        
+            <li class="" role="menuitem">
+              <a href="http://estebanmoro.org/categories/photos">Photos</a>
+            </li>
+        
+            <li class="" role="menuitem">
+              <a href="http://estebanmoro.org/categories/talks">Talks</a>
+            </li>
+        
+            <li class="" role="menuitem">
+              <a href="http://estebanmoro.org/categories/positions">Positions</a>
+            </li>
+        
+            <li class="" role="menuitem">
+              <a href="http://estebanmoro.org/categories/r">R</a>
+            </li>
+        
+            <li class="" role="menuitem">
+              <a href="http://estebanmoro.org/about/">About/CV</a>
+            </li>
+        
+            <li class="" role="menuitem">
+              <a href="http://estebanmoro.org/reading/">Reading</a>
+            </li>
+        
+      </ul></div>
+
+      <div class="site-nav-right">
+        <div class="social-links">
+                    
+
+                    <a class="social-link social-link-tw" href="https://twitter.com/estebanmoro" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M30.063 7.313c-.813 1.125-1.75 2.125-2.875 2.938v.75c0 1.563-.188 3.125-.688 4.625a15.088 15.088 0 0 1-2.063 4.438c-.875 1.438-2 2.688-3.25 3.813a15.015 15.015 0 0 1-4.625 2.563c-1.813.688-3.75 1-5.75 1-3.25 0-6.188-.875-8.875-2.625.438.063.875.125 1.375.125 2.688 0 5.063-.875 7.188-2.5-1.25 0-2.375-.375-3.375-1.125s-1.688-1.688-2.063-2.875c.438.063.813.125 1.125.125.5 0 1-.063 1.5-.25-1.313-.25-2.438-.938-3.313-1.938a5.673 5.673 0 0 1-1.313-3.688v-.063c.813.438 1.688.688 2.625.688a5.228 5.228 0 0 1-1.875-2c-.5-.875-.688-1.813-.688-2.75 0-1.063.25-2.063.75-2.938 1.438 1.75 3.188 3.188 5.25 4.25s4.313 1.688 6.688 1.813a5.579 5.579 0 0 1 1.5-5.438c1.125-1.125 2.5-1.688 4.125-1.688s3.063.625 4.188 1.813a11.48 11.48 0 0 0 3.688-1.375c-.438 1.375-1.313 2.438-2.563 3.188 1.125-.125 2.188-.438 3.313-.875z"/></svg></a>
+
+                    <a class="social-link" href="https://github.com/emoro" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></a>
+
+                    <a class="social-link" href="https://www.linkedin.com/in/esteban-moro" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 50 512 512"><path d="M150.65,100.682c0,27.992-22.508,50.683-50.273,50.683c-27.765,0-50.273-22.691-50.273-50.683 C50.104,72.691,72.612,50,100.377,50C128.143,50,150.65,72.691,150.65,100.682z M143.294,187.333H58.277V462h85.017V187.333z M279.195,187.333h-81.541V462h81.541c0,0,0-101.877,0-144.181c0-38.624,17.779-61.615,51.807-61.615 c31.268,0,46.289,22.071,46.289,61.615c0,39.545,0,144.181,0,144.181h84.605c0,0,0-100.344,0-173.915 s-41.689-109.131-99.934-109.131s-82.768,45.369-82.768,45.369V187.333z" /></svg></a>
+
+                    
+        </div>  
+        
+        <a class="subscribe-button" href="http://estebanmoro.org/index.xml">Subscribe</a>
+            
+      </div>
+
+    </nav>  
+
+  </div>
+</header>
+
+<main id="site-main" class="site-main outer" role="main">
+  <div class="inner">
+    
+      <article class="post-full post"> 
+    <header class="post-full-header">
+        <section class="post-full-meta">
+            <time class="post-full-meta-date" datetime="2020-10-19">19 October 2020</time>
+                <span class="date-divider">/</span> <a href="http://estebanmoro.org/tags/maps/">#maps</a>&nbsp;<a href="http://estebanmoro.org/tags/mobility/">#Mobility</a>&nbsp;
+        </section>
+        <h1 class="post-full-title">Personal Art Map with R</h1>
+    </header>
+    
+    <figure class="post-full-image" style="background-image: url(http://estebanmoro.org/img/posts/my_personal_map_art.png)">
+    </figure>
+
+    <section class="post-full-content">
+        <div class="kg-card-markdown">
+        <script src="http://estebanmoro.org/rmarkdown-libs/kePrint/kePrint.js"></script>
+<link href="http://estebanmoro.org/rmarkdown-libs/lightable/lightable.css" rel="stylesheet" />
+<p>Map art makes beautiful posters. You can find <a href="https://www.google.com/search?q=map+art&amp;client=safari&amp;rls=en&amp;sxsrf=ALeKk01Ce8a8IaqjUQbnAyamSAgqbV6hPg:1603129236599&amp;source=lnms&amp;tbm=isch&amp;sa=X&amp;ved=2ahUKEwiakrTlmcHsAhUGWN8KHbBiBV0Q_AUoAnoECA0QBA&amp;biw=1324&amp;bih=969">them all over the internet</a> and buy them even framed for your favorite city, area or country. Those posters' beauty relies on the intricate and beautiful pattern of roads, buildings, parks, rivers, etc., which shape our cities and our mobility. In my <a href="https://inequality.media.mit.edu">research</a> I constantly use those maps as the hardware fabric in which humans interact, move or encounter in urban settings. However, we found that each of us has a distinct mobility pattern around cities, so even people living in the same neighborhood experience the city in a different way.</p>
+<p>For my map art, I wanted to create something more personal: a combination of those beautiful street maps with personal mobility. That is, the city and how we navigate it. In this tutorial, you&rsquo;ll learn how to create those street maps for your city and your mobility. We will use data from <a href="https://www.openstreetmap.org/">Open Street Maps</a> (OSM) and, of course, <code>R</code>. We will also use personal mobility data, which you can input manually. Still, we will learn too how to get it from Google Maps Timeline (if you have your location activated). Part of the material here is based on the <a href="https://ggplot2tutor.com/author">tutorial by Christian Burkhart</a>.</p>
+<h2 id="creating-the-streetmap">Creating the streetmap</h2>
+<p>The first thing will be to get a beautiful map of a given city&rsquo;s streets and boundaries. In this case, Boston, the place where I live. To download the streets, we use the <code>osmdata</code> package to query OSM. First, we define our bounding box, i.e. the area where we are going to query OSM:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r"><span style="color:#a6e22e">library</span>(osmdata)
+bbx <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">getbb</span>(<span style="color:#e6db74">&#34;Boston, MA&#34;</span>)
+</code></pre></div><p>But sometimes you want a more specific area, and you can create your own bounding box:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r">min_lon <span style="color:#f92672">&lt;-</span> <span style="color:#ae81ff">-71.28735</span>; max_lon <span style="color:#f92672">&lt;-</span> <span style="color:#ae81ff">-70.900578</span>
+min_lat <span style="color:#f92672">&lt;-</span> <span style="color:#ae81ff">42.245838</span>; max_lat <span style="color:#f92672">&lt;-</span> <span style="color:#ae81ff">42.453673</span>
+bbx <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">rbind</span>(x<span style="color:#f92672">=</span><span style="color:#a6e22e">c</span>(min_lon,max_lon),y<span style="color:#f92672">=</span><span style="color:#a6e22e">c</span>(min_lat,max_lat))
+<span style="color:#a6e22e">colnames</span>(bbx) <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">c</span>(<span style="color:#e6db74">&#34;min&#34;</span>,<span style="color:#e6db74">&#34;max&#34;</span>)
+</code></pre></div><p>OSM data has many layers (or &ldquo;features&rdquo;). You can find them <a href="https://wiki.openstreetmap.org/wiki/Map_Features">here</a>. They go from railways, vegetation to streets or points of interest. Let&rsquo;s see how many of them are related to <code>highway</code>.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r"><span style="color:#a6e22e">available_tags</span>(<span style="color:#e6db74">&#34;highway&#34;</span>)
+</code></pre></div><pre tabindex="0"><code>## # A tibble: 53 × 2
+##    Key     Value                 
+##    &lt;chr&gt;   &lt;chr&gt;                 
+##  1 highway bridleway             
+##  2 highway bus_guideway          
+##  3 highway bus_stop              
+##  4 highway busway                
+##  5 highway construction          
+##  6 highway corridor              
+##  7 highway crossing              
+##  8 highway cycleway              
+##  9 highway elevator              
+## 10 highway emergency_access_point
+## # ℹ 43 more rows
+</code></pre><p>They are a lot of them, but the main ones are <code>motorway</code>, <code>trunk</code>, <code>primary</code>, <code>secondary</code>, <code>tertiary</code> that distinguish between highways and other roads conecting cities or small towns. Let&rsquo;s collect them:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r">highways <span style="color:#f92672">&lt;-</span> bbx <span style="color:#f92672">%&gt;%</span>
+  <span style="color:#a6e22e">opq</span>()<span style="color:#f92672">%&gt;%</span>
+  <span style="color:#a6e22e">add_osm_feature</span>(key <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;highway&#34;</span>, 
+                  value<span style="color:#f92672">=</span><span style="color:#a6e22e">c</span>(<span style="color:#e6db74">&#34;motorway&#34;</span>, <span style="color:#e6db74">&#34;trunk&#34;</span>,
+                          <span style="color:#e6db74">&#34;primary&#34;</span>,<span style="color:#e6db74">&#34;secondary&#34;</span>, 
+                          <span style="color:#e6db74">&#34;tertiary&#34;</span>,<span style="color:#e6db74">&#34;motorway_link&#34;</span>,
+                          <span style="color:#e6db74">&#34;trunk_link&#34;</span>,<span style="color:#e6db74">&#34;primary_link&#34;</span>,
+                          <span style="color:#e6db74">&#34;secondary_link&#34;</span>,
+                          <span style="color:#e6db74">&#34;tertiary_link&#34;</span>)) <span style="color:#f92672">%&gt;%</span>
+  <span style="color:#a6e22e">osmdata_sf</span>()
+</code></pre></div><p>We have 182 lines. Let&rsquo;s have a look at them. We color them according to the label <code>highway</code>.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r"><span style="color:#a6e22e">require</span>(sf)
+<span style="color:#a6e22e">ggplot</span>() <span style="color:#f92672">+</span>
+  <span style="color:#a6e22e">geom_sf</span>(data <span style="color:#f92672">=</span> highways<span style="color:#f92672">$</span>osm_lines,
+          <span style="color:#a6e22e">aes</span>(color<span style="color:#f92672">=</span>highway),
+          size <span style="color:#f92672">=</span> <span style="color:#ae81ff">.4</span>,
+          alpha <span style="color:#f92672">=</span> <span style="color:#ae81ff">.65</span>)<span style="color:#f92672">+</span>
+  <span style="color:#a6e22e">theme_void</span>()
+</code></pre></div><img src="http://estebanmoro.org/post/2020-10-19-personal-art-map-with-r_files/figure-html/unnamed-chunk-7-1.png" width="1152" />
+<p>But we are also going to use the small streets, pedestrian paths or living streets that connect our neighborhoods (be advised, this is a large query so you might probably want to save it for later)</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r">streets <span style="color:#f92672">&lt;-</span> bbx <span style="color:#f92672">%&gt;%</span>
+  <span style="color:#a6e22e">opq</span>()<span style="color:#f92672">%&gt;%</span>
+  <span style="color:#a6e22e">add_osm_feature</span>(key <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;highway&#34;</span>, 
+                  value <span style="color:#f92672">=</span> <span style="color:#a6e22e">c</span>(<span style="color:#e6db74">&#34;residential&#34;</span>, <span style="color:#e6db74">&#34;living_street&#34;</span>,
+                            <span style="color:#e6db74">&#34;service&#34;</span>,<span style="color:#e6db74">&#34;unclassified&#34;</span>,
+                            <span style="color:#e6db74">&#34;pedestrian&#34;</span>, <span style="color:#e6db74">&#34;footway&#34;</span>,
+                            <span style="color:#e6db74">&#34;track&#34;</span>,<span style="color:#e6db74">&#34;path&#34;</span>)) <span style="color:#f92672">%&gt;%</span>
+  <span style="color:#a6e22e">osmdata_sf</span>()
+</code></pre></div><p>This time, we have 286 lines. Let&rsquo;s have a look at them.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r"><span style="color:#a6e22e">ggplot</span>() <span style="color:#f92672">+</span>
+  <span style="color:#a6e22e">geom_sf</span>(data <span style="color:#f92672">=</span> streets<span style="color:#f92672">$</span>osm_lines,
+          <span style="color:#a6e22e">aes</span>(color<span style="color:#f92672">=</span>highway),
+          size <span style="color:#f92672">=</span> <span style="color:#ae81ff">.4</span>,
+          alpha <span style="color:#f92672">=</span> <span style="color:#ae81ff">.65</span>)<span style="color:#f92672">+</span>
+  <span style="color:#a6e22e">theme_void</span>()
+</code></pre></div><img src="http://estebanmoro.org/post/2020-10-19-personal-art-map-with-r_files/figure-html/unnamed-chunk-10-1.png" width="1152" />
+<p>Those maps are already beautiful, right? You probably can see a darker area downtown Boston and Cambridge because of the larger street density there.</p>
+<p>Let&rsquo;s combine them and have different width for the highways and streets to highlight highways' importance. At the same time, let&rsquo;s crop the streets to show only those within the bounding box.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r">color_roads <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">rgb</span>(<span style="color:#ae81ff">0.42</span>,<span style="color:#ae81ff">0.449</span>,<span style="color:#ae81ff">0.488</span>)
+<span style="color:#a6e22e">ggplot</span>() <span style="color:#f92672">+</span>
+  <span style="color:#a6e22e">geom_sf</span>(data <span style="color:#f92672">=</span> streets<span style="color:#f92672">$</span>osm_lines,
+          col <span style="color:#f92672">=</span> color_roads,
+          size <span style="color:#f92672">=</span> <span style="color:#ae81ff">.4</span>,
+          alpha <span style="color:#f92672">=</span> <span style="color:#ae81ff">.65</span>) <span style="color:#f92672">+</span>
+  <span style="color:#a6e22e">geom_sf</span>(data <span style="color:#f92672">=</span> highways<span style="color:#f92672">$</span>osm_lines,
+          col <span style="color:#f92672">=</span> color_roads,
+          size <span style="color:#f92672">=</span> <span style="color:#ae81ff">.6</span>,
+          alpha <span style="color:#f92672">=</span> <span style="color:#ae81ff">.8</span>)<span style="color:#f92672">+</span>
+  <span style="color:#a6e22e">coord_sf</span>(xlim <span style="color:#f92672">=</span> <span style="color:#a6e22e">c</span>(min_lon,max_lon),
+           ylim <span style="color:#f92672">=</span> <span style="color:#a6e22e">c</span>(min_lat,max_lat),
+         expand <span style="color:#f92672">=</span> <span style="color:#66d9ef">FALSE</span>)<span style="color:#f92672">+</span>
+  <span style="color:#a6e22e">theme</span>(legend.position <span style="color:#f92672">=</span> F) <span style="color:#f92672">+</span> <span style="color:#a6e22e">theme_void</span>()
+</code></pre></div><img src="http://estebanmoro.org/post/2020-10-19-personal-art-map-with-r_files/figure-html/unnamed-chunk-11-1.png" width="1152" />
+<h2 id="adding-the-geography">Adding the geography</h2>
+<p>Although those maps are very informative, they lack a crucial component of the geography: the land, rivers, coastlines that define our cities. In the maps of Boston above, you are probably missing the Charles River&rsquo;s shape or those of the beautiful <a href="https://www.bostonharborislands.org">Boston Harbor Islands</a>. In most maps around the internet, you will find those geographies are included using <a href="https://wiki.openstreetmap.org/wiki/Tiles">tiles</a>, which are basically a raster layer of images with different characteristics (names of the places, POI, etc). However, since we are going to print these maps in a large format, we need a better resolution that typically those image tiles provide. Ideally, we would like vector graphics like the lines we downloaded from OSM.</p>
+<p>Instead of using raster images, we are going to use the polygons for the different counties around the Boston Area. The US Census has an amazing service called <a href="https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html">Tiger</a> to retrieve those boundaries in ESRI&rsquo;s shapefile format. In <code>R</code>, we can access those shapefiles using the <code>tigris</code> package. For example, these are the counties in the state of Massachusetts for the same bounding box as before:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r"><span style="color:#a6e22e">require</span>(tigris)
+counties_MA <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">counties</span>(state<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;MA&#34;</span>,cb<span style="color:#f92672">=</span>T,class<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;sf&#34;</span>,)
+</code></pre></div><pre tabindex="0"><code>## 
+  |                                                        
+  |                                                  |   0%
+  |                                                        
+  |                                                  |   1%
+  |                                                        
+  |=                                                 |   1%
+  |                                                        
+  |=                                                 |   2%
+  |                                                        
+  |=                                                 |   3%
+  |                                                        
+  |==                                                |   3%
+  |                                                        
+  |==                                                |   4%
+  |                                                        
+  |==                                                |   5%
+  |                                                        
+  |===                                               |   6%
+  |                                                        
+  |===                                               |   7%
+  |                                                        
+  |====                                              |   7%
+  |                                                        
+  |====                                              |   8%
+  |                                                        
+  |=====                                             |   9%
+  |                                                        
+  |=====                                             |  10%
+  |                                                        
+  |======                                            |  11%
+  |                                                        
+  |======                                            |  12%
+  |                                                        
+  |==========                                        |  20%
+  |                                                        
+  |==========                                        |  21%
+  |                                                        
+  |===========                                       |  21%
+  |                                                        
+  |===========                                       |  22%
+  |                                                        
+  |===========                                       |  23%
+  |                                                        
+  |============                                      |  25%
+  |                                                        
+  |==============                                    |  28%
+  |                                                        
+  |===============                                   |  29%
+  |                                                        
+  |===============                                   |  30%
+  |                                                        
+  |===============                                   |  31%
+  |                                                        
+  |================                                  |  31%
+  |                                                        
+  |================                                  |  32%
+  |                                                        
+  |=================                                 |  33%
+  |                                                        
+  |=================                                 |  34%
+  |                                                        
+  |=================                                 |  35%
+  |                                                        
+  |===================                               |  37%
+  |                                                        
+  |=====================                             |  42%
+  |                                                        
+  |=======================                           |  45%
+  |                                                        
+  |==========================                        |  51%
+  |                                                        
+  |==========================                        |  53%
+  |                                                        
+  |===========================                       |  54%
+  |                                                        
+  |===========================                       |  55%
+  |                                                        
+  |============================                      |  56%
+  |                                                        
+  |==============================                    |  59%
+  |                                                        
+  |=================================                 |  66%
+  |                                                        
+  |=================================                 |  67%
+  |                                                        
+  |==================================                |  67%
+  |                                                        
+  |==================================                |  68%
+  |                                                        
+  |==================================                |  69%
+  |                                                        
+  |===================================               |  69%
+  |                                                        
+  |====================================              |  72%
+  |                                                        
+  |=====================================             |  75%
+  |                                                        
+  |======================================            |  75%
+  |                                                        
+  |======================================            |  76%
+  |                                                        
+  |======================================            |  77%
+  |                                                        
+  |=======================================           |  77%
+  |                                                        
+  |=======================================           |  78%
+  |                                                        
+  |========================================          |  80%
+  |                                                        
+  |========================================          |  81%
+  |                                                        
+  |=========================================         |  81%
+  |                                                        
+  |=========================================         |  82%
+  |                                                        
+  |=========================================         |  83%
+  |                                                        
+  |==========================================        |  83%
+  |                                                        
+  |==========================================        |  84%
+  |                                                        
+  |=============================================     |  89%
+  |                                                        
+  |=============================================     |  90%
+  |                                                        
+  |=============================================     |  91%
+  |                                                        
+  |==============================================    |  91%
+  |                                                        
+  |==============================================    |  92%
+  |                                                        
+  |==============================================    |  93%
+  |                                                        
+  |===============================================   |  94%
+  |                                                        
+  |================================================  |  95%
+  |                                                        
+  |================================================  |  96%
+  |                                                        
+  |================================================= |  98%
+  |                                                        
+  |================================================= |  99%
+  |                                                        
+  |==================================================| 100%
+</code></pre><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r">counties_MA <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">st_crop</span>(counties_MA,
+                       xmin<span style="color:#f92672">=</span>min_lon,xmax<span style="color:#f92672">=</span>max_lon,
+                       ymin<span style="color:#f92672">=</span>min_lat,ymax<span style="color:#f92672">=</span>max_lat)
+<span style="color:#a6e22e">ggplot</span>() <span style="color:#f92672">+</span> 
+  <span style="color:#a6e22e">geom_sf</span>(data<span style="color:#f92672">=</span>counties_MA,fill<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;gray&#34;</span>,lwd<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>)<span style="color:#f92672">+</span>
+  <span style="color:#a6e22e">coord_sf</span>(xlim <span style="color:#f92672">=</span> <span style="color:#a6e22e">c</span>(<span style="color:#a6e22e">min</span>(bbx[1,]), <span style="color:#a6e22e">max</span>(bbx[1,])), 
+         ylim <span style="color:#f92672">=</span> <span style="color:#a6e22e">c</span>(<span style="color:#a6e22e">min</span>(bbx[2,]), <span style="color:#a6e22e">max</span>(bbx[2,])),
+         expand <span style="color:#f92672">=</span> <span style="color:#66d9ef">FALSE</span>)<span style="color:#f92672">+</span>
+  <span style="color:#a6e22e">theme</span>(legend.position <span style="color:#f92672">=</span> F) <span style="color:#f92672">+</span> <span style="color:#a6e22e">theme_void</span>()
+</code></pre></div><img src="http://estebanmoro.org/post/2020-10-19-personal-art-map-with-r_files/figure-html/unnamed-chunk-12-1.png" width="1152" />
+<p>We can see the coastline and some of the Boston Harbor Islands, but the Charles River or the ponds around Boston are missing. Also, note that the resolution is very low. The <code>tigris</code> library calls the TIGER API using the default (maximum) resolution <code>500k</code> (1:500k), which is not enough for our high-resolution map.</p>
+<p>To get a better geography layer we are going to carve out the shapefile of the area of water from these polygons. The water shapefiles can be also obtained from the TIGER services. Fortunately, those water lines have a much better resolution than the counties shapefiles.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r">get_water <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">function</span>(county_GEOID){
+  <span style="color:#a6e22e">area_water</span>(<span style="color:#e6db74">&#34;MA&#34;</span>, county_GEOID, class <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;sf&#34;</span>)
+}
+water <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">do.call</span>(rbind, 
+                 <span style="color:#a6e22e">lapply</span>(counties_MA<span style="color:#f92672">$</span>COUNTYFP,get_water))
+</code></pre></div><pre tabindex="0"><code>## 
+  |                                                        
+  |                                                  |   0%
+  |                                                        
+  |===                                               |   6%
+  |                                                        
+  |=============                                     |  26%
+  |                                                        
+  |=================                                 |  33%
+  |                                                        
+  |=================                                 |  35%
+  |                                                        
+  |==============================                    |  61%
+  |                                                        
+  |==================================                |  68%
+  |                                                        
+  |==============================================    |  92%
+  |                                                        
+  |==================================================|  99%
+  |                                                        
+  |==================================================| 100%
+## 
+  |                                                        
+  |                                                  |   0%
+  |                                                        
+  |                                                  |   1%
+  |                                                        
+  |=====================                             |  42%
+  |                                                        
+  |==================================================| 100%
+## 
+  |                                                        
+  |                                                  |   0%
+  |                                                        
+  |========================                          |  48%
+  |                                                        
+  |=========================                         |  50%
+  |                                                        
+  |==================================                |  67%
+  |                                                        
+  |================================================  |  97%
+  |                                                        
+  |==================================================| 100%
+## 
+  |                                                        
+  |                                                  |   0%
+  |                                                        
+  |=                                                 |   1%
+  |                                                        
+  |==                                                |   4%
+  |                                                        
+  |=====                                             |  10%
+  |                                                        
+  |======                                            |  12%
+  |                                                        
+  |==========================                        |  52%
+  |                                                        
+  |==================================                |  68%
+  |                                                        
+  |======================================            |  76%
+  |                                                        
+  |========================================          |  81%
+  |                                                        
+  |==========================================        |  83%
+  |                                                        
+  |==============================================    |  93%
+  |                                                        
+  |================================================  |  95%
+  |                                                        
+  |==================================================| 100%
+## 
+  |                                                        
+  |                                                  |   0%
+  |                                                        
+  |===========                                       |  23%
+  |                                                        
+  |=======================                           |  46%
+  |                                                        
+  |==================================================| 100%
+</code></pre><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r">water <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">st_crop</span>(water,
+                 xmin<span style="color:#f92672">=</span>min_lon,xmax<span style="color:#f92672">=</span>max_lon,
+                 ymin<span style="color:#f92672">=</span>min_lat,ymax<span style="color:#f92672">=</span>max_lat)
+</code></pre></div><p>Let&rsquo;s have a look at them:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r"><span style="color:#a6e22e">ggplot</span>() <span style="color:#f92672">+</span> 
+  <span style="color:#a6e22e">geom_sf</span>(data<span style="color:#f92672">=</span>counties_MA)<span style="color:#f92672">+</span>
+  <span style="color:#a6e22e">geom_sf</span>(data<span style="color:#f92672">=</span>water,
+          inherit.aes <span style="color:#f92672">=</span> F,
+          col<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;red&#34;</span>)<span style="color:#f92672">+</span>
+  <span style="color:#a6e22e">coord_sf</span>(xlim <span style="color:#f92672">=</span> <span style="color:#a6e22e">c</span>(<span style="color:#a6e22e">min</span>(bbx[1,]), <span style="color:#a6e22e">max</span>(bbx[1,])), 
+         ylim <span style="color:#f92672">=</span> <span style="color:#a6e22e">c</span>(<span style="color:#a6e22e">min</span>(bbx[2,]), <span style="color:#a6e22e">max</span>(bbx[2,])),
+         expand <span style="color:#f92672">=</span> <span style="color:#66d9ef">FALSE</span>)<span style="color:#f92672">+</span>
+  <span style="color:#a6e22e">theme</span>(legend.position <span style="color:#f92672">=</span> F) <span style="color:#f92672">+</span> <span style="color:#a6e22e">theme_void</span>()
+</code></pre></div><img src="http://estebanmoro.org/post/2020-10-19-personal-art-map-with-r_files/figure-html/unnamed-chunk-14-1.png" width="1152" />
+<p>Finally, let&rsquo;s carve out the water polygons from the counties polygons.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r">st_erase <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">function</span>(x, y) {
+  <span style="color:#a6e22e">st_difference</span>(x, <span style="color:#a6e22e">st_union</span>(y))
+}
+counties_MA <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">st_erase</span>(<span style="color:#a6e22e">st_union</span>(counties_MA),water)
+</code></pre></div><p>which looks like this (not showing the lines between counties)</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r"><span style="color:#a6e22e">ggplot</span>() <span style="color:#f92672">+</span> 
+  <span style="color:#a6e22e">geom_sf</span>(data<span style="color:#f92672">=</span>counties_MA,
+          lwd<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>)<span style="color:#f92672">+</span>
+  <span style="color:#a6e22e">coord_sf</span>(xlim <span style="color:#f92672">=</span> <span style="color:#a6e22e">c</span>(<span style="color:#a6e22e">min</span>(bbx[1,]), <span style="color:#a6e22e">max</span>(bbx[1,])), 
+         ylim <span style="color:#f92672">=</span> <span style="color:#a6e22e">c</span>(<span style="color:#a6e22e">min</span>(bbx[2,]), <span style="color:#a6e22e">max</span>(bbx[2,])),
+         expand <span style="color:#f92672">=</span> <span style="color:#66d9ef">FALSE</span>)<span style="color:#f92672">+</span>
+  <span style="color:#a6e22e">theme</span>(legend.position <span style="color:#f92672">=</span> F) <span style="color:#f92672">+</span> <span style="color:#a6e22e">theme_void</span>()
+</code></pre></div><img src="http://estebanmoro.org/post/2020-10-19-personal-art-map-with-r_files/figure-html/fig.wi-1.png" width="1152" />
+<p>We can play now with the different colors for the water or land. Apart from the one above, I like these combinations (you might notice still the lines between counties. Don&rsquo;t worry, they disappear when we print them in large format):</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r"><span style="color:#a6e22e">ggplot</span>() <span style="color:#f92672">+</span> 
+  <span style="color:#a6e22e">geom_sf</span>(data<span style="color:#f92672">=</span>counties_MA,
+          inherit.aes<span style="color:#f92672">=</span> <span style="color:#66d9ef">FALSE</span>,
+          lwd<span style="color:#f92672">=</span><span style="color:#ae81ff">0.0</span>,fill<span style="color:#f92672">=</span><span style="color:#a6e22e">rgb</span>(<span style="color:#ae81ff">0.203</span>,<span style="color:#ae81ff">0.234</span>,<span style="color:#ae81ff">0.277</span>))<span style="color:#f92672">+</span>
+  <span style="color:#a6e22e">coord_sf</span>(xlim <span style="color:#f92672">=</span> <span style="color:#a6e22e">c</span>(<span style="color:#a6e22e">min</span>(bbx[1,]), <span style="color:#a6e22e">max</span>(bbx[1,])), 
+         ylim <span style="color:#f92672">=</span> <span style="color:#a6e22e">c</span>(<span style="color:#a6e22e">min</span>(bbx[2,]), <span style="color:#a6e22e">max</span>(bbx[2,])),
+         expand <span style="color:#f92672">=</span> <span style="color:#66d9ef">FALSE</span>)<span style="color:#f92672">+</span>
+  <span style="color:#a6e22e">theme</span>(legend.position <span style="color:#f92672">=</span> F) <span style="color:#f92672">+</span> <span style="color:#a6e22e">theme_void</span>()<span style="color:#f92672">+</span>
+  <span style="color:#a6e22e">theme</span>(panel.background<span style="color:#f92672">=</span>
+          <span style="color:#a6e22e">element_rect</span>(fill <span style="color:#f92672">=</span> <span style="color:#a6e22e">rgb</span>(<span style="color:#ae81ff">0.92</span>,<span style="color:#ae81ff">0.679</span>,<span style="color:#ae81ff">0.105</span>)))<span style="color:#f92672">+</span>
+  <span style="color:#a6e22e">ggtitle</span>(<span style="color:#e6db74">&#34;Dark + Yellow theme&#34;</span>)
+</code></pre></div><img src="http://estebanmoro.org/post/2020-10-19-personal-art-map-with-r_files/figure-html/unnamed-chunk-16-1.png" width="1344" />
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r"><span style="color:#a6e22e">ggplot</span>() <span style="color:#f92672">+</span> 
+  <span style="color:#a6e22e">geom_sf</span>(data<span style="color:#f92672">=</span>counties_MA,
+          inherit.aes<span style="color:#f92672">=</span> <span style="color:#66d9ef">FALSE</span>,
+          lwd<span style="color:#f92672">=</span><span style="color:#ae81ff">0.0</span>,fill<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;white&#34;</span>)<span style="color:#f92672">+</span>
+  <span style="color:#a6e22e">coord_sf</span>(xlim <span style="color:#f92672">=</span> <span style="color:#a6e22e">c</span>(<span style="color:#a6e22e">min</span>(bbx[1,]), <span style="color:#a6e22e">max</span>(bbx[1,])), 
+         ylim <span style="color:#f92672">=</span> <span style="color:#a6e22e">c</span>(<span style="color:#a6e22e">min</span>(bbx[2,]), <span style="color:#a6e22e">max</span>(bbx[2,])),
+         expand <span style="color:#f92672">=</span> <span style="color:#66d9ef">FALSE</span>)<span style="color:#f92672">+</span>
+  <span style="color:#a6e22e">theme</span>(legend.position <span style="color:#f92672">=</span> F) <span style="color:#f92672">+</span> <span style="color:#a6e22e">theme_void</span>()<span style="color:#f92672">+</span>
+  <span style="color:#a6e22e">theme</span>(panel.background<span style="color:#f92672">=</span>
+          <span style="color:#a6e22e">element_rect</span>(fill <span style="color:#f92672">=</span> <span style="color:#a6e22e">rgb</span>(<span style="color:#ae81ff">0.9</span>,<span style="color:#ae81ff">0.9</span>,<span style="color:#ae81ff">0.9</span>)))<span style="color:#f92672">+</span>
+  <span style="color:#a6e22e">ggtitle</span>(<span style="color:#e6db74">&#34;Black + White theme&#34;</span>)
+</code></pre></div><img src="http://estebanmoro.org/post/2020-10-19-personal-art-map-with-r_files/figure-html/unnamed-chunk-17-1.png" width="1344" />
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r"><span style="color:#a6e22e">ggplot</span>() <span style="color:#f92672">+</span> 
+  <span style="color:#a6e22e">geom_sf</span>(data<span style="color:#f92672">=</span>counties_MA,
+          inherit.aes<span style="color:#f92672">=</span> <span style="color:#66d9ef">FALSE</span>,
+          lwd<span style="color:#f92672">=</span><span style="color:#ae81ff">0.0</span>,fill<span style="color:#f92672">=</span><span style="color:#a6e22e">rgb</span>(<span style="color:#ae81ff">0.95</span>,<span style="color:#ae81ff">0.95</span>,<span style="color:#ae81ff">0.95</span>))<span style="color:#f92672">+</span>
+  <span style="color:#a6e22e">coord_sf</span>(xlim <span style="color:#f92672">=</span> <span style="color:#a6e22e">c</span>(<span style="color:#a6e22e">min</span>(bbx[1,]), <span style="color:#a6e22e">max</span>(bbx[1,])), 
+         ylim <span style="color:#f92672">=</span> <span style="color:#a6e22e">c</span>(<span style="color:#a6e22e">min</span>(bbx[2,]), <span style="color:#a6e22e">max</span>(bbx[2,])),
+         expand <span style="color:#f92672">=</span> <span style="color:#66d9ef">FALSE</span>)<span style="color:#f92672">+</span>
+  <span style="color:#a6e22e">theme</span>(legend.position <span style="color:#f92672">=</span> F) <span style="color:#f92672">+</span> <span style="color:#a6e22e">theme_void</span>()<span style="color:#f92672">+</span>
+  <span style="color:#a6e22e">theme</span>(panel.background<span style="color:#f92672">=</span><span style="color:#a6e22e">element_rect</span>(fill <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;black&#34;</span>))<span style="color:#f92672">+</span>
+  <span style="color:#a6e22e">ggtitle</span>(<span style="color:#e6db74">&#34;White + Black theme&#34;</span>)
+</code></pre></div><img src="http://estebanmoro.org/post/2020-10-19-personal-art-map-with-r_files/figure-html/unnamed-chunk-18-1.png" width="1344" />
+<h2 id="putting-geography-and-streets-together">Putting geography and streets together</h2>
+<p>Once we have the geography, we can add the streets for our final streetmap:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r"><span style="color:#a6e22e">ggplot</span>() <span style="color:#f92672">+</span> 
+  <span style="color:#a6e22e">geom_sf</span>(data<span style="color:#f92672">=</span>counties_MA,
+          inherit.aes<span style="color:#f92672">=</span> <span style="color:#66d9ef">FALSE</span>,
+          lwd<span style="color:#f92672">=</span><span style="color:#ae81ff">0.0</span>,fill<span style="color:#f92672">=</span><span style="color:#a6e22e">rgb</span>(<span style="color:#ae81ff">0.203</span>,<span style="color:#ae81ff">0.234</span>,<span style="color:#ae81ff">0.277</span>))<span style="color:#f92672">+</span>
+  <span style="color:#a6e22e">geom_sf</span>(data <span style="color:#f92672">=</span> streets<span style="color:#f92672">$</span>osm_lines,
+          inherit.aes <span style="color:#f92672">=</span> <span style="color:#66d9ef">FALSE</span>,
+          color<span style="color:#f92672">=</span>color_roads,
+          size <span style="color:#f92672">=</span> <span style="color:#ae81ff">.4</span>,
+          alpha <span style="color:#f92672">=</span> <span style="color:#ae81ff">.65</span>) <span style="color:#f92672">+</span>
+  <span style="color:#a6e22e">geom_sf</span>(data <span style="color:#f92672">=</span> highways<span style="color:#f92672">$</span>osm_lines,
+          inherit.aes <span style="color:#f92672">=</span> <span style="color:#66d9ef">FALSE</span>,
+          color<span style="color:#f92672">=</span>color_roads,
+          size <span style="color:#f92672">=</span> <span style="color:#ae81ff">.6</span>,
+          alpha <span style="color:#f92672">=</span> <span style="color:#ae81ff">.65</span>) <span style="color:#f92672">+</span>
+  <span style="color:#a6e22e">coord_sf</span>(xlim <span style="color:#f92672">=</span> <span style="color:#a6e22e">c</span>(<span style="color:#a6e22e">min</span>(bbx[1,]), <span style="color:#a6e22e">max</span>(bbx[1,])), 
+           ylim <span style="color:#f92672">=</span> <span style="color:#a6e22e">c</span>(<span style="color:#a6e22e">min</span>(bbx[2,]), <span style="color:#a6e22e">max</span>(bbx[2,])),
+           expand <span style="color:#f92672">=</span> <span style="color:#66d9ef">FALSE</span>) <span style="color:#f92672">+</span>
+  <span style="color:#a6e22e">theme</span>(legend.position <span style="color:#f92672">=</span> F) <span style="color:#f92672">+</span> <span style="color:#a6e22e">theme_void</span>()<span style="color:#f92672">+</span>
+  <span style="color:#a6e22e">theme</span>(panel.background<span style="color:#f92672">=</span>
+          <span style="color:#a6e22e">element_rect</span>(fill <span style="color:#f92672">=</span> <span style="color:#a6e22e">rgb</span>(<span style="color:#ae81ff">0.92</span>,<span style="color:#ae81ff">0.679</span>,<span style="color:#ae81ff">0.105</span>)))
+</code></pre></div><img src="http://estebanmoro.org/post/2020-10-19-personal-art-map-with-r_files/figure-html/unnamed-chunk-19-1.png" width="1344" />
+<h2 id="adding-personal-mobility">Adding personal mobility</h2>
+<p>As I said before, those maps are beautiful already. But I wanted to give them a more personal touch. As part of our research, we have been studying how people move in urban areas. Using high precision and anonymized data, we have understood <a href="https://inequality.media.mit.edu">how segregation happens</a> on our streets, neighborhoods, working places. One of the things we found is that even if we happen to be in the same area, we tend to segregate ourselves and visit very different places. <a href="https://www.youtube.com/watch?v=KJHW9FTURlM">Even across the street! </a>.</p>
+<p>As part of that research, I&rsquo;ve been collecting the locations that I visited in the last years in the Boston area. I used <a href="https://www.google.com/maps/timeline">Google Location History</a> which needs to be activated to work. Once it is activated, it starts saving the places you go to. You can even visualize your movements using the <a href="https://www.google.com/maps/timeline">Google Maps Timeline</a>. Or you can download it using the <a href="https://takeout.google.com/settings/takeout">Google Takeout</a> tool. Of course, if you don&rsquo;t have access to your location history or is deactivated, you can always list the most relevant locations in the area you live and create a table with the right format (see below).</p>
+<p>Once you download your location, you will get two sets of files. The first one is called <code>Location History.json</code> that contains a lot of location events (including latitute, longitud, timestamp) and a directory called <code>Semantic Location History</code> that has all the places visited by year and month. Make sure when you download your data from Google Takeout that this semantic history is enabled. We will use the semantic one since it contains a list of places visited (inferred by Google).</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r"><span style="color:#a6e22e">require</span>(jsonlite)
+<span style="color:#a6e22e">require</span>(data.table)
+path <span style="color:#f92672">&lt;-</span> <span style="color:#e6db74">&#34;./Semantic Location History/&#34;</span>
+files <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">list.files</span>(path,pattern<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;*.json&#34;</span>,recursive<span style="color:#f92672">=</span>T)
+get_locations <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">function</span>(f){
+  data <span style="color:#f92672">&lt;-</span> jsonlite<span style="color:#f92672">::</span><span style="color:#a6e22e">fromJSON</span>(<span style="color:#a6e22e">paste0</span>(path,f))
+  tlObj <span style="color:#f92672">&lt;-</span> data<span style="color:#f92672">$</span>timelineObjects<span style="color:#f92672">$</span>placeVisit
+  loc <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">cbind</span>(tlObj<span style="color:#f92672">$</span>location,tlObj<span style="color:#f92672">$</span>duration)
+  tt <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">as.numeric</span>(loc<span style="color:#f92672">$</span>startTimestampMs)<span style="color:#f92672">/</span><span style="color:#ae81ff">1000</span>
+  loc<span style="color:#f92672">$</span>time<span style="color:#f92672">&lt;-</span><span style="color:#a6e22e">as.POSIXct</span>(tt,origin <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;1970-01-01&#34;</span>)
+  <span style="color:#75715e">#conver longitude &amp; latitude from E7 to GPS </span>
+  loc<span style="color:#f92672">$</span>lat <span style="color:#f92672">=</span> loc<span style="color:#f92672">$</span>latitudeE7 <span style="color:#f92672">/</span> <span style="color:#ae81ff">1e7</span>
+  loc<span style="color:#f92672">$</span>lon <span style="color:#f92672">=</span> loc<span style="color:#f92672">$</span>longitudeE7 <span style="color:#f92672">/</span> <span style="color:#ae81ff">1e7</span>
+  loc <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">data.table</span>(loc)
+  loc <span style="color:#f92672">&lt;-</span> loc[,<span style="color:#a6e22e">c</span>(<span style="color:#e6db74">&#34;placeId&#34;</span>,<span style="color:#e6db74">&#34;time&#34;</span>,<span style="color:#e6db74">&#34;lat&#34;</span>,<span style="color:#e6db74">&#34;lon&#34;</span>)]
+  loc <span style="color:#f92672">&lt;-</span> loc[<span style="color:#f92672">!</span><span style="color:#a6e22e">is.na</span>(lon)]
+}
+locs.df<span style="color:#f92672">&lt;-</span><span style="color:#a6e22e">rbindlist</span>(<span style="color:#a6e22e">lapply</span>(files,get_locations))
+</code></pre></div><p>The data includes the Google Id for the place, the timestamp of the visit its longitude/latitude position. Of course, I&rsquo;m not showing you my personal data. This table you see below was generated sampling from a bunch of random locations in the Boston area around my working place (MIT Media Lab).</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r"><span style="color:#a6e22e">head</span>(locs.df) <span style="color:#f92672">%&gt;%</span> <span style="color:#a6e22e">kbl</span>() <span style="color:#f92672">%&gt;%</span> <span style="color:#a6e22e">kable_styling</span>()
+</code></pre></div><table class="table" style="margin-left: auto; margin-right: auto;">
+ <thead>
+  <tr>
+   <th style="text-align:left;"> placeId </th>
+   <th style="text-align:left;"> time </th>
+   <th style="text-align:right;"> lat </th>
+   <th style="text-align:right;"> lon </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> ChIJ780101a191a </td>
+   <td style="text-align:left;"> 2020-02-20 16:55:59 </td>
+   <td style="text-align:right;"> 42.36126 </td>
+   <td style="text-align:right;"> -71.08695 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> ChIJ140101a191a </td>
+   <td style="text-align:left;"> 2020-03-16 23:42:52 </td>
+   <td style="text-align:right;"> 42.37321 </td>
+   <td style="text-align:right;"> -71.09359 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> ChIJ740101a191a </td>
+   <td style="text-align:left;"> 2020-05-31 15:38:12 </td>
+   <td style="text-align:right;"> 42.37020 </td>
+   <td style="text-align:right;"> -71.06178 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> ChIJ320101a191a </td>
+   <td style="text-align:left;"> 2020-06-03 21:20:21 </td>
+   <td style="text-align:right;"> 42.37311 </td>
+   <td style="text-align:right;"> -71.12237 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> ChIJ420101a191a </td>
+   <td style="text-align:left;"> 2020-02-10 12:15:43 </td>
+   <td style="text-align:right;"> 42.37220 </td>
+   <td style="text-align:right;"> -71.06315 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> ChIJ840101a191a </td>
+   <td style="text-align:left;"> 2020-05-25 21:53:40 </td>
+   <td style="text-align:right;"> 42.38635 </td>
+   <td style="text-align:right;"> -71.22257 </td>
+  </tr>
+</tbody>
+</table>
+<p>One way to add this personal information to the map would be to show the location points to the previous map. But for most of us, that would be just a bunch (hundred in my case) of points very close to each other. Since we already have the streets in the map, we will do something different: to plot the routes we took to go from one place to the next one. Two comments about this:</p>
+<ul>
+<li>The semantic locations do not include the routes taken to visit those places. Those can be calculated using the network of streets already downloaded.</li>
+<li>However, most of the days, we will only have one significant place visited. That means we cannot calculate any route that day. What we will do is to assume that each day starts at your home location and ends up in the same place, so at least you have two routes for those days with at least one location in the Google dataset. In my case, I will choose the MIT Media Lab as my home location (I spent a lot of time there last year, but it&rsquo;s definitely not my home 😄)</li>
+</ul>
+<p>We first create a function that return the routes between all the locations within a given day. To get the routes between two locations we used the function <code>osrmRoute</code> in the <code>osrm</code> package, which gives the shortest path between two points in the streets' network.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r"><span style="color:#a6e22e">require</span>(osrm)
+daily_routes <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">function</span>(date){
+  ll<span style="color:#f92672">&lt;-</span>locs.df<span style="color:#a6e22e">[as.Date</span>(time)<span style="color:#f92672">==</span>date,<span style="color:#a6e22e">c</span>(<span style="color:#e6db74">&#34;lon&#34;</span>,<span style="color:#e6db74">&#34;lat&#34;</span>)]
+  <span style="color:#75715e">#add home early in the morning</span>
+  ll<span style="color:#f92672">&lt;-</span><span style="color:#a6e22e">rbind</span>(<span style="color:#a6e22e">data.table</span>(lon<span style="color:#f92672">=</span><span style="color:#ae81ff">-71.087658</span>,lat<span style="color:#f92672">=</span><span style="color:#ae81ff">42.36</span>),ll)
+  <span style="color:#75715e">#add home late in the day</span>
+  ll<span style="color:#f92672">&lt;-</span><span style="color:#a6e22e">rbind</span>(ll,<span style="color:#a6e22e">data.table</span>(lon<span style="color:#f92672">=</span><span style="color:#ae81ff">-71.087658</span>,lat<span style="color:#f92672">=</span><span style="color:#ae81ff">42.36</span>))
+  route <span style="color:#f92672">&lt;-</span> <span style="color:#66d9ef">NULL</span>
+  <span style="color:#a6e22e">for</span>(j in <span style="color:#ae81ff">2</span><span style="color:#f92672">:</span><span style="color:#a6e22e">nrow</span>(ll)){
+    p1 <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">c</span>(ll<span style="color:#f92672">$</span>lon[j<span style="color:#ae81ff">-1</span>],ll<span style="color:#f92672">$</span>lat[j<span style="color:#ae81ff">-1</span>])
+    p2 <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">c</span>(ll<span style="color:#f92672">$</span>lon[j],ll<span style="color:#f92672">$</span>lat[j])
+    oo <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">osrmRoute</span>(src<span style="color:#f92672">=</span>p1,dst<span style="color:#f92672">=</span>p2,returnclass <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;sf&#34;</span>,
+                    overview<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;full&#34;</span>)
+    route <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">rbind</span>(route,oo)
+  }
+  route
+}
+</code></pre></div><p>Note that those routes might not be the <em>actual route</em> taken to go between those points. The <code>osrmRoute</code> algorithm calculates the shortest path only.</p>
+<p>And then we get all the routes for the whole period (this will take some time)</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r">dates <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">unique</span>(<span style="color:#a6e22e">as.Date</span>(locs.df<span style="color:#f92672">$</span>time))
+routes <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">do.call</span>(rbind,
+                  <span style="color:#a6e22e">lapply</span>(dates,daily_routes))
+</code></pre></div><p>We are now ready to plot our geography + streets + personal routes.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r">final_map <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">ggplot</span>() <span style="color:#f92672">+</span> 
+  <span style="color:#a6e22e">geom_sf</span>(data<span style="color:#f92672">=</span>counties_MA,
+          inherit.aes<span style="color:#f92672">=</span> <span style="color:#66d9ef">FALSE</span>,
+          lwd<span style="color:#f92672">=</span><span style="color:#ae81ff">0.0</span>,fill<span style="color:#f92672">=</span><span style="color:#a6e22e">rgb</span>(<span style="color:#ae81ff">0.203</span>,<span style="color:#ae81ff">0.234</span>,<span style="color:#ae81ff">0.277</span>))<span style="color:#f92672">+</span>
+  <span style="color:#a6e22e">geom_sf</span>(data <span style="color:#f92672">=</span> streets<span style="color:#f92672">$</span>osm_lines,
+          inherit.aes <span style="color:#f92672">=</span> <span style="color:#66d9ef">FALSE</span>,
+          color<span style="color:#f92672">=</span>color_roads,
+          size <span style="color:#f92672">=</span> <span style="color:#ae81ff">.4</span>,
+          alpha <span style="color:#f92672">=</span> <span style="color:#ae81ff">.65</span>) <span style="color:#f92672">+</span>
+  <span style="color:#a6e22e">geom_sf</span>(data <span style="color:#f92672">=</span> highways<span style="color:#f92672">$</span>osm_lines,
+          inherit.aes <span style="color:#f92672">=</span> <span style="color:#66d9ef">FALSE</span>,
+          color<span style="color:#f92672">=</span>color_roads,
+          size <span style="color:#f92672">=</span> <span style="color:#ae81ff">.6</span>,
+          alpha <span style="color:#f92672">=</span> <span style="color:#ae81ff">.65</span>) <span style="color:#f92672">+</span>
+  <span style="color:#a6e22e">geom_sf</span>(data<span style="color:#f92672">=</span><span style="color:#a6e22e">st_geometry</span>(routes),
+          inherit.aes <span style="color:#f92672">=</span> <span style="color:#66d9ef">FALSE</span>,col<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;red&#34;</span>,alpha<span style="color:#f92672">=</span><span style="color:#ae81ff">0.5</span>)<span style="color:#f92672">+</span> 
+  <span style="color:#a6e22e">coord_sf</span>(xlim <span style="color:#f92672">=</span> <span style="color:#a6e22e">c</span>(<span style="color:#a6e22e">min</span>(bbx[1,]), <span style="color:#a6e22e">max</span>(bbx[1,])), 
+           ylim <span style="color:#f92672">=</span> <span style="color:#a6e22e">c</span>(<span style="color:#a6e22e">min</span>(bbx[2,]), <span style="color:#a6e22e">max</span>(bbx[2,])),
+           expand <span style="color:#f92672">=</span> <span style="color:#66d9ef">FALSE</span>) <span style="color:#f92672">+</span>
+  <span style="color:#a6e22e">theme</span>(legend.position <span style="color:#f92672">=</span> F) <span style="color:#f92672">+</span> <span style="color:#a6e22e">theme_void</span>()<span style="color:#f92672">+</span>
+  <span style="color:#a6e22e">theme</span>(panel.background<span style="color:#f92672">=</span>
+          <span style="color:#a6e22e">element_rect</span>(fill<span style="color:#f92672">=</span><span style="color:#a6e22e">rgb</span>(<span style="color:#ae81ff">0.92</span>,<span style="color:#ae81ff">0.679</span>,<span style="color:#ae81ff">0.105</span>)))
+final_map
+</code></pre></div><img src="http://estebanmoro.org/post/2020-10-19-personal-art-map-with-r_files/figure-html/unnamed-chunk-26-1.png" width="1152" />
+<h2 id="printing-them-out">Printing them out</h2>
+<p>Finally, let&rsquo;s print it out in high resolution. In my case, I used 24 inches by 36 inches, but you can choose other sizes:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r"><span style="color:#a6e22e">ggsave</span>(final_map, 
+       filename <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;my_personal_map_art.png&#34;</span>,
+       scale <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>, 
+       width <span style="color:#f92672">=</span> <span style="color:#ae81ff">36</span>, 
+       height <span style="color:#f92672">=</span> <span style="color:#ae81ff">24</span>, 
+       units <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;in&#34;</span>,
+       dpi <span style="color:#f92672">=</span> <span style="color:#ae81ff">500</span>)
+</code></pre></div><p>Note the <code>dpi = 500</code>, which forces to save the image with high resolution (500 dots per inch). This is especially important if you want to print your poster in large dimensions. The file generated is large (around 40Mb).</p>
+<p>The last step is to send to print or frame. You can use many services online to do that, but you need one that allows you to send such a big file. In my case, I ended up using the Mounted Canvas Print - 36&quot; x 24&quot; at <a href="http://estebanmoro.org/www.vistaprint.com">vistaprint</a>.</p>
+<p>And here is the final result:</p>
+<p><img src="http://estebanmoro.org/img/posts/final_map_art.png" alt=""></p>
+<p>I hope you enjoyed my small project to produce personal map art with R.</p>
+    
+        </div>
+    </section>
+
+    <footer class="post-full-footer">
+      <section class="author-card">
+        <img class="author-profile-image" src="http://estebanmoro.org/img/whoami6.jpg" alt="Author" />
+        <section class="author-card-content">
+            <h4 class="author-card-name"><a href="http://estebanmoro.org/">Esteban Moro</a></h4>
+                <p>Professor at Northeastern University. Working on Complex Systems, Social Networks and Urban Science.</p>
+        </section>
+      </section>
+    </footer>
+</article>
+    
+    
+    
+
+<div id="disqus_thread"></div>
+<script>
+
+
+
+
+var disqus_config = function () {
+this.page.url = "http:\/\/estebanmoro.org\/post\/2020-10-19-personal-art-map-with-r\/";  
+this.page.identifier = "http:\/\/estebanmoro.org\/post\/2020-10-19-personal-art-map-with-r\/"; 
+};
+
+(function() { 
+var d = document, s = d.createElement('script');
+s.src = 'https://implicitnone.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+  </div>
+</main>
+
+
+<aside class="read-next outer">
+  <div class="inner">
+    <div class="read-next-feed">      
+      
+<article class="read-next-card" 
+            style="background-image: url(http://estebanmoro.org/img/mob.mp4);" >
+    <header class="read-next-card-header">
+        <small class="read-next-card-header-sitetitle">&mdash; Implicit None &mdash;</small>
+        
+        <h3 class="read-next-card-header-title"><a href="http://estebanmoro.org/tags/maps/">#maps</a></h3>
+    </header>
+    <div class="read-next-divider"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 14.5s2 3 5 3 5.5-2.463 5.5-5.5S21 6.5 18 6.5c-5 0-7 11-12 11C2.962 17.5.5 15.037.5 12S3 6.5 6 6.5s4.5 3.5 4.5 3.5"/></svg>
+    </div>
+
+    <div class="read-next-card-content">
+      
+        <ul>
+          <li><a href="http://estebanmoro.org/post/2016-01-07-talk-dynamics-in-complex-networks-analysing-real-world-data/">Talk &#34;Dynamics in Complex Networks: Analysing Real-world Data&#34;</a></li>            
+        
+          <li><a href="http://estebanmoro.org/post/2023-04-03-diversity-beyond-density-experienced-social-mixing-of-urban-streets/">Diversity beyond density: Experienced social mixing of urban streets</a></li>            
+        
+          <li><a href="http://estebanmoro.org/post/2019-01-01-the-lifetime-of-strong-ties-in-social-networks/">Talk at NICO &#34;The lifetime of strong ties in social networks&#34;</a></li>            
+        
+          <li><a href="http://estebanmoro.org/post/2022-01-10-wordle/">Playing (and winning) Wordle with R</a></li>            
+        </ul>
+    </div>
+    <footer class="read-next-card-footer">
+      
+        <a href="http://estebanmoro.org/tags/maps/">See all related posts →</a>
+    </footer>
+</article>
+
+
+      
+      <article class="post-card post"> 
+    
+    <a class="post-card-image-link" href="http://estebanmoro.org/post/2020-12-09-effect-of-covid-19-response-policies-on-walking-behavior-in-us-cities/">
+      <div class="post-card-image" style="background-image: url(http://estebanmoro.org/img/posts/sses.png)"></div>
+    </a>
+    
+
+    <div class="post-card-content">
+      <a class="post-card-content-link" href="http://estebanmoro.org/post/2020-12-09-effect-of-covid-19-response-policies-on-walking-behavior-in-us-cities/">
+          <header class="post-card-header">
+              <span class="post-card-tags">
+              #covid19 
+              #super-spreading 
+              #Mobile phone data  </span>
+              
+              <h2 class="post-card-title">Quantifying the importance and location of SARS-CoV-2 transmission events in large metropolitan areas</h2>
+          </header>
+          <section class="post-card-excerpt">
+              
+                <p>Authors: Alberto Aleta, David Martin-Corral, Michiel Bakker, Ana Pastore y Piontti, Marco Ajelli, Maria Litvinova, Matteo Chinazzi, Natalie E Dean,M. Elizabeth Halloran, Ira M Longini, Alex Pentland, Alessandro Vespignani, Yamir Moreno, Esteban Moro
+Publication: medRxiv (2020). Link
+Abstract: Detailed characterizations of SARS-CoV-2 transmission risk across different social settings can inform the design of targeted and less disruptive non-pharmaceutical interventions (NPI), yet these data have been lacking. Here we integrate real-time, anonymous and privacy-enhanced geolocalized mobility data with census and demographic data in the New York City and Seattle metropolitan areas to build a detailed agent-based model of SARS-CoV-2 transmission. ...  </p>
+              
+          </section>
+      </a>
+
+      <footer class="post-card-meta">
+          <img class="author-profile-image" src="http://estebanmoro.org/img/whoami6.jpg" alt="Author" />
+          <span class="post-card-author"><a href="http://estebanmoro.org/">Esteban Moro</a></span>
+      </footer>
+    </div>
+</article>
+      
+      
+      <article class="post-card post"> 
+    
+    <a class="post-card-image-link" href="http://estebanmoro.org/post/2020-09-18-modeling-the-impact-of-testing-contact-tracing-and-household-quarantine-on-second-waves-of-covid-19/">
+      <div class="post-card-image" style="background-image: url(http://estebanmoro.org/img/posts/Covid15September.png)"></div>
+    </a>
+    
+
+    <div class="post-card-content">
+      <a class="post-card-content-link" href="http://estebanmoro.org/post/2020-09-18-modeling-the-impact-of-testing-contact-tracing-and-household-quarantine-on-second-waves-of-covid-19/">
+          <header class="post-card-header">
+              <span class="post-card-tags">
+              #covid19  </span>
+              
+              <h2 class="post-card-title">Modeling the impact of testing, contact tracing and household quarantine on second waves of COVID-19</h2>
+          </header>
+          <section class="post-card-excerpt">
+              
+                <p>Video of my talk &ldquo;Modeling the impact of testing, contact tracing and household quarantine on second waves of COVID-19&rdquo; at the Cycles of Seminars Covid-19 Sponsored by MexSAIM in UNAM, Mexico, September 15, 2020.
+  </p>
+              
+          </section>
+      </a>
+
+      <footer class="post-card-meta">
+          <img class="author-profile-image" src="http://estebanmoro.org/img/whoami6.jpg" alt="Author" />
+          <span class="post-card-author"><a href="http://estebanmoro.org/">Esteban Moro</a></span>
+      </footer>
+    </div>
+</article>
+      
+    </div>
+  </div>
+</aside>
+
+<div class="floating-header">
+  <div class="floating-header-logo">
+    <a href="http://estebanmoro.org/">
+      
+      <span></span>
+    </a>
+  </div>
+  <span class="floating-header-divider">&mdash;</span>
+  <div class="floating-header-title">Personal Art Map with R</div>
+  <div class="floating-header-share">
+    <div class="floating-header-share-label">Share this <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+     <path d="M7.5 15.5V4a1.5 1.5 0 1 1 3 0v4.5h2a1 1 0 0 1 1 1h2a1 1 0 0 1 1 1H18a1.5 1.5 0 0 1 1.5 1.5v3.099c0 .929-.13 1.854-.385 2.748L17.5 23.5h-9c-1.5-2-5.417-8.673-5.417-8.673a1.2 1.2 0 0 1 1.76-1.605L7.5 15.5zm6-6v2m-3-3.5v3.5m6-1v2"/></svg>
+    </div>
+    
+    <a class="floating-header-share-tw" href="https://twitter.com/share?text=Personal%20Art%20Map%20with%20R&amp;url=http%3a%2f%2festebanmoro.org%2fpost%2f2020-10-19-personal-art-map-with-r%2f"
+          onclick="window.open(this.href, 'share-twitter', 'width=550,height=235');return false;">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M30.063 7.313c-.813 1.125-1.75 2.125-2.875 2.938v.75c0 1.563-.188 3.125-.688 4.625a15.088 15.088 0 0 1-2.063 4.438c-.875 1.438-2 2.688-3.25 3.813a15.015 15.015 0 0 1-4.625 2.563c-1.813.688-3.75 1-5.75 1-3.25 0-6.188-.875-8.875-2.625.438.063.875.125 1.375.125 2.688 0 5.063-.875 7.188-2.5-1.25 0-2.375-.375-3.375-1.125s-1.688-1.688-2.063-2.875c.438.063.813.125 1.125.125.5 0 1-.063 1.5-.25-1.313-.25-2.438-.938-3.313-1.938a5.673 5.673 0 0 1-1.313-3.688v-.063c.813.438 1.688.688 2.625.688a5.228 5.228 0 0 1-1.875-2c-.5-.875-.688-1.813-.688-2.75 0-1.063.25-2.063.75-2.938 1.438 1.75 3.188 3.188 5.25 4.25s4.313 1.688 6.688 1.813a5.579 5.579 0 0 1 1.5-5.438c1.125-1.125 2.5-1.688 4.125-1.688s3.063.625 4.188 1.813a11.48 11.48 0 0 0 3.688-1.375c-.438 1.375-1.313 2.438-2.563 3.188 1.125-.125 2.188-.438 3.313-.875z"/></svg>
+      </a>
+      <a class="floating-header-share-fb" href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2festebanmoro.org%2fpost%2f2020-10-19-personal-art-map-with-r%2f"
+          onclick="window.open(this.href, 'share-facebook','width=580,height=296');return false;">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M19 6h5V0h-5c-3.86 0-7 3.14-7 7v3H8v6h4v16h6V16h5l1-6h-6V7c0-.542.458-1 1-1z"/></svg>
+      </a>
+  </div>
+
+  <progress class="progress" value="0">
+    <div class="progress-container">
+      <span class="progress-bar"></span>
+    </div>
+  </progress>
+</div>
+
+
+<footer class="site-footer outer">
+  <div class="site-footer-content inner">
+    <section class="copyright" style="line-height: 1.3em;">
+      <a href="http://estebanmoro.org/">Esteban Moro</a> © 2020 <br>
+      <span style="font-size: 0.8em; color: #555;">Hugo port of <a href="https://github.com/TryGhost/Casper">Casper 2.1.7</a> by <a href="https://www.telematika.org">EM</a></span>
+    </section>
+    <nav class="site-footer-nav">
+        <a href="http://estebanmoro.org/">Latest Posts</a>
+        
+        <a href="https://twitter.com/estebanmoro" target="_blank" rel="noopener">Twitter</a>
+        <a href="https://github.com/emoro" target="_blank" rel="noopener">Github</a>
+        <a href="https://www.linkedin.com/in/esteban-moro" target="_blank" rel="noopener">LinkedIn</a>
+        
+    </nav>  
+  </div>
+</footer>
+
+</div>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="http://estebanmoro.org/js/jquery.fitvids.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script id="altmetric-embed-js" type="text/javascript" src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+
+
+<script>hljs.initHighlightingOnLoad();</script> 
+
+
+
+
+
+
+  <!-- Google Analytics -->
+  <script>
+    var _gaq=[['_setAccount','UA-131034910-1'],['_trackPageview']];
+    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+    g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+    s.parentNode.insertBefore(g,s)}(document,'script'));
+  </script>
+
+
+
+
+
+
+    <script>
+
+
+
+
+
+$(document).ready(function () {
+    
+    var $postContent = $(".post-full-content");
+    $postContent.fitVids();
+    
+
+    var progressBar = document.querySelector('progress');
+    var header = document.querySelector('.floating-header');
+    var title = document.querySelector('.post-full-title');
+
+    var lastScrollY = window.scrollY;
+    var lastWindowHeight = window.innerHeight;
+    var lastDocumentHeight = $(document).height();
+    var ticking = false;
+
+    function onScroll() {
+        lastScrollY = window.scrollY;
+        requestTick();
+    }
+
+    function onResize() {
+        lastWindowHeight = window.innerHeight;
+        lastDocumentHeight = $(document).height();
+        requestTick();
+    }
+
+    function requestTick() {
+        if (!ticking) {
+            requestAnimationFrame(update);
+        }
+        ticking = true;
+    }
+
+    function update() {
+        var trigger = title.getBoundingClientRect().top + window.scrollY;
+        var triggerOffset = title.offsetHeight + 35;
+        var progressMax = lastDocumentHeight - lastWindowHeight;
+
+        
+        if (lastScrollY >= trigger + triggerOffset) {
+            header.classList.add('floating-active');
+        } else {
+            header.classList.remove('floating-active');
+        }
+
+        progressBar.setAttribute('max', progressMax);
+        progressBar.setAttribute('value', lastScrollY);
+
+        ticking = false;
+    }
+
+    window.addEventListener('scroll', onScroll, {passive: true});
+    window.addEventListener('resize', onResize, false);
+
+    update();
+});
+</script>
+</body></html>

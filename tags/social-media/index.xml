@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Social Media on </title>
+    <link>http://estebanmoro.org/tags/social-media/</link>
+    <description>Recent content in Social Media on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Mon, 15 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://estebanmoro.org/tags/social-media/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Social media sensors as early signals of influenza outbreaks at scale</title>
+      <link>http://estebanmoro.org/post/2024-07-15-social-media-sensors-as-early-signals-of-influenza-outbreaks-at-scale/</link>
+      <pubDate>Mon, 15 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2024-07-15-social-media-sensors-as-early-signals-of-influenza-outbreaks-at-scale/</guid>
+      <description>Authors: David Martín-Corral, Manuel García-Herranz, Manuel Cebrián &amp;amp; Esteban Moro Publication: EPJ Data Science (2024) 13:43 LINK
+Abstract: Detecting early signals of an outbreak in a viral process is challenging due to its exponential nature, yet crucial given the benefits to public health it can provide. If available, the network structure where infection happens can provide rich information about the very early stages of viral outbreaks. For example, more central nodes have been used as social network sensors in biological or informational diffusion processes to detect early contagious outbreaks.</description>
+    </item>
+    
+    <item>
+      <title>Social Media Sensors to Detect Early Warnings of Influenza at Scale</title>
+      <link>http://estebanmoro.org/post/2022-11-18-social-media-sensors-to-detect-early-warnings-of-influenza-at-scale/</link>
+      <pubDate>Fri, 18 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2022-11-18-social-media-sensors-to-detect-early-warnings-of-influenza-at-scale/</guid>
+      <description>Authors: David Martín-Corral, Manuel García-Herranz, Manuel Cebrian, Esteban Moro Publication: medRxiv 2022.11.15.22282355 LINK
+Abstract: Detecting early signs of an outbreak in a viral process is challenging due to its exponential nature, yet crucial given the benefits to public health it can provide. If available, the network structure where infection happens can provide rich information about the very early stages of viral outbreaks. For example, more central nodes have been used as social network sensors in biological or informational diffusion processes to detect early contagious outbreaks.</description>
+    </item>
+    
+    <item>
+      <title>Social networks as economic and social sensors</title>
+      <link>http://estebanmoro.org/post/2019-02-02-social-networks-as-sensors/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2019-02-02-social-networks-as-sensors/</guid>
+      <description>Temporal, structural and activity patterns in social networks are related to human behavior. Thus, networks do have different shape and dynamics under different exogenous and endogenous shocks or conditions. In the last years we have addressed the question of whether we can use our understanding of social networks to anticipate, predict or measure important phenomena as information propagation, disaster damage, unemployment shocks, weather conditions, gender digital divide, etc.
+For example in a series of papers, we demonstrated for the first time the ability of the so-called &amp;ldquo;friendship paradox&amp;rdquo; in social networks to get better collection of users (sensors) that can anticipate meme, news or event-related information propagation in networks.</description>
+    </item>
+    
+    <item>
+      <title>News or social media? Socio-economic divide of mobile service consumption</title>
+      <link>http://estebanmoro.org/post/2021-12-01-news-or-social-media-socio-economic-divide-of-mobile-service-consumption/</link>
+      <pubDate>Wed, 01 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2021-12-01-news-or-social-media-socio-economic-divide-of-mobile-service-consumption/</guid>
+      <description>Authors: Iñaki Ucar, Marco Gramaglia, Marco Fiore, Zbigniew Smoreda, and Esteban Moro Publication: J. R. Soc. Interface (2021). Link
+Abstract: Reliable and timely information on socio-economic status and divides is critical to social and economic research and policing. Novel data sources from mobile communication platforms have enabled new cost-effective approaches and models to investigate social disparity, but their lack of interpretability, accuracy or scale has limited their relevance to date.</description>
+    </item>
+    
+    <item>
+      <title>Segregated interactions in urban and online space</title>
+      <link>http://estebanmoro.org/post/2020-07-10-segregated-interactions-in-urban-and-online-space/</link>
+      <pubDate>Fri, 10 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2020-07-10-segregated-interactions-in-urban-and-online-space/</guid>
+      <description>Authors: Xiaowen Dong , Alfredo J. Morales, Eaman Jahani, Esteban Moro, Bruno Lepri, Burcin Bozkaya, Carlos Sarraute, Yaneer Bar-Yam and Alex Pentland Publication: EPJ Data Science 9, Article number: 20 LINK
+Abstract: Urban income segregation is a widespread phenomenon that challenges societies across the globe. Classical studies on segregation have largely focused on the geographic distribution of residential neighborhoods rather than on patterns of social behaviors and interactions. In this study, we analyze segregation in economic and social interactions by observing credit card transactions and Twitter mentions among thousands of individuals in three culturally different metropolitan areas.</description>
+    </item>
+    
+    <item>
+      <title>Analyzing gender inequality through large-scale Facebook advertising data</title>
+      <link>http://estebanmoro.org/post/2018-06-19-analyzing-gender-inequality-through-large-scale-facebook-advertising-data/</link>
+      <pubDate>Tue, 19 Jun 2018 21:34:10 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2018-06-19-analyzing-gender-inequality-through-large-scale-facebook-advertising-data/</guid>
+      <description>Authors: David Garcia, Yonas Mitike Kassa, Angel Cuevas, Manuel Cebrian, Esteban Moro, Iyad Rahwan, and Ruben Cuevas
+Journal: PNAS June 19, 2018. 201717781. LINK
+Abstract: Online social media are information resources that can have a transformative power in society. While the Web was envisioned as an equalizing force that allows everyone to access information, the digital divide prevents large amounts of people from being present online. Online social media, in particular, are prone to gen- der inequality, an important issue given the link between social media use and employment.</description>
+    </item>
+    
+    <item>
+      <title>Weather impacts expressed sentiment</title>
+      <link>http://estebanmoro.org/post/2018-04-28-weather-impacts-expressed-sentiment/</link>
+      <pubDate>Sat, 28 Apr 2018 08:56:46 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2018-04-28-weather-impacts-expressed-sentiment/</guid>
+      <description>Authors: Patrick Baylis, Nick Obradovich, Yury Kryvasheyeu, Haohui Chen, Lorenzo Coviello, Esteban Moro, Manuel Cebrian, James H. Fowler
+Journal: PLoS ONE 13(4): e0195750 (2018) LINK
+Abstract: We conduct the largest ever investigation into the relationship between meteorological con- ditions and the sentiment of human expressions. To do this, we employ over three and a half billion social media posts from tens of millions of individuals from both Facebook and Twitter between 2009 and 2016.</description>
+    </item>
+    
+    <item>
+      <title>Rapid assessment of disaster damage using social media activity</title>
+      <link>http://estebanmoro.org/post/2016-03-14-rapid-assessment-of-disaster-damage/</link>
+      <pubDate>Mon, 14 Mar 2016 09:06:19 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2016-03-14-rapid-assessment-of-disaster-damage/</guid>
+      <description>Authors: Yury Kryvasheyeu1, Haohui Chen, Nick Obradovich, Esteban Moro, Pascal Van Hentenryck, James Fowler and Manuel Cebrian
+Journal: Science Advances 11 Mar 2016: Vol. 2, no. 3, e1500779 (2016) LINK
+Abstract: Could social media data aid in disaster response and damage assessment? Countries face both an increasing frequency and an increasing intensity of natural disasters resulting from climate change. During such events, citizens turn to social media platforms for disaster-related communication and information.</description>
+    </item>
+    
+  </channel>
+</rss>

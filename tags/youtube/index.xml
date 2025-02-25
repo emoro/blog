@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>youtube on </title>
+    <link>http://estebanmoro.org/tags/youtube/</link>
+    <description>Recent content in youtube on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Mon, 09 Oct 2006 08:09:49 +0000</lastBuildDate><atom:link href="http://estebanmoro.org/tags/youtube/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Superconductivy Live!</title>
+      <link>http://estebanmoro.org/2006/10/superconductivy-live/</link>
+      <pubDate>Mon, 09 Oct 2006 08:09:49 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/2006/10/superconductivy-live/</guid>
+      <description>It is always amazing to browse through YouTube, specially if you are looking for science material. Here is an example of superconductivity: take a superconductor and a magnet at room temperature. Nothing happens. Now cool down the superconductor using liquid nitrogen. The superconductor starts &amp;ldquo;superconducting&amp;rdquo; and boom! here comes in the Meissner effect. As always, a picture (movie) is better than a page of equations to show how wonderful physics is.</description>
+    </item>
+    
+  </channel>
+</rss>

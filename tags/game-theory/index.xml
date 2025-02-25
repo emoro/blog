@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Game Theory on </title>
+    <link>http://estebanmoro.org/tags/game-theory/</link>
+    <description>Recent content in Game Theory on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Mon, 01 Dec 2008 07:40:05 +0000</lastBuildDate><atom:link href="http://estebanmoro.org/tags/game-theory/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Is Game Theory a scientific theory?</title>
+      <link>http://estebanmoro.org/2008/12/is-game-theory-a-scientific-theory/</link>
+      <pubDate>Mon, 01 Dec 2008 07:40:05 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/2008/12/is-game-theory-a-scientific-theory/</guid>
+      <description>A wonderful quote about the nature of Game Theory
+Game theory is no doubt wonderful for telling stories. However, it flunks the main test of any scientific theory: The ability to make empirically testable predictions. In most real-life situations, many different outcomes -- from full cooperation to near-disastrous conflict -- are consistent with the game-theory version of rationality.  by Michael Mandel, on Kahneman and Smith 2002 Nobel Prize in Economics.</description>
+    </item>
+    
+    <item>
+      <title>The Minority Game: an introductory guide</title>
+      <link>http://estebanmoro.org/post/2004-08-31-the-minority-game-an-introductory-guide/</link>
+      <pubDate>Tue, 31 Aug 2004 21:23:29 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2004-08-31-the-minority-game-an-introductory-guide/</guid>
+      <description>Authors: Esteban Moro
+Book: Advances in Condensed Matter and __Statistical Physics, _E. Korutcheva and R. Cuerno eds. (Nova Science Publishers, New York 2004). LINK | arXiv
+Abstract: The Minority Game is a simple model for the collective behavior of agents in an idealized situation where they have to compete through adaptation for a finite resource. This review summarizes the statistical mechanics community efforts to clear up and understand the behavior of this model.</description>
+    </item>
+    
+  </channel>
+</rss>

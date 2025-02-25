@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Stochastic differential equation on </title>
+    <link>http://estebanmoro.org/tags/stochastic-differential-equation/</link>
+    <description>Recent content in Stochastic differential equation on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Thu, 04 Dec 2008 16:45:32 +0000</lastBuildDate><atom:link href="http://estebanmoro.org/tags/stochastic-differential-equation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introduction to stochastic differential equations</title>
+      <link>http://estebanmoro.org/2008/12/introduction-to-stochastic-differential-equations/</link>
+      <pubDate>Thu, 04 Dec 2008 16:45:32 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/2008/12/introduction-to-stochastic-differential-equations/</guid>
+      <description>Stochastic differential equations (SDEs) are basically inhomogenous ordinary differential equations that depend on an external stochastic process.
+Typically, that stochastic process is white noise, which is the mathematical idealization of the noise found in nature. This idealization is handy, because it simplifies the mathematical description. However, this idealization comes at some cost: traditional calculus is no longer valid and you have to use the so-call Itô calculus. This introduces some non intuitive changes.</description>
+    </item>
+    
+    <item>
+      <title>Kiyoshi Itô, 93, dies</title>
+      <link>http://estebanmoro.org/2008/11/kiyoshi-ito-93-dies/</link>
+      <pubDate>Sun, 30 Nov 2008 22:17:18 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/2008/11/kiyoshi-ito-93-dies/</guid>
+      <description>November was a rather sad month in the world of stochastic differential equations. In the 26th we were suppose to be celebrating the birth of one of the best mathematicians in history, Norbert Wiener, who gives name to the Wiener process, usually denoted W(t). However, in the 10th, Kiyoshi Itô, the father of stochastic differential equations, passed away. Interestingly both are present in a simple stochastic differential equation like this</description>
+    </item>
+    
+    <item>
+      <title>Spreading of Viscous Fluid Drops on a Solid Substrate Assisted by Thermal Fluctuations</title>
+      <link>http://estebanmoro.org/post/2006-02-09-spreading-of-viscous-fluid-drops-on-a-solid-substrate-assisted-by-thermal-fluctuations/</link>
+      <pubDate>Thu, 09 Feb 2006 09:19:42 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2006-02-09-spreading-of-viscous-fluid-drops-on-a-solid-substrate-assisted-by-thermal-fluctuations/</guid>
+      <description>Authors: Benny Davidovitch, Esteban Moro, and Howard A. Stone
+Journal: Physical Review Letters 95, 244505 (2005). LINK
+Abstract: We study the spreading of viscous drops on a solid substrate, taking into account the effects of thermal fluctuations in the fluid momentum. A nonlinear stochastic lubrication equation is derived and studied using numerical simulations and scaling analysis. We show that asymptotically spreading drops admit self-similar shapes, whose average radii can increase at rates much faster than these predicted by Tanner’s law.</description>
+    </item>
+    
+    <item>
+      <title>Boundary preserving semi-analytical numerical algorithms for stochastic differential equations</title>
+      <link>http://estebanmoro.org/post/2005-08-01-boundary-preserving-semi-analytical-numerical-algorithms-for-stochastic-differential-equations/</link>
+      <pubDate>Mon, 01 Aug 2005 07:40:15 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2005-08-01-boundary-preserving-semi-analytical-numerical-algorithms-for-stochastic-differential-equations/</guid>
+      <description>Authors: Esteban Moro and Henri Schurz
+Journal: SIAM Journal of Scientific Computing, Volume 29 Issue 4, Pages 1525-1549 (2007). LINK | arXiv
+Abstract: Construction of splitting-step methods and properties of related non-negativity andboundary preserving numerical algorithms for solving stochastic differential equations (SDEs) of Ito-type are discussed. We present convergence proofs for a newly designed splitting-step algorithm and simulation studies for numerous numerical examples ranging from stochastic dynamics occurring in asset pricing theory in mathematical finance (SDEs of CIR and CEV models) to measure-valued diffusion and superBrownian motion (SPDEs) as met in biology and physics.</description>
+    </item>
+    
+    <item>
+      <title>Numerical schemes for continuum models of reaction-diffusion systems subject to internal noise</title>
+      <link>http://estebanmoro.org/post/2004-10-23-numerical-schemes-for-continuum-models-of-reaction-diffusion-systems-subject-to-internal-noise/</link>
+      <pubDate>Sat, 23 Oct 2004 09:41:58 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2004-10-23-numerical-schemes-for-continuum-models-of-reaction-diffusion-systems-subject-to-internal-noise/</guid>
+      <description>Authors: Esteban Moro
+Journal: Physical Review E (Rapid Communication) 70, 045102 (2004). LINK | arXiv
+Abstract: We present numerical schemes to integrate stochastic partial differential equations which describe the spatiotemporal dynamics of reaction-diffusion problems under the effect of internal fluctuations. The schemes conserve the non-negativity of the solutions and incorporate the Poissonian nature of internal fluctuations at small densities, their performance being limited by the level of approximation of density fluctuations at small scales.</description>
+    </item>
+    
+    <item>
+      <title>Emergence of pulled fronts in fermionic microscopic particle models</title>
+      <link>http://estebanmoro.org/post/2003-08-25-emergence-of-pulled-fronts-in-fermionic-microscopic-particle-models/</link>
+      <pubDate>Mon, 25 Aug 2003 09:44:10 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2003-08-25-emergence-of-pulled-fronts-in-fermionic-microscopic-particle-models/</guid>
+      <description>Authors: Esteban Moro
+Phys. Rev. E, Rapid Communication, 68, 025102 (2003). LINK | arXiv
+Abstract:
+We study the emergence and dynamics of pulled fronts described by the Fisher-Kolmogorov-Petrovsky-Piscounov (FKPP) equation in the microscopic reaction-diffusion process \(A\leftrightarrow A+A\) on the lattice when only a particle is allowed per site. To this end we identify the parameter that controls the strength of internal fluctuations in this model, namely, the number of particles per correlated volume.</description>
+    </item>
+    
+    <item>
+      <title>Defect formation in the Swift-Hohenberg equation</title>
+      <link>http://estebanmoro.org/post/2003-03-11-defect-formation-in-the-swift-hohenberg-equation/</link>
+      <pubDate>Tue, 11 Mar 2003 09:45:25 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2003-03-11-defect-formation-in-the-swift-hohenberg-equation/</guid>
+      <description>Authors: Tobias Galla and Esteban Moro
+Journal: Phys. Rev. E, Rapid Communication 67, 035101 (2003). LINK | arXiv
+Abstract: We study numerically and analytically the dynamics of defect formation during a finite-time quench of the two-dimensional Swift-Hohenberg (SH) model of Rayleigh-Bénard convection. We find that the Kibble-Zurek picture of defect formation can be applied to describe the density of defects produced during the quench. Our study reveals the relevance of two factors: the effect of local variations of the striped patterns within defect-free domains and the presence of both pointlike and extended defects.</description>
+    </item>
+    
+  </channel>
+</rss>

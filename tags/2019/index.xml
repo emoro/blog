@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2019 on </title>
+    <link>http://estebanmoro.org/tags/2019/</link>
+    <description>Recent content in 2019 on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Tue, 30 Apr 2019 00:00:00 +0000</lastBuildDate><atom:link href="http://estebanmoro.org/tags/2019/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2019 Pictures</title>
+      <link>http://estebanmoro.org/post/2019-04-30-2019-pictures/</link>
+      <pubDate>Tue, 30 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2019-04-30-2019-pictures/</guid>
+      <description>Some pictures of different activities during this year 2019
+Talk at the Spatial Data Science Conference in Columbia, NY, October 2019. 450 participants, organized by Carto. Great conference!
+Presenting our Atlas of Inequality tool at Imagination in Action, April 2019</description>
+    </item>
+    
+  </channel>
+</rss>

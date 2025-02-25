@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Simulation on </title>
+    <link>http://estebanmoro.org/tags/simulation/</link>
+    <description>Recent content in Simulation on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Mon, 14 Mar 2016 09:06:19 +0000</lastBuildDate><atom:link href="http://estebanmoro.org/tags/simulation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fully nonlinear dynamics of stochastic thin-film dewetting</title>
+      <link>http://estebanmoro.org/post/2015-12-28-fully-nonlinear-dynamics-of-stochastic-thin-film-dewetting/</link>
+      <pubDate>Mon, 14 Mar 2016 09:06:19 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2015-12-28-fully-nonlinear-dynamics-of-stochastic-thin-film-dewetting/</guid>
+      <description>Authors: S. Nesic, R. Cuerno, E. Moro, and L. Kondic
+Journal: Physical Review E 92, 061002(R) LINK | PDF
+Abstract: The spontaneous formation of droplets via dewetting of a thin fluid film from a solid substrate allows materials nanostructuring. Often, it is crucial to be able to control the evolution, and to produce patterns characterized by regularly spaced droplets. While thermal fluctuations are expected to play a role in the dewetting process, their relevance has remained poorly understood, particularly during the nonlinear stages of evolution that involve droplet formation.</description>
+    </item>
+    
+    <item>
+      <title>The speed and reach of forwarded emails, rumors, and hoaxes in electronic social networks</title>
+      <link>http://estebanmoro.org/2009/08/the-speed-and-reach-of-forwarded-emails-rumors-and-hoaxes-in-electronic-social-networks/</link>
+      <pubDate>Tue, 04 Aug 2009 11:23:36 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/2009/08/the-speed-and-reach-of-forwarded-emails-rumors-and-hoaxes-in-electronic-social-networks/</guid>
+      <description>We have just published an experimental/theoretical work on the speed of information diffusion in social networks in Physical Review Letters. Specifically we have studied the impact of the heterogeneity of human activity in propagation of emails, rumors, hoaxes, etc. Tracking email marketing campaigns, executed by IBM Corporation in 11 European countries, we were able to compare their viral propagation with our theory (see below the campaigns details).
+The results are very simple.</description>
+    </item>
+    
+    <item>
+      <title>Specialization of strategies and herding behavior of trading firms in a financial market</title>
+      <link>http://estebanmoro.org/post/2007-07-04-specialization-of-strategies-and-herding-behavior-of-trading-firms-in-a-financial-market/</link>
+      <pubDate>Wed, 04 Jul 2007 20:19:35 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2007-07-04-specialization-of-strategies-and-herding-behavior-of-trading-firms-in-a-financial-market/</guid>
+      <description>Authors: Fabrizio Lillo, Esteban Moro, Gabriella Vaglica y Rosario Mantegna
+Journal: New Journal of Physics 10 (2008) 043019 LINK arXiv
+Abstract: Agent-based models of ﬁnancial markets usually make assumptions about agent&amp;rsquo;s preferred stylized strategies. Empirical validations of these assumptions have not been performed so far on a full-market scale. Here we present a comprehensive study of the resulting strategies followed by the ﬁrms which are members of the Spanish Stock Exchange.</description>
+    </item>
+    
+    <item>
+      <title>Writing bad letters of recommendation: the story of Bachelier and Lévy</title>
+      <link>http://estebanmoro.org/2006/03/writing-bad-letters-of-recommendation-the-story-of-bachelier-and-levy/</link>
+      <pubDate>Wed, 15 Mar 2006 08:25:04 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/2006/03/writing-bad-letters-of-recommendation-the-story-of-bachelier-and-levy/</guid>
+      <description>Take a coin and toss it a number \(N\) of times in a time interval of duration \(T\). Suppose that every time you get head you win \(a\) euros and that you lose the same amount of money when you get tail. Then your capital is a random process with ups and dows like this:
+ ![](/img/posts/figurebachelier.jpg) This process is a stochastic process usually called &amp;ldquo;Random Walk&amp;rdquo; and its properties depend on the parameters $N, a $ and \(T\).</description>
+    </item>
+    
+    <item>
+      <title>Spreading of Viscous Fluid Drops on a Solid Substrate Assisted by Thermal Fluctuations</title>
+      <link>http://estebanmoro.org/post/2006-02-09-spreading-of-viscous-fluid-drops-on-a-solid-substrate-assisted-by-thermal-fluctuations/</link>
+      <pubDate>Thu, 09 Feb 2006 09:19:42 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2006-02-09-spreading-of-viscous-fluid-drops-on-a-solid-substrate-assisted-by-thermal-fluctuations/</guid>
+      <description>Authors: Benny Davidovitch, Esteban Moro, and Howard A. Stone
+Journal: Physical Review Letters 95, 244505 (2005). LINK
+Abstract: We study the spreading of viscous drops on a solid substrate, taking into account the effects of thermal fluctuations in the fluid momentum. A nonlinear stochastic lubrication equation is derived and studied using numerical simulations and scaling analysis. We show that asymptotically spreading drops admit self-similar shapes, whose average radii can increase at rates much faster than these predicted by Tanner’s law.</description>
+    </item>
+    
+    <item>
+      <title>Boundary preserving semi-analytical numerical algorithms for stochastic differential equations</title>
+      <link>http://estebanmoro.org/post/2005-08-01-boundary-preserving-semi-analytical-numerical-algorithms-for-stochastic-differential-equations/</link>
+      <pubDate>Mon, 01 Aug 2005 07:40:15 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2005-08-01-boundary-preserving-semi-analytical-numerical-algorithms-for-stochastic-differential-equations/</guid>
+      <description>Authors: Esteban Moro and Henri Schurz
+Journal: SIAM Journal of Scientific Computing, Volume 29 Issue 4, Pages 1525-1549 (2007). LINK | arXiv
+Abstract: Construction of splitting-step methods and properties of related non-negativity andboundary preserving numerical algorithms for solving stochastic differential equations (SDEs) of Ito-type are discussed. We present convergence proofs for a newly designed splitting-step algorithm and simulation studies for numerous numerical examples ranging from stochastic dynamics occurring in asset pricing theory in mathematical finance (SDEs of CIR and CEV models) to measure-valued diffusion and superBrownian motion (SPDEs) as met in biology and physics.</description>
+    </item>
+    
+    <item>
+      <title>Numerical schemes for continuum models of reaction-diffusion systems subject to internal noise</title>
+      <link>http://estebanmoro.org/post/2004-10-23-numerical-schemes-for-continuum-models-of-reaction-diffusion-systems-subject-to-internal-noise/</link>
+      <pubDate>Sat, 23 Oct 2004 09:41:58 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2004-10-23-numerical-schemes-for-continuum-models-of-reaction-diffusion-systems-subject-to-internal-noise/</guid>
+      <description>Authors: Esteban Moro
+Journal: Physical Review E (Rapid Communication) 70, 045102 (2004). LINK | arXiv
+Abstract: We present numerical schemes to integrate stochastic partial differential equations which describe the spatiotemporal dynamics of reaction-diffusion problems under the effect of internal fluctuations. The schemes conserve the non-negativity of the solutions and incorporate the Poissonian nature of internal fluctuations at small densities, their performance being limited by the level of approximation of density fluctuations at small scales.</description>
+    </item>
+    
+    <item>
+      <title>Hybrid method for simulating front propagation in reaction-diffusion systems</title>
+      <link>http://estebanmoro.org/post/2004-06-01-hybrid-method-for-simulating-front-propagation-in-reaction-diffusion-systems/</link>
+      <pubDate>Tue, 01 Jun 2004 09:56:29 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2004-06-01-hybrid-method-for-simulating-front-propagation-in-reaction-diffusion-systems/</guid>
+      <description>Authors: Esteban Moro
+Journal: Physical Review E, Rapid Communication 69, 060101 (2004). LINK | arXiv
+Abstract: We study the propagation of pulled fronts in the \(A\leftrightarrow A+A\) microscopic reaction-diffusion process using Monte Carlo simulations. In the mean field approximation the process is described by the deterministic Fisher-Kolmogorov-Petrovsky-Piscounov equation. In particular, we concentrate on the corrections to the deterministic behavior due to the number of particles per correlated volume \(\Omega\). By means of a hybrid simulation scheme, we manage to reach large macroscopic values of \(\Omega\), which allows us to show the importance in the dynamics of microscopic pulled fronts of the interplay of microscopic fluctuations and their macroscopic relaxation.</description>
+    </item>
+    
+    <item>
+      <title>Emergence of pulled fronts in fermionic microscopic particle models</title>
+      <link>http://estebanmoro.org/post/2003-08-25-emergence-of-pulled-fronts-in-fermionic-microscopic-particle-models/</link>
+      <pubDate>Mon, 25 Aug 2003 09:44:10 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2003-08-25-emergence-of-pulled-fronts-in-fermionic-microscopic-particle-models/</guid>
+      <description>Authors: Esteban Moro
+Phys. Rev. E, Rapid Communication, 68, 025102 (2003). LINK | arXiv
+Abstract:
+We study the emergence and dynamics of pulled fronts described by the Fisher-Kolmogorov-Petrovsky-Piscounov (FKPP) equation in the microscopic reaction-diffusion process \(A\leftrightarrow A+A\) on the lattice when only a particle is allowed per site. To this end we identify the parameter that controls the strength of internal fluctuations in this model, namely, the number of particles per correlated volume.</description>
+    </item>
+    
+    <item>
+      <title>Defect formation in the Swift-Hohenberg equation</title>
+      <link>http://estebanmoro.org/post/2003-03-11-defect-formation-in-the-swift-hohenberg-equation/</link>
+      <pubDate>Tue, 11 Mar 2003 09:45:25 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2003-03-11-defect-formation-in-the-swift-hohenberg-equation/</guid>
+      <description>Authors: Tobias Galla and Esteban Moro
+Journal: Phys. Rev. E, Rapid Communication 67, 035101 (2003). LINK | arXiv
+Abstract: We study numerically and analytically the dynamics of defect formation during a finite-time quench of the two-dimensional Swift-Hohenberg (SH) model of Rayleigh-Bénard convection. We find that the Kibble-Zurek picture of defect formation can be applied to describe the density of defects produced during the quench. Our study reveals the relevance of two factors: the effect of local variations of the striped patterns within defect-free domains and the presence of both pointlike and extended defects.</description>
+    </item>
+    
+    <item>
+      <title>Internal Fluctuations Effects on Fisher Waves</title>
+      <link>http://estebanmoro.org/post/2001-11-14-internal-fluctuations-effects-on-fisher-waves/</link>
+      <pubDate>Wed, 14 Nov 2001 09:55:40 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2001-11-14-internal-fluctuations-effects-on-fisher-waves/</guid>
+      <description>Authors: Esteban Moro
+Journal: Physical Review Letters 87, 238303 (2001) LINK | arXiv
+Abstract: We study the diffusion-limited reaction \(A \leftrightarrow A = A\) in various spatial dimensions to observe the effect of internal fluctuations on the interface between stable and unstable phases. We find that, similar to what has been observed in d = 1 dimensions, internal fluctuations modify the mean-field predictions for this process, which is given by Fisher’s reaction-diffusion equation.</description>
+    </item>
+    
+  </channel>
+</rss>

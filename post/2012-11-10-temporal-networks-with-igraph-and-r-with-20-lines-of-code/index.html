@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en-US" />
+<head>
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+    <title>Temporal networks with igraph and R (with 20 lines of code!) &middot; </title>
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="http://estebanmoro.org/favicon.ico" />
+    <link rel="canonical" href="http://estebanmoro.org/post/2012-11-10-temporal-networks-with-igraph-and-r-with-20-lines-of-code/" />
+
+     <meta name="description" content="**UPDATE**: the version of the R code in this post does not work with newer versions of the igraph package (\ 1.0). I have posted an updated version of this pos" /> 
+
+     
+    
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:image" content="http://estebanmoro.org/img/posts/temporal_networks.png"/>
+    
+ 
+    <meta name="twitter:title" content="Temporal networks with igraph and R (with 20 lines of code!)"/>
+    <meta name="twitter:description" content="**UPDATE**: the version of the R code in this post does not work with newer versions of the igraph package (\ 1.0). I have posted an updated version of this pos"/>
+    <meta name="twitter:url" content="http://estebanmoro.org/post/2012-11-10-temporal-networks-with-igraph-and-r-with-20-lines-of-code/" />
+    <meta name="twitter:site" content="@estebanmoro"/>
+
+    <meta property="og:site_name" content="" />
+    <meta property="og:title" content="Temporal networks with igraph and R (with 20 lines of code!) &middot; Implicit None" />
+    <meta property="og:url" content="http://estebanmoro.org/post/2012-11-10-temporal-networks-with-igraph-and-r-with-20-lines-of-code/" />
+    
+
+    <meta property="og:type" content="article" />
+    <meta property="og:description" content="**UPDATE**: the version of the R code in this post does not work with newer versions of the igraph package (\ 1.0). I have posted an updated version of this pos" />
+
+    <meta property="article:published_time" content="2012-11-10T23:55:46Z" />
+    <meta property="article:tag" content="R" /><meta property="article:tag" content="Temporal Networks" /><meta property="article:tag" content="igraph" />
+
+    <meta property="og:image" content="http://estebanmoro.org/img/posts/temporal_networks.png"/>
+
+
+
+    <meta name="generator" content="Hugo 0.92.2" />
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" type="text/css" href="http://estebanmoro.org/built/screen.css" /> 
+    <link rel="stylesheet" type="text/css" href="http://estebanmoro.org/css/casper-two.css" /> 
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/tomorrow-night-bright.min.css" />
+     <link rel="stylesheet" href="http://estebanmoro.org/css/overrides.css" /> 
+
+     
+
+</head>
+
+
+<body class="post-template">
+  <div class="site-wrapper"> 
+
+<header class="site-header outer">
+  <div class="inner">
+    <nav class="site-nav">
+      <div class="site-nav-left">
+
+        <ul class="nav" role="menu">
+        
+        
+        
+            <li class="" role="menuitem">
+              <a href="http://estebanmoro.org/">Home</a>
+            </li>
+        
+            <li class="" role="menuitem">
+              <a href="http://estebanmoro.org/categories/publications">Publications</a>
+            </li>
+        
+            <li class="" role="menuitem">
+              <a href="http://estebanmoro.org/categories/projects">Projects</a>
+            </li>
+        
+            <li class="" role="menuitem">
+              <a href="http://estebanmoro.org/categories/science">Science</a>
+            </li>
+        
+            <li class="" role="menuitem">
+              <a href="http://estebanmoro.org/categories/media">Media</a>
+            </li>
+        
+            <li class="" role="menuitem">
+              <a href="http://estebanmoro.org/categories/photos">Photos</a>
+            </li>
+        
+            <li class="" role="menuitem">
+              <a href="http://estebanmoro.org/categories/talks">Talks</a>
+            </li>
+        
+            <li class="" role="menuitem">
+              <a href="http://estebanmoro.org/categories/positions">Positions</a>
+            </li>
+        
+            <li class="" role="menuitem">
+              <a href="http://estebanmoro.org/categories/r">R</a>
+            </li>
+        
+            <li class="" role="menuitem">
+              <a href="http://estebanmoro.org/about/">About/CV</a>
+            </li>
+        
+            <li class="" role="menuitem">
+              <a href="http://estebanmoro.org/reading/">Reading</a>
+            </li>
+        
+      </ul></div>
+
+      <div class="site-nav-right">
+        <div class="social-links">
+                    
+
+                    <a class="social-link social-link-tw" href="https://twitter.com/estebanmoro" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M30.063 7.313c-.813 1.125-1.75 2.125-2.875 2.938v.75c0 1.563-.188 3.125-.688 4.625a15.088 15.088 0 0 1-2.063 4.438c-.875 1.438-2 2.688-3.25 3.813a15.015 15.015 0 0 1-4.625 2.563c-1.813.688-3.75 1-5.75 1-3.25 0-6.188-.875-8.875-2.625.438.063.875.125 1.375.125 2.688 0 5.063-.875 7.188-2.5-1.25 0-2.375-.375-3.375-1.125s-1.688-1.688-2.063-2.875c.438.063.813.125 1.125.125.5 0 1-.063 1.5-.25-1.313-.25-2.438-.938-3.313-1.938a5.673 5.673 0 0 1-1.313-3.688v-.063c.813.438 1.688.688 2.625.688a5.228 5.228 0 0 1-1.875-2c-.5-.875-.688-1.813-.688-2.75 0-1.063.25-2.063.75-2.938 1.438 1.75 3.188 3.188 5.25 4.25s4.313 1.688 6.688 1.813a5.579 5.579 0 0 1 1.5-5.438c1.125-1.125 2.5-1.688 4.125-1.688s3.063.625 4.188 1.813a11.48 11.48 0 0 0 3.688-1.375c-.438 1.375-1.313 2.438-2.563 3.188 1.125-.125 2.188-.438 3.313-.875z"/></svg></a>
+
+                    <a class="social-link" href="https://github.com/emoro" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></a>
+
+                    <a class="social-link" href="https://www.linkedin.com/in/esteban-moro" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 50 512 512"><path d="M150.65,100.682c0,27.992-22.508,50.683-50.273,50.683c-27.765,0-50.273-22.691-50.273-50.683 C50.104,72.691,72.612,50,100.377,50C128.143,50,150.65,72.691,150.65,100.682z M143.294,187.333H58.277V462h85.017V187.333z M279.195,187.333h-81.541V462h81.541c0,0,0-101.877,0-144.181c0-38.624,17.779-61.615,51.807-61.615 c31.268,0,46.289,22.071,46.289,61.615c0,39.545,0,144.181,0,144.181h84.605c0,0,0-100.344,0-173.915 s-41.689-109.131-99.934-109.131s-82.768,45.369-82.768,45.369V187.333z" /></svg></a>
+
+                    
+        </div>  
+        
+        <a class="subscribe-button" href="http://estebanmoro.org/index.xml">Subscribe</a>
+            
+      </div>
+
+    </nav>  
+
+  </div>
+</header>
+
+<main id="site-main" class="site-main outer" role="main">
+  <div class="inner">
+    
+      <article class="post-full post"> 
+    <header class="post-full-header">
+        <section class="post-full-meta">
+            <time class="post-full-meta-date" datetime="2012-11-10">10 November 2012</time>
+                <span class="date-divider">/</span> <a href="http://estebanmoro.org/tags/r/">#R</a>&nbsp;<a href="http://estebanmoro.org/tags/temporal-networks/">#Temporal Networks</a>&nbsp;
+        </section>
+        <h1 class="post-full-title">Temporal networks with igraph and R (with 20 lines of code!)</h1>
+    </header>
+    
+    <figure class="post-full-image" style="background-image: url(http://estebanmoro.org/img/posts/temporal_networks.png)">
+    </figure>
+
+    <section class="post-full-content">
+        <div class="kg-card-markdown">
+        <link href="http://estebanmoro.org/rmarkdown-libs/vembedr/css/vembedr.css" rel="stylesheet" />
+<blockquote>
+**UPDATE**: the version of the R code in this post does not work with newer versions of the igraph package (\> 1.0). I have posted an updated version of this post here: [Temporal networks with R and igraph (updated)](/post/2015-12-21-temporal-networks-with-r-and-igraph-updated/). Please visit the new post to use the new code and follow the discussion there.
+</blockquote>
+<p>In my <a href="http://estebanmoro.org/post/2012-10-29-temporal-network-of-information-diffusion-in-twitter/">last post</a> about how a twitter conversation unfolds in time on Twitter, the dynamical nature of information diffusion in twitter was illustrated with a video of the temporal network of interactions (RTs) between accounts. The temporal evolution of the network yields to another perspective of social structure and, in some cases, aggregating the data in a time window might blur out important temporal structures on information diffusion, community or opinion formation, etc. Although many of the commercial and free <a href="http://en.wikipedia.org/wiki/Social_network_analysis_software">Social Network Analysis software</a> have tools to visualize static networks, there are no so many options out there for dynamical networks. And in some cases they have very limited options for their “dynamical layout”. A notable exception is <a href="http://www.stanford.edu/group/sonia/documentation/install.html">SoNIA</a>, the Java-based package, which unfortunately is <a href="http://sourceforge.net/projects/sonia/files/sonia/sonia_1_2_2_unstable/">not updated frequently</a>. Another possibility is to work with the <a href="http://gephi.org/2011/gsoc-mid-term-a-new-timeline/">Timeline plugin</a> in Gephi. However there is no video recording possibility for the animations. In this post I will show you how to render the network at each time step and how to encode all snapshots into a video file using the <a href="http://igraph.sourceforge.net">igraph package</a> in R and ffmpeg. The idea is very simple</p>
+<ul>
+<li>generate a number of snapshots of the network at different times using R and igraph, and</li>
+<li>then put them together in a video file using ffmpeg.</li>
+</ul>
+<p>For 1. we need to draw the temporal network at each snapshot. Given the set of nodes and edges present at a given time, we have to find a layout for that instantaneous graph. The layout is a two-dimensional visualization of the nodes and edges in the plane and there are <a href="http://en.wikipedia.org/wiki/Graph_drawing">many algorithms</a> to produce it. The package igraph contains mainly <a href="http://en.wikipedia.org/wiki/Force-based_algorithms_(graph_drawing)">Force based algorithms</a> like for example the Kamada-Kawai or Fruchterman-Reingold ones. Your millage may vary from one algorithm to another since visualizations depend on the number of nodes, clustering and/or community structure of the network. Sounds easy, but there two big problems with this approach:</p>
+<ul>
+<li>Force based layout algorithms consist on performing a number of iterations aimed to minimize the energy of physical forces between nodes, and starting from an initial configuration which is typically a <em>random initial condition</em>. This means that even if your network does not evolve in time, successive calls to the layout algorithm will produce different results. In our temporal network case it means that the layout from one snapshot to the next one will be very different producing a swarm-of-bees kind of motion. For example, if you run this script you will see that the four layouts are very different:</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r"><span style="color:#a6e22e">library</span>(igraph)
+<span style="color:#a6e22e">par</span>(mfrow<span style="color:#f92672">=</span><span style="color:#a6e22e">c</span>(<span style="color:#ae81ff">2</span>,<span style="color:#ae81ff">2</span>),mar<span style="color:#f92672">=</span><span style="color:#a6e22e">c</span>(<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>), oma<span style="color:#f92672">=</span><span style="color:#a6e22e">c</span>(<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>))
+g <span style="color:#f92672">=</span> <span style="color:#a6e22e">watts.strogatz.game</span>(<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">20</span>,<span style="color:#ae81ff">3</span>,<span style="color:#ae81ff">0.4</span>)
+<span style="color:#a6e22e">for</span>(i in <span style="color:#ae81ff">1</span><span style="color:#f92672">:</span><span style="color:#ae81ff">4</span>) <span style="color:#a6e22e">plot</span>(g,layout<span style="color:#f92672">=</span>layout.fruchterman.reingold,margin<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>)
+</code></pre></div><img src="http://estebanmoro.org/post/2012-11-10-temporal-networks-with-igraph-and-r-with-20-lines-of-code_files/figure-html/unnamed-chunk-1-1.png" width="672" />
+<p>Luckily, in igraph 0.6 we can specify the initial position of the nodes for some layout functions: <code>layout.graphopt</code>, <code>layout.kamada.kawai</code> and <code>layout.fruchterman.reingold</code>. My personal experience is that <code>layout.graphopt</code> crashes in this 0.6 version (although it works on 0.5), so we are left with the other two algorithms. The plan (taken from <a href="https://vimeo.com/14922587">this original idea</a> of Tamás Nepusz, one of the developers of igraph) is to use the layout of the previous snapshot as the initial condition for the next snapshot layout so we have a smooth transtion from one to the other. In the example above, the implementation will be the following using the <code>start</code> parameter:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r"><span style="color:#a6e22e">par</span>(mfrow<span style="color:#f92672">=</span><span style="color:#a6e22e">c</span>(<span style="color:#ae81ff">2</span>,<span style="color:#ae81ff">2</span>),mar<span style="color:#f92672">=</span><span style="color:#a6e22e">c</span>(<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>), oma<span style="color:#f92672">=</span><span style="color:#a6e22e">c</span>(<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>))
+g <span style="color:#f92672">=</span> <span style="color:#a6e22e">watts.strogatz.game</span>(<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">20</span>,<span style="color:#ae81ff">3</span>,<span style="color:#ae81ff">0.4</span>)
+layout.old <span style="color:#f92672">=</span> <span style="color:#a6e22e">layout.fruchterman.reingold</span>(g)
+<span style="color:#a6e22e">for</span>(i in <span style="color:#ae81ff">1</span><span style="color:#f92672">:</span><span style="color:#ae81ff">4</span>){
+  layout.new <span style="color:#f92672">=</span> <span style="color:#a6e22e">layout.fruchterman.reingold</span>(g,params<span style="color:#f92672">=</span><span style="color:#a6e22e">list</span>(niter<span style="color:#f92672">=</span><span style="color:#ae81ff">10</span>,maxdelta<span style="color:#f92672">=</span><span style="color:#ae81ff">2</span>,start<span style="color:#f92672">=</span>layout.old))
+  <span style="color:#a6e22e">plot</span>(g,layout<span style="color:#f92672">=</span>layout.new)
+  layout.old <span style="color:#f92672">=</span> layout.new
+}
+</code></pre></div><p><img src="http://estebanmoro.org/img/posts/igraph_old4.png" alt=""></p>
+<p>Now you can see that the layouts are similar. There are two new parameters passed to the layout function: <code>niter = 10</code> specify the number of iterations (10) of the minimization of energy procedure in the force based algorithm. This number should be small, otherwise the final result will be very different from the initial condition. The same happens for the other parameter <code>maxdelta=2</code> which controls the maximum change in the position of the nodes allowed in the minimization procedure.</p>
+<ul>
+<li>The other problem is that in a temporal network nodes and/or edges appear and disappear dynamically. Thus the time dependent graph might have different number of nodes and/or edges from one snapshot to the next one. This means that the layout at a given snapshot cannot be used as the initial condition to generate next time layout, since the number of nodes can be different. My solution to this problem is to consider all (past/present/future) nodes/edges when calculating the layout but to display only present nodes/edges in the plot by making past and future nodes/edges transparent. This trick allows the reutilization of the layouts between steps, but it will produce a more or less steady visualization in which the layout at any given time is not related to the instantaneous structure of the temporal graph. To overcome this problem we take advantage of another property of force based algorithms: nodes which are connected attract each other along the edge. At a given instant, we could then modify the attraction between nodes along edges depending on whether the the edge is not present. In igraph 0.6, only the <code>layout.fruchterman.reingold</code> has this possibility through the parameter <code>weights</code>, a vector giving edge weights which are use to multiply the attraction along the edge. For example we could set weight equal to one if the edge is present and use zero weight for the rest. This will produce a layout in which present nodes are tightly connected while the past/future nodes are repelled from them. This effect dramatically highlights the appearance and disappearance of nodes, but could create too much confusion if there are many of those events.</li>
+</ul>
+<p>To test this ideas, we will work an important example in the theory of complex networks: the preferential attachment mechanism to generate scale-free networks, i.e. the <a href="http://en.wikipedia.org/wiki/BA_model">Barabási-Albert model</a>. In our implementation, we keep the mechanism very simple: starting from an initial core of nodes, at each time step we add a single node that connects to m existing nodes which are selected proportionally to the number of links that the existing nodes already have. This mechanism leads to heavily linked nodes (“hubs”) together with a large fraction of poorly connected nodes. A particular realization of this model can be found in the file <a href="https://%20github.com/emoro/temporal_networks/blob/master/edges.csv">edges.csv</a> below. The structure of the file is simple</p>
+<pre><code>##   id1 id2 time
+## 1   1   2    1
+## 2   1   3    1
+## 3   2   3    1
+## 4   5   3    2
+## 5   6   2    3
+## 6   7   2    4
+</code></pre>
+<p>each line of the form <code>id1 | id2 | time</code> indicates that a link between id1 and id2 appears at a particular time. Depending on the context this might represent that the tie was activated at that particular instant (for example if it is a RT between two twitter accounts) or that it was the time in which the edge appeared first (like in our Barabási-Albert model). Here is the code to generate the snapshots and producing a PNG picture for each of them:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r"><span style="color:#a6e22e">library</span>(igraph)
+
+<span style="color:#75715e">#load the edges with time stamp</span>
+<span style="color:#75715e">#there are three columns in edges: id1,id2,time</span>
+edges <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">read.table</span>(<span style="color:#e6db74">&#34;edges.csv&#34;</span>,header<span style="color:#f92672">=</span>T)
+
+<span style="color:#75715e">#generate the full graph</span>
+g <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">graph.edgelist</span>(<span style="color:#a6e22e">as.matrix</span>(edges[,<span style="color:#a6e22e">c</span>(<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">2</span>)]),directed<span style="color:#f92672">=</span>F)
+<span style="color:#a6e22e">E</span>(g)<span style="color:#f92672">$</span>time <span style="color:#f92672">&lt;-</span> edges[,<span style="color:#ae81ff">3</span>]
+
+<span style="color:#75715e">#generate a cool palette for the graph</span>
+YlOrBr <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">c</span>(<span style="color:#e6db74">&#34;#FFFFD4&#34;</span>, <span style="color:#e6db74">&#34;#FED98E&#34;</span>, <span style="color:#e6db74">&#34;#FE9929&#34;</span>, <span style="color:#e6db74">&#34;#D95F0E&#34;</span>, <span style="color:#e6db74">&#34;#993404&#34;</span>)
+YlOrBr.Lab <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">colorRampPalette</span>(YlOrBr, space <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Lab&#34;</span>)
+<span style="color:#75715e">#colors for the nodes are chosen from the very beginning</span>
+vcolor <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">rev</span>(<span style="color:#a6e22e">YlOrBr.Lab</span>(<span style="color:#a6e22e">vcount</span>(g)))
+
+<span style="color:#75715e">#time in the edges goes from 1 to 300. We kick off at time 3</span>
+ti <span style="color:#f92672">&lt;-</span> <span style="color:#ae81ff">3</span>
+<span style="color:#75715e">#weights of edges formed up to time ti is 1. Future edges are weighted 0</span>
+<span style="color:#a6e22e">E</span>(g)<span style="color:#f92672">$</span>weight <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">ifelse</span>(<span style="color:#a6e22e">E</span>(g)<span style="color:#f92672">$</span>time <span style="color:#f92672">&lt;</span> ti,<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">0</span>)
+<span style="color:#75715e">#generate first layout using weights.</span>
+layout.old <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">layout.fruchterman.reingold</span>(g,params<span style="color:#f92672">=</span><span style="color:#a6e22e">list</span>(weights<span style="color:#f92672">=</span><span style="color:#a6e22e">E</span>(g)<span style="color:#f92672">$</span>weight))
+
+
+<span style="color:#75715e">#total time of the dynamics</span>
+total_time <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">max</span>(<span style="color:#a6e22e">E</span>(g)<span style="color:#f92672">$</span>time)
+<span style="color:#75715e">#This is the time interval for the animation. In this case is taken to be 1/10 </span>
+<span style="color:#75715e">#of the time (i.e. 10 snapshots) between adding two consecutive nodes </span>
+dt <span style="color:#f92672">&lt;-</span> <span style="color:#ae81ff">0.1</span>
+<span style="color:#75715e">#Output for each frame will be a png with HD size 1600x900 :)</span>
+<span style="color:#a6e22e">png</span>(file<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;example%03d.png&#34;</span>, width<span style="color:#f92672">=</span><span style="color:#ae81ff">1600</span>,height<span style="color:#f92672">=</span><span style="color:#ae81ff">900</span>)
+nsteps <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">max</span>(<span style="color:#a6e22e">E</span>(g)<span style="color:#f92672">$</span>time)
+<span style="color:#75715e">#Time loop starts</span>
+<span style="color:#a6e22e">for</span>(ti in <span style="color:#a6e22e">seq</span>(<span style="color:#ae81ff">3</span>,total_time,dt)){
+  <span style="color:#75715e">#define weight for edges present up to time ti.</span>
+  <span style="color:#a6e22e">E</span>(g)<span style="color:#f92672">$</span>weight <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">ifelse</span>(<span style="color:#a6e22e">E</span>(g)<span style="color:#f92672">$</span>time <span style="color:#f92672">&lt;</span> ti,<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">0</span>) 
+  <span style="color:#75715e">#Edges with non-zero weight are in gray. The rest are transparent</span>
+  <span style="color:#a6e22e">E</span>(g)<span style="color:#f92672">$</span>color <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">ifelse</span>(<span style="color:#a6e22e">E</span>(g)<span style="color:#f92672">$</span>time <span style="color:#f92672">&lt;</span> ti,<span style="color:#e6db74">&#34;gray&#34;</span>,<span style="color:#a6e22e">rgb</span>(<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>))
+  <span style="color:#75715e">#Nodes with at least a non-zero weighted edge are in color. The rest are transparent</span>
+  <span style="color:#a6e22e">V</span>(g)<span style="color:#f92672">$</span>color <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">ifelse</span>(<span style="color:#a6e22e">graph.strength</span>(g)<span style="color:#f92672">==</span><span style="color:#ae81ff">0</span>,<span style="color:#a6e22e">rgb</span>(<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>),vcolor)
+  <span style="color:#75715e">#given the new weights, we update the layout a little bit</span>
+  layout.new <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">layout.fruchterman.reingold</span>(g,params<span style="color:#f92672">=</span><span style="color:#a6e22e">list</span>(niter<span style="color:#f92672">=</span><span style="color:#ae81ff">10</span>,start<span style="color:#f92672">=</span>layout.old,weights<span style="color:#f92672">=</span><span style="color:#a6e22e">E</span>(g)<span style="color:#f92672">$</span>weight,maxdelta<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>))
+  <span style="color:#75715e">#plot the new graph</span>
+  <span style="color:#a6e22e">plot</span>(g,layout<span style="color:#f92672">=</span>layout.new,vertex.label<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;&#34;</span>,vertex.size<span style="color:#f92672">=</span><span style="color:#ae81ff">1+2</span><span style="color:#f92672">*</span><span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">graph.strength</span>(g)),vertex.frame.color<span style="color:#f92672">=</span><span style="color:#a6e22e">V</span>(g)<span style="color:#f92672">$</span>color,edge.width<span style="color:#f92672">=</span><span style="color:#ae81ff">1.5</span>,asp<span style="color:#f92672">=</span><span style="color:#ae81ff">9</span><span style="color:#f92672">/</span><span style="color:#ae81ff">16</span>,margin<span style="color:#f92672">=</span><span style="color:#ae81ff">-0.15</span>)
+  <span style="color:#75715e">#use the new layout in the next round</span>
+  layout.old <span style="color:#f92672">&lt;-</span> layout.new 
+}
+<span style="color:#a6e22e">dev.off</span>()
+</code></pre></div><p>As you can see the edges present before time <code>ti</code> are colored in “gray” and weighted 1 while the rest are transparent <code>rgb(0,0,0,0)</code> and weighted 0. For the nodes we have used the function <code>graph.strength</code> that calculate the sum of weights of adjacent edges of a node: note that if at a given instant a node has no active adjacent edges, its graph strength is zero and thus the node is transparent. Otherwise it is colored as in the <code>vcolor</code> vector. Final step is to encode this images into a video format. To that end I have used <a href="http://ffmpeg.org">ffmpeg</a> which can be install in linux, windows or mac. The following command line in a terminal shell produces a video file <code>output.mp4</code> in the mpeg format:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r">ffmpeg <span style="color:#f92672">-</span>r <span style="color:#ae81ff">10</span> <span style="color:#f92672">-</span>b <span style="color:#ae81ff">20</span>M <span style="color:#f92672">-</span>i example%<span style="color:#ae81ff">03</span>d.png output.mp4`
+</code></pre></div><p>The first <code>-r 10</code> flag controls the rate of frames per second (fps), 10 in this case, while the <code>-b 20M</code> sets the bitrate in the output (set to a large value here, 20M). The result is the following video</p>
+<iframe class="vimeo-embed" src="https://player.vimeo.com/video/53071346" width="800" height="600" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
+</iframe>
+<div class="vembedr">
+<div>
+<iframe class="vimeo-embed" src="https://player.vimeo.com/video/53071346" width="800" height="600" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" data-external="1"></iframe>
+</div>
+</div>
+<p>Done with 20 lines in R! I’m sure you can beat me with some other R tricks and many ways to improve this visualization. I am eager to know your comments. Please!</p>
+    
+        </div>
+    </section>
+
+    <footer class="post-full-footer">
+      <section class="author-card">
+        <img class="author-profile-image" src="http://estebanmoro.org/img/whoami6.jpg" alt="Author" />
+        <section class="author-card-content">
+            <h4 class="author-card-name"><a href="http://estebanmoro.org/">Esteban Moro</a></h4>
+                <p>Professor at Northeastern University. Working on Complex Systems, Social Networks and Urban Science.</p>
+        </section>
+      </section>
+    </footer>
+</article>
+    
+    
+    
+
+<div id="disqus_thread"></div>
+<script>
+
+
+
+
+var disqus_config = function () {
+this.page.url = "http:\/\/estebanmoro.org\/post\/2012-11-10-temporal-networks-with-igraph-and-r-with-20-lines-of-code\/";  
+this.page.identifier = "http:\/\/estebanmoro.org\/post\/2012-11-10-temporal-networks-with-igraph-and-r-with-20-lines-of-code\/"; 
+};
+
+(function() { 
+var d = document, s = d.createElement('script');
+s.src = 'https://implicitnone.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+  </div>
+</main>
+
+
+<aside class="read-next outer">
+  <div class="inner">
+    <div class="read-next-feed">      
+      
+<article class="read-next-card" 
+            style="background-image: url(http://estebanmoro.org/img/mob.mp4);" >
+    <header class="read-next-card-header">
+        <small class="read-next-card-header-sitetitle">&mdash; Implicit None &mdash;</small>
+        
+        <h3 class="read-next-card-header-title"><a href="http://estebanmoro.org/tags/r/">#R</a></h3>
+    </header>
+    <div class="read-next-divider"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 14.5s2 3 5 3 5.5-2.463 5.5-5.5S21 6.5 18 6.5c-5 0-7 11-12 11C2.962 17.5.5 15.037.5 12S3 6.5 6 6.5s4.5 3.5 4.5 3.5"/></svg>
+    </div>
+
+    <div class="read-next-card-content">
+      
+        <ul>
+          <li><a href="http://estebanmoro.org/post/2019-03-26-towards-understanding-the-impact-of-artificial-intelligence-on-labor/">Towards understanding the impact of artificial intelligence on labor</a></li>            
+        
+          <li><a href="http://estebanmoro.org/post/2023-06-21-long-range-social-influence-in-phone-communication-networks-on-offline-adoption-decisions/">Long-Range Social Influence in Phone Communication Networks on Offline Adoption Decisions</a></li>            
+        
+          <li><a href="http://estebanmoro.org/2012/08/which-chart-to-use/">Which chart to use</a></li>            
+        
+          <li><a href="http://estebanmoro.org/post/2024-07-15-enhancing-human-mobility-research-with-open-and-standardized-datasets/">Enhancing human mobility research with open and standardized datasets</a></li>            
+        </ul>
+    </div>
+    <footer class="read-next-card-footer">
+      
+        <a href="http://estebanmoro.org/tags/r/">See all related posts →</a>
+    </footer>
+</article>
+
+
+      
+      <article class="post-card post"> 
+    
+    <a class="post-card-image-link" href="http://estebanmoro.org/post/2013-01-14-time-as-a-limited-resource-communication-strategy-in-mobile-phone-networks/">
+      <div class="post-card-image" style="background-image: url(http://estebanmoro.org/img/posts/dunbar.jpg)"></div>
+    </a>
+    
+
+    <div class="post-card-content">
+      <a class="post-card-content-link" href="http://estebanmoro.org/post/2013-01-14-time-as-a-limited-resource-communication-strategy-in-mobile-phone-networks/">
+          <header class="post-card-header">
+              <span class="post-card-tags">
+              #Social Networks 
+              #Human Behavior 
+              #Strategies  </span>
+              
+              <h2 class="post-card-title">Time as a limited resource: Communication Strategy in Mobile Phone Networks</h2>
+          </header>
+          <section class="post-card-excerpt">
+              
+                <p>Authors: Giovanna Miritello, Esteban Moro, Rubén Lara, Rocío Martínez-López, Sam G. B. Roberts, Robin I. M. Dunbar
+Journal: Social Networks 35, 89 (2013) LINK | arXiv
+Abstract: We used a large database of 9 billion calls from 20 million mobile users to examine the relationships between aggregated time spent on the phone, personal network size, tiestrength and the way in which users distributed their limited time across their network (disparity). Compared to those with smaller networks, those with large networks did not devote proportionally more time to communication and had on average weaker ties (as measured by time spent communicating). ...  </p>
+              
+          </section>
+      </a>
+
+      <footer class="post-card-meta">
+          <img class="author-profile-image" src="http://estebanmoro.org/img/whoami6.jpg" alt="Author" />
+          <span class="post-card-author"><a href="http://estebanmoro.org/">Esteban Moro</a></span>
+      </footer>
+    </div>
+</article>
+      
+      
+      <article class="post-card post"> 
+    
+    <a class="post-card-image-link" href="http://estebanmoro.org/2012/11/preferential-attachment-be-first/">
+
+    </a>    
+    
+
+    <div class="post-card-content">
+      <a class="post-card-content-link" href="http://estebanmoro.org/2012/11/preferential-attachment-be-first/">
+          <header class="post-card-header">
+              
+              <h2 class="post-card-title">Preferential attachment: be first</h2>
+          </header>
+          <section class="post-card-excerpt">
+              
+                <p>Preferential attachment is a key process governing the dynamics of many economic, social and biological process. It is the “The rich get richer” mechanism by which a quantity is distributed among individuals according to how much they already have. It also happens in social networks and the ones that have more social connectivity (the “hubs”) receive more new connections than the poorly connected. In a famous paper, Laszlo Barabási and Reka Albert encoded this mechanics in the so called Barabasi-Albert model to generate random scale free-networks. ...  </p>
+              
+          </section>
+      </a>
+
+      <footer class="post-card-meta">
+          <img class="author-profile-image" src="http://estebanmoro.org/img/whoami6.jpg" alt="Author" />
+          <span class="post-card-author"><a href="http://estebanmoro.org/">Esteban Moro</a></span>
+      </footer>
+    </div>
+</article>
+      
+    </div>
+  </div>
+</aside>
+
+<div class="floating-header">
+  <div class="floating-header-logo">
+    <a href="http://estebanmoro.org/">
+      
+      <span></span>
+    </a>
+  </div>
+  <span class="floating-header-divider">&mdash;</span>
+  <div class="floating-header-title">Temporal networks with igraph and R (with 20 lines of code!)</div>
+  <div class="floating-header-share">
+    <div class="floating-header-share-label">Share this <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+     <path d="M7.5 15.5V4a1.5 1.5 0 1 1 3 0v4.5h2a1 1 0 0 1 1 1h2a1 1 0 0 1 1 1H18a1.5 1.5 0 0 1 1.5 1.5v3.099c0 .929-.13 1.854-.385 2.748L17.5 23.5h-9c-1.5-2-5.417-8.673-5.417-8.673a1.2 1.2 0 0 1 1.76-1.605L7.5 15.5zm6-6v2m-3-3.5v3.5m6-1v2"/></svg>
+    </div>
+    
+    <a class="floating-header-share-tw" href="https://twitter.com/share?text=Temporal%20networks%20with%20igraph%20and%20R%20%28with%2020%20lines%20of%20code%21%29&amp;url=http%3a%2f%2festebanmoro.org%2fpost%2f2012-11-10-temporal-networks-with-igraph-and-r-with-20-lines-of-code%2f"
+          onclick="window.open(this.href, 'share-twitter', 'width=550,height=235');return false;">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M30.063 7.313c-.813 1.125-1.75 2.125-2.875 2.938v.75c0 1.563-.188 3.125-.688 4.625a15.088 15.088 0 0 1-2.063 4.438c-.875 1.438-2 2.688-3.25 3.813a15.015 15.015 0 0 1-4.625 2.563c-1.813.688-3.75 1-5.75 1-3.25 0-6.188-.875-8.875-2.625.438.063.875.125 1.375.125 2.688 0 5.063-.875 7.188-2.5-1.25 0-2.375-.375-3.375-1.125s-1.688-1.688-2.063-2.875c.438.063.813.125 1.125.125.5 0 1-.063 1.5-.25-1.313-.25-2.438-.938-3.313-1.938a5.673 5.673 0 0 1-1.313-3.688v-.063c.813.438 1.688.688 2.625.688a5.228 5.228 0 0 1-1.875-2c-.5-.875-.688-1.813-.688-2.75 0-1.063.25-2.063.75-2.938 1.438 1.75 3.188 3.188 5.25 4.25s4.313 1.688 6.688 1.813a5.579 5.579 0 0 1 1.5-5.438c1.125-1.125 2.5-1.688 4.125-1.688s3.063.625 4.188 1.813a11.48 11.48 0 0 0 3.688-1.375c-.438 1.375-1.313 2.438-2.563 3.188 1.125-.125 2.188-.438 3.313-.875z"/></svg>
+      </a>
+      <a class="floating-header-share-fb" href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2festebanmoro.org%2fpost%2f2012-11-10-temporal-networks-with-igraph-and-r-with-20-lines-of-code%2f"
+          onclick="window.open(this.href, 'share-facebook','width=580,height=296');return false;">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M19 6h5V0h-5c-3.86 0-7 3.14-7 7v3H8v6h4v16h6V16h5l1-6h-6V7c0-.542.458-1 1-1z"/></svg>
+      </a>
+  </div>
+
+  <progress class="progress" value="0">
+    <div class="progress-container">
+      <span class="progress-bar"></span>
+    </div>
+  </progress>
+</div>
+
+
+<footer class="site-footer outer">
+  <div class="site-footer-content inner">
+    <section class="copyright" style="line-height: 1.3em;">
+      <a href="http://estebanmoro.org/">Esteban Moro</a> © 2020 <br>
+      <span style="font-size: 0.8em; color: #555;">Hugo port of <a href="https://github.com/TryGhost/Casper">Casper 2.1.7</a> by <a href="https://www.telematika.org">EM</a></span>
+    </section>
+    <nav class="site-footer-nav">
+        <a href="http://estebanmoro.org/">Latest Posts</a>
+        
+        <a href="https://twitter.com/estebanmoro" target="_blank" rel="noopener">Twitter</a>
+        <a href="https://github.com/emoro" target="_blank" rel="noopener">Github</a>
+        <a href="https://www.linkedin.com/in/esteban-moro" target="_blank" rel="noopener">LinkedIn</a>
+        
+    </nav>  
+  </div>
+</footer>
+
+</div>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="http://estebanmoro.org/js/jquery.fitvids.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script id="altmetric-embed-js" type="text/javascript" src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+
+
+<script>hljs.initHighlightingOnLoad();</script> 
+
+
+
+
+
+
+  <!-- Google Analytics -->
+  <script>
+    var _gaq=[['_setAccount','UA-131034910-1'],['_trackPageview']];
+    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+    g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+    s.parentNode.insertBefore(g,s)}(document,'script'));
+  </script>
+
+
+
+
+
+
+    <script>
+
+
+
+
+
+$(document).ready(function () {
+    
+    var $postContent = $(".post-full-content");
+    $postContent.fitVids();
+    
+
+    var progressBar = document.querySelector('progress');
+    var header = document.querySelector('.floating-header');
+    var title = document.querySelector('.post-full-title');
+
+    var lastScrollY = window.scrollY;
+    var lastWindowHeight = window.innerHeight;
+    var lastDocumentHeight = $(document).height();
+    var ticking = false;
+
+    function onScroll() {
+        lastScrollY = window.scrollY;
+        requestTick();
+    }
+
+    function onResize() {
+        lastWindowHeight = window.innerHeight;
+        lastDocumentHeight = $(document).height();
+        requestTick();
+    }
+
+    function requestTick() {
+        if (!ticking) {
+            requestAnimationFrame(update);
+        }
+        ticking = true;
+    }
+
+    function update() {
+        var trigger = title.getBoundingClientRect().top + window.scrollY;
+        var triggerOffset = title.offsetHeight + 35;
+        var progressMax = lastDocumentHeight - lastWindowHeight;
+
+        
+        if (lastScrollY >= trigger + triggerOffset) {
+            header.classList.add('floating-active');
+        } else {
+            header.classList.remove('floating-active');
+        }
+
+        progressBar.setAttribute('max', progressMax);
+        progressBar.setAttribute('value', lastScrollY);
+
+        ticking = false;
+    }
+
+    window.addEventListener('scroll', onScroll, {passive: true});
+    window.addEventListener('resize', onResize, false);
+
+    update();
+});
+</script>
+</body></html>

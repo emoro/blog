@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>preprint on </title>
+    <link>http://estebanmoro.org/tags/preprint/</link>
+    <description>Recent content in preprint on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Tue, 09 Dec 2008 09:05:42 +0000</lastBuildDate><atom:link href="http://estebanmoro.org/tags/preprint/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>New section in the arXiv: Quantitative Finance</title>
+      <link>http://estebanmoro.org/2008/12/new-section-in-the-arxiv-quantitative-finance/</link>
+      <pubDate>Tue, 09 Dec 2008 09:05:42 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/2008/12/new-section-in-the-arxiv-quantitative-finance/</guid>
+      <description>News from the arXiv: a new section has been created to host preprints about Quantitative Finance. The section (as stated in the press release) intends to fix a problem with existing pre-print repositories. One one hand, social sciences repositories like SSRN, RepEC/IDEAS and others are too academic for practitioners, while on the other hand sites like defaultrisk.com or wilmott.com have not attracted many academic contributors. The new category in the arXiv would be a gathering point for both practitioners and academic people working in this important research field</description>
+    </item>
+    
+  </channel>
+</rss>

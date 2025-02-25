@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>maps on </title>
+    <link>http://estebanmoro.org/tags/maps/</link>
+    <description>Recent content in maps on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Mon, 19 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://estebanmoro.org/tags/maps/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Personal Art Map with R</title>
+      <link>http://estebanmoro.org/post/2020-10-19-personal-art-map-with-r/</link>
+      <pubDate>Mon, 19 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2020-10-19-personal-art-map-with-r/</guid>
+      <description>Map art makes beautiful posters. You can find them all over the internet and buy them even framed for your favorite city, area or country. Those posters&#39; beauty relies on the intricate and beautiful pattern of roads, buildings, parks, rivers, etc., which shape our cities and our mobility. In my research I constantly use those maps as the hardware fabric in which humans interact, move or encounter in urban settings.</description>
+    </item>
+    
+  </channel>
+</rss>

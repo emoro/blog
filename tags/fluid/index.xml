@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fluid on </title>
+    <link>http://estebanmoro.org/tags/fluid/</link>
+    <description>Recent content in Fluid on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Mon, 14 Mar 2016 09:06:19 +0000</lastBuildDate><atom:link href="http://estebanmoro.org/tags/fluid/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fully nonlinear dynamics of stochastic thin-film dewetting</title>
+      <link>http://estebanmoro.org/post/2015-12-28-fully-nonlinear-dynamics-of-stochastic-thin-film-dewetting/</link>
+      <pubDate>Mon, 14 Mar 2016 09:06:19 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2015-12-28-fully-nonlinear-dynamics-of-stochastic-thin-film-dewetting/</guid>
+      <description>Authors: S. Nesic, R. Cuerno, E. Moro, and L. Kondic
+Journal: Physical Review E 92, 061002(R) LINK | PDF
+Abstract: The spontaneous formation of droplets via dewetting of a thin fluid film from a solid substrate allows materials nanostructuring. Often, it is crucial to be able to control the evolution, and to produce patterns characterized by regularly spaced droplets. While thermal fluctuations are expected to play a role in the dewetting process, their relevance has remained poorly understood, particularly during the nonlinear stages of evolution that involve droplet formation.</description>
+    </item>
+    
+    <item>
+      <title>Spreading of Viscous Fluid Drops on a Solid Substrate Assisted by Thermal Fluctuations</title>
+      <link>http://estebanmoro.org/post/2006-02-09-spreading-of-viscous-fluid-drops-on-a-solid-substrate-assisted-by-thermal-fluctuations/</link>
+      <pubDate>Thu, 09 Feb 2006 09:19:42 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2006-02-09-spreading-of-viscous-fluid-drops-on-a-solid-substrate-assisted-by-thermal-fluctuations/</guid>
+      <description>Authors: Benny Davidovitch, Esteban Moro, and Howard A. Stone
+Journal: Physical Review Letters 95, 244505 (2005). LINK
+Abstract: We study the spreading of viscous drops on a solid substrate, taking into account the effects of thermal fluctuations in the fluid momentum. A nonlinear stochastic lubrication equation is derived and studied using numerical simulations and scaling analysis. We show that asymptotically spreading drops admit self-similar shapes, whose average radii can increase at rates much faster than these predicted by Tanner’s law.</description>
+    </item>
+    
+  </channel>
+</rss>

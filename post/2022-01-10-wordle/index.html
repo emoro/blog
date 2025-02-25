@@ -1,0 +1,1194 @@
+<!DOCTYPE html>
+<html lang="en-US" />
+<head>
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+    <title>Playing (and winning) Wordle with R &middot; </title>
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="http://estebanmoro.org/favicon.ico" />
+    <link rel="canonical" href="http://estebanmoro.org/post/2022-01-10-wordle/" />
+
+     <meta name="description" content="Introduction Unless you have been away for the last month, you, your family or friends have been talking about or playing Wordle. It is a very straightforward g" /> 
+
+     
+    
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:image" content="http://estebanmoro.org/img/posts/header_wordle.png"/>
+    
+ 
+    <meta name="twitter:title" content="Playing (and winning) Wordle with R"/>
+    <meta name="twitter:description" content="Introduction Unless you have been away for the last month, you, your family or friends have been talking about or playing Wordle. It is a very straightforward g"/>
+    <meta name="twitter:url" content="http://estebanmoro.org/post/2022-01-10-wordle/" />
+    <meta name="twitter:site" content="@estebanmoro"/>
+
+    <meta property="og:site_name" content="" />
+    <meta property="og:title" content="Playing (and winning) Wordle with R &middot; Implicit None" />
+    <meta property="og:url" content="http://estebanmoro.org/post/2022-01-10-wordle/" />
+    
+
+    <meta property="og:type" content="article" />
+    <meta property="og:description" content="Introduction Unless you have been away for the last month, you, your family or friends have been talking about or playing Wordle. It is a very straightforward g" />
+
+    <meta property="article:published_time" content="2022-01-10T00:00:00Z" />
+    <meta property="article:tag" content="wordle" /><meta property="article:tag" content="Rforeverythingelse" />
+
+    <meta property="og:image" content="http://estebanmoro.org/img/posts/header_wordle.png"/>
+
+
+
+    <meta name="generator" content="Hugo 0.92.2" />
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" type="text/css" href="http://estebanmoro.org/built/screen.css" /> 
+    <link rel="stylesheet" type="text/css" href="http://estebanmoro.org/css/casper-two.css" /> 
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/tomorrow-night-bright.min.css" />
+     <link rel="stylesheet" href="http://estebanmoro.org/css/overrides.css" /> 
+
+     
+
+</head>
+
+
+<body class="post-template">
+  <div class="site-wrapper"> 
+
+<header class="site-header outer">
+  <div class="inner">
+    <nav class="site-nav">
+      <div class="site-nav-left">
+
+        <ul class="nav" role="menu">
+        
+        
+        
+            <li class="" role="menuitem">
+              <a href="http://estebanmoro.org/">Home</a>
+            </li>
+        
+            <li class="" role="menuitem">
+              <a href="http://estebanmoro.org/categories/publications">Publications</a>
+            </li>
+        
+            <li class="" role="menuitem">
+              <a href="http://estebanmoro.org/categories/projects">Projects</a>
+            </li>
+        
+            <li class="" role="menuitem">
+              <a href="http://estebanmoro.org/categories/science">Science</a>
+            </li>
+        
+            <li class="" role="menuitem">
+              <a href="http://estebanmoro.org/categories/media">Media</a>
+            </li>
+        
+            <li class="" role="menuitem">
+              <a href="http://estebanmoro.org/categories/photos">Photos</a>
+            </li>
+        
+            <li class="" role="menuitem">
+              <a href="http://estebanmoro.org/categories/talks">Talks</a>
+            </li>
+        
+            <li class="" role="menuitem">
+              <a href="http://estebanmoro.org/categories/positions">Positions</a>
+            </li>
+        
+            <li class="" role="menuitem">
+              <a href="http://estebanmoro.org/categories/r">R</a>
+            </li>
+        
+            <li class="" role="menuitem">
+              <a href="http://estebanmoro.org/about/">About/CV</a>
+            </li>
+        
+            <li class="" role="menuitem">
+              <a href="http://estebanmoro.org/reading/">Reading</a>
+            </li>
+        
+      </ul></div>
+
+      <div class="site-nav-right">
+        <div class="social-links">
+                    
+
+                    <a class="social-link social-link-tw" href="https://twitter.com/estebanmoro" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M30.063 7.313c-.813 1.125-1.75 2.125-2.875 2.938v.75c0 1.563-.188 3.125-.688 4.625a15.088 15.088 0 0 1-2.063 4.438c-.875 1.438-2 2.688-3.25 3.813a15.015 15.015 0 0 1-4.625 2.563c-1.813.688-3.75 1-5.75 1-3.25 0-6.188-.875-8.875-2.625.438.063.875.125 1.375.125 2.688 0 5.063-.875 7.188-2.5-1.25 0-2.375-.375-3.375-1.125s-1.688-1.688-2.063-2.875c.438.063.813.125 1.125.125.5 0 1-.063 1.5-.25-1.313-.25-2.438-.938-3.313-1.938a5.673 5.673 0 0 1-1.313-3.688v-.063c.813.438 1.688.688 2.625.688a5.228 5.228 0 0 1-1.875-2c-.5-.875-.688-1.813-.688-2.75 0-1.063.25-2.063.75-2.938 1.438 1.75 3.188 3.188 5.25 4.25s4.313 1.688 6.688 1.813a5.579 5.579 0 0 1 1.5-5.438c1.125-1.125 2.5-1.688 4.125-1.688s3.063.625 4.188 1.813a11.48 11.48 0 0 0 3.688-1.375c-.438 1.375-1.313 2.438-2.563 3.188 1.125-.125 2.188-.438 3.313-.875z"/></svg></a>
+
+                    <a class="social-link" href="https://github.com/emoro" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></a>
+
+                    <a class="social-link" href="https://www.linkedin.com/in/esteban-moro" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 50 512 512"><path d="M150.65,100.682c0,27.992-22.508,50.683-50.273,50.683c-27.765,0-50.273-22.691-50.273-50.683 C50.104,72.691,72.612,50,100.377,50C128.143,50,150.65,72.691,150.65,100.682z M143.294,187.333H58.277V462h85.017V187.333z M279.195,187.333h-81.541V462h81.541c0,0,0-101.877,0-144.181c0-38.624,17.779-61.615,51.807-61.615 c31.268,0,46.289,22.071,46.289,61.615c0,39.545,0,144.181,0,144.181h84.605c0,0,0-100.344,0-173.915 s-41.689-109.131-99.934-109.131s-82.768,45.369-82.768,45.369V187.333z" /></svg></a>
+
+                    
+        </div>  
+        
+        <a class="subscribe-button" href="http://estebanmoro.org/index.xml">Subscribe</a>
+            
+      </div>
+
+    </nav>  
+
+  </div>
+</header>
+
+<main id="site-main" class="site-main outer" role="main">
+  <div class="inner">
+    
+      <article class="post-full post"> 
+    <header class="post-full-header">
+        <section class="post-full-meta">
+            <time class="post-full-meta-date" datetime="2022-01-10">10 January 2022</time>
+                <span class="date-divider">/</span> <a href="http://estebanmoro.org/tags/wordle/">#wordle</a>&nbsp;<a href="http://estebanmoro.org/tags/rforeverythingelse/">#Rforeverythingelse</a>&nbsp;
+        </section>
+        <h1 class="post-full-title">Playing (and winning) Wordle with R</h1>
+    </header>
+    
+    <figure class="post-full-image" style="background-image: url(http://estebanmoro.org/img/posts/header_wordle.png)">
+    </figure>
+
+    <section class="post-full-content">
+        <div class="kg-card-markdown">
+        
+<script src="http://estebanmoro.org/post/2022-01-10-wordle/index_files/header-attrs/header-attrs.js"></script>
+<script src="http://estebanmoro.org/post/2022-01-10-wordle/index_files/kePrint/kePrint.js"></script>
+<link href="http://estebanmoro.org/post/2022-01-10-wordle/index_files/lightable/lightable.css" rel="stylesheet" />
+
+
+<div id="introduction" class="section level1">
+<h1>Introduction</h1>
+<p>Unless you have been away for the last month, you, your family or friends have been <a href="https://www.nytimes.com/2022/01/03/technology/wordle-word-game-creator.html">talking about</a> or playing <a href="https://en.wikipedia.org/wiki/Wordle_(video_game)">Wordle</a>. It is a very straightforward game which reminds us (old enough) of the great <a href="https://en.wikipedia.org/wiki/Mastermind_(board_game)">MasterMind</a>, but with words.</p>
+<p>The idea is very simple. In the <a href="https://www.powerlanguage.co.uk/wordle/">original version</a> by Josh Wardle, we try to guess a (English) word of five letters. After each guess the game shows you what letters are in the answer in the right position (green), in the answer but in a wrong position (yellow) or not in the answer at all (gray).</p>
+<p>For example, here is the screenshot of the most recent one I played (Jan 10)</p>
+<p><img src="wordle.png" style="width:50.0%" /></p>
+<p>As you can see, I guessed the word in 3 tries out of 6 allowed. Many variations exist now, including <a href="https://wordle.danielfrg.com">one in Spanish</a>. There are many reasons why it has become a viral phenomenon , most likely because Wardle added a sharing element to the game, letting users copy their results in the form of a grid of colored squared emojis.</p>
+<p><blockquote class="twitter-tweet"><p lang="en" dir="ltr">Wordle 202 3/6<br><br>⬜⬜🟨🟨⬜<br>⬜🟩⬜🟨🟨<br>🟩🟩🟩🟩🟩 😎</p>&mdash; Esteban Moro (@estebanmoro) <a href="https://twitter.com/estebanmoro/status/1479467969545658369?ref_src=twsrc%5Etfw">January 7, 2022</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+</p>
+<p>Since Wardle publishes only one puzzle per day, players can compare their results on Twitter or by message, allowing for synchronized and unhurried social interaction.</p>
+</div>
+<div id="cracking-the-game" class="section level1">
+<h1>Cracking the game</h1>
+<p>Although the game is not so difficult (another of its merits), the obvious question is what is the best strategy to win the game every day. In this post, we will investigate this question with the help of <code>R</code> and in our journey, we will learn much more about how the game is designed.</p>
+<p>To do it, we will use the fantastic <code>wordle</code> <a href="https://github.com/coolbutuseless/wordle/">package</a> created by Mikefc <span class="citation">[@coolbutuseless]</span>(<a href="https://twitter.com/coolbutuseless" class="uri">https://twitter.com/coolbutuseless</a>). This package allows you to play Wordle in the <code>R</code> console [with <code>play_wordle()</code>]. Most interestingly, it can also help you play the online version through the <code>WordleHelper</code> class. For example, this is how we can use it for the Jan 10 puzzle. Let’s initialize the game.</p>
+<pre class="r"><code>#remotes::install_github(&#39;coolbutuseless/wordle&#39;)
+library(wordle)
+helper &lt;- WordleHelper$new(nchar = 5)
+dictionary &lt;- helper$words
+length(dictionary)
+## [1] 12972</code></pre>
+<p>As we can see, there are 12972 words of 5 letters in the Wordle dictionary.</p>
+<p>My initial guess was <code>aeros</code>, and I got ” ⬜ 🟨 🟨 ⬜ ⬜ “. We can use this to get us the list of options compatible with that answer.</p>
+<pre class="r"><code>helper$update(&quot;aeros&quot;, c(&#39;gray&#39;, &#39;yellow&#39;, &#39;yellow&#39;, &#39;gray&#39;, &#39;gray&#39;))
+helper$words</code></pre>
+<pre><code>##   [1] &quot;bider&quot; &quot;biker&quot; &quot;biner&quot; &quot;biter&quot; &quot;blert&quot; &quot;bluer&quot;
+##   [7] &quot;brede&quot; &quot;breed&quot; &quot;breem&quot; &quot;breer&quot; &quot;breid&quot; &quot;breme&quot;
+##  [13] &quot;brent&quot; &quot;brere&quot; &quot;breve&quot; &quot;bribe&quot; &quot;bride&quot; &quot;brief&quot;
+##  [19] &quot;brier&quot; &quot;brine&quot; &quot;brize&quot; &quot;brule&quot; &quot;brume&quot; &quot;brute&quot;
+##  [25] &quot;buyer&quot; &quot;cheer&quot; &quot;chere&quot; &quot;chert&quot; &quot;cider&quot; &quot;citer&quot;
+##  [31] &quot;clerk&quot; &quot;creed&quot; &quot;creek&quot; &quot;creel&quot; &quot;creep&quot; &quot;creme&quot;
+##  [37] &quot;crepe&quot; &quot;crept&quot; &quot;crepy&quot; &quot;crewe&quot; &quot;cried&quot; &quot;crier&quot;
+##  [43] &quot;crime&quot; &quot;crine&quot; &quot;cripe&quot; &quot;crude&quot; &quot;cruel&quot; &quot;cruet&quot;
+##  [49] &quot;cruve&quot; &quot;cryer&quot; &quot;cuber&quot; &quot;cuter&quot; &quot;cyber&quot; &quot;cyder&quot;
+##  [55] &quot;dicer&quot; &quot;diker&quot; &quot;dimer&quot; &quot;diner&quot; &quot;diver&quot; &quot;dreck&quot;
+##  [61] &quot;dreed&quot; &quot;dreer&quot; &quot;drent&quot; &quot;drere&quot; &quot;drice&quot; &quot;dried&quot;
+##  [67] &quot;drier&quot; &quot;drive&quot; &quot;drupe&quot; &quot;dryer&quot; &quot;duper&quot; &quot;edger&quot;
+##  [73] &quot;egger&quot; &quot;eider&quot; &quot;elder&quot; &quot;elver&quot; &quot;ember&quot; &quot;emeer&quot;
+##  [79] &quot;emerg&quot; &quot;emery&quot; &quot;emmer&quot; &quot;emure&quot; &quot;ender&quot; &quot;enter&quot;
+##  [85] &quot;entry&quot; &quot;enure&quot; &quot;enurn&quot; &quot;erect&quot; &quot;erick&quot; &quot;ering&quot;
+##  [91] &quot;erned&quot; &quot;eruct&quot; &quot;erupt&quot; &quot;erven&quot; &quot;ervil&quot; &quot;ether&quot;
+##  [97] &quot;evert&quot; &quot;every&quot; &quot;exert&quot; &quot;exurb&quot; &quot;fiber&quot; &quot;fibre&quot;
+## [103] &quot;fiere&quot; &quot;fiery&quot; &quot;fifer&quot; &quot;filer&quot; &quot;finer&quot; &quot;fiver&quot;
+## [109] &quot;fixer&quot; &quot;fleer&quot; &quot;fleur&quot; &quot;flier&quot; &quot;flyer&quot; &quot;freed&quot;
+## [115] &quot;freer&quot; &quot;freet&quot; &quot;freit&quot; &quot;fremd&quot; &quot;frere&quot; &quot;fried&quot;
+## [121] &quot;frier&quot; &quot;frize&quot; &quot;fryer&quot; &quot;fumer&quot; &quot;giber&quot; &quot;giver&quot;
+## [127] &quot;gluer&quot; &quot;grebe&quot; &quot;grece&quot; &quot;greed&quot; &quot;greek&quot; &quot;green&quot;
+## [133] &quot;greet&quot; &quot;grege&quot; &quot;grein&quot; &quot;greve&quot; &quot;grice&quot; &quot;gride&quot;
+## [139] &quot;grief&quot; &quot;grike&quot; &quot;grime&quot; &quot;gripe&quot; &quot;grize&quot; &quot;grued&quot;
+## [145] &quot;gruel&quot; &quot;grufe&quot; &quot;grume&quot; &quot;gryce&quot; &quot;gryde&quot; &quot;gryke&quot;
+## [151] &quot;grype&quot; &quot;hider&quot; &quot;hiker&quot; &quot;hiver&quot; &quot;huger&quot; &quot;hyper&quot;
+## [157] &quot;icier&quot; &quot;icker&quot; &quot;idler&quot; &quot;iller&quot; &quot;inerm&quot; &quot;inert&quot;
+## [163] &quot;infer&quot; &quot;inker&quot; &quot;inner&quot; &quot;inter&quot; &quot;inure&quot; &quot;irked&quot;
+## [169] &quot;ither&quot; &quot;jiber&quot; &quot;jiver&quot; &quot;kiter&quot; &quot;kreep&quot; &quot;kreng&quot;
+## [175] &quot;krewe&quot; &quot;liber&quot; &quot;lifer&quot; &quot;liger&quot; &quot;liker&quot; &quot;liner&quot;
+## [181] &quot;liter&quot; &quot;litre&quot; &quot;liver&quot; &quot;livre&quot; &quot;lucre&quot; &quot;luger&quot;
+## [187] &quot;luter&quot; &quot;luxer&quot; &quot;miler&quot; &quot;mimer&quot; &quot;miner&quot; &quot;miter&quot;
+## [193] &quot;mitre&quot; &quot;mixer&quot; &quot;muter&quot; &quot;nicer&quot; &quot;niger&quot; &quot;niner&quot;
+## [199] &quot;niter&quot; &quot;nitre&quot; &quot;nixer&quot; &quot;nuder&quot; &quot;pheer&quot; &quot;piert&quot;
+## [205] &quot;piker&quot; &quot;piler&quot; &quot;piper&quot; &quot;plier&quot; &quot;plyer&quot; &quot;predy&quot;
+## [211] &quot;preed&quot; &quot;preen&quot; &quot;preif&quot; &quot;premy&quot; &quot;prent&quot; &quot;preve&quot;
+## [217] &quot;prexy&quot; &quot;price&quot; &quot;pride&quot; &quot;pried&quot; &quot;prief&quot; &quot;prier&quot;
+## [223] &quot;prime&quot; &quot;prize&quot; &quot;prude&quot; &quot;prune&quot; &quot;pryer&quot; &quot;pucer&quot;
+## [229] &quot;puker&quot; &quot;puler&quot; &quot;queer&quot; &quot;quern&quot; &quot;query&quot; &quot;quire&quot;
+## [235] &quot;rheme&quot; &quot;rheum&quot; &quot;rhime&quot; &quot;rhine&quot; &quot;rhyme&quot; &quot;rhyne&quot;
+## [241] &quot;riced&quot; &quot;ricer&quot; &quot;ricey&quot; &quot;rider&quot; &quot;ridge&quot; &quot;rieve&quot;
+## [247] &quot;rifer&quot; &quot;rifle&quot; &quot;rifte&quot; &quot;riled&quot; &quot;riley&quot; &quot;rille&quot;
+## [253] &quot;rimed&quot; &quot;rimer&quot; &quot;riped&quot; &quot;ripen&quot; &quot;riper&quot; &quot;rived&quot;
+## [259] &quot;rivel&quot; &quot;riven&quot; &quot;river&quot; &quot;rivet&quot; &quot;rubel&quot; &quot;ruble&quot;
+## [265] &quot;ruche&quot; &quot;ruder&quot; &quot;rudie&quot; &quot;ruffe&quot; &quot;ruled&quot; &quot;ruler&quot;
+## [271] &quot;rumen&quot; &quot;runed&quot; &quot;rupee&quot; &quot;ryked&quot; &quot;rymme&quot; &quot;ryper&quot;
+## [277] &quot;their&quot; &quot;there&quot; &quot;therm&quot; &quot;tiger&quot; &quot;tiler&quot; &quot;timer&quot;
+## [283] &quot;titer&quot; &quot;titre&quot; &quot;treck&quot; &quot;treed&quot; &quot;treen&quot; &quot;treif&quot;
+## [289] &quot;trend&quot; &quot;treyf&quot; &quot;tribe&quot; &quot;trice&quot; &quot;tride&quot; &quot;tried&quot;
+## [295] &quot;trier&quot; &quot;trike&quot; &quot;trine&quot; &quot;tripe&quot; &quot;trite&quot; &quot;truce&quot;
+## [301] &quot;trued&quot; &quot;truer&quot; &quot;tryer&quot; &quot;tryke&quot; &quot;tuber&quot; &quot;tuner&quot;
+## [307] &quot;tuyer&quot; &quot;tweer&quot; &quot;twerk&quot; &quot;twerp&quot; &quot;twier&quot; &quot;twire&quot;
+## [313] &quot;twyer&quot; &quot;tyler&quot; &quot;udder&quot; &quot;ulcer&quot; &quot;umber&quot; &quot;umbre&quot;
+## [319] &quot;under&quot; &quot;upper&quot; &quot;upter&quot; &quot;urbex&quot; &quot;urdee&quot; &quot;ureic&quot;
+## [325] &quot;urent&quot; &quot;urged&quot; &quot;urger&quot; &quot;urine&quot; &quot;urite&quot; &quot;urned&quot;
+## [331] &quot;urped&quot; &quot;uteri&quot; &quot;utter&quot; &quot;viler&quot; &quot;viner&quot; &quot;viper&quot;
+## [337] &quot;viver&quot; &quot;where&quot; &quot;wider&quot; &quot;wiper&quot; &quot;wiver&quot; &quot;wreck&quot;
+## [343] &quot;wried&quot; &quot;wrier&quot; &quot;write&quot; &quot;wryer&quot; &quot;yfere&quot; &quot;yrent&quot;
+## [349] &quot;yrneh&quot;</code></pre>
+<p>For my second guess I used <code>upter</code> and I got ” 🟨 ⬜ ⬜ 🟨 🟨”</p>
+<pre class="r"><code>helper$update(&quot;upter&quot;, c(&#39;yellow&#39;, &#39;gray&#39;, &#39;gray&#39;, &#39;yellow&#39;, &#39;yellow&#39;))
+helper$words</code></pre>
+<pre><code>##  [1] &quot;brule&quot; &quot;brume&quot; &quot;crude&quot; &quot;cruve&quot; &quot;emure&quot; &quot;enure&quot; &quot;enurn&quot;
+##  [8] &quot;exurb&quot; &quot;grufe&quot; &quot;grume&quot; &quot;inure&quot; &quot;lucre&quot; &quot;quern&quot; &quot;query&quot;
+## [15] &quot;quire&quot; &quot;rheum&quot; &quot;ruble&quot; &quot;ruche&quot; &quot;rudie&quot; &quot;ruffe&quot;</code></pre>
+<p>The number of candidates has been reduced enormously. In the next round, I tried <code>query</code> and that solved it.</p>
+<p>Obviously, the game’s <em>strategy</em> is encoded in how to choose the next guess from the list of candidate words given the restrictions so far. Let’s try different choices.</p>
+<div id="random-choice" class="section level2">
+<h2>Random choice</h2>
+<p>The first and obvious choice is to choose randomly from the list of candidates. First we code the game using the <code>wordle</code> package and the <code>WordleGame</code> class. We are going to modify <a href="https://github.com/mjskay/wordle_solver">the code</a> from
+Matthew Kay to define a function that plays the game for a given word:</p>
+<pre class="r"><code>play_game &lt;- function(word,first_guess,quiet=FALSE){
+  helper = WordleHelper$new(nchar = nchar(word)) #initialize the game
+  game = WordleGame$new(helper$words, target_word = word)
+  
+  #make the first guess
+  if (!is.null(first_guess)) {
+    helper$update(first_guess, 
+                  game$try(first_guess, quiet = quiet))
+  }
+  
+  #iterate until solved
+  while (!game$is_solved()) {
+    guess = score_words(helper$words)$word[[1]] #choose next guess
+    helper$update(guess, game$try(guess,quiet=quiet))
+  }
+  game$attempts
+}</code></pre>
+<p>As we can see in every step we <em>score</em> the words and return the one with maximum score. To start, we are going to select them randomly:</p>
+<pre class="r"><code>score_words &lt;- function(words){
+  data.frame(word=words,score=runif(length(words))) %&gt;% arrange(score)
+}</code></pre>
+<p>Let’s try it out for Jan 10 word</p>
+<pre class="r"><code>set.seed(1)
+answer &lt;- play_game(word=&quot;query&quot;,first_guess=&quot;aeros&quot;,quiet=T)</code></pre>
+<p>Since the unicode does not render properly in markdown, here is screenshot:</p>
+<p><img src="screenshot.png" style="width:50.0%" /></p>
+<p>Not bad, we got the solution in 4 tries.</p>
+<p>How good is this strategy? We need to define an performance metric to evaluate each strategy. <strong>Edited</strong> As with any algorithm, we can test its performance measuring how well does the strategy against a sample of chosen target words. We are going to take three of them</p>
+<ul>
+<li><p>The first one is against a random choice of target word from the dictionary of 5 letters in English. There are 12972 words to choose from.</p></li>
+<li><p>However, in the original game, Wardle narrowed down the list of Wordle words to about 2500. So we will evaluate how well our strategy does against this list. You can download the list of possible answers <a href="./data/possible_answers.csv">here</a></p></li>
+</ul>
+<pre class="r"><code>possible_answers &lt;- read.csv(&quot;./data/possible_answers.txt&quot;,header=F)</code></pre>
+<ul>
+<li>Finally, we can measure how well the strategy performs for the past wordle answers. [<strong>Caution: this contains spoilers!</strong>]. Lucky for us Matthew Kay has compiled a list of them, to which I added the last ones <a href="./data/past_answers.csv">here</a></li>
+</ul>
+<pre class="r"><code>past_answers &lt;- read.csv(&quot;./data/past_answers.csv&quot;,header=F)</code></pre>
+<p>Let’s evaluate each performance metric. First a random sample of words from the dictionary (only 1000).</p>
+<pre class="r"><code>set.seed(1)
+helper = WordleHelper$new(nchar = 5)
+dictionary &lt;- helper$words
+first_guess &lt;- &quot;aeros&quot;
+dictionary_games &lt;- sapply(sample(dictionary,1000),
+                  \(w) tryCatch(length(play_game(w,first_guess,quiet=T)),
+                                error=function(e) NA))</code></pre>
+<p>now for the possible answers</p>
+<pre class="r"><code>possible_answers_games &lt;- sapply(possible_answers[,1],
+                  \(w) tryCatch(length(play_game(w,first_guess,quiet=T)),
+                                error=function(e) NA))</code></pre>
+<p>and finally for the previous wordle answers</p>
+<pre class="r"><code>past_answers_games &lt;- sapply(past_answers[,1],
+                  \(w) tryCatch(length(play_game(w,first_guess,quiet=T)),
+                                error=function(e) NA))</code></pre>
+<p>How well did they do? Here is the distribution of the number of tries for each case</p>
+<pre class="r"><code>bind_rows(tibble(selection=&quot;Dictionary&quot;,tries=dictionary_games),
+          tibble(selection=&quot;Possible answers&quot;,tries=possible_answers_games),
+          tibble(selection=&quot;Past answers&quot;,tries=past_answers_games)) %&gt;%
+  group_by(selection,tries) %&gt;% 
+  summarise(n=n()) %&gt;% mutate(freq=n/sum(n)) %&gt;% 
+  ggplot(aes(x=tries,y=freq,fill=selection)) + 
+    geom_bar(position=&quot;dodge&quot;,stat=&quot;identity&quot;) +
+    labs(x=&quot;Tries&quot;,fill=&quot;&quot;,y=&quot;Frequency&quot;,title=&quot;Using random words&quot;) +
+    scale_fill_tableau() +
+    geom_vline(xintercept = 6.5,linetype=2)</code></pre>
+<p><img src="http://estebanmoro.org/post/2022-01-10-wordle/index_files/figure-html/unnamed-chunk-11-1.png" width="100%" /></p>
+<p>Not bad! Most of the time, we solved the game in 6 or fewer tries. Actually, we get</p>
+<pre class="r"><code>list(&quot;Dictionary&quot;=dictionary_games,
+     &quot;Possible answers&quot;=possible_answers_games,
+     &quot;Past answers&quot;=past_answers_games) %&gt;%
+  map_dfr(\(answers) tibble(&quot;Average number of tries&quot;=round(mean(answers),2),
+                            &quot;Probability of winning (%)&quot;=round(mean(answers&lt;7)*100,2)),
+          .id=&quot;Selection&quot;) %&gt;% 
+  kableExtra::kbl() %&gt;%
+  kableExtra::kable_paper(bootstrap_options = &quot;striped&quot;, full_width = F)</code></pre>
+<table class=" lightable-paper" style="font-family: &quot;Arial Narrow&quot;, arial, helvetica, sans-serif; width: auto !important; margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th style="text-align:left;">
+Selection
+</th>
+<th style="text-align:right;">
+Average number of tries
+</th>
+<th style="text-align:right;">
+Probability of winning (%)
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+Dictionary
+</td>
+<td style="text-align:right;">
+5.10
+</td>
+<td style="text-align:right;">
+83.50
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Possible answers
+</td>
+<td style="text-align:right;">
+4.85
+</td>
+<td style="text-align:right;">
+88.86
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Past answers
+</td>
+<td style="text-align:right;">
+4.78
+</td>
+<td style="text-align:right;">
+89.37
+</td>
+</tr>
+</tbody>
+</table>
+<p>As we can see random guessing is already a good strategy, solving it in less than 6 tries 82% of the times (for random words in the dictionary) and around 89% for the list of possible and past answers. But let’s see if we can do better.</p>
+</div>
+<div id="using-the-frequency-of-words" class="section level2">
+<h2>Using the frequency of words</h2>
+<p>(<strong>Edited</strong>) One of the most interesting findings about the game (rediscovered by Matthew Kay) is that the answers each day are not chosen randomly from the list of possible 5 letter words in the English dictionary. The very Wardle said in <a href="https://www.nytimes.com/2022/01/03/technology/wordle-word-game-creator.html">an interview in the New York Times</a> that <em>he narrowed down the list of Wordle words to about 2,500</em> which are most likely to be known by his partner (the first recipient of the game). That means that there are some words that have more probability to be the target word each day than others. To see that, we will plot the distributions of the rank of the past answers in the corpus of words of English. We are going to use two sources: the <a href="https://www.kaggle.com/rtatman/english-word-frequency">corpus of commonly-used words from the Google Web Trillion Word Corpus</a> and the <a href="http://ucrel.lancs.ac.uk/bncfreq/flists.html">BNC word frequency list</a> and put them together:</p>
+<pre class="r"><code>helper = WordleHelper$new(nchar = 5)
+freq = tibble(word = helper$words) %&gt;%
+  left_join(read.csv(&quot;./data/unigram_freq.csv&quot;), by = &quot;word&quot;) %&gt;%
+  left_join(
+    read.csv(&quot;./data/bnc_freq.csv&quot;) %&gt;%
+      group_by(word) %&gt;%
+      summarise(count = sum(count)),
+    by = &quot;word&quot;
+  ) %&gt;%
+  mutate(
+    count.x = ifelse(is.na(count.x), 0, count.x),
+    count.y = ifelse(is.na(count.y), 0, count.y),
+    count = count.x/sum(count.x) + count.y/sum(count.y),
+    # need a nonzero count for all words, so just assume words that don&#39;t
+    # appear at all are half as frequent as the least frequent appearing word
+    count = ifelse(count == 0, min(count[count != 0])/2, count),
+    # rough log of the count shifted above 0
+    # (we&#39;ll want this later)
+    log_count = log(count) - log(min(count)/2),
+    rank = rank(-count,ties.method = &quot;random&quot;,)
+  ) </code></pre>
+<p>The following graph compares the distribution of ranks of randomly selected words in the wordle dictionary (flat) with the one of the past answers.</p>
+<pre class="r"><code>ggplot() + geom_density(data=freq,aes(x=rank,col=&quot;All words&quot;),bw=10) +
+  geom_density(data=freq %&gt;% filter(word %in% past_answers[,1]),
+               aes(x=rank,col=&quot;Past answers&quot;),bw=10)+
+  scale_color_tableau() + labs(col=&quot;&quot;)</code></pre>
+<p><img src="http://estebanmoro.org/post/2022-01-10-wordle/index_files/figure-html/unnamed-chunk-14-1.png" width="672" />
+Most of the target words in the past answers are chosen from the most frequent words in English. The distribution decays slowly, which means that some unusual (rank &gt; 10000) words are likely. As Matthew suggests, “this is probably a sensible word selection strategy for making a good game, since it makes the puzzle not just a bunch of very common words (but also not just a bunch of rare words).”</p>
+<p>But this information is quite useful since it tells us that the game is designed with a bias that we can exploit to design a better strategy. Specifically, we will choose the next guess as the most frequent word of the candidates in each step. Let’s modify the score function:</p>
+<pre class="r"><code>score_words &lt;- function(words){
+  ff &lt;- freq %&gt;% filter(word %in% words)
+  ff %&gt;% arrange(rank)
+}</code></pre>
+<p>and play again the word for Jan 10</p>
+<pre class="r"><code>answer &lt;- play_game(word=&quot;query&quot;,first_guess=&quot;aeros&quot;,quiet=)</code></pre>
+<pre><code>## [38;5;232m[48;5;249m a [48;5;226m e [48;5;226m r [48;5;249m o [48;5;249m s [39m[49m 
+## [38;5;232m[48;5;249m t [48;5;249m h [48;5;46m e [48;5;46m r [48;5;249m e [39m[49m 
+## [38;5;232m[48;5;46m q [48;5;46m u [48;5;46m e [48;5;46m r [48;5;46m y [39m[49m</code></pre>
+<p>This time we solve the puzzle in 3 tries. How good is this strategy? We analyzed it using the same metrics as before. For the random choice of target word we get</p>
+<pre class="r"><code>set.seed(1)
+helper = WordleHelper$new(nchar = 5)
+dictionary &lt;- helper$words
+first_guess &lt;- &quot;aeros&quot;
+dictionary_games &lt;- sapply(sample(dictionary,1000),
+                    \(w) tryCatch(length(play_game(w,first_guess,quiet=T)),
+                                  error=function(e) NA))</code></pre>
+<p>now for the possible answers</p>
+<pre class="r"><code>possible_answers_games &lt;- sapply(possible_answers[,1],
+                    \(w) tryCatch(length(play_game(w,first_guess,quiet=T)),
+                                  error=function(e) NA))</code></pre>
+<p>and finally for the previous wordle answers</p>
+<pre class="r"><code>past_answers_games &lt;- sapply(past_answers[,1],
+                    \(w) tryCatch(length(play_game(w,first_guess,quiet=T)),
+                                  error=function(e) NA))</code></pre>
+<p>Here is the distribution of the number of tries for each</p>
+<pre class="r"><code>bind_rows(tibble(selection=&quot;Dictionary&quot;,tries=dictionary_games),
+          tibble(selection=&quot;Possible answers&quot;,tries=possible_answers_games),
+          tibble(selection=&quot;Past answers&quot;,tries=past_answers_games)) %&gt;%
+  group_by(selection,tries) %&gt;% 
+  summarise(n=n()) %&gt;% mutate(freq=n/sum(n)) %&gt;% 
+  ggplot(aes(x=tries,y=freq,fill=selection)) + 
+    geom_bar(position=&quot;dodge&quot;,stat=&quot;identity&quot;) +
+    labs(x=&quot;Tries&quot;,fill=&quot;&quot;,y=&quot;&quot;,title=&quot;Using word frequency&quot;) +
+    scale_fill_tableau() +
+    geom_vline(xintercept = 6.5,linetype=2)</code></pre>
+<p><img src="http://estebanmoro.org/post/2022-01-10-wordle/index_files/figure-html/unnamed-chunk-17-1.png" width="672" /></p>
+<p>As we can see, the strategy is much better for past answers and it solves it less tries. Actually we get that:</p>
+<pre class="r"><code>list(&quot;Dictionary&quot;=dictionary_games,
+     &quot;Possible answers&quot;=possible_answers_games,
+     &quot;Past answers&quot;=past_answers_games) %&gt;%
+  map_dfr(\(answers) tibble(&quot;Average number of tries&quot;=round(mean(answers),2),
+                            &quot;Probability of winning (%)&quot;=round(mean(answers&lt;7)*100,2)),
+          .id=&quot;Selection&quot;) %&gt;% 
+  kableExtra::kbl() %&gt;%
+  kableExtra::kable_paper(bootstrap_options = &quot;striped&quot;, full_width = F)</code></pre>
+<table class=" lightable-paper" style="font-family: &quot;Arial Narrow&quot;, arial, helvetica, sans-serif; width: auto !important; margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th style="text-align:left;">
+Selection
+</th>
+<th style="text-align:right;">
+Average number of tries
+</th>
+<th style="text-align:right;">
+Probability of winning (%)
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+Dictionary
+</td>
+<td style="text-align:right;">
+4.95
+</td>
+<td style="text-align:right;">
+85.40
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Possible answers
+</td>
+<td style="text-align:right;">
+4.08
+</td>
+<td style="text-align:right;">
+96.85
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Past answers
+</td>
+<td style="text-align:right;">
+3.93
+</td>
+<td style="text-align:right;">
+97.10
+</td>
+</tr>
+</tbody>
+</table>
+<p>This means that we could have solved the game 97% of the time using this strategy. On average, using this strategy we will lose once a month only. Not bad for this simple strategy!</p>
+<p>Of course, more complicated strategies can be implemented. For example, occasionally, our next guess could be a word that does not contain the letters found so far. That helps in situations where only a letter remains to be identified but many words are compatible with the ones found so far.</p>
+<p><strong>Edited</strong> Another possibility is to simulate the game forward. Given our final guess (e.g <code>aeros</code>) we could choose the next guess by simulate the game forward using all possible candidates and getting the one that maximizes some kind of entropy or probability. This is actually the idea behind <a href="https://github.com/LaurentLessard/wordlesolver">some strategies</a> that can reach even 100% winning probability. However, they are computationally expensive.</p>
+</div>
+<div id="choosing-the-best-initial-guess" class="section level2">
+<h2>Choosing the best initial guess</h2>
+<p>Without modifying our strategy for our guess in each round, the only free choice we have is the initial guess we start with. In the examples above, we chose <code>aeros</code>, and it was intended. If we want to maximize the number of found letters from the beginning, our initial guess could be a word that contains the most frequent letters in English dictionary or in the past answers.</p>
+<p>We can calculate these frequencies</p>
+<pre class="r"><code>dist_letters_dictionary &lt;- unlist(strsplit(dictionary,&quot;&quot;)) %&gt;% 
+  table() %&gt;% data.frame() %&gt;% rename(letter=1) %&gt;% 
+  mutate(dens=Freq/sum(Freq),corpus=&quot;Dictionary&quot;)
+dist_letters_possible &lt;- unlist(strsplit(possible_answers[,1],&quot;&quot;)) %&gt;% 
+  table() %&gt;% data.frame() %&gt;% rename(letter=1) %&gt;% 
+  mutate(dens=Freq/sum(Freq),corpus=&quot;Possible answers&quot;)
+dist_letters_past &lt;- unlist(strsplit(past_answers[,1],&quot;&quot;)) %&gt;% 
+  table() %&gt;% data.frame() %&gt;% rename(letter=1) %&gt;% 
+  mutate(dens=Freq/sum(Freq),corpus=&quot;Past answers&quot;)
+dists &lt;- rbind(dist_letters_dictionary,
+               dist_letters_possible,
+               dist_letters_past)
+ggplot(dists) + 
+  geom_bar(aes(x=reorder(letter,-dens),y=dens,fill=corpus),
+                         position=&quot;dodge&quot;,stat=&quot;identity&quot;)+
+  scale_fill_tableau() + labs(x=&quot;Letter&quot;,y=&quot;Frequency&quot;) +
+  scale_y_continuous(labels=scales::percent)</code></pre>
+<p><img src="http://estebanmoro.org/post/2022-01-10-wordle/index_files/figure-html/unnamed-chunk-19-1.png" width="672" />
+Most frequent letters are vowels (<code>e</code>, <code>o</code>, <code>a</code>) and usual consonants like <code>s</code> and <code>r</code>. In the dictionary, these are the top 5 most frequent letters</p>
+<pre class="r"><code>dist_letters_dictionary %&gt;% arrange(-dens) %&gt;% head(5) %&gt;% 
+  kableExtra::kbl() %&gt;%
+  kableExtra::kable_paper(bootstrap_options = &quot;striped&quot;, full_width = F)</code></pre>
+<table class=" lightable-paper" style="font-family: &quot;Arial Narrow&quot;, arial, helvetica, sans-serif; width: auto !important; margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th style="text-align:left;">
+letter
+</th>
+<th style="text-align:right;">
+Freq
+</th>
+<th style="text-align:right;">
+dens
+</th>
+<th style="text-align:left;">
+corpus
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+s
+</td>
+<td style="text-align:right;">
+6665
+</td>
+<td style="text-align:right;">
+0.1027598
+</td>
+<td style="text-align:left;">
+Dictionary
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+e
+</td>
+<td style="text-align:right;">
+6662
+</td>
+<td style="text-align:right;">
+0.1027135
+</td>
+<td style="text-align:left;">
+Dictionary
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+a
+</td>
+<td style="text-align:right;">
+5990
+</td>
+<td style="text-align:right;">
+0.0923528
+</td>
+<td style="text-align:left;">
+Dictionary
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+o
+</td>
+<td style="text-align:right;">
+4438
+</td>
+<td style="text-align:right;">
+0.0684243
+</td>
+<td style="text-align:left;">
+Dictionary
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+r
+</td>
+<td style="text-align:right;">
+4158
+</td>
+<td style="text-align:right;">
+0.0641073
+</td>
+<td style="text-align:left;">
+Dictionary
+</td>
+</tr>
+</tbody>
+</table>
+<p>This is why I chose <code>aeros</code> as the initial guess. However, we know the words are not chosen randomly from the dictionary. In fact for the possible answers the top 5 letters are</p>
+<pre class="r"><code>dist_letters_possible %&gt;% arrange(-dens) %&gt;% head(5) %&gt;% 
+  kableExtra::kbl() %&gt;%
+  kableExtra::kable_paper(bootstrap_options = &quot;striped&quot;, full_width = F)</code></pre>
+<table class=" lightable-paper" style="font-family: &quot;Arial Narrow&quot;, arial, helvetica, sans-serif; width: auto !important; margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th style="text-align:left;">
+letter
+</th>
+<th style="text-align:right;">
+Freq
+</th>
+<th style="text-align:right;">
+dens
+</th>
+<th style="text-align:left;">
+corpus
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+e
+</td>
+<td style="text-align:right;">
+1233
+</td>
+<td style="text-align:right;">
+0.1065227
+</td>
+<td style="text-align:left;">
+Possible answers
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+a
+</td>
+<td style="text-align:right;">
+979
+</td>
+<td style="text-align:right;">
+0.0845788
+</td>
+<td style="text-align:left;">
+Possible answers
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+r
+</td>
+<td style="text-align:right;">
+899
+</td>
+<td style="text-align:right;">
+0.0776674
+</td>
+<td style="text-align:left;">
+Possible answers
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+o
+</td>
+<td style="text-align:right;">
+754
+</td>
+<td style="text-align:right;">
+0.0651404
+</td>
+<td style="text-align:left;">
+Possible answers
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+t
+</td>
+<td style="text-align:right;">
+729
+</td>
+<td style="text-align:right;">
+0.0629806
+</td>
+<td style="text-align:left;">
+Possible answers
+</td>
+</tr>
+</tbody>
+</table>
+<p>See, no <code>s</code>, but a <code>t</code> instead. These are the words that contain these 5 letters:</p>
+<pre class="r"><code>dictionary[grepl(&quot;e&quot;,dictionary) &amp; grepl(&quot;r&quot;,dictionary) &amp; 
+             grepl(&quot;a&quot;,dictionary) &amp; grepl(&quot;o&quot;,dictionary) &amp; 
+             grepl(&quot;t&quot;,dictionary)]</code></pre>
+<pre><code>## [1] &quot;oater&quot; &quot;orate&quot; &quot;roate&quot;</code></pre>
+<p>Let’s see how good is the strategy we tried before with <code>orate</code></p>
+<pre class="r"><code>set.seed(1)
+helper = WordleHelper$new(nchar = 5)
+dictionary &lt;- helper$words
+first_guess &lt;- &quot;orate&quot;
+dictionary_games &lt;- sapply(sample(dictionary,1000),
+                     \(w) tryCatch(length(play_game(w,first_guess,quiet=T)),
+                                   error=function(e) NA))</code></pre>
+<p>now for the possible answers</p>
+<pre class="r"><code>possible_answers_games &lt;- sapply(possible_answers[,1],
+                     \(w) tryCatch(length(play_game(w,first_guess,quiet=T)),
+                                   error=function(e) NA))</code></pre>
+<p>and finally for the previous wordle answers</p>
+<pre class="r"><code>past_answers_games &lt;- sapply(past_answers[,1],
+                     \(w) tryCatch(length(play_game(w,first_guess,quiet=T)),
+                                   error=function(e) NA))</code></pre>
+<p>which gives the following metrics</p>
+<pre class="r"><code>list(&quot;Dictionary&quot;=dictionary_games,
+     &quot;Possible answers&quot;=possible_answers_games,
+     &quot;Past answers&quot;=past_answers_games) %&gt;%
+  map_dfr(\(answers) tibble(&quot;Average number of tries&quot;=round(mean(answers),2),
+                            &quot;Probability of winning (%)&quot;=round(mean(answers&lt;7)*100,2)),
+          .id=&quot;Selection&quot;) %&gt;% 
+  kableExtra::kbl() %&gt;%
+  kableExtra::kable_paper(bootstrap_options = &quot;striped&quot;, full_width = F)</code></pre>
+<table class=" lightable-paper" style="font-family: &quot;Arial Narrow&quot;, arial, helvetica, sans-serif; width: auto !important; margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th style="text-align:left;">
+Selection
+</th>
+<th style="text-align:right;">
+Average number of tries
+</th>
+<th style="text-align:right;">
+Probability of winning (%)
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+Dictionary
+</td>
+<td style="text-align:right;">
+4.88
+</td>
+<td style="text-align:right;">
+87.80
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Possible answers
+</td>
+<td style="text-align:right;">
+4.07
+</td>
+<td style="text-align:right;">
+97.28
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Past answers
+</td>
+<td style="text-align:right;">
+3.90
+</td>
+<td style="text-align:right;">
+99.03
+</td>
+</tr>
+</tbody>
+</table>
+<p>Wow! 99% with this initial guess for the past and 97% for all the possible solutions. This is around 2% increase from <code>aeros</code> just by choosing a different word. It means (roughly) losing once every 100 games. Be aware that it could be an statistical fluke. More data (more games) are needed to assess if that increase is significant.</p>
+<p>Here we have assumed that each letter has independent frequencies of appearance in a word, but in reality there could be patterns (two or three letters) which are more frequent that could be exploited to get better initial guess.</p>
+</div>
+</div>
+<div id="adversarial-word-selection" class="section level1">
+<h1>Adversarial word selection</h1>
+<p>Finally, we can investigate how well our strategy plays against an adversarial Wordle in which target words are chosen inversely proportional to their frequency in English. That is, if the target words are rare words in English. Let’s first construct a list of potential target words</p>
+<pre class="r"><code>set.seed(1)
+adversarial_answers &lt;- sample(freq$word,prob = 1/freq$log_count,size = 1000)
+head(adversarial_answers)</code></pre>
+<pre><code>## [1] &quot;erbia&quot; &quot;socas&quot; &quot;biach&quot; &quot;allyl&quot; &quot;imaum&quot; &quot;skink&quot;</code></pre>
+<p>As we can see, this method selects as target some unsual words in english like <code>erbia</code> (oxide or erbium) or <code>allyl</code> (a chemistry radical). Let’s see how the frequency of this words compares to the solutions and/or the dictionary</p>
+<pre class="r"><code>ggplot() + geom_density(data=freq,aes(x=rank,col=&quot;All words&quot;),bw=10) +
+  geom_density(data=freq %&gt;% filter(word %in% past_answers[,1]),
+               aes(x=rank,col=&quot;Past answers&quot;),bw=10)+
+  geom_density(data=freq %&gt;% filter(word %in% adversarial_answers),
+               aes(x=rank,col=&quot;Adversarial answers&quot;),bw=10)+
+  scale_color_tableau() + labs(col=&quot;&quot;)</code></pre>
+<p><img src="http://estebanmoro.org/post/2022-01-10-wordle/index_files/figure-html/unnamed-chunk-25-1.png" width="672" />
+As we can see this method selects words which have very small frequency, or large rank in the use of English.</p>
+<p>Let’s play against them</p>
+<pre class="r"><code>adversarial_answers_games &lt;- sapply(adversarial_answers,
+                    \(w) tryCatch(length(play_game(w,first_guess,quiet=T)),
+                                  error=function(e) NA))</code></pre>
+<p>and here is how it compares to the previous choices of target words</p>
+<pre class="r"><code>list(&quot;Dictionary&quot;=dictionary_games,
+     &quot;Possible answers&quot;=possible_answers_games,
+     &quot;Past answers&quot;=past_answers_games,
+     &quot;Adversarial answers&quot;=adversarial_answers_games) %&gt;%
+  map_dfr(\(answers) tibble(&quot;Average number of tries&quot;=round(mean(answers,),2),
+                            &quot;Probability of winning (%)&quot;=round(mean(answers&lt;7)*100,2)),
+          .id=&quot;Selection&quot;) %&gt;% 
+  kableExtra::kbl() %&gt;%
+  kableExtra::kable_paper(bootstrap_options = &quot;striped&quot;, full_width = F)</code></pre>
+<table class=" lightable-paper" style="font-family: &quot;Arial Narrow&quot;, arial, helvetica, sans-serif; width: auto !important; margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th style="text-align:left;">
+Selection
+</th>
+<th style="text-align:right;">
+Average number of tries
+</th>
+<th style="text-align:right;">
+Probability of winning (%)
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+Dictionary
+</td>
+<td style="text-align:right;">
+4.88
+</td>
+<td style="text-align:right;">
+87.80
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Possible answers
+</td>
+<td style="text-align:right;">
+4.07
+</td>
+<td style="text-align:right;">
+97.28
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Past answers
+</td>
+<td style="text-align:right;">
+3.90
+</td>
+<td style="text-align:right;">
+99.03
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Adversarial answers
+</td>
+<td style="text-align:right;">
+5.30
+</td>
+<td style="text-align:right;">
+81.50
+</td>
+</tr>
+</tbody>
+</table>
+<p>As we can see the probability of winning decreases to 81% only, that is, losing 1 out of every 5 days. This probability is smaller than choosing randomly our guess, which means that the strategy we have (choosing words according to the frequency in English) can fail for specific targeted adversarial games.</p>
+</div>
+<div id="conclusion" class="section level1">
+<h1>Conclusion</h1>
+<p>The strategy shown here only works because it exploits the bias in how the target word is chosen. If the designer of the game decides to change this, the performance will be different. For example, if words are randomly selected from the English dictionary the strategy here drops to 82%, not bad but means losing once every 5 days.</p>
+<p>Without any change, we still can win most of the times by using <code>orate</code> and choosing the most frequent words in English in each round. And that ends my orating about Wordle for today.</p>
+</div>
+    
+        </div>
+    </section>
+
+    <footer class="post-full-footer">
+      <section class="author-card">
+        <img class="author-profile-image" src="http://estebanmoro.org/img/whoami6.jpg" alt="Author" />
+        <section class="author-card-content">
+            <h4 class="author-card-name"><a href="http://estebanmoro.org/">Esteban Moro</a></h4>
+                <p>Professor at Northeastern University. Working on Complex Systems, Social Networks and Urban Science.</p>
+        </section>
+      </section>
+    </footer>
+</article>
+    
+    
+    
+
+<div id="disqus_thread"></div>
+<script>
+
+
+
+
+var disqus_config = function () {
+this.page.url = "http:\/\/estebanmoro.org\/post\/2022-01-10-wordle\/";  
+this.page.identifier = "http:\/\/estebanmoro.org\/post\/2022-01-10-wordle\/"; 
+};
+
+(function() { 
+var d = document, s = d.createElement('script');
+s.src = 'https://implicitnone.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+  </div>
+</main>
+
+
+<aside class="read-next outer">
+  <div class="inner">
+    <div class="read-next-feed">      
+      
+<article class="read-next-card" 
+            style="background-image: url(http://estebanmoro.org/img/mob.mp4);" >
+    <header class="read-next-card-header">
+        <small class="read-next-card-header-sitetitle">&mdash; Implicit None &mdash;</small>
+        
+        <h3 class="read-next-card-header-title"><a href="http://estebanmoro.org/tags/wordle/">#wordle</a></h3>
+    </header>
+    <div class="read-next-divider"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 14.5s2 3 5 3 5.5-2.463 5.5-5.5S21 6.5 18 6.5c-5 0-7 11-12 11C2.962 17.5.5 15.037.5 12S3 6.5 6 6.5s4.5 3.5 4.5 3.5"/></svg>
+    </div>
+
+    <div class="read-next-card-content">
+      
+        <ul>
+          <li><a href="http://estebanmoro.org/post/2006-02-09-spreading-of-viscous-fluid-drops-on-a-solid-substrate-assisted-by-thermal-fluctuations/">Spreading of Viscous Fluid Drops on a Solid Substrate Assisted by Thermal Fluctuations</a></li>            
+        
+          <li><a href="http://estebanmoro.org/post/2019-03-26-towards-understanding-the-impact-of-artificial-intelligence-on-labor/">Towards understanding the impact of artificial intelligence on labor</a></li>            
+        
+          <li><a href="http://estebanmoro.org/2009/02/visualizing-citation-networks/">Visualizing citation networks</a></li>            
+        
+          <li><a href="http://estebanmoro.org/post/2022-10-25-creating-resilient-urban-labor-economies/">Creating resilient urban labor economies</a></li>            
+        </ul>
+    </div>
+    <footer class="read-next-card-footer">
+      
+        <a href="http://estebanmoro.org/tags/wordle/">See all related posts →</a>
+    </footer>
+</article>
+
+
+      
+      <article class="post-card post"> 
+    
+    <a class="post-card-image-link" href="http://estebanmoro.org/post/2022-01-31-generating-synthetic-mobility-data-for-a-realistic-population-with-rnns-to-improve-utility-and-privacy/">
+      <div class="post-card-image" style="background-image: url(http://estebanmoro.org/img/posts/rnnmobility.png)"></div>
+    </a>
+    
+
+    <div class="post-card-content">
+      <a class="post-card-content-link" href="http://estebanmoro.org/post/2022-01-31-generating-synthetic-mobility-data-for-a-realistic-population-with-rnns-to-improve-utility-and-privacy/">
+          <header class="post-card-header">
+              <span class="post-card-tags">
+              #Mobile Phone Data 
+              #Privacy 
+              #Deep Learning  </span>
+              
+              <h2 class="post-card-title">Generating synthetic mobility data for a realistic population with RNNs to improve utility and privacy</h2>
+          </header>
+          <section class="post-card-excerpt">
+              
+                <p>Authors: Alex Berke, Ronan Doorley, Kent Larson, Esteban Moro
+Publication: arXiv preprint arXiv:2201.01139 (2022). Link
+Abstract: Location data collected from mobile devices represent mobility behaviors at individual and societal levels. These data have important applications ranging from transportation planning to epidemic modeling. However, issues must be overcome to best serve these use cases: The data often represent a limited sample of the population and use of the data jeopardizes privacy. ...  </p>
+              
+          </section>
+      </a>
+
+      <footer class="post-card-meta">
+          <img class="author-profile-image" src="http://estebanmoro.org/img/whoami6.jpg" alt="Author" />
+          <span class="post-card-author"><a href="http://estebanmoro.org/">Esteban Moro</a></span>
+      </footer>
+    </div>
+</article>
+      
+      
+      <article class="post-card post"> 
+    
+    <a class="post-card-image-link" href="http://estebanmoro.org/post/2022-10-25-creating-resilient-urban-labor-economies/">
+      <div class="post-card-image" style="background-image: url(http://estebanmoro.org/img/posts/labormarket.png)"></div>
+    </a>
+    
+
+    <div class="post-card-content">
+      <a class="post-card-content-link" href="http://estebanmoro.org/post/2022-10-25-creating-resilient-urban-labor-economies/">
+          <header class="post-card-header">
+              <span class="post-card-tags">
+              #resilience 
+              #Labour Markets 
+              #Data Science  </span>
+              
+              <h2 class="post-card-title">Creating resilient urban labor economies</h2>
+          </header>
+          <section class="post-card-excerpt">
+              
+                <p>Like ecosystems, societies with adaptable economies are best prepared for the future. We started a research program to understand and detect economic resilience encoded in the dependency networks of agents, businesses, cities, or jobs. In particular, how much of the adaptability of our economies depends on the fragility of those economic networks? Can we identify weaknesses and design policies to strengthen those interdependent units?
+Using highly detailed information about jobs, skills, and cities, our foundational study extended traditional economic models to show that the network structure of interactions and flows between jobs determines the resilience of labor markets. ...  </p>
+              
+          </section>
+      </a>
+
+      <footer class="post-card-meta">
+          <img class="author-profile-image" src="http://estebanmoro.org/img/whoami6.jpg" alt="Author" />
+          <span class="post-card-author"><a href="http://estebanmoro.org/">Esteban Moro</a></span>
+      </footer>
+    </div>
+</article>
+      
+    </div>
+  </div>
+</aside>
+
+<div class="floating-header">
+  <div class="floating-header-logo">
+    <a href="http://estebanmoro.org/">
+      
+      <span></span>
+    </a>
+  </div>
+  <span class="floating-header-divider">&mdash;</span>
+  <div class="floating-header-title">Playing (and winning) Wordle with R</div>
+  <div class="floating-header-share">
+    <div class="floating-header-share-label">Share this <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+     <path d="M7.5 15.5V4a1.5 1.5 0 1 1 3 0v4.5h2a1 1 0 0 1 1 1h2a1 1 0 0 1 1 1H18a1.5 1.5 0 0 1 1.5 1.5v3.099c0 .929-.13 1.854-.385 2.748L17.5 23.5h-9c-1.5-2-5.417-8.673-5.417-8.673a1.2 1.2 0 0 1 1.76-1.605L7.5 15.5zm6-6v2m-3-3.5v3.5m6-1v2"/></svg>
+    </div>
+    
+    <a class="floating-header-share-tw" href="https://twitter.com/share?text=Playing%20%28and%20winning%29%20Wordle%20with%20R&amp;url=http%3a%2f%2festebanmoro.org%2fpost%2f2022-01-10-wordle%2f"
+          onclick="window.open(this.href, 'share-twitter', 'width=550,height=235');return false;">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M30.063 7.313c-.813 1.125-1.75 2.125-2.875 2.938v.75c0 1.563-.188 3.125-.688 4.625a15.088 15.088 0 0 1-2.063 4.438c-.875 1.438-2 2.688-3.25 3.813a15.015 15.015 0 0 1-4.625 2.563c-1.813.688-3.75 1-5.75 1-3.25 0-6.188-.875-8.875-2.625.438.063.875.125 1.375.125 2.688 0 5.063-.875 7.188-2.5-1.25 0-2.375-.375-3.375-1.125s-1.688-1.688-2.063-2.875c.438.063.813.125 1.125.125.5 0 1-.063 1.5-.25-1.313-.25-2.438-.938-3.313-1.938a5.673 5.673 0 0 1-1.313-3.688v-.063c.813.438 1.688.688 2.625.688a5.228 5.228 0 0 1-1.875-2c-.5-.875-.688-1.813-.688-2.75 0-1.063.25-2.063.75-2.938 1.438 1.75 3.188 3.188 5.25 4.25s4.313 1.688 6.688 1.813a5.579 5.579 0 0 1 1.5-5.438c1.125-1.125 2.5-1.688 4.125-1.688s3.063.625 4.188 1.813a11.48 11.48 0 0 0 3.688-1.375c-.438 1.375-1.313 2.438-2.563 3.188 1.125-.125 2.188-.438 3.313-.875z"/></svg>
+      </a>
+      <a class="floating-header-share-fb" href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2festebanmoro.org%2fpost%2f2022-01-10-wordle%2f"
+          onclick="window.open(this.href, 'share-facebook','width=580,height=296');return false;">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M19 6h5V0h-5c-3.86 0-7 3.14-7 7v3H8v6h4v16h6V16h5l1-6h-6V7c0-.542.458-1 1-1z"/></svg>
+      </a>
+  </div>
+
+  <progress class="progress" value="0">
+    <div class="progress-container">
+      <span class="progress-bar"></span>
+    </div>
+  </progress>
+</div>
+
+
+<footer class="site-footer outer">
+  <div class="site-footer-content inner">
+    <section class="copyright" style="line-height: 1.3em;">
+      <a href="http://estebanmoro.org/">Esteban Moro</a> © 2020 <br>
+      <span style="font-size: 0.8em; color: #555;">Hugo port of <a href="https://github.com/TryGhost/Casper">Casper 2.1.7</a> by <a href="https://www.telematika.org">EM</a></span>
+    </section>
+    <nav class="site-footer-nav">
+        <a href="http://estebanmoro.org/">Latest Posts</a>
+        
+        <a href="https://twitter.com/estebanmoro" target="_blank" rel="noopener">Twitter</a>
+        <a href="https://github.com/emoro" target="_blank" rel="noopener">Github</a>
+        <a href="https://www.linkedin.com/in/esteban-moro" target="_blank" rel="noopener">LinkedIn</a>
+        
+    </nav>  
+  </div>
+</footer>
+
+</div>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="http://estebanmoro.org/js/jquery.fitvids.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script id="altmetric-embed-js" type="text/javascript" src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+
+
+<script>hljs.initHighlightingOnLoad();</script> 
+
+
+
+
+
+
+  <!-- Google Analytics -->
+  <script>
+    var _gaq=[['_setAccount','UA-131034910-1'],['_trackPageview']];
+    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+    g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+    s.parentNode.insertBefore(g,s)}(document,'script'));
+  </script>
+
+
+
+
+
+
+    <script>
+
+
+
+
+
+$(document).ready(function () {
+    
+    var $postContent = $(".post-full-content");
+    $postContent.fitVids();
+    
+
+    var progressBar = document.querySelector('progress');
+    var header = document.querySelector('.floating-header');
+    var title = document.querySelector('.post-full-title');
+
+    var lastScrollY = window.scrollY;
+    var lastWindowHeight = window.innerHeight;
+    var lastDocumentHeight = $(document).height();
+    var ticking = false;
+
+    function onScroll() {
+        lastScrollY = window.scrollY;
+        requestTick();
+    }
+
+    function onResize() {
+        lastWindowHeight = window.innerHeight;
+        lastDocumentHeight = $(document).height();
+        requestTick();
+    }
+
+    function requestTick() {
+        if (!ticking) {
+            requestAnimationFrame(update);
+        }
+        ticking = true;
+    }
+
+    function update() {
+        var trigger = title.getBoundingClientRect().top + window.scrollY;
+        var triggerOffset = title.offsetHeight + 35;
+        var progressMax = lastDocumentHeight - lastWindowHeight;
+
+        
+        if (lastScrollY >= trigger + triggerOffset) {
+            header.classList.add('floating-active');
+        } else {
+            header.classList.remove('floating-active');
+        }
+
+        progressBar.setAttribute('max', progressMax);
+        progressBar.setAttribute('value', lastScrollY);
+
+        ticking = false;
+    }
+
+    window.addEventListener('scroll', onScroll, {passive: true});
+    window.addEventListener('resize', onResize, false);
+
+    update();
+});
+</script>
+</body></html>

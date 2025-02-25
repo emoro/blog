@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>glaciers on </title>
+    <link>http://estebanmoro.org/tags/glaciers/</link>
+    <description>Recent content in glaciers on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Wed, 21 Dec 2005 07:35:08 +0000</lastBuildDate><atom:link href="http://estebanmoro.org/tags/glaciers/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Meet the glaciers</title>
+      <link>http://estebanmoro.org/2005/12/meet-the-glaciers/</link>
+      <pubDate>Wed, 21 Dec 2005 07:35:08 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/2005/12/meet-the-glaciers/</guid>
+      <description>I have been on holidays during the last two weeks visiting Argentina. The picture above was taken on top of the Perito Moreno glacier, which is amazing. Most glaciers we found where blueish, including the icebergs found floating in the rivers. The reason for that is that the thicker the ice or snow layer is, the better red colors are absorbed by the layer and only the blue colors are reflected (see a more detailed explanation here).</description>
+    </item>
+    
+  </channel>
+</rss>

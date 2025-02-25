@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Social Mobilization on </title>
+    <link>http://estebanmoro.org/tags/social-mobilization/</link>
+    <description>Recent content in Social Mobilization on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Mon, 01 Apr 2013 20:37:19 +0000</lastBuildDate><atom:link href="http://estebanmoro.org/tags/social-mobilization/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Limits of social mobilization</title>
+      <link>http://estebanmoro.org/post/2013-04-01-limits-of-social-mobilization/</link>
+      <pubDate>Mon, 01 Apr 2013 20:37:19 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2013-04-01-limits-of-social-mobilization/</guid>
+      <description>Authors: Alex Rutherford, Manuel Cebrian, Sohan Dsouza, Esteban Moro, Alex Pentland, and Iyad Rahwan
+Journal: PNAS 110 (16), 6281-6286 (2013) LINK
+Abstract: The Internet and social media have enabled the mobilization of large crowds to achieve time-critical feats, ranging from mapping crises in real time, to organizing mass rallies, to conducting search-and-rescue operations over large geographies. Despite significant success, selection bias may lead to inflated expectations of the efficacy of social mobilization for these tasks.</description>
+    </item>
+    
+  </channel>
+</rss>

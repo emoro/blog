@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Complexity on </title>
+    <link>http://estebanmoro.org/tags/complexity/</link>
+    <description>Recent content in Complexity on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Mon, 15 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://estebanmoro.org/tags/complexity/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Estudiar ciudades como sistemas complejos</title>
+      <link>http://estebanmoro.org/post/2024-07-15-estudiar-ciudades-como-sistemas-complejos-esteban-moro-en-entrevista-para-c3/</link>
+      <pubDate>Mon, 15 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2024-07-15-estudiar-ciudades-como-sistemas-complejos-esteban-moro-en-entrevista-para-c3/</guid>
+      <description>Video of my interview about the complexity of Urban Systems at the Centro de Ciencias de la Complejidad (C3) de la Universidad Nacional Autónoma de México.
+ </description>
+    </item>
+    
+    <item>
+      <title>Searching for someone</title>
+      <link>http://estebanmoro.org/post/2016-02-19-searching-for-someone/</link>
+      <pubDate>Fri, 19 Feb 2016 11:52:48 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2016-02-19-searching-for-someone/</guid>
+      <description>From the “Small World Experiment” to the “Red Balloon Challenge,” and beyond
+We live in a small world, right? But the cost and fragility of navigating it could harm any potential strategy to leverage the power of social networks. Read this fascinating story of the research, experiments, and failures in the quest for using social networks to search information/people:
+[Excerpt of the article] Our ability to search social networks for people and information is fundamental to our success.</description>
+    </item>
+    
+    <item>
+      <title>Agent-specific impact of single trades in financial markets</title>
+      <link>http://estebanmoro.org/post/2012-03-12-agent-specific-impact-of-single-trades-in-financial-markets/</link>
+      <pubDate>Mon, 12 Mar 2012 21:12:54 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2012-03-12-agent-specific-impact-of-single-trades-in-financial-markets/</guid>
+      <description>Authors: Alex Bladon, Esteban Moro y Tobias Galla
+Journal: Physical Review E 85, 036103 (2012) LINK | arXiv
+Abstract: We present an analysis of the price impact associated with single trades effected by different financial firms. Using data from the Spanish Stock Market, we find a high degree of heterogeneity across different market members, both in the instantaneous impact functions and in the time-dependent market response to trades by individual members.</description>
+    </item>
+    
+    <item>
+      <title>Complex Dynamics of Human Interactions, September 14th 2011</title>
+      <link>http://estebanmoro.org/2011/03/complex-dynamics-of-human-interactions-september-14th-2011/</link>
+      <pubDate>Mon, 28 Mar 2011 14:51:50 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/2011/03/complex-dynamics-of-human-interactions-september-14th-2011/</guid>
+      <description>We (together with Kimmo Kaski, Aalto University) are organizing the ECCS&#39;11 Satellite conference &amp;ldquo;Complex Dynamics of Human Interactions&amp;rdquo; to be held at Vienna, September 14th.
+You can find more info at http://www.complexdynamics.org
+&amp;ldquo;It&amp;rsquo;s not enough to have a map of the structure. It is crucial to understand the dynamics of a process”, L. Barábasi
+Scope The nature of human interaction has undergone a substantial change in the past years and the change does not seem to be over.</description>
+    </item>
+    
+    <item>
+      <title>Relationship mining</title>
+      <link>http://estebanmoro.org/2010/01/relationship-mining/</link>
+      <pubDate>Mon, 11 Jan 2010 09:16:09 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/2010/01/relationship-mining/</guid>
+      <description>Each day trillions of emails, phone calls, comments on blogs, twitter messages, exchanges in online social networks, etc. are done. Not only the number of communications has increased, but also each of these transactions leaves a digital trace that can be recorded to reconstruct our high-frequency human activity. It is not only the amount and variety of data that is recorded what is important. Also its high-frequency character and its comprehensive nature have allowed researchers, companies and agencies to investigate individual and group dynamics at an unprecedented level of detail and applied them to client modeling, organizational analysis or epidemic spreading [1].</description>
+    </item>
+    
+    <item>
+      <title>Is Game Theory a scientific theory?</title>
+      <link>http://estebanmoro.org/2008/12/is-game-theory-a-scientific-theory/</link>
+      <pubDate>Mon, 01 Dec 2008 07:40:05 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/2008/12/is-game-theory-a-scientific-theory/</guid>
+      <description>A wonderful quote about the nature of Game Theory
+Game theory is no doubt wonderful for telling stories. However, it flunks the main test of any scientific theory: The ability to make empirically testable predictions. In most real-life situations, many different outcomes -- from full cooperation to near-disastrous conflict -- are consistent with the game-theory version of rationality.  by Michael Mandel, on Kahneman and Smith 2002 Nobel Prize in Economics.</description>
+    </item>
+    
+    <item>
+      <title>Individuals and groups</title>
+      <link>http://estebanmoro.org/2008/11/individuals-and-groups/</link>
+      <pubDate>Wed, 26 Nov 2008 15:03:29 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/2008/11/individuals-and-groups/</guid>
+      <description>While the individual man is an insoluble puzzle, in the aggregate he becomes a mathematical certainty. You can, for example, never foretell what any one man will do, but you can say with precision what an average number will be up to. Individuals vary, but percentages remain constant. So says the statistician Sherlock Holmes in &amp;ldquo;The Sign of Four&amp;rdquo;. Via Gaussianos</description>
+    </item>
+    
+    <item>
+      <title>Specialization of strategies and herding behavior of trading firms in a financial market</title>
+      <link>http://estebanmoro.org/post/2007-07-04-specialization-of-strategies-and-herding-behavior-of-trading-firms-in-a-financial-market/</link>
+      <pubDate>Wed, 04 Jul 2007 20:19:35 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2007-07-04-specialization-of-strategies-and-herding-behavior-of-trading-firms-in-a-financial-market/</guid>
+      <description>Authors: Fabrizio Lillo, Esteban Moro, Gabriella Vaglica y Rosario Mantegna
+Journal: New Journal of Physics 10 (2008) 043019 LINK arXiv
+Abstract: Agent-based models of ﬁnancial markets usually make assumptions about agent&amp;rsquo;s preferred stylized strategies. Empirical validations of these assumptions have not been performed so far on a full-market scale. Here we present a comprehensive study of the resulting strategies followed by the ﬁrms which are members of the Spanish Stock Exchange.</description>
+    </item>
+    
+    <item>
+      <title>Scaling laws of strategic behavior and size heterogeneity in agent dynamics</title>
+      <link>http://estebanmoro.org/post/2007-04-20-scaling-laws-of-strategic-behavior-and-size-heterogeneity-in-agent-dynamics/</link>
+      <pubDate>Fri, 20 Apr 2007 09:54:57 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2007-04-20-scaling-laws-of-strategic-behavior-and-size-heterogeneity-in-agent-dynamics/</guid>
+      <description>Authors: Gabriella Vaglica, Fabrizio Lillo, Esteban Moro y Rosario N. Mantegna
+Journal: Physical Review E 77, 036110 (2008). LINK | arXiv
+Abstract: The dynamics of many socioeconomic systems is determined by the decision making process of agents. The decision process depends on agent&amp;rsquo;s characteristics, such as preferences, risk aversion, behavioral biases, etc. In addition, in some systems the size of agents can be highly heterogeneous leading to very different impacts of agents on the system dynamics.</description>
+    </item>
+    
+  </channel>
+</rss>

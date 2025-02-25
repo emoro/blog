@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fisher on </title>
+    <link>http://estebanmoro.org/tags/fisher/</link>
+    <description>Recent content in Fisher on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Mon, 03 Nov 2014 08:22:16 +0000</lastBuildDate><atom:link href="http://estebanmoro.org/tags/fisher/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Macroscopic Response to Microscopic Intrinsic Noise in Three-Dimensional Fisher Fronts</title>
+      <link>http://estebanmoro.org/post/2014-11-03-macroscopic-response-to-microscopic-intrinsic-noise-in-three-dimensional-fisher-fronts/</link>
+      <pubDate>Mon, 03 Nov 2014 08:22:16 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2014-11-03-macroscopic-response-to-microscopic-intrinsic-noise-in-three-dimensional-fisher-fronts/</guid>
+      <description>Authors:Svetozar Nesic, Rodolfo Cuerno, and Esteban Moro
+Journal: Physical Review Letters 113, 180602 (2014) LINK
+Summary We study the dynamics of three-dimensional Fisher fronts in the presence of density fluctuations. To this end we simulate the Fisher equation subject to stochastic internal noise, and study how the front moves and roughens as a function of the number of particles in the system, N. Our results suggest that the macroscopic behaviour of the system is driven by the microscopic dynamics at its leading edge where number fluctuations are dominated by rare events.</description>
+    </item>
+    
+    <item>
+      <title>Numerical schemes for continuum models of reaction-diffusion systems subject to internal noise</title>
+      <link>http://estebanmoro.org/post/2004-10-23-numerical-schemes-for-continuum-models-of-reaction-diffusion-systems-subject-to-internal-noise/</link>
+      <pubDate>Sat, 23 Oct 2004 09:41:58 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2004-10-23-numerical-schemes-for-continuum-models-of-reaction-diffusion-systems-subject-to-internal-noise/</guid>
+      <description>Authors: Esteban Moro
+Journal: Physical Review E (Rapid Communication) 70, 045102 (2004). LINK | arXiv
+Abstract: We present numerical schemes to integrate stochastic partial differential equations which describe the spatiotemporal dynamics of reaction-diffusion problems under the effect of internal fluctuations. The schemes conserve the non-negativity of the solutions and incorporate the Poissonian nature of internal fluctuations at small densities, their performance being limited by the level of approximation of density fluctuations at small scales.</description>
+    </item>
+    
+    <item>
+      <title>Hybrid method for simulating front propagation in reaction-diffusion systems</title>
+      <link>http://estebanmoro.org/post/2004-06-01-hybrid-method-for-simulating-front-propagation-in-reaction-diffusion-systems/</link>
+      <pubDate>Tue, 01 Jun 2004 09:56:29 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2004-06-01-hybrid-method-for-simulating-front-propagation-in-reaction-diffusion-systems/</guid>
+      <description>Authors: Esteban Moro
+Journal: Physical Review E, Rapid Communication 69, 060101 (2004). LINK | arXiv
+Abstract: We study the propagation of pulled fronts in the \(A\leftrightarrow A+A\) microscopic reaction-diffusion process using Monte Carlo simulations. In the mean field approximation the process is described by the deterministic Fisher-Kolmogorov-Petrovsky-Piscounov equation. In particular, we concentrate on the corrections to the deterministic behavior due to the number of particles per correlated volume \(\Omega\). By means of a hybrid simulation scheme, we manage to reach large macroscopic values of \(\Omega\), which allows us to show the importance in the dynamics of microscopic pulled fronts of the interplay of microscopic fluctuations and their macroscopic relaxation.</description>
+    </item>
+    
+    <item>
+      <title>Emergence of pulled fronts in fermionic microscopic particle models</title>
+      <link>http://estebanmoro.org/post/2003-08-25-emergence-of-pulled-fronts-in-fermionic-microscopic-particle-models/</link>
+      <pubDate>Mon, 25 Aug 2003 09:44:10 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2003-08-25-emergence-of-pulled-fronts-in-fermionic-microscopic-particle-models/</guid>
+      <description>Authors: Esteban Moro
+Phys. Rev. E, Rapid Communication, 68, 025102 (2003). LINK | arXiv
+Abstract:
+We study the emergence and dynamics of pulled fronts described by the Fisher-Kolmogorov-Petrovsky-Piscounov (FKPP) equation in the microscopic reaction-diffusion process \(A\leftrightarrow A+A\) on the lattice when only a particle is allowed per site. To this end we identify the parameter that controls the strength of internal fluctuations in this model, namely, the number of particles per correlated volume.</description>
+    </item>
+    
+    <item>
+      <title>Internal Fluctuations Effects on Fisher Waves</title>
+      <link>http://estebanmoro.org/post/2001-11-14-internal-fluctuations-effects-on-fisher-waves/</link>
+      <pubDate>Wed, 14 Nov 2001 09:55:40 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2001-11-14-internal-fluctuations-effects-on-fisher-waves/</guid>
+      <description>Authors: Esteban Moro
+Journal: Physical Review Letters 87, 238303 (2001) LINK | arXiv
+Abstract: We study the diffusion-limited reaction \(A \leftrightarrow A = A\) in various spatial dimensions to observe the effect of internal fluctuations on the interface between stable and unstable phases. We find that, similar to what has been observed in d = 1 dimensions, internal fluctuations modify the mean-field predictions for this process, which is given by Fisher’s reaction-diffusion equation.</description>
+    </item>
+    
+  </channel>
+</rss>

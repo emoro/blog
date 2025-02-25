@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en-US" />
+<head>
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+    <title>Setting up your blog with RStudio and blogdown III: modify your theme &middot; </title>
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="http://estebanmoro.org/favicon.ico" />
+    <link rel="canonical" href="http://estebanmoro.org/post/2019-02-04-setting-up-your-blog-with-rstudio-and-blogdown-iii-modify-your-theme/" />
+
+     <meta name="description" content="This is Part III of my series of posts about how to setup you blog with RStudio and blogdown. The other parts are:
+   Part I about to setup the blog using Hugo," /> 
+
+     
+    
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:image" content="http://estebanmoro.org/img/posts/migrating3.png"/>
+    
+ 
+    <meta name="twitter:title" content="Setting up your blog with RStudio and blogdown III: modify your theme"/>
+    <meta name="twitter:description" content="This is Part III of my series of posts about how to setup you blog with RStudio and blogdown. The other parts are:
+   Part I about to setup the blog using Hugo,"/>
+    <meta name="twitter:url" content="http://estebanmoro.org/post/2019-02-04-setting-up-your-blog-with-rstudio-and-blogdown-iii-modify-your-theme/" />
+    <meta name="twitter:site" content="@estebanmoro"/>
+
+    <meta property="og:site_name" content="" />
+    <meta property="og:title" content="Setting up your blog with RStudio and blogdown III: modify your theme &middot; Implicit None" />
+    <meta property="og:url" content="http://estebanmoro.org/post/2019-02-04-setting-up-your-blog-with-rstudio-and-blogdown-iii-modify-your-theme/" />
+    
+
+    <meta property="og:type" content="article" />
+    <meta property="og:description" content="This is Part III of my series of posts about how to setup you blog with RStudio and blogdown. The other parts are:
+   Part I about to setup the blog using Hugo," />
+
+    <meta property="article:published_time" content="2019-02-02T00:00:00Z" />
+    <meta property="article:tag" content="blog" /><meta property="article:tag" content="R" /><meta property="article:tag" content="hugo" />
+
+    <meta property="og:image" content="http://estebanmoro.org/img/posts/migrating3.png"/>
+
+
+
+    <meta name="generator" content="Hugo 0.92.2" />
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" type="text/css" href="http://estebanmoro.org/built/screen.css" /> 
+    <link rel="stylesheet" type="text/css" href="http://estebanmoro.org/css/casper-two.css" /> 
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/tomorrow-night-bright.min.css" />
+     <link rel="stylesheet" href="http://estebanmoro.org/css/overrides.css" /> 
+
+     
+
+</head>
+
+
+<body class="post-template">
+  <div class="site-wrapper"> 
+
+<header class="site-header outer">
+  <div class="inner">
+    <nav class="site-nav">
+      <div class="site-nav-left">
+
+        <ul class="nav" role="menu">
+        
+        
+        
+            <li class="" role="menuitem">
+              <a href="http://estebanmoro.org/">Home</a>
+            </li>
+        
+            <li class="" role="menuitem">
+              <a href="http://estebanmoro.org/categories/publications">Publications</a>
+            </li>
+        
+            <li class="" role="menuitem">
+              <a href="http://estebanmoro.org/categories/projects">Projects</a>
+            </li>
+        
+            <li class="" role="menuitem">
+              <a href="http://estebanmoro.org/categories/science">Science</a>
+            </li>
+        
+            <li class="" role="menuitem">
+              <a href="http://estebanmoro.org/categories/media">Media</a>
+            </li>
+        
+            <li class="" role="menuitem">
+              <a href="http://estebanmoro.org/categories/photos">Photos</a>
+            </li>
+        
+            <li class="" role="menuitem">
+              <a href="http://estebanmoro.org/categories/talks">Talks</a>
+            </li>
+        
+            <li class="" role="menuitem">
+              <a href="http://estebanmoro.org/categories/positions">Positions</a>
+            </li>
+        
+            <li class="" role="menuitem">
+              <a href="http://estebanmoro.org/categories/r">R</a>
+            </li>
+        
+            <li class="" role="menuitem">
+              <a href="http://estebanmoro.org/about/">About/CV</a>
+            </li>
+        
+            <li class="" role="menuitem">
+              <a href="http://estebanmoro.org/reading/">Reading</a>
+            </li>
+        
+      </ul></div>
+
+      <div class="site-nav-right">
+        <div class="social-links">
+                    
+
+                    <a class="social-link social-link-tw" href="https://twitter.com/estebanmoro" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M30.063 7.313c-.813 1.125-1.75 2.125-2.875 2.938v.75c0 1.563-.188 3.125-.688 4.625a15.088 15.088 0 0 1-2.063 4.438c-.875 1.438-2 2.688-3.25 3.813a15.015 15.015 0 0 1-4.625 2.563c-1.813.688-3.75 1-5.75 1-3.25 0-6.188-.875-8.875-2.625.438.063.875.125 1.375.125 2.688 0 5.063-.875 7.188-2.5-1.25 0-2.375-.375-3.375-1.125s-1.688-1.688-2.063-2.875c.438.063.813.125 1.125.125.5 0 1-.063 1.5-.25-1.313-.25-2.438-.938-3.313-1.938a5.673 5.673 0 0 1-1.313-3.688v-.063c.813.438 1.688.688 2.625.688a5.228 5.228 0 0 1-1.875-2c-.5-.875-.688-1.813-.688-2.75 0-1.063.25-2.063.75-2.938 1.438 1.75 3.188 3.188 5.25 4.25s4.313 1.688 6.688 1.813a5.579 5.579 0 0 1 1.5-5.438c1.125-1.125 2.5-1.688 4.125-1.688s3.063.625 4.188 1.813a11.48 11.48 0 0 0 3.688-1.375c-.438 1.375-1.313 2.438-2.563 3.188 1.125-.125 2.188-.438 3.313-.875z"/></svg></a>
+
+                    <a class="social-link" href="https://github.com/emoro" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></a>
+
+                    <a class="social-link" href="https://www.linkedin.com/in/esteban-moro" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 50 512 512"><path d="M150.65,100.682c0,27.992-22.508,50.683-50.273,50.683c-27.765,0-50.273-22.691-50.273-50.683 C50.104,72.691,72.612,50,100.377,50C128.143,50,150.65,72.691,150.65,100.682z M143.294,187.333H58.277V462h85.017V187.333z M279.195,187.333h-81.541V462h81.541c0,0,0-101.877,0-144.181c0-38.624,17.779-61.615,51.807-61.615 c31.268,0,46.289,22.071,46.289,61.615c0,39.545,0,144.181,0,144.181h84.605c0,0,0-100.344,0-173.915 s-41.689-109.131-99.934-109.131s-82.768,45.369-82.768,45.369V187.333z" /></svg></a>
+
+                    
+        </div>  
+        
+        <a class="subscribe-button" href="http://estebanmoro.org/index.xml">Subscribe</a>
+            
+      </div>
+
+    </nav>  
+
+  </div>
+</header>
+
+<main id="site-main" class="site-main outer" role="main">
+  <div class="inner">
+    
+      <article class="post-full post"> 
+    <header class="post-full-header">
+        <section class="post-full-meta">
+            <time class="post-full-meta-date" datetime="2019-02-02">2 February 2019</time>
+                <span class="date-divider">/</span> <a href="http://estebanmoro.org/tags/blog/">#blog</a>&nbsp;<a href="http://estebanmoro.org/tags/r/">#R</a>&nbsp;
+        </section>
+        <h1 class="post-full-title">Setting up your blog with RStudio and blogdown III: modify your theme</h1>
+    </header>
+    
+    <figure class="post-full-image" style="background-image: url(http://estebanmoro.org/img/posts/migrating3.png)">
+    </figure>
+
+    <section class="post-full-content">
+        <div class="kg-card-markdown">
+        <blockquote>
+<p><em>This is Part III of my series of posts about how to setup you blog with RStudio and blogdown. The other parts are:</em></p>
+</blockquote>
+<blockquote>
+<ul>
+<li><em><a href="http://estebanmoro.org/post/2019-02-02-setting-up-your-blog-with-rstudio-and-blogdown-i-creating-the-blog/">Part I</a> about to setup the blog using Hugo, RStudio and blogdown</em></li>
+<li><em><a href="http://estebanmoro.org/post/2019-02-01-setting-up-your-blog-with-rstudio-and-blogdown/">Part II</a> explains my workflow of creating new posts.</em></li>
+<li><em>Part III (this one) how to modify the theme.</em></li>
+</ul>
+</blockquote>
+<p>In this post I am going to show how I modified the original theme <code>casper-two</code> that I use for my blog. It is a great theme, but for sure you would like to change the menus, the appearance, the structure of the information in the blog, etc.</p>
+<p>Content:</p>
+<ul>
+<li><a href="#hugo-internals">Hugo internals</a></li>
+<li><a href="#changing-the-main-menu">Changing the main menu</a></li></li>
+<li><a href="#google-analytics">Google Analytics</a></li></li>
+<li><a href="#math-equations">Math equations</a></li></li>
+<li><a href="#custom-css">Custom CSS</a></li></li>
+<li><a href="#altmetrics">Altmetrics</a></li></li>
+<li><a href="#show-only-some-posts-in-the-main-page">Show only some posts in the main page</a></li></li>
+<li><a href="#fixing-youtube">Fixing Youtube</a></li></li>
+</ul>
+<h2 id="hugo-internals">Hugo internals</h2>
+<p>But before that we have to learn a little bit about how Hugo and our theme works underneath our blog. If you have a look the folder where your blog is, you will find this structure</p>
+<p><img src="http://estebanmoro.org/img/posts/folder-structure.png" alt="">{width=80%}</p>
+<p>The last directory (<code>hugo-casper-two</code>) contains the theme files and has this structure:</p>
+<p><img src="http://estebanmoro.org/img/posts/theme-folder.png" alt="">{width=80%}</p>
+<p>The folder <code>layouts</code> contains a lot of html files in HUGO format that specify how our pages are going to be rendered. Each file is a mixture of html and HUGO variables. For example, this is how the <code>index.html</code> looks like</p>
+<pre tabindex="0"><code>{{ partial &quot;head&quot; . }}
+
+&lt;body class=&quot;home-template&quot;&gt;&lt;div class=&quot;site-wrapper&quot;&gt;
+
+{{ partial &quot;header&quot; . }}
+
+&lt;main id=&quot;site-main&quot; class=&quot;site-main outer&quot; role=&quot;main&quot;&gt;
+  &lt;div class=&quot;inner&quot;&gt;
+    &lt;div class=&quot;post-feed&quot;&gt;
+      {{ partial &quot;post-list-main&quot; . }}
+    &lt;/div&gt;
+
+    &lt;nav class=&quot;pagination&quot; role=&quot;navigation&quot;&gt;
+      {{if .Paginator.HasPrev}}
+          &lt;a class=&quot;newer-posts&quot; href=&quot;{{ .Paginator.Prev.URL }}&quot;&gt;&amp;larr; 
+               &lt;span class=&quot;hide&quot;&gt;Next Posts&lt;/span&gt;&lt;/a&gt;
+      {{end}}
+      &lt;span class=&quot;page-number&quot;&gt;&lt;span class=&quot;hide&quot;&gt;Page {{ .Paginator.PageNumber }} 
+            of {{.Paginator.TotalPages}}&lt;/span&gt;&amp;nbsp;&lt;/span&gt;
+      {{if .Paginator.HasNext}}
+          &lt;a class=&quot;older-posts&quot; href=&quot;{{ .Paginator.Next.URL }}&quot;&gt;
+          &lt;span class=&quot;hide&quot;&gt;Previous Posts&lt;/span&gt; &amp;rarr;&lt;/a&gt;
+      {{end}}
+    &lt;/nav&gt;
+  &lt;/div&gt;
+&lt;/main&gt;
+
+{{ partial &quot;footer&quot; . }}
+&lt;/div&gt;{{ partial &quot;js&quot; . }}&lt;/body&gt;&lt;/html&gt;
+</code></pre><p>Each <code>{{ }}</code> command tells Hugo to do something. In particular the first one (<code>{{ partial &quot;head&quot; . }}</code>) includes in that position the partial <code>head.html</code> which is also in the layouts folder. Then it comes some HTML, another partial <code>header.html</code>, etc. You can also put controls/functions for the final code (see for example the <em>if</em> control <code>{{if .Paginator.HasPrev}}</code>) or output some variables in the code depending on the context (<code>{{ .Paginator.Prev.URL }}</code>), etc. Variables and parameters are preceded by a dot. For example .Site.BaseURL` is the base URL for the site.</p>
+<p>Have a look at how Hugo manages the content in the templates in the <a href="https://gohugo.io/content-management/">Hugo webpage</a>.</p>
+<p>Modifying the template requires to changing the files for the different layouts. But instead of modifying the original template files in the <code>themes</code> folder, it is better to <a href="https://bookdown.org/yihui/blogdown/custom-layouts.html">follow the advise here</a> and replicate the layouts structure outside the <code>themes</code> folder. Hugo will read first our own <code>layout</code> folder and then the <code>layout</code> folder in the original theme. For example, in this post we are going to modify <code>index.html</code>, <code>js.html</code>, etc. And create new layouts <code>post-list-main.html</code> or shortcodes like <code>yt.html</code>. So your final blog folder will look like this.</p>
+<p><img src="http://estebanmoro.org/img/posts/folder_layouts.png" alt="">{width=80%}</p>
+<h2 id="changing-the-main-menu">Changing the main menu</h2>
+<p>This is really easy. Go to your <code>config.toml</code> and you will see a number of <code>[[menu.main]]</code> items in it. Change them to link to</p>
+<ul>
+<li>Category pages, showing all the posts in a category. Like this:</li>
+</ul>
+<pre tabindex="0"><code>[[menu.main]]
+  name = &quot;Publications&quot;
+  url = &quot;/categories/publications&quot;
+  weight = 150
+</code></pre><ul>
+<li>Individual pages. A link to a particular page/post in your blog</li>
+</ul>
+<pre tabindex="0"><code>[[menu.main]]
+  name = &quot;About&quot;
+  url = &quot;/about/&quot;
+  weight = 94
+</code></pre><ul>
+<li>External pages. A link to a external page not in your blog</li>
+</ul>
+<pre tabindex="0"><code>[[menu.main]]
+  name = &quot;My University&quot;
+  url = &quot;http://www.uc3m.es&quot;
+  weight = 32
+</code></pre><p>The <code>weight</code> controls the order in which they appear. Higher weights mean they will appear in the leftmost positions.</p>
+<h2 id="google-analytics">Google Analytics</h2>
+<p>If you want to use Google Analytics for your blog, you can do it by specifying your Google Analytics tracking id in the <code>config.toml</code></p>
+<p><code>googleAnalytics = &quot;UA-XXXXYYZZY-X&quot;</code></p>
+<p>It works great, but there is something that I didn&rsquo;t like: the tracking works even in your production environment when you are running the <code>blogdown::serve_site()</code>. This means that when you are writing a post, updating locally your pictures, etc., and you navigate your blog in Rstudio, it will count as visits to your blog in Google Analytics.</p>
+<p>We are going to modify the theme so that only visits from others are counted in Google Analytics. To do that we are going to copy the file <code>js.html</code> to our local <code>layouts</code> folder. If you edit it you will see that the Google Analytics script is the following part:</p>
+<pre tabindex="0"><code>{{ with .Site.Params.googleAnalytics }}
+  {{ &quot;&lt;!-- Google Analytics --&gt;&quot; | safeHTML }}
+  &lt;script&gt;
+    var _gaq=[['_setAccount','{{ . }}'],['_trackPageview']];
+    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+    g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+    s.parentNode.insertBefore(g,s)}(document,'script'));
+  &lt;/script&gt;
+{{ end }}
+</code></pre><p>But we are going to tell Hugo to include this script only if the webpage is in the final domain, that is, if we build the final deployment version of our blog. To do that you have to change the above code to</p>
+<pre tabindex="0"><code>{{ $baseurl := printf &quot;%s&quot; .Site.BaseURL }}
+
+{{ if eq $baseurl &quot;http://estebanmoro.org/&quot; }}
+
+{{ with .Site.Params.googleAnalytics }}
+  {{ &quot;&lt;!-- Google Analytics --&gt;&quot; | safeHTML }}
+  &lt;script&gt;
+    var _gaq=[['_setAccount','{{ . }}'],['_trackPageview']];
+    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+    g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+    s.parentNode.insertBefore(g,s)}(document,'script'));
+  &lt;/script&gt;
+{{ end }}
+
+{{ end }}
+</code></pre><p>Note the <code>if</code> before the script that tells Hugo to include it only if the base URL for the site coincides with the domain (in this case my domain <code>http://estebanmoro.org)</code>). I have tried other solutions mentioned <a href="https://discourse.gohugo.io/t/how-to-exclude-google-analytics-when-running-under-hugo-local-server/6092">here</a> and <a href="https://simpleit.rocks/golang/hugo/avoid-loading-portions-of-code-locally-in-hugo/">here</a>, but this is the only that worked for me.</p>
+<h2 id="math-equations">Math equations</h2>
+<p>One of the best thing (at least for me) of R markdown is the ability to type directly into <code>\(\LaTeX\)</code>. This way I can type</p>
+<p><code>$\int_0^\infty f(x) dx$ </code></p>
+<p>and it will be rendered as</p>
+<p><code>\(\int_0^\infty f(x) dx\)</code></p>
+<p>However, the <code>casper-two</code> theme does not come with the MathJax javascript library which displays mathematical equations in the browser. To include it we have to add the javascript somewhere in the head of all pages. Let&rsquo;s do it using the <code>js.html</code>. Once again, edit the file in your <code>layouts</code> folder and add the following line at the top:</p>
+<pre tabindex="0"><code>&lt;script type=&quot;text/javascript&quot;
+src=&quot;https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML&quot;&gt;&lt;/script&gt;
+</code></pre><h2 id="altmetrics">Altmetrics</h2>
+<p>For those of us that work in academia, we use the number of citations or alternative ways to measure the impact of a paper. One of them is <a href="https://www.altmetric.com">Altmetric</a> which is particularly useful to track who is talking about your research in social media, newspapers, blogs, etc.</p>
+<p>Here is how the Altmetric page looks for one of my papers:</p>
+<p><a href="https://www.altmetric.com/details/24733392"><img src="http://estebanmoro.org/img/posts/altmetric_badge.png" alt="">{width=80%}</a></p>
+<p>On the top left you can see the Altmetric <strong>bagde</strong> for your paper, which is a sum of the mention in news outlets, blogs, Twitter users, etc.</p>
+<p>Altmetric provides free javascript to embed that badge in your webpage (in a lab or personal homepage), so I decided to use it in each of my papers. Here are the instructions from the <a href="http://api.altmetric.com/embeds.html">Altmetric page</a></p>
+<ul>
+<li>Firstly, we have to include the Altmetric javascript in our pages. Edit the <code>js.html</code> again to include:</li>
+</ul>
+<pre tabindex="0"><code>&lt;script id=&quot;altmetric-embed-js&quot; type=&quot;text/javascript&quot;
+src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'&gt;&lt;/script&gt;
+</code></pre><p>Note that I have included the <code>id=&quot;altmetric-embed-js&quot;</code> part to the script. The instructions at Altmetrics do not mention the <code>id</code>.</p>
+<ul>
+<li>
+<p>Get the DOI for your article. The DOI is a universal identification number for each paper. Most likely you can get it from the journal publication page. For the my paper is <code>10.1371/journal.pone.0195750</code></p>
+</li>
+<li>
+<p>If you want to include your badge in your R/markdown:</p>
+</li>
+</ul>
+<pre tabindex="0"><code>&lt;div class='altmetric-embed' data-badge-type='donut'
+data-badge-popover=&quot;right&quot;
+data-doi=&quot;10.1371/journal.pone.0195750&quot;&gt;&lt;/div&gt;
+</code></pre><p>If everything worked you will see something like this:</p>
+<center><div class='altmetric-embed' data-badge-type='large-donut' data-badge-popover="right"  data-doi="10.1371/journal.pone.0195750"></div></center>
+<p>You can modify and build your own badge. Check <a href="http://api.altmetric.com/embeds.html">all the options here</a>.</p>
+<h2 id="custom-css">Custom CSS</h2>
+<p>You can also modify the style of your webpage through CSS. Although the CSS file of <code>casper-two</code> theme is buried in the theme folder, there is a possibility to override some of the styles by using a custom CSS. To do that you have to edit the <code>customCSS = [&quot;&quot;]</code> in your <code>config.toml</code>. In my case I added a file <code>overrides.css</code> to the <code>static/css</code> folder and change the <code>config.toml</code> file to:</p>
+<p><code>customCSS = [&quot;css/overrides.css&quot;]</code></p>
+<p>Here are the contents of my <code>overrides.css</code> in case you want to use it. It basically changes the title font size and weight:</p>
+<pre tabindex="0"><code>.site-title {
+    font-weight: 200;
+    font-size: 7rem;
+}
+.site-header:before {
+    background: rgba(0, 0, 0, 0.5);
+}
+</code></pre><h2 id="show-only-some-posts-in-the-main-page">Show only some posts in the main page</h2>
+<p>On the things that I missed in my new blog is the ability to show in the main page only the posts that I want. For example, I have a <a href="http://estebanmoro.org/post/list-of-publications/">list of publications</a> that I update regularly but I don&rsquo;t want it to show in the main page. Or you could have a tutorial and you only want it to show up in a specific part of your blog.</p>
+<p>To do that we are going to add a new parameter (by post) <code>hidden</code> that tells Hugo to show the post in the main page (<code>hidden: false</code>) or not (<code>hidden: true</code>). Edit your post and include it in the post YAML as it is done here:</p>
+<pre tabindex="0"><code>---
+title: List of Publications
+author: Esteban Moro
+date: '2019-01-31'
+slug: list-of-publications
+hidden: true
+categories:
+  - Publications
+image: &quot;img/Publications.jpg&quot;
+---
+</code></pre><p>Next thing is to modify the layouts of your theme so that when your blog is rendered by Hugo it does not show posts with <code>hidden: true</code> in your main page.</p>
+<p>The way I did it is the following:</p>
+<ul>
+<li>Copy the <code>post-list.hml</code> partial in the <code>layout/partials</code> folder of the theme to your own <code>layout/partials</code>.</li>
+<li>Rename the <code>post-list.html</code> to <code>post-list-main.html</code>. The reason for this is that we are going to change the latter by we want the theme to use the former when necessary.</li>
+<li>Edit the <code>post-list-main.html</code> it looks like this</li>
+</ul>
+<pre tabindex="0"><code>{{ $paginator := .Paginate (where .Data.Pages.ByDate.Reverse &quot;Type&quot; &quot;post&quot;) }}
+{{ range $paginator.Pages }}
+{{ if not .Params.hidden }}
+
+&lt;article class=&quot;post-card post&quot;&gt; 
+    {{if .Params.image}}
+    &lt;a class=&quot;post-card-image-link&quot; href=&quot;{{ .Permalink }}&quot;&gt;
+      &lt;div class=&quot;post-card-image&quot; style=&quot;background-image: url({{.Params.image | absURL}})&quot;&gt;&lt;/div&gt;
+    &lt;/a&gt;
+    {{else}}
+    &lt;a class=&quot;post-card-image-link&quot; href=&quot;{{ .Permalink }}&quot;&gt;
+    &lt;div class=&quot;post-card-image&quot; style=&quot;background-image: url({{$.Site.BaseURL}}defimg/{{ index (seq 7 | shuffle) 0 }}.jpg)&quot;&gt;&lt;/div&gt;
+    &lt;/a&gt;    
+    {{end}}
+
+    &lt;div class=&quot;post-card-content&quot;&gt;
+      &lt;a class=&quot;post-card-content-link&quot; href=&quot;{{ .Permalink }}&quot;&gt;
+          &lt;header class=&quot;post-card-header&quot;&gt;
+              {{if .Params.tags }}&lt;span class=&quot;post-card-tags&quot;&gt;{{ range $index, $tag := .Params.tags }}
+              #{{$tag}} {{end}} &lt;/span&gt;
+              {{ end }}
+              &lt;h2 class=&quot;post-card-title&quot;&gt;{{.Title}}&lt;/h2&gt;
+          &lt;/header&gt;
+          &lt;section class=&quot;post-card-excerpt&quot;&gt;
+              {{ if .Description }} 
+                &lt;p&gt;{{ .Description | markdownify }}&lt;/p&gt;
+              {{else}}
+                &lt;p&gt;{{ .Summary | plainify | safeHTML }}{{ if .Truncated }} ... {{end}} &lt;/p&gt;
+              {{end}}
+          &lt;/section&gt;
+      &lt;/a&gt;
+
+      &lt;footer class=&quot;post-card-meta&quot;&gt;
+          &lt;img class=&quot;author-profile-image&quot; src=&quot;{{ (.Params.authorAvatar | default .Site.Params.authorAvatar) | absURL}}&quot; alt=&quot;Author&quot; /&gt;
+          &lt;span class=&quot;post-card-author&quot;&gt;&lt;a href=&quot;/&quot;&gt;{{.Params.author | default .Site.Params.author}}&lt;/a&gt;&lt;/span&gt;
+      &lt;/footer&gt;
+    &lt;/div&gt;
+&lt;/article&gt;
+{{ end }}
+
+{{ end }}
+</code></pre><p>Note the <code>if</code> in the third line that only renders each of the posts if <code>.Params.hidden</code> is not true.</p>
+<p>Finally we have to modify <code>index.html</code> (once again copy it to your local <code>layouts</code> folder) to tell Hugo to use the new <code>post-list-main.html</code> instead of the old <code>post-list.html</code>. If you edit <code>index.html</code> change these lines:</p>
+<pre tabindex="0"><code>  &lt;div class=&quot;post-feed&quot;&gt;
+      {{ partial &quot;post-list&quot; . }}
+  &lt;/div&gt;
+</code></pre><p>to this one:</p>
+<pre tabindex="0"><code>  &lt;div class=&quot;post-feed&quot;&gt;
+      {{ partial &quot;post-list-main&quot; . }}
+  &lt;/div&gt;
+</code></pre><p>And you are done. All posts with <code>hidden: true</code> in their YAML will not be shown in the main page. But they will appear in the categories, recommended posts, etc. If you don&rsquo;t want them to show in those pages, edit the partials for each of them to include the <code>{{ if not .Params.hidden }}</code>.</p>
+<h2 id="fixing-youtube">Fixing Youtube</h2>
+<p>Hugo has a <a href="https://gohugo.io/content-management/shortcodes/">number of shortcodes</a> to embed tweets, videos, gist, etc. For example to embed a youtube video at <code>https://www.youtube.com/watch?v=w7Ft2ymGmfc</code> you simply have to put this in your R/markdown:</p>
+<p><code>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/w7Ft2ymGmfc" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+</code></p>
+<p>However, this does not work with the <code>casper-two</code> theme, an issue that <a href="https://github.com/eueung/hugo-casper-two/issues/5">has been reported</a> in the theme homepage, but has not been fixed yet.</p>
+<p>To fix it, you can use the solution proposed by <a href="https://github.com/softinio">Softinio</a> in the opened issue page. It is very simple but requires to create a Hugo shortcode:</p>
+<ul>
+<li>Create a new file named <code>yt.hml</code> in your <code>layouts/shortcodes</code> folder.</li>
+<li>Put the following code in that file:</li>
+</ul>
+<pre tabindex="0"><code>&lt;iframe src=&quot;https://www.youtube.com/embed/{{ index .Params 0 }}?start={{ index .Params 1 }}&quot;
+style=&quot;position: absolute; top: 0; left: 0; width: 560; height: 315;&quot;
+allowfullscreen frameborder=&quot;0&quot; title=&quot;YouTube Video&quot;&gt;&lt;/iframe&gt;
+</code></pre><ul>
+<li>You can now use the new shortcode in your R/markdown like this:</li>
+</ul>
+<p><code><iframe src="https://www.youtube.com/embed/w7Ft2ymGmfc?start="
+  style="position: absolute; top: 0; left: 0; width: 560; height: 315;" allowfullscreen frameborder="0" title="YouTube Video"></iframe></code></p>
+<h2 id="summary">Summary</h2>
+<p>That&rsquo;s it. It&rsquo;s a long post (sorry), but I hope you might find it useful. Let me know if there is a better way to do these modifications! 🚀</p>
+    
+        </div>
+    </section>
+
+    <footer class="post-full-footer">
+      <section class="author-card">
+        <img class="author-profile-image" src="http://estebanmoro.org/img/whoami6.jpg" alt="Author" />
+        <section class="author-card-content">
+            <h4 class="author-card-name"><a href="http://estebanmoro.org/">Esteban Moro</a></h4>
+                <p>Professor at Northeastern University. Working on Complex Systems, Social Networks and Urban Science.</p>
+        </section>
+      </section>
+    </footer>
+</article>
+    
+    
+    
+
+<div id="disqus_thread"></div>
+<script>
+
+
+
+
+var disqus_config = function () {
+this.page.url = "http:\/\/estebanmoro.org\/post\/2019-02-04-setting-up-your-blog-with-rstudio-and-blogdown-iii-modify-your-theme\/";  
+this.page.identifier = "http:\/\/estebanmoro.org\/post\/2019-02-04-setting-up-your-blog-with-rstudio-and-blogdown-iii-modify-your-theme\/"; 
+};
+
+(function() { 
+var d = document, s = d.createElement('script');
+s.src = 'https://implicitnone.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+  </div>
+</main>
+
+
+<aside class="read-next outer">
+  <div class="inner">
+    <div class="read-next-feed">      
+      
+<article class="read-next-card" 
+            style="background-image: url(http://estebanmoro.org/img/mob.mp4);" >
+    <header class="read-next-card-header">
+        <small class="read-next-card-header-sitetitle">&mdash; Implicit None &mdash;</small>
+        
+        <h3 class="read-next-card-header-title"><a href="http://estebanmoro.org/tags/blog/">#blog</a></h3>
+    </header>
+    <div class="read-next-divider"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 14.5s2 3 5 3 5.5-2.463 5.5-5.5S21 6.5 18 6.5c-5 0-7 11-12 11C2.962 17.5.5 15.037.5 12S3 6.5 6 6.5s4.5 3.5 4.5 3.5"/></svg>
+    </div>
+
+    <div class="read-next-card-content">
+      
+        <ul>
+          <li><a href="http://estebanmoro.org/2008/11/kiyoshi-ito-93-dies/">Kiyoshi Itô, 93, dies</a></li>            
+        
+          <li><a href="http://estebanmoro.org/post/2019-04-30-2019-pictures/">2019 Pictures</a></li>            
+        
+          <li><a href="http://estebanmoro.org/2016/06/big-data-la-nueva-materia-prima/">&#34;Big Data&#34;: La nueva materia prima</a></li>            
+        
+          <li><a href="http://estebanmoro.org/post/2020-10-19-personal-art-map-with-r/">Personal Art Map with R</a></li>            
+        </ul>
+    </div>
+    <footer class="read-next-card-footer">
+      
+        <a href="http://estebanmoro.org/tags/blog/">See all related posts →</a>
+    </footer>
+</article>
+
+
+      
+      <article class="post-card post"> 
+    
+    <a class="post-card-image-link" href="http://estebanmoro.org/post/2019-02-01-setting-up-your-blog-with-rstudio-and-blogdown/">
+      <div class="post-card-image" style="background-image: url(http://estebanmoro.org/img/posts/migrating2.png)"></div>
+    </a>
+    
+
+    <div class="post-card-content">
+      <a class="post-card-content-link" href="http://estebanmoro.org/post/2019-02-01-setting-up-your-blog-with-rstudio-and-blogdown/">
+          <header class="post-card-header">
+              <span class="post-card-tags">
+              #blog 
+              #R 
+              #hugo  </span>
+              
+              <h2 class="post-card-title">Setting up your blog with RStudio and blogdown II: Workflow</h2>
+          </header>
+          <section class="post-card-excerpt">
+              
+                <p>This is Part III of my series of posts about how to setup you blog with RStudio and blogdown. The other parts are:
+   Part I about to setup the blog using Hugo, RStudio and blogdown Part II explains my workflow of creating new posts. Part III on how to modify the theme.   Workflow In Part I of this series of post we setup our new blog using blogdown and Hugo. ...  </p>
+              
+          </section>
+      </a>
+
+      <footer class="post-card-meta">
+          <img class="author-profile-image" src="http://estebanmoro.org/img/whoami6.jpg" alt="Author" />
+          <span class="post-card-author"><a href="http://estebanmoro.org/">Esteban Moro</a></span>
+      </footer>
+    </div>
+</article>
+      
+      
+      <article class="post-card post"> 
+    
+    <a class="post-card-image-link" href="http://estebanmoro.org/post/2019-02-02-the-dynamic-character-of-our-networked-society/">
+      <div class="post-card-image" style="background-image: url(http://estebanmoro.org/img/posts/temporal.gif)"></div>
+    </a>
+    
+
+    <div class="post-card-content">
+      <a class="post-card-content-link" href="http://estebanmoro.org/post/2019-02-02-the-dynamic-character-of-our-networked-society/">
+          <header class="post-card-header">
+              <span class="post-card-tags">
+              #social networks 
+              #Human Dynamics 
+              #Big Data  </span>
+              
+              <h2 class="post-card-title">The dynamic character of our networked society</h2>
+          </header>
+          <section class="post-card-excerpt">
+              
+                <p>We live in a networked society and our actions, opinions, behaviors are affected and can affect other people. Understanding such social networked structures is one of the key challenges in our attempt to decode human behavior and its impact in our society. Although human interactions are dynamical by nature, most of our understanding relies in static representations of those social networks. However, social interactions are rarely static. Very often the networks evolve by means of processes that happen at diverse time scales, like link decay/formation, group formation, etc. ...  </p>
+              
+          </section>
+      </a>
+
+      <footer class="post-card-meta">
+          <img class="author-profile-image" src="http://estebanmoro.org/img/whoami6.jpg" alt="Author" />
+          <span class="post-card-author"><a href="http://estebanmoro.org/">Esteban Moro</a></span>
+      </footer>
+    </div>
+</article>
+      
+    </div>
+  </div>
+</aside>
+
+<div class="floating-header">
+  <div class="floating-header-logo">
+    <a href="http://estebanmoro.org/">
+      
+      <span></span>
+    </a>
+  </div>
+  <span class="floating-header-divider">&mdash;</span>
+  <div class="floating-header-title">Setting up your blog with RStudio and blogdown III: modify your theme</div>
+  <div class="floating-header-share">
+    <div class="floating-header-share-label">Share this <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+     <path d="M7.5 15.5V4a1.5 1.5 0 1 1 3 0v4.5h2a1 1 0 0 1 1 1h2a1 1 0 0 1 1 1H18a1.5 1.5 0 0 1 1.5 1.5v3.099c0 .929-.13 1.854-.385 2.748L17.5 23.5h-9c-1.5-2-5.417-8.673-5.417-8.673a1.2 1.2 0 0 1 1.76-1.605L7.5 15.5zm6-6v2m-3-3.5v3.5m6-1v2"/></svg>
+    </div>
+    
+    <a class="floating-header-share-tw" href="https://twitter.com/share?text=Setting%20up%20your%20blog%20with%20RStudio%20and%20blogdown%20III%3a%20modify%20your%20theme&amp;url=http%3a%2f%2festebanmoro.org%2fpost%2f2019-02-04-setting-up-your-blog-with-rstudio-and-blogdown-iii-modify-your-theme%2f"
+          onclick="window.open(this.href, 'share-twitter', 'width=550,height=235');return false;">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M30.063 7.313c-.813 1.125-1.75 2.125-2.875 2.938v.75c0 1.563-.188 3.125-.688 4.625a15.088 15.088 0 0 1-2.063 4.438c-.875 1.438-2 2.688-3.25 3.813a15.015 15.015 0 0 1-4.625 2.563c-1.813.688-3.75 1-5.75 1-3.25 0-6.188-.875-8.875-2.625.438.063.875.125 1.375.125 2.688 0 5.063-.875 7.188-2.5-1.25 0-2.375-.375-3.375-1.125s-1.688-1.688-2.063-2.875c.438.063.813.125 1.125.125.5 0 1-.063 1.5-.25-1.313-.25-2.438-.938-3.313-1.938a5.673 5.673 0 0 1-1.313-3.688v-.063c.813.438 1.688.688 2.625.688a5.228 5.228 0 0 1-1.875-2c-.5-.875-.688-1.813-.688-2.75 0-1.063.25-2.063.75-2.938 1.438 1.75 3.188 3.188 5.25 4.25s4.313 1.688 6.688 1.813a5.579 5.579 0 0 1 1.5-5.438c1.125-1.125 2.5-1.688 4.125-1.688s3.063.625 4.188 1.813a11.48 11.48 0 0 0 3.688-1.375c-.438 1.375-1.313 2.438-2.563 3.188 1.125-.125 2.188-.438 3.313-.875z"/></svg>
+      </a>
+      <a class="floating-header-share-fb" href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2festebanmoro.org%2fpost%2f2019-02-04-setting-up-your-blog-with-rstudio-and-blogdown-iii-modify-your-theme%2f"
+          onclick="window.open(this.href, 'share-facebook','width=580,height=296');return false;">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M19 6h5V0h-5c-3.86 0-7 3.14-7 7v3H8v6h4v16h6V16h5l1-6h-6V7c0-.542.458-1 1-1z"/></svg>
+      </a>
+  </div>
+
+  <progress class="progress" value="0">
+    <div class="progress-container">
+      <span class="progress-bar"></span>
+    </div>
+  </progress>
+</div>
+
+
+<footer class="site-footer outer">
+  <div class="site-footer-content inner">
+    <section class="copyright" style="line-height: 1.3em;">
+      <a href="http://estebanmoro.org/">Esteban Moro</a> © 2020 <br>
+      <span style="font-size: 0.8em; color: #555;">Hugo port of <a href="https://github.com/TryGhost/Casper">Casper 2.1.7</a> by <a href="https://www.telematika.org">EM</a></span>
+    </section>
+    <nav class="site-footer-nav">
+        <a href="http://estebanmoro.org/">Latest Posts</a>
+        
+        <a href="https://twitter.com/estebanmoro" target="_blank" rel="noopener">Twitter</a>
+        <a href="https://github.com/emoro" target="_blank" rel="noopener">Github</a>
+        <a href="https://www.linkedin.com/in/esteban-moro" target="_blank" rel="noopener">LinkedIn</a>
+        
+    </nav>  
+  </div>
+</footer>
+
+</div>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="http://estebanmoro.org/js/jquery.fitvids.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script id="altmetric-embed-js" type="text/javascript" src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+
+
+<script>hljs.initHighlightingOnLoad();</script> 
+
+
+
+
+
+
+  <!-- Google Analytics -->
+  <script>
+    var _gaq=[['_setAccount','UA-131034910-1'],['_trackPageview']];
+    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+    g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+    s.parentNode.insertBefore(g,s)}(document,'script'));
+  </script>
+
+
+
+
+
+
+    <script>
+
+
+
+
+
+$(document).ready(function () {
+    
+    var $postContent = $(".post-full-content");
+    $postContent.fitVids();
+    
+
+    var progressBar = document.querySelector('progress');
+    var header = document.querySelector('.floating-header');
+    var title = document.querySelector('.post-full-title');
+
+    var lastScrollY = window.scrollY;
+    var lastWindowHeight = window.innerHeight;
+    var lastDocumentHeight = $(document).height();
+    var ticking = false;
+
+    function onScroll() {
+        lastScrollY = window.scrollY;
+        requestTick();
+    }
+
+    function onResize() {
+        lastWindowHeight = window.innerHeight;
+        lastDocumentHeight = $(document).height();
+        requestTick();
+    }
+
+    function requestTick() {
+        if (!ticking) {
+            requestAnimationFrame(update);
+        }
+        ticking = true;
+    }
+
+    function update() {
+        var trigger = title.getBoundingClientRect().top + window.scrollY;
+        var triggerOffset = title.offsetHeight + 35;
+        var progressMax = lastDocumentHeight - lastWindowHeight;
+
+        
+        if (lastScrollY >= trigger + triggerOffset) {
+            header.classList.add('floating-active');
+        } else {
+            header.classList.remove('floating-active');
+        }
+
+        progressBar.setAttribute('max', progressMax);
+        progressBar.setAttribute('value', lastScrollY);
+
+        ticking = false;
+    }
+
+    window.addEventListener('scroll', onScroll, {passive: true});
+    window.addEventListener('resize', onResize, false);
+
+    update();
+});
+</script>
+</body></html>

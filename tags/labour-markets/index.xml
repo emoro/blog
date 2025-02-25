@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Labour Markets on </title>
+    <link>http://estebanmoro.org/tags/labour-markets/</link>
+    <description>Recent content in Labour Markets on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Tue, 16 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://estebanmoro.org/tags/labour-markets/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Network constraints on worker mobility</title>
+      <link>http://estebanmoro.org/post/2024-01-16-network-constraints-on-worker-mobility/</link>
+      <pubDate>Tue, 16 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2024-01-16-network-constraints-on-worker-mobility/</guid>
+      <description>Authors: Morgan R. Frank, Esteban Moro, Tobin South, Alex Rutherford, Alex Pentland, Bledi Taska &amp;amp; Iyad Rahwan Publication: Nature Cities, 1, pages 94–104 (2024) LINK
+Abstract: How do skills shape career mobility and access to cities’ labor markets? Here we model career pathways as an occupation network constructed from the similarity of occupations’ skill requirements within each US city. Using a nationally representative survey and three resume datasets, skill similarity predicts transition rates between occupations and predictions improve with increasingly granular skill data.</description>
+    </item>
+    
+    <item>
+      <title>Creating resilient urban labor economies</title>
+      <link>http://estebanmoro.org/post/2022-10-25-creating-resilient-urban-labor-economies/</link>
+      <pubDate>Sun, 02 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2022-10-25-creating-resilient-urban-labor-economies/</guid>
+      <description>Like ecosystems, societies with adaptable economies are best prepared for the future. We started a research program to understand and detect economic resilience encoded in the dependency networks of agents, businesses, cities, or jobs. In particular, how much of the adaptability of our economies depends on the fragility of those economic networks? Can we identify weaknesses and design policies to strengthen those interdependent units?
+Using highly detailed information about jobs, skills, and cities, our foundational study extended traditional economic models to show that the network structure of interactions and flows between jobs determines the resilience of labor markets.</description>
+    </item>
+    
+    <item>
+      <title>Universal Resilience Patterns in labor markets</title>
+      <link>http://estebanmoro.org/post/2021-03-30-universal-resilience-patterns-in-labor-markets/</link>
+      <pubDate>Tue, 30 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2021-03-30-universal-resilience-patterns-in-labor-markets/</guid>
+      <description>Authors: Esteban Moro, Morgan R. Frank, Alex Pentland, Alex Rutherford, Manuel Cebrian, Iyad Rahwan. Publication: Nature Communications (2021). Link
+Abstract: Cities are the innovation centers of the US economy, but technological disruptions can exclude workers and inhibit a middle class. Therefore, urban policy must promote the jobs and skills that increase worker pay, create employment, and foster economic resilience. In this paper, we model labor market resilience with an ecologically-inspired job network constructed from the similarity of occupations’ skill requirements.</description>
+    </item>
+    
+    <item>
+      <title>Factors Improving Labor Resiliency in U.S. Cities.</title>
+      <link>http://estebanmoro.org/post/2021-03-29-factors-improving-job-resiliency-in-u-s-cities/</link>
+      <pubDate>Mon, 29 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2021-03-29-factors-improving-job-resiliency-in-u-s-cities/</guid>
+      <description>What makes urban labor markets more resilient? This is the question at the heart of a new study we have published in Nature Communications. We drew on prior network modeling research to map the job landscapes in cities across the United States, and showed that job “connectedness” is a key determinant of the resilience of local economies.
+Economists, policy makers, city planners, and companies have a strong interest in determining what factors contribute to healthy job markets, including what factors can help promote faster recovery after a shock, such as a major recession or the current COVID pandemic.</description>
+    </item>
+    
+    <item>
+      <title>Towards understanding the impact of artificial intelligence on labor</title>
+      <link>http://estebanmoro.org/post/2019-03-26-towards-understanding-the-impact-of-artificial-intelligence-on-labor/</link>
+      <pubDate>Tue, 26 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2019-03-26-towards-understanding-the-impact-of-artificial-intelligence-on-labor/</guid>
+      <description>title: &amp;lsquo;How to Organize your Deep Reinforcement Learning Agents: The Importance of Communication Topology&amp;rsquo; author: Esteban Moro date: &amp;lsquo;2018-12-14&amp;rsquo; categories:
+ Publications tags: Deep Learning Networks image: /img/posts/NetES.jpg   Authors: Frank, Morgan R and Autor, David and Bessen, James E and Brynjolfsson, Erik and Cebrian, Manuel and Deming, David J and Feldman, Maryann and Groh, Matthew and Lobo, José and Moro, Esteban and Wang, Dashun and Youn, Hyejin and Rahwan, Iyad</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>wordle on </title>
+    <link>http://estebanmoro.org/tags/wordle/</link>
+    <description>Recent content in wordle on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Mon, 14 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://estebanmoro.org/tags/wordle/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Wordle is getting (slightly) harder</title>
+      <link>http://estebanmoro.org/post/2022-02-14-wordle-is-getting-harder/</link>
+      <pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2022-02-14-wordle-is-getting-harder/</guid>
+      <description>Marty, I’ve been to the future and I have bad news. Wordle is getting harder. Not much, but harder.
+ With millions of people playing the game Wordle online and the recent takeover by the New York times, some speculation about whether the game is getting harder is unavoidable. Since Wordle chooses a different word every day, some players have started to complain recent target words are harder to be guessed: It must be a coincidence, but the NY Times puzzles are hard and suddenly Wordle has questionable words</description>
+    </item>
+    
+    <item>
+      <title>Playing (and winning) Wordle with R</title>
+      <link>http://estebanmoro.org/post/2022-01-10-wordle/</link>
+      <pubDate>Mon, 10 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2022-01-10-wordle/</guid>
+      <description>Introduction Unless you have been away for the last month, you, your family or friends have been talking about or playing Wordle. It is a very straightforward game which reminds us (old enough) of the great MasterMind, but with words.
+The idea is very simple. In the original version by Josh Wardle, we try to guess a (English) word of five letters. After each guess the game shows you what letters are in the answer in the right position (green), in the answer but in a wrong position (yellow) or not in the answer at all (gray).</description>
+    </item>
+    
+  </channel>
+</rss>

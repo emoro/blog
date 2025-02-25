@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Credit Card Data on </title>
+    <link>http://estebanmoro.org/tags/credit-card-data/</link>
+    <description>Recent content in Credit Card Data on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Fri, 10 Jul 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://estebanmoro.org/tags/credit-card-data/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Segregated interactions in urban and online space</title>
+      <link>http://estebanmoro.org/post/2020-07-10-segregated-interactions-in-urban-and-online-space/</link>
+      <pubDate>Fri, 10 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2020-07-10-segregated-interactions-in-urban-and-online-space/</guid>
+      <description>Authors: Xiaowen Dong , Alfredo J. Morales, Eaman Jahani, Esteban Moro, Bruno Lepri, Burcin Bozkaya, Carlos Sarraute, Yaneer Bar-Yam and Alex Pentland Publication: EPJ Data Science 9, Article number: 20 LINK
+Abstract: Urban income segregation is a widespread phenomenon that challenges societies across the globe. Classical studies on segregation have largely focused on the geographic distribution of residential neighborhoods rather than on patterns of social behaviors and interactions. In this study, we analyze segregation in economic and social interactions by observing credit card transactions and Twitter mentions among thousands of individuals in three culturally different metropolitan areas.</description>
+    </item>
+    
+    <item>
+      <title>The predictability of consumer visitation patterns</title>
+      <link>http://estebanmoro.org/post/2013-04-18-the-predictability-of-consumer-visitation-patterns/</link>
+      <pubDate>Thu, 18 Apr 2013 20:23:55 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2013-04-18-the-predictability-of-consumer-visitation-patterns/</guid>
+      <description>Authors: Coco Krumme, Alejandro Llorente, Manuel Cebrian, Alex (&amp;ldquo;Sandy&amp;rdquo;) Pentland &amp;amp; Esteban Moro
+Journal: Sci. Rep. 3, 1645; (2013). LINK
+Abstract: We consider hundreds of thousands of individual economic transactions to ask: how predictable are consumers in their merchant visitation patterns? Our results suggest that, in the long-run, much of our seemingly elective activity is actually highly predictable. Notwithstanding a wide range of individual preferences, shoppers share regularities in how they visit merchant locations over time.</description>
+    </item>
+    
+  </channel>
+</rss>

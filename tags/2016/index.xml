@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2016 on </title>
+    <link>http://estebanmoro.org/tags/2016/</link>
+    <description>Recent content in 2016 on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Wed, 21 Dec 2016 00:00:00 +0000</lastBuildDate><atom:link href="http://estebanmoro.org/tags/2016/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2016 pictures</title>
+      <link>http://estebanmoro.org/post/2016-12-20-2016-pictures/</link>
+      <pubDate>Wed, 21 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2016-12-20-2016-pictures/</guid>
+      <description>Some pictures of different activities during this year 2016
+I was invited to give a tutorial about temporal networs at the Workshop on Complex Network Mining and Analysis in Workclaw. Here we are hanging out with some of the other speakers (Bruno Goncalves and Marton Karsai)
+Just arrived to Boston, I gave a talk at Netsi about our work on Temporal Networks at Netsci, Northeastern University.
+Working at the Medialab I got the opportunity to talk about our work in other groups, like Scalable Cooperation here.</description>
+    </item>
+    
+  </channel>
+</rss>

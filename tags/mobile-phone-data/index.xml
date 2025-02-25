@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mobile Phone Data on </title>
+    <link>http://estebanmoro.org/tags/mobile-phone-data/</link>
+    <description>Recent content in Mobile Phone Data on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sat, 11 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://estebanmoro.org/tags/mobile-phone-data/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Behaviour-based dependency networks between places shape urban economic resilience</title>
+      <link>http://estebanmoro.org/post/2025-01-11-behaviour-based-dependency-networks/</link>
+      <pubDate>Sat, 11 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2025-01-11-behaviour-based-dependency-networks/</guid>
+      <description>Authors: Takahiro Yabe, Bernardo García Bulle Bueno, Morgan R Frank, Alex Pentland, Esteban Moro Publication: Nature Human Behavior (2024) LINK
+Abstract: Disruptions, such as closures of businesses during pandemics, not only affect businesses and amenities directly but also influence how people move, spreading the impact to other businesses and increasing the overall economic shock. However, it is unclear how much businesses depend on each other during disruptions. Leveraging human mobility data and same-day visits in five US cities, we quantify dependencies between points of interest encompassing businesses, stores and amenities.</description>
+    </item>
+    
+    <item>
+      <title>Enhancing human mobility research with open and standardized datasets</title>
+      <link>http://estebanmoro.org/post/2024-07-15-enhancing-human-mobility-research-with-open-and-standardized-datasets/</link>
+      <pubDate>Tue, 16 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2024-07-15-enhancing-human-mobility-research-with-open-and-standardized-datasets/</guid>
+      <description>Authors: Takahiro Yabe, Massimiliano Luca, Kota Tsubouchi, Bruno Lepri, Marta C. Gonzalez &amp;amp; Esteban Moro Publication: Nature Computational Science (2024). doi: 10.1038/s43588-024-00650-3 LINK
+Abstract: Human mobility research intersects with various disciplines, with profound implications for urban planning, transportation engineering, public health, disaster management, and economic analysis. Here, we discuss the urgent need for open and standardized datasets in the field, including current challenges and lessons from other computational science domains, and propose collaborative efforts to enhance the validity and reproducibility of human mobility research.</description>
+    </item>
+    
+    <item>
+      <title>Infrequent activities predict economic outcomes in major American cities</title>
+      <link>http://estebanmoro.org/post/2024-03-23-infrequent-activities-predict-economic-outcomes-in-major-american-cities/</link>
+      <pubDate>Sat, 23 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2024-03-23-infrequent-activities-predict-economic-outcomes-in-major-american-cities/</guid>
+      <description>Authors: Shenhao Wang, Yunhan Zheng, Guang Wang, Takahiro Yabe, Esteban Moro &amp;amp; Alex ‘Sandy’ Pentland Publication: Nature Cities 10.1038/s44284-024-00051-7. LINK
+Abstract: Many studies have revealed the predictive power of the most frequent, regular and habitual mobility patterns. However, it remains unclear which components of the mobility patterns contain the most informative signals for predicting disparate economic development across urban areas. Here we use machine learning to predict economic outcomes by analyzing the heterogeneous mobility networks of 687 activities from more than 560,000 anonymized users in Boston, Chicago and Miami.</description>
+    </item>
+    
+    <item>
+      <title>Effect of mobile food environments on fast food visits</title>
+      <link>http://estebanmoro.org/post/2022-09-22-you-are-where-you-eat-effect-of-mobile-food-environments-on-fast-food-visits/</link>
+      <pubDate>Thu, 14 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2022-09-22-you-are-where-you-eat-effect-of-mobile-food-environments-on-fast-food-visits/</guid>
+      <description>Authors: Bernardo Garcia-Bulle, Abigail L. Horn, Brooke M. Bell, Mohsen Bahrami, Burcin Bozkaya, Alex Pentland, Kayla de la Haye, and Esteban Moro
+Publication: Nature Communications 15, article number: 2291. LINK
+Abstract: Poor diets are a leading cause of morbidity and mortality. Exposure to low-quality food environments saturated with fast food outlets is hypothesized to negatively impact diet. However, food environment research has predominantly focused on static food environments around home neighborhoods and generated mixed findings.</description>
+    </item>
+    
+    <item>
+      <title>The unequal effects of the health–economy trade-off during the COVID19 pandemic</title>
+      <link>http://estebanmoro.org/post/2023-11-20-the-unequal-effects-of-the-health-economy-trade-off-during-the-covid-19-pandemic/</link>
+      <pubDate>Sun, 19 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2023-11-20-the-unequal-effects-of-the-health-economy-trade-off-during-the-covid-19-pandemic/</guid>
+      <description>Authors: Marco Pangallo, Alberto Aleta, R. Maria del Rio-Chanona, Anton Pichler, David Martin-Corral, Matteo Chinazzi, Francois Lafond, Marco Ajelli, Esteban Moro, Yamir Moreno, Alessandro Vespignani, J. Doyne Farmer
+Publication: Nature Human Behavior, Nov 16th, (2023)
+LINK
+Abstract: Despite the global impact of the coronavirus disease 2019 pandemic, the question of whether mandated interventions have similar economic and public health effects as spontaneous behavioural change remains unresolved. Addressing this question, and understanding differential effects across socioeconomic groups, requires building quantitative and fine-grained mechanistic models.</description>
+    </item>
+    
+    <item>
+      <title>Population mobility data provides meaningful indicators of fast food intake and diet-related diseases in diverse populations</title>
+      <link>http://estebanmoro.org/post/2023-11-20-population-mobility-data-provides-meaningful-indicators-of-fast-food-intake-and-diet-related-diseases-in-diverse-populations/</link>
+      <pubDate>Sat, 18 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2023-11-20-population-mobility-data-provides-meaningful-indicators-of-fast-food-intake-and-diet-related-diseases-in-diverse-populations/</guid>
+      <description>Authors: Abigail L. Horn, Brooke M. Bell, Bernardo Garcia Bulle Bueno, Mohsen Bahrami, Burcin Bozkaya, Yan Cui, John P. Wilson, Alex Pentland, Esteban Moro, Kayla de la Haye
+Publication: NPJ Digital Medicine 6, 208 (2023)
+LINK
+Abstract: The characteristics of food environments people are exposed to, such as the density of fast food (FF) outlets, can impact their diet and risk for diet-related chronic disease. Previous studies examining the relationship between food environments and nutritional health have produced mixed findings, potentially due to the predominant focus on static food environments around people’s homes.</description>
+    </item>
+    
+    <item>
+      <title>Long-Range Social Influence in Phone Communication Networks on Offline Adoption Decisions</title>
+      <link>http://estebanmoro.org/post/2023-06-21-long-range-social-influence-in-phone-communication-networks-on-offline-adoption-decisions/</link>
+      <pubDate>Wed, 21 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2023-06-21-long-range-social-influence-in-phone-communication-networks-on-offline-adoption-decisions/</guid>
+      <description>Authors: Yan Leng , Xiaowen Dong, Esteban Moro, Alex Pentland Publication: Information Systems Research, Articles in Advance 21 Jun (2023) LINK
+Abstract: We use high-resolution mobile phone data with geolocation information and pro- pose a novel technical framework to study how social influence propagates within a phone communication network and affects the offline decision to attend a performance event. Our fine-grained data are based on the universe of phone calls made in a European country between January and July 2016.</description>
+    </item>
+    
+    <item>
+      <title>Behavioral changes during the COVID-19 pandemic decreased income diversity of urban encounters</title>
+      <link>http://estebanmoro.org/post/2023-04-21-behavioral-changes-during-the-covid-19-pandemic-decreased-income-diversity-of-urban-encounters/</link>
+      <pubDate>Fri, 21 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2023-04-21-behavioral-changes-during-the-covid-19-pandemic-decreased-income-diversity-of-urban-encounters/</guid>
+      <description>Authors: Takahiro Yabe, Bernardo García Bulle Bueno, Xiaowen Dong, Alex Pentland &amp;amp; Esteban Moro
+Publication: Nature Communications volume 14, Article number: 2310 (2023) LINK
+Abstract: Diversity of physical encounters in urban environments is known to spur economic productivity while also fostering social capital. However, mobility restrictions during the pandemic have forced people to reduce urban encounters, raising questions about the social implications of behavioral changes. In this paper, we study how individual income diversity of urban encounters changed during the pandemic, using a large-scale, privacy-enhanced mobility dataset of more than one million anonymized mobile phone users in Boston, Dallas, Los Angeles, and Seattle, across three years spanning before and during the pandemic.</description>
+    </item>
+    
+    <item>
+      <title>Diversity beyond density: Experienced social mixing of urban streets</title>
+      <link>http://estebanmoro.org/post/2023-04-03-diversity-beyond-density-experienced-social-mixing-of-urban-streets/</link>
+      <pubDate>Sun, 02 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2023-04-03-diversity-beyond-density-experienced-social-mixing-of-urban-streets/</guid>
+      <description>Authors: Zhuangyuan Fan, Tianyu Su, Maoran Sun, Ariel Noyman, Fan Zhang, Alex ‘Sandy’ Pentland, Esteban Moro
+Publication: PNAS Nexus, Volumen 2, Issue 4, pgad077, 2023 LINK
+Abstract: Urban density, in the form of residents’ and visitors’ concentration, is long considered to foster diverse exchanges of interpersonal knowledge and skills, which are intrinsic to sustainable human settlements. However, with current urban studies primarily devoted to city- and district-level analyses, we cannot unveil the elemental connection between urban density and diversity.</description>
+    </item>
+    
+    <item>
+      <title>A city is not a static tree: understanding urban areas through the lens of real-time behavioral data</title>
+      <link>http://estebanmoro.org/post/2023-02-24-a-city-is-not-a-static-tree/</link>
+      <pubDate>Fri, 24 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2023-02-24-a-city-is-not-a-static-tree/</guid>
+      <description>Authors:Esteban Moro Publication: ZARCH, 19, 28–39. 2023 LINK
+Abstract: Cities are the main ground on which our society and culture develop today and will evolve in the future. Against the traditional understanding of cities as physical spaces mostly around our neighborhoods, recent use of large-scale mobility datasets has enabled the study of our behavior at unprecedented spatial and temporal scales, much beyond our static residential spaces. Here we show how it is possible to use these datasets to investigate the role that human behavior plays in traditional urban problems like segregation, public health, or epidemics.</description>
+    </item>
+    
+    <item>
+      <title>Rhythm of the streets: a street classification framework based on street activity patterns</title>
+      <link>http://estebanmoro.org/post/2022-07-29-rhythm-of-the-streets-a-street-classification-framework-based-on-street-activity-patterns/</link>
+      <pubDate>Fri, 29 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2022-07-29-rhythm-of-the-streets-a-street-classification-framework-based-on-street-activity-patterns/</guid>
+      <description>Authors: Tianyu Su , Maoran Sun, Zhuangyuan Fan, Ariel Noyman, Alex Pentland, and Esteban Moro
+Publication: EPJ Data Science 11, 43 (2022). Link
+Abstract: As the living tissue connecting urban places, streets play significant roles in driving city development, providing essential access, and promoting human interactions. Understanding street activities and how these activities vary across different streets is critical for designing both efficient and livable streets. However, current street classification frameworks primarily focus on either streets’ functions in transportation networks or their adjacent land uses rather than actual activity patterns, resulting in coarse classifications.</description>
+    </item>
+    
+    <item>
+      <title>Quantifying the importance and location of SARS-CoV-2 transmission events in large metropolitan areas</title>
+      <link>http://estebanmoro.org/post/2022-06-13-quantifying-the-importance-and-location-of-sars-cov-2-transmission-events-in-large-metropolitan-areas/</link>
+      <pubDate>Mon, 13 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2022-06-13-quantifying-the-importance-and-location-of-sars-cov-2-transmission-events-in-large-metropolitan-areas/</guid>
+      <description>Authors: Alberto Aleta, David Martín-Corral, Michiel A.Bakker, Ana Pastore y Piontti, Marco Ajelli, Maria Litvinova , Matteo Chinazzi, Natalie E. Dean, M. Elizabeth Halloran,Ira M. Longini,Jr, Alex Pentland, Alessandro Vespignani, Yamir Moreno, and Esteban Moro. Publication: PNAS (2022). Link
+Abstract: Detailed characterization of severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) transmission across different settings can help design less disruptive interventions. We used real-time, privacy-enhanced mobility data in the New York City, NY and Seattle, WA metropolitan areas to build a detailed agent-based model of SARS-CoV-2infection to estimate the where, when, and magnitude of transmission events during thepandemic’s first wave.</description>
+    </item>
+    
+    <item>
+      <title>Generating synthetic mobility data for a realistic population with RNNs to improve utility and privacy</title>
+      <link>http://estebanmoro.org/post/2022-01-31-generating-synthetic-mobility-data-for-a-realistic-population-with-rnns-to-improve-utility-and-privacy/</link>
+      <pubDate>Mon, 31 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2022-01-31-generating-synthetic-mobility-data-for-a-realistic-population-with-rnns-to-improve-utility-and-privacy/</guid>
+      <description>Authors: Alex Berke, Ronan Doorley, Kent Larson, Esteban Moro
+Publication: arXiv preprint arXiv:2201.01139 (2022). Link
+Abstract: Location data collected from mobile devices represent mobility behaviors at individual and societal levels. These data have important applications ranging from transportation planning to epidemic modeling. However, issues must be overcome to best serve these use cases: The data often represent a limited sample of the population and use of the data jeopardizes privacy.</description>
+    </item>
+    
+    <item>
+      <title>News or social media? Socio-economic divide of mobile service consumption</title>
+      <link>http://estebanmoro.org/post/2021-12-01-news-or-social-media-socio-economic-divide-of-mobile-service-consumption/</link>
+      <pubDate>Wed, 01 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2021-12-01-news-or-social-media-socio-economic-divide-of-mobile-service-consumption/</guid>
+      <description>Authors: Iñaki Ucar, Marco Gramaglia, Marco Fiore, Zbigniew Smoreda, and Esteban Moro Publication: J. R. Soc. Interface (2021). Link
+Abstract: Reliable and timely information on socio-economic status and divides is critical to social and economic research and policing. Novel data sources from mobile communication platforms have enabled new cost-effective approaches and models to investigate social disparity, but their lack of interpretability, accuracy or scale has limited their relevance to date.</description>
+    </item>
+    
+    <item>
+      <title>Mobility patterns are associated with experienced income segregation in large US cities</title>
+      <link>http://estebanmoro.org/post/2021-07-31-mobility-patterns-are-associated-with-experienced-income-segregation-in-large-us-cities/</link>
+      <pubDate>Sat, 31 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2021-07-31-mobility-patterns-are-associated-with-experienced-income-segregation-in-large-us-cities/</guid>
+      <description>Authors: Esteban Moro, Dan Calacci, Xiaowen Dong &amp;amp; Alex Pentland. Publication: Nature Communications 12, 4633 (2021). Link
+Abstract: Traditional understanding of urban income segregation is largely based on static coarse grained residential patterns. However, these do not capture the income segregation experience implied by the rich social interactions that happen in places that may relate to individual choices, opportunities, and mobility behavior. Using a large-scale high-resolution mobility data set of 4.</description>
+    </item>
+    
+    <item>
+      <title>Effect of COVID-19 response policies on walking behavior in US cities</title>
+      <link>http://estebanmoro.org/post/2021-06-16-effect-of-covid-19-response-policies-on-walking-behavior-in-us-cities/</link>
+      <pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2021-06-16-effect-of-covid-19-response-policies-on-walking-behavior-in-us-cities/</guid>
+      <description>Authors: Ruth F. Hunter, Leandro Garcia, Thiago Herick de Sa, Belen Zapata-Diomedi, Christopher Millett, James Woodcock, Alex ’Sandy’ Pentland, and Esteban Moro Publication: Nature Communications (2021). Link
+Abstract: The COVID-19 pandemic is causing mass disruption to our daily lives. We integrate mobility data from mobile devices and area-level data to study the walking patterns of 1.62 million anonymous users in 10 metropolitan areas in the United States. The data covers the period from mid-February 2020 (pre-lockdown) to late June 2020 (easing of lockdown restrictions).</description>
+    </item>
+    
+    <item>
+      <title>Quantifying the importance and location of SARS-CoV-2 transmission events in large metropolitan areas</title>
+      <link>http://estebanmoro.org/post/2020-12-09-effect-of-covid-19-response-policies-on-walking-behavior-in-us-cities/</link>
+      <pubDate>Fri, 18 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2020-12-09-effect-of-covid-19-response-policies-on-walking-behavior-in-us-cities/</guid>
+      <description>Authors: Alberto Aleta, David Martin-Corral, Michiel Bakker, Ana Pastore y Piontti, Marco Ajelli, Maria Litvinova, Matteo Chinazzi, Natalie E Dean,M. Elizabeth Halloran, Ira M Longini, Alex Pentland, Alessandro Vespignani, Yamir Moreno, Esteban Moro
+Publication: medRxiv (2020). Link
+Abstract: Detailed characterizations of SARS-CoV-2 transmission risk across different social settings can inform the design of targeted and less disruptive non-pharmaceutical interventions (NPI), yet these data have been lacking. Here we integrate real-time, anonymous and privacy-enhanced geolocalized mobility data with census and demographic data in the New York City and Seattle metropolitan areas to build a detailed agent-based model of SARS-CoV-2 transmission.</description>
+    </item>
+    
+    <item>
+      <title>Netmob 2019</title>
+      <link>http://estebanmoro.org/post/2019-02-01-netmob-2019/</link>
+      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2019-02-01-netmob-2019/</guid>
+      <description>Another edition of Netmob is happening this year 2019. NetMob is the primary conference in the analysis of mobile phone datasets in social, urban, societal and industrial problems. Previous editions in Boston and Milano brought together more than 250 researchers, practitioners and decision-makers from more 140 institutions and 30 countries. I had the pleasure to organize the 2015 edition and it was a blast to put together so much interesting talks, people, projects.</description>
+    </item>
+    
+    <item>
+      <title>Temporal patterns behind the strength of persistent ties</title>
+      <link>http://estebanmoro.org/post/2017-06-28-temporal-patterns-behind-the-strength-of-persistent-ties/</link>
+      <pubDate>Wed, 28 Jun 2017 12:54:18 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2017-06-28-temporal-patterns-behind-the-strength-of-persistent-ties/</guid>
+      <description>Authors: Henry Navarro, Giovanna Miritello, Arturo Canales, Esteban Moro
+Journal: EPJ Data Science (2017) 6:31 LINK
+Abstract: Social networks are made out of strong and weak ties having very different structural and dynamical properties. But what features of human interaction build a strong tie? Here we approach this question from a practical way by finding what are the properties of social interactions that make ties more persistent and thus stronger to maintain social interactions in the future.</description>
+    </item>
+    
+    <item>
+      <title>Netmob 2015</title>
+      <link>http://estebanmoro.org/post/2015-04-14-netmob-2015/</link>
+      <pubDate>Tue, 14 Apr 2015 09:26:11 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2015-04-14-netmob-2015/</guid>
+      <description>I had the pleasure to organize last edition of Netmob at MIT Media Lab (together with Sandy Pentland, Vincent Blondel and Yves-Alexandre de Montjoye). Netmob is the primary conference in the analysis of those datasets in social, urban, societal and industrial problems. Netmob 2015 also hosted the final part of theD4D Challenge by Orange. They were 3 amazing days of applications and analysis of mobile phone datasets, preceded by one-day school and 3 days Hackathon.</description>
+    </item>
+    
+    <item>
+      <title>Time allocation in social networks: correlation between social structure and human communication dynamics</title>
+      <link>http://estebanmoro.org/post/2013-05-17-time-allocation-in-social-networks-correlation-between-social-structure-and-human-communication-dynamics/</link>
+      <pubDate>Fri, 17 May 2013 07:47:26 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2013-05-17-time-allocation-in-social-networks-correlation-between-social-structure-and-human-communication-dynamics/</guid>
+      <description>Authors: Giovanna Miritello, Rubén Lara, and Esteban Moro
+Book: &amp;ldquo;Temporal Networks&amp;rdquo;, Springer, 2013. Series: Understanding Complex Systems. Holme, Petter; Saramaki, Jari (Eds.) [PDF]((http://arxiv.org/pdf/1305.3865v1.pdf)
+Summary Recent research has shown the deep impact of the dynamics of human interactions (or temporal social networks) on the spreading of information, opinion formation, etc. In general, the bursty nature of human interactions lowers the interaction between people to the extent that both the speed and reach of information diffusion are diminished.</description>
+    </item>
+    
+    <item>
+      <title>Limited communication capacity unveils strategies for human interaction</title>
+      <link>http://estebanmoro.org/post/2013-04-09-limited-communication-capacity-unveils-strategies-for-human-interaction/</link>
+      <pubDate>Tue, 09 Apr 2013 07:43:09 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2013-04-09-limited-communication-capacity-unveils-strategies-for-human-interaction/</guid>
+      <description>Authors: Giovanna Miritello, Rubén Lara, Manuel Cebrián and Esteban Moro
+Journal: Scientific Reports 3, 1950 (2013). LINK
+Abstract: Social connectivity is the key process that characterizes the structural properties of social networks and in turn processes such as navigation, influence or information diffusion. Since time, attention and cognition are inelastic resources, humans should have a predefined strategy to manage their social interactions over time. However, the limited observational length of existing human interaction datasets, together with the bursty nature of dyadic communications have hampered the observation of tie dynamics in social networks.</description>
+    </item>
+    
+    <item>
+      <title>Dynamical strength of social ties in information spreading</title>
+      <link>http://estebanmoro.org/post/2010-11-25-the-dynamical-strength-of-social-ties-in-information-spreading/</link>
+      <pubDate>Thu, 25 Nov 2010 10:19:44 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2010-11-25-the-dynamical-strength-of-social-ties-in-information-spreading/</guid>
+      <description>Authors: Giovanna Miritello, Esteban Moro y Rubén Lara
+Journal: Physical Review E (Rapid Comm) 83, 045102 (2011). LINK | arXiv
+Abstract: We investigate the temporal patterns of human communication and its influence on the spreading of information in social networks. The analysis of mobile phone calls of 20 million people in one country shows that human communication is bursty and happens in group conversations. These features have opposite effects in information reach: while bursts hinder propagation at large scales, conversations favor local rapid cascades.</description>
+    </item>
+    
+  </channel>
+</rss>

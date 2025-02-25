@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Add new tag on </title>
+    <link>http://estebanmoro.org/tags/add-new-tag/</link>
+    <description>Recent content in Add new tag on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Mon, 12 Jan 2009 08:08:00 +0000</lastBuildDate><atom:link href="http://estebanmoro.org/tags/add-new-tag/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Publish and... perish</title>
+      <link>http://estebanmoro.org/2009/01/publish-and-perish/</link>
+      <pubDate>Mon, 12 Jan 2009 08:08:00 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/2009/01/publish-and-perish/</guid>
+      <description>In the old days, research quality was measured by the number of papers you published. Publishing was a hard process and only few scientists were able to publish several papers per year. However, with the bloom of new journals, the appearance of electronic editorial process, and the specialization of research fields, the number of publications per year has grow exponentially during the last decades. Thus publishing is not longer a good measure of the quality of research.</description>
+    </item>
+    
+  </channel>
+</rss>

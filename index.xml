@@ -1,0 +1,110 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title></title>
+    <link>http://estebanmoro.org/</link>
+    <description>Recent content on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Fri, 24 Jan 2025 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="http://estebanmoro.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Posts</title>
+      <link>http://estebanmoro.org/post/</link>
+      <pubDate>Fri, 24 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>About me</title>
+      <link>http://estebanmoro.org/about/</link>
+      <pubDate>Tue, 14 Apr 2015 22:17:00 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/about/</guid>
+      <description>
+&lt;script src=&#34;http://estebanmoro.org/rmarkdown-libs/htmlwidgets/htmlwidgets.js&#34;&gt;&lt;/script&gt;
+&lt;link href=&#34;http://estebanmoro.org/rmarkdown-libs/vis/vis-network.min.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;script src=&#34;http://estebanmoro.org/rmarkdown-libs/vis/vis-network.min.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;http://estebanmoro.org/rmarkdown-libs/visNetwork-binding/visNetwork.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;&lt;img src=&#34;http://estebanmoro.org/img/aboutme.jpg&#34; style=&#34;width:70.0%&#34; /&gt;
+Full CV -&amp;gt; &lt;a href=&#34;http://estebanmoro.org/pdf/cv_emoro.pdf&#34;&gt;&lt;strong&gt;PDF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I’m a professor in the &lt;a href=&#34;https://www.networkscienceinstitute.org&#34;&gt;Network Science Institute&lt;/a&gt; at Northeastern University and the director of the &lt;a href=&#34;https://socialurban.net&#34;&gt;Social Urban Networks (SUNLab)&lt;/a&gt; group. Previously, I was an associate professor at &lt;a href=&#34;https://matematicas.uc3m.es/index.php/esteban-moro-egido&#34;&gt;Universidad Carlos III&lt;/a&gt; (UC3M) in Spain, Researcher and Visiting Professor at &lt;a href=&#34;https://www.media.mit.edu/people/emoro/overview/&#34;&gt;MIT Media Lab&lt;/a&gt; and Researcher at University of Oxford. A native from Salamanca (Spain) I hold a PhD in Physics and I am an affiliate researcher at the MIT Media Lab. I have published extensively throughout my career and have led many projects funded by government agencies and private companies. Also served as jury in many Data Science and Big Data challenges, as editor of several journals and has advised many PhD students.&lt;/p&gt;
+&lt;p&gt;My work lies in the intersection of &lt;strong&gt;big data&lt;/strong&gt; and &lt;strong&gt;computational social science&lt;/strong&gt;, with special attention to human dynamics, collective intelligence, social networks and urban mobility in problems like viral marketing, natural disaster management, food accessibility, or economical segregation in cities. Apart from my academic career I have worked closely with companies like Twitter, Telefónica or BBVA in the use of massive datasets to understand problems like how humans communicate, how political opinion spreads in social networks or building alternative well-being indexes. I have received numerous awards for my research, including the “Shared University Award” from IBM in 2007 for my research in modeling viral marketing in social networks and the “Excellence in Research” Awards in 2013 and 2015 from UC3M.&lt;/p&gt;
+&lt;p&gt;Our work appeared in major journals including Nature Human Behavior, Nature Communications, PNAS or Science Advances and is regularly covered by media outlets The Atlantic, The Washington Post, The Wall Street Journal, El País (Spain).&lt;/p&gt;
+&lt;p&gt;Here is a brief description of &lt;strong&gt;my career&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;[1971] Born in &lt;a href=&#34;https://en.wikipedia.org/wiki/Salamanca&#34;&gt;Salamanca&lt;/a&gt;, Spain.&lt;/li&gt;
+&lt;li&gt;[1994] M.Sc. Universidad de Salamanca, Spain.&lt;/li&gt;
+&lt;li&gt;[1999] PhD in Physics, Universidad Carlos III de Madrid, Spain.&lt;/li&gt;
+&lt;li&gt;[1999-2001] Research Assistant &amp;amp; Marie Curie Fellow, Theoretical Physics Department, University of Oxford, U.K.&lt;/li&gt;
+&lt;li&gt;[2001] Teaching Assistant, Universidad Carlos III de Madrid, Spain.&lt;/li&gt;
+&lt;li&gt;[2003-2007] Ramón y Cajal researcher, Universidad Carlos III de Madrid, Spain.&lt;/li&gt;
+&lt;li&gt;[2009-2014] Technical leader at Instituto de Ingeniería del Conocimiento, Spain.&lt;/li&gt;
+&lt;li&gt;[2015-2017] Academic Director at AFI Escuela de Finanzas, Spain.&lt;/li&gt;
+&lt;li&gt;[2016-2019] Visiting Professor at MIT Medialab, US.&lt;br /&gt;
+&lt;/li&gt;
+&lt;li&gt;[2007-2023] Associate Professor, Universidad Carlos III de Madrid, Spain.&lt;/li&gt;
+&lt;li&gt;[2019-2023] Research Scientist, SSRC MIT, US.&lt;/li&gt;
+&lt;li&gt;[2024-present] Full Professor at the Network Science Institute &amp;amp; Department of Physics, Northeastern University.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;And a little bit about &lt;strong&gt;my publications&lt;/strong&gt;: &lt;br&gt;
+&lt;small&gt; (last update 2025-02-03. Data from Google Scholar, retrieved using the &lt;a href=&#34;https://github.com/YuLab-SMU/scholar&#34;&gt;scholar&lt;/a&gt; package in &lt;code&gt;R&lt;/code&gt;)&lt;/small&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;You can find a &lt;a href=&#34;http://estebanmoro.org/post/list-of-publications/&#34;&gt;list of my publications here&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;My h-index now is &lt;strong&gt;42&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;I have received &lt;strong&gt;8622 citations&lt;/strong&gt; to &lt;strong&gt;162 publications/documents&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Here is the distribution of my citations since 2010:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;http://estebanmoro.org/about_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;This is the network of my top co-authors (red) and their top co-authors (blue) (you can interact with the visualization):&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div id=&#34;htmlwidget-1&#34; style=&#34;width:700px;height:500px;&#34; class=&#34;visNetwork html-widget&#34;&gt;&lt;/div&gt;
+&lt;script type=&#34;application/json&#34; data-for=&#34;htmlwidget-1&#34;&gt;{&#34;x&#34;:{&#34;nodes&#34;:{&#34;id&#34;:[&#34;Esteban Moro&#34;,&#34;Alex `Sandy&#39; Pentland&#34;,&#34;Manuel Cebrian&#34;,&#34;Iyad Rahwan&#34;,&#34;David Martín-Corral&#34;,&#34;Alberto Aleta&#34;,&#34;Rodolfo Cuerno Rejado&#34;,&#34;Manuel Garcia-Herranz&#34;,&#34;Yury Kryvasheyeu&#34;,&#34;Yamir Moreno&#34;,&#34;Marco Ajelli&#34;,&#34;Trevor Darrell&#34;,&#34;Nuria Oliver, Phd&#34;,&#34;Thad Starner&#34;,&#34;David Lazer&#34;,&#34;Matthew Turk&#34;,&#34;Tony Jebara&#34;,&#34;Stan Sclaroff&#34;,&#34;Christopher R. Wren&#34;,&#34;Nick Obradovich&#34;,&#34;Pascal Van Hentenryck&#34;,&#34;Manuel Alfonseca&#34;,&#34;Alfonso Ortega De La Puente&#34;,&#34;Haohui Chen (陈浩辉)&#34;,&#34;Nick Jennings&#34;,&#34;James H. Fowler&#34;,&#34;Jean-François Bonnefon&#34;,&#34;Azim Shariff&#34;,&#34;Edmond Awad&#34;,&#34;Sohan Dsouza&#34;,&#34;Liz Sonenberg&#34;,&#34;Morgan R. Frank&#34;,&#34;Matteo Chinazzi&#34;,&#34;Ana Pastore Y Piontti&#34;,&#34;Maria Litvinova&#34;,&#34;Alessandro Vespignani&#34;,&#34;Natalie E. Dean&#34;,&#34;About Scholar&#34;,&#34;Search Help&#34;,&#34;Mario Castro (Orcid: 0000-0003-328...&#34;,&#34;L Vazquez&#34;,&#34;Javier Muñoz-García&#34;,&#34;Raul Gago&#34;,&#34;Silvia N. Santalla&#34;,&#34;Albert-László Barabási&#34;,&#34;Roberto Salvarezza&#34;,&#34;Hernan Makse&#34;,&#34;Javier Rodríguez Laguna&#34;,&#34;Pablo Haya&#34;,&#34;Vedran Sekara&#34;,&#34;Xavier Alamán&#34;,&#34;Do-Hyung Kim&#34;,&#34;Germán Montoro&#34;,&#34;Alex Rutherford&#34;,&#34;Estefanía Martín-Barroso&#34;,&#34;Abraham Esquivel Salas&#34;,&#34;Lorenzo Coviello&#34;,&#34;Patrick Baylis&#34;,&#34;Markus Enenkel&#34;,&#34;Denyse S. Dookie&#34;,&#34;Guilherme Ferraz De Arruda&#34;,&#34;Carlos Gracia Lázaro&#34;,&#34;Vito Latora&#34;,&#34;Javier Borge-Holthoefer&#34;,&#34;Luis Mario Floria&#34;,&#34;Francisco A. Rodrigues&#34;,&#34;Stefano Boccaletti&#34;,&#34;Angel Sánchez&#34;,&#34;Dong-Uk Hwang (D.-U. Hwang)&#34;,&#34;Stefano Merler&#34;,&#34;Hongjie Yu&#34;,&#34;Piero Poletti&#34;,&#34;Filippo Trentini&#34;,&#34;Giorgio Guzzetta&#34;,&#34;Valentina Marziano&#34;,&#34;Kaiyuan Sun&#34;],&#34;label&#34;:[&#34;Esteban Moro&#34;,&#34;Alex `Sandy&#39; Pentland&#34;,&#34;Manuel Cebrian&#34;,&#34;Iyad Rahwan&#34;,&#34;David Martín-Corral&#34;,&#34;Alberto Aleta&#34;,&#34;Rodolfo Cuerno Rejado&#34;,&#34;Manuel Garcia-Herranz&#34;,&#34;Yury Kryvasheyeu&#34;,&#34;Yamir Moreno&#34;,&#34;Marco Ajelli&#34;,&#34;Trevor Darrell&#34;,&#34;Nuria Oliver, Phd&#34;,&#34;Thad Starner&#34;,&#34;David Lazer&#34;,&#34;Matthew Turk&#34;,&#34;Tony Jebara&#34;,&#34;Stan Sclaroff&#34;,&#34;Christopher R. Wren&#34;,&#34;Nick Obradovich&#34;,&#34;Pascal Van Hentenryck&#34;,&#34;Manuel Alfonseca&#34;,&#34;Alfonso Ortega De La Puente&#34;,&#34;Haohui Chen (陈浩辉)&#34;,&#34;Nick Jennings&#34;,&#34;James H. Fowler&#34;,&#34;Jean-François Bonnefon&#34;,&#34;Azim Shariff&#34;,&#34;Edmond Awad&#34;,&#34;Sohan Dsouza&#34;,&#34;Liz Sonenberg&#34;,&#34;Morgan R. Frank&#34;,&#34;Matteo Chinazzi&#34;,&#34;Ana Pastore Y Piontti&#34;,&#34;Maria Litvinova&#34;,&#34;Alessandro Vespignani&#34;,&#34;Natalie E. Dean&#34;,&#34;About Scholar&#34;,&#34;Search Help&#34;,&#34;Mario Castro (Orcid: 0000-0003-328...&#34;,&#34;L Vazquez&#34;,&#34;Javier Muñoz-García&#34;,&#34;Raul Gago&#34;,&#34;Silvia N. Santalla&#34;,&#34;Albert-László Barabási&#34;,&#34;Roberto Salvarezza&#34;,&#34;Hernan Makse&#34;,&#34;Javier Rodríguez Laguna&#34;,&#34;Pablo Haya&#34;,&#34;Vedran Sekara&#34;,&#34;Xavier Alamán&#34;,&#34;Do-Hyung Kim&#34;,&#34;Germán Montoro&#34;,&#34;Alex Rutherford&#34;,&#34;Estefanía Martín-Barroso&#34;,&#34;Abraham Esquivel Salas&#34;,&#34;Lorenzo Coviello&#34;,&#34;Patrick Baylis&#34;,&#34;Markus Enenkel&#34;,&#34;Denyse S. Dookie&#34;,&#34;Guilherme Ferraz De Arruda&#34;,&#34;Carlos Gracia Lázaro&#34;,&#34;Vito Latora&#34;,&#34;Javier Borge-Holthoefer&#34;,&#34;Luis Mario Floria&#34;,&#34;Francisco A. Rodrigues&#34;,&#34;Stefano Boccaletti&#34;,&#34;Angel Sánchez&#34;,&#34;Dong-Uk Hwang (D.-U. Hwang)&#34;,&#34;Stefano Merler&#34;,&#34;Hongjie Yu&#34;,&#34;Piero Poletti&#34;,&#34;Filippo Trentini&#34;,&#34;Giorgio Guzzetta&#34;,&#34;Valentina Marziano&#34;,&#34;Kaiyuan Sun&#34;],&#34;color&#34;:[&#34;darkred&#34;,&#34;#CC00004D&#34;,&#34;#CC00004D&#34;,&#34;#CC00004D&#34;,&#34;#CC00004D&#34;,&#34;#CC00004D&#34;,&#34;#CC00004D&#34;,&#34;#CC00004D&#34;,&#34;#CC00004D&#34;,&#34;#CC00004D&#34;,&#34;#CC00004D&#34;,&#34;lightblue&#34;,&#34;lightblue&#34;,&#34;lightblue&#34;,&#34;lightblue&#34;,&#34;lightblue&#34;,&#34;lightblue&#34;,&#34;lightblue&#34;,&#34;lightblue&#34;,&#34;lightblue&#34;,&#34;lightblue&#34;,&#34;lightblue&#34;,&#34;lightblue&#34;,&#34;lightblue&#34;,&#34;lightblue&#34;,&#34;lightblue&#34;,&#34;lightblue&#34;,&#34;lightblue&#34;,&#34;lightblue&#34;,&#34;lightblue&#34;,&#34;lightblue&#34;,&#34;lightblue&#34;,&#34;lightblue&#34;,&#34;lightblue&#34;,&#34;lightblue&#34;,&#34;lightblue&#34;,&#34;lightblue&#34;,&#34;lightblue&#34;,&#34;lightblue&#34;,&#34;lightblue&#34;,&#34;lightblue&#34;,&#34;lightblue&#34;,&#34;lightblue&#34;,&#34;lightblue&#34;,&#34;lightblue&#34;,&#34;lightblue&#34;,&#34;lightblue&#34;,&#34;lightblue&#34;,&#34;lightblue&#34;,&#34;lightblue&#34;,&#34;lightblue&#34;,&#34;lightblue&#34;,&#34;lightblue&#34;,&#34;lightblue&#34;,&#34;lightblue&#34;,&#34;lightblue&#34;,&#34;lightblue&#34;,&#34;lightblue&#34;,&#34;lightblue&#34;,&#34;lightblue&#34;,&#34;lightblue&#34;,&#34;lightblue&#34;,&#34;lightblue&#34;,&#34;lightblue&#34;,&#34;lightblue&#34;,&#34;lightblue&#34;,&#34;lightblue&#34;,&#34;lightblue&#34;,&#34;lightblue&#34;,&#34;lightblue&#34;,&#34;lightblue&#34;,&#34;lightblue&#34;,&#34;lightblue&#34;,&#34;lightblue&#34;,&#34;lightblue&#34;,&#34;lightblue&#34;],&#34;font.size&#34;:[30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30]},&#34;edges&#34;:{&#34;from&#34;:[&#34;Esteban Moro&#34;,&#34;Esteban Moro&#34;,&#34;Esteban Moro&#34;,&#34;Esteban Moro&#34;,&#34;Esteban Moro&#34;,&#34;Esteban Moro&#34;,&#34;Esteban Moro&#34;,&#34;Esteban Moro&#34;,&#34;Esteban Moro&#34;,&#34;Esteban Moro&#34;,&#34;Alex `Sandy&#39; Pentland&#34;,&#34;Alex `Sandy&#39; Pentland&#34;,&#34;Alex `Sandy&#39; Pentland&#34;,&#34;Alex `Sandy&#39; Pentland&#34;,&#34;Alex `Sandy&#39; Pentland&#34;,&#34;Alex `Sandy&#39; Pentland&#34;,&#34;Alex `Sandy&#39; Pentland&#34;,&#34;Alex `Sandy&#39; Pentland&#34;,&#34;Alex `Sandy&#39; Pentland&#34;,&#34;Alex `Sandy&#39; Pentland&#34;,&#34;Alex `Sandy&#39; Pentland&#34;,&#34;Manuel Cebrian&#34;,&#34;Manuel Cebrian&#34;,&#34;Manuel Cebrian&#34;,&#34;Manuel Cebrian&#34;,&#34;Manuel Cebrian&#34;,&#34;Manuel Cebrian&#34;,&#34;Manuel Cebrian&#34;,&#34;Manuel Cebrian&#34;,&#34;Manuel Cebrian&#34;,&#34;Manuel Cebrian&#34;,&#34;Iyad Rahwan&#34;,&#34;Iyad Rahwan&#34;,&#34;Iyad Rahwan&#34;,&#34;Iyad Rahwan&#34;,&#34;Iyad Rahwan&#34;,&#34;Iyad Rahwan&#34;,&#34;Iyad Rahwan&#34;,&#34;Iyad Rahwan&#34;,&#34;David Martín-Corral&#34;,&#34;David Martín-Corral&#34;,&#34;David Martín-Corral&#34;,&#34;David Martín-Corral&#34;,&#34;David Martín-Corral&#34;,&#34;David Martín-Corral&#34;,&#34;David Martín-Corral&#34;,&#34;David Martín-Corral&#34;,&#34;Alberto Aleta&#34;,&#34;Alberto Aleta&#34;,&#34;Rodolfo Cuerno Rejado&#34;,&#34;Rodolfo Cuerno Rejado&#34;,&#34;Rodolfo Cuerno Rejado&#34;,&#34;Rodolfo Cuerno Rejado&#34;,&#34;Rodolfo Cuerno Rejado&#34;,&#34;Rodolfo Cuerno Rejado&#34;,&#34;Rodolfo Cuerno Rejado&#34;,&#34;Rodolfo Cuerno Rejado&#34;,&#34;Rodolfo Cuerno Rejado&#34;,&#34;Manuel Garcia-Herranz&#34;,&#34;Manuel Garcia-Herranz&#34;,&#34;Manuel Garcia-Herranz&#34;,&#34;Manuel Garcia-Herranz&#34;,&#34;Manuel Garcia-Herranz&#34;,&#34;Manuel Garcia-Herranz&#34;,&#34;Manuel Garcia-Herranz&#34;,&#34;Manuel Garcia-Herranz&#34;,&#34;Yury Kryvasheyeu&#34;,&#34;Yury Kryvasheyeu&#34;,&#34;Yury Kryvasheyeu&#34;,&#34;Yury Kryvasheyeu&#34;,&#34;Yury Kryvasheyeu&#34;,&#34;Yury Kryvasheyeu&#34;,&#34;Yury Kryvasheyeu&#34;,&#34;Yury Kryvasheyeu&#34;,&#34;Yamir Moreno&#34;,&#34;Yamir Moreno&#34;,&#34;Yamir Moreno&#34;,&#34;Yamir Moreno&#34;,&#34;Yamir Moreno&#34;,&#34;Yamir Moreno&#34;,&#34;Yamir Moreno&#34;,&#34;Yamir Moreno&#34;,&#34;Yamir Moreno&#34;,&#34;Yamir Moreno&#34;,&#34;Marco Ajelli&#34;,&#34;Marco Ajelli&#34;,&#34;Marco Ajelli&#34;,&#34;Marco Ajelli&#34;,&#34;Marco Ajelli&#34;,&#34;Marco Ajelli&#34;,&#34;Marco Ajelli&#34;,&#34;Marco Ajelli&#34;,&#34;Marco Ajelli&#34;,&#34;Marco Ajelli&#34;],&#34;to&#34;:[&#34;Alex `Sandy&#39; Pentland&#34;,&#34;Manuel Cebrian&#34;,&#34;Iyad Rahwan&#34;,&#34;David Martín-Corral&#34;,&#34;Alberto Aleta&#34;,&#34;Rodolfo Cuerno Rejado&#34;,&#34;Manuel Garcia-Herranz&#34;,&#34;Yury Kryvasheyeu&#34;,&#34;Yamir Moreno&#34;,&#34;Marco Ajelli&#34;,&#34;Manuel Cebrian&#34;,&#34;Iyad Rahwan&#34;,&#34;David Martín-Corral&#34;,&#34;Trevor Darrell&#34;,&#34;Nuria Oliver, Phd&#34;,&#34;Thad Starner&#34;,&#34;David Lazer&#34;,&#34;Matthew Turk&#34;,&#34;Tony Jebara&#34;,&#34;Stan Sclaroff&#34;,&#34;Christopher R. Wren&#34;,&#34;Iyad Rahwan&#34;,&#34;Manuel Garcia-Herranz&#34;,&#34;Yury Kryvasheyeu&#34;,&#34;Nick Obradovich&#34;,&#34;Pascal Van Hentenryck&#34;,&#34;Manuel Alfonseca&#34;,&#34;Alfonso Ortega De La Puente&#34;,&#34;Haohui Chen (陈浩辉)&#34;,&#34;Nick Jennings&#34;,&#34;James H. Fowler&#34;,&#34;Nick Obradovich&#34;,&#34;Nick Jennings&#34;,&#34;Jean-François Bonnefon&#34;,&#34;Azim Shariff&#34;,&#34;Edmond Awad&#34;,&#34;Sohan Dsouza&#34;,&#34;Liz Sonenberg&#34;,&#34;Morgan R. Frank&#34;,&#34;Alberto Aleta&#34;,&#34;Yamir Moreno&#34;,&#34;Marco Ajelli&#34;,&#34;Matteo Chinazzi&#34;,&#34;Ana Pastore Y Piontti&#34;,&#34;Maria Litvinova&#34;,&#34;Alessandro Vespignani&#34;,&#34;Natalie E. Dean&#34;,&#34;About Scholar&#34;,&#34;Search Help&#34;,&#34;Mario Castro (Orcid: 0000-0003-328...&#34;,&#34;L Vazquez&#34;,&#34;Javier Muñoz-García&#34;,&#34;Raul Gago&#34;,&#34;Silvia N. Santalla&#34;,&#34;Albert-László Barabási&#34;,&#34;Roberto Salvarezza&#34;,&#34;Hernan Makse&#34;,&#34;Javier Rodríguez Laguna&#34;,&#34;Pablo Haya&#34;,&#34;Vedran Sekara&#34;,&#34;Xavier Alamán&#34;,&#34;Do-Hyung Kim&#34;,&#34;Germán Montoro&#34;,&#34;Alex Rutherford&#34;,&#34;Estefanía Martín-Barroso&#34;,&#34;Abraham Esquivel Salas&#34;,&#34;Nick Obradovich&#34;,&#34;Pascal Van Hentenryck&#34;,&#34;Haohui Chen (陈浩辉)&#34;,&#34;James H. Fowler&#34;,&#34;Lorenzo Coviello&#34;,&#34;Patrick Baylis&#34;,&#34;Markus Enenkel&#34;,&#34;Denyse S. Dookie&#34;,&#34;Alessandro Vespignani&#34;,&#34;Guilherme Ferraz De Arruda&#34;,&#34;Carlos Gracia Lázaro&#34;,&#34;Vito Latora&#34;,&#34;Javier Borge-Holthoefer&#34;,&#34;Luis Mario Floria&#34;,&#34;Francisco A. Rodrigues&#34;,&#34;Stefano Boccaletti&#34;,&#34;Angel Sánchez&#34;,&#34;Dong-Uk Hwang (D.-U. Hwang)&#34;,&#34;Matteo Chinazzi&#34;,&#34;Maria Litvinova&#34;,&#34;Alessandro Vespignani&#34;,&#34;Stefano Merler&#34;,&#34;Hongjie Yu&#34;,&#34;Piero Poletti&#34;,&#34;Filippo Trentini&#34;,&#34;Giorgio Guzzetta&#34;,&#34;Valentina Marziano&#34;,&#34;Kaiyuan Sun&#34;]},&#34;nodesToDataframe&#34;:true,&#34;edgesToDataframe&#34;:true,&#34;options&#34;:{&#34;width&#34;:&#34;100%&#34;,&#34;height&#34;:&#34;100%&#34;,&#34;nodes&#34;:{&#34;shape&#34;:&#34;dot&#34;},&#34;manipulation&#34;:{&#34;enabled&#34;:false},&#34;interaction&#34;:{&#34;dragView&#34;:false,&#34;hover&#34;:true,&#34;navigationButtons&#34;:true,&#34;zoomView&#34;:false,&#34;zoomSpeed&#34;:1}},&#34;groups&#34;:null,&#34;width&#34;:&#34;700px&#34;,&#34;height&#34;:&#34;500px&#34;,&#34;idselection&#34;:{&#34;enabled&#34;:false},&#34;byselection&#34;:{&#34;enabled&#34;:false},&#34;main&#34;:null,&#34;submain&#34;:null,&#34;footer&#34;:null,&#34;background&#34;:&#34;rgba(0, 0, 0, 0)&#34;,&#34;tooltipStay&#34;:300,&#34;tooltipStyle&#34;:&#34;position: fixed;visibility:hidden;padding: 5px;white-space: nowrap;font-family: verdana;font-size:14px;font-color:#000000;background-color: #f5f4ed;-moz-border-radius: 3px;-webkit-border-radius: 3px;border-radius: 3px;border: 1px solid #808074;box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);&#34;},&#34;evals&#34;:[],&#34;jsHooks&#34;:[]}&lt;/script&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Check my full &lt;a href=&#34;https://scholar.google.es/citations?user=sjaZfDIAAAAJ&amp;amp;hl=en&#34;&gt;Google Scholar profile&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Reading</title>
+      <link>http://estebanmoro.org/reading/</link>
+      <pubDate>Thu, 18 Dec 2008 09:27:47 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/reading/</guid>
+      <description>
+
+
+&lt;blockquote&gt;
+&lt;p&gt;We are what we read&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Here is a list of the blogs/sites I read regularly.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;R/programming
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.r-bloggers.com&#34;&gt;R-Bloggers&lt;/a&gt; Keep up-to-date with your daily dose of R news, packages and ideas.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fronkonstin.com&#34;&gt;Fronkonstin&lt;/a&gt; The amazing blog of Antonio S. Chinchón, making amazing visualizations and math posts. All cooked with R.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://yihui.name&#34;&gt;Yihui Xie&lt;/a&gt; he is the one behind blogdown, animation. Now working at RStudio.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Statistics
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://freakonometrics.hypotheses.org&#34;&gt;Freakonometrics&lt;/a&gt; Arthur’s charpentier blog about statistics, probabilities and econometrics. Explained with R.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Urban Science
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.citylab.com&#34;&gt;Citylab&lt;/a&gt; the city blog in The Atlantic group.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

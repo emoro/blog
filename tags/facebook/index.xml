@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Facebook on </title>
+    <link>http://estebanmoro.org/tags/facebook/</link>
+    <description>Recent content in Facebook on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://estebanmoro.org/tags/facebook/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Social networks as economic and social sensors</title>
+      <link>http://estebanmoro.org/post/2019-02-02-social-networks-as-sensors/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2019-02-02-social-networks-as-sensors/</guid>
+      <description>Temporal, structural and activity patterns in social networks are related to human behavior. Thus, networks do have different shape and dynamics under different exogenous and endogenous shocks or conditions. In the last years we have addressed the question of whether we can use our understanding of social networks to anticipate, predict or measure important phenomena as information propagation, disaster damage, unemployment shocks, weather conditions, gender digital divide, etc.
+For example in a series of papers, we demonstrated for the first time the ability of the so-called &amp;ldquo;friendship paradox&amp;rdquo; in social networks to get better collection of users (sensors) that can anticipate meme, news or event-related information propagation in networks.</description>
+    </item>
+    
+  </channel>
+</rss>

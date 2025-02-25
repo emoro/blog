@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Twitter on </title>
+    <link>http://estebanmoro.org/tags/twitter/</link>
+    <description>Recent content in Twitter on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://estebanmoro.org/tags/twitter/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Social networks as economic and social sensors</title>
+      <link>http://estebanmoro.org/post/2019-02-02-social-networks-as-sensors/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2019-02-02-social-networks-as-sensors/</guid>
+      <description>Temporal, structural and activity patterns in social networks are related to human behavior. Thus, networks do have different shape and dynamics under different exogenous and endogenous shocks or conditions. In the last years we have addressed the question of whether we can use our understanding of social networks to anticipate, predict or measure important phenomena as information propagation, disaster damage, unemployment shocks, weather conditions, gender digital divide, etc.
+For example in a series of papers, we demonstrated for the first time the ability of the so-called &amp;ldquo;friendship paradox&amp;rdquo; in social networks to get better collection of users (sensors) that can anticipate meme, news or event-related information propagation in networks.</description>
+    </item>
+    
+    <item>
+      <title>Growing old in Twitter</title>
+      <link>http://estebanmoro.org/post/2018-12-14-growing-old-in-twitter/</link>
+      <pubDate>Fri, 14 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2018-12-14-growing-old-in-twitter/</guid>
+      <description>I started using Twitter more than 10 years ago (!). I open an account in this social network in 2008 and although I was not using it too much for the first year, I become a frequent user after that. It has helped me to get news, information both for my personal and professional interests. But not only that, Twitter has been also the data source for our research, that helped us to investigate the relationship between human behavior in the social platform and paramount problems in our society as information propagation, unemployment, disaster damage, political opinion.</description>
+    </item>
+    
+    <item>
+      <title>Twitter Session Analytics: Profiling Users’ Short-Term Behavioral Changes</title>
+      <link>http://estebanmoro.org/post/2017-03-07-twitter-session-analytics-profiling-users-short-term-behavioral-changes/</link>
+      <pubDate>Tue, 07 Mar 2017 14:25:23 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2017-03-07-twitter-session-analytics-profiling-users-short-term-behavioral-changes/</guid>
+      <description>Authors: Farshad Kooti, Esteban Moro, and Kristina Lerman
+Journal: Proceedings of SocInfo 2016 LINK
+Abstract: Human behavior shows strong daily, weekly, and monthly patterns. In this work, we demonstrate online behavioral changes that occur on a much smaller time scale: minutes, rather than days or weeks. Specifically, we study how people distribute their effort over different tasks during periods of activity on the Twitter social platform. We demonstrate that later in a session on Twitter, people prefer to per- form simpler tasks, such as replying and retweeting others’ posts, rather than composing original messages, and they also tend to post shorter messages.</description>
+    </item>
+    
+    <item>
+      <title>El romance entre Twitter y la ciencia</title>
+      <link>http://estebanmoro.org/post/2017-01-30-el-romance-entre-twitter-y-la-ciencia/</link>
+      <pubDate>Mon, 30 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2017-01-30-el-romance-entre-twitter-y-la-ciencia/</guid>
+      <description>Nice article (in Spanish) in Yorokobu magazine about the use of Twitter in science, highlighting our work on the use of social media for rapid assessment of natural disaster management
+El romance entre Twitter y la ciencia
+ «Twitter y las otras redes sociales están entre los más grandes archivos de actividad humana existentes y, al contrario que con las encuestas, ahora tenemos la posibilidad de analizar millones de mensajes, opiniones e interacciones de personas en diferentes contextos como la política, economía o el ocio», explica el matemático Esteban Moro, investigador en la Carlos III de Madrid.</description>
+    </item>
+    
+    <item>
+      <title>Rapid assessment of disaster damage using social media activity</title>
+      <link>http://estebanmoro.org/post/2016-03-14-rapid-assessment-of-disaster-damage/</link>
+      <pubDate>Mon, 14 Mar 2016 09:06:19 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2016-03-14-rapid-assessment-of-disaster-damage/</guid>
+      <description>Authors: Yury Kryvasheyeu1, Haohui Chen, Nick Obradovich, Esteban Moro, Pascal Van Hentenryck, James Fowler and Manuel Cebrian
+Journal: Science Advances 11 Mar 2016: Vol. 2, no. 3, e1500779 (2016) LINK
+Abstract: Could social media data aid in disaster response and damage assessment? Countries face both an increasing frequency and an increasing intensity of natural disasters resulting from climate change. During such events, citizens turn to social media platforms for disaster-related communication and information.</description>
+    </item>
+    
+    <item>
+      <title>Social media fingerprints of unemployment</title>
+      <link>http://estebanmoro.org/post/2014-11-13-social-media-fingerprints-of-unemployment/</link>
+      <pubDate>Thu, 07 May 2015 12:39:43 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2014-11-13-social-media-fingerprints-of-unemployment/</guid>
+      <description>Authors:Alejandro Llorente, Manuel García-Herránz, Manuel Cebrián and Esteban Moro
+Journal: PLoS ONE 10(5): e0128692 (2014) LINK
+Summary: Publicly available social media data can be used to quantify deviations from typical patterns of behavior and uncover how these deviations signal the socio-economical status of regions. Using data from geolocalized Twitter messages, we find that unemployment is correlated with technology adoption, daily activity, diversity in mobility patterns and correctness in communication style. These behavioral metrics serve to build simple, interpretable, and cost-effective socio-economical predictors from these novel digital datasets.</description>
+    </item>
+    
+    <item>
+      <title>Comunidades de partidarios en redes sociales: estudio de las elecciones catalanas de 2010 y 2012</title>
+      <link>http://estebanmoro.org/post/2014-04-22-comunidades-de-partidarios-en-redes-sociales-estudio-de-las-elecciones-catalanas-de-2010-y-2012/</link>
+      <pubDate>Tue, 22 Apr 2014 12:48:19 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2014-04-22-comunidades-de-partidarios-en-redes-sociales-estudio-de-las-elecciones-catalanas-de-2010-y-2012/</guid>
+      <description>Authors: Esteban Moro
+Book: Cotarelo, R. &amp;amp; Olmeda, J.A. (Comps.) (forthcoming). La democracia del siglo XXI. Política, medios de comunicación, internet y redes sociales. Actas de las II Jornadas españolas de ciberpolítica, 28 de mayo de 2013. Madrid: Centro de Estudios Políticos y Constitucionales. [pdf]
+Abstract: En los últimos años hemos asistido a un incremento notable de eventos de carácter político y/o social que han sido promovidos (cuando no originados) a través de medios de comunicación electrónicos.</description>
+    </item>
+    
+    <item>
+      <title>Using Friends as Sensors to Detect Global-Scale Contagious Outbreaks</title>
+      <link>http://estebanmoro.org/post/2014-04-09-using-friends-as-sensors/</link>
+      <pubDate>Wed, 09 Apr 2014 13:37:55 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2014-04-09-using-friends-as-sensors/</guid>
+      <description>Authors: Manuel Garcia-Herranz, Esteban Moro, Manuel Cebrian, Nicholas A. Christakis and James H. Fowler
+Journal: PLoS ONE 9(4): e92413 (2014) LINK
+SummaryRecent research has focused on the monitoring of global–scale online data for improved detection of epidemics, mood patterns, movements in the stock market political revolutions, box-office revenues, consumer behaviour and many other important phenomena. However, privacy considerations and the sheer scale of data available online are quickly making global monitoring infeasible, and existing methods do not take full advantage of local network structure to identify key nodes for monitoring.</description>
+    </item>
+    
+    <item>
+      <title>Performance of Social Network Sensors During Hurricane Sandy</title>
+      <link>http://estebanmoro.org/post/2014-02-13-performance-of-social-network-sensors-during-hurricane-sandy/</link>
+      <pubDate>Thu, 13 Feb 2014 13:57:24 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2014-02-13-performance-of-social-network-sensors-during-hurricane-sandy/</guid>
+      <description>Authors: Yury Kryvasheyeu, Haohui Chen, Esteban Moro, Pascal Van Hentenryck, Manuel Cebrian Journal: PLoS ONE 10(2): e0117288 (2015) LINK
+Summary Information flow during catastrophic events is a critical aspect of disaster management. Modern communication platforms, in particular online social networks, provide an opportunity to study such flow, and a mean to derive early-warning sensors, improving emergency preparedness and response. Performance of the social networks sensor method, based on topological and behavioural properties derived from the &amp;ldquo;friendship paradox&amp;rdquo;, is studied here for over 50 million Twitter messages posted before, during, and after Hurricane Sandy.</description>
+    </item>
+    
+    <item>
+      <title>Temporal network of information diffusion in Twitter</title>
+      <link>http://estebanmoro.org/post/2012-10-29-temporal-network-of-information-diffusion-in-twitter/</link>
+      <pubDate>Mon, 29 Oct 2012 21:58:29 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2012-10-29-temporal-network-of-information-diffusion-in-twitter/</guid>
+      <description>Millions of tweets, retweets and mentions are exchanged in Twitter everyday about very different subjects, events, opinions, etc. While aggregating this data over a time window might help to understand some properties of those processes in online social networks, the speed of information diffusion around particular time-bound events requires a temporal analysis of them. To show that (and with the help of the Text &amp;amp; Opinion Mining Group at IIC) we collected all tweets (750k) of the vibrant conversation around the disputed subject of the general strike of March 29th in Spain.</description>
+    </item>
+    
+    <item>
+      <title>Social Features of Online Networks: The Strength of Intermediary Ties in Online Social Media</title>
+      <link>http://estebanmoro.org/post/2011-07-21-social-features-of-online-networks-the-strength-of-weak-ties-in-online-social-media/</link>
+      <pubDate>Thu, 21 Jul 2011 09:06:07 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2011-07-21-social-features-of-online-networks-the-strength-of-weak-ties-in-online-social-media/</guid>
+      <description>Authors: P. A. Grabowicz, J. J. Ramasco, E. Moro, J. P. Pujol and V. M. Eguiluz
+Journal: PLoS ONE 7(1): e29358 (2012). LINK
+Abstract: An increasing fraction of today’s social interactions occur using online social media as communication channels. Recent worldwide events, such as social movements in Spain or revolts in the Middle East, highlight their capacity to boost people’s coordination. Online networks display in general a rich internal structure where users can choose among different types and intensity of interactions.</description>
+    </item>
+    
+    <item>
+      <title>Twitter y Política: Información, Opinión y ¿Predicción?</title>
+      <link>http://estebanmoro.org/post/2011-06-17-twitter-y-politica-informacion-opinion-y-prediccion/</link>
+      <pubDate>Fri, 17 Jun 2011 10:56:12 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2011-06-17-twitter-y-politica-informacion-opinion-y-prediccion/</guid>
+      <description>Authors: M. Luz Congosto, Montse Fernández y Esteban Moro
+Journal: Cuadernos de Comunicación Evoca 4 (2011). LINK
+Abstract: Estamos a las puertas de una nueva manera de medir la opinión política: mediante la conversación en Red, que permite no sólo conocer el feedback de los ciudadanos a la política, sino también la imagen de los políticos que se refleja en la Red, la dinámica de opinión en comunidades o grupos y el efecto de los diferentes medios de comunicación en dicha conversación.</description>
+    </item>
+    
+  </channel>
+</rss>

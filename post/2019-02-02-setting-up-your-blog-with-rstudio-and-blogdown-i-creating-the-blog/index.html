@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en-US" />
+<head>
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+    <title>Setting up our blog with RStudio and blogdown I: Creating the blog &middot; </title>
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="http://estebanmoro.org/favicon.ico" />
+    <link rel="canonical" href="http://estebanmoro.org/post/2019-02-02-setting-up-your-blog-with-rstudio-and-blogdown-i-creating-the-blog/" />
+
+     <meta name="description" content="Last month I migrated my blog from Wordpress to Hugo and blogdown. Now I can post from RStudio using R/markdown, which allow me to create interactive posts incl" /> 
+
+     
+    
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:image" content="http://estebanmoro.org/img/posts/migrating.png"/>
+    
+ 
+    <meta name="twitter:title" content="Setting up our blog with RStudio and blogdown I: Creating the blog"/>
+    <meta name="twitter:description" content="Last month I migrated my blog from Wordpress to Hugo and blogdown. Now I can post from RStudio using R/markdown, which allow me to create interactive posts incl"/>
+    <meta name="twitter:url" content="http://estebanmoro.org/post/2019-02-02-setting-up-your-blog-with-rstudio-and-blogdown-i-creating-the-blog/" />
+    <meta name="twitter:site" content="@estebanmoro"/>
+
+    <meta property="og:site_name" content="" />
+    <meta property="og:title" content="Setting up our blog with RStudio and blogdown I: Creating the blog &middot; Implicit None" />
+    <meta property="og:url" content="http://estebanmoro.org/post/2019-02-02-setting-up-your-blog-with-rstudio-and-blogdown-i-creating-the-blog/" />
+    
+
+    <meta property="og:type" content="article" />
+    <meta property="og:description" content="Last month I migrated my blog from Wordpress to Hugo and blogdown. Now I can post from RStudio using R/markdown, which allow me to create interactive posts incl" />
+
+    <meta property="article:published_time" content="2019-02-01T00:00:00Z" />
+    <meta property="article:tag" content="blog" /><meta property="article:tag" content="R" /><meta property="article:tag" content="hugo" /><meta property="article:tag" content="blogdown" />
+
+    <meta property="og:image" content="http://estebanmoro.org/img/posts/migrating.png"/>
+
+
+
+    <meta name="generator" content="Hugo 0.92.2" />
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" type="text/css" href="http://estebanmoro.org/built/screen.css" /> 
+    <link rel="stylesheet" type="text/css" href="http://estebanmoro.org/css/casper-two.css" /> 
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/tomorrow-night-bright.min.css" />
+     <link rel="stylesheet" href="http://estebanmoro.org/css/overrides.css" /> 
+
+     
+
+</head>
+
+
+<body class="post-template">
+  <div class="site-wrapper"> 
+
+<header class="site-header outer">
+  <div class="inner">
+    <nav class="site-nav">
+      <div class="site-nav-left">
+
+        <ul class="nav" role="menu">
+        
+        
+        
+            <li class="" role="menuitem">
+              <a href="http://estebanmoro.org/">Home</a>
+            </li>
+        
+            <li class="" role="menuitem">
+              <a href="http://estebanmoro.org/categories/publications">Publications</a>
+            </li>
+        
+            <li class="" role="menuitem">
+              <a href="http://estebanmoro.org/categories/projects">Projects</a>
+            </li>
+        
+            <li class="" role="menuitem">
+              <a href="http://estebanmoro.org/categories/science">Science</a>
+            </li>
+        
+            <li class="" role="menuitem">
+              <a href="http://estebanmoro.org/categories/media">Media</a>
+            </li>
+        
+            <li class="" role="menuitem">
+              <a href="http://estebanmoro.org/categories/photos">Photos</a>
+            </li>
+        
+            <li class="" role="menuitem">
+              <a href="http://estebanmoro.org/categories/talks">Talks</a>
+            </li>
+        
+            <li class="" role="menuitem">
+              <a href="http://estebanmoro.org/categories/positions">Positions</a>
+            </li>
+        
+            <li class="" role="menuitem">
+              <a href="http://estebanmoro.org/categories/r">R</a>
+            </li>
+        
+            <li class="" role="menuitem">
+              <a href="http://estebanmoro.org/about/">About/CV</a>
+            </li>
+        
+            <li class="" role="menuitem">
+              <a href="http://estebanmoro.org/reading/">Reading</a>
+            </li>
+        
+      </ul></div>
+
+      <div class="site-nav-right">
+        <div class="social-links">
+                    
+
+                    <a class="social-link social-link-tw" href="https://twitter.com/estebanmoro" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M30.063 7.313c-.813 1.125-1.75 2.125-2.875 2.938v.75c0 1.563-.188 3.125-.688 4.625a15.088 15.088 0 0 1-2.063 4.438c-.875 1.438-2 2.688-3.25 3.813a15.015 15.015 0 0 1-4.625 2.563c-1.813.688-3.75 1-5.75 1-3.25 0-6.188-.875-8.875-2.625.438.063.875.125 1.375.125 2.688 0 5.063-.875 7.188-2.5-1.25 0-2.375-.375-3.375-1.125s-1.688-1.688-2.063-2.875c.438.063.813.125 1.125.125.5 0 1-.063 1.5-.25-1.313-.25-2.438-.938-3.313-1.938a5.673 5.673 0 0 1-1.313-3.688v-.063c.813.438 1.688.688 2.625.688a5.228 5.228 0 0 1-1.875-2c-.5-.875-.688-1.813-.688-2.75 0-1.063.25-2.063.75-2.938 1.438 1.75 3.188 3.188 5.25 4.25s4.313 1.688 6.688 1.813a5.579 5.579 0 0 1 1.5-5.438c1.125-1.125 2.5-1.688 4.125-1.688s3.063.625 4.188 1.813a11.48 11.48 0 0 0 3.688-1.375c-.438 1.375-1.313 2.438-2.563 3.188 1.125-.125 2.188-.438 3.313-.875z"/></svg></a>
+
+                    <a class="social-link" href="https://github.com/emoro" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></a>
+
+                    <a class="social-link" href="https://www.linkedin.com/in/esteban-moro" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 50 512 512"><path d="M150.65,100.682c0,27.992-22.508,50.683-50.273,50.683c-27.765,0-50.273-22.691-50.273-50.683 C50.104,72.691,72.612,50,100.377,50C128.143,50,150.65,72.691,150.65,100.682z M143.294,187.333H58.277V462h85.017V187.333z M279.195,187.333h-81.541V462h81.541c0,0,0-101.877,0-144.181c0-38.624,17.779-61.615,51.807-61.615 c31.268,0,46.289,22.071,46.289,61.615c0,39.545,0,144.181,0,144.181h84.605c0,0,0-100.344,0-173.915 s-41.689-109.131-99.934-109.131s-82.768,45.369-82.768,45.369V187.333z" /></svg></a>
+
+                    
+        </div>  
+        
+        <a class="subscribe-button" href="http://estebanmoro.org/index.xml">Subscribe</a>
+            
+      </div>
+
+    </nav>  
+
+  </div>
+</header>
+
+<main id="site-main" class="site-main outer" role="main">
+  <div class="inner">
+    
+      <article class="post-full post"> 
+    <header class="post-full-header">
+        <section class="post-full-meta">
+            <time class="post-full-meta-date" datetime="2019-02-01">1 February 2019</time>
+                <span class="date-divider">/</span> <a href="http://estebanmoro.org/tags/blog/">#blog</a>&nbsp;<a href="http://estebanmoro.org/tags/r/">#R</a>&nbsp;
+        </section>
+        <h1 class="post-full-title">Setting up our blog with RStudio and blogdown I: Creating the blog</h1>
+    </header>
+    
+    <figure class="post-full-image" style="background-image: url(http://estebanmoro.org/img/posts/migrating.png)">
+    </figure>
+
+    <section class="post-full-content">
+        <div class="kg-card-markdown">
+        <p>Last month I migrated my blog from Wordpress to Hugo and <code>blogdown</code>. Now I can post from RStudio using R/markdown, which allow me to create interactive posts including R code. It has been such a good experience that I decide to write down how to do it with three posts to help others.</p>
+<ul>
+<li>This one about to setup the blog.</li>
+<li><a href="http://estebanmoro.org/post/2019-02-01-setting-up-your-blog-with-rstudio-and-blogdown/">Part II</a> explains my workflow of creating new posts.</li>
+<li>and <a href="http://estebanmoro.org/post/2019-02-04-setting-up-your-blog-with-rstudio-and-blogdown-iii-modify-your-theme/">Part III</a> on how to modify the theme.</li>
+</ul>
+<p>But before starting, a disclaimer: I am not a programer, designer or web developer. Just a normal user of Rstudio and blogdown. This is not a technical guide, just some notes about how I set up my blog to help other people like me. So maybe there is a simpler, cleaner and more standard way to do it. If so, comments are welcome!</p>
+<p>First let&rsquo;s take a look at the different tools that we are going to use:</p>
+<ul>
+<li>
+<p><a href="https://gohugo.io">Hugo</a>: is a open-source framework for creating static websites. No need for a database to store our posts again (Wordpress) or to use website builders (Squarespace). The good thing about a static website is that it is much faster than other solutions. Pages are clean and download fast, which is the main reason I migrated from the bloated-pages Wordpress experience. Hugo will be the engine behind the creation of our blog.</p>
+</li>
+<li>
+<p><a href="https://bookdown.org/yihui/blogdown/">Blogdown</a>: is a R package to create websites using R/markdown as our language and Hugo as our engine to render our posts into html. As you will see blogdown takes care of the Hugo part, so no need to install anything else to start your new blog.</p>
+</li>
+<li>
+<p><a href="https://rmarkdown.rstudio.com">R Markdown</a> We will write posts using R/markdown. If you are not familiar with this format, have a look into it. Basically a R/markdown file is a plain text file in which you have:</p>
+<ul>
+<li>A YAML header at the beginning (with author, date, title, parameters, etc.) surrounded by <code>---</code>.</li>
+<li>After that you can start typing our text, formating it using simple codes or,</li>
+<li>Introduce R code chunks whose output will be rendered in the final HTML.</li>
+</ul>
+</li>
+</ul>
+<h2 id="creating-the-blog">Creating the blog</h2>
+<p>Creating a new blog cannot be easier. Before starting this is what we need:</p>
+<ol>
+<li><em>RStudio and the blogdown package</em>:</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r"><span style="color:#a6e22e">install.packages</span>(<span style="color:#e6db74">&#34;blogdown&#34;</span>)
+</code></pre></div><ol start="2">
+<li><em>Choose a theme</em>. Yes, you have <a href="https://themes.gohugo.io">many themes</a> in Hugo. And believe me, this <strong>step is crucial</strong>, because you are going invest some time to organize our posts, the look of the theme, etc. Creating the new blog could be just 5 minutes, but modifying the theme and adapting our content to it can take weeks. So you might want to spend some time figuring out what theme is best for you. In my case, here are some themes that I considered:</li>
+</ol>
+<ul>
+<li>
+<p><a href="https://themes.gohugo.io/academic/">Academic</a>: If you are in academia this is probably the best theme for you. It is well documented, contains some extensions and a lot of people are using it, so there is a whole community behind it. But it takes a lot of work to adapt the content to it, specially if you have a lot of papers, talks, posts, etc. or you are coming from another platform like Wordpress. This is why I didn&rsquo;t chose it.</p>
+</li>
+<li>
+<p><a href="https://themes.gohugo.io/hugo-tranquilpeak-theme/">Tranquilpeak</a>: This is a great simple theme. It is easy customizable. This is a good option if you have a list of posts and what to set up a beautiful and simple blog.</p>
+</li>
+<li>
+<p><a href="https://themes.gohugo.io/hugo-casper-two/">Casper Two</a>: Casper Two is a personal blogging theme. It is beautiful and simple and it was by choice, since it looked similar to my previous Wordpress theme (which I did like).</p>
+</li>
+</ul>
+<p>Once you have decide the theme is important to locate its repository. Look for the <code>Homepage</code> button in the Theme page you like. Here is the one for Casper-two:</p>
+<p><img src="http://estebanmoro.org/img/posts/casper-two-homepage.png" alt="">{width=80%}</p>
+<p>As you can see in the top left corner of the webpage, the repository for this theme is maintained by <code>eueung</code> in the folder <code>hugo-casper-two</code>. So write it down or copy that as <code>eueung/hugo-casper-two</code></p>
+<p>Once you have chosen the theme, we are ready to go in 3 simple steps:</p>
+<ol>
+<li>Open a new project in RStudio: File → New Project  → New Directory  → Website using Blogdown</li>
+</ol>
+<p><img src="http://estebanmoro.org/img/posts/new_blog_project.png" alt="">{width=60%}</p>
+<p>In the next window, specify the directory name of the blog, the subdirectory where the blog is going to be place and the theme. Here is what it looks in my case</p>
+<p><img src="http://estebanmoro.org/img/posts/new_blog_ever.png" alt="">{width=60%}</p>
+<p>Hit the <code>Create Project</code> and you are done! You have just created your fist blog.</p>
+<ol start="2">
+<li>The fist thing you will see in Rstudio is the <code>config.toml</code> file containing all the parameters to setup the blog. At this point:</li>
+</ol>
+<ul>
+<li>Change you <code>baseurl</code> to be the final one. In my case is <code>baseurl = &quot;http://estebanmoro.org&quot;</code></li>
+<li>You can also change the <code>title</code>, <code>subtitle</code>, <code>description</code> etc.</li>
+<li>Use your Google analytics code (<code>googleAnalytics = &quot;&quot;</code>) and your disqus shortname (<code>disqusShortname = &quot;&quot;</code>) to add analytics and comments to our blog. Here is a <a href="https://notes.peter-baumgartner.net/tutorial/how-to-install-disqus-on-hugo/">nice post</a> by Peter Baumgartner about how to install disqus on Hugo.</li>
+</ul>
+<ol start="3">
+<li>Let&rsquo;s build the blog! You can do it one-time using</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r">blogdown<span style="color:#f92672">::</span><span style="color:#a6e22e">hugo_build</span>()
+</code></pre></div><p>or interactively using</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r">blogdown<span style="color:#f92672">::</span><span style="color:#a6e22e">serve_site</span>()
+</code></pre></div><p>In the latter case, a server is running underneath so everytime you edit/change a post, put a new image in <code>/img</code> (see below) or the modify the <code>config.toml</code>, the site is rebuilt by Hugo. Also the blog appears in the viewer pane. This is the best way if you are creating a new post or modifying the theme.</p>
+<p>If didn&rsquo;t set it before, blogdown has also installed some post examples so you can have an idea of how it looks like.</p>
+<h2 id="understanding-the-blog-directory-structure">Understanding the blog directory structure</h2>
+<p>Before starting to post to our new blog, let&rsquo;s have a look at the directory structure that has been created. In my case, I created the blog in <code>~/best_blog_ever</code> which looks like this</p>
+<p><img src="http://estebanmoro.org/img/posts/folder-structure.png" alt="">{width=80%}</p>
+<p>The first file <code>best_blog_ever.Rproj</code> is the blog project we have just created. All the new posts go into the <code>content/post</code> folder. You can see there that already we have a number of them. They are in the markdown format (<code>.md</code>) and there is one in the R markdown format (<code>.Rmd</code>).</p>
+<p>You also have a folder named <code>static</code>. Think of it as the root folder for the new blog. That means that if there is file there named <code>cv.pdf</code> it can be access as <code>http:/estebanmoro.org/cv.pdf</code>. The folder <code>img</code> is the perfect place to put our images/pictures. For example, if there is a file <code>picture_vacations.png</code> in the <code>img</code> folder, you can include it in our markdown post using</p>
+<pre tabindex="0"><code>![](/img/picture_vacations.png)
+</code></pre><p>When Hugo builds the blog, the final html files and structure go into the <code>public</code> folder. This is the static version of the blog and the one we will deploy to our domain.</p>
+<p>Finally the folder <code>themes</code> contains all the formating for the new theme. I don&rsquo;t recommend to touch it unless you really know what you are doing. We will see in Part III how to modify the theme.</p>
+<h2 id="migrating-our-content">Migrating our content</h2>
+<p>I had a lot of posts in my previous Wordpress blog and didn&rsquo;t want to lose them. Luckily there are <a href="https://gohugo.io/tools/migrations/">some tools</a> to migrate your posts from Wordpress to Hugo. I chose <code>exitwp</code>:</p>
+<ul>
+<li>Download <code>exitwp</code> by cloning or downloading the zip file of the <a href="https://github.com/wooni005/exitwp-for-hugo">repo</a>.</li>
+<li>Export your Wordpress blog using xml. To do this, access the admin of our Wordpress blog (MySite -&gt; Settintg -&gt; Export) and export all. <a href="https://en.support.wordpress.com/export/">Here</a> is a guide that shows you how to do it.</li>
+<li>Put our Wordpress <code>xml</code> file in the <code>wordpress-xml</code> folder of our <code>exitwp</code> directory.</li>
+<li>Edit the <code>config.yaml</code> file to change our setups for the migration. For example, you can change the directory where the migrated posts are going to be created by changing the <code>build_dir</code> parameter.</li>
+<li>Run it by typing <code>./exitwp.py</code> in the console from the directory of the unzipped archive.</li>
+<li>If everything went well you will have a new <code>build</code> directory with all the posts in markdown format. Select the ones you want to keep and move them to the <code>content/post</code> folder of our blog. Depending on our old blog structure you might also have other files in the <code>build</code> directory.</li>
+</ul>
+<h2 id="deploying-the-blog">Deploying the blog</h2>
+<blockquote>
+<p>CAUTION: we are going to overwrite the blog in our actual domain, so before proceeding, make a backup of it or export it as explained before.</p>
+</blockquote>
+<p>Now we are ready to deploy it to our new domain. Here is the commands in RStudio that I have to do it:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r"><span style="color:#a6e22e">system</span>(<span style="color:#e6db74">&#34;rm -r ~/best_blog_ever/public/*&#34;</span>)
+blogdown<span style="color:#f92672">::</span><span style="color:#a6e22e">hugo_build</span>(local<span style="color:#f92672">=</span>F)
+<span style="color:#a6e22e">system</span>(<span style="color:#e6db74">&#34;~/best_blog_ever/deploy.sh&#34;</span>)
+</code></pre></div><p>The fist command simply erases the <code>public</code> directory where the new version of the blog is going to be built. This is probably not needed, but it gives me peace of mind :).</p>
+<p>The second command builds the blog. Note the <code>local=F</code> flag which tells Hugo to build a deployment version of the blog, meaning that all the posts with <code>draft: true</code> in the YAML will not be rendered. This will be explained better in <a href="http://estebanmoro.org/posts/2019-02-01-setting-up-your-blog-with-rstudio-and-blogdown/">Part II</a></p>
+<p>The third command is my personal deployment script. Although most of the <a href="https://bookdown.org/yihui/blogdown/deployment.html">guides out there</a> show you how to deploy your new blog using <a href="https://www.netlify.com">Netlify</a> and/or GitHub, I am using my own domain and space at Dreamhost. Then to update my blog I simply synchronize the <code>public</code> directory with the root directory of my domain. Here is the <code>deploy.sh</code> script</p>
+<pre tabindex="0"><code>#!/bin/sh 
+USER=your_user_to_our_blog_domain
+HOST=your_dream_host_machine.dreamhost.com
+DIR=our_blog_domain/
+rsync -avz --exclude-from 'exclude-list.txt' --delete public/ ${USER}@${HOST}:~/${DIR}
+exit 0
+</code></pre><p>Change your <code>your_user_to_our_blog_domain</code> and <code>your_dream_host_machine</code> to your own dreamhost user and machine. The synchronization is down using <code>rysnc</code>. You might also notice that I have excluded some files in the synchronization which are specified in the file <code>exclude-list.txt</code>. In my case I only have the <code>.htacces</code> file there.</p>
+<p>And that&rsquo;s it. If everything went well, you have migrated your blog from Wordpress to blogdown in no time.</p>
+<h2 id="comments">Comments</h2>
+<p>Although I love blogdown and how fast is to built and create new content, there is a couple of things that you might consider before using blogdown for our blog:</p>
+<ul>
+<li>
+<p><strong>No search:</strong> The content generated is static. That means that you have lost the possibility for the users to search your content. In most Hugo themes there is no &ldquo;search&rdquo; button. There is however <a href="https://gohugo.io/tools/search/">a possibility</a> to implement searching in our blog using search engines like <code>lunr</code> or <code>angolia</code>. But my experience is that those are difficult to implement. If searching within your blog is crucial, look for a theme that have <a href="https://themes.gohugo.io/tags/search/">search already implemented</a></p>
+</li>
+<li>
+<p><strong>Permalinks structure and slugs:</strong> you don&rsquo;t want to lose the backlinks to your old blog. Have a look a the permalink structure in your older Wordpress blog. In my case a typical post had this structure:</p>
+</li>
+</ul>
+<p><code>http://estebanmoro.org/2016/02/more-people-more-fun-the-scaling-of-events-in-cities/</code></p>
+<p>so the <code>slug</code> for that particular post was <code>2016/02/more-people-more-fun-the-scaling-of-events-in-cities/</code>. Most likely, <code>exitwp</code> has put our old <code>slug</code> (the URL valid name for our post) in each of the new markdown post&rsquo;s YAML, so there is no need to change anything. But check it just in case. Specially for those posts in your blog that have a lot of backlinks.</p>
+<p>If you want to keep that format for the permalinks for new posts, modify the <code>[permalinks]</code> parameter in the <code>config.toml</code> accordingly.</p>
+    
+        </div>
+    </section>
+
+    <footer class="post-full-footer">
+      <section class="author-card">
+        <img class="author-profile-image" src="http://estebanmoro.org/img/whoami6.jpg" alt="Author" />
+        <section class="author-card-content">
+            <h4 class="author-card-name"><a href="http://estebanmoro.org/">Esteban Moro</a></h4>
+                <p>Professor at Northeastern University. Working on Complex Systems, Social Networks and Urban Science.</p>
+        </section>
+      </section>
+    </footer>
+</article>
+    
+    
+    
+
+<div id="disqus_thread"></div>
+<script>
+
+
+
+
+var disqus_config = function () {
+this.page.url = "http:\/\/estebanmoro.org\/post\/2019-02-02-setting-up-your-blog-with-rstudio-and-blogdown-i-creating-the-blog\/";  
+this.page.identifier = "http:\/\/estebanmoro.org\/post\/2019-02-02-setting-up-your-blog-with-rstudio-and-blogdown-i-creating-the-blog\/"; 
+};
+
+(function() { 
+var d = document, s = d.createElement('script');
+s.src = 'https://implicitnone.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+  </div>
+</main>
+
+
+<aside class="read-next outer">
+  <div class="inner">
+    <div class="read-next-feed">      
+      
+<article class="read-next-card" 
+            style="background-image: url(http://estebanmoro.org/img/mob.mp4);" >
+    <header class="read-next-card-header">
+        <small class="read-next-card-header-sitetitle">&mdash; Implicit None &mdash;</small>
+        
+        <h3 class="read-next-card-header-title"><a href="http://estebanmoro.org/tags/blog/">#blog</a></h3>
+    </header>
+    <div class="read-next-divider"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 14.5s2 3 5 3 5.5-2.463 5.5-5.5S21 6.5 18 6.5c-5 0-7 11-12 11C2.962 17.5.5 15.037.5 12S3 6.5 6 6.5s4.5 3.5 4.5 3.5"/></svg>
+    </div>
+
+    <div class="read-next-card-content">
+      
+        <ul>
+          <li><a href="http://estebanmoro.org/post/2023-11-20-population-mobility-data-provides-meaningful-indicators-of-fast-food-intake-and-diet-related-diseases-in-diverse-populations/">Population mobility data provides meaningful indicators of fast food intake and diet-related diseases in diverse populations</a></li>            
+        
+          <li><a href="http://estebanmoro.org/2005/11/a-number-to-rank-them-all/">A number to rank them all</a></li>            
+        
+          <li><a href="http://estebanmoro.org/post/2019-01-01-participation-in-el-cazador-de-cerebros-by-rtve/">Participation in “El cazador de cerebros” by RTVE</a></li>            
+        
+          <li><a href="http://estebanmoro.org/post/2004-10-23-numerical-schemes-for-continuum-models-of-reaction-diffusion-systems-subject-to-internal-noise/">Numerical schemes for continuum models of reaction-diffusion systems subject to internal noise</a></li>            
+        </ul>
+    </div>
+    <footer class="read-next-card-footer">
+      
+        <a href="http://estebanmoro.org/tags/blog/">See all related posts →</a>
+    </footer>
+</article>
+
+
+      
+      <article class="post-card post"> 
+    
+    <a class="post-card-image-link" href="http://estebanmoro.org/post/2019-02-01-netmob-2019/">
+      <div class="post-card-image" style="background-image: url(http://estebanmoro.org/img/posts/netmob.png)"></div>
+    </a>
+    
+
+    <div class="post-card-content">
+      <a class="post-card-content-link" href="http://estebanmoro.org/post/2019-02-01-netmob-2019/">
+          <header class="post-card-header">
+              <span class="post-card-tags">
+              #Netmob 
+              #Mobile Phone data 
+              #Conferences  </span>
+              
+              <h2 class="post-card-title">Netmob 2019</h2>
+          </header>
+          <section class="post-card-excerpt">
+              
+                <p>Another edition of Netmob is happening this year 2019. NetMob is the primary conference in the analysis of mobile phone datasets in social, urban, societal and industrial problems. Previous editions in Boston and Milano brought together more than 250 researchers, practitioners and decision-makers from more 140 institutions and 30 countries. I had the pleasure to organize the 2015 edition and it was a blast to put together so much interesting talks, people, projects. ...  </p>
+              
+          </section>
+      </a>
+
+      <footer class="post-card-meta">
+          <img class="author-profile-image" src="http://estebanmoro.org/img/whoami6.jpg" alt="Author" />
+          <span class="post-card-author"><a href="http://estebanmoro.org/">Esteban Moro</a></span>
+      </footer>
+    </div>
+</article>
+      
+      
+      <article class="post-card post"> 
+    
+    <a class="post-card-image-link" href="http://estebanmoro.org/post/2018-12-21-2018-pictures/">
+      <div class="post-card-image" style="background-image: url(http://estebanmoro.org/img/2018/IMG_2768.jpg)"></div>
+    </a>
+    
+
+    <div class="post-card-content">
+      <a class="post-card-content-link" href="http://estebanmoro.org/post/2018-12-21-2018-pictures/">
+          <header class="post-card-header">
+              <span class="post-card-tags">
+              #2018  </span>
+              
+              <h2 class="post-card-title">2018 pictures</h2>
+          </header>
+          <section class="post-card-excerpt">
+              
+                <p>Some pictures of different activities during this year 2018
+A group of us from Scallable Cooperation group at MediaLab visited Riyad, Abu Dhabi and Dubai to talk about Future of Work.
+Complenet happenned in Boston this year. Here I am talking about how do you met your best friend?
+I was an invited speaker at NERCCS 2018 conference to talk about our work on the dynamics of strong ties
+A bunch of network scientist close to the Netsci 2018 venue ...  </p>
+              
+          </section>
+      </a>
+
+      <footer class="post-card-meta">
+          <img class="author-profile-image" src="http://estebanmoro.org/img/whoami6.jpg" alt="Author" />
+          <span class="post-card-author"><a href="http://estebanmoro.org/">Esteban Moro</a></span>
+      </footer>
+    </div>
+</article>
+      
+    </div>
+  </div>
+</aside>
+
+<div class="floating-header">
+  <div class="floating-header-logo">
+    <a href="http://estebanmoro.org/">
+      
+      <span></span>
+    </a>
+  </div>
+  <span class="floating-header-divider">&mdash;</span>
+  <div class="floating-header-title">Setting up our blog with RStudio and blogdown I: Creating the blog</div>
+  <div class="floating-header-share">
+    <div class="floating-header-share-label">Share this <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+     <path d="M7.5 15.5V4a1.5 1.5 0 1 1 3 0v4.5h2a1 1 0 0 1 1 1h2a1 1 0 0 1 1 1H18a1.5 1.5 0 0 1 1.5 1.5v3.099c0 .929-.13 1.854-.385 2.748L17.5 23.5h-9c-1.5-2-5.417-8.673-5.417-8.673a1.2 1.2 0 0 1 1.76-1.605L7.5 15.5zm6-6v2m-3-3.5v3.5m6-1v2"/></svg>
+    </div>
+    
+    <a class="floating-header-share-tw" href="https://twitter.com/share?text=Setting%20up%20our%20blog%20with%20RStudio%20and%20blogdown%20I%3a%20Creating%20the%20blog&amp;url=http%3a%2f%2festebanmoro.org%2fpost%2f2019-02-02-setting-up-your-blog-with-rstudio-and-blogdown-i-creating-the-blog%2f"
+          onclick="window.open(this.href, 'share-twitter', 'width=550,height=235');return false;">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M30.063 7.313c-.813 1.125-1.75 2.125-2.875 2.938v.75c0 1.563-.188 3.125-.688 4.625a15.088 15.088 0 0 1-2.063 4.438c-.875 1.438-2 2.688-3.25 3.813a15.015 15.015 0 0 1-4.625 2.563c-1.813.688-3.75 1-5.75 1-3.25 0-6.188-.875-8.875-2.625.438.063.875.125 1.375.125 2.688 0 5.063-.875 7.188-2.5-1.25 0-2.375-.375-3.375-1.125s-1.688-1.688-2.063-2.875c.438.063.813.125 1.125.125.5 0 1-.063 1.5-.25-1.313-.25-2.438-.938-3.313-1.938a5.673 5.673 0 0 1-1.313-3.688v-.063c.813.438 1.688.688 2.625.688a5.228 5.228 0 0 1-1.875-2c-.5-.875-.688-1.813-.688-2.75 0-1.063.25-2.063.75-2.938 1.438 1.75 3.188 3.188 5.25 4.25s4.313 1.688 6.688 1.813a5.579 5.579 0 0 1 1.5-5.438c1.125-1.125 2.5-1.688 4.125-1.688s3.063.625 4.188 1.813a11.48 11.48 0 0 0 3.688-1.375c-.438 1.375-1.313 2.438-2.563 3.188 1.125-.125 2.188-.438 3.313-.875z"/></svg>
+      </a>
+      <a class="floating-header-share-fb" href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2festebanmoro.org%2fpost%2f2019-02-02-setting-up-your-blog-with-rstudio-and-blogdown-i-creating-the-blog%2f"
+          onclick="window.open(this.href, 'share-facebook','width=580,height=296');return false;">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M19 6h5V0h-5c-3.86 0-7 3.14-7 7v3H8v6h4v16h6V16h5l1-6h-6V7c0-.542.458-1 1-1z"/></svg>
+      </a>
+  </div>
+
+  <progress class="progress" value="0">
+    <div class="progress-container">
+      <span class="progress-bar"></span>
+    </div>
+  </progress>
+</div>
+
+
+<footer class="site-footer outer">
+  <div class="site-footer-content inner">
+    <section class="copyright" style="line-height: 1.3em;">
+      <a href="http://estebanmoro.org/">Esteban Moro</a> © 2020 <br>
+      <span style="font-size: 0.8em; color: #555;">Hugo port of <a href="https://github.com/TryGhost/Casper">Casper 2.1.7</a> by <a href="https://www.telematika.org">EM</a></span>
+    </section>
+    <nav class="site-footer-nav">
+        <a href="http://estebanmoro.org/">Latest Posts</a>
+        
+        <a href="https://twitter.com/estebanmoro" target="_blank" rel="noopener">Twitter</a>
+        <a href="https://github.com/emoro" target="_blank" rel="noopener">Github</a>
+        <a href="https://www.linkedin.com/in/esteban-moro" target="_blank" rel="noopener">LinkedIn</a>
+        
+    </nav>  
+  </div>
+</footer>
+
+</div>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="http://estebanmoro.org/js/jquery.fitvids.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script id="altmetric-embed-js" type="text/javascript" src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+
+
+<script>hljs.initHighlightingOnLoad();</script> 
+
+
+
+
+
+
+  <!-- Google Analytics -->
+  <script>
+    var _gaq=[['_setAccount','UA-131034910-1'],['_trackPageview']];
+    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+    g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+    s.parentNode.insertBefore(g,s)}(document,'script'));
+  </script>
+
+
+
+
+
+
+    <script>
+
+
+
+
+
+$(document).ready(function () {
+    
+    var $postContent = $(".post-full-content");
+    $postContent.fitVids();
+    
+
+    var progressBar = document.querySelector('progress');
+    var header = document.querySelector('.floating-header');
+    var title = document.querySelector('.post-full-title');
+
+    var lastScrollY = window.scrollY;
+    var lastWindowHeight = window.innerHeight;
+    var lastDocumentHeight = $(document).height();
+    var ticking = false;
+
+    function onScroll() {
+        lastScrollY = window.scrollY;
+        requestTick();
+    }
+
+    function onResize() {
+        lastWindowHeight = window.innerHeight;
+        lastDocumentHeight = $(document).height();
+        requestTick();
+    }
+
+    function requestTick() {
+        if (!ticking) {
+            requestAnimationFrame(update);
+        }
+        ticking = true;
+    }
+
+    function update() {
+        var trigger = title.getBoundingClientRect().top + window.scrollY;
+        var triggerOffset = title.offsetHeight + 35;
+        var progressMax = lastDocumentHeight - lastWindowHeight;
+
+        
+        if (lastScrollY >= trigger + triggerOffset) {
+            header.classList.add('floating-active');
+        } else {
+            header.classList.remove('floating-active');
+        }
+
+        progressBar.setAttribute('max', progressMax);
+        progressBar.setAttribute('value', lastScrollY);
+
+        ticking = false;
+    }
+
+    window.addEventListener('scroll', onScroll, {passive: true});
+    window.addEventListener('resize', onResize, false);
+
+    update();
+});
+</script>
+</body></html>

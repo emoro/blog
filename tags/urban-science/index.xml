@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Urban Science on </title>
+    <link>http://estebanmoro.org/tags/urban-science/</link>
+    <description>Recent content in Urban Science on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sat, 11 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://estebanmoro.org/tags/urban-science/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Behaviour-based dependency networks between places shape urban economic resilience</title>
+      <link>http://estebanmoro.org/post/2025-01-11-behaviour-based-dependency-networks/</link>
+      <pubDate>Sat, 11 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2025-01-11-behaviour-based-dependency-networks/</guid>
+      <description>Authors: Takahiro Yabe, Bernardo García Bulle Bueno, Morgan R Frank, Alex Pentland, Esteban Moro Publication: Nature Human Behavior (2024) LINK
+Abstract: Disruptions, such as closures of businesses during pandemics, not only affect businesses and amenities directly but also influence how people move, spreading the impact to other businesses and increasing the overall economic shock. However, it is unclear how much businesses depend on each other during disruptions. Leveraging human mobility data and same-day visits in five US cities, we quantify dependencies between points of interest encompassing businesses, stores and amenities.</description>
+    </item>
+    
+    <item>
+      <title>Estudiar ciudades como sistemas complejos</title>
+      <link>http://estebanmoro.org/post/2024-07-15-estudiar-ciudades-como-sistemas-complejos-esteban-moro-en-entrevista-para-c3/</link>
+      <pubDate>Mon, 15 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2024-07-15-estudiar-ciudades-como-sistemas-complejos-esteban-moro-en-entrevista-para-c3/</guid>
+      <description>Video of my interview about the complexity of Urban Systems at the Centro de Ciencias de la Complejidad (C3) de la Universidad Nacional Autónoma de México.
+ </description>
+    </item>
+    
+    <item>
+      <title>Diversity beyond density: Experienced social mixing of urban streets</title>
+      <link>http://estebanmoro.org/post/2023-04-03-diversity-beyond-density-experienced-social-mixing-of-urban-streets/</link>
+      <pubDate>Sun, 02 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2023-04-03-diversity-beyond-density-experienced-social-mixing-of-urban-streets/</guid>
+      <description>Authors: Zhuangyuan Fan, Tianyu Su, Maoran Sun, Ariel Noyman, Fan Zhang, Alex ‘Sandy’ Pentland, Esteban Moro
+Publication: PNAS Nexus, Volumen 2, Issue 4, pgad077, 2023 LINK
+Abstract: Urban density, in the form of residents’ and visitors’ concentration, is long considered to foster diverse exchanges of interpersonal knowledge and skills, which are intrinsic to sustainable human settlements. However, with current urban studies primarily devoted to city- and district-level analyses, we cannot unveil the elemental connection between urban density and diversity.</description>
+    </item>
+    
+    <item>
+      <title>Behavioral roots of inequality</title>
+      <link>http://estebanmoro.org/post/2019-02-02-behavioral-fundations-of-inequality/</link>
+      <pubDate>Mon, 03 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2019-02-02-behavioral-fundations-of-inequality/</guid>
+      <description>Inequality is one of the most important problems in our societies. For example, economic inequality is today higher than it was in the 1970’s and by some metrics stands at levels not seen since the last Great Depression. A special form of segregation is that happening in our cities. We share the public places, our workplaces and our residential neighborhoods with people like us: same type of jobs, same education, similar economic status, and political opinions.</description>
+    </item>
+    
+    <item>
+      <title>Rhythm of the streets: a street classification framework based on street activity patterns</title>
+      <link>http://estebanmoro.org/post/2022-07-29-rhythm-of-the-streets-a-street-classification-framework-based-on-street-activity-patterns/</link>
+      <pubDate>Fri, 29 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2022-07-29-rhythm-of-the-streets-a-street-classification-framework-based-on-street-activity-patterns/</guid>
+      <description>Authors: Tianyu Su , Maoran Sun, Zhuangyuan Fan, Ariel Noyman, Alex Pentland, and Esteban Moro
+Publication: EPJ Data Science 11, 43 (2022). Link
+Abstract: As the living tissue connecting urban places, streets play significant roles in driving city development, providing essential access, and promoting human interactions. Understanding street activities and how these activities vary across different streets is critical for designing both efficient and livable streets. However, current street classification frameworks primarily focus on either streets’ functions in transportation networks or their adjacent land uses rather than actual activity patterns, resulting in coarse classifications.</description>
+    </item>
+    
+    <item>
+      <title>Personal Art Map with R</title>
+      <link>http://estebanmoro.org/post/2020-10-19-personal-art-map-with-r/</link>
+      <pubDate>Mon, 19 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2020-10-19-personal-art-map-with-r/</guid>
+      <description>Map art makes beautiful posters. You can find them all over the internet and buy them even framed for your favorite city, area or country. Those posters&#39; beauty relies on the intricate and beautiful pattern of roads, buildings, parks, rivers, etc., which shape our cities and our mobility. In my research I constantly use those maps as the hardware fabric in which humans interact, move or encounter in urban settings.</description>
+    </item>
+    
+    <item>
+      <title>Exploring the Atlas of Inequality in US Cities</title>
+      <link>http://estebanmoro.org/post/2019-10-31-exploring-the-atlas-of-inequality-in-us-cities/</link>
+      <pubDate>Thu, 31 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2019-10-31-exploring-the-atlas-of-inequality-in-us-cities/</guid>
+      <description>Video of my talk &amp;ldquo;Exploring the Atlas of Inequality in US Cities&amp;rdquo; at the Spatial Data Science Conference in University of Columbia (NY), October 2019
+ </description>
+    </item>
+    
+    <item>
+      <title>The Atlas of Inequality</title>
+      <link>http://estebanmoro.org/post/2019-03-02-the-atlas-of-segregation/</link>
+      <pubDate>Sat, 02 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2019-03-02-the-atlas-of-segregation/</guid>
+      <description>Segregation is hurting our societies and specially our cities. But economic inequality isn&amp;rsquo;t just limited to neighborhoods. The restaurants, stores, and other places we visit in cities are all unequal in their own way.
+The Atlas of Inequality shows the income inequality of people who visit different places in the Boston metro area. It uses aggregated anonymous location data from digital devices to estimate people&amp;rsquo;s incomes and where they spend their time.</description>
+    </item>
+    
+    <item>
+      <title>Soluciones para ciudades grandes y pequeñas ante la automatización de empleos</title>
+      <link>http://estebanmoro.org/post/2019-01-01-soluciones-para-ciudades-grandes-y-pequen%CC%83as-ante-la-automatizacio%CC%81n-de-empleos/</link>
+      <pubDate>Mon, 05 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2019-01-01-soluciones-para-ciudades-grandes-y-pequen%CC%83as-ante-la-automatizacio%CC%81n-de-empleos/</guid>
+      <description>Article (in Spanish) in MIT Technology Review (and the Sacyr innovation blog) about how automation is going to impact differently big or small cities.
+Soluciones para ciudades grandes y pequeñas ante la automatización de empleos
+ La razón principal para que la automatización ataque más a los núcleos pequeños se debe a la propia naturaleza de los empleos disponibles en cada tipo de urbe. Las ciudades más pequeñas tienen más profesiones rutinarias y repetitivas, &amp;ldquo;como las tareas de servicios, labores mecánicas, fábricas y agricultura, que son susceptibles de ser automatizadas&amp;rdquo;, apunta el investigador del Media Lab y profesor de la Universidad Carlos III de Madrid Esteban Moro.</description>
+    </item>
+    
+  </channel>
+</rss>

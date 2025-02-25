@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Networks on </title>
+    <link>http://estebanmoro.org/tags/networks/</link>
+    <description>Recent content in Networks on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Tue, 16 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://estebanmoro.org/tags/networks/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Network constraints on worker mobility</title>
+      <link>http://estebanmoro.org/post/2024-01-16-network-constraints-on-worker-mobility/</link>
+      <pubDate>Tue, 16 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2024-01-16-network-constraints-on-worker-mobility/</guid>
+      <description>Authors: Morgan R. Frank, Esteban Moro, Tobin South, Alex Rutherford, Alex Pentland, Bledi Taska &amp;amp; Iyad Rahwan Publication: Nature Cities, 1, pages 94–104 (2024) LINK
+Abstract: How do skills shape career mobility and access to cities’ labor markets? Here we model career pathways as an occupation network constructed from the similarity of occupations’ skill requirements within each US city. Using a nationally representative survey and three resume datasets, skill similarity predicts transition rates between occupations and predictions improve with increasingly granular skill data.</description>
+    </item>
+    
+    <item>
+      <title>How to Organize your Deep Reinforcement Learning Agents: The Importance of Communication Topology</title>
+      <link>http://estebanmoro.org/post/2018-12-14-how-to-organize-your-deep-reinforcement-learning-agents-the-importance-of-communication-topology/</link>
+      <pubDate>Fri, 14 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2018-12-14-how-to-organize-your-deep-reinforcement-learning-agents-the-importance-of-communication-topology/</guid>
+      <description>Authors: Dhaval Adjodah, Dan Calacci, Abhimanyu Dubey, Peter Krafft, Esteban Moro, Alex `Sandy&#39; Pentland
+Journal: Preprint (2018). arXiv
+Abstract: In this empirical paper, we investigate how learning agents can be arranged in more efficient communication topologies for improved learning. This is an important problem because a common technique to improve speed and robustness of learning in deep reinforcement learning and many other machine learning algorithms is to run multiple learning agents in parallel.</description>
+    </item>
+    
+  </channel>
+</rss>

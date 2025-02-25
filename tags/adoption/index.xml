@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>adoption on </title>
+    <link>http://estebanmoro.org/tags/adoption/</link>
+    <description>Recent content in adoption on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Wed, 21 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://estebanmoro.org/tags/adoption/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Long-Range Social Influence in Phone Communication Networks on Offline Adoption Decisions</title>
+      <link>http://estebanmoro.org/post/2023-06-21-long-range-social-influence-in-phone-communication-networks-on-offline-adoption-decisions/</link>
+      <pubDate>Wed, 21 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2023-06-21-long-range-social-influence-in-phone-communication-networks-on-offline-adoption-decisions/</guid>
+      <description>Authors: Yan Leng , Xiaowen Dong, Esteban Moro, Alex Pentland Publication: Information Systems Research, Articles in Advance 21 Jun (2023) LINK
+Abstract: We use high-resolution mobile phone data with geolocation information and pro- pose a novel technical framework to study how social influence propagates within a phone communication network and affects the offline decision to attend a performance event. Our fine-grained data are based on the universe of phone calls made in a European country between January and July 2016.</description>
+    </item>
+    
+  </channel>
+</rss>

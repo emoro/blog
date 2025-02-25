@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>epidemics on </title>
+    <link>http://estebanmoro.org/tags/epidemics/</link>
+    <description>Recent content in epidemics on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Mon, 15 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://estebanmoro.org/tags/epidemics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Social media sensors as early signals of influenza outbreaks at scale</title>
+      <link>http://estebanmoro.org/post/2024-07-15-social-media-sensors-as-early-signals-of-influenza-outbreaks-at-scale/</link>
+      <pubDate>Mon, 15 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2024-07-15-social-media-sensors-as-early-signals-of-influenza-outbreaks-at-scale/</guid>
+      <description>Authors: David Martín-Corral, Manuel García-Herranz, Manuel Cebrián &amp;amp; Esteban Moro Publication: EPJ Data Science (2024) 13:43 LINK
+Abstract: Detecting early signals of an outbreak in a viral process is challenging due to its exponential nature, yet crucial given the benefits to public health it can provide. If available, the network structure where infection happens can provide rich information about the very early stages of viral outbreaks. For example, more central nodes have been used as social network sensors in biological or informational diffusion processes to detect early contagious outbreaks.</description>
+    </item>
+    
+    <item>
+      <title>Social Media Sensors to Detect Early Warnings of Influenza at Scale</title>
+      <link>http://estebanmoro.org/post/2022-11-18-social-media-sensors-to-detect-early-warnings-of-influenza-at-scale/</link>
+      <pubDate>Fri, 18 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2022-11-18-social-media-sensors-to-detect-early-warnings-of-influenza-at-scale/</guid>
+      <description>Authors: David Martín-Corral, Manuel García-Herranz, Manuel Cebrian, Esteban Moro Publication: medRxiv 2022.11.15.22282355 LINK
+Abstract: Detecting early signs of an outbreak in a viral process is challenging due to its exponential nature, yet crucial given the benefits to public health it can provide. If available, the network structure where infection happens can provide rich information about the very early stages of viral outbreaks. For example, more central nodes have been used as social network sensors in biological or informational diffusion processes to detect early contagious outbreaks.</description>
+    </item>
+    
+    <item>
+      <title>Quantifying the importance and location of SARS-CoV-2 transmission events in large metropolitan areas</title>
+      <link>http://estebanmoro.org/post/2022-06-13-quantifying-the-importance-and-location-of-sars-cov-2-transmission-events-in-large-metropolitan-areas/</link>
+      <pubDate>Mon, 13 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2022-06-13-quantifying-the-importance-and-location-of-sars-cov-2-transmission-events-in-large-metropolitan-areas/</guid>
+      <description>Authors: Alberto Aleta, David Martín-Corral, Michiel A.Bakker, Ana Pastore y Piontti, Marco Ajelli, Maria Litvinova , Matteo Chinazzi, Natalie E. Dean, M. Elizabeth Halloran,Ira M. Longini,Jr, Alex Pentland, Alessandro Vespignani, Yamir Moreno, and Esteban Moro. Publication: PNAS (2022). Link
+Abstract: Detailed characterization of severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) transmission across different settings can help design less disruptive interventions. We used real-time, privacy-enhanced mobility data in the New York City, NY and Seattle, WA metropolitan areas to build a detailed agent-based model of SARS-CoV-2infection to estimate the where, when, and magnitude of transmission events during thepandemic’s first wave.</description>
+    </item>
+    
+    <item>
+      <title>Modeling the impact of social distancing, testing, contact tracing and household quarantine on second-wave scenarios of the COVID-19 epidemic</title>
+      <link>http://estebanmoro.org/post/2020-05-27-modeling-the-impact-of-social-distancing-testing-contact-tracing-and-household-quarantine-on-second-wave-scenarios-of-the-covid-19-epidemic/</link>
+      <pubDate>Wed, 27 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2020-05-27-modeling-the-impact-of-social-distancing-testing-contact-tracing-and-household-quarantine-on-second-wave-scenarios-of-the-covid-19-epidemic/</guid>
+      <description>Authors: Alberto Aleta, David Martíın-Corral, Ana Pastore y Piontti, Marco Ajelli, Maria Litvinova, Matteo Chinazzi, Natalie E. Dean, M. Elizabeth Halloran, Ira M. Longini, Jr., Stefano Merler, Alex Pentland, Alessandro Vespignani, Esteban Moro &amp;amp; Yamir Moreno
+Publication: Nature Human Behavior(2020). Link
+Abstract: While severe social-distancing measures have proven effective in slowing the coronavirus disease 2019 (COVID-19) pandemic, second-wave scenarios are likely to emerge as restrictions are lifted. Here we integrate anonymized, geolocalized mobility data with census and demographic data to build a detailed agent-based model of severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) transmission in the Boston metropolitan area.</description>
+    </item>
+    
+  </channel>
+</rss>

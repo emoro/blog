@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sensors on </title>
+    <link>http://estebanmoro.org/tags/sensors/</link>
+    <description>Recent content in Sensors on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Mon, 15 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://estebanmoro.org/tags/sensors/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Social media sensors as early signals of influenza outbreaks at scale</title>
+      <link>http://estebanmoro.org/post/2024-07-15-social-media-sensors-as-early-signals-of-influenza-outbreaks-at-scale/</link>
+      <pubDate>Mon, 15 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2024-07-15-social-media-sensors-as-early-signals-of-influenza-outbreaks-at-scale/</guid>
+      <description>Authors: David Martín-Corral, Manuel García-Herranz, Manuel Cebrián &amp;amp; Esteban Moro Publication: EPJ Data Science (2024) 13:43 LINK
+Abstract: Detecting early signals of an outbreak in a viral process is challenging due to its exponential nature, yet crucial given the benefits to public health it can provide. If available, the network structure where infection happens can provide rich information about the very early stages of viral outbreaks. For example, more central nodes have been used as social network sensors in biological or informational diffusion processes to detect early contagious outbreaks.</description>
+    </item>
+    
+    <item>
+      <title>Social Media Sensors to Detect Early Warnings of Influenza at Scale</title>
+      <link>http://estebanmoro.org/post/2022-11-18-social-media-sensors-to-detect-early-warnings-of-influenza-at-scale/</link>
+      <pubDate>Fri, 18 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2022-11-18-social-media-sensors-to-detect-early-warnings-of-influenza-at-scale/</guid>
+      <description>Authors: David Martín-Corral, Manuel García-Herranz, Manuel Cebrian, Esteban Moro Publication: medRxiv 2022.11.15.22282355 LINK
+Abstract: Detecting early signs of an outbreak in a viral process is challenging due to its exponential nature, yet crucial given the benefits to public health it can provide. If available, the network structure where infection happens can provide rich information about the very early stages of viral outbreaks. For example, more central nodes have been used as social network sensors in biological or informational diffusion processes to detect early contagious outbreaks.</description>
+    </item>
+    
+    <item>
+      <title>Social networks as economic and social sensors</title>
+      <link>http://estebanmoro.org/post/2019-02-02-social-networks-as-sensors/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2019-02-02-social-networks-as-sensors/</guid>
+      <description>Temporal, structural and activity patterns in social networks are related to human behavior. Thus, networks do have different shape and dynamics under different exogenous and endogenous shocks or conditions. In the last years we have addressed the question of whether we can use our understanding of social networks to anticipate, predict or measure important phenomena as information propagation, disaster damage, unemployment shocks, weather conditions, gender digital divide, etc.
+For example in a series of papers, we demonstrated for the first time the ability of the so-called &amp;ldquo;friendship paradox&amp;rdquo; in social networks to get better collection of users (sensors) that can anticipate meme, news or event-related information propagation in networks.</description>
+    </item>
+    
+    <item>
+      <title>Using Friends as Sensors to Detect Global-Scale Contagious Outbreaks</title>
+      <link>http://estebanmoro.org/post/2014-04-09-using-friends-as-sensors/</link>
+      <pubDate>Wed, 09 Apr 2014 13:37:55 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2014-04-09-using-friends-as-sensors/</guid>
+      <description>Authors: Manuel Garcia-Herranz, Esteban Moro, Manuel Cebrian, Nicholas A. Christakis and James H. Fowler
+Journal: PLoS ONE 9(4): e92413 (2014) LINK
+SummaryRecent research has focused on the monitoring of global–scale online data for improved detection of epidemics, mood patterns, movements in the stock market political revolutions, box-office revenues, consumer behaviour and many other important phenomena. However, privacy considerations and the sheer scale of data available online are quickly making global monitoring infeasible, and existing methods do not take full advantage of local network structure to identify key nodes for monitoring.</description>
+    </item>
+    
+  </channel>
+</rss>

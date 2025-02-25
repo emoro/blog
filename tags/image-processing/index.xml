@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Image processing on </title>
+    <link>http://estebanmoro.org/tags/image-processing/</link>
+    <description>Recent content in Image processing on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Tue, 24 Apr 2018 11:20:47 +0000</lastBuildDate><atom:link href="http://estebanmoro.org/tags/image-processing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MemeSequencer: Sparse Matching for Embedding Image Macros</title>
+      <link>http://estebanmoro.org/post/2018-04-24-memesequencer-sparse-matching-for-embedding-image-macros/</link>
+      <pubDate>Tue, 24 Apr 2018 11:20:47 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2018-04-24-memesequencer-sparse-matching-for-embedding-image-macros/</guid>
+      <description>Authors: Abhimanyu Dubey, Esteban Moro, Manuel Cebrian, Iyad Rahwan
+Journal: WWW&#39;18 Proceedings of the Web Conference 2018 LINK
+Abstract: The analysis of the creation, mutation, and propagation of social media content on the Internet is an essential problem in computational social science, affecting areas ranging from marketing to political mobilization. A first step towards understanding the evolution of images online is the analysis of rapidly modifying and propagating memetic imagery or ‘memes’.</description>
+    </item>
+    
+  </channel>
+</rss>

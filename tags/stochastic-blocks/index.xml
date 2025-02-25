@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Stochastic Blocks on </title>
+    <link>http://estebanmoro.org/tags/stochastic-blocks/</link>
+    <description>Recent content in Stochastic Blocks on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Wed, 12 Sep 2012 12:19:43 +0000</lastBuildDate><atom:link href="http://estebanmoro.org/tags/stochastic-blocks/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Predicting Human Preferences Using the Block Structure of Complex Social Networks</title>
+      <link>http://estebanmoro.org/post/2012-09-12-predicting-human-preferences-using-the-block-structure-of-complex-social-networks/</link>
+      <pubDate>Wed, 12 Sep 2012 12:19:43 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2012-09-12-predicting-human-preferences-using-the-block-structure-of-complex-social-networks/</guid>
+      <description>Authors: Roger Guimerà, Alejandro Llorente, Esteban Moro y Marta Sales-Pardo
+Journal: PLoS ONE 7, e44620 (2012) LINK
+Abstract: With ever-increasing available data, predicting individuals&#39; preferences and helping them locate the most relevant information has become a pressing need. Understanding and predicting preferences is also important from a fundamental point of view, as part of what has been called a “new” computational social science. Here, we propose a novel approach based on stochastic block models, which have been developed by sociologists as plausible models of complex networks of social interactions.</description>
+    </item>
+    
+  </channel>
+</rss>
