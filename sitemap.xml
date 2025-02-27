@@ -3,19 +3,43 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://estebanmoro.org/</loc>
-    <lastmod>2025-01-24T00:00:00+00:00</lastmod>
+    <lastmod>2025-02-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://estebanmoro.org/tags/2025/</loc>
+    <lastmod>2025-02-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://estebanmoro.org/categories/</loc>
-    <lastmod>2025-01-24T00:00:00+00:00</lastmod>
+    <lastmod>2025-02-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://estebanmoro.org/tags/inequality/</loc>
+    <lastmod>2025-02-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://estebanmoro.org/post/list-of-publications/</loc>
-    <lastmod>2025-01-24T00:00:00+00:00</lastmod>
+    <lastmod>2025-02-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://estebanmoro.org/tags/mobile-phone-data/</loc>
+    <lastmod>2025-02-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://estebanmoro.org/tags/mobility/</loc>
+    <lastmod>2025-02-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://estebanmoro.org/post/</loc>
-    <lastmod>2025-01-24T00:00:00+00:00</lastmod>
+    <lastmod>2025-02-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://estebanmoro.org/categories/publications/</loc>
-    <lastmod>2025-01-24T00:00:00+00:00</lastmod>
+    <lastmod>2025-02-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://estebanmoro.org/tags/</loc>
+    <lastmod>2025-02-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://estebanmoro.org/post/2025-02-26-using-human-mobility-data-to-quantify-experienced-urban-inequalities/</loc>
+    <lastmod>2025-02-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://estebanmoro.org/tags/gravity-law/</loc>
+    <lastmod>2025-02-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://estebanmoro.org/post/2025-02-26-human-mobility-is-well-described-by-closed-form-gravity-like-models-learned-automatically-from-data/</loc>
+    <lastmod>2025-02-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://estebanmoro.org/tags/2024/</loc>
     <lastmod>2025-01-11T00:00:00+00:00</lastmod>
@@ -29,19 +53,10 @@
     <loc>http://estebanmoro.org/tags/economy/</loc>
     <lastmod>2025-01-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://estebanmoro.org/tags/mobile-phone-data/</loc>
-    <lastmod>2025-01-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://estebanmoro.org/tags/</loc>
-    <lastmod>2025-01-11T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://estebanmoro.org/tags/urban-science/</loc>
     <lastmod>2025-01-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://estebanmoro.org/post/2024-07-15-enhancing-human-mobility-research-with-open-and-standardized-datasets/</loc>
-    <lastmod>2024-07-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://estebanmoro.org/tags/mobility/</loc>
     <lastmod>2024-07-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://estebanmoro.org/tags/complexity/</loc>
@@ -111,9 +126,6 @@
     <lastmod>2023-11-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://estebanmoro.org/tags/fast-food/</loc>
-    <lastmod>2023-11-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://estebanmoro.org/tags/inequality/</loc>
     <lastmod>2023-11-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://estebanmoro.org/post/2023-11-20-population-mobility-data-provides-meaningful-indicators-of-fast-food-intake-and-diet-related-diseases-in-diverse-populations/</loc>

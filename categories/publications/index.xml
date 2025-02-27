@@ -5,7 +5,7 @@
     <description>Recent content in Publications on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Fri, 24 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 26 Feb 2025 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="http://estebanmoro.org/categories/publications/index.xml" rel="self" type="application/rss+xml" />
     
@@ -13,14 +13,40 @@
     <item>
       <title>List of Publications</title>
       <link>http://estebanmoro.org/post/list-of-publications/</link>
-      <pubDate>Fri, 24 Jan 2025 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 26 Feb 2025 00:00:00 +0000</pubDate>
       
       <guid>http://estebanmoro.org/post/list-of-publications/</guid>
       <description>
 
 
 &lt;small&gt;
-I have published 102 articles/preprints
+I have published 105 articles/preprints
+&lt;h3&gt;
+2025
+&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;Using human mobility data to quantify experienced urban inequalities&lt;/b&gt;&lt;br&gt;
+Fengli Xu, Qi Wang, Esteban Moro, Lin Chen, Arianna Salazar Miranda, Marta C Gonzalez, Michele Tizzoni, Chaoming Song, Carlo Ratti, Luis Bettencourt, others&lt;br&gt;
+Nature Human Behaviour &lt;strong&gt;NA&lt;/strong&gt; 1–11 (2025)&lt;br&gt;
+&lt;a href=&#34;http://estebanmoro.org/pdf/Using_human_mobility_data_to_quantify_experienced_urban_inequalities.pdf&#34; class=&#34;BUTTON_JEL&#34;&gt;PDF&lt;/a&gt; &lt;a href=&#34;https://www.nature.com/articles/s41562-024-02079-0&#34; class=&#34;BUTTON_JEL&#34;&gt;Journal&lt;/a&gt;
+&lt;div class=&#34;altmetric-embed&#34; data-badge-popover=&#34;right&#34; data-badge-type=&#34;2&#34; data-doi=&#34;10.1038/s41562-024-02079-0&#34; data-hide-no-mentions=&#34;true&#34; data-hide-less-than=&#34;10&#34;&gt;
+
+&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Worse Weather Amplifies Social Media Activity&lt;/b&gt;&lt;br&gt;
+Kelton Minor, Esteban Moro, Nick Obradovich&lt;br&gt;
+Psychological Science &lt;strong&gt;NA&lt;/strong&gt; 09567976241306099 (2025)&lt;br&gt;
+&lt;a href=&#34;http://estebanmoro.org/pdf/Worse_Weather_Amplifies_Social_Media_Activity.pdf&#34; class=&#34;BUTTON_JEL&#34;&gt;PDF&lt;/a&gt; &lt;a href=&#34;https://journals.sagepub.com/doi/full/10.1177/09567976241306099&#34; class=&#34;BUTTON_JEL&#34;&gt;Journal&lt;/a&gt;
+&lt;div class=&#34;altmetric-embed&#34; data-badge-popover=&#34;right&#34; data-badge-type=&#34;2&#34; data-doi=&#34;10.1177/09567976241306099&#34; data-hide-no-mentions=&#34;true&#34; data-hide-less-than=&#34;10&#34;&gt;
+
+&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Human mobility is well described by closed-form gravity-like models learned automatically from data&lt;/b&gt;&lt;br&gt;
+Oriol Cabanas-Tirapu, Lluis Danus, Esteban Moro, Marta Sales-Pardo, Roger Guimera&lt;br&gt;
+Nature Communications &lt;strong&gt;16&lt;/strong&gt; 1336 (2025)&lt;br&gt;
+&lt;a href=&#34;http://estebanmoro.org/pdf/Human_mobility_is_well_described_by_closed_form_gravity_like_models_learned_automatically_from_data.pdf&#34; class=&#34;BUTTON_JEL&#34;&gt;PDF&lt;/a&gt; &lt;a href=&#34;https://www.nature.com/articles/s41467-025-56495-5&#34; class=&#34;BUTTON_JEL&#34;&gt;Journal&lt;/a&gt;
+&lt;div class=&#34;altmetric-embed&#34; data-badge-popover=&#34;right&#34; data-badge-type=&#34;2&#34; data-doi=&#34;10.1038/s41467-025-56495-5&#34; data-hide-no-mentions=&#34;true&#34; data-hide-less-than=&#34;10&#34;&gt;
+
+&lt;/div&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h3&gt;
 2024
 &lt;/h3&gt;
@@ -833,6 +859,38 @@ Physical review. C, Nuclear physics &lt;strong&gt;54&lt;/strong&gt; 2085–2087 
 
 &lt;/div&gt;&lt;/li&gt;
 &lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Using human mobility data to quantify experienced urban inequalities</title>
+      <link>http://estebanmoro.org/post/2025-02-26-using-human-mobility-data-to-quantify-experienced-urban-inequalities/</link>
+      <pubDate>Wed, 26 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2025-02-26-using-human-mobility-data-to-quantify-experienced-urban-inequalities/</guid>
+      <description>
+
+
+&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Fengli Xu, Qi Wang, Esteban Moro, Arianna Salazar Miranda, Marta C. González, Chaoming Song, Carlo Ratti, Luis Bettencourt, James Evans&lt;br&gt;
+&lt;em&gt;Publication&lt;/em&gt;: Nature Human Behavior (2025) &lt;strong&gt;&lt;a href=&#34;https://www.nature.com/articles/s41562-024-02079-0&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; The lived experience of urban life is shaped by personal mobility through dynamic relationships and resources, marked not only by access and opportunity, but also inequality and segregation. The recent availability of fine-grained mobility data and context attributes ranging from venue type to demographic mixture offer researchers a deeper understanding of experienced inequalities at scale, and pose many new questions. Here we review emerging uses of urban mobility behaviour data, and propose an analytic framework to represent mobility patterns as a temporal bipartite network between people and places. As this network reconfigures over time, analysts can track experienced inequality along three critical dimensions: social mixing with others from specific demographic backgrounds, access to different types of facilities, and spontaneous adaptation to unexpected events, such as epidemics, conflicts or disasters. This framework traces the dynamic, lived experiences of urban inequality and complements prior work on static inequalities experience at home and work.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Media&lt;/strong&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Human mobility is well described by closed-form gravity-like models learned automatically from data</title>
+      <link>http://estebanmoro.org/post/2025-02-26-human-mobility-is-well-described-by-closed-form-gravity-like-models-learned-automatically-from-data/</link>
+      <pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://estebanmoro.org/post/2025-02-26-human-mobility-is-well-described-by-closed-form-gravity-like-models-learned-automatically-from-data/</guid>
+      <description>
+
+
+&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Oriol Cabanas-Tirapu, Lluís Danús, Esteban Moro, Marta Sales-Pardo &amp;amp; Roger Guimerà &lt;br&gt;
+&lt;em&gt;Publication&lt;/em&gt;: Nature Communications 16, 1336 (2025). &lt;strong&gt;&lt;a href=&#34;https://www.nature.com/articles/s41467-025-56495-5&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Modeling human mobility is critical to address questions in urban planning, sustainability, public health, and economic development. However, our understanding and ability to model flows between urban areas are still incomplete. At one end of the modeling spectrum we have gravity models, which are easy to interpret but provide modestly accurate predictions of flows. At the other end, we have machine learning models, with tens of features and thousands of parameters, which predict mobility more accurately than gravity models but do not provide clear insights on human behavior. Here, we show that simple machine-learned, closed-form models of mobility can predict mobility flows as accurately as complex machine learning models, and extrapolate better. Moreover, these models are simple and gravity-like, and can be interpreted similarly to standard gravity models. These models work for different datasets and at different scales, suggesting that they may capture the fundamental universal features of human mobility.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Media&lt;/strong&gt;&lt;/p&gt;
 </description>
     </item>
     
