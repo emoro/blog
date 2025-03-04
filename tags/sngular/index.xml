@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sngular on </title>
-    <link>http://estebanmoro.org/tags/sngular/</link>
+    <link>https://estebanmoro.org/tags/sngular/</link>
     <description>Recent content in Sngular on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Thu, 05 Nov 2015 00:00:00 +0000</lastBuildDate><atom:link href="http://estebanmoro.org/tags/sngular/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 05 Nov 2015 00:00:00 +0000</lastBuildDate><atom:link href="https://estebanmoro.org/tags/sngular/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Video of my talk “Your data, our society&#34;</title>
-      <link>http://estebanmoro.org/post/2019-01-01-video-of-my-talk-your-data-our-society/</link>
+      <link>https://estebanmoro.org/post/2019-01-01-video-of-my-talk-your-data-our-society/</link>
       <pubDate>Thu, 05 Nov 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2019-01-01-video-of-my-talk-your-data-our-society/</guid>
+      <guid>https://estebanmoro.org/post/2019-01-01-video-of-my-talk-your-data-our-society/</guid>
       <description>Video of my talk &amp;ldquo;your data, our society&amp;rdquo; given at #sngular810, the S|ngular presentation event celebrated in Madrid in Oct. 2015. In my talk I show the uses of bigdata at different scales of resolution to understand our society.
  </description>
     </item>

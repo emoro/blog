@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Netmob on </title>
-    <link>http://estebanmoro.org/tags/netmob/</link>
+    <link>https://estebanmoro.org/tags/netmob/</link>
     <description>Recent content in Netmob on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Fri, 01 Feb 2019 00:00:00 +0000</lastBuildDate><atom:link href="http://estebanmoro.org/tags/netmob/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 01 Feb 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://estebanmoro.org/tags/netmob/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Netmob 2019</title>
-      <link>http://estebanmoro.org/post/2019-02-01-netmob-2019/</link>
+      <link>https://estebanmoro.org/post/2019-02-01-netmob-2019/</link>
       <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2019-02-01-netmob-2019/</guid>
+      <guid>https://estebanmoro.org/post/2019-02-01-netmob-2019/</guid>
       <description>Another edition of Netmob is happening this year 2019. NetMob is the primary conference in the analysis of mobile phone datasets in social, urban, societal and industrial problems. Previous editions in Boston and Milano brought together more than 250 researchers, practitioners and decision-makers from more 140 institutions and 30 countries. I had the pleasure to organize the 2015 edition and it was a blast to put together so much interesting talks, people, projects.</description>
     </item>
     
     <item>
       <title>Netmob 2015</title>
-      <link>http://estebanmoro.org/post/2015-04-14-netmob-2015/</link>
+      <link>https://estebanmoro.org/post/2015-04-14-netmob-2015/</link>
       <pubDate>Tue, 14 Apr 2015 09:26:11 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2015-04-14-netmob-2015/</guid>
+      <guid>https://estebanmoro.org/post/2015-04-14-netmob-2015/</guid>
       <description>I had the pleasure to organize last edition of Netmob at MIT Media Lab (together with Sandy Pentland, Vincent Blondel and Yves-Alexandre de Montjoye). Netmob is the primary conference in the analysis of those datasets in social, urban, societal and industrial problems. Netmob 2015 also hosted the final part of theD4D Challenge by Orange. They were 3 amazing days of applications and analysis of mobile phone datasets, preceded by one-day school and 3 days Hackathon.</description>
     </item>
     

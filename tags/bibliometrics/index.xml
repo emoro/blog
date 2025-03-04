@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>bibliometrics on </title>
-    <link>http://estebanmoro.org/tags/bibliometrics/</link>
+    <link>https://estebanmoro.org/tags/bibliometrics/</link>
     <description>Recent content in bibliometrics on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Sun, 13 Nov 2005 07:37:57 +0000</lastBuildDate><atom:link href="http://estebanmoro.org/tags/bibliometrics/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 13 Nov 2005 07:37:57 +0000</lastBuildDate><atom:link href="https://estebanmoro.org/tags/bibliometrics/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A number to rank them all</title>
-      <link>http://estebanmoro.org/2005/11/a-number-to-rank-them-all/</link>
+      <link>https://estebanmoro.org/2005/11/a-number-to-rank-them-all/</link>
       <pubDate>Sun, 13 Nov 2005 07:37:57 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/2005/11/a-number-to-rank-them-all/</guid>
+      <guid>https://estebanmoro.org/2005/11/a-number-to-rank-them-all/</guid>
       <description>UCSD physicist Jorge E. Hirsch has propose a quick-and-dirty way to measure quality of academic scientist’s output. His method is explained and studied in a paper to be published in the November 15 issue of PNAS. The idea is very simple and it is called the h-index. This number relies on the number of citations our papers have. In particular the h-index is the maximum number h that verifies the following: at least h of papers of an author have h citations each.</description>
     </item>
     

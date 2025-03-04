@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Deep Learning on </title>
-    <link>http://estebanmoro.org/tags/deep-learning/</link>
+    <link>https://estebanmoro.org/tags/deep-learning/</link>
     <description>Recent content in Deep Learning on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Mon, 31 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://estebanmoro.org/tags/deep-learning/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 31 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://estebanmoro.org/tags/deep-learning/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Generating synthetic mobility data for a realistic population with RNNs to improve utility and privacy</title>
-      <link>http://estebanmoro.org/post/2022-01-31-generating-synthetic-mobility-data-for-a-realistic-population-with-rnns-to-improve-utility-and-privacy/</link>
+      <link>https://estebanmoro.org/post/2022-01-31-generating-synthetic-mobility-data-for-a-realistic-population-with-rnns-to-improve-utility-and-privacy/</link>
       <pubDate>Mon, 31 Jan 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2022-01-31-generating-synthetic-mobility-data-for-a-realistic-population-with-rnns-to-improve-utility-and-privacy/</guid>
+      <guid>https://estebanmoro.org/post/2022-01-31-generating-synthetic-mobility-data-for-a-realistic-population-with-rnns-to-improve-utility-and-privacy/</guid>
       <description>Authors: Alex Berke, Ronan Doorley, Kent Larson, Esteban Moro
 Publication: arXiv preprint arXiv:2201.01139 (2022). Link
 Abstract: Location data collected from mobile devices represent mobility behaviors at individual and societal levels. These data have important applications ranging from transportation planning to epidemic modeling. However, issues must be overcome to best serve these use cases: The data often represent a limited sample of the population and use of the data jeopardizes privacy.</description>
@@ -20,10 +20,10 @@ Abstract: Location data collected from mobile devices represent mobility behavio
     
     <item>
       <title>How to Organize your Deep Reinforcement Learning Agents: The Importance of Communication Topology</title>
-      <link>http://estebanmoro.org/post/2018-12-14-how-to-organize-your-deep-reinforcement-learning-agents-the-importance-of-communication-topology/</link>
+      <link>https://estebanmoro.org/post/2018-12-14-how-to-organize-your-deep-reinforcement-learning-agents-the-importance-of-communication-topology/</link>
       <pubDate>Fri, 14 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2018-12-14-how-to-organize-your-deep-reinforcement-learning-agents-the-importance-of-communication-topology/</guid>
+      <guid>https://estebanmoro.org/post/2018-12-14-how-to-organize-your-deep-reinforcement-learning-agents-the-importance-of-communication-topology/</guid>
       <description>Authors: Dhaval Adjodah, Dan Calacci, Abhimanyu Dubey, Peter Krafft, Esteban Moro, Alex `Sandy&#39; Pentland
 Journal: Preprint (2018). arXiv
 Abstract: In this empirical paper, we investigate how learning agents can be arranged in more efficient communication topologies for improved learning. This is an important problem because a common technique to improve speed and robustness of learning in deep reinforcement learning and many other machine learning algorithms is to run multiple learning agents in parallel.</description>
@@ -31,10 +31,10 @@ Abstract: In this empirical paper, we investigate how learning agents can be arr
     
     <item>
       <title>MemeSequencer: Sparse Matching for Embedding Image Macros</title>
-      <link>http://estebanmoro.org/post/2018-04-24-memesequencer-sparse-matching-for-embedding-image-macros/</link>
+      <link>https://estebanmoro.org/post/2018-04-24-memesequencer-sparse-matching-for-embedding-image-macros/</link>
       <pubDate>Tue, 24 Apr 2018 11:20:47 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2018-04-24-memesequencer-sparse-matching-for-embedding-image-macros/</guid>
+      <guid>https://estebanmoro.org/post/2018-04-24-memesequencer-sparse-matching-for-embedding-image-macros/</guid>
       <description>Authors: Abhimanyu Dubey, Esteban Moro, Manuel Cebrian, Iyad Rahwan
 Journal: WWW&#39;18 Proceedings of the Web Conference 2018 LINK
 Abstract: The analysis of the creation, mutation, and propagation of social media content on the Internet is an essential problem in computational social science, affecting areas ranging from marketing to political mobilization. A first step towards understanding the evolution of images online is the analysis of rapidly modifying and propagating memetic imagery or ‘memes’.</description>

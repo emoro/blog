@@ -2,37 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>resilience on </title>
-    <link>http://estebanmoro.org/tags/resilience/</link>
+    <link>https://estebanmoro.org/tags/resilience/</link>
     <description>Recent content in resilience on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Sun, 02 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://estebanmoro.org/tags/resilience/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 02 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://estebanmoro.org/tags/resilience/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Creating resilient urban labor economies</title>
-      <link>http://estebanmoro.org/post/2022-10-25-creating-resilient-urban-labor-economies/</link>
+      <link>https://estebanmoro.org/post/2022-10-25-creating-resilient-urban-labor-economies/</link>
       <pubDate>Sun, 02 Jan 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2022-10-25-creating-resilient-urban-labor-economies/</guid>
+      <guid>https://estebanmoro.org/post/2022-10-25-creating-resilient-urban-labor-economies/</guid>
       <description>Like ecosystems, societies with adaptable economies are best prepared for the future. We started a research program to understand and detect economic resilience encoded in the dependency networks of agents, businesses, cities, or jobs. In particular, how much of the adaptability of our economies depends on the fragility of those economic networks? Can we identify weaknesses and design policies to strengthen those interdependent units?
 Using highly detailed information about jobs, skills, and cities, our foundational study extended traditional economic models to show that the network structure of interactions and flows between jobs determines the resilience of labor markets.</description>
     </item>
     
     <item>
       <title>Universal Resilience Patterns in labor markets</title>
-      <link>http://estebanmoro.org/post/2021-03-30-universal-resilience-patterns-in-labor-markets/</link>
+      <link>https://estebanmoro.org/post/2021-03-30-universal-resilience-patterns-in-labor-markets/</link>
       <pubDate>Tue, 30 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2021-03-30-universal-resilience-patterns-in-labor-markets/</guid>
+      <guid>https://estebanmoro.org/post/2021-03-30-universal-resilience-patterns-in-labor-markets/</guid>
       <description>Authors: Esteban Moro, Morgan R. Frank, Alex Pentland, Alex Rutherford, Manuel Cebrian, Iyad Rahwan. Publication: Nature Communications (2021). Link
 Abstract: Cities are the innovation centers of the US economy, but technological disruptions can exclude workers and inhibit a middle class. Therefore, urban policy must promote the jobs and skills that increase worker pay, create employment, and foster economic resilience. In this paper, we model labor market resilience with an ecologically-inspired job network constructed from the similarity of occupations’ skill requirements.</description>
     </item>
     
     <item>
       <title>Factors Improving Labor Resiliency in U.S. Cities.</title>
-      <link>http://estebanmoro.org/post/2021-03-29-factors-improving-job-resiliency-in-u-s-cities/</link>
+      <link>https://estebanmoro.org/post/2021-03-29-factors-improving-job-resiliency-in-u-s-cities/</link>
       <pubDate>Mon, 29 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2021-03-29-factors-improving-job-resiliency-in-u-s-cities/</guid>
+      <guid>https://estebanmoro.org/post/2021-03-29-factors-improving-job-resiliency-in-u-s-cities/</guid>
       <description>What makes urban labor markets more resilient? This is the question at the heart of a new study we have published in Nature Communications. We drew on prior network modeling research to map the job landscapes in cities across the United States, and showed that job “connectedness” is a key determinant of the resilience of local economies.
 Economists, policy makers, city planners, and companies have a strong interest in determining what factors contribute to healthy job markets, including what factors can help promote faster recovery after a shock, such as a major recession or the current COVID pandemic.</description>
     </item>

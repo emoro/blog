@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Strategy on </title>
-    <link>http://estebanmoro.org/tags/strategy/</link>
+    <link>https://estebanmoro.org/tags/strategy/</link>
     <description>Recent content in Strategy on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Wed, 04 Jul 2007 20:19:35 +0000</lastBuildDate><atom:link href="http://estebanmoro.org/tags/strategy/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 04 Jul 2007 20:19:35 +0000</lastBuildDate><atom:link href="https://estebanmoro.org/tags/strategy/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Specialization of strategies and herding behavior of trading firms in a financial market</title>
-      <link>http://estebanmoro.org/post/2007-07-04-specialization-of-strategies-and-herding-behavior-of-trading-firms-in-a-financial-market/</link>
+      <link>https://estebanmoro.org/post/2007-07-04-specialization-of-strategies-and-herding-behavior-of-trading-firms-in-a-financial-market/</link>
       <pubDate>Wed, 04 Jul 2007 20:19:35 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2007-07-04-specialization-of-strategies-and-herding-behavior-of-trading-firms-in-a-financial-market/</guid>
+      <guid>https://estebanmoro.org/post/2007-07-04-specialization-of-strategies-and-herding-behavior-of-trading-firms-in-a-financial-market/</guid>
       <description>Authors: Fabrizio Lillo, Esteban Moro, Gabriella Vaglica y Rosario Mantegna
 Journal: New Journal of Physics 10 (2008) 043019 LINK arXiv
 Abstract: Agent-based models of ﬁnancial markets usually make assumptions about agent&amp;rsquo;s preferred stylized strategies. Empirical validations of these assumptions have not been performed so far on a full-market scale. Here we present a comprehensive study of the resulting strategies followed by the ﬁrms which are members of the Spanish Stock Exchange.</description>
@@ -20,10 +20,10 @@ Abstract: Agent-based models of ﬁnancial markets usually make assumptions abo
     
     <item>
       <title>Scaling laws of strategic behavior and size heterogeneity in agent dynamics</title>
-      <link>http://estebanmoro.org/post/2007-04-20-scaling-laws-of-strategic-behavior-and-size-heterogeneity-in-agent-dynamics/</link>
+      <link>https://estebanmoro.org/post/2007-04-20-scaling-laws-of-strategic-behavior-and-size-heterogeneity-in-agent-dynamics/</link>
       <pubDate>Fri, 20 Apr 2007 09:54:57 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2007-04-20-scaling-laws-of-strategic-behavior-and-size-heterogeneity-in-agent-dynamics/</guid>
+      <guid>https://estebanmoro.org/post/2007-04-20-scaling-laws-of-strategic-behavior-and-size-heterogeneity-in-agent-dynamics/</guid>
       <description>Authors: Gabriella Vaglica, Fabrizio Lillo, Esteban Moro y Rosario N. Mantegna
 Journal: Physical Review E 77, 036110 (2008). LINK | arXiv
 Abstract: The dynamics of many socioeconomic systems is determined by the decision making process of agents. The decision process depends on agent&amp;rsquo;s characteristics, such as preferences, risk aversion, behavioral biases, etc. In addition, in some systems the size of agents can be highly heterogeneous leading to very different impacts of agents on the system dynamics.</description>

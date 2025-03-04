@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Weather on </title>
-    <link>http://estebanmoro.org/tags/weather/</link>
+    <link>https://estebanmoro.org/tags/weather/</link>
     <description>Recent content in Weather on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Sat, 28 Apr 2018 08:56:46 +0000</lastBuildDate><atom:link href="http://estebanmoro.org/tags/weather/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 28 Apr 2018 08:56:46 +0000</lastBuildDate><atom:link href="https://estebanmoro.org/tags/weather/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Weather impacts expressed sentiment</title>
-      <link>http://estebanmoro.org/post/2018-04-28-weather-impacts-expressed-sentiment/</link>
+      <link>https://estebanmoro.org/post/2018-04-28-weather-impacts-expressed-sentiment/</link>
       <pubDate>Sat, 28 Apr 2018 08:56:46 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2018-04-28-weather-impacts-expressed-sentiment/</guid>
+      <guid>https://estebanmoro.org/post/2018-04-28-weather-impacts-expressed-sentiment/</guid>
       <description>Authors: Patrick Baylis, Nick Obradovich, Yury Kryvasheyeu, Haohui Chen, Lorenzo Coviello, Esteban Moro, Manuel Cebrian, James H. Fowler
 Journal: PLoS ONE 13(4): e0195750 (2018) LINK
 Abstract: We conduct the largest ever investigation into the relationship between meteorological con- ditions and the sentiment of human expressions. To do this, we employ over three and a half billion social media posts from tens of millions of individuals from both Facebook and Twitter between 2009 and 2016.</description>

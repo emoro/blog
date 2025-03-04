@@ -2,47 +2,47 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2024 on </title>
-    <link>http://estebanmoro.org/tags/2024/</link>
+    <link>https://estebanmoro.org/tags/2024/</link>
     <description>Recent content in 2024 on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Sat, 11 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://estebanmoro.org/tags/2024/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 11 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://estebanmoro.org/tags/2024/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Behaviour-based dependency networks between places shape urban economic resilience</title>
-      <link>http://estebanmoro.org/post/2025-01-11-behaviour-based-dependency-networks/</link>
+      <link>https://estebanmoro.org/post/2025-01-11-behaviour-based-dependency-networks/</link>
       <pubDate>Sat, 11 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2025-01-11-behaviour-based-dependency-networks/</guid>
+      <guid>https://estebanmoro.org/post/2025-01-11-behaviour-based-dependency-networks/</guid>
       <description>Authors: Takahiro Yabe, Bernardo García Bulle Bueno, Morgan R Frank, Alex Pentland, Esteban Moro Publication: Nature Human Behavior (2024) LINK
 Abstract: Disruptions, such as closures of businesses during pandemics, not only affect businesses and amenities directly but also influence how people move, spreading the impact to other businesses and increasing the overall economic shock. However, it is unclear how much businesses depend on each other during disruptions. Leveraging human mobility data and same-day visits in five US cities, we quantify dependencies between points of interest encompassing businesses, stores and amenities.</description>
     </item>
     
     <item>
       <title>Enhancing human mobility research with open and standardized datasets</title>
-      <link>http://estebanmoro.org/post/2024-07-15-enhancing-human-mobility-research-with-open-and-standardized-datasets/</link>
+      <link>https://estebanmoro.org/post/2024-07-15-enhancing-human-mobility-research-with-open-and-standardized-datasets/</link>
       <pubDate>Tue, 16 Jul 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2024-07-15-enhancing-human-mobility-research-with-open-and-standardized-datasets/</guid>
+      <guid>https://estebanmoro.org/post/2024-07-15-enhancing-human-mobility-research-with-open-and-standardized-datasets/</guid>
       <description>Authors: Takahiro Yabe, Massimiliano Luca, Kota Tsubouchi, Bruno Lepri, Marta C. Gonzalez &amp;amp; Esteban Moro Publication: Nature Computational Science (2024). doi: 10.1038/s43588-024-00650-3 LINK
 Abstract: Human mobility research intersects with various disciplines, with profound implications for urban planning, transportation engineering, public health, disaster management, and economic analysis. Here, we discuss the urgent need for open and standardized datasets in the field, including current challenges and lessons from other computational science domains, and propose collaborative efforts to enhance the validity and reproducibility of human mobility research.</description>
     </item>
     
     <item>
       <title>Social media sensors as early signals of influenza outbreaks at scale</title>
-      <link>http://estebanmoro.org/post/2024-07-15-social-media-sensors-as-early-signals-of-influenza-outbreaks-at-scale/</link>
+      <link>https://estebanmoro.org/post/2024-07-15-social-media-sensors-as-early-signals-of-influenza-outbreaks-at-scale/</link>
       <pubDate>Mon, 15 Jul 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2024-07-15-social-media-sensors-as-early-signals-of-influenza-outbreaks-at-scale/</guid>
+      <guid>https://estebanmoro.org/post/2024-07-15-social-media-sensors-as-early-signals-of-influenza-outbreaks-at-scale/</guid>
       <description>Authors: David Martín-Corral, Manuel García-Herranz, Manuel Cebrián &amp;amp; Esteban Moro Publication: EPJ Data Science (2024) 13:43 LINK
 Abstract: Detecting early signals of an outbreak in a viral process is challenging due to its exponential nature, yet crucial given the benefits to public health it can provide. If available, the network structure where infection happens can provide rich information about the very early stages of viral outbreaks. For example, more central nodes have been used as social network sensors in biological or informational diffusion processes to detect early contagious outbreaks.</description>
     </item>
     
     <item>
       <title>Network constraints on worker mobility</title>
-      <link>http://estebanmoro.org/post/2024-01-16-network-constraints-on-worker-mobility/</link>
+      <link>https://estebanmoro.org/post/2024-01-16-network-constraints-on-worker-mobility/</link>
       <pubDate>Tue, 16 Jan 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2024-01-16-network-constraints-on-worker-mobility/</guid>
+      <guid>https://estebanmoro.org/post/2024-01-16-network-constraints-on-worker-mobility/</guid>
       <description>Authors: Morgan R. Frank, Esteban Moro, Tobin South, Alex Rutherford, Alex Pentland, Bledi Taska &amp;amp; Iyad Rahwan Publication: Nature Cities, 1, pages 94–104 (2024) LINK
 Abstract: How do skills shape career mobility and access to cities’ labor markets? Here we model career pathways as an occupation network constructed from the similarity of occupations’ skill requirements within each US city. Using a nationally representative survey and three resume datasets, skill similarity predicts transition rates between occupations and predictions improve with increasingly granular skill data.</description>
     </item>

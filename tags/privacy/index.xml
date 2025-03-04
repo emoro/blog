@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Privacy on </title>
-    <link>http://estebanmoro.org/tags/privacy/</link>
+    <link>https://estebanmoro.org/tags/privacy/</link>
     <description>Recent content in Privacy on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Mon, 31 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://estebanmoro.org/tags/privacy/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 31 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://estebanmoro.org/tags/privacy/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Generating synthetic mobility data for a realistic population with RNNs to improve utility and privacy</title>
-      <link>http://estebanmoro.org/post/2022-01-31-generating-synthetic-mobility-data-for-a-realistic-population-with-rnns-to-improve-utility-and-privacy/</link>
+      <link>https://estebanmoro.org/post/2022-01-31-generating-synthetic-mobility-data-for-a-realistic-population-with-rnns-to-improve-utility-and-privacy/</link>
       <pubDate>Mon, 31 Jan 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2022-01-31-generating-synthetic-mobility-data-for-a-realistic-population-with-rnns-to-improve-utility-and-privacy/</guid>
+      <guid>https://estebanmoro.org/post/2022-01-31-generating-synthetic-mobility-data-for-a-realistic-population-with-rnns-to-improve-utility-and-privacy/</guid>
       <description>Authors: Alex Berke, Ronan Doorley, Kent Larson, Esteban Moro
 Publication: arXiv preprint arXiv:2201.01139 (2022). Link
 Abstract: Location data collected from mobile devices represent mobility behaviors at individual and societal levels. These data have important applications ranging from transportation planning to epidemic modeling. However, issues must be overcome to best serve these use cases: The data often represent a limited sample of the population and use of the data jeopardizes privacy.</description>
@@ -20,10 +20,10 @@ Abstract: Location data collected from mobile devices represent mobility behavio
     
     <item>
       <title>How to Hide One&#39;s Relationships from Link Prediction Algorithms</title>
-      <link>http://estebanmoro.org/post/2019-10-22-how-to-hide-one-s-relationships-from-link-prediction-algorithms/</link>
+      <link>https://estebanmoro.org/post/2019-10-22-how-to-hide-one-s-relationships-from-link-prediction-algorithms/</link>
       <pubDate>Tue, 22 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2019-10-22-how-to-hide-one-s-relationships-from-link-prediction-algorithms/</guid>
+      <guid>https://estebanmoro.org/post/2019-10-22-how-to-hide-one-s-relationships-from-link-prediction-algorithms/</guid>
       <description>Authors: Marcin Waniek, Kai Zhou, Yevgeniy Vorobeychik, Esteban Moro, Tomasz P Michalak, Talal Rahwan
 Journal: Scientific Reports volume 9, Article number: 12208 (2019) Link
 Abstract: Our private connections can be exposed by link prediction algorithms. To date, this threat has only been addressed from the perspective of a central authority, completely neglecting the possibility that members of the social network can themselves mitigate such threats. We fill this gap by studying how an individual can rewire her own network neighborhood to hide her sensitive relationships.</description>

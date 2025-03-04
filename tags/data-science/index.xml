@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Data Science on </title>
-    <link>http://estebanmoro.org/tags/data-science/</link>
+    <link>https://estebanmoro.org/tags/data-science/</link>
     <description>Recent content in Data Science on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Thu, 14 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://estebanmoro.org/tags/data-science/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 14 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://estebanmoro.org/tags/data-science/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Effect of mobile food environments on fast food visits</title>
-      <link>http://estebanmoro.org/post/2022-09-22-you-are-where-you-eat-effect-of-mobile-food-environments-on-fast-food-visits/</link>
+      <link>https://estebanmoro.org/post/2022-09-22-you-are-where-you-eat-effect-of-mobile-food-environments-on-fast-food-visits/</link>
       <pubDate>Thu, 14 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2022-09-22-you-are-where-you-eat-effect-of-mobile-food-environments-on-fast-food-visits/</guid>
+      <guid>https://estebanmoro.org/post/2022-09-22-you-are-where-you-eat-effect-of-mobile-food-environments-on-fast-food-visits/</guid>
       <description>Authors: Bernardo Garcia-Bulle, Abigail L. Horn, Brooke M. Bell, Mohsen Bahrami, Burcin Bozkaya, Alex Pentland, Kayla de la Haye, and Esteban Moro
 Publication: Nature Communications 15, article number: 2291. LINK
 Abstract: Poor diets are a leading cause of morbidity and mortality. Exposure to low-quality food environments saturated with fast food outlets is hypothesized to negatively impact diet. However, food environment research has predominantly focused on static food environments around home neighborhoods and generated mixed findings.</description>
@@ -20,50 +20,50 @@ Abstract: Poor diets are a leading cause of morbidity and mortality. Exposure to
     
     <item>
       <title>Identifying latent activity behaviors and lifestyles using mobility data to describe urban dynamics</title>
-      <link>http://estebanmoro.org/post/2022-11-28-identifying-latent-activity-behaviors-and-lifestyles-using-mobility-data-to-describe-urban-dynamics/</link>
+      <link>https://estebanmoro.org/post/2022-11-28-identifying-latent-activity-behaviors-and-lifestyles-using-mobility-data-to-describe-urban-dynamics/</link>
       <pubDate>Thu, 18 May 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2022-11-28-identifying-latent-activity-behaviors-and-lifestyles-using-mobility-data-to-describe-urban-dynamics/</guid>
+      <guid>https://estebanmoro.org/post/2022-11-28-identifying-latent-activity-behaviors-and-lifestyles-using-mobility-data-to-describe-urban-dynamics/</guid>
       <description>Authors: Yanni Yang, Alex Pentland, Esteban Moro Publication: EPJ Data Science 12, Article number: 15 (2023) LINK
 Abstract: Urbanization and its problems require an in-depth and comprehensive understanding of urban dynamics, especially the complex and diversified lifestyles in modern cities. Digitally acquired data can accurately capture complex human activity, but it lacks the interpretability of demographic data. In this paper, we study a privacy-enhanced dataset of the mobility visitation patterns of 1.</description>
     </item>
     
     <item>
       <title>Social Media Sensors to Detect Early Warnings of Influenza at Scale</title>
-      <link>http://estebanmoro.org/post/2022-11-18-social-media-sensors-to-detect-early-warnings-of-influenza-at-scale/</link>
+      <link>https://estebanmoro.org/post/2022-11-18-social-media-sensors-to-detect-early-warnings-of-influenza-at-scale/</link>
       <pubDate>Fri, 18 Nov 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2022-11-18-social-media-sensors-to-detect-early-warnings-of-influenza-at-scale/</guid>
+      <guid>https://estebanmoro.org/post/2022-11-18-social-media-sensors-to-detect-early-warnings-of-influenza-at-scale/</guid>
       <description>Authors: David Martín-Corral, Manuel García-Herranz, Manuel Cebrian, Esteban Moro Publication: medRxiv 2022.11.15.22282355 LINK
 Abstract: Detecting early signs of an outbreak in a viral process is challenging due to its exponential nature, yet crucial given the benefits to public health it can provide. If available, the network structure where infection happens can provide rich information about the very early stages of viral outbreaks. For example, more central nodes have been used as social network sensors in biological or informational diffusion processes to detect early contagious outbreaks.</description>
     </item>
     
     <item>
       <title>Behavioral-network determinants of health outcomes.</title>
-      <link>http://estebanmoro.org/post/2022-10-25-behavioral-network-determinants-of-health-outcomes/</link>
+      <link>https://estebanmoro.org/post/2022-10-25-behavioral-network-determinants-of-health-outcomes/</link>
       <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2022-10-25-behavioral-network-determinants-of-health-outcomes/</guid>
+      <guid>https://estebanmoro.org/post/2022-10-25-behavioral-network-determinants-of-health-outcomes/</guid>
       <description>Our behavior conditions our health. Exposure to infections depends on our and other people’s mobility. Exposure to healthy environments or habits depends on our choices and opportunities. Although human behavior is highly adaptive and dynamic, most social determinants of health are restricted to static aggregated representations of socio-demographic groups or residential environments.
 We have started a program to understand behavioral-network determinants of health outcomes by modeling physical exposure between people and environments using large datasets of human mobility and activity and multilayer networks.</description>
     </item>
     
     <item>
       <title>Creating resilient urban labor economies</title>
-      <link>http://estebanmoro.org/post/2022-10-25-creating-resilient-urban-labor-economies/</link>
+      <link>https://estebanmoro.org/post/2022-10-25-creating-resilient-urban-labor-economies/</link>
       <pubDate>Sun, 02 Jan 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2022-10-25-creating-resilient-urban-labor-economies/</guid>
+      <guid>https://estebanmoro.org/post/2022-10-25-creating-resilient-urban-labor-economies/</guid>
       <description>Like ecosystems, societies with adaptable economies are best prepared for the future. We started a research program to understand and detect economic resilience encoded in the dependency networks of agents, businesses, cities, or jobs. In particular, how much of the adaptability of our economies depends on the fragility of those economic networks? Can we identify weaknesses and design policies to strengthen those interdependent units?
 Using highly detailed information about jobs, skills, and cities, our foundational study extended traditional economic models to show that the network structure of interactions and flows between jobs determines the resilience of labor markets.</description>
     </item>
     
     <item>
       <title>Analyzing gender inequality through large-scale Facebook advertising data</title>
-      <link>http://estebanmoro.org/post/2018-06-19-analyzing-gender-inequality-through-large-scale-facebook-advertising-data/</link>
+      <link>https://estebanmoro.org/post/2018-06-19-analyzing-gender-inequality-through-large-scale-facebook-advertising-data/</link>
       <pubDate>Tue, 19 Jun 2018 21:34:10 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2018-06-19-analyzing-gender-inequality-through-large-scale-facebook-advertising-data/</guid>
+      <guid>https://estebanmoro.org/post/2018-06-19-analyzing-gender-inequality-through-large-scale-facebook-advertising-data/</guid>
       <description>Authors: David Garcia, Yonas Mitike Kassa, Angel Cuevas, Manuel Cebrian, Esteban Moro, Iyad Rahwan, and Ruben Cuevas
 Journal: PNAS June 19, 2018. 201717781. LINK
 Abstract: Online social media are information resources that can have a transformative power in society. While the Web was envisioned as an equalizing force that allows everyone to access information, the digital divide prevents large amounts of people from being present online. Online social media, in particular, are prone to gen- der inequality, an important issue given the link between social media use and employment.</description>

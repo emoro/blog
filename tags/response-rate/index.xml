@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>response rate on </title>
-    <link>http://estebanmoro.org/tags/response-rate/</link>
+    <link>https://estebanmoro.org/tags/response-rate/</link>
     <description>Recent content in response rate on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Tue, 02 Dec 2008 09:47:23 +0000</lastBuildDate><atom:link href="http://estebanmoro.org/tags/response-rate/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 02 Dec 2008 09:47:23 +0000</lastBuildDate><atom:link href="https://estebanmoro.org/tags/response-rate/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Percentages and absolute numbers</title>
-      <link>http://estebanmoro.org/2008/12/percentages-and-absolute-numbers/</link>
+      <link>https://estebanmoro.org/2008/12/percentages-and-absolute-numbers/</link>
       <pubDate>Tue, 02 Dec 2008 09:47:23 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/2008/12/percentages-and-absolute-numbers/</guid>
+      <guid>https://estebanmoro.org/2008/12/percentages-and-absolute-numbers/</guid>
       <description>Percentage of active users in the Internet 2.0 is tiny. Fractions go from
  * only 1% of Wikipedia&#39;s users contribute to making it better * only 0.1% of users upload their own videos to Youtube * only 3% of people with weblogs post on a daily basis * only 1% of Amazon.com customers contribute with reviews  The numbers are tiny. But not uncommon. Typical return rates of marketing campaigns or surveys are around 2-5% (see report by the Direct Marketing Association).</description>
     </item>
     
     <item>
       <title>Why I didn’t answer your email</title>
-      <link>http://estebanmoro.org/2005/11/why-i-didnt-answer-your-email/</link>
+      <link>https://estebanmoro.org/2005/11/why-i-didnt-answer-your-email/</link>
       <pubDate>Wed, 16 Nov 2005 07:36:34 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/2005/11/why-i-didnt-answer-your-email/</guid>
+      <guid>https://estebanmoro.org/2005/11/why-i-didnt-answer-your-email/</guid>
       <description>In a recent Nature article, Albert-Lászlo Barabási and João Gama Oliveira, have found the perfect excuse for lazy people not answering some emails in their inbox: they analyzed the time response of emails and found that they follow a power law probability distribution of the form P(t) = 1/t. In particular this implies that not even the mean response time is finite. Hey! why should you then expect me to answer your emails within my lifetime period!</description>
     </item>
     

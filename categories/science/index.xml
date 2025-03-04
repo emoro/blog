@@ -1,28 +1,28 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Science on </title>
-    <link>http://estebanmoro.org/categories/science/</link>
+    <link>https://estebanmoro.org/categories/science/</link>
     <description>Recent content in Science on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Wed, 20 Sep 2023 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="http://estebanmoro.org/categories/science/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://estebanmoro.org/categories/science/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Social Urban Networks at NetSI (Northeastern)</title>
-      <link>http://estebanmoro.org/post/2023-09-20-social-urban-networks-at-netsi-northeastern/</link>
+      <link>https://estebanmoro.org/post/2023-09-20-social-urban-networks-at-netsi-northeastern/</link>
       <pubDate>Wed, 20 Sep 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2023-09-20-social-urban-networks-at-netsi-northeastern/</guid>
+      <guid>https://estebanmoro.org/post/2023-09-20-social-urban-networks-at-netsi-northeastern/</guid>
       <description>&lt;p&gt;I am thrilled to announce that I will be joining the &lt;a href=&#34;https://www.networkscienceinstitute.org&#34;&gt;Network Science Institute&lt;/a&gt; at &lt;a href=&#34;https://www.northeastern.edu&#34;&gt;Northeastern University&lt;/a&gt; as a Professor starting January 2024! As a researcher in Social Urban Networks (SUN) it is a dream come true.&lt;/p&gt;
-&lt;p&gt;My group will focus on developing computational social science &lt;a href=&#34;https://inequality.media.mit.edu&#34;&gt;tools&lt;/a&gt; to address urban challenges, from &lt;a href=&#34;http://estebanmoro.org/&#34;&gt;climate change&lt;/a&gt;, &lt;a href=&#34;http://estebanmoro.org/post/2019-02-02-behavioral-fundations-of-inequality/&#34;&gt;inequality&lt;/a&gt; to &lt;a href=&#34;http://estebanmoro.org/post/2022-10-25-behavioral-network-determinants-of-health-outcomes/&#34;&gt;health&lt;/a&gt; and &lt;a href=&#34;http://estebanmoro.org/post/2022-10-25-creating-resilient-urban-labor-economies/&#34;&gt;economic development&lt;/a&gt;. By using large datasets of human behavior, tools and ideas from physics, applied mathematics, complex systems or network science, and collaborations with industry, government, and local communities, we seek not only to advance the understanding of the temporal dynamics of social systems to unprecedented levels but also to transform our findings into tools and policies to help achieve resilient and equitable adaptation of our societies.&lt;/p&gt;
+&lt;p&gt;My group will focus on developing computational social science &lt;a href=&#34;https://inequality.media.mit.edu&#34;&gt;tools&lt;/a&gt; to address urban challenges, from &lt;a href=&#34;https://estebanmoro.org/&#34;&gt;climate change&lt;/a&gt;, &lt;a href=&#34;https://estebanmoro.org/post/2019-02-02-behavioral-fundations-of-inequality/&#34;&gt;inequality&lt;/a&gt; to &lt;a href=&#34;https://estebanmoro.org/post/2022-10-25-behavioral-network-determinants-of-health-outcomes/&#34;&gt;health&lt;/a&gt; and &lt;a href=&#34;https://estebanmoro.org/post/2022-10-25-creating-resilient-urban-labor-economies/&#34;&gt;economic development&lt;/a&gt;. By using large datasets of human behavior, tools and ideas from physics, applied mathematics, complex systems or network science, and collaborations with industry, government, and local communities, we seek not only to advance the understanding of the temporal dynamics of social systems to unprecedented levels but also to transform our findings into tools and policies to help achieve resilient and equitable adaptation of our societies.&lt;/p&gt;
 &lt;p&gt;I am recruiting graduate students and postdocs to join my SUN group. We offer fully-funded PhD and postdoc positions and we are seeking highly motivated researchers to explore the following subjects:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://estebanmoro.org/post/2019-02-02-behavioral-fundations-of-inequality/&#34;&gt;Fighting inequality in urban areas&lt;/a&gt;: mapping the inequality in the social fabric of cities at an unprecedented scale using high-resolution mobility and activity data.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://estebanmoro.org/post/2022-10-25-creating-resilient-urban-labor-economies/&#34;&gt;Creating resilient labor and urban economies&lt;/a&gt;: detecting economic resilience encoded in the dependency networks of agents, business, cities, or jobs.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://estebanmoro.org/post/2022-10-25-behavioral-network-determinants-of-health-outcomes/&#34;&gt;Understanding behavioral-network determinants of health outcomes in our cities&lt;/a&gt;, by modeling physical exposure between people and healthy environments.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://estebanmoro.org/post/2019-02-02-behavioral-fundations-of-inequality/&#34;&gt;Fighting inequality in urban areas&lt;/a&gt;: mapping the inequality in the social fabric of cities at an unprecedented scale using high-resolution mobility and activity data.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://estebanmoro.org/post/2022-10-25-creating-resilient-urban-labor-economies/&#34;&gt;Creating resilient labor and urban economies&lt;/a&gt;: detecting economic resilience encoded in the dependency networks of agents, business, cities, or jobs.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://estebanmoro.org/post/2022-10-25-behavioral-network-determinants-of-health-outcomes/&#34;&gt;Understanding behavioral-network determinants of health outcomes in our cities&lt;/a&gt;, by modeling physical exposure between people and healthy environments.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;If you are interested, contact me at &lt;a href=&#34;mailto:esteban.moroegido@gmail.com&#34;&gt;esteban.moroegido@gmail.com&lt;/a&gt; to get more information about those positions.&lt;/p&gt;
 </description>
@@ -30,21 +30,21 @@
     
     <item>
       <title>Factors Improving Labor Resiliency in U.S. Cities.</title>
-      <link>http://estebanmoro.org/post/2021-03-29-factors-improving-job-resiliency-in-u-s-cities/</link>
+      <link>https://estebanmoro.org/post/2021-03-29-factors-improving-job-resiliency-in-u-s-cities/</link>
       <pubDate>Mon, 29 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2021-03-29-factors-improving-job-resiliency-in-u-s-cities/</guid>
-      <description>&lt;p&gt;What makes urban labor markets more resilient? This is the question at the heart of a &lt;a href=&#34;http://estebanmoro.org/post/2021-03-30-universal-resilience-patterns-in-labor-markets/&#34;&gt;new study we have published in Nature Communications&lt;/a&gt;. We drew on prior network modeling research to map the job landscapes in cities across the United States, and showed that job “connectedness” is a key determinant of the resilience of local economies.&lt;/p&gt;
+      <guid>https://estebanmoro.org/post/2021-03-29-factors-improving-job-resiliency-in-u-s-cities/</guid>
+      <description>&lt;p&gt;What makes urban labor markets more resilient? This is the question at the heart of a &lt;a href=&#34;https://estebanmoro.org/post/2021-03-30-universal-resilience-patterns-in-labor-markets/&#34;&gt;new study we have published in Nature Communications&lt;/a&gt;. We drew on prior network modeling research to map the job landscapes in cities across the United States, and showed that job “connectedness” is a key determinant of the resilience of local economies.&lt;/p&gt;
 &lt;p&gt;Economists, policy makers, city planners, and companies have a strong interest in determining what factors contribute to healthy job markets, including what factors can help promote faster recovery after a shock, such as a major recession or the current COVID pandemic. Traditional modeling approaches in this realm have treated workers as narrowly linked to specific jobs. In the real world, however, jobs and sectors are linked. Displaced workers can often transition to another job or sector requiring similar skills. In this way, job markets are much like ecosystems, where organisms are linked in a complex web of relationships.&lt;/p&gt;
 &lt;p&gt;In ecology and other domains where complex networks are present, resilience has been closely linked to the “connectedness” of the networks. In nature, for example, ecosystems with many mutualistic connections have proven more resistant to shocks, such as changes in acidity or temperature, than those with fewer connections. By drawing on ecosystem-inspired network models and extending the Noble-prize-winning Pissarides-Mortensen job matching framework, the authors of the Nature study modeled the relationships between jobs in cities across the United States. Just as connectedness in nature fosters resilience, they predicted that cities with jobs connected by overlapping skills and geography would fare better in the face of economic shock than those without such networks.&lt;/p&gt;
 &lt;p&gt;To validate this, the researchers examined data from the Bureau of Labor Statistics for all metropolitan areas in the country from the onset to the end of the Great Recession. They were able to create job landscape maps for each area, including not just the numbers of specific jobs, but also their geographical distribution and the extent to which the skills they required overlapped with other jobs in the area. The size of a given city, as well as its employment diversity, played a role in resilience, with bigger, more diverse cities faring better than smaller and less-diverse ones. However, controlling for size and diversity, factoring in job connectivity significantly improved predictions of peak unemployment rates during the recession. Cities where job connectivity was highest leading up to the crash were significantly more resilient and recovered faster than those with less-connected markets.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://estebanmoro.org/img/posts/labormarket.png&#34; alt=&#34;Figure: Workers can transition from one job to another one that requires similar skills. This defines a network between occupations where job matching occurs and shows a clear structure by sectors. In some cities that network is very connected (Burlington, VT) and there are many possibilities for a worker to find another job. In some other cities (Bloomington, IN) the network is sparser. The network connectivity encodes how resilient is the city’s labor market to unemployment shocks&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/img/posts/labormarket.png&#34; alt=&#34;Figure: Workers can transition from one job to another one that requires similar skills. This defines a network between occupations where job matching occurs and shows a clear structure by sectors. In some cities that network is very connected (Burlington, VT) and there are many possibilities for a worker to find another job. In some other cities (Bloomington, IN) the network is sparser. The network connectivity encodes how resilient is the city’s labor market to unemployment shocks&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Even in the absence of temporary crises like the Great Recession or the COVID pandemic, automation promises to upend the employment landscapes of many areas in coming years. How can cities prepare for this disruption? The researchers in this study extended their model to predict how job markets would behave when facing job loss due to automation. They found that while cities of similar sizes would be affected similarly in the beginning phases of automation shocks, those with well-connected job networks would provide better opportunities for displaced workers to find other jobs. This provides a buffer against widespread unemployment, and in some cases even leads to more jobs being created in the aftermath of the initial automation shock. A city like Burlington, VT, where job connectivity is high, would fare much better than Bloomington Indiana, a similar-sized city where job connectivity is low.&lt;/p&gt;
 &lt;p&gt;The findings of the study suggest that policy-makers should consider job connectivity when planning for the future of work in their regions, especially where automation is expected to replace large numbers of jobs. Not only does increased connectivity result in lower unemployment – it also contributes to a rise in overall wages. Furthermore, in individual occupations, workers in jobs that are more “embedded” (connected to other jobs) in a region, earn higher wages than similar workers in areas where those jobs are not as connected.&lt;/p&gt;
 &lt;p&gt;These results offer fresh insight to help steer discussions about the Future of Work and may help guide and complement current decisions about where to invest in job creation and training programs.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Links&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;To read the full article, visit &lt;a href=&#34;http://estebanmoro.org/post/2021-03-30-universal-resilience-patterns-in-labor-markets/&#34;&gt;this link&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;To read the full article, visit &lt;a href=&#34;https://estebanmoro.org/post/2021-03-30-universal-resilience-patterns-in-labor-markets/&#34;&gt;this link&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Explore the data and nice visualizations &lt;a href=&#34;http://pitt.edu/~labornet/&#34;&gt;in our interactive tool&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
@@ -52,10 +52,10 @@
     
     <item>
       <title>The Atlas of Inequality</title>
-      <link>http://estebanmoro.org/post/2019-03-02-the-atlas-of-segregation/</link>
+      <link>https://estebanmoro.org/post/2019-03-02-the-atlas-of-segregation/</link>
       <pubDate>Sat, 02 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2019-03-02-the-atlas-of-segregation/</guid>
+      <guid>https://estebanmoro.org/post/2019-03-02-the-atlas-of-segregation/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Segregation is hurting our societies and specially our cities. But economic inequality isn&amp;rsquo;t just limited to neighborhoods. The restaurants, stores, and other places we visit in cities are all unequal in their own way.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;The Atlas of Inequality  shows the income inequality of people who visit different places in the Boston metro area. It uses aggregated anonymous location data from digital devices to estimate people&amp;rsquo;s incomes and where they spend their time. Using that data, we&amp;rsquo;ve made our own place inequality metric to capture how unequal the incomes of visitors to each place are. Economic inequality isn&amp;rsquo;t just limited to neighborhoods; it&amp;rsquo;s part of the places you visit every day.&lt;/p&gt;
 &lt;p&gt;Try it yourself here:&lt;/p&gt;
@@ -67,11 +67,11 @@
     
     <item>
       <title>Netmob 2019</title>
-      <link>http://estebanmoro.org/post/2019-02-01-netmob-2019/</link>
+      <link>https://estebanmoro.org/post/2019-02-01-netmob-2019/</link>
       <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2019-02-01-netmob-2019/</guid>
-      <description>&lt;p&gt;Another edition of Netmob is happening this year 2019. NetMob is the primary conference in the analysis of mobile phone datasets in social, urban, societal and industrial problems. Previous editions in Boston and Milano brought together more than 250 researchers, practitioners and decision-makers from more 140 institutions and 30 countries. I had the pleasure to organize the &lt;a href=&#34;http://estebanmoro.org/post/2015-04-14-netmob-2015&#34;&gt;2015 edition&lt;/a&gt; and it was a blast to put together so much interesting talks, people, projects.
+      <guid>https://estebanmoro.org/post/2019-02-01-netmob-2019/</guid>
+      <description>&lt;p&gt;Another edition of Netmob is happening this year 2019. NetMob is the primary conference in the analysis of mobile phone datasets in social, urban, societal and industrial problems. Previous editions in Boston and Milano brought together more than 250 researchers, practitioners and decision-makers from more 140 institutions and 30 countries. I had the pleasure to organize the &lt;a href=&#34;https://estebanmoro.org/post/2015-04-14-netmob-2015&#34;&gt;2015 edition&lt;/a&gt; and it was a blast to put together so much interesting talks, people, projects.
 Any contribution about mobile phone data is welcome, not only CDRs (call detail records). This includes, mobile location data, wifi usage, app-generated data, Twitter, Facebook, etc. The format of the conference is also flexibel: one track of short contributed talks and a simplified submission procedure (1-page abstracts).&lt;/p&gt;
 &lt;p&gt;This time is happening at another special place for me: the Mathematical Institute or University of Oxford (UK) from July 8-10 2019 and the local organizer is Renaud Lambiotte. Join us there.&lt;/p&gt;
 &lt;p&gt;More info:&lt;/p&gt;
@@ -86,16 +86,16 @@ Any contribution about mobile phone data is welcome, not only CDRs (call detail 
     
     <item>
       <title>Growing old in Twitter</title>
-      <link>http://estebanmoro.org/post/2018-12-14-growing-old-in-twitter/</link>
+      <link>https://estebanmoro.org/post/2018-12-14-growing-old-in-twitter/</link>
       <pubDate>Fri, 14 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2018-12-14-growing-old-in-twitter/</guid>
-      <description>&lt;script src=&#34;http://estebanmoro.org/rmarkdown-libs/htmlwidgets/htmlwidgets.js&#34;&gt;&lt;/script&gt;
-&lt;link href=&#34;http://estebanmoro.org/rmarkdown-libs/wordcloud2/wordcloud.css&#34; rel=&#34;stylesheet&#34; /&gt;
-&lt;script src=&#34;http://estebanmoro.org/rmarkdown-libs/wordcloud2/wordcloud2-all.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;http://estebanmoro.org/rmarkdown-libs/wordcloud2/hover.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;http://estebanmoro.org/rmarkdown-libs/wordcloud2-binding/wordcloud2.js&#34;&gt;&lt;/script&gt;
-&lt;p&gt;I started using Twitter more than 10 years ago (!). I open an account in this social network in 2008 and although I was not using it too much for the first year, I become a frequent user after that. It has helped me to get news, information both for my personal and professional interests. But not only that, Twitter has been also the data source for our research, that helped us to investigate the relationship between human behavior in the social platform and paramount problems in our society as &lt;a href=&#34;http://estebanmoro.org/post/2014-04-09-using-friends-as-sensors&#34;&gt;information propagation&lt;/a&gt;, &lt;a href=&#34;http://estebanmoro.org/post/2014-11-13-social-media-fingerprints-of-unemployment&#34;&gt;unemployment&lt;/a&gt;, &lt;a href=&#34;http://estebanmoro.org/post/2016-03-14-rapid-assessment-of-disaster-damage&#34;&gt;disaster damage&lt;/a&gt;, &lt;a href=&#34;http://estebanmoro.org/post/2014-04-22-comunidades-de-partidarios-en-redes-sociales-estudio-de-las-elecciones-catalanas-de-2010-y-2012&#34;&gt;political opinion&lt;/a&gt;. As we keep on working on those subjects we have also recently extended our research to other problems like health, or &lt;a href=&#34;http://estebanmoro.org/post/2018-04-28-weather-impacts-expressed-sentiment&#34;&gt;climate change&lt;/a&gt;&lt;/p&gt;
+      <guid>https://estebanmoro.org/post/2018-12-14-growing-old-in-twitter/</guid>
+      <description>&lt;script src=&#34;https://estebanmoro.org/rmarkdown-libs/htmlwidgets/htmlwidgets.js&#34;&gt;&lt;/script&gt;
+&lt;link href=&#34;https://estebanmoro.org/rmarkdown-libs/wordcloud2/wordcloud.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;script src=&#34;https://estebanmoro.org/rmarkdown-libs/wordcloud2/wordcloud2-all.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://estebanmoro.org/rmarkdown-libs/wordcloud2/hover.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://estebanmoro.org/rmarkdown-libs/wordcloud2-binding/wordcloud2.js&#34;&gt;&lt;/script&gt;
+&lt;p&gt;I started using Twitter more than 10 years ago (!). I open an account in this social network in 2008 and although I was not using it too much for the first year, I become a frequent user after that. It has helped me to get news, information both for my personal and professional interests. But not only that, Twitter has been also the data source for our research, that helped us to investigate the relationship between human behavior in the social platform and paramount problems in our society as &lt;a href=&#34;https://estebanmoro.org/post/2014-04-09-using-friends-as-sensors&#34;&gt;information propagation&lt;/a&gt;, &lt;a href=&#34;https://estebanmoro.org/post/2014-11-13-social-media-fingerprints-of-unemployment&#34;&gt;unemployment&lt;/a&gt;, &lt;a href=&#34;https://estebanmoro.org/post/2016-03-14-rapid-assessment-of-disaster-damage&#34;&gt;disaster damage&lt;/a&gt;, &lt;a href=&#34;https://estebanmoro.org/post/2014-04-22-comunidades-de-partidarios-en-redes-sociales-estudio-de-las-elecciones-catalanas-de-2010-y-2012&#34;&gt;political opinion&lt;/a&gt;. As we keep on working on those subjects we have also recently extended our research to other problems like health, or &lt;a href=&#34;https://estebanmoro.org/post/2018-04-28-weather-impacts-expressed-sentiment&#34;&gt;climate change&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Most of the research in human behavior is constrained either by time or by population covered, so we can’t have both. Large longitudinal databases, extending tens of years, are relatively small in the number of participants or users, while data from millions of users is usually obtained for a very short period of time (months or years). One of the good things about &lt;em&gt;growing old&lt;/em&gt; in those social networks is that we are starting to see tens of years of data to analyze.&lt;/p&gt;
 &lt;p&gt;Here I want to analyze by Twitter activity during those last 10 years. First thing is to download all our account activity, something that is explain in the &lt;a href=&#34;https://help.twitter.com/en/managing-your-account/how-to-download-your-twitter-archive&#34;&gt;How to download and view your Twitter archive&lt;/a&gt; help page at Twitter. Basically:&lt;/p&gt;
 &lt;ul&gt;
@@ -120,7 +120,7 @@ tweets &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; jsonlite
   &lt;span style=&#34;color:#a6e22e&#34;&gt;geom_bar&lt;/span&gt;(binwidth&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;.09&lt;/span&gt;)&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;scale_x_yearmon&lt;/span&gt;() &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; 
   &lt;span style=&#34;color:#a6e22e&#34;&gt;theme_bw&lt;/span&gt;() &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; 
   &lt;span style=&#34;color:#a6e22e&#34;&gt;ylab&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Number of tweets per month&amp;#34;&lt;/span&gt;) &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;xlab&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Time&amp;#34;&lt;/span&gt;)
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;http://estebanmoro.org/post/2018-12-14-growing-old-in-twitter_files/figure-html/unnamed-chunk-5-1.png&#34; width=&#34;672&#34; /&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;https://estebanmoro.org/post/2018-12-14-growing-old-in-twitter_files/figure-html/unnamed-chunk-5-1.png&#34; width=&#34;672&#34; /&gt;
 &lt;p&gt;As we can see, the most active years were from 2011 to 2015 (around 100 tweets per month). From then on I am tweeting less, corroborating my feeling that I spent less time in the platform (at least tweeting :) )&lt;/p&gt;
 &lt;h3 id=&#34;tweeting-or-retweeting-more&#34;&gt;Tweeting or retweeting more?&lt;/h3&gt;
 &lt;p&gt;Have I changed the way I use Twitter? Our research in &lt;a href=&#34;2017-03-07-twitter-session-analytics-profiling-users-short-term-behavioral-changes/&#34;&gt;Twitter sessions&lt;/a&gt; and social networks using mobile phone data shows that because of our limited atention and cognitive capacities people tend to perform simpler tasks with time and age. For example we found that in long sessions in Twitter (two or more hours), users start composing less messages (which require more effort) and use more retweets or mentions (replies) within the session, that require less effort.&lt;/p&gt;
@@ -136,7 +136,7 @@ tweets&lt;span style=&#34;color:#f92672&#34;&gt;$&lt;/span&gt;class&lt;span styl
   &lt;span style=&#34;color:#a6e22e&#34;&gt;geom_bar&lt;/span&gt;(position&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;fill&amp;#34;&lt;/span&gt;,binwidth&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;.09&lt;/span&gt;)&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;
   &lt;span style=&#34;color:#a6e22e&#34;&gt;scale_x_yearmon&lt;/span&gt;() &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;theme_bw&lt;/span&gt;() &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; 
   &lt;span style=&#34;color:#a6e22e&#34;&gt;ylab&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Fraction of tweets of each class&amp;#34;&lt;/span&gt;) &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;xlab&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Time&amp;#34;&lt;/span&gt;)
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;http://estebanmoro.org/post/2018-12-14-growing-old-in-twitter_files/figure-html/unnamed-chunk-7-1.png&#34; width=&#34;672&#34; /&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;https://estebanmoro.org/post/2018-12-14-growing-old-in-twitter_files/figure-html/unnamed-chunk-7-1.png&#34; width=&#34;672&#34; /&gt;
 &lt;p&gt;Similar to our research for Twitter sessions, I can see that I compose less original tweets with time: while in 2010 almost 50% of my tweets were composed, now only 20% are original and more than 50% of the tweets in my account are retweets.&lt;/p&gt;
 &lt;h3 id=&#34;tweeting-about-what&#34;&gt;Tweeting about what?&lt;/h3&gt;
 &lt;p&gt;Finally, let’s see what I tweeted about. Although we could probably do much elaborated analysis, a simple wordcloud will do here. We clean up the text of the tweets (including mentions and retweets) and produce a wordcloud&lt;/p&gt;
@@ -168,14 +168,14 @@ d &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span styl
     
     <item>
       <title>Important relationships are not bursty</title>
-      <link>http://estebanmoro.org/2017/12/important-relationships-are-not-bursty/</link>
+      <link>https://estebanmoro.org/2017/12/important-relationships-are-not-bursty/</link>
       <pubDate>Tue, 19 Dec 2017 15:32:05 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/2017/12/important-relationships-are-not-bursty/</guid>
+      <guid>https://estebanmoro.org/2017/12/important-relationships-are-not-bursty/</guid>
       <description>&lt;p&gt;What are the properties of a long-lasting relationship? This important question as intrigued the social scientists during the last decades and has triggered numerous publications, surveys and experiments to detect what patterns are behind social relationships that persist. Probably the most famous finding is that of Granovetter who &lt;a href=&#34;https://en.wikipedia.org/wiki/Interpersonal_ties&#34;&gt;proposed&lt;/a&gt; that strong relationships are the ones more likely to persist in the future. And what is a strong relationship? According to Granovetter, a strong relationship is that with high intensity (a lot of interactions), intimacy (mutual confiding) and large structural redundancy (lots of common friends).&lt;/p&gt;
-&lt;p&gt;But even strong relationships decay and we don&amp;rsquo;t understand why relationships break apart despite they have a lot of common friends, talk or meet quite often. In a &lt;a href=&#34;http://estebanmoro.org/post/temporal-patterns-behind-the-strength-of-persistent-ties/&#34;&gt;recent paper&lt;/a&gt; we tried to study this problem from another point of view: the temporal style of social interactions. Our research is based on the finding by Barábasi that &lt;a href=&#34;https://www.amazon.com/Bursts-Patterns-Everything-mail-Crusades/dp/0452297184&#34;&gt;human activities are bursty:&lt;/a&gt; short burst of activity (work, communication, going to the library, etc.) are followed by large periods of inactivity. And we have also seen that this happens also for relationships [&lt;a href=&#34;http://estebanmoro.org/2010/11/the-dynamical-strength-of-social-ties-in-information-spreading/&#34;&gt;link&lt;/a&gt;], were interactions (talk, meetings) between people follow also that bursty pattern. &lt;strong&gt;Burstiness is the default&lt;/strong&gt; in human interactions and there are theories that explain its prevalence based on how humans manage their attention and priorities: since we have many tasks to perform, we prioritize them resulting in bursts of events in one activity followed by large inactivity periods in which we are doing some other tasks.&lt;/p&gt;
+&lt;p&gt;But even strong relationships decay and we don&amp;rsquo;t understand why relationships break apart despite they have a lot of common friends, talk or meet quite often. In a &lt;a href=&#34;https://estebanmoro.org/post/temporal-patterns-behind-the-strength-of-persistent-ties/&#34;&gt;recent paper&lt;/a&gt; we tried to study this problem from another point of view: the temporal style of social interactions. Our research is based on the finding by Barábasi that &lt;a href=&#34;https://www.amazon.com/Bursts-Patterns-Everything-mail-Crusades/dp/0452297184&#34;&gt;human activities are bursty:&lt;/a&gt; short burst of activity (work, communication, going to the library, etc.) are followed by large periods of inactivity. And we have also seen that this happens also for relationships [&lt;a href=&#34;http://estebanmoro.org/2010/11/the-dynamical-strength-of-social-ties-in-information-spreading/&#34;&gt;link&lt;/a&gt;], were interactions (talk, meetings) between people follow also that bursty pattern. &lt;strong&gt;Burstiness is the default&lt;/strong&gt; in human interactions and there are theories that explain its prevalence based on how humans manage their attention and priorities: since we have many tasks to perform, we prioritize them resulting in bursts of events in one activity followed by large inactivity periods in which we are doing some other tasks.&lt;/p&gt;
 &lt;p&gt;Thus, if burstiness is the default, &lt;strong&gt;what does a regular activity pattern tell us about the importance of that activity&lt;/strong&gt;? Look at the following plot in which we show four different activities (A to D) performed by the same person (each vertical line is an event).&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://estebanmoro.org/img/posts/bursty.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/img/posts/bursty.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Each vertical line corresponds to an event in that activity, which for example could be talking or meeting a given friend. As we can see C) and D) are very bursty patterns of activity, while A) and B) are more regular. Note that all activities have the same number of events (8). By looking at these patterns, can you tell which activity/relationship is more important to this person? Maybe A) and B) were more important because they require more attention and regularity in the interaction, while C) and D) are the unexceptional bursty patterns we all have. &lt;a href=&#34;http://estebanmoro.org/2017/06/temporal-patterns-behind-the-strength-of-persistent-ties/&#34;&gt;Our results of our research&lt;/a&gt; corroborate that intuition: in particular we have found that social relationships that look like A) and B) are stronger and are more likely to persist in the future than those like C) or D).&lt;/p&gt;
 &lt;p&gt;Thus, &lt;strong&gt;burstiness makes relationships weaker&lt;/strong&gt;, while regularity reveals strong more persistent social ties.  If you really care about a relationship, you have to maintain a regular interaction. Stop what you are doing and call that old friend of yours to let her/him know you really care about them and resume your non-bursty interaction. Pretty much can happen to your New Year&amp;rsquo;s resolutions: if you register for the gym to get fit, try to find a time every week rather than go every now and them when you have free time. This is probably a good way to bit the odds that after 15th of January &lt;a href=&#34;https://www.usatoday.com/story/money/personalfinance/2013/01/16/gyms-new-years-resolution-rush/1779651/&#34;&gt;95% new gym memberships will never come back&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Find our research here:&lt;/p&gt;
@@ -187,23 +187,23 @@ EPJ Data Science (2017) &lt;strong&gt;6&lt;/strong&gt;:31 [&lt;strong&gt;&lt;a 
     
     <item>
       <title>Network Science for kids!</title>
-      <link>http://estebanmoro.org/2017/03/network-science-for-kids/</link>
+      <link>https://estebanmoro.org/2017/03/network-science-for-kids/</link>
       <pubDate>Tue, 28 Mar 2017 13:58:43 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/2017/03/network-science-for-kids/</guid>
+      <guid>https://estebanmoro.org/2017/03/network-science-for-kids/</guid>
       <description>&lt;p&gt;One of my favorite activities is to teach my field or research (network science) to high-schoolers. We (together with my colleague &lt;a href=&#34;https://scholar.google.es/citations?user=gljsfm4AAAAJ&amp;amp;hl=en&#34;&gt;Cristina Brändle&lt;/a&gt;) have been doing that from our university to the local high schools in Madrid. Since they know concepts like equations, probability or geometry, it is somehow easy to show them concepts like what is a network, small world, friendship paradox or centrality. We usually have transparencies and allow them to work on Excel to perform some calculations which works well to understand the basic concepts of networks. At that level, there are a number of resources on the internet, including the &lt;a href=&#34;https://sites.google.com/a/binghamton.edu/netscied/teaching-learning/network-concepts&#34;&gt;Network Literacy Project&lt;/a&gt; lead by Mason Porter and collaborators, which also has some reflections about teaching &lt;a href=&#34;http://www.math.ucla.edu/~mason/papers/teach-final.pdf&#34;&gt;Network Science to teenagers&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://estebanmoro.org/img/posts/dib3.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/img/posts/dib3.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;But, I was invited by the Math League at my kid&amp;rsquo;s school (&lt;a href=&#34;http://lawrenceschoolbrookline.org&#34;&gt;Lawrence Amos at Brookline&lt;/a&gt;) to talk about networks to 4th, 5th and 6th graders, so I was forced to prepared the most difficult talk in my life: Network Science for kids! The idea was one hour around 3 worksheets in which I wanted to introduce the idea of why Network Science is useful to understand (and solve!) problems, including the six degrees of separation and the Krönigsberg bridges problems. Here are the different worksheets I prepared&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://estebanmoro.org/pdf/netsci_for_kids/networks_ahoy.pdf&#34;&gt;Networks ahoy!&lt;/a&gt; (Concepts: what is a network, how to map a problem into a network)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://estebanmoro.org/pdf/netsci_for_kids/6_degrees_of_separation.pdf&#34;&gt;6 degrees of separation&lt;/a&gt; (Concepts: connectivity, distance in the graph, cascades)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://estebanmoro.org/pdf/netsci_for_kids/the_konisberg_bridges.pdf&#34;&gt;The Krönigsberg bridges&lt;/a&gt; (Concepts: eulerian paths)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://estebanmoro.org/pdf/netsci_for_kids/networks_ahoy.pdf&#34;&gt;Networks ahoy!&lt;/a&gt; (Concepts: what is a network, how to map a problem into a network)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://estebanmoro.org/pdf/netsci_for_kids/6_degrees_of_separation.pdf&#34;&gt;6 degrees of separation&lt;/a&gt; (Concepts: connectivity, distance in the graph, cascades)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://estebanmoro.org/pdf/netsci_for_kids/the_konisberg_bridges.pdf&#34;&gt;The Krönigsberg bridges&lt;/a&gt; (Concepts: eulerian paths)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;The feedback was really positive and I think kids really enjoyed it. Interestingly, they spend some time in the first question in &amp;ldquo;Networks ahoy!&amp;rdquo; worksheet discussing the different results depending on whether the &amp;ldquo;who wants to go with whom&amp;rdquo; was a directed or undirected graph.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://estebanmoro.org/img/posts/dib2.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/img/posts/dib2.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;I was also amazed that they understood very quickly the &amp;ldquo;6 degrees of separation&amp;rdquo; problem and its solution using cascades like the one above. At the end of this worksheet I asked them if they could come up with an idea to use the &amp;ldquo;6 degrees of separation&amp;rdquo; to organize an event and several kids propose to use cascades of invitations to do that. So yes, kids are ready for social mobilization techniques as the one we studied for the &lt;a href=&#34;http://estebanmoro.org/2013/04/limits-of-social-mobilization/&#34;&gt;DARPA Red Balloon Challenge&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;The last one has a little bit more difficulty that the rest, but kids love the analogy with drawing shapes without lifting the pencil. We spent some time there drawing shapes like the ones in the figure below and although in the worksheet I only use part of the Euler&amp;rsquo;s solution to the problem, they understood the concept that we can only draw the shapes if there are only two nodes with odd number of lines.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://estebanmoro.org/img/posts/dib1.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/img/posts/dib1.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;It was a great experience. There were other ideas I had to try with kids but didn&amp;rsquo;t have time to prepare a worksheet. For example, coloring graphs, friendship paradox, etc. My final impression is that kids understood very well the concept of networks and they got how useful they are to analyze some difficult problems. Or just to know how they are connected with other friends and the potential implications in their life. My plan is to use this material for other talks, but you are free to use it as well. As always, comments are welcomed and if you use this material, please let me know what was your feedback!&lt;/p&gt;
 &lt;p&gt;PS: there are other places in which you can find material to teach graph theory to kids. I really enjoyed  &lt;a href=&#34;http://jdh.hamkins.org/math-for-seven-year-olds-graph-coloring-chromatic-numbers-eulerian-paths/&#34;&gt;this one&lt;/a&gt; which served me as an inspiration to the last worksheet.&lt;/p&gt;
 </description>
@@ -211,10 +211,10 @@ EPJ Data Science (2017) &lt;strong&gt;6&lt;/strong&gt;:31 [&lt;strong&gt;&lt;a 
     
     <item>
       <title>Searching for someone</title>
-      <link>http://estebanmoro.org/post/2016-02-19-searching-for-someone/</link>
+      <link>https://estebanmoro.org/post/2016-02-19-searching-for-someone/</link>
       <pubDate>Fri, 19 Feb 2016 11:52:48 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2016-02-19-searching-for-someone/</guid>
+      <guid>https://estebanmoro.org/post/2016-02-19-searching-for-someone/</guid>
       <description>&lt;p&gt;&lt;strong&gt;From the “Small World Experiment” to the “Red Balloon Challenge,” and beyond&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;We live in a small world, right? But the cost and fragility of navigating it could harm any potential strategy to leverage the power of social networks. Read this fascinating story of the research, experiments, and failures in the quest for using social networks to search information/people:&lt;/p&gt;
 &lt;p&gt;[Excerpt of the article] Our ability to search social networks for people and information is fundamental to our success. We use our personal connections to look for new job opportunities, to seek advice about what products to buy, to match with romantic partners, to find a good physician, to identify business partners, and so on.&lt;/p&gt;
@@ -225,10 +225,10 @@ EPJ Data Science (2017) &lt;strong&gt;6&lt;/strong&gt;:31 [&lt;strong&gt;&lt;a 
     
     <item>
       <title>More people, more fun: The scaling of events in cities</title>
-      <link>http://estebanmoro.org/2016/02/more-people-more-fun-the-scaling-of-events-in-cities/</link>
+      <link>https://estebanmoro.org/2016/02/more-people-more-fun-the-scaling-of-events-in-cities/</link>
       <pubDate>Mon, 08 Feb 2016 09:25:35 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/2016/02/more-people-more-fun-the-scaling-of-events-in-cities/</guid>
+      <guid>https://estebanmoro.org/2016/02/more-people-more-fun-the-scaling-of-events-in-cities/</guid>
       <description>&lt;p&gt;This is a recent article publish in Medium.com by David Martín-Corral, Manuel Cebrián and myself in which we analyze the super-scaling of touristic attraction (number of events) with population. Amazingly we found that the number of events (music/theater/sports/etc.) scales super-linearly with the population of the city.&lt;/p&gt;
 &lt;p&gt;So yes! more people means more fun!&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://medium.com/snsores-lab/more-people-more-fun-the-scaling-of-events-in-cities-f82d3072eb63#.ycvw10mvt&#34;&gt;Read the article in Medium&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
@@ -237,15 +237,15 @@ EPJ Data Science (2017) &lt;strong&gt;6&lt;/strong&gt;:31 [&lt;strong&gt;&lt;a 
     
     <item>
       <title>2015 year in review</title>
-      <link>http://estebanmoro.org/2015/12/2015-year-in-review/</link>
+      <link>https://estebanmoro.org/2015/12/2015-year-in-review/</link>
       <pubDate>Wed, 30 Dec 2015 22:05:58 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/2015/12/2015-year-in-review/</guid>
+      <guid>https://estebanmoro.org/2015/12/2015-year-in-review/</guid>
       <description>&lt;p&gt;2015 has been an amazing year both on the professional and personal grounds. Here are some of the main things that happened this year:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;I helped to build up the &amp;ldquo;&lt;a href=&#34;http://www.afiescueladefinanzas.es/efa/comun/master-data-science-big-data-finanzas.html&#34;&gt;Master in Data Science and Big Data in Finance&lt;/a&gt;&amp;rdquo; at the &lt;a href=&#34;http://www.afiescueladefinanzas.es&#34;&gt;Afi School of Finance&lt;/a&gt;. In this first edition we had 18 incredible students and the support from most of the big financial companies in Spain and the best researchers, practitioners and data scientist in the financial industry.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;http://estebanmoro.org/img/posts/afi2015.jpg&#34; alt=&#34;2015 class of Master in Data Science and Big Data&#34;&gt;
+&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/img/posts/afi2015.jpg&#34; alt=&#34;2015 class of Master in Data Science and Big Data&#34;&gt;
 2015 class of Master in Data Science and Big Data at AFI Escuela&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -255,7 +255,7 @@ EPJ Data Science (2017) &lt;strong&gt;6&lt;/strong&gt;:31 [&lt;strong&gt;&lt;a 
 &lt;p&gt;My review article about &amp;ldquo;Network Analysis&amp;rdquo; appeared in the &lt;a href=&#34;http://press.princeton.edu/titles/10592.html&#34;&gt;Princeton Companion to Applied Mathematics&lt;/a&gt;, the single-volume (and huge!) reference book on applied mathematics. Edited by the brilliant &lt;a href=&#34;http://www.maths.manchester.ac.uk/~higham/&#34;&gt;Nicholas J. Higham&lt;/a&gt;. The email network of my university was used to illustrate some concepts :)&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;http://estebanmoro.org/img/posts/princeton.png&#34; alt=&#34;princeton&#34;&gt;Email Network at my University showing degree heterogeneity[/caption]&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/img/posts/princeton.png&#34; alt=&#34;princeton&#34;&gt;Email Network at my University showing degree heterogeneity[/caption]&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Program chair of &lt;a href=&#34;http://www.netsci2015.net&#34;&gt;Netsci2015&lt;/a&gt;, the largest conference of network science which took place in Zaragoza this year. Thanks to the program committee we were able to sort out more than 400 abstracts received. So thankful to Yamir Moreno and Sandro Meloni (organizers) for making it possible.&lt;/p&gt;
@@ -266,14 +266,14 @@ EPJ Data Science (2017) &lt;strong&gt;6&lt;/strong&gt;:31 [&lt;strong&gt;&lt;a 
 * We have published 7 papers in different journals, including Physical Review Letters, Physical Review E and PLoS One. Including a &lt;a href=&#34;http://estebanmoro.org/2015/05/from-seconds-to-months-multi-scale-dynamics-of-mobile-telephone-calls/&#34;&gt;mini-review&lt;/a&gt; on temporal networks in mobile phone calls with &lt;a href=&#34;http://www.lce.hut.fi/~jsaramak/&#34;&gt;Jari Saramaki&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;http://estebanmoro.org/img/posts/sngular.jpg&#34; alt=&#34;Talk at Sngular event&#34;&gt; That small person in front of the screen is me :)&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/img/posts/sngular.jpg&#34; alt=&#34;Talk at Sngular event&#34;&gt; That small person in front of the screen is me :)&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;This year a number a number of students who I advised defended their works:
 * One PhD Thesis (by Svetozar Nesic) on &lt;a href=&#34;http://e-archivo.uc3m.es/handle/10016/21858&#34;&gt;&amp;ldquo;Stochastic Dynamics of Substrate-confined Systems: Fisher Fronts and Thin Liquid Films&amp;rdquo;&lt;/a&gt;,
 * Two Master thesis on &amp;ldquo;The tie decay problem in social networks: Why do people stop calling?&amp;rdquo; by Henry Navarro, and on &amp;ldquo;Non-negativity preserving numerical algorithms for problems in mathematical finance&amp;rdquo; by Yuan Yuan
 * One Degree Final Project on &lt;a href=&#34;https://repositorio.uam.es/xmlui/bitstream/handle/10486/668988/Medina_Perez_Maria_tfg.pdf?sequence=1&#34;&gt;&amp;ldquo;Estimation of Socio-Economical indicators based on Online Social Networks digital traces&amp;rdquo;&lt;/a&gt; by María Medina.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;http://estebanmoro.org/img/posts/mariamedina.jpg&#34; alt=&#34;Maria Medina presenting her Degree Final project&#34;&gt;
+&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/img/posts/mariamedina.jpg&#34; alt=&#34;Maria Medina presenting her Degree Final project&#34;&gt;
 Maria Medina presenting her Degree Final project[/caption]&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -286,7 +286,7 @@ Maria Medina presenting her Degree Final project[/caption]&lt;/p&gt;
 &lt;p&gt;My university (UC3M) gave me the &amp;ldquo;Excellence in Research&amp;rdquo; award for the second time in a row. I am really honoured and grateful. I also become a member the UC3M-BS Institute of Financial Big Data, a joint institute between our university UC3M and Banco Santander to promote interdisciplinary research in analyzing Big Data with emphasis on financial applications. I also participated in many committees in my university, but you don&amp;rsquo;t want to know about it.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;http://estebanmoro.org/img/posts/2015award.jpg&#34; alt=&#34;My university gave me the &amp;ldquo;Excellence in Research&amp;rdquo; award for the second time. So proud!&#34;&gt; My university gave me the &amp;ldquo;Excellence in Research&amp;rdquo; award for the second time. So proud!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/img/posts/2015award.jpg&#34; alt=&#34;My university gave me the &amp;ldquo;Excellence in Research&amp;rdquo; award for the second time. So proud!&#34;&gt; My university gave me the &amp;ldquo;Excellence in Research&amp;rdquo; award for the second time. So proud!&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Some data: my blog received more than 20k visits, and I published 7 posts. I also wrote 909 tweets and this is the tweet that got more views (impressions)&lt;/li&gt;
 &lt;/ul&gt;
@@ -297,17 +297,17 @@ Maria Medina presenting her Degree Final project[/caption]&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Finally, all these was possible due to the collaborations, discussions, coffees, slacks, emails, skypes, hangouts, google docs, lunchs and dinners with my collaborators/friends. I am really lucky to collaborate with people like &lt;a href=&#34;https://about.me/mcebrian&#34;&gt;Manuel Cebrián&lt;/a&gt; (at CSIRO Data61 Australia), &lt;a href=&#34;http://www.mit.edu/~irahwan/&#34;&gt;Iyad Rahwan&lt;/a&gt; (who recently joined MIT Media Lab), &lt;a href=&#34;https://mherranz.wordpress.com&#34;&gt;Manuel García-Herranz&lt;/a&gt; (at UNICEF Innovation Unit), &lt;a href=&#34;https://www.linkedin.com/in/giovanna-miritello-a6675919&#34;&gt;Giovanna Miritello&lt;/a&gt; (at ZED Spain), &lt;a href=&#34;https://www.linkedin.com/in/alejandro-llorente-pinto-07011230&#34;&gt;Alejandro Llorente&lt;/a&gt; (who founded the start-up &lt;a href=&#34;http://piperlab.es&#34;&gt;PiperLab&lt;/a&gt; this year), &lt;a href=&#34;https://www.linkedin.com/in/davidmartincorralcalvo&#34;&gt;David Martín-Corral&lt;/a&gt; (who decided to start a PhD with me this year), Moisés Morales and Borja Foncillas (at AFI), &lt;a href=&#34;http://victoriano.me&#34;&gt;Victoriano Izquierdo&lt;/a&gt; (at Graphext) and many other.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;http://estebanmoro.org/img/posts/IMG_2378.jpg&#34; alt=&#34;Nice dinner with friends&#34;&gt;Nice dinner with friends&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/img/posts/IMG_2378.jpg&#34; alt=&#34;Nice dinner with friends&#34;&gt;Nice dinner with friends&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Temporal networks with R and igraph (updated)</title>
-      <link>http://estebanmoro.org/post/2015-12-21-temporal-networks-with-r-and-igraph-updated/</link>
+      <link>https://estebanmoro.org/post/2015-12-21-temporal-networks-with-r-and-igraph-updated/</link>
       <pubDate>Mon, 21 Dec 2015 21:17:18 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2015-12-21-temporal-networks-with-r-and-igraph-updated/</guid>
-      <description>&lt;p&gt;A while ago, I wrote &lt;a href=&#34;http://estebanmoro.org/post/2012-11-10-temporal-networks-with-igraph-and-r-with-20-lines-of-code/&#34;&gt;a post&lt;/a&gt; about how to create animations of temporal networks using R and the amazing package &lt;a href=&#34;http://igraph.org&#34;&gt;igraph package&lt;/a&gt;. The post was written in 2012 and the code does not work with the most recent versions (1.0) of &lt;code&gt;igraph&lt;/code&gt;. Here I revisited that post, improving its performance and also making it consistent with the new versions of the package and R.&lt;/p&gt;
+      <guid>https://estebanmoro.org/post/2015-12-21-temporal-networks-with-r-and-igraph-updated/</guid>
+      <description>&lt;p&gt;A while ago, I wrote &lt;a href=&#34;https://estebanmoro.org/post/2012-11-10-temporal-networks-with-igraph-and-r-with-20-lines-of-code/&#34;&gt;a post&lt;/a&gt; about how to create animations of temporal networks using R and the amazing package &lt;a href=&#34;http://igraph.org&#34;&gt;igraph package&lt;/a&gt;. The post was written in 2012 and the code does not work with the most recent versions (1.0) of &lt;code&gt;igraph&lt;/code&gt;. Here I revisited that post, improving its performance and also making it consistent with the new versions of the package and R.&lt;/p&gt;
 &lt;p&gt;First of all, let me remind you the basic idea: we want to get an animated evolution of a network in which nodes/edges appear (and/or disappear) dynamically. We also want a &amp;ldquo;dynamical layout&amp;rdquo; for the temporal network in which the arrangement of the nodes and edges changes accordingly to the dynamics of the temporal network. In this post I will show you how to render the network at each time step and how to encode all snapshots into a video file using the &lt;code&gt;igraph&lt;/code&gt; package in R and &lt;code&gt;ffmpeg&lt;/code&gt;. The idea is very simple:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;generate a number of snapshots of the network at different times using R and &lt;code&gt;igraph&lt;/code&gt;, and&lt;/li&gt;
@@ -325,7 +325,7 @@ layout.old &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span sty
   &lt;span style=&#34;color:#a6e22e&#34;&gt;plot&lt;/span&gt;(g,layout&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;layout.new)
   layout.old &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; layout.new
 }
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;http://estebanmoro.org/post/2015-12-21-temporal-networks-with-r-and-igraph-updated_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;https://estebanmoro.org/post/2015-12-21-temporal-networks-with-r-and-igraph-updated_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;
 &lt;p&gt;As you can see the layouts are similar. There are three parameters passed to the layout function: &lt;code&gt;niter = 10&lt;/code&gt; which specifies the number of iterations (10) of energy minimization procedure in the forced based algorithm. This number should be small, otherwise the final result will be very different from the initial condition. The argument &lt;code&gt;start.temp&lt;/code&gt; is the maximum amount of movement allowed along one axis, within one step, for a vertex and it should be kept small for the same reason. Finally, for performance issues, the Fruchterman-reingold algorithm might be implemented in a grid, something we prevent by using the &lt;code&gt;grid=&amp;ldquo;nogrid&amp;rdquo;&lt;/code&gt; setting.&lt;/p&gt;
 &lt;p&gt;The second problem is that in a temporal network nodes and/or edges appear and disappear dynamically. Thus the time dependent graph might have different number of nodes and/or edges from one snapshot to the next one. This means that the layout at a given snapshot cannot be used as the initial condition to generate next time layout, since the number of nodes can be different. My approach here is very simple: consider all (past/present/future) nodes/edges and calculate the layout for all of them in each step, but considering only those edges which are present at a given time and displaying only nodes with at least one edge. This trick allows the reutilization of the layouts between steps. Furthermore, it will produce a layout in which present nodes are tightly connected, while past/future nodes are repelled from them. This effect dramatically highlights the appearance and disappearance of nodes, but could create too much confusion if there are many of those events.&lt;/p&gt;
 &lt;p&gt;To test this ideas, we will again work an important example in the theory of complex networks: the preferential attachment mechanism to generate scale-free networks, i.e. the &lt;a href=&#34;http://en.wikipedia.org/wiki/BA_model&#34;&gt;Barabási-Albert model&lt;/a&gt;. In our implementation, we keep the mechanism very simple: starting from an initial core of nodes, at each time step we add a single node that connects to m existing nodes which are selected proportionally to the number of links that the existing nodes already have. This mechanism leads to heavily linked nodes (“hubs”) together with a large fraction of poorly connected nodes. A particular realization of this model can be found in the file &lt;code&gt;edges.csv&lt;/code&gt; below. The structure of the file is simple&lt;/p&gt;
@@ -398,10 +398,10 @@ dt &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span sty
     
     <item>
       <title>Netmob 2015</title>
-      <link>http://estebanmoro.org/post/2015-04-14-netmob-2015/</link>
+      <link>https://estebanmoro.org/post/2015-04-14-netmob-2015/</link>
       <pubDate>Tue, 14 Apr 2015 09:26:11 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2015-04-14-netmob-2015/</guid>
+      <guid>https://estebanmoro.org/post/2015-04-14-netmob-2015/</guid>
       <description>&lt;p&gt;I had the pleasure to organize last edition of &lt;a href=&#34;http://netmob.org&#34;&gt;Netmob&lt;/a&gt; at MIT Media Lab (together with &lt;a href=&#34;http://web.media.mit.edu/~sandy/&#34;&gt;Sandy Pentland&lt;/a&gt;, &lt;a href=&#34;http://perso.uclouvain.be/vincent.blondel/&#34;&gt;Vincent Blondel&lt;/a&gt; and &lt;a href=&#34;http://www.demontjoye.com&#34;&gt;Yves-Alexandre de Montjoye&lt;/a&gt;). Netmob is the primary conference in the analysis of those datasets in social, urban, societal and industrial problems. Netmob 2015 also hosted the final part of the&lt;a href=&#34;http://www.d4d.orange.com/en/home&#34;&gt; D4D Challenge&lt;/a&gt; by Orange. They were 3 amazing days of applications and analysis of mobile phone datasets, preceded by one-day school and 3 days Hackathon. More than 60 talks and 40 posters were presented. Around 250 participants from 140 institutions, 32 countries (5 continents!) participated, showing the international and wide interest in Netmob.&lt;/p&gt;
 &lt;p&gt;Here is some information about the event:&lt;/p&gt;
 &lt;ul&gt;
@@ -410,9 +410,9 @@ dt &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span sty
 &lt;li&gt;&lt;a href=&#34;https://twitter.com/netmob15&#34;&gt;Twitter account&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;And some pictures&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://estebanmoro.org/img/posts/FullSizeRender-1024x803.jpg&#34; alt=&#34;Conference chairs: Yves-Alexandre de Montjoye, Esteban Moro, Alex &amp;lsquo;Sandy&amp;rsquo; Pentland and Vincent Blondel&#34;&gt;Conference chairs: Yves-Alexandre de Montjoye, Esteban Moro, Alex &amp;lsquo;Sandy&amp;rsquo; Pentland and Vincent Blondel&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://estebanmoro.org/img/posts/mapanetmob.jpg&#34; alt=&#34;Map of the different countries of the Netmob 2015 participants&#34;&gt;Map of the different countries of the Netmob 2015 participants&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://estebanmoro.org/img/posts/CCQOkDXUgAA1dxp.jpg-large.jpg&#34; alt=&#34;Giving the farewell speech at Netmob 2015&#34;&gt;
+&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/img/posts/FullSizeRender-1024x803.jpg&#34; alt=&#34;Conference chairs: Yves-Alexandre de Montjoye, Esteban Moro, Alex &amp;lsquo;Sandy&amp;rsquo; Pentland and Vincent Blondel&#34;&gt;Conference chairs: Yves-Alexandre de Montjoye, Esteban Moro, Alex &amp;lsquo;Sandy&amp;rsquo; Pentland and Vincent Blondel&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/img/posts/mapanetmob.jpg&#34; alt=&#34;Map of the different countries of the Netmob 2015 participants&#34;&gt;Map of the different countries of the Netmob 2015 participants&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/img/posts/CCQOkDXUgAA1dxp.jpg-large.jpg&#34; alt=&#34;Giving the farewell speech at Netmob 2015&#34;&gt;
 Giving the farewell speech at Netmob 2015&lt;/p&gt;
 &lt;p&gt;Media coverage:&lt;/p&gt;
 &lt;ul&gt;
@@ -425,10 +425,10 @@ Giving the farewell speech at Netmob 2015&lt;/p&gt;
     
     <item>
       <title>Best papers of the 2013. What is privacy? </title>
-      <link>http://estebanmoro.org/2014/01/best-papers-of-the-2013-what-is-privacy/</link>
+      <link>https://estebanmoro.org/2014/01/best-papers-of-the-2013-what-is-privacy/</link>
       <pubDate>Wed, 01 Jan 2014 12:40:44 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/2014/01/best-papers-of-the-2013-what-is-privacy/</guid>
+      <guid>https://estebanmoro.org/2014/01/best-papers-of-the-2013-what-is-privacy/</guid>
       <description>&lt;p&gt;I have read around 200 papers this year. A large fraction of them were very technical, some reviews and other very fashionable. But among them, I would like to highlight the ones that for me are the best. This is a personal selection and it is based not only on the technical aspects, but more on their impact. Specifically, these two papers change the way we look at privacy and how our actions reveal important information about us which was not obvious in the first place. These are the two papers I consider to be the best of 2013&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;  * [Private traits and attributes are predictable from digital records of human behavior](http://www.pnas.org/content/early/2013/03/06/1218772110)
 &lt;/code&gt;&lt;/pre&gt;
@@ -442,11 +442,11 @@ Giving the farewell speech at Netmob 2015&lt;/p&gt;
     
     <item>
       <title>Via Catalana from the Twittersphere</title>
-      <link>http://estebanmoro.org/2013/11/via-catalana-from-the-twittersphere/</link>
+      <link>https://estebanmoro.org/2013/11/via-catalana-from-the-twittersphere/</link>
       <pubDate>Sun, 10 Nov 2013 10:10:14 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/2013/11/via-catalana-from-the-twittersphere/</guid>
-      <description>&lt;link href=&#34;http://estebanmoro.org/rmarkdown-libs/vembedr/css/vembedr.css&#34; rel=&#34;stylesheet&#34; /&gt;
+      <guid>https://estebanmoro.org/2013/11/via-catalana-from-the-twittersphere/</guid>
+      <description>&lt;link href=&#34;https://estebanmoro.org/rmarkdown-libs/vembedr/css/vembedr.css&#34; rel=&#34;stylesheet&#34; /&gt;
 &lt;p&gt;&lt;em&gt;Joint work by&lt;/em&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Manuel García-Herranz, Department of Computer Science, Universidad Autonóma de Madrid&lt;/li&gt;
@@ -466,29 +466,29 @@ Giving the farewell speech at Netmob 2015&lt;/p&gt;
 &lt;p&gt;The difference between the previous two days and the Via Catalan day is striking. The peak in divergence in mobility patterns emerges around 14:00 hours, more than three hours before the “all-arms-linked” programmed time. The most patent manifestation of the chain happens well outside the Barcelona urban center, where normally there are no clear mobility patterns (just the commuting patterns of people traveling in and out of Barcelona) and the chain is easily identifiable. Interestingly, we observe that not all the fragments of the chain form at the same speed. There are two particular fragments: 1) from El Vendrell to the outskirts of Barcelona, and 2) the one comprising Blanes and Perpinyà, which required an additional two hours to form. We conjecture that this may be due to the fact that these fragments are special – they are the only fragments of Via Catalan that do not follow the coast line. The absence of a clear geographical reference may induce additional coordination costs for the mobilization; this is something that should be taken into account by practitioners when programming future demonstrations.&lt;/p&gt;
 &lt;p&gt;We also see that, at a much earlier time than the peak of the chain, an abnormal influx of individuals towards the pre-arranged location of the chain occurs around 10:00am, seven hours prior to the “all-arms-linked” programmed time. This indicates that most of the individuals decided to take advantage of the day-long holiday in Catalonia (National Day of Catalonia), which displaced them from distant regions of Catalonia and kept them from participating. It serves as an excellent way to quantify the effort, as a proxy for interest, that this movement marshaled.&lt;/p&gt;
 &lt;p&gt;The chains remain stable until approximately 22:00, where they start to disintegrate uniformly along the whole length of the chain. Twitter activity diminishes significantly after that time, and therefore more work is needed to reconstruct the traveling patterns after Via Catalana is dissolved.&lt;/p&gt;
-&lt;p&gt;Our findings illustrate the importance of the clear geographical patterns of this &lt;a href=&#34;http://estebanmoro.org/post/2013-04-01-limits-of-social-mobilization/&#34;&gt;social mobilization&lt;/a&gt; – absent from other types of demonstrations, where, despite having a pre-arranged plan (e.g. marching along the downtown area of a city), the human mobility patterns are difficult to distinguish from the normal day ones. The clear geographical pattern unleashes the potential of Twitter (and other types of publicly available digital traces) to distinguish participants from non-participants, and open avenues for the behavioral analysis of these groups. Without this strong geographical pattern, the possibilities of Big Data cannot be fully exploited.&lt;/p&gt;
+&lt;p&gt;Our findings illustrate the importance of the clear geographical patterns of this &lt;a href=&#34;https://estebanmoro.org/post/2013-04-01-limits-of-social-mobilization/&#34;&gt;social mobilization&lt;/a&gt; – absent from other types of demonstrations, where, despite having a pre-arranged plan (e.g. marching along the downtown area of a city), the human mobility patterns are difficult to distinguish from the normal day ones. The clear geographical pattern unleashes the potential of Twitter (and other types of publicly available digital traces) to distinguish participants from non-participants, and open avenues for the behavioral analysis of these groups. Without this strong geographical pattern, the possibilities of Big Data cannot be fully exploited.&lt;/p&gt;
 &lt;p&gt;The next step of our investigation is studying how Via Catalana shaped the participants’ behavior, as measured by the information Catalonians inputted in their Twitter messages. A clear avenue to look at is the use of Catalan vs. Spanish language in the messages, given that Catalonia enjoys a bilingual society. A significant proportion of foreigners live in Catalonia, and Barcelona is a huge touristic attraction.&lt;/p&gt;
 &lt;p&gt;A snapshot of on September 10th at 17:00 vs. the same 17:00 on Via Catalana day (picture below) allows us to study how the demonstration shaped use of the language. Dots indicate geo-located Twitter messages using Spanish (Red), Catalan (blue) and Other/Unidentified (green) languages.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://estebanmoro.org/img/posts/viacatalana.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/img/posts/viacatalana.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;We can see a striking difference between September 10th and September 11th. September 10th displays a well-mixed used of Catalan, Spanish, and others; whereas September 11th shows a unifying use of Catalan along the human chain, as well as a marked increase of the use of Catalan in the whole Catalan Region.&lt;/p&gt;
 &lt;p&gt;Simple counting further illustrates this phenomenon. The number of geo-located tweets on September 10th is 14,711, with 5654 (38%) in Spanish and 3356 (23%) in Catalan. These numbers are dramatically reversed on the Via Catalana day, with 21,237 geo-located Twitter messages logged, 6074 (28%) in Spanish, and 8599 (40%) in Catalan.&lt;/p&gt;
 &lt;p&gt;It is particularly interesting to see that at both extremes of the chain, the one touching Valencia and the one touching the south of France, the use of mixed languages is more pronounced, whereas a pure Catalan use is patent in between these extremes and downtown Barcelona. We also observe two hotspots of the use of Spanish along the chain, in Mataro and Villafranca del Penedes. Further investigation into the demographics of these two regions is required to uncover the origin of their outlier nature.&lt;/p&gt;
 &lt;p&gt;Barcelona also emerges as an aggregator of languages and cultures, with high levels of language mixing even during Via Catalana. The capacity of urban centers to be exceptional engines for diversity has been known for quite some time in urban planning literature; however, the fact that diversity is resilient to undergoing social events such as Via Catalan is remarkable and a novel insight in Social Science.&lt;/p&gt;
 &lt;p&gt;These two insights, the dynamics in the human mobility undergoing the formation of Via Catalana, as well as how it dramatically affected the use of language, as just “low-hanging fruits,” can be uncovered looking at Via Catalana from the Twittersphere. Many other investigations follow, namely 1) how sentiment, as inferred from the text contained in the Twitter messages, changed as a result of Via Catalana, and 2) how sentiment from the rest of Catalonia and Spain was affected by Via Catalana.&lt;/p&gt;
-&lt;p&gt;Inference of the social connections between the Twitter users, both participants and non-participants in Via Catalana, will likely shed the most interesting insights. Algorithmic detection of communities from the social connections will uncover – perhaps for the first time ever at this scale – whether the participants in Via Catalana form one differentiated social group, or, on the other hand, &lt;a href=&#34;http://estebanmoro.org/post/2011-06-17-twitter-y-politica-informacion-opinion-y-prediccion&#34;&gt;are embedded into the larger Catalonian society&lt;/a&gt;. This is a matter of debate that has haunted local and state politicians for over a century.&lt;/p&gt;
-&lt;p&gt;We not only will look at how Via Catalana differed from the immediate past, but also, most importantly, how the movement is going to change the future social structure of the region. We are logging the daily dynamics of all Twitter users since the movement began, which will enable us to understand whether Via Catalana brought &lt;a href=&#34;http://estebanmoro.org/post/2011-07-21-social-features-of-online-networks-the-strength-of-weak-ties-in-online-social-media/&#34;&gt;social ties from inside and outside Catalonia farther or closer&lt;/a&gt;, and at &lt;a href=&#34;http://estebanmoro.org/post/2014-04-09-using-friends-as-sensors/&#34;&gt;which pace these social changes are happening&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Inference of the social connections between the Twitter users, both participants and non-participants in Via Catalana, will likely shed the most interesting insights. Algorithmic detection of communities from the social connections will uncover – perhaps for the first time ever at this scale – whether the participants in Via Catalana form one differentiated social group, or, on the other hand, &lt;a href=&#34;https://estebanmoro.org/post/2011-06-17-twitter-y-politica-informacion-opinion-y-prediccion&#34;&gt;are embedded into the larger Catalonian society&lt;/a&gt;. This is a matter of debate that has haunted local and state politicians for over a century.&lt;/p&gt;
+&lt;p&gt;We not only will look at how Via Catalana differed from the immediate past, but also, most importantly, how the movement is going to change the future social structure of the region. We are logging the daily dynamics of all Twitter users since the movement began, which will enable us to understand whether Via Catalana brought &lt;a href=&#34;https://estebanmoro.org/post/2011-07-21-social-features-of-online-networks-the-strength-of-weak-ties-in-online-social-media/&#34;&gt;social ties from inside and outside Catalonia farther or closer&lt;/a&gt;, and at &lt;a href=&#34;https://estebanmoro.org/post/2014-04-09-using-friends-as-sensors/&#34;&gt;which pace these social changes are happening&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;We truly believe that the digital traces emergent from Via Catalana provide the most exciting social laboratory for understanding how public demonstrations at super fast time scales shape social structure over the long term. It is an exhilarating time for us data scientists, and we can barely stop to write these words, as we go back into deep into the data. Every new line of code we type uncovers a hidden social reality that we want to share with the larger society.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Are you a social keeper or a social explorer?</title>
-      <link>http://estebanmoro.org/post/2013-05-03-are-you-a-social-keeper-or-a-social-explorer/</link>
+      <link>https://estebanmoro.org/post/2013-05-03-are-you-a-social-keeper-or-a-social-explorer/</link>
       <pubDate>Fri, 03 May 2013 13:16:38 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2013-05-03-are-you-a-social-keeper-or-a-social-explorer/</guid>
-      <description>&lt;link href=&#34;http://estebanmoro.org/rmarkdown-libs/vembedr/css/vembedr.css&#34; rel=&#34;stylesheet&#34; /&gt;
-&lt;link href=&#34;http://estebanmoro.org/rmarkdown-libs/vembedr/css/vembedr.css&#34; rel=&#34;stylesheet&#34; /&gt;
+      <guid>https://estebanmoro.org/post/2013-05-03-are-you-a-social-keeper-or-a-social-explorer/</guid>
+      <description>&lt;link href=&#34;https://estebanmoro.org/rmarkdown-libs/vembedr/css/vembedr.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;link href=&#34;https://estebanmoro.org/rmarkdown-libs/vembedr/css/vembedr.css&#34; rel=&#34;stylesheet&#34; /&gt;
 &lt;p&gt;In our last (just accepted) paper “Limited communication capacity unveils strategies for human interaction” [&lt;a href=&#34;http://www.nature.com/srep/2013/130606/srep01950/full/srep01950.html&#34;&gt;link&lt;/a&gt;] we have found that we humans have different social strategies when we communicate/interact with people. Specifically, the sociability of a person (the total number of contacts in a time interval) which is usually taken as the connectivity in the social network is actually the result of two different human features:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Social capacity:&lt;/strong&gt; the number of relationships humans can maintain opened and which is limited&lt;/li&gt;
@@ -514,16 +514,16 @@ Giving the farewell speech at Netmob 2015&lt;/p&gt;
 &lt;iframe class=&#34;vimeo-embed&#34; src=&#34;https://player.vimeo.com/video/65257905&#34; width=&#34;800&#34; height=&#34;600&#34; frameborder=&#34;0&#34; webkitallowfullscreen=&#34;&#34; mozallowfullscreen=&#34;&#34; allowfullscreen=&#34;&#34; data-external=&#34;1&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;Note: these videos are produced using R and the igraph library. Learn how to make them in &lt;a href=&#34;http://estebanmoro.org/post/2012-11-10-temporal-networks-with-igraph-and-r-with-20-lines-of-code/&#34;&gt;my post here&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Note: these videos are produced using R and the igraph library. Learn how to make them in &lt;a href=&#34;https://estebanmoro.org/post/2012-11-10-temporal-networks-with-igraph-and-r-with-20-lines-of-code/&#34;&gt;my post here&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>La ciencia de la caballería andante</title>
-      <link>http://estebanmoro.org/2013/04/la-ciencia-de-la-caballeria-andante/</link>
+      <link>https://estebanmoro.org/2013/04/la-ciencia-de-la-caballeria-andante/</link>
       <pubDate>Tue, 23 Apr 2013 07:15:28 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/2013/04/la-ciencia-de-la-caballeria-andante/</guid>
+      <guid>https://estebanmoro.org/2013/04/la-ciencia-de-la-caballeria-andante/</guid>
       <description>&lt;p&gt;Happy World Book Day&lt;/p&gt;
 &lt;blockquote&gt;La Caballería andante (...) es una ciencia, dijo Don Quijote (...) que encierra en sí todas o las más ciencias del mundo (...) el que la profesa ha de ser jurisperito, y saber las leyes de la justicia distributiva y conmutativa (...) ha de ser teólogo, para saber dar razón de la cristiana ley que profesa (...); ha de ser médico, principalmente herbolario, parara conocer (...) las yerbas que tienen virtud de sanar las heridas (...); ha de ser astrólogo, para conocer por las estrellas cuántas horas son pasadas la noche (...); **ha de saber las matemáticas, porque a cada paso se le ofrecerá tener necesidad de ellas (...).**
 &lt;p&gt;Knight-errantry (&amp;hellip;) is a science, said Don Quixote (&amp;hellip;) that comprehends in itself all or most of the sciences of the world, for he who professes it must be a jurist, and must know the rules of justice, distributive and equitable (&amp;hellip;) he must be a theologian, so as to be able to give a clear and distinctive reason for the Christian faith he professes (&amp;hellip;); must be a physician, and above all a herbalist, so as (&amp;hellip;) to know the herbs that have the property of healing wounds (&amp;hellip;); he must be an astronomer, so as to know by the stars how many hours of the night have passed (&amp;hellip;) ** He must know mathematics for at every turn some occasion for them will present itself to him (&amp;hellip;) **&lt;/p&gt;
@@ -538,10 +538,10 @@ Second part, Chapter XVIII, Madrid 1615&lt;/p&gt;
     
     <item>
       <title>when does emulation count as explanation?</title>
-      <link>http://estebanmoro.org/2013/03/when-does-emulation-count-as-explanation/</link>
+      <link>https://estebanmoro.org/2013/03/when-does-emulation-count-as-explanation/</link>
       <pubDate>Mon, 25 Mar 2013 18:58:09 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/2013/03/when-does-emulation-count-as-explanation/</guid>
+      <guid>https://estebanmoro.org/2013/03/when-does-emulation-count-as-explanation/</guid>
       <description>&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;To me, the main question when modeling a process in the social sciences is &amp;quot;when does emulation count as explanation?&amp;quot;&lt;/p&gt;&amp;mdash; John Myles White (@johnmyleswhite) &lt;a href=&#34;https://twitter.com/johnmyleswhite/status/316256250327334913?ref_src=twsrc%5Etfw&#34;&gt;March 25, 2013&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
 
@@ -552,15 +552,15 @@ Second part, Chapter XVIII, Madrid 1615&lt;/p&gt;
     
     <item>
       <title>Temporal networks with igraph and R (with 20 lines of code!)</title>
-      <link>http://estebanmoro.org/post/2012-11-10-temporal-networks-with-igraph-and-r-with-20-lines-of-code/</link>
+      <link>https://estebanmoro.org/post/2012-11-10-temporal-networks-with-igraph-and-r-with-20-lines-of-code/</link>
       <pubDate>Sat, 10 Nov 2012 23:55:46 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2012-11-10-temporal-networks-with-igraph-and-r-with-20-lines-of-code/</guid>
-      <description>&lt;link href=&#34;http://estebanmoro.org/rmarkdown-libs/vembedr/css/vembedr.css&#34; rel=&#34;stylesheet&#34; /&gt;
+      <guid>https://estebanmoro.org/post/2012-11-10-temporal-networks-with-igraph-and-r-with-20-lines-of-code/</guid>
+      <description>&lt;link href=&#34;https://estebanmoro.org/rmarkdown-libs/vembedr/css/vembedr.css&#34; rel=&#34;stylesheet&#34; /&gt;
 &lt;blockquote&gt;
 **UPDATE**: the version of the R code in this post does not work with newer versions of the igraph package (\&gt; 1.0). I have posted an updated version of this post here: [Temporal networks with R and igraph (updated)](/post/2015-12-21-temporal-networks-with-r-and-igraph-updated/). Please visit the new post to use the new code and follow the discussion there.
 &lt;/blockquote&gt;
-&lt;p&gt;In my &lt;a href=&#34;http://estebanmoro.org/post/2012-10-29-temporal-network-of-information-diffusion-in-twitter/&#34;&gt;last post&lt;/a&gt; about how a twitter conversation unfolds in time on Twitter, the dynamical nature of information diffusion in twitter was illustrated with a video of the temporal network of interactions (RTs) between accounts. The temporal evolution of the network yields to another perspective of social structure and, in some cases, aggregating the data in a time window might blur out important temporal structures on information diffusion, community or opinion formation, etc. Although many of the commercial and free &lt;a href=&#34;http://en.wikipedia.org/wiki/Social_network_analysis_software&#34;&gt;Social Network Analysis software&lt;/a&gt; have tools to visualize static networks, there are no so many options out there for dynamical networks. And in some cases they have very limited options for their “dynamical layout”. A notable exception is &lt;a href=&#34;http://www.stanford.edu/group/sonia/documentation/install.html&#34;&gt;SoNIA&lt;/a&gt;, the Java-based package, which unfortunately is &lt;a href=&#34;http://sourceforge.net/projects/sonia/files/sonia/sonia_1_2_2_unstable/&#34;&gt;not updated frequently&lt;/a&gt;. Another possibility is to work with the &lt;a href=&#34;http://gephi.org/2011/gsoc-mid-term-a-new-timeline/&#34;&gt;Timeline plugin&lt;/a&gt; in Gephi. However there is no video recording possibility for the animations. In this post I will show you how to render the network at each time step and how to encode all snapshots into a video file using the &lt;a href=&#34;http://igraph.sourceforge.net&#34;&gt;igraph package&lt;/a&gt; in R and ffmpeg. The idea is very simple&lt;/p&gt;
+&lt;p&gt;In my &lt;a href=&#34;https://estebanmoro.org/post/2012-10-29-temporal-network-of-information-diffusion-in-twitter/&#34;&gt;last post&lt;/a&gt; about how a twitter conversation unfolds in time on Twitter, the dynamical nature of information diffusion in twitter was illustrated with a video of the temporal network of interactions (RTs) between accounts. The temporal evolution of the network yields to another perspective of social structure and, in some cases, aggregating the data in a time window might blur out important temporal structures on information diffusion, community or opinion formation, etc. Although many of the commercial and free &lt;a href=&#34;http://en.wikipedia.org/wiki/Social_network_analysis_software&#34;&gt;Social Network Analysis software&lt;/a&gt; have tools to visualize static networks, there are no so many options out there for dynamical networks. And in some cases they have very limited options for their “dynamical layout”. A notable exception is &lt;a href=&#34;http://www.stanford.edu/group/sonia/documentation/install.html&#34;&gt;SoNIA&lt;/a&gt;, the Java-based package, which unfortunately is &lt;a href=&#34;http://sourceforge.net/projects/sonia/files/sonia/sonia_1_2_2_unstable/&#34;&gt;not updated frequently&lt;/a&gt;. Another possibility is to work with the &lt;a href=&#34;http://gephi.org/2011/gsoc-mid-term-a-new-timeline/&#34;&gt;Timeline plugin&lt;/a&gt; in Gephi. However there is no video recording possibility for the animations. In this post I will show you how to render the network at each time step and how to encode all snapshots into a video file using the &lt;a href=&#34;http://igraph.sourceforge.net&#34;&gt;igraph package&lt;/a&gt; in R and ffmpeg. The idea is very simple&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;generate a number of snapshots of the network at different times using R and igraph, and&lt;/li&gt;
 &lt;li&gt;then put them together in a video file using ffmpeg.&lt;/li&gt;
@@ -573,7 +573,7 @@ Second part, Chapter XVIII, Madrid 1615&lt;/p&gt;
 &lt;span style=&#34;color:#a6e22e&#34;&gt;par&lt;/span&gt;(mfrow&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;c&lt;/span&gt;(&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;),mar&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;c&lt;/span&gt;(&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;), oma&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;c&lt;/span&gt;(&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;))
 g &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;watts.strogatz.game&lt;/span&gt;(&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;20&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;3&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;0.4&lt;/span&gt;)
 &lt;span style=&#34;color:#a6e22e&#34;&gt;for&lt;/span&gt;(i in &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;4&lt;/span&gt;) &lt;span style=&#34;color:#a6e22e&#34;&gt;plot&lt;/span&gt;(g,layout&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;layout.fruchterman.reingold,margin&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;)
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;http://estebanmoro.org/post/2012-11-10-temporal-networks-with-igraph-and-r-with-20-lines-of-code_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;https://estebanmoro.org/post/2012-11-10-temporal-networks-with-igraph-and-r-with-20-lines-of-code_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;
 &lt;p&gt;Luckily, in igraph 0.6 we can specify the initial position of the nodes for some layout functions: &lt;code&gt;layout.graphopt&lt;/code&gt;, &lt;code&gt;layout.kamada.kawai&lt;/code&gt; and &lt;code&gt;layout.fruchterman.reingold&lt;/code&gt;. My personal experience is that &lt;code&gt;layout.graphopt&lt;/code&gt; crashes in this 0.6 version (although it works on 0.5), so we are left with the other two algorithms. The plan (taken from &lt;a href=&#34;https://vimeo.com/14922587&#34;&gt;this original idea&lt;/a&gt; of Tamás Nepusz, one of the developers of igraph) is to use the layout of the previous snapshot as the initial condition for the next snapshot layout so we have a smooth transtion from one to the other. In the example above, the implementation will be the following using the &lt;code&gt;start&lt;/code&gt; parameter:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;par&lt;/span&gt;(mfrow&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;c&lt;/span&gt;(&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;),mar&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;c&lt;/span&gt;(&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;), oma&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;c&lt;/span&gt;(&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;))
 g &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;watts.strogatz.game&lt;/span&gt;(&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;20&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;3&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;0.4&lt;/span&gt;)
@@ -583,7 +583,7 @@ layout.old &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span sty
   &lt;span style=&#34;color:#a6e22e&#34;&gt;plot&lt;/span&gt;(g,layout&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;layout.new)
   layout.old &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; layout.new
 }
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;http://estebanmoro.org/img/posts/igraph_old4.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/img/posts/igraph_old4.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Now you can see that the layouts are similar. There are two new parameters passed to the layout function: &lt;code&gt;niter = 10&lt;/code&gt; specify the number of iterations (10) of the minimization of energy procedure in the force based algorithm. This number should be small, otherwise the final result will be very different from the initial condition. The same happens for the other parameter &lt;code&gt;maxdelta=2&lt;/code&gt; which controls the maximum change in the position of the nodes allowed in the minimization procedure.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;The other problem is that in a temporal network nodes and/or edges appear and disappear dynamically. Thus the time dependent graph might have different number of nodes and/or edges from one snapshot to the next one. This means that the layout at a given snapshot cannot be used as the initial condition to generate next time layout, since the number of nodes can be different. My solution to this problem is to consider all (past/present/future) nodes/edges when calculating the layout but to display only present nodes/edges in the plot by making past and future nodes/edges transparent. This trick allows the reutilization of the layouts between steps, but it will produce a more or less steady visualization in which the layout at any given time is not related to the instantaneous structure of the temporal graph. To overcome this problem we take advantage of another property of force based algorithms: nodes which are connected attract each other along the edge. At a given instant, we could then modify the attraction between nodes along edges depending on whether the the edge is not present. In igraph 0.6, only the &lt;code&gt;layout.fruchterman.reingold&lt;/code&gt; has this possibility through the parameter &lt;code&gt;weights&lt;/code&gt;, a vector giving edge weights which are use to multiply the attraction along the edge. For example we could set weight equal to one if the edge is present and use zero weight for the rest. This will produce a layout in which present nodes are tightly connected while the past/future nodes are repelled from them. This effect dramatically highlights the appearance and disappearance of nodes, but could create too much confusion if there are many of those events.&lt;/li&gt;
@@ -662,13 +662,13 @@ nsteps &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span
     
     <item>
       <title>Preferential attachment: be first</title>
-      <link>http://estebanmoro.org/2012/11/preferential-attachment-be-first/</link>
+      <link>https://estebanmoro.org/2012/11/preferential-attachment-be-first/</link>
       <pubDate>Fri, 09 Nov 2012 00:29:58 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/2012/11/preferential-attachment-be-first/</guid>
-      <description>&lt;link href=&#34;http://estebanmoro.org/rmarkdown-libs/vembedr/css/vembedr.css&#34; rel=&#34;stylesheet&#34; /&gt;
+      <guid>https://estebanmoro.org/2012/11/preferential-attachment-be-first/</guid>
+      <description>&lt;link href=&#34;https://estebanmoro.org/rmarkdown-libs/vembedr/css/vembedr.css&#34; rel=&#34;stylesheet&#34; /&gt;
 &lt;p&gt;&lt;a href=&#34;http://en.wikipedia.org/wiki/Preferential_attachment&#34;&gt;Preferential attachment&lt;/a&gt; is a key process governing the dynamics of many economic, social and biological process. It is the “The rich get richer” mechanism by which a quantity is distributed among individuals according to how much they already have. It also happens in social networks and the ones that have more social connectivity (the “hubs”) receive more new connections than the poorly connected. In a &lt;a href=&#34;http://www.nd.edu/~networks/Publication%20Categories/03%20Journal%20Articles/Physics/EmergenceRandom_Science%20286,%20509-512%20(1999).pdf&#34;&gt;famous paper&lt;/a&gt;, Laszlo Barabási and Reka Albert encoded this mechanics in the so called &lt;a href=&#34;http://en.wikipedia.org/wiki/BA_model&#34;&gt;Barabasi-Albert model&lt;/a&gt; to generate random scale free-networks.&lt;/p&gt;
-&lt;p&gt;The model is dynamical since new nodes and edges are created in time. Although the model is analytical tractable and many properties of the networks produced are known, I show you here a video illustrating the temporal network of the model (the details of how this video was done are in &lt;a href=&#34;http://estebanmoro.org/post/2012-11-10-temporal-networks-with-igraph-and-r-with-20-lines-of-code/&#34;&gt;this other post&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;The model is dynamical since new nodes and edges are created in time. Although the model is analytical tractable and many properties of the networks produced are known, I show you here a video illustrating the temporal network of the model (the details of how this video was done are in &lt;a href=&#34;https://estebanmoro.org/post/2012-11-10-temporal-networks-with-igraph-and-r-with-20-lines-of-code/&#34;&gt;this other post&lt;/a&gt;)&lt;/p&gt;
 &lt;div class=&#34;vembedr&#34;&gt;
 &lt;div&gt;
 &lt;iframe class=&#34;vimeo-embed&#34; src=&#34;https://player.vimeo.com/video/53071346&#34; width=&#34;800&#34; height=&#34;600&#34; frameborder=&#34;0&#34; webkitallowfullscreen=&#34;&#34; mozallowfullscreen=&#34;&#34; allowfullscreen=&#34;&#34; data-external=&#34;1&#34;&gt;&lt;/iframe&gt;
@@ -681,11 +681,11 @@ nsteps &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span
     
     <item>
       <title>Temporal network of information diffusion in Twitter</title>
-      <link>http://estebanmoro.org/post/2012-10-29-temporal-network-of-information-diffusion-in-twitter/</link>
+      <link>https://estebanmoro.org/post/2012-10-29-temporal-network-of-information-diffusion-in-twitter/</link>
       <pubDate>Mon, 29 Oct 2012 21:58:29 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2012-10-29-temporal-network-of-information-diffusion-in-twitter/</guid>
-      <description>&lt;link href=&#34;http://estebanmoro.org/rmarkdown-libs/vembedr/css/vembedr.css&#34; rel=&#34;stylesheet&#34; /&gt;
+      <guid>https://estebanmoro.org/post/2012-10-29-temporal-network-of-information-diffusion-in-twitter/</guid>
+      <description>&lt;link href=&#34;https://estebanmoro.org/rmarkdown-libs/vembedr/css/vembedr.css&#34; rel=&#34;stylesheet&#34; /&gt;
 &lt;p&gt;Millions of tweets, retweets and mentions are exchanged in Twitter everyday about very different subjects, events, opinions, etc. While aggregating this data over a time window might help to understand some properties of those processes in online social networks, the speed of information diffusion around particular time-bound events requires a temporal analysis of them. To show that (and with the help of the &lt;a href=&#34;http://www.iic.uam.es/en/solutions-and-services/text-a-opinion-mining&#34;&gt;Text &amp;amp; Opinion Mining Group&lt;/a&gt; at IIC) we collected all tweets (750k) of the vibrant conversation around the disputed subject of the &lt;a href=&#34;http://www.guardian.co.uk/business/2012/mar/29/spain-general-strike-rebellion-austerity&#34;&gt;general strike of March 29th&lt;/a&gt; in Spain. The data spans 10 days from 03/27 to 04/04 and using the RTs related to the general strike between twitter accounts we build up the following temporal network of information diffusion in Twitter.&lt;/p&gt;
 &lt;div class=&#34;vembedr&#34;&gt;
 &lt;div&gt;
@@ -695,18 +695,18 @@ nsteps &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span
 &lt;p&gt;Day/night human rhythms are clearly seen, and there is an increase of activity in the evening/night before March 29th, which ended in the burst of RTs during that day. Moreover, using &lt;a href=&#34;http://en.wikipedia.org/wiki/Community_structure&#34;&gt;community-finding algorithms&lt;/a&gt; over the static (weighted) network of RTs we could assign each twitter account to one of the communities found. Analyzing the text of tweets within those communities we found the nature of the biggest groups: one is in favor of the economic motivations behind the strike, the other is not. Those communities fight close to dominate information propagation in Twitter even some days after the strike.&lt;/p&gt;
 &lt;p&gt;This video highlights the importance of &lt;a href=&#34;http://arxiv.org/abs/1108.1780&#34;&gt;temporal networks&lt;/a&gt; in the analysis of information diffusion in online social networks.&lt;/p&gt;
 &lt;p&gt;Technical details: the video was done using the amazing &lt;a href=&#34;http://igraph.sourceforge.net&#34;&gt;igraph&lt;/a&gt; package in R and encoded using ffmpeg. Thanks to everyone that contributes to those open-source projects for their work.&lt;/p&gt;
-&lt;p&gt;Edit (11/9/2012): I have post a tutorial on how to make this kind of visualizations &lt;a href=&#34;http://estebanmoro.org/post/2012-11-10-temporal-networks-with-igraph-and-r-with-20-lines-of-code/&#34;&gt;here&lt;/a&gt;. Spread the word!&lt;/p&gt;
+&lt;p&gt;Edit (11/9/2012): I have post a tutorial on how to make this kind of visualizations &lt;a href=&#34;https://estebanmoro.org/post/2012-11-10-temporal-networks-with-igraph-and-r-with-20-lines-of-code/&#34;&gt;here&lt;/a&gt;. Spread the word!&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Algorithms and Management</title>
-      <link>http://estebanmoro.org/2012/10/algorithms-and-management/</link>
+      <link>https://estebanmoro.org/2012/10/algorithms-and-management/</link>
       <pubDate>Wed, 24 Oct 2012 08:30:29 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/2012/10/algorithms-and-management/</guid>
+      <guid>https://estebanmoro.org/2012/10/algorithms-and-management/</guid>
       <description>&lt;p&gt;Yesterday I gave a talk in the &lt;a href=&#34;http://blog.iic.uam.es/2012/08/algorithms-management-algorithm-engineering-in-business/&#34;&gt;6th IIC Technology Conference &lt;/a&gt;about how Social Contagion can be leveraged for marketing purposes. The motto of the conference was about the need of using Algorithms in nowadays business process. With the availability of more and more complex data the use of algorithms that can detect and reduce complexity is of paramount importance. &lt;em&gt;Big data&lt;/em&gt; is not only about volume (TeraBytes of data), it is about &lt;strong&gt;huge complex data&lt;/strong&gt; and reducing that complexity can only be achieved by modeling, simulating and analyzing the patterns we observe in the data. There are no black-boxes for Big Data, and only insight and the right approach to tame complexity is proven useful.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://estebanmoro.org/img/posts/ingiic-150x150.jpg&#34; alt=&#34;&#34;&gt;
+&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/img/posts/ingiic-150x150.jpg&#34; alt=&#34;&#34;&gt;
 Fernando Cordova presents the &amp;ldquo;giant component&amp;rdquo; of internal communication network&lt;/p&gt;
 &lt;p&gt;In this direction my colleagues at &lt;a href=&#34;http://www.iic.uam.es/en/&#34;&gt;IIC&lt;/a&gt; presented their incredible work, algorithmic solutions and projects with companies in the Energy, Health, Banking sectors. In particular, in our group at IIC &lt;a href=&#34;http://www.linkedin.com/pub/jose-luis-iribarren/0/401/368&#34;&gt;José Luis Iribarren&lt;/a&gt; presented our approach to discover organizational groups and hierarchies within companies and its impact in the business process within a company and Fernando Córdova from INGDirect (Spain) showed how we have help them to unveil groups of collaborations, early adopters, etc. within the Bank using our &lt;a href=&#34;http://www.iic.uam.es/en/solutions-and-services/organizational-management/aros&#34;&gt;AROS&lt;/a&gt; tool.&lt;/p&gt;
 &lt;p&gt;On my side, I present a recent collaboration we have done with a major telecomm company to use their CRM and CDR data to build a adoption model for new products/services. The &lt;a href=&#34;http://www.iic.uam.es/en/solutions-and-services/information-diffusion/adoption-models&#34;&gt;eContagion model&lt;/a&gt; (based on our MAAIS methodology) was built using our recent research on temporal networks, community finding and machine learning algorithms and was able to improve (several times) the best predictions of models based only on CRM data.&lt;/p&gt;
@@ -719,10 +719,10 @@ Fernando Cordova presents the &amp;ldquo;giant component&amp;rdquo; of internal 
     
     <item>
       <title>It was a delicious assignment, infinitely complicated</title>
-      <link>http://estebanmoro.org/2012/08/it-was-a-delicious-assignment-infinitely-complicated/</link>
+      <link>https://estebanmoro.org/2012/08/it-was-a-delicious-assignment-infinitely-complicated/</link>
       <pubDate>Fri, 31 Aug 2012 16:41:25 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/2012/08/it-was-a-delicious-assignment-infinitely-complicated/</guid>
+      <guid>https://estebanmoro.org/2012/08/it-was-a-delicious-assignment-infinitely-complicated/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;http://upload.wikimedia.org/wikipedia/en/2/26/Shibumi.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;I have just read an amazing book &amp;ldquo;&lt;a href=&#34;http://en.wikipedia.org/wiki/Shibumi_(novel)&#34;&gt;Shibumi&lt;/a&gt;&amp;rdquo; by Trevanian (a.k.a. &lt;a href=&#34;http://en.wikipedia.org/wiki/Rodney_William_Whitaker&#34;&gt;Rodney William Whitaker&lt;/a&gt;)  probably the best spy novel I have read so far. In the book, a big data computer (called Fat Boy) is operated by a &amp;ldquo;data scientist&amp;rdquo; (although is not called that way). I enjoyed very much the following paragraph, an analogy of the emptiness of big data without insight and also a musing about how difficult is to find relationships from activity data (the kind of research we do!)&lt;/p&gt;
 &lt;blockquote&gt;“Order the list emotionally. Go for indices indicating love, friendship, trust—this sort of thing. Go from closest to most distant.”
@@ -734,12 +734,12 @@ Fernando Cordova presents the &amp;ldquo;giant component&amp;rdquo; of internal 
     
     <item>
       <title>Which chart to use</title>
-      <link>http://estebanmoro.org/2012/08/which-chart-to-use/</link>
+      <link>https://estebanmoro.org/2012/08/which-chart-to-use/</link>
       <pubDate>Thu, 02 Aug 2012 10:12:11 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/2012/08/which-chart-to-use/</guid>
+      <guid>https://estebanmoro.org/2012/08/which-chart-to-use/</guid>
       <description>&lt;p&gt;In most of my talks I present quantitative evidence of patterns, data exploration or results. But which is the right way to show that evidence? Worry no more: the &lt;a href=&#34;http://www.extremepresentation.com/&#34;&gt;Extreme Presentation Method&lt;/a&gt; helps you to decide with this chart chooser (click &lt;a href=&#34;http://www.extremepresentation.com/uploads/documents/choosing_a_good_chart.pdf&#34;&gt;here&lt;/a&gt; to download the pdf)&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://estebanmoro.org/wp-content/uploads/2012/08/choosing_a_good_chart-1.jpg&#34;&gt;&lt;img src=&#34;http://estebanmoro.org/img/posts/choosing-a-good-chart-1.jpg&#34; alt=&#34;&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;http://estebanmoro.org/wp-content/uploads/2012/08/choosing_a_good_chart-1.jpg&#34;&gt;&lt;img src=&#34;https://estebanmoro.org/img/posts/choosing-a-good-chart-1.jpg&#34; alt=&#34;&#34;&gt;
 &lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;My impression is that this chart chooser is good for small data. For big data some of the charts render useless. For example, read the insightfull post &lt;a href=&#34;http://www.chrisstucchio.com/blog/2012/dont_use_scatterplots.html&#34;&gt;Don&amp;rsquo;t use Scatterplots&lt;/a&gt; by Chris Stucchio on why is not a good idea to use scatterplots to show relationship between bivariate data when you have large amounts of data.&lt;/p&gt;
 </description>
@@ -747,10 +747,10 @@ Fernando Cordova presents the &amp;ldquo;giant component&amp;rdquo; of internal 
     
     <item>
       <title>Complex Dynamics of Human Interactions, September 14th 2011</title>
-      <link>http://estebanmoro.org/2011/03/complex-dynamics-of-human-interactions-september-14th-2011/</link>
+      <link>https://estebanmoro.org/2011/03/complex-dynamics-of-human-interactions-september-14th-2011/</link>
       <pubDate>Mon, 28 Mar 2011 14:51:50 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/2011/03/complex-dynamics-of-human-interactions-september-14th-2011/</guid>
+      <guid>https://estebanmoro.org/2011/03/complex-dynamics-of-human-interactions-september-14th-2011/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;http://estebanmoro.org/wp-content/uploads/2011/03/cdhi11-150x150.jpg&#34; alt=&#34;cdhi11&#34;&gt;
 We (together with Kimmo Kaski, Aalto University) are organizing the &lt;a href=&#34;http://www.eccs2011.eu/&#34;&gt;ECCS&#39;11&lt;/a&gt; Satellite conference &lt;strong&gt;&amp;ldquo;Complex Dynamics of Human Interactions&amp;rdquo;&lt;/strong&gt; to be held at Vienna, September 14th.&lt;/p&gt;
 &lt;p&gt;You can find more info at &lt;a href=&#34;http://www.complexdynamics.org&#34;&gt;http://www.complexdynamics.org&lt;/a&gt;&lt;/p&gt;
@@ -771,10 +771,10 @@ The nature of human interaction has undergone a substantial change in the past y
     
     <item>
       <title>Relationship mining</title>
-      <link>http://estebanmoro.org/2010/01/relationship-mining/</link>
+      <link>https://estebanmoro.org/2010/01/relationship-mining/</link>
       <pubDate>Mon, 11 Jan 2010 09:16:09 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/2010/01/relationship-mining/</guid>
+      <guid>https://estebanmoro.org/2010/01/relationship-mining/</guid>
       <description>&lt;p&gt;Each day trillions of emails, phone calls, comments on blogs, twitter messages, exchanges in online social networks, etc. are done. Not only the number of communications has increased, but also each of these transactions leaves a digital trace that can be recorded to reconstruct our high-frequency human activity. It is not only the amount and variety of data that is recorded what is important. Also its high-frequency character and its comprehensive nature have allowed researchers, companies and agencies to investigate individual and group dynamics at an unprecedented level of detail and applied them to client modeling, organizational analysis or epidemic spreading [1].&lt;/p&gt;
 &lt;p&gt;However, for technical or privacy reasons only the existence but not of the content of those exchanges is known. Thus we can quantify the intensity and frequency of the interaction but not its type. For decades, social science has measured relationships between individuals in the currency of tie strength, introduced by Granovetter [1]. Weak ties (loose acquaintances) can help to disseminate ideas and/or innovations between different groups, help to find a job or new information; while strong ties (family, trusted friends) hold together organizations and social groups and can affect emotional health. Despite its success to explain these phenomena, tie strength of human relationships is vaguely defined in most large-scale social empirical work. Specifically, relationships are generally quantified by the intensity or duration of communication, although they are known to have significant drawbacks as tie strength predictor [3,4]. Multiplexity, rhythm and depth of the communication seem to be better predictors of tie strength than intensity [4]. Incorporating those metrics in the data mining of online communication might improve the definition of relationships between individuals and in turn transform our understanding of individual dynamics and its impact in our lives, organizations and society [5]. The challenge is to unveil social relationships in social media and not just mere interactions between individuals, which in general over-represent the real structure of a social group [6] (see figure). And this is of paramount importance to understand the propagation of ideas, opinions, commercial messages, etc. in social networks, since most links declared in social networks might be meaningless from a relationship point of view.&lt;/p&gt;
 &lt;p&gt;[caption id=&amp;ldquo;attachment_441&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; width=&amp;ldquo;500&amp;rdquo; caption=&amp;ldquo;Undressing the social network: considering all e-mail interactions in a academic social network (left) yields to a highly dense and connected social network, while strong interactions (based on the individual relative frequency of communication) render the social group sparser and disconnected&amp;rdquo;]&lt;img src=&#34;http://estebanmoro.org/wp-content/uploads/2010/01/undressing1.jpg&#34; alt=&#34;undressing1&#34;&gt;
@@ -793,10 +793,10 @@ The nature of human interaction has undergone a substantial change in the past y
     
     <item>
       <title>La ciencia española no necesita tijeras</title>
-      <link>http://estebanmoro.org/2009/10/la-ciencia-espanola-no-necesita-tijeras/</link>
+      <link>https://estebanmoro.org/2009/10/la-ciencia-espanola-no-necesita-tijeras/</link>
       <pubDate>Wed, 07 Oct 2009 06:00:00 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/2009/10/la-ciencia-espanola-no-necesita-tijeras/</guid>
+      <guid>https://estebanmoro.org/2009/10/la-ciencia-espanola-no-necesita-tijeras/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;http://estebanmoro.org/wp-content/uploads/2009/10/3973473121_e76fde787c_o-300x300.jpg&#34; alt=&#34;3973473121_e76fde787c_o&#34;&gt;&lt;/p&gt;
 &lt;p&gt;La crisis y su efecto en los presupuestos del año 2010 han servido para poner a prueba el compromiso del gobierno de cambiar de modelo productivo y aumentar el gasto en I+D+i. En especial, sufren recortes los gastos del ministerio de Ciencia e Innovación (hasta un 17%), el capítulo 7 (las subvenciones a investigadores) &lt;a href=&#34;http://www.elpais.com/articulo/sociedad/ciencia/victima/presupuesto/elpepusoc/20091004elpepisoc_3/Tes&#34;&gt;un 17%&lt;/a&gt; y los presupuestos de algunos OPIs dependientes del Ministerio con un &lt;a href=&#34;http://www.lavanguardia.es/ciudadanos/noticias/20090930/53794421041/preocupacion-entre-los-cientificos-ante-el-proyecto-de-presupuestos-del-estado-para-el-2010-idi-csic.html&#34;&gt;15% menos de media&lt;/a&gt;. La situación es tal que hasta los propios ministros del gobierno creen que la situación, de continuar, es cuando &lt;a href=&#34;http://www.elpais.com/articulo/sociedad/Gabilondo/cree/inquietantes/recortes/Ciencia/elpepusoc/20091001elpepusoc_11/Tes&#34;&gt;menos preocupante&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Pero la ciencia no necesita estas tijeras presupuestarias. La principal razón es que la ciencia en este país y en general el I+D+i es un tejido que todavía no está maduro. Llevamos creciendo a buen ritmo en los últimos años y no lo estamos haciendo mal, pero la inversión y los planes en ciencia deben de hacerse a largo plazo, en especial en la contratación de personas. Los que llevamos algún tiempo en esto sabemos que el dinero disponible no siempre es el mismo y podemos ajustarnos el cinturón como antes lo habremos hecho muchos de nosotros, pero como &lt;a href=&#34;http://www.elpais.com/articulo/sociedad/jovenes/cientificos/sufriran/elpepisoc/20091004elpepisoc_4/Tes&#34;&gt;dice Margarita Salas&lt;/a&gt;, quienes van a sufrir más este recorte de prespuesto es la gente joven. En definitiva, el futuro de la I+D+i. La gente que tiene que llegar y superarnos y hacerlo mucho mejor que nosotros. Si ya costaba convencer a alguien de que hiciera ciencia en este país, ¿cómo vamos a hacerlo ahora cuando leen en los periódicos que no hay dinero?&lt;/p&gt;
@@ -807,10 +807,10 @@ The nature of human interaction has undergone a substantial change in the past y
     
     <item>
       <title>The speed and reach of forwarded emails, rumors, and hoaxes in electronic social networks</title>
-      <link>http://estebanmoro.org/2009/08/the-speed-and-reach-of-forwarded-emails-rumors-and-hoaxes-in-electronic-social-networks/</link>
+      <link>https://estebanmoro.org/2009/08/the-speed-and-reach-of-forwarded-emails-rumors-and-hoaxes-in-electronic-social-networks/</link>
       <pubDate>Tue, 04 Aug 2009 11:23:36 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/2009/08/the-speed-and-reach-of-forwarded-emails-rumors-and-hoaxes-in-electronic-social-networks/</guid>
+      <guid>https://estebanmoro.org/2009/08/the-speed-and-reach-of-forwarded-emails-rumors-and-hoaxes-in-electronic-social-networks/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;http://estebanmoro.org/wp-content/uploads/2009/08/large_spain_5-300x300.png&#34; alt=&#34;large_spain_5&#34;&gt;
 We have just published an &lt;a href=&#34;http://estebanmoro.org/2009/08/impact-of-human-activity-patterns-on-the-dynamics-of-information-diffusion/&#34;&gt;experimental/theoretical work&lt;/a&gt; on the speed of information diffusion in social networks in Physical Review Letters. Specifically we have studied the impact of the heterogeneity of human activity in propagation of emails, rumors, hoaxes, etc. Tracking email marketing campaigns, executed by IBM Corporation in 11 European countries, we were able to compare their viral propagation with our theory (see below the campaigns details).&lt;/p&gt;
 &lt;p&gt;The results are very simple. Let me give you an example: the typical time between two emails sent by the same person is around 1 day. Traditional models of information diffusion will then yield to an infection speed of 1 day. However, some email computer viruses spread widely in a matter of hours (minutes, sometimes), while some viral propagation (for example the &lt;a href=&#34;http://www.nytimes.com/2001/06/25/technology/25HOAX.html&#34;&gt;Veuve-Clicquot hoax&lt;/a&gt;) last for years. How can that occur? The reason is that traditional models are not correct because they neglect the large heterogeneity in the frequency of human activity: the average time between emails (1 day) does not actually represent the collectivity. In fact, most of us respond very quickly to emails, but some take a lot of time to do it. This fact (known and discovered previously by others) has a profound consequence in the way information spreads:&lt;/p&gt;
@@ -835,10 +835,10 @@ We have just published an &lt;a href=&#34;http://estebanmoro.org/2009/08/impact-
     
     <item>
       <title>Giving a talk</title>
-      <link>http://estebanmoro.org/2009/07/giving-a-talk/</link>
+      <link>https://estebanmoro.org/2009/07/giving-a-talk/</link>
       <pubDate>Fri, 24 Jul 2009 09:06:46 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/2009/07/giving-a-talk/</guid>
+      <guid>https://estebanmoro.org/2009/07/giving-a-talk/</guid>
       <description>&lt;p&gt;Giving a good talk is not an easy task, but with time and practice you get to learn how to communicate (hopefully I&amp;rsquo;ve learned too!!). There are a number of places on the web with advices to give a good talk. But I like Paul N. Edwards&amp;rsquo;s &lt;a href=&#34;http://www.si.umich.edu/~pne/PDF/howtotalk.pdf&#34;&gt;short manual&lt;/a&gt; about how to give an academic talk. My experience as audience in many talks tell me that the most important things are (quoting Paul&amp;rsquo;s manual):&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Presentation are not journal articles. Think of a talk as a series of 5 minutes presentations (one per transparency) with a general guideline.&lt;/li&gt;
@@ -855,10 +855,10 @@ We have just published an &lt;a href=&#34;http://estebanmoro.org/2009/08/impact-
     
     <item>
       <title>Ph.D. offer... interested?</title>
-      <link>http://estebanmoro.org/2009/06/phd-offer/</link>
+      <link>https://estebanmoro.org/2009/06/phd-offer/</link>
       <pubDate>Fri, 05 Jun 2009 10:06:04 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/2009/06/phd-offer/</guid>
+      <guid>https://estebanmoro.org/2009/06/phd-offer/</guid>
       <description>&lt;p&gt;Our research group is looking for Ph.D. candidates. Here is the announcement&lt;/p&gt;
 &lt;blockquote&gt;![mosaico](http://estebanmoro.org/wp-content/uploads/2009/06/mosaico.jpg)
 We offer contracts to work for a Ph.D. within the project MOSAICO (Modelling, Analysis and Simulations of Complex Systems). Candidates must have a degree in physics, math or related disciplines with outstanding marks. Info on the research lines is available from [http://www.gisc.es](http://www.gisc.es) and work will be carried out at Universities Complutense or Carlos III de Madrid. Work will begin on October 1st, 2009.
@@ -868,10 +868,10 @@ Interested candidates must send a CV indicating expliciting their marks to [cont
     
     <item>
       <title>The probability of going through a bad patch</title>
-      <link>http://estebanmoro.org/2009/04/the-probability-of-going-through-a-bad-patch/</link>
+      <link>https://estebanmoro.org/2009/04/the-probability-of-going-through-a-bad-patch/</link>
       <pubDate>Tue, 14 Apr 2009 11:37:02 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/2009/04/the-probability-of-going-through-a-bad-patch/</guid>
+      <guid>https://estebanmoro.org/2009/04/the-probability-of-going-through-a-bad-patch/</guid>
       <description>&lt;p&gt;We&amp;rsquo;ve heard it: people that invest on the stock market or that gamble in lotteries, casinos, etc usually say &amp;ldquo;I&amp;rsquo;m going through a bad patch&amp;rdquo; (or bad spell). That is, they have been losing money for a while, but hey! better times are ahead and there&amp;rsquo;s no reason to quit. Are they sure? Are better times ahead? How close is &amp;ldquo;ahead&amp;rdquo; to today? Let&amp;rsquo;s work through a specific example to see how far is &amp;ldquo;ahead&amp;rdquo;. Suppose we play a fair game: we toss a coin and with probability 1/2 we get $1 (heads) and with probability 1/2 we lose $1 (tails). We play the game &lt;code&gt;\(n\)&lt;/code&gt; times and compute our capital &lt;code&gt;\(C(n)\)&lt;/code&gt; up to time &lt;code&gt;\(n\)&lt;/code&gt;. If our initial capital is zero, then we expect that our capital fluctuate around zero as the coin-tossing game goes on. Sometimes we will be in the &amp;ldquo;winning area&amp;rdquo;, where our capital is positive &lt;code&gt;\(C(n)\)&lt;/code&gt; &amp;gt; 0. However, we can also be in the &amp;ldquo;losing area&amp;rdquo; in which our capital is negative &lt;code&gt;\(C(n)\)&lt;/code&gt; &amp;lt; 0. If we are going through a bad patch (being in the losing area) we expect that waiting long enough we will recover and come back to the winning area.&lt;/p&gt;
 &lt;p&gt;But this is incorrect. Let me show you why: let&amp;rsquo;s use some mathematics. Suppose that &lt;code&gt;\(x_i\)&lt;/code&gt; is the gain (+$1) or lose (-$1) in toss &lt;code&gt;\(i\)&lt;/code&gt; of the coin. Since our coin is fair, then &lt;code&gt;\(x_i\)&lt;/code&gt; is a random number which takes +1 or -1 with equal probability (1/2). Thus the capital up to time &lt;code&gt;\(n\)&lt;/code&gt; is the sum of those random numbers&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;$$C(n) = \sum_{i=1}^n x_i$$&lt;/code&gt;&lt;/p&gt;
@@ -884,7 +884,7 @@ Interested candidates must send a CV indicating expliciting their marks to [cont
 ![](/img/posts/cn.jpg)&lt;/center&gt;
 &lt;p&gt;The graphs shows 4 realizations of the game (colors) and the lines are the &lt;code&gt;\(\sqrt{n}\)&lt;/code&gt; areas in which our capital is mostly expected. As we can see in the &amp;ldquo;red&amp;rdquo; game, we starting losing money, but after a while we recover and went back to the &amp;ldquo;winning area&amp;rdquo;. Now the question is: what is the probability that we are in the winning area? Specifically, what is the probability &lt;code&gt;\(P(\alpha)\)&lt;/code&gt; that we are in the winning area ($C(n)$ &amp;gt; 0) for a fraction &lt;code&gt;\(\alpha\)&lt;/code&gt; of the total &lt;code&gt;\(n\)&lt;/code&gt; turns? The naive reasoning in the introduction will tell us that since &lt;code&gt;\(C(n)\)&lt;/code&gt; is fluctuating around zero we expect that the probability will be peaked and 1/2 and thus half of the time we will be in a bad patch and half of the time we will be going through a good spell. Thus, if we are going through a bad patch, we have only to wait to come back to black numbers. However, this is not true. The probability &lt;code&gt;\(P(\alpha)\)&lt;/code&gt; can be &lt;a href=&#34;http://math.berkeley.edu/~chr/teach/Lec14_2006.pdf&#34;&gt;worked out&lt;/a&gt; (although not trivially) to get&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;$$P(\alpha) = \frac{1}{\pi\sqrt{\alpha(1-\alpha)}}$$&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://estebanmoro.org/img/posts/pdfa.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/img/posts/pdfa.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;In the limit &lt;code&gt;\(n\to \infty\)&lt;/code&gt;, which is known as the&lt;a href=&#34;http://www.math.unl.edu/~sdunbar1/Teaching/MathematicalFinance/Lessons/CoinTossing/ExcessHeads/excessheads.shtml&#34;&gt; arc-sine law&lt;/a&gt; (since the cumulative distribution of &lt;code&gt;\(P(\alpha)\)&lt;/code&gt; is the arc-sin function). As the plot in the right shows the probability is peaked at 1 and 0 (actually, it diverges there!). Thus, for most of the realizations of the game we are most of the time in the winning area or in the losing area. This means that our naive reasoning above does not work: if you expect to recover from a bad patch, your chances are very small. This is obvious if we look at the colored figure above: the orange and black trajectories do not change from one winning/losing area to the other and, apart from the initial steps of the game, they remain in the winning/losing areas forever. The explanation for this behavior is that the &lt;a href=&#34;http://lib.stat.cmu.edu/~genovese/class/iprob-S06/notes/lec5-calcs.pdf&#34;&gt;first return time&lt;/a&gt; of &lt;code&gt;\(C(n)\)&lt;/code&gt; to zero is oftenly large. Actually, its expected time is infinite, which means that once you get into the positive/negative area you remain (mostly) there.&lt;/p&gt;
 &lt;p&gt;Note however, that there is no paradox in what we have found and the fact that &lt;code&gt;\(\mathbb{E}[C(n)] = 0\)&lt;/code&gt;, since &lt;code&gt;\(P(\alpha)\)&lt;/code&gt; is symmetric around &lt;code&gt;\(\alpha = 1/2\)&lt;/code&gt; and thus if we play the game a large number of times, on average, we have the same chances of winning and losing. But not for an individual game in which mostly we will be in a bad or good patch forever.&lt;/p&gt;
 &lt;p&gt;What is the moral? Simple: if you get into a bad patch, leave the game. Because chances to recover from a bad patch are small.&lt;/p&gt;
@@ -893,10 +893,10 @@ Interested candidates must send a CV indicating expliciting their marks to [cont
     
     <item>
       <title>Being part of &#34;best of 2008&#34;</title>
-      <link>http://estebanmoro.org/2009/03/being-part-of-best-of-2008/</link>
+      <link>https://estebanmoro.org/2009/03/being-part-of-best-of-2008/</link>
       <pubDate>Mon, 30 Mar 2009 06:46:26 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/2009/03/being-part-of-best-of-2008/</guid>
+      <guid>https://estebanmoro.org/2009/03/being-part-of-best-of-2008/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;http://estebanmoro.org/wp-content/uploads/2009/03/njpbest2008-300x211.jpg&#34; alt=&#34;njpbest2008&#34;&gt;
 I got wonderful news today. Our paper &amp;ldquo;Specialization and herding behavior of trading firms in a financial market&amp;rdquo; (&lt;a href=&#34;http://estebanmoro.org/2007/07/specialization-of-strategies-and-herding-behavior-of-trading-firms-in-a-financial-market/&#34;&gt;pdf&lt;/a&gt;) has been selected by the Editorial Board of New Journal of Physics as part of the Journal&amp;rsquo;s &lt;a href=&#34;http://www.iop.org/EJ/journal/-page=extra.bestof2008/1367-2630&#34;&gt;Best of 2008&lt;/a&gt;. According to their site, &amp;ldquo;Best of 2008&amp;rdquo; is a compilation of articles selected by the Editorial Board and staff team on the basis of criteria including referee endorsements, readership and citation levels and simple broad appeal. All articles are permanently free to read.&lt;/p&gt;
 &lt;p&gt;Thanks to NJP for this boost and congrats to their editorial board and staff for their work. Hope to make it to 2009 too.&lt;/p&gt;
@@ -905,10 +905,10 @@ I got wonderful news today. Our paper &amp;ldquo;Specialization and herding beha
     
     <item>
       <title>The use of statistics</title>
-      <link>http://estebanmoro.org/2009/02/the-use-of-statistics/</link>
+      <link>https://estebanmoro.org/2009/02/the-use-of-statistics/</link>
       <pubDate>Tue, 24 Feb 2009 08:58:00 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/2009/02/the-use-of-statistics/</guid>
+      <guid>https://estebanmoro.org/2009/02/the-use-of-statistics/</guid>
       <description>&lt;blockquote&gt;Mark Twain (1924) probably had politicians in mind when he reiterated Disraeli’s famous remark (&#34;There are three kinds of lies: lies, damned lies and statistics&#34;). Scientists, we hope, would never use data in such a selective manner to suit their own ends. But, alas, the analysis of data is often the source of some exasperation even in an academic context. On hearing comments like ‘the result of this experiment was inconclusive, so we had to use statistics’, we are frequently left wondering as to what strange tricks have been played on the data.&lt;/blockquote&gt;
 &lt;p&gt;D. S. Sivia in &lt;em&gt;&lt;a href=&#34;http://www.amazon.com/Data-Analysis-Bayesian-Tutorial-Publications/dp/0198518897&#34;&gt;Data Analysis: A bayesian Tutorial&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 </description>
@@ -916,10 +916,10 @@ I got wonderful news today. Our paper &amp;ldquo;Specialization and herding beha
     
     <item>
       <title>Itô calculus for the rest of us</title>
-      <link>http://estebanmoro.org/post/2009-02-12-ito-calculus-for-the-rest-of-us/</link>
+      <link>https://estebanmoro.org/post/2009-02-12-ito-calculus-for-the-rest-of-us/</link>
       <pubDate>Thu, 12 Feb 2009 08:21:42 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2009-02-12-ito-calculus-for-the-rest-of-us/</guid>
+      <guid>https://estebanmoro.org/post/2009-02-12-ito-calculus-for-the-rest-of-us/</guid>
       <description>&lt;p&gt;One of the areas of my research is stochastic differential equations (SDE). I posted about it &lt;a href=&#34;http://estebanmoro.org/2008/12/introduction-to-stochastic-differential-equations/&#34;&gt;several&lt;/a&gt; &lt;a href=&#34;http://estebanmoro.org/2008/11/kiyoshi-ito-93-dies/&#34;&gt;times&lt;/a&gt; &lt;a href=&#34;http://estebanmoro.org/2006/03/writing-bad-letters-of-recommendation-the-story-of-bachelier-and-levy/&#34;&gt;before&lt;/a&gt;. One of the things students and collaborators keep asking me about SDEs is the weird stochastic &lt;a href=&#34;http://en.wikipedia.org/wiki/Ito_stochastic_calculus&#34;&gt;Itô Calculus&lt;/a&gt;. Itô Calculus is different from what you learn in 101 calculus. In particular, the chain rule is not longer valid. Let me explain it with an example. Suppose you have the following equation&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;$$dX = a dW(t)$$&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;where &lt;code&gt;\(W(t)\)&lt;/code&gt; is the Wiener stochastic process: it is a process in which &lt;code&gt;\(W(0) = 0\)&lt;/code&gt; and with Gaussian independent increments &lt;code&gt;\(W(t)-W(s) \sim {\cal N}(0,t-s)\)&lt;/code&gt;, where &lt;code&gt;\({\cal N}(\mu,\sigma^2)\)&lt;/code&gt; are Gaussian random numbers with mean &lt;code&gt;\(\mu\)&lt;/code&gt; and variance &lt;code&gt;\(\sigma^2\)&lt;/code&gt;. This equation is the simplest SDE and its solution is (obviously),&lt;/p&gt;
@@ -927,7 +927,7 @@ I got wonderful news today. Our paper &amp;ldquo;Specialization and herding beha
 &lt;p&gt;But there is a different way to look at SDEs. Since they describe the trayectory of &lt;code&gt;\(X(t)\)&lt;/code&gt; subject to &lt;code&gt;\(W(t)\)&lt;/code&gt; we can instead ask ourselves what is the probability to find that &lt;code&gt;\(X(t) = x\)&lt;/code&gt; in average, i.e. after many different runs of &lt;code&gt;\(W(t)\)&lt;/code&gt;. Let&amp;rsquo;s call &lt;code&gt;\(P(x,t)\)&lt;/code&gt;that probability which is known to satisfy the &lt;a href=&#34;http://en.wikipedia.org/wiki/Fokker%E2%80%93Planck_equation&#34;&gt;Fokker-Planck equation&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;$$\frac{dP}{dt}=a\frac{d^2P}{dx^2}$$&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;which is the simple diffusion equation. The following figure shows the relationship between &lt;code&gt;\(X(t)\)&lt;/code&gt; and &lt;code&gt;\(P(x,t)\)&lt;/code&gt;. While &lt;code&gt;\(X(t)\)&lt;/code&gt; is a simple trayectory (for a given &lt;code&gt;\(W(t)\)&lt;/code&gt; realization), &lt;code&gt;\(P(x,t)\)&lt;/code&gt; is the probability to find &lt;code&gt;\(X(t) = x\)&lt;/code&gt; over all possible realizations of &lt;code&gt;\(W(t)\)&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://estebanmoro.org/img/posts/pdf1.jpg&#34; alt=&#34;pdf1&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/img/posts/pdf1.jpg&#34; alt=&#34;pdf1&#34;&gt;&lt;/p&gt;
 &lt;p&gt;The relationship between &lt;code&gt;\(X(t)\)&lt;/code&gt; and &lt;code&gt;\(P(x,t)\)&lt;/code&gt; is more general than for the example used here. In general, if we have the SDE&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;$$dX(t) = f(X,t)dt + g(X,t) dW(t)$$&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;in the Itô sense, then &lt;code&gt;\(P(x,t)\)&lt;/code&gt; is the solution of&lt;/p&gt;
@@ -946,10 +946,10 @@ I got wonderful news today. Our paper &amp;ldquo;Specialization and herding beha
     
     <item>
       <title>Visualizing citation networks</title>
-      <link>http://estebanmoro.org/2009/02/visualizing-citation-networks/</link>
+      <link>https://estebanmoro.org/2009/02/visualizing-citation-networks/</link>
       <pubDate>Mon, 09 Feb 2009 17:51:25 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/2009/02/visualizing-citation-networks/</guid>
+      <guid>https://estebanmoro.org/2009/02/visualizing-citation-networks/</guid>
       <description>&lt;p&gt;The &lt;a href=&#34;http://eigenfactor.org/&#34;&gt;Eigenfactor Project&lt;/a&gt; and &lt;a href=&#34;http://well-formed-data.net/&#34;&gt;Moritz Stefaner&lt;/a&gt; join efforts to &lt;a href=&#34;http://well-formed.eigenfactor.org/&#34;&gt;visualize the citation network&lt;/a&gt; between different journals belonging to different research fields. It is amazing and a wonderful way to explore patterns in citation networks&lt;/p&gt;
 &lt;p&gt; &lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;http://estebanmoro.org/wp-content/uploads/2009/02/radial_01bhvntsv7lrcoksgsgs0ossswc8td8r2s3w1cs4kksc4okksgg8th.jpeg&#34; alt=&#34;radial_01bhvntsv7lrcoksgsgs0ossswc8td8r2s3w1cs4kksc4okksgg8th&#34;&gt;&lt;/p&gt;
@@ -959,15 +959,15 @@ I got wonderful news today. Our paper &amp;ldquo;Specialization and herding beha
     
     <item>
       <title>Waiting for the bus</title>
-      <link>http://estebanmoro.org/post/2009-01-28-waiting-for-the-bus/</link>
+      <link>https://estebanmoro.org/post/2009-01-28-waiting-for-the-bus/</link>
       <pubDate>Wed, 28 Jan 2009 10:54:22 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2009-01-28-waiting-for-the-bus/</guid>
+      <guid>https://estebanmoro.org/post/2009-01-28-waiting-for-the-bus/</guid>
       <description>&lt;p&gt;Although the public transportation system in Madrid is very good, I don&amp;rsquo;t usually take the bus or the train to move around. But sometimes my car decides I should take public transportation (bus or train). One of things I always found intriguing is that I always wait way more for the bus than what is expected according to the frequency quoted by the transportation companies at the bus or train stop. For example: if the frequency of the buses is 4 per hour, you should expect a bus each 15 minutes on average, although fluctuations around this value may occur due to traffic conditions. Thus, arriving at the bus stop at random will get you an average of 15/2 = 7.5 minutes of wait. I have the impression I always wait 15 minutes instead. How can this be? Is it that I am so unlucky I always arrive at the bus stop when the previous bus has just left?&lt;/p&gt;
 &lt;p&gt;The answer to this question is the famous &lt;a href=&#34;http://mahalanobis.twoday.net/stories/3486587/&#34;&gt;waiting time paradox&lt;/a&gt; in &lt;a href=&#34;http://en.wikipedia.org/wiki/Queueing_theory&#34;&gt;queueing theory&lt;/a&gt;: in short, let&amp;rsquo;s assume that the times between two buses are given by the variable &lt;code&gt;\(T\)&lt;/code&gt;. In the ideal world, &lt;code&gt;\(T\)&lt;/code&gt; will be a deterministic variable. In the example above, &lt;code&gt;\(T = 15\)&lt;/code&gt; minutes. However, due to traffic conditions and other variables, &lt;code&gt;\(T\)&lt;/code&gt; is distributed around 15 minutes. For example, the following graphic shows the &amp;ldquo;lateness&amp;quot;of non-frequent buses in Great Britain, extracted from the &lt;a href=&#34;http://www.dft.gov.uk/pgr/statistics/datatablespublications/public/buspunctuality/buspunctuality07&#34;&gt;Bus Punctuality Statistics GB 2007 report&lt;/a&gt; &lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://estebanmoro.org/img/posts/lateness1.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/img/posts/lateness1.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;As we can see, although most of the buses were late only less than a couple of minutes, but there is an significant fraction of them that were late more than 5 minutes. And even some of them came earlier than expected! Assuming that our buses come at times &lt;code&gt;\(T\)&lt;/code&gt;drawn from the above distribution, let&amp;rsquo;s see how a day will look like from the bus stop:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://estebanmoro.org/img/posts/diabus.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/img/posts/diabus.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Buses arrived at the bus stop (vertical lines) with time between them given by &lt;code&gt;\(T_i\)&lt;/code&gt;. After my car breaks down, I arrive at the bus stop at the time given by the vertical arrow. Thus I have to wait a time &lt;code&gt;\(\tau\)&lt;/code&gt;. The question is: what is the average value of &lt;code&gt;\(\tau\)&lt;/code&gt;? Given that my car breaks at random, I can assume that my arrival time is completely at random, uncorrelated with bus time tables. However, if the time I get to the bus stop is random, I have more probability to get to the bus stop in an interval in which the time between buses &lt;code&gt;\(T\)&lt;/code&gt; is bigger. Specifically, the probability that I arrive at an interval with time between buses &lt;code&gt;\(T\)&lt;/code&gt; is &lt;/p&gt;
 &lt;p&gt;&lt;code&gt;$$\frac{T P(T)}{\overline{T}}$$&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;where &lt;code&gt;\(\overline{T}\)&lt;/code&gt; is the average value of time between buses. Given the interval &lt;code&gt;\(T\)&lt;/code&gt;, the waiting time &lt;code&gt;\(\tau\)&lt;/code&gt; is equally distributed (since my arrival is random), and thus we have to multiply the above probability by &lt;code&gt;\(1/T\)&lt;/code&gt;. Finally, we average over all possible &lt;code&gt;\(\tau \leq T\)&lt;/code&gt;, giving
@@ -986,10 +986,10 @@ where &lt;code&gt;\(\sigma_T^2\)&lt;/code&gt; is the variance of the times betwe
     
     <item>
       <title>Referee Reports</title>
-      <link>http://estebanmoro.org/2009/01/referee-reports/</link>
+      <link>https://estebanmoro.org/2009/01/referee-reports/</link>
       <pubDate>Wed, 21 Jan 2009 10:39:43 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/2009/01/referee-reports/</guid>
+      <guid>https://estebanmoro.org/2009/01/referee-reports/</guid>
       <description>&lt;p&gt;I found an &lt;a href=&#34;http://cm.physics.tamu.edu/cmseminars/cm_talks/2006_02_01_Mitra_S.pdf&#34;&gt;interesting presentation&lt;/a&gt; by Sami Mitra, associate editor of Physical Review Letters, about the editorial office and the editorial process at PRL. Among some interesting figures about the journal and also about the procedure of selecting potential referees, I enjoyed very much the quotes from some of the referee communications with the editorial office. Here they are:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;I cannot review this paper as it is wrong and I did it first.&lt;/p&gt;
@@ -1018,10 +1018,10 @@ where &lt;code&gt;\(\sigma_T^2\)&lt;/code&gt; is the variance of the times betwe
     
     <item>
       <title>Publish and... perish</title>
-      <link>http://estebanmoro.org/2009/01/publish-and-perish/</link>
+      <link>https://estebanmoro.org/2009/01/publish-and-perish/</link>
       <pubDate>Mon, 12 Jan 2009 08:08:00 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/2009/01/publish-and-perish/</guid>
+      <guid>https://estebanmoro.org/2009/01/publish-and-perish/</guid>
       <description>&lt;p&gt;In the old days, research quality was measured by the number of papers you published. Publishing was a hard process and only few scientists were able to publish several papers per year. However, with the bloom of new journals, the appearance of electronic editorial process, and the specialization of research fields, the number of publications per year has grow exponentially during the last decades. Thus publishing is not longer a good measure of the quality of research. As an example if this I recently attended a talk by &lt;a href=&#34;http://physics.bu.edu/~redner/&#34;&gt;Sid Redner&lt;/a&gt; in which he showed the following data extracted from the Physical Review citation data of 353000 papers:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;  * Only 11 papers got more than 1000 citations
   * 245000 got less than 10 citations
@@ -1041,10 +1041,10 @@ The situation is similar to what has been &lt;a href=&#34;http://www.mcps-prs-al
     
     <item>
       <title>The best job in 2008 was ... mathematician!</title>
-      <link>http://estebanmoro.org/2009/01/the-best-job-in-2008-is-mathematician/</link>
+      <link>https://estebanmoro.org/2009/01/the-best-job-in-2008-is-mathematician/</link>
       <pubDate>Thu, 08 Jan 2009 10:46:40 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/2009/01/the-best-job-in-2008-is-mathematician/</guid>
+      <guid>https://estebanmoro.org/2009/01/the-best-job-in-2008-is-mathematician/</guid>
       <description>&lt;p&gt;Good news to fans of the &amp;ldquo;language of Nature&amp;rdquo;, mathematics. Wall Street Journal is running &lt;a href=&#34;http://online.wsj.com/article/SB123119236117055127.html&#34;&gt;an article &lt;/a&gt;on what are the best jobs in 2008. The ranking is done &amp;ldquo;evaluating 200 professions to determine the best and worst according to five criteria inherent to every job: environment, income, employment outlook, physical demands and stress.&amp;rdquo; And which one do you think ranks first? Here is the list of the first ten:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;  1. Mathematician
   2. Actuary
@@ -1064,15 +1064,15 @@ The situation is similar to what has been &lt;a href=&#34;http://www.mcps-prs-al
     
     <item>
       <title>Brown&#39;s observations on Brownian motion </title>
-      <link>http://estebanmoro.org/2008/12/browns-observations-on-brownian-motion/</link>
+      <link>https://estebanmoro.org/2008/12/browns-observations-on-brownian-motion/</link>
       <pubDate>Thu, 18 Dec 2008 09:27:47 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/2008/12/browns-observations-on-brownian-motion/</guid>
+      <guid>https://estebanmoro.org/2008/12/browns-observations-on-brownian-motion/</guid>
       <description>&lt;center&gt;
 &lt;p&gt;&lt;img src=&#34;https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Robert_Brown_%28young_-_larousse%29.jpg/397px-Robert_Brown_%28young_-_larousse%29.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;/center&gt;
 &lt;p&gt;In 1828, Robert Brown published the manuscript entitled &amp;ldquo;A brief account of microscopical observations made in the months of June, July and August 1827, on the particles contained in the pollen of plants; and on the general existence of active molecules in organic and inorganic bodies&amp;rdquo; in the Edinburgh new Philosophical Journal [download it in pdf format &lt;a href=&#34;http://sciweb.nybg.org/science2/pdfs/dws/Brownian.pdf&#34;&gt;here&lt;/a&gt;]. He suspended some of the pollen grains of the species &lt;a href=&#34;http://www.robsplants.com/plants/ClarkPulch.php&#34;&gt;Clarkia pulchella&lt;/a&gt; in water and examined them closely, only to see them &amp;ldquo;filled with particles&amp;rdquo; of around 5 µm diameter that were &amp;ldquo;very evidently in motion&amp;rdquo;. He was soon satisfied that the movement &amp;ldquo;arose neither from currents in the fluid nor form its gradual evaporation, but belonged to the particle itself&amp;rdquo;. Brown&amp;rsquo;s work was the first comprehensive observation of a phenomena called &lt;a href=&#34;http://en.wikipedia.org/wiki/Brownian_motion&#34;&gt;Brownian motion&lt;/a&gt; which remained unexplained until the beginning of the 20th century by Bachelier and most notably by Einstein in his famous paper in 1905. Brownian motion is the most basic description of the dynamics of a particle, price, etc. under the influence of external noise.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://estebanmoro.org/img/posts/microscopio-brown-150x150.jpg&#34; alt=&#34;Microscope used by Brown&#34;&gt;Microscope used by Brown&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/img/posts/microscopio-brown-150x150.jpg&#34; alt=&#34;Microscope used by Brown&#34;&gt;Microscope used by Brown&lt;/p&gt;
 &lt;p&gt;A typical mistake found in books, encyclopedias and articles (even in the Nature journal and even by the great &lt;a href=&#34;http://www.nature.com/nature/journal/v433/n7023/full/433221a.html&#34;&gt;Giorgio Parisi&lt;/a&gt;) is that Brown observed the motion of the pollen grains themselves. This might be the most clear example of a propagated mistake in the scientific literature, since it is obvious from the very title that the particles he observed were &amp;ldquo;in the pollen grains&amp;rdquo;. In fact, using the explanation of the motion by Einstein is easy to convince ourselves that the pollen grains were too big to wander around enough to be observable: Einstein in 1905 published a paper (original &lt;a href=&#34;http://www.physik.uni-augsburg.de/theo1/hanggi/History/Einstein1906BMII.pdf&#34;&gt;in german&lt;/a&gt;) in which he derived the famous &lt;a href=&#34;http://en.wikipedia.org/wiki/Einstein_relation_(kinetic_theory)&#34;&gt;Einstein relation&lt;/a&gt; in kinetic theory&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;$$D = \frac{k_B T}{6 \pi \eta r}$$&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;which relates the diffusion constant of the Brownian motion of a particle &lt;code&gt;\(D\)&lt;/code&gt; with the radius of the particle &lt;code&gt;\(r\)&lt;/code&gt; and the viscosity of the medium in which the particle is moving &lt;code&gt;\(\eta\)&lt;/code&gt;. The diffusion constant &lt;code&gt;\(D\)&lt;/code&gt; is also proportional to the temperature &lt;code&gt;\(T\)&lt;/code&gt; and &lt;code&gt;\(k_B\)&lt;/code&gt; is the Boltzmann constant. In order to observe the motion by eye, the particle should move considerably in a matter of seconds. We can evaluate the size of the movement by looking at the root-mean-square fluctuations in the position which are given by&lt;/p&gt;
@@ -1082,7 +1082,7 @@ The situation is similar to what has been &lt;a href=&#34;http://www.mcps-prs-al
 &lt;p&gt;&lt;code&gt;$$r \leq 1 \mu m$$&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;that is, of the same length of the particles observed by Brown inside the pollen grain. In the following video you can see this molecular motion in an experiment made a research group in the Universidad Complutense de Madrid (Luis Dinis, &lt;a href=&#34;http://www.ucm.es/info/goptic/&#34;&gt;Julio Serna&lt;/a&gt;, Rodrigo Soto and Ricardo Brito) using polystyrene spheres of &lt;code&gt;\(0.75-0.89\mu m\)&lt;/code&gt; diameter in water. The observations are made with an optical microscope using a 60x objective. The Brownian motion is evident.&lt;/p&gt;
 &lt;video width=&#34;600&#34; controls&gt;
-  &lt;source src=&#34;http://estebanmoro.org/img/posts/bmhq1.mp4&#34; type=&#34;video/mp4&#34;&gt;
+  &lt;source src=&#34;https://estebanmoro.org/img/posts/bmhq1.mp4&#34; type=&#34;video/mp4&#34;&gt;
 &lt;/video&gt;
 &lt;p&gt;More information about Brown&amp;rsquo;s observations and related work:&lt;/p&gt;
 &lt;ul&gt;
@@ -1099,10 +1099,10 @@ The situation is similar to what has been &lt;a href=&#34;http://www.mcps-prs-al
     
     <item>
       <title>Science is the only news</title>
-      <link>http://estebanmoro.org/2008/12/science-is-the-only-news/</link>
+      <link>https://estebanmoro.org/2008/12/science-is-the-only-news/</link>
       <pubDate>Thu, 11 Dec 2008 08:19:12 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/2008/12/science-is-the-only-news/</guid>
+      <guid>https://estebanmoro.org/2008/12/science-is-the-only-news/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Science is the only news. When you scan through a newspaper or magazine, all the human interest stuff is the same old he-said-she-said, the politics and economics the same sorry cyclic dramas, the fashions a pathetic illusion of newness, and even the technology is predictable if you know the science. Human nature doesn’t change much; science does, and the change accrues, altering the world irreversibly. &lt;/p&gt;
 &lt;/blockquote&gt;
@@ -1112,10 +1112,10 @@ The situation is similar to what has been &lt;a href=&#34;http://www.mcps-prs-al
     
     <item>
       <title>New section in the arXiv: Quantitative Finance</title>
-      <link>http://estebanmoro.org/2008/12/new-section-in-the-arxiv-quantitative-finance/</link>
+      <link>https://estebanmoro.org/2008/12/new-section-in-the-arxiv-quantitative-finance/</link>
       <pubDate>Tue, 09 Dec 2008 09:05:42 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/2008/12/new-section-in-the-arxiv-quantitative-finance/</guid>
+      <guid>https://estebanmoro.org/2008/12/new-section-in-the-arxiv-quantitative-finance/</guid>
       <description>&lt;p&gt;News from the &lt;a href=&#34;http://arxiv.org/&#34;&gt;arXiv&lt;/a&gt;: a new section has been created to host preprints about Quantitative Finance. The section (as stated in the &lt;a href=&#34;http://arxiv.org/new/q-fin_announcement.html&#34;&gt;press release&lt;/a&gt;) intends to fix a problem with existing pre-print repositories. One one hand, social sciences repositories like SSRN, RepEC/IDEAS and others are too academic for practitioners, while on the other hand sites like defaultrisk.com or wilmott.com have not attracted many academic contributors. The new category in the arXiv would be a gathering point for both practitioners and academic people working in this important research field&lt;/p&gt;
 &lt;p&gt;The new sub-categories of the new q-fin category are:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;  * q-fin.PR - Pricing of Securities
@@ -1143,17 +1143,17 @@ The situation is similar to what has been &lt;a href=&#34;http://www.mcps-prs-al
     
     <item>
       <title>Introduction to stochastic differential equations</title>
-      <link>http://estebanmoro.org/2008/12/introduction-to-stochastic-differential-equations/</link>
+      <link>https://estebanmoro.org/2008/12/introduction-to-stochastic-differential-equations/</link>
       <pubDate>Thu, 04 Dec 2008 16:45:32 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/2008/12/introduction-to-stochastic-differential-equations/</guid>
+      <guid>https://estebanmoro.org/2008/12/introduction-to-stochastic-differential-equations/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://en.wikipedia.org/wiki/Stochastic_differential_equation&#34;&gt;Stochastic differential equations&lt;/a&gt; (SDEs) are basically &lt;em&gt;inhomogenous ordinary differential equations that depend on an external stochastic process&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;Typically, that stochastic process is &lt;a href=&#34;http://en.wikipedia.org/wiki/White_noise&#34;&gt;white noise&lt;/a&gt;, which is the mathematical idealization of the noise found in nature. This idealization is handy, because it simplifies the mathematical description. However, this idealization comes at some cost: traditional calculus is no longer valid and you have to use the so-call &lt;a href=&#34;http://en.wikipedia.org/wiki/Ito_stochastic_calculus&#34;&gt;Itô calculus&lt;/a&gt;. This introduces some non intuitive changes. For example, instead of the usual chain rule of calculus, the Itô formula should be used. Here is an example, the Itô integral of the Wiener process (or Brownian Motion) is&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://estebanmoro.org/img/posts/itocalculus.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/img/posts/itocalculus.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Note the last term in the right-hand-side (!).&lt;/p&gt;
 &lt;p&gt;If you are interested to learn more on SDEs:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;I prepared a long time ago &lt;a href=&#34;http://estebanmoro.org/img/ps/introtosde.pdf&#34;&gt;some notes&lt;/a&gt; about SDEs in Spanish&lt;/li&gt;
+&lt;li&gt;I prepared a long time ago &lt;a href=&#34;https://estebanmoro.org/img/ps/introtosde.pdf&#34;&gt;some notes&lt;/a&gt; about SDEs in Spanish&lt;/li&gt;
 &lt;li&gt;A &lt;a href=&#34;http://math.berkeley.edu/~evans/SDE.course.pdf&#34;&gt;nicer introduction&lt;/a&gt; to SDEs by Prof. Evans&lt;/li&gt;
 &lt;/ul&gt;
 </description>
@@ -1161,10 +1161,10 @@ The situation is similar to what has been &lt;a href=&#34;http://www.mcps-prs-al
     
     <item>
       <title>Percentages and absolute numbers</title>
-      <link>http://estebanmoro.org/2008/12/percentages-and-absolute-numbers/</link>
+      <link>https://estebanmoro.org/2008/12/percentages-and-absolute-numbers/</link>
       <pubDate>Tue, 02 Dec 2008 09:47:23 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/2008/12/percentages-and-absolute-numbers/</guid>
+      <guid>https://estebanmoro.org/2008/12/percentages-and-absolute-numbers/</guid>
       <description>&lt;p&gt;Percentage of active users in the Internet 2.0 is tiny. &lt;a href=&#34;http://www.useit.com/alertbox/participation_inequality.html&#34;&gt;Fractions go from&lt;/a&gt;&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;  * only 1% of Wikipedia&#39;s users contribute to making it better
   * only 0.1% of users upload their own videos to Youtube
@@ -1183,10 +1183,10 @@ The situation is similar to what has been &lt;a href=&#34;http://www.mcps-prs-al
     
     <item>
       <title>Is Game Theory a scientific theory?</title>
-      <link>http://estebanmoro.org/2008/12/is-game-theory-a-scientific-theory/</link>
+      <link>https://estebanmoro.org/2008/12/is-game-theory-a-scientific-theory/</link>
       <pubDate>Mon, 01 Dec 2008 07:40:05 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/2008/12/is-game-theory-a-scientific-theory/</guid>
+      <guid>https://estebanmoro.org/2008/12/is-game-theory-a-scientific-theory/</guid>
       <description>&lt;p&gt;A wonderful quote about the nature of Game Theory&lt;/p&gt;
 &lt;blockquote&gt;Game theory is no doubt wonderful for telling stories. However, it flunks the main test of any scientific theory: The ability to make empirically testable predictions. In most real-life situations, many different outcomes -- from full cooperation to near-disastrous conflict -- are consistent with the game-theory version of rationality. &lt;/blockquote&gt;
 &lt;p&gt;by Michael Mandel, on &lt;a href=&#34;http://www.businessweek.com/bwdaily/dnflash/oct2005/nf20051011_3028_db084.htm&#34;&gt;Kahneman and Smith 2002 Nobel Prize in Economics&lt;/a&gt;. &lt;/p&gt;
@@ -1196,10 +1196,10 @@ The situation is similar to what has been &lt;a href=&#34;http://www.mcps-prs-al
     
     <item>
       <title>Kiyoshi Itô, 93, dies</title>
-      <link>http://estebanmoro.org/2008/11/kiyoshi-ito-93-dies/</link>
+      <link>https://estebanmoro.org/2008/11/kiyoshi-ito-93-dies/</link>
       <pubDate>Sun, 30 Nov 2008 22:17:18 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/2008/11/kiyoshi-ito-93-dies/</guid>
+      <guid>https://estebanmoro.org/2008/11/kiyoshi-ito-93-dies/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://estebanmoro.org/wp-content/uploads/2008/11/ito.jpeg&#34;&gt;&lt;img src=&#34;http://estebanmoro.org/wp-content/uploads/2008/11/ito-242x300.jpg&#34; alt=&#34;&#34;&gt;
 &lt;/a&gt;November was a rather sad month in the world of stochastic differential equations. In the 26th we were suppose to be celebrating the birth of one of the best mathematicians in history, &lt;a href=&#34;http://en.wikipedia.org/wiki/Norbert_Wiener&#34;&gt;Norbert Wiener&lt;/a&gt;, who gives name to the Wiener process, usually denoted W(t). However, in the 10th, &lt;a href=&#34;en.wikipedia.org/wiki/Kiyoshi_It%C5%8D&#34;&gt;Kiyoshi Itô&lt;/a&gt;, the father of stochastic differential equations, &lt;a href=&#34;http://www.nytimes.com/2008/11/24/business/24ito.html?_r=1&amp;amp;ref=obituaries&#34;&gt;passed away&lt;/a&gt;. Interestingly both are present in a simple stochastic differential equation like this&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://estebanmoro.org/wp-content/uploads/2008/11/sdejpeg.jpg&#34;&gt;&lt;img src=&#34;http://estebanmoro.org/wp-content/uploads/2008/11/sdejpeg-300x22.jpg&#34; alt=&#34;&#34;&gt;
@@ -1213,10 +1213,10 @@ The situation is similar to what has been &lt;a href=&#34;http://www.mcps-prs-al
     
     <item>
       <title>Individuals and groups</title>
-      <link>http://estebanmoro.org/2008/11/individuals-and-groups/</link>
+      <link>https://estebanmoro.org/2008/11/individuals-and-groups/</link>
       <pubDate>Wed, 26 Nov 2008 15:03:29 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/2008/11/individuals-and-groups/</guid>
+      <guid>https://estebanmoro.org/2008/11/individuals-and-groups/</guid>
       <description>&lt;blockquote&gt;While the individual man is an insoluble puzzle, in the aggregate he becomes a mathematical certainty. You can, for example, never foretell what any one man will do, but you can say with precision what an average number will be up to. Individuals vary, but percentages remain constant. So says the statistician&lt;/blockquote&gt;
 &lt;p&gt;Sherlock Holmes in &amp;ldquo;The Sign of Four&amp;rdquo;. Via &lt;a href=&#34;http://gaussianos.com/%C2%A1exacto/&#34;&gt;Gaussianos&lt;/a&gt;&lt;/p&gt;
 </description>
@@ -1224,22 +1224,22 @@ The situation is similar to what has been &lt;a href=&#34;http://www.mcps-prs-al
     
     <item>
       <title>Proofs and pictures </title>
-      <link>http://estebanmoro.org/2007/11/proofs-and-pictures/</link>
+      <link>https://estebanmoro.org/2007/11/proofs-and-pictures/</link>
       <pubDate>Fri, 30 Nov 2007 20:18:05 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/2007/11/proofs-and-pictures/</guid>
+      <guid>https://estebanmoro.org/2007/11/proofs-and-pictures/</guid>
       <description>&lt;p&gt;A picture is worth a thousand lines of equations&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://estebanmoro.org/img/posts/neatproofs.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/img/posts/neatproofs.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://www.chass.utoronto.ca/~jrbrown/&#34;&gt;By James Robert Brown&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Editor de la sección &#34;Física y Computación&#34;</title>
-      <link>http://estebanmoro.org/2006/10/editor-de-la-seccion-fisica-y-computacion/</link>
+      <link>https://estebanmoro.org/2006/10/editor-de-la-seccion-fisica-y-computacion/</link>
       <pubDate>Mon, 30 Oct 2006 20:21:13 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/2006/10/editor-de-la-seccion-fisica-y-computacion/</guid>
+      <guid>https://estebanmoro.org/2006/10/editor-de-la-seccion-fisica-y-computacion/</guid>
       <description>&lt;p&gt;Hola a todos.&lt;/p&gt;
 &lt;p&gt;Este es mi primer post en español en este blog (aunque incluyo la traducción al inglés más abajo). Y lo hago para anunciar que soy el editor desde el número de Diciembre de la sección &amp;ldquo;Física y Computación&amp;rdquo; de la &lt;a href=&#34;http://www.ucm.es/info/rsef/revista_espanola.html&#34;&gt;revista&lt;/a&gt; de la &lt;a href=&#34;http://www.rsef.es/&#34;&gt;Real Sociedad Española de Física&lt;/a&gt;. Para seguir las novedades y noticias de dicha sección he montado un &lt;a href=&#34;http://gisc.uc3m.es/fisica_y_computacion&#34;&gt;blog&lt;/a&gt; (distinto a este) en el que podeis ver los nuevos artículos de la sección, así como el archivo de los artículos ya publicados. Por supuesto, animo a todos a mandar una contribución a la sección en la que se valora especialmente el trabajo de simulación y computación en el entendimiento de problemas en física.&lt;/p&gt;
 &lt;p&gt;Un saludo &lt;/p&gt;
@@ -1252,20 +1252,20 @@ The situation is similar to what has been &lt;a href=&#34;http://www.mcps-prs-al
     
     <item>
       <title>Superconductivy Live!</title>
-      <link>http://estebanmoro.org/2006/10/superconductivy-live/</link>
+      <link>https://estebanmoro.org/2006/10/superconductivy-live/</link>
       <pubDate>Mon, 09 Oct 2006 08:09:49 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/2006/10/superconductivy-live/</guid>
+      <guid>https://estebanmoro.org/2006/10/superconductivy-live/</guid>
       <description>&lt;p&gt;It is always amazing to browse through &lt;a href=&#34;http://www.youtube.com/&#34;&gt;YouTube&lt;/a&gt;, specially if you are looking for science material. Here is an example of superconductivity: take a superconductor and a magnet at room temperature. Nothing happens. Now cool down the superconductor using liquid nitrogen. The superconductor starts &amp;ldquo;superconducting&amp;rdquo; and boom! here comes in the &lt;a href=&#34;http://en.wikipedia.org/wiki/Meissner_effect&#34;&gt;Meissner effect&lt;/a&gt;. As always, a picture (movie) is better than a page of equations to show how wonderful physics is.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>The theory of nothing</title>
-      <link>http://estebanmoro.org/2006/10/the-theory-of-nothing/</link>
+      <link>https://estebanmoro.org/2006/10/the-theory-of-nothing/</link>
       <pubDate>Wed, 04 Oct 2006 07:24:25 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/2006/10/the-theory-of-nothing/</guid>
+      <guid>https://estebanmoro.org/2006/10/the-theory-of-nothing/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;http://stratonovich.uc3m.es/images/stories/notevenwrong.jpg&#34; alt=&#34;Image&#34;&gt;
 Two New York newspapers (&lt;a href=&#34;http://www.nytimes.com/2006/09/17/books/review/Siegfried.t.html&#34;&gt;The New York Times&lt;/a&gt; and the &lt;a href=&#34;http://www.newyorker.com/critics/atlarge/articles/061002crat_atlarge&#34;&gt;New Yorker&lt;/a&gt;) are running stories about whether string theory is a theory of anything or not. Specifically, both articles are reviews of a couple of very critic books on string theory:  &lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;  * 
@@ -1280,10 +1280,10 @@ Two New York newspapers (&lt;a href=&#34;http://www.nytimes.com/2006/09/17/books
     
     <item>
       <title>The marketing of breaking laws of physics</title>
-      <link>http://estebanmoro.org/2006/10/the-marketing-of-breaking-laws-of-physics/</link>
+      <link>https://estebanmoro.org/2006/10/the-marketing-of-breaking-laws-of-physics/</link>
       <pubDate>Tue, 03 Oct 2006 08:12:00 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/2006/10/the-marketing-of-breaking-laws-of-physics/</guid>
+      <guid>https://estebanmoro.org/2006/10/the-marketing-of-breaking-laws-of-physics/</guid>
       <description>&lt;p&gt;Apparently, a company in Ireland named &lt;a href=&#34;http://www.steorn.net/frontpage/default.aspx&#34;&gt;Steorn&lt;/a&gt; has found the killer marketing campaign for their products:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;  1. Get a law of physics: the first law of thermodynamics, for example, and claim you have a technology that can break it. Cool!
   2. Get a good flashy marketing campaign by publishing in The Economist a &amp;quot;show us wrong&amp;quot; announcement to the scientific community. 
@@ -1295,10 +1295,10 @@ Two New York newspapers (&lt;a href=&#34;http://www.nytimes.com/2006/09/17/books
     
     <item>
       <title>Kiyoshi Itô wins the Gauss Prize</title>
-      <link>http://estebanmoro.org/2006/09/kiyoshi-ito-wins-the-gauss-prize/</link>
+      <link>https://estebanmoro.org/2006/09/kiyoshi-ito-wins-the-gauss-prize/</link>
       <pubDate>Wed, 06 Sep 2006 08:13:26 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/2006/09/kiyoshi-ito-wins-the-gauss-prize/</guid>
+      <guid>https://estebanmoro.org/2006/09/kiyoshi-ito-wins-the-gauss-prize/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;http://estebanmoro.org/wp-content/uploads/2008/11/ito-242x300.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Kiyoshi Itô (90), professor emeritus at kyoto University, has become the first winner of the Gauss Prize. This prize is to honor scientist whose mathematical research has had an impact outside mathematics. Ito&amp;rsquo;s work, mainly in establishing a well defined calculus (named Ito&amp;rsquo;s calculus) to treat high irregular noise functions has got widespread application in describing several stochastic processes across fields like economics, biology, chemistry, physics, etc. Ito&amp;rsquo;s calculus is behind the pricing of options introduced by Black, Scholes and Merton (which got them a Nobel price). It is also the mathematical theory behind the formal description (Langevin equation) of the Brownian motion studied previously by Bachelier or Einstein: basically, Itô&amp;rsquo;s contribution was to give mathematical basis to the continuum time description (in terms of a differential equation) for the motion of a particle under random, uncorrelated kicks from other particles. The solution of this equation is a function of time which is nowhere differentiable but still continuous. Itô&amp;rsquo;s give precise way to handle with those solutions by what is known as stochastic calculus. Specifically, he is well known for the Itô&amp;rsquo;s lemma, which is a modification of the standard chain rule of normal calculus when the function that we are dealing with is either that stochastic path or a function of it.&lt;/p&gt;
 </description>
@@ -1306,10 +1306,10 @@ Two New York newspapers (&lt;a href=&#34;http://www.nytimes.com/2006/09/17/books
     
     <item>
       <title>The Seven Warning Signs of Bogus Science</title>
-      <link>http://estebanmoro.org/2006/04/the-seven-warning-signs-of-bogus-science/</link>
+      <link>https://estebanmoro.org/2006/04/the-seven-warning-signs-of-bogus-science/</link>
       <pubDate>Thu, 06 Apr 2006 08:15:39 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/2006/04/the-seven-warning-signs-of-bogus-science/</guid>
+      <guid>https://estebanmoro.org/2006/04/the-seven-warning-signs-of-bogus-science/</guid>
       <description>&lt;p&gt;We all are aware of recent cases of fraud in science. The case of cloning in South Korea is the most recent one, but not the first or the last to happen. Identifying those cases is hard, since most of the times the verification of the claims is a long time-consuming process. Very recently, Robert L. Park has identified &lt;a href=&#34;http://chronicle.com/free/v49/i21/21b02001.htm&#34;&gt;some warning signs about a scientific discovery&lt;/a&gt;that can make us doubt about the scientific soundness of it, since they indicate that a scientific claim lies well outside the bounds of rational scientific discourse: &lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;  * The discoverer pitches the claim directly to the media 
   * The discoverer says that a powerful establishment is trying to suppress his or her work
@@ -1326,10 +1326,10 @@ Two New York newspapers (&lt;a href=&#34;http://www.nytimes.com/2006/09/17/books
     
     <item>
       <title>The future of the science might be wiki</title>
-      <link>http://estebanmoro.org/2006/03/the-future-of-the-science-might-be-wiki/</link>
+      <link>https://estebanmoro.org/2006/03/the-future-of-the-science-might-be-wiki/</link>
       <pubDate>Tue, 21 Mar 2006 08:17:20 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/2006/03/the-future-of-the-science-might-be-wiki/</guid>
+      <guid>https://estebanmoro.org/2006/03/the-future-of-the-science-might-be-wiki/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://www.edge.org/&#34;&gt;The Edge&lt;/a&gt; has a &lt;a href=&#34;http://www.edge.org/3rd_culture/kelly06/kelly06_index.html&#34;&gt;summary-article&lt;/a&gt; on a Kevin Kelly’s talk on &lt;em&gt;The Next 100 Years of Science: Long-term Trends in the Scientific Method&lt;/em&gt;. &lt;a href=&#34;http://www.kk.org/&#34;&gt;Kevin Kelly&lt;/a&gt; helped launch &lt;a href=&#34;http://www.wired.com/&#34;&gt;Wired&lt;/a&gt;magazine in 1993 and has published several books and articles in publications such as The Economist, The New York Times, Time, etc. He rises some interesting points about what’s next in science for this century. Specifically:&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://www.wired.com/&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;  * There will be more change in the next 50 years of science than in the last 400 years.
@@ -1345,10 +1345,10 @@ Two New York newspapers (&lt;a href=&#34;http://www.nytimes.com/2006/09/17/books
     
     <item>
       <title>Writing bad letters of recommendation: the story of Bachelier and Lévy</title>
-      <link>http://estebanmoro.org/2006/03/writing-bad-letters-of-recommendation-the-story-of-bachelier-and-levy/</link>
+      <link>https://estebanmoro.org/2006/03/writing-bad-letters-of-recommendation-the-story-of-bachelier-and-levy/</link>
       <pubDate>Wed, 15 Mar 2006 08:25:04 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/2006/03/writing-bad-letters-of-recommendation-the-story-of-bachelier-and-levy/</guid>
+      <guid>https://estebanmoro.org/2006/03/writing-bad-letters-of-recommendation-the-story-of-bachelier-and-levy/</guid>
       <description>&lt;p&gt;Take a coin and toss it a number &lt;code&gt;\(N\)&lt;/code&gt; of times in a time interval of duration &lt;code&gt;\(T\)&lt;/code&gt;. Suppose that every time you get head you win &lt;code&gt;\(a\)&lt;/code&gt; euros and that you lose the same amount of money when you get tail. Then your capital is a random process with ups and dows like this:&lt;/p&gt;
 &lt;center&gt;
 ![](/img/posts/figurebachelier.jpg)&lt;/center&gt;
@@ -1360,8 +1360,8 @@ Two New York newspapers (&lt;a href=&#34;http://www.nytimes.com/2006/09/17/books
 &lt;p&gt;&lt;code&gt;\(Var(M)  =M b^2 = T\)&lt;/code&gt; for the second game&lt;/p&gt;
 &lt;p&gt;which is independent of the payoff. This fact led some mathematicians early last century to study the asymptotic case &lt;code&gt;\(a\to 0\)&lt;/code&gt; and &lt;code&gt;\(N \to \infty\)&lt;/code&gt;, BUT taking&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;$$a^2 N = T = constant \qquad (1)$$&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;which usually called Brownian Motion. The name &amp;ldquo;Brownian&amp;rdquo; comes from the botanist Brown who observed how particles of (probably) &lt;a href=&#34;http://estebanmoro.org/2008/12/browns-observations-on-brownian-motion/&#34;&gt;clay moved in water under the kicks of the molecules of water&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://estebanmoro.org/img/posts/louis_bachellier.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;which usually called Brownian Motion. The name &amp;ldquo;Brownian&amp;rdquo; comes from the botanist Brown who observed how particles of (probably) &lt;a href=&#34;https://estebanmoro.org/2008/12/browns-observations-on-brownian-motion/&#34;&gt;clay moved in water under the kicks of the molecules of water&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/img/posts/louis_bachellier.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Bachelier (1870-1946 right) was the first one to study the Brownian motion in his PhD thesis at the Sorbonne in Paris and applied it as a possible model for the stock market. He was well ahead of his time not only for its application to the stock market, but also because he derived a lot of the properties of this stochastic process. Unfortunately his notation was a little bit sloppy. In particular, the dependence of &lt;code&gt;\(a^2\)&lt;/code&gt; with &lt;code&gt;\(N\)&lt;/code&gt; and &lt;code&gt;\(T\)&lt;/code&gt; [given by equation (1) above] in the limit &lt;code&gt;\(N\to\infty\)&lt;/code&gt; was omitted in most of his books and papers but always assumed by Bachelier. This &amp;ldquo;minor&amp;rdquo; omission and a careless reading of Bachelier&amp;rsquo;s work was the origin of Paul Lévy&amp;rsquo;s strong criticism to his work. It was so strong, that Levy wrote a very critical and negative report about Bachelier&amp;rsquo;s work when the latter was trying to get an appointment at Dijon. Bachelier of course didn&amp;rsquo;t get the position and moved then to a small university at Besançon and kept on working without much impact in the field.&lt;/p&gt;
 &lt;p&gt;It was after Kolmogorov&amp;rsquo;s 1931 citation of Bachelier work that Lévy went back to his work and realized that he made a misjudgment of Bachelier&amp;rsquo;s work. Apparently Levy didn&amp;rsquo;t even read Bachelier&amp;rsquo;s papers and books in the very first place and, even so, he disregarded Bachelier&amp;rsquo;s findings as erroneous. Quite a strange behavior for one of the best mathematicians of all times. After that, in 1931, Lévy wrote to Bachelier a letter apologizing for his behavior. It was a little bit late since Bachelier retired in 1937 although Bachelier was quite happy to receive Lévy&amp;rsquo;s letter. At last his work was read by someone, and by the best!&lt;/p&gt;
 &lt;p&gt;More information
@@ -1372,14 +1372,14 @@ Two New York newspapers (&lt;a href=&#34;http://www.nytimes.com/2006/09/17/books
     
     <item>
       <title>Humans are superdiffusive</title>
-      <link>http://estebanmoro.org/2006/02/humans-are-superdiffusive/</link>
+      <link>https://estebanmoro.org/2006/02/humans-are-superdiffusive/</link>
       <pubDate>Thu, 09 Feb 2006 07:31:36 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/2006/02/humans-are-superdiffusive/</guid>
+      <guid>https://estebanmoro.org/2006/02/humans-are-superdiffusive/</guid>
       <description>&lt;p&gt;When tea is poured in a cup of hot water, we observe a phenomenon called &lt;a href=&#34;http://en.wikipedia.org/wiki/Diffusion&#34;&gt;diffusion&lt;/a&gt;: in the end particles of tea spread evenly throughout the mass of water and we enjoy our cup of tea. Diffusion occurs as a result of the &lt;a href=&#34;http://en.wikipedia.org/wiki/Second_Law_of_Thermodynamics&#34;&gt;second law of thermodynamics&lt;/a&gt; (increase of entropy) and can be modeled quantitatively using the diffusion equation (or heat equation). This is a funny equation, since it establishes that the velocity of spreading is infinite while the mean root square fluctuations of the position of the particles grows in time as&lt;/p&gt;
 &lt;p&gt;$$ \langle x^2 \rangle  = 2 D t$$&lt;/p&gt;
 &lt;p&gt;Specifically, this means that the typical volume covered by the particles of tea in the cup grows like the square root of time, while there is always a chance to find a particle anywhere in the cup. The coefficient &lt;em&gt;D&lt;/em&gt; is called the diffusion constant and depends on thermodynamical properties of the liquid. It was &lt;a href=&#34;http://en.wikipedia.org/wiki/Albert_Einstein&#34;&gt;Einstein&lt;/a&gt; in his miraculous year (1905) who found the &lt;a href=&#34;http://en.wikipedia.org/wiki/Einstein_relation&#34;&gt;relationship with temperature&lt;/a&gt; and mobility of particles in the liquid which is named after him. There are numerous examples of diffusion processes (also known as Brownian motions) from the erratic motion of particles in water found by the botanist Brown in 1827 to the description of price fluctuations in stock markets made by &lt;a href=&#34;http://en.wikipedia.org/wiki/Louis_Bachelier&#34;&gt;Bachelier&lt;/a&gt; in 1900.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://estebanmoro.org/img/posts/baggage.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/img/posts/baggage.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Of course, not everything in nature is diffusive. Actually, diffusive behavior is related to the &lt;a href=&#34;http://mathworld.wolfram.com/CentralLimitTheorem.html&#34;&gt;Central Limit Theory&lt;/a&gt; and the fact that the mean root square fluctuations is growing linearly in time is telling us that the sum of the kicks than a particle of coffee suffers in the cup add like random numbers to get the CLT result: the variance grows linearly in time. The ubiquity of diffusive behavior is related to the fact that convergence in CLT does not depend on the microscopic details of the random numbers that are summed.&lt;/p&gt;
 &lt;p&gt;In a &lt;a href=&#34;http://www.nature.com/nature/journal/v439/n7075/full/nature04292.html&#34;&gt;recent study published in Nature&lt;/a&gt; and made by D. Brockmann, L. Hufnagel and T. Geisel, these researchers have obtained quantitative assessment of the displacements of humans by analyzing the circulation of bank notes in the United States obtained in the &lt;a href=&#34;http://www.wheresgeorge.com/&#34;&gt;Where is George?&lt;/a&gt; website. They observe that human travel is somehow a random process governed by super-diffusive jumps to get&lt;/p&gt;
 &lt;p&gt;$$\langle x^2 \rangle = 2 D_1 t$$&lt;/p&gt;
@@ -1389,12 +1389,12 @@ Two New York newspapers (&lt;a href=&#34;http://www.nytimes.com/2006/09/17/books
     
     <item>
       <title>Cum hoc ergo propter hoc</title>
-      <link>http://estebanmoro.org/2006/01/cum-hoc-ergo-propter-hoc/</link>
+      <link>https://estebanmoro.org/2006/01/cum-hoc-ergo-propter-hoc/</link>
       <pubDate>Wed, 25 Jan 2006 08:22:56 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/2006/01/cum-hoc-ergo-propter-hoc/</guid>
+      <guid>https://estebanmoro.org/2006/01/cum-hoc-ergo-propter-hoc/</guid>
       <description>&lt;p&gt;Or… Correlation implies causality. This is a &lt;a href=&#34;http://en.wikipedia.org/wiki/Correlation_implies_causation_%28logical_fallacy%29&#34;&gt;logical fallacy&lt;/a&gt;. Keep this in mind when analyzing data. There are numerous cases of how people use this logical fallacy nowadays (most typically in newspapers). For example, the following graph&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://estebanmoro.org/img/posts/fsm_pirates.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/img/posts/fsm_pirates.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;shows a correlation between global warming and the number of remaining pirates. But this does not imply (of course), any causality between them.&lt;/p&gt;
 &lt;p&gt;By the way, this graph appears in a Bobby Henderson’s clever parody of the type of arguments in Intelligent Design. Bobby Henderson’s parody is a joke religion also known as &lt;a href=&#34;http://en.wikipedia.org/wiki/Flying_Spaghetti_Monster&#34;&gt;Pastafarianism&lt;/a&gt;. Caution: if you read the last link, you could be touched by the Flying Spaghetti Monster noodly appendage…&lt;/p&gt;
 </description>
@@ -1402,11 +1402,11 @@ Two New York newspapers (&lt;a href=&#34;http://www.nytimes.com/2006/09/17/books
     
     <item>
       <title>Meet the glaciers</title>
-      <link>http://estebanmoro.org/2005/12/meet-the-glaciers/</link>
+      <link>https://estebanmoro.org/2005/12/meet-the-glaciers/</link>
       <pubDate>Wed, 21 Dec 2005 07:35:08 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/2005/12/meet-the-glaciers/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://estebanmoro.org/img/posts/glacier.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+      <guid>https://estebanmoro.org/2005/12/meet-the-glaciers/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/img/posts/glacier.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;I have been on holidays during the last two weeks visiting Argentina. The picture above was taken on top of the &lt;a href=&#34;http://en.wikipedia.org/wiki/Perito_Moreno_Glacier&#34;&gt;Perito Moreno glacier&lt;/a&gt;, which is amazing. Most glaciers we found where blueish, including the icebergs found floating in the rivers. The reason for that is that the thicker the ice or snow layer is, the better red colors are absorbed by the layer and only the blue colors are reflected (see a more detailed explanation &lt;a href=&#34;http://webexhibits.org/causesofcolor/5C.html&#34;&gt;here&lt;/a&gt;). Ice in the freezer looks transparent or white because its thickness is small enough to make the absorption of the red colors negligible.&lt;/p&gt;
 &lt;p&gt;Perito Moreno glacier is one of the few glaciers in equilibrium: neither advancing nor retreating. Unfortunately, due to global warming, &lt;a href=&#34;http://www.geo.unizh.ch/wgms/mbb/mb04/sum04.html&#34;&gt;retreating is the norm&lt;/a&gt; and numerous glaciers have disappeared in recent years. Another unusual characteristic is that the glacier front is close to a peninsula. From time to time the glacier front touches the peninsula and both sides of the lake the glacier empties into get disconnected. The unbalance of the water levels at both sides of the lake makes the water to percolate underneath the front creating a ice bridge between the peninsula and the glacier front. This bridge inevitably collapse in a phenomenon name “la ruptura” (rupture). The last to happen was in March 2004 and &lt;a href=&#34;http://dude.uibk.ac.at/Projects/Patagonia/LakeDamming/&#34;&gt;it is a spectacular sight&lt;/a&gt;.&lt;/p&gt;
 </description>
@@ -1414,10 +1414,10 @@ Two New York newspapers (&lt;a href=&#34;http://www.nytimes.com/2006/09/17/books
     
     <item>
       <title>Folding paper</title>
-      <link>http://estebanmoro.org/2005/11/folding-paper/</link>
+      <link>https://estebanmoro.org/2005/11/folding-paper/</link>
       <pubDate>Tue, 22 Nov 2005 08:26:34 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/2005/11/folding-paper/</guid>
+      <guid>https://estebanmoro.org/2005/11/folding-paper/</guid>
       <description>&lt;p&gt;You can’t fold a paper more than seven or eight times. Don’t believe me? Then try it. Thinner paper? Longer paper? It doesn’t matter; you just can’t do it. I used to play this game with my friends which were always amazed and asked for an explanation. Is there any physical or mathematical constrain to do it? Nope: it is simply a matter of scale. If you have a paper of length &lt;em&gt;L&lt;/em&gt; and you fold it, the length now is &lt;em&gt;L/2&lt;/em&gt;. Do it again and it goes down to L/22. In general, if you fold it n times, the remaining length is&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;ln=L/2n&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Obviously, this folding can be repeated until the remaining length of the paper is approximatelly the width of the paper. Thus, the maximum number of times you can fold a piece of paper of length L and width d is given by&lt;/p&gt;
@@ -1438,10 +1438,10 @@ length &lt;em&gt;l2&lt;/em&gt; is not equal to &lt;em&gt;L/22&lt;/em&gt; due
     
     <item>
       <title>Why I didn’t answer your email</title>
-      <link>http://estebanmoro.org/2005/11/why-i-didnt-answer-your-email/</link>
+      <link>https://estebanmoro.org/2005/11/why-i-didnt-answer-your-email/</link>
       <pubDate>Wed, 16 Nov 2005 07:36:34 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/2005/11/why-i-didnt-answer-your-email/</guid>
+      <guid>https://estebanmoro.org/2005/11/why-i-didnt-answer-your-email/</guid>
       <description>&lt;p&gt;In a recent &lt;a href=&#34;http://www.nature.com/nature/journal/v437/n7063/full/4371251a.html;jsessionid=565D6C403BDF1384DF5AA2DEEDFE5030&#34;&gt;Nature&lt;/a&gt; &lt;a href=&#34;http://www.nd.edu/%7Enetworks/Publication%20Categories/03%20Journal%20Articles/Social%20Science/CorrespondencePatterns_Nature%20437,%201251%20%2827Oct05%29.pdf&#34;&gt;article&lt;/a&gt;, &lt;a href=&#34;http://www.nd.edu/%7Ealb/&#34;&gt;Albert-Lászlo Barabási&lt;/a&gt; and João Gama Oliveira, have found the perfect excuse for lazy people not answering some emails in their inbox: they analyzed the time response of emails and found that they follow a power law probability distribution of the form P(t) = 1/t. In particular this implies that not even the mean response time is finite. Hey! why should you then expect me to answer your emails within my lifetime period! The &lt;a href=&#34;http://www.newscientist.com/article.ns?id=dn8214&#34;&gt;usual&lt;/a&gt; &lt;a href=&#34;http://physicsweb.org/articles/news/9/10/15/1&#34;&gt;buzz&lt;/a&gt; after the publication in Nature reach other scientific and &lt;a href=&#34;http://www.msnbc.msn.com/id/9827337/&#34;&gt;non-scientific&lt;/a&gt; publications.&lt;/p&gt;
 &lt;p&gt;Unfortunately for lazy people like me, Barabási and Oliveira analysis of the data is wrong and the power law observed is an artifact of a bad analysis of the data, which is immensely better described by a log-normal distribution as shown in a &lt;a href=&#34;http://arxiv.org/abs/physics/0510216&#34;&gt;recent comment&lt;/a&gt; by Stouffer, Malmgrem and Amaral also submitted to Nature. The inconsistency of Barabási’s analysis is shown in different ways, but their main points are:&lt;/p&gt;
 &lt;ol&gt;
@@ -1458,10 +1458,10 @@ length &lt;em&gt;l2&lt;/em&gt; is not equal to &lt;em&gt;L/22&lt;/em&gt; due
     
     <item>
       <title>A number to rank them all</title>
-      <link>http://estebanmoro.org/2005/11/a-number-to-rank-them-all/</link>
+      <link>https://estebanmoro.org/2005/11/a-number-to-rank-them-all/</link>
       <pubDate>Sun, 13 Nov 2005 07:37:57 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/2005/11/a-number-to-rank-them-all/</guid>
+      <guid>https://estebanmoro.org/2005/11/a-number-to-rank-them-all/</guid>
       <description>&lt;p&gt;UCSD physicist &lt;a href=&#34;http://physics.ucsd.edu/%7Ejorge/jh.html&#34;&gt;Jorge E. Hirsch&lt;/a&gt; has propose a quick-and-dirty way to measure quality of academic scientist’s output. His method is explained and studied in a &lt;a href=&#34;http://arxiv.org/abs/physics/0508025&#34;&gt;paper to be published&lt;/a&gt; in the November 15 issue of PNAS. The idea is very simple and it is called the h-index. This number relies on the number of citations our papers have. In particular the h-index is the maximum number &lt;em&gt;h&lt;/em&gt; that verifies the following: at least h of papers of an author have h citations each. The method to calculate the number is fast (via the &lt;a href=&#34;http://isiknowledge.com/&#34;&gt;Thomson ISI Web of Science database&lt;/a&gt;) and he claims can tell apart good professional careers from a lifetime of mediocre work skewed by one or two highly cite papers. Let’s run the numbers to see how some people in the statistical physics community does:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;  * **P.G. de Gennes**, 83, a Noble laureate. The paper by Hirsch miscalculates his h-index, probably because de Gennes appears as PG deGennes, PGD Gennes and PG de Gennes in the list of authors.
   * **H.E. Stanley**, 79. Boltzman medal. impressive.

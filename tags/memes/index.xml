@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Memes on </title>
-    <link>http://estebanmoro.org/tags/memes/</link>
+    <link>https://estebanmoro.org/tags/memes/</link>
     <description>Recent content in Memes on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Tue, 24 Apr 2018 11:20:47 +0000</lastBuildDate><atom:link href="http://estebanmoro.org/tags/memes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 24 Apr 2018 11:20:47 +0000</lastBuildDate><atom:link href="https://estebanmoro.org/tags/memes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>MemeSequencer: Sparse Matching for Embedding Image Macros</title>
-      <link>http://estebanmoro.org/post/2018-04-24-memesequencer-sparse-matching-for-embedding-image-macros/</link>
+      <link>https://estebanmoro.org/post/2018-04-24-memesequencer-sparse-matching-for-embedding-image-macros/</link>
       <pubDate>Tue, 24 Apr 2018 11:20:47 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2018-04-24-memesequencer-sparse-matching-for-embedding-image-macros/</guid>
+      <guid>https://estebanmoro.org/post/2018-04-24-memesequencer-sparse-matching-for-embedding-image-macros/</guid>
       <description>Authors: Abhimanyu Dubey, Esteban Moro, Manuel Cebrian, Iyad Rahwan
 Journal: WWW&#39;18 Proceedings of the Web Conference 2018 LINK
 Abstract: The analysis of the creation, mutation, and propagation of social media content on the Internet is an essential problem in computational social science, affecting areas ranging from marketing to political mobilization. A first step towards understanding the evolution of images online is the analysis of rapidly modifying and propagating memetic imagery or ‘memes’.</description>

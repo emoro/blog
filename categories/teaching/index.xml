@@ -1,34 +1,34 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Teaching on </title>
-    <link>http://estebanmoro.org/categories/teaching/</link>
+    <link>https://estebanmoro.org/categories/teaching/</link>
     <description>Recent content in Teaching on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Tue, 28 Mar 2017 13:58:43 +0000</lastBuildDate>
     
-        <atom:link href="http://estebanmoro.org/categories/teaching/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://estebanmoro.org/categories/teaching/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Network Science for kids!</title>
-      <link>http://estebanmoro.org/2017/03/network-science-for-kids/</link>
+      <link>https://estebanmoro.org/2017/03/network-science-for-kids/</link>
       <pubDate>Tue, 28 Mar 2017 13:58:43 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/2017/03/network-science-for-kids/</guid>
+      <guid>https://estebanmoro.org/2017/03/network-science-for-kids/</guid>
       <description>&lt;p&gt;One of my favorite activities is to teach my field or research (network science) to high-schoolers. We (together with my colleague &lt;a href=&#34;https://scholar.google.es/citations?user=gljsfm4AAAAJ&amp;amp;hl=en&#34;&gt;Cristina Brändle&lt;/a&gt;) have been doing that from our university to the local high schools in Madrid. Since they know concepts like equations, probability or geometry, it is somehow easy to show them concepts like what is a network, small world, friendship paradox or centrality. We usually have transparencies and allow them to work on Excel to perform some calculations which works well to understand the basic concepts of networks. At that level, there are a number of resources on the internet, including the &lt;a href=&#34;https://sites.google.com/a/binghamton.edu/netscied/teaching-learning/network-concepts&#34;&gt;Network Literacy Project&lt;/a&gt; lead by Mason Porter and collaborators, which also has some reflections about teaching &lt;a href=&#34;http://www.math.ucla.edu/~mason/papers/teach-final.pdf&#34;&gt;Network Science to teenagers&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://estebanmoro.org/img/posts/dib3.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/img/posts/dib3.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;But, I was invited by the Math League at my kid&amp;rsquo;s school (&lt;a href=&#34;http://lawrenceschoolbrookline.org&#34;&gt;Lawrence Amos at Brookline&lt;/a&gt;) to talk about networks to 4th, 5th and 6th graders, so I was forced to prepared the most difficult talk in my life: Network Science for kids! The idea was one hour around 3 worksheets in which I wanted to introduce the idea of why Network Science is useful to understand (and solve!) problems, including the six degrees of separation and the Krönigsberg bridges problems. Here are the different worksheets I prepared&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://estebanmoro.org/pdf/netsci_for_kids/networks_ahoy.pdf&#34;&gt;Networks ahoy!&lt;/a&gt; (Concepts: what is a network, how to map a problem into a network)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://estebanmoro.org/pdf/netsci_for_kids/6_degrees_of_separation.pdf&#34;&gt;6 degrees of separation&lt;/a&gt; (Concepts: connectivity, distance in the graph, cascades)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://estebanmoro.org/pdf/netsci_for_kids/the_konisberg_bridges.pdf&#34;&gt;The Krönigsberg bridges&lt;/a&gt; (Concepts: eulerian paths)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://estebanmoro.org/pdf/netsci_for_kids/networks_ahoy.pdf&#34;&gt;Networks ahoy!&lt;/a&gt; (Concepts: what is a network, how to map a problem into a network)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://estebanmoro.org/pdf/netsci_for_kids/6_degrees_of_separation.pdf&#34;&gt;6 degrees of separation&lt;/a&gt; (Concepts: connectivity, distance in the graph, cascades)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://estebanmoro.org/pdf/netsci_for_kids/the_konisberg_bridges.pdf&#34;&gt;The Krönigsberg bridges&lt;/a&gt; (Concepts: eulerian paths)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;The feedback was really positive and I think kids really enjoyed it. Interestingly, they spend some time in the first question in &amp;ldquo;Networks ahoy!&amp;rdquo; worksheet discussing the different results depending on whether the &amp;ldquo;who wants to go with whom&amp;rdquo; was a directed or undirected graph.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://estebanmoro.org/img/posts/dib2.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/img/posts/dib2.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;I was also amazed that they understood very quickly the &amp;ldquo;6 degrees of separation&amp;rdquo; problem and its solution using cascades like the one above. At the end of this worksheet I asked them if they could come up with an idea to use the &amp;ldquo;6 degrees of separation&amp;rdquo; to organize an event and several kids propose to use cascades of invitations to do that. So yes, kids are ready for social mobilization techniques as the one we studied for the &lt;a href=&#34;http://estebanmoro.org/2013/04/limits-of-social-mobilization/&#34;&gt;DARPA Red Balloon Challenge&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;The last one has a little bit more difficulty that the rest, but kids love the analogy with drawing shapes without lifting the pencil. We spent some time there drawing shapes like the ones in the figure below and although in the worksheet I only use part of the Euler&amp;rsquo;s solution to the problem, they understood the concept that we can only draw the shapes if there are only two nodes with odd number of lines.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://estebanmoro.org/img/posts/dib1.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/img/posts/dib1.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;It was a great experience. There were other ideas I had to try with kids but didn&amp;rsquo;t have time to prepare a worksheet. For example, coloring graphs, friendship paradox, etc. My final impression is that kids understood very well the concept of networks and they got how useful they are to analyze some difficult problems. Or just to know how they are connected with other friends and the potential implications in their life. My plan is to use this material for other talks, but you are free to use it as well. As always, comments are welcomed and if you use this material, please let me know what was your feedback!&lt;/p&gt;
 &lt;p&gt;PS: there are other places in which you can find material to teach graph theory to kids. I really enjoyed  &lt;a href=&#34;http://jdh.hamkins.org/math-for-seven-year-olds-graph-coloring-chromatic-numbers-eulerian-paths/&#34;&gt;this one&lt;/a&gt; which served me as an inspiration to the last worksheet.&lt;/p&gt;
 </description>

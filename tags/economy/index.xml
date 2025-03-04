@@ -2,47 +2,47 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>economy on </title>
-    <link>http://estebanmoro.org/tags/economy/</link>
+    <link>https://estebanmoro.org/tags/economy/</link>
     <description>Recent content in economy on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Sat, 11 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://estebanmoro.org/tags/economy/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 11 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://estebanmoro.org/tags/economy/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Behaviour-based dependency networks between places shape urban economic resilience</title>
-      <link>http://estebanmoro.org/post/2025-01-11-behaviour-based-dependency-networks/</link>
+      <link>https://estebanmoro.org/post/2025-01-11-behaviour-based-dependency-networks/</link>
       <pubDate>Sat, 11 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2025-01-11-behaviour-based-dependency-networks/</guid>
+      <guid>https://estebanmoro.org/post/2025-01-11-behaviour-based-dependency-networks/</guid>
       <description>Authors: Takahiro Yabe, Bernardo García Bulle Bueno, Morgan R Frank, Alex Pentland, Esteban Moro Publication: Nature Human Behavior (2024) LINK
 Abstract: Disruptions, such as closures of businesses during pandemics, not only affect businesses and amenities directly but also influence how people move, spreading the impact to other businesses and increasing the overall economic shock. However, it is unclear how much businesses depend on each other during disruptions. Leveraging human mobility data and same-day visits in five US cities, we quantify dependencies between points of interest encompassing businesses, stores and amenities.</description>
     </item>
     
     <item>
       <title>Infrequent activities predict economic outcomes in major American cities</title>
-      <link>http://estebanmoro.org/post/2024-03-23-infrequent-activities-predict-economic-outcomes-in-major-american-cities/</link>
+      <link>https://estebanmoro.org/post/2024-03-23-infrequent-activities-predict-economic-outcomes-in-major-american-cities/</link>
       <pubDate>Sat, 23 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2024-03-23-infrequent-activities-predict-economic-outcomes-in-major-american-cities/</guid>
+      <guid>https://estebanmoro.org/post/2024-03-23-infrequent-activities-predict-economic-outcomes-in-major-american-cities/</guid>
       <description>Authors: Shenhao Wang, Yunhan Zheng, Guang Wang, Takahiro Yabe, Esteban Moro &amp;amp; Alex ‘Sandy’ Pentland Publication: Nature Cities 10.1038/s44284-024-00051-7. LINK
 Abstract: Many studies have revealed the predictive power of the most frequent, regular and habitual mobility patterns. However, it remains unclear which components of the mobility patterns contain the most informative signals for predicting disparate economic development across urban areas. Here we use machine learning to predict economic outcomes by analyzing the heterogeneous mobility networks of 687 activities from more than 560,000 anonymized users in Boston, Chicago and Miami.</description>
     </item>
     
     <item>
       <title>Network constraints on worker mobility</title>
-      <link>http://estebanmoro.org/post/2024-01-16-network-constraints-on-worker-mobility/</link>
+      <link>https://estebanmoro.org/post/2024-01-16-network-constraints-on-worker-mobility/</link>
       <pubDate>Tue, 16 Jan 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2024-01-16-network-constraints-on-worker-mobility/</guid>
+      <guid>https://estebanmoro.org/post/2024-01-16-network-constraints-on-worker-mobility/</guid>
       <description>Authors: Morgan R. Frank, Esteban Moro, Tobin South, Alex Rutherford, Alex Pentland, Bledi Taska &amp;amp; Iyad Rahwan Publication: Nature Cities, 1, pages 94–104 (2024) LINK
 Abstract: How do skills shape career mobility and access to cities’ labor markets? Here we model career pathways as an occupation network constructed from the similarity of occupations’ skill requirements within each US city. Using a nationally representative survey and three resume datasets, skill similarity predicts transition rates between occupations and predictions improve with increasingly granular skill data.</description>
     </item>
     
     <item>
       <title>The unequal effects of the health–economy trade-off during the COVID19 pandemic</title>
-      <link>http://estebanmoro.org/post/2023-11-20-the-unequal-effects-of-the-health-economy-trade-off-during-the-covid-19-pandemic/</link>
+      <link>https://estebanmoro.org/post/2023-11-20-the-unequal-effects-of-the-health-economy-trade-off-during-the-covid-19-pandemic/</link>
       <pubDate>Sun, 19 Nov 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2023-11-20-the-unequal-effects-of-the-health-economy-trade-off-during-the-covid-19-pandemic/</guid>
+      <guid>https://estebanmoro.org/post/2023-11-20-the-unequal-effects-of-the-health-economy-trade-off-during-the-covid-19-pandemic/</guid>
       <description>Authors: Marco Pangallo, Alberto Aleta, R. Maria del Rio-Chanona, Anton Pichler, David Martin-Corral, Matteo Chinazzi, Francois Lafond, Marco Ajelli, Esteban Moro, Yamir Moreno, Alessandro Vespignani, J. Doyne Farmer
 Publication: Nature Human Behavior, Nov 16th, (2023)
 LINK

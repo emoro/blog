@@ -2,36 +2,36 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>wiener on </title>
-    <link>http://estebanmoro.org/tags/wiener/</link>
+    <link>https://estebanmoro.org/tags/wiener/</link>
     <description>Recent content in wiener on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Thu, 04 Dec 2008 16:45:32 +0000</lastBuildDate><atom:link href="http://estebanmoro.org/tags/wiener/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 04 Dec 2008 16:45:32 +0000</lastBuildDate><atom:link href="https://estebanmoro.org/tags/wiener/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Introduction to stochastic differential equations</title>
-      <link>http://estebanmoro.org/2008/12/introduction-to-stochastic-differential-equations/</link>
+      <link>https://estebanmoro.org/2008/12/introduction-to-stochastic-differential-equations/</link>
       <pubDate>Thu, 04 Dec 2008 16:45:32 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/2008/12/introduction-to-stochastic-differential-equations/</guid>
+      <guid>https://estebanmoro.org/2008/12/introduction-to-stochastic-differential-equations/</guid>
       <description>Stochastic differential equations (SDEs) are basically inhomogenous ordinary differential equations that depend on an external stochastic process.
 Typically, that stochastic process is white noise, which is the mathematical idealization of the noise found in nature. This idealization is handy, because it simplifies the mathematical description. However, this idealization comes at some cost: traditional calculus is no longer valid and you have to use the so-call Itô calculus. This introduces some non intuitive changes.</description>
     </item>
     
     <item>
       <title>Kiyoshi Itô, 93, dies</title>
-      <link>http://estebanmoro.org/2008/11/kiyoshi-ito-93-dies/</link>
+      <link>https://estebanmoro.org/2008/11/kiyoshi-ito-93-dies/</link>
       <pubDate>Sun, 30 Nov 2008 22:17:18 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/2008/11/kiyoshi-ito-93-dies/</guid>
+      <guid>https://estebanmoro.org/2008/11/kiyoshi-ito-93-dies/</guid>
       <description>November was a rather sad month in the world of stochastic differential equations. In the 26th we were suppose to be celebrating the birth of one of the best mathematicians in history, Norbert Wiener, who gives name to the Wiener process, usually denoted W(t). However, in the 10th, Kiyoshi Itô, the father of stochastic differential equations, passed away. Interestingly both are present in a simple stochastic differential equation like this</description>
     </item>
     
     <item>
       <title>Writing bad letters of recommendation: the story of Bachelier and Lévy</title>
-      <link>http://estebanmoro.org/2006/03/writing-bad-letters-of-recommendation-the-story-of-bachelier-and-levy/</link>
+      <link>https://estebanmoro.org/2006/03/writing-bad-letters-of-recommendation-the-story-of-bachelier-and-levy/</link>
       <pubDate>Wed, 15 Mar 2006 08:25:04 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/2006/03/writing-bad-letters-of-recommendation-the-story-of-bachelier-and-levy/</guid>
+      <guid>https://estebanmoro.org/2006/03/writing-bad-letters-of-recommendation-the-story-of-bachelier-and-levy/</guid>
       <description>Take a coin and toss it a number \(N\) of times in a time interval of duration \(T\). Suppose that every time you get head you win \(a\) euros and that you lose the same amount of money when you get tail. Then your capital is a random process with ups and dows like this:
  ![](/img/posts/figurebachelier.jpg) This process is a stochastic process usually called &amp;ldquo;Random Walk&amp;rdquo; and its properties depend on the parameters $N, a $ and \(T\).</description>
     </item>

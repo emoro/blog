@@ -1,23 +1,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>R on </title>
-    <link>http://estebanmoro.org/categories/r/</link>
+    <link>https://estebanmoro.org/categories/r/</link>
     <description>Recent content in R on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Mon, 14 Feb 2022 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="http://estebanmoro.org/categories/r/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://estebanmoro.org/categories/r/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Wordle is getting (slightly) harder</title>
-      <link>http://estebanmoro.org/post/2022-02-14-wordle-is-getting-harder/</link>
+      <link>https://estebanmoro.org/post/2022-02-14-wordle-is-getting-harder/</link>
       <pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2022-02-14-wordle-is-getting-harder/</guid>
+      <guid>https://estebanmoro.org/post/2022-02-14-wordle-is-getting-harder/</guid>
       <description>
-&lt;script src=&#34;http://estebanmoro.org/post/2022-02-14-wordle-is-getting-harder/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://estebanmoro.org/post/2022-02-14-wordle-is-getting-harder/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;blockquote&gt;
@@ -35,7 +35,7 @@
 &lt;div id=&#34;defining-harder&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Defining &lt;em&gt;harder&lt;/em&gt;&lt;/h1&gt;
 &lt;p&gt;As you know, Wordle chooses a target word every day. Although there are 12972 5-letter words in the Wordle dictionary, one of the key ingredients of the game is that the target word is not chosen randomly from that dictionary. The very creator of the game, Josh Wardle &lt;a href=&#34;https://www.nytimes.com/2022/01/03/technology/wordle-word-game-creator.html&#34;&gt;revealed&lt;/a&gt; that he &lt;em&gt;narrowed down the list of Wordle words to about 2,500&lt;/em&gt; which are most likely to be known by his partner (the first recipient of the game).&lt;/p&gt;
-&lt;p&gt;As I showed in a &lt;a href=&#34;http://estebanmoro.org/post/2022-01-10-wordle/&#34;&gt;previous post&lt;/a&gt;, those words are more frequent in English than randomly chosen words from the dictionary. For example, the list of 2,500 contains words like &lt;em&gt;grade&lt;/em&gt;, &lt;em&gt;robot&lt;/em&gt;, &lt;em&gt;pride&lt;/em&gt;, but not some unusual (possible) words like &lt;em&gt;aahed&lt;/em&gt; or &lt;em&gt;bemix&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;As I showed in a &lt;a href=&#34;https://estebanmoro.org/post/2022-01-10-wordle/&#34;&gt;previous post&lt;/a&gt;, those words are more frequent in English than randomly chosen words from the dictionary. For example, the list of 2,500 contains words like &lt;em&gt;grade&lt;/em&gt;, &lt;em&gt;robot&lt;/em&gt;, &lt;em&gt;pride&lt;/em&gt;, but not some unusual (possible) words like &lt;em&gt;aahed&lt;/em&gt; or &lt;em&gt;bemix&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;657yri.jpg&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Let’s see how frequent possible answers are. To do that we are going to use the fantastic &lt;code&gt;wordle&lt;/code&gt; &lt;a href=&#34;https://github.com/coolbutuseless/wordle/&#34;&gt;package&lt;/a&gt; created by &lt;a href=&#34;https://twitter.com/coolbutuseless&#34;&gt;Mikefc&lt;/a&gt;.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;#remotes::install_github(&amp;#39;coolbutuseless/wordle&amp;#39;)
@@ -55,7 +55,7 @@ head(past_answers)&lt;/code&gt;&lt;/pre&gt;
 ## 4 2021-06-22 humph
 ## 5 2021-06-23 awake
 ## 6 2021-06-24 blush&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;To define the game’s difficulty, we will use the same logic underneath Wardle’s choice of answers: their frequency in English. As in &lt;a href=&#34;http://estebanmoro.org/post/2022-01-10-wordle/&#34;&gt;my previous post&lt;/a&gt;, we will use two corpora of commonly-used words in English to rank them according to the frequency. They are the &lt;a href=&#34;https://www.kaggle.com/rtatman/english-word-frequency&#34;&gt;corpus of commonly-used words from the Google Web Trillion Word Corpus&lt;/a&gt; and the &lt;a href=&#34;http://ucrel.lancs.ac.uk/bncfreq/flists.html&#34;&gt;BNC word frequency list&lt;/a&gt;. Let’s put them together:&lt;/p&gt;
+&lt;p&gt;To define the game’s difficulty, we will use the same logic underneath Wardle’s choice of answers: their frequency in English. As in &lt;a href=&#34;https://estebanmoro.org/post/2022-01-10-wordle/&#34;&gt;my previous post&lt;/a&gt;, we will use two corpora of commonly-used words in English to rank them according to the frequency. They are the &lt;a href=&#34;https://www.kaggle.com/rtatman/english-word-frequency&#34;&gt;corpus of commonly-used words from the Google Web Trillion Word Corpus&lt;/a&gt; and the &lt;a href=&#34;http://ucrel.lancs.ac.uk/bncfreq/flists.html&#34;&gt;BNC word frequency list&lt;/a&gt;. Let’s put them together:&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;helper = WordleHelper$new(nchar = 5)
 freq = tibble(word = helper$words) %&amp;gt;%
   left_join(read.csv(&amp;quot;./data/unigram_freq.csv&amp;quot;), 
@@ -121,7 +121,7 @@ freq = tibble(word = helper$words) %&amp;gt;%
   scale_y_log10() + labs(x=&amp;quot;Date&amp;quot;,title=&amp;quot;Rank (higher is harder)&amp;quot;,y=&amp;quot;&amp;quot;)+
   scale_x_date(date_labels = &amp;quot;%b/%Y&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;## `geom_smooth()` using method = &amp;#39;loess&amp;#39; and formula &amp;#39;y ~ x&amp;#39;&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;http://estebanmoro.org/post/2022-02-14-wordle-is-getting-harder/index_files/figure-html/unnamed-chunk-9-1.png&#34; width=&#34;672&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/post/2022-02-14-wordle-is-getting-harder/index_files/figure-html/unnamed-chunk-9-1.png&#34; width=&#34;672&#34; /&gt;
 The vertical dashed line is when the NYT took over. We don’t see any statistically significant change (consider the error bars). If anything, we can see a little bit of change towards the end, but to more frequent words in English! So, if any, the game is getting simpler more recently. However, this small change is not statistically significant. A t-test between the average rank before and after the NYT takeover shows that (p-value = 0.27):&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(ggpubr)
 merge(past_answers,freq) %&amp;gt;% 
@@ -130,7 +130,7 @@ merge(past_answers,freq) %&amp;gt;%
             color=&amp;quot;NYT owned&amp;quot;,add=&amp;quot;jitter&amp;quot;,palette=&amp;quot;jco&amp;quot;) +
   stat_compare_means(method=&amp;quot;t.test&amp;quot;) + 
   labs(y=&amp;quot;Rank (larger is harder)&amp;quot;,x=&amp;quot;&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;http://estebanmoro.org/post/2022-02-14-wordle-is-getting-harder/index_files/figure-html/unnamed-chunk-10-1.png&#34; width=&#34;672&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/post/2022-02-14-wordle-is-getting-harder/index_files/figure-html/unnamed-chunk-10-1.png&#34; width=&#34;672&#34; /&gt;
 Again, nothing has changed in the dynamic and code of the game, so what the players might be reporting is just a statistical fluke. Or a personal impression.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;wordle-2027&#34; class=&#34;section level1&#34;&gt;
@@ -157,7 +157,7 @@ head(all_answers)&lt;/code&gt;&lt;/pre&gt;
   geom_vline(xintercept = as.Date(&amp;quot;2022-02-01&amp;quot;),linetype=2)+
   labs(x=&amp;quot;Date&amp;quot;,title=&amp;quot;Rank (higher is harder)&amp;quot;,y=&amp;quot;&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;## `geom_smooth()` using method = &amp;#39;gam&amp;#39; and formula &amp;#39;y ~ s(x, bs = &amp;quot;cs&amp;quot;)&amp;#39;&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;http://estebanmoro.org/post/2022-02-14-wordle-is-getting-harder/index_files/figure-html/unnamed-chunk-14-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/post/2022-02-14-wordle-is-getting-harder/index_files/figure-html/unnamed-chunk-14-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;As we can see, the rank of the words is more or less homogeneous. Although we can see a slight upwards tendency in the rank. Let’s see how the average rank changes by month and year.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;require(lubridate)
 all_answers %&amp;gt;% group_by(month=month(date),year=year(date)) %&amp;gt;% 
@@ -165,7 +165,7 @@ all_answers %&amp;gt;% group_by(month=month(date),year=year(date)) %&amp;gt;%
   mutate(date = lubridate::my(paste(month,year,sep=&amp;quot;-&amp;quot;))) %&amp;gt;%
   ggplot(aes(x=as.Date(date),y=mean_rank)) + geom_line() +
   labs(x=&amp;quot;Date&amp;quot;,title=&amp;quot;Average rank by month&amp;quot;,y=&amp;quot;&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;http://estebanmoro.org/post/2022-02-14-wordle-is-getting-harder/index_files/figure-html/unnamed-chunk-15-1.png&#34; width=&#34;672&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/post/2022-02-14-wordle-is-getting-harder/index_files/figure-html/unnamed-chunk-15-1.png&#34; width=&#34;672&#34; /&gt;
 The tendency is clear: the rank of the words will increase in the future, and the game will become more challenging because less frequent words will be chosen in the future. Actually, the beginning of 2022 looks promising since the average rank of the words chosen will be the lowest in the time series. However, it will be slightly harder than before around summer 2022.&lt;/p&gt;
 &lt;p&gt;But why is it getting slightly harder? The reason is how Wardle chose the answers. When composing the list, maybe he decided first the most common words in English and later those less common words. This could explain the small change towards the end of the time series.&lt;/p&gt;
 &lt;p&gt;Finally, we can test the statistical significance between 2022 and 2027.&lt;/p&gt;
@@ -175,12 +175,12 @@ The tendency is clear: the rank of the words will increase in the future, and th
             color=&amp;quot;year&amp;quot;,add=&amp;quot;jitter&amp;quot;,palette=&amp;quot;jco&amp;quot;) +
   stat_compare_means(method=&amp;quot;t.test&amp;quot;) + 
   labs(y=&amp;quot;Rank (larger is harder)&amp;quot;,x=&amp;quot;&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;http://estebanmoro.org/post/2022-02-14-wordle-is-getting-harder/index_files/figure-html/unnamed-chunk-16-1.png&#34; width=&#34;672&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/post/2022-02-14-wordle-is-getting-harder/index_files/figure-html/unnamed-chunk-16-1.png&#34; width=&#34;672&#34; /&gt;
 The statistical difference is there (at 0.05 p-value). Statistically speaking, we can say that Wordle 2027 will be harder (on average) than 2022.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;defining-harder-again&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Defining &lt;em&gt;harder&lt;/em&gt; (again)&lt;/h1&gt;
-&lt;p&gt;In the end, the real difficulty of the game can only be measured by how hard it is for the players to find the answer. Although we cannot get data about it, we can still simulate a simple strategy to win the game and see how well it will perform in the future. In a previous post &lt;a href=&#34;http://estebanmoro.org/post/2022-01-10-wordle/&#34;&gt;I presented a possible strategy&lt;/a&gt; based on choosing words according to their rank and a smart choice of the first word with a 97% winning probability in the past.&lt;/p&gt;
+&lt;p&gt;In the end, the real difficulty of the game can only be measured by how hard it is for the players to find the answer. Although we cannot get data about it, we can still simulate a simple strategy to win the game and see how well it will perform in the future. In a previous post &lt;a href=&#34;https://estebanmoro.org/post/2022-01-10-wordle/&#34;&gt;I presented a possible strategy&lt;/a&gt; based on choosing words according to their rank and a smart choice of the first word with a 97% winning probability in the past.&lt;/p&gt;
 &lt;p&gt;To evaluate that strategy, I wrote a function in &lt;code&gt;R&lt;/code&gt; named &lt;code&gt;play_game&lt;/code&gt; that uses the package &lt;code&gt;wordle&lt;/code&gt; to play against an answer given a first guess.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;play_game &amp;lt;- function(word,first_guess,quiet=FALSE){
   helper = WordleHelper$new(nchar = nchar(word)) #initialize the game
@@ -226,7 +226,7 @@ answer&lt;/code&gt;&lt;/pre&gt;
   labs(x=&amp;quot;Date&amp;quot;,title=&amp;quot;Average number of tries by month&amp;quot;,y=&amp;quot;&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;## `summarise()` has grouped output by &amp;#39;month&amp;#39;. You can override using the
 ## `.groups` argument.&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;http://estebanmoro.org/post/2022-02-14-wordle-is-getting-harder/index_files/figure-html/unnamed-chunk-21-1.png&#34; width=&#34;672&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/post/2022-02-14-wordle-is-getting-harder/index_files/figure-html/unnamed-chunk-21-1.png&#34; width=&#34;672&#34; /&gt;
 Again we can see that the strategy will perform worse in later years. Finally, this is the probability to win (less of equal to 6 tries)&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;try_orate %&amp;gt;% group_by(month=month(date),year=year(date)) %&amp;gt;% 
   summarize(prob_win=100*mean(ntries &amp;lt; 7)) %&amp;gt;%
@@ -235,7 +235,7 @@ Again we can see that the strategy will perform worse in later years. Finally, t
   labs(x=&amp;quot;Date&amp;quot;,title=&amp;quot;Probability of winning (%)&amp;quot;,y=&amp;quot;&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;## `summarise()` has grouped output by &amp;#39;month&amp;#39;. You can override using the
 ## `.groups` argument.&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;http://estebanmoro.org/post/2022-02-14-wordle-is-getting-harder/index_files/figure-html/unnamed-chunk-22-1.png&#34; width=&#34;672&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/post/2022-02-14-wordle-is-getting-harder/index_files/figure-html/unnamed-chunk-22-1.png&#34; width=&#34;672&#34; /&gt;
 At the end of 2027, the probability of wining even goes below 85%.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;conclusion&#34; class=&#34;section level1&#34;&gt;
@@ -255,14 +255,14 @@ At the end of 2027, the probability of wining even goes below 85%.&lt;/p&gt;
     
     <item>
       <title>Playing (and winning) Wordle with R</title>
-      <link>http://estebanmoro.org/post/2022-01-10-wordle/</link>
+      <link>https://estebanmoro.org/post/2022-01-10-wordle/</link>
       <pubDate>Mon, 10 Jan 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2022-01-10-wordle/</guid>
+      <guid>https://estebanmoro.org/post/2022-01-10-wordle/</guid>
       <description>
-&lt;script src=&#34;http://estebanmoro.org/post/2022-01-10-wordle/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;http://estebanmoro.org/post/2022-01-10-wordle/index_files/kePrint/kePrint.js&#34;&gt;&lt;/script&gt;
-&lt;link href=&#34;http://estebanmoro.org/post/2022-01-10-wordle/index_files/lightable/lightable.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;script src=&#34;https://estebanmoro.org/post/2022-01-10-wordle/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://estebanmoro.org/post/2022-01-10-wordle/index_files/kePrint/kePrint.js&#34;&gt;&lt;/script&gt;
+&lt;link href=&#34;https://estebanmoro.org/post/2022-01-10-wordle/index_files/lightable/lightable.css&#34; rel=&#34;stylesheet&#34; /&gt;
 
 
 &lt;div id=&#34;introduction&#34; class=&#34;section level1&#34;&gt;
@@ -427,7 +427,7 @@ dictionary_games &amp;lt;- sapply(sample(dictionary,1000),
     labs(x=&amp;quot;Tries&amp;quot;,fill=&amp;quot;&amp;quot;,y=&amp;quot;Frequency&amp;quot;,title=&amp;quot;Using random words&amp;quot;) +
     scale_fill_tableau() +
     geom_vline(xintercept = 6.5,linetype=2)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;http://estebanmoro.org/post/2022-01-10-wordle/index_files/figure-html/unnamed-chunk-11-1.png&#34; width=&#34;100%&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/post/2022-01-10-wordle/index_files/figure-html/unnamed-chunk-11-1.png&#34; width=&#34;100%&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Not bad! Most of the time, we solved the game in 6 or fewer tries. Actually, we get&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;list(&amp;quot;Dictionary&amp;quot;=dictionary_games,
      &amp;quot;Possible answers&amp;quot;=possible_answers_games,
@@ -518,7 +518,7 @@ freq = tibble(word = helper$words) %&amp;gt;%
   geom_density(data=freq %&amp;gt;% filter(word %in% past_answers[,1]),
                aes(x=rank,col=&amp;quot;Past answers&amp;quot;),bw=10)+
   scale_color_tableau() + labs(col=&amp;quot;&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;http://estebanmoro.org/post/2022-01-10-wordle/index_files/figure-html/unnamed-chunk-14-1.png&#34; width=&#34;672&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/post/2022-01-10-wordle/index_files/figure-html/unnamed-chunk-14-1.png&#34; width=&#34;672&#34; /&gt;
 Most of the target words in the past answers are chosen from the most frequent words in English. The distribution decays slowly, which means that some unusual (rank &amp;gt; 10000) words are likely. As Matthew suggests, “this is probably a sensible word selection strategy for making a good game, since it makes the puzzle not just a bunch of very common words (but also not just a bunch of rare words).”&lt;/p&gt;
 &lt;p&gt;But this information is quite useful since it tells us that the game is designed with a bias that we can exploit to design a better strategy. Specifically, we will choose the next guess as the most frequent word of the candidates in each step. Let’s modify the score function:&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;score_words &amp;lt;- function(words){
@@ -557,7 +557,7 @@ dictionary_games &amp;lt;- sapply(sample(dictionary,1000),
     labs(x=&amp;quot;Tries&amp;quot;,fill=&amp;quot;&amp;quot;,y=&amp;quot;&amp;quot;,title=&amp;quot;Using word frequency&amp;quot;) +
     scale_fill_tableau() +
     geom_vline(xintercept = 6.5,linetype=2)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;http://estebanmoro.org/post/2022-01-10-wordle/index_files/figure-html/unnamed-chunk-17-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/post/2022-01-10-wordle/index_files/figure-html/unnamed-chunk-17-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;As we can see, the strategy is much better for past answers and it solves it less tries. Actually we get that:&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;list(&amp;quot;Dictionary&amp;quot;=dictionary_games,
      &amp;quot;Possible answers&amp;quot;=possible_answers_games,
@@ -642,7 +642,7 @@ ggplot(dists) +
                          position=&amp;quot;dodge&amp;quot;,stat=&amp;quot;identity&amp;quot;)+
   scale_fill_tableau() + labs(x=&amp;quot;Letter&amp;quot;,y=&amp;quot;Frequency&amp;quot;) +
   scale_y_continuous(labels=scales::percent)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;http://estebanmoro.org/post/2022-01-10-wordle/index_files/figure-html/unnamed-chunk-19-1.png&#34; width=&#34;672&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/post/2022-01-10-wordle/index_files/figure-html/unnamed-chunk-19-1.png&#34; width=&#34;672&#34; /&gt;
 Most frequent letters are vowels (&lt;code&gt;e&lt;/code&gt;, &lt;code&gt;o&lt;/code&gt;, &lt;code&gt;a&lt;/code&gt;) and usual consonants like &lt;code&gt;s&lt;/code&gt; and &lt;code&gt;r&lt;/code&gt;. In the dictionary, these are the top 5 most frequent letters&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;dist_letters_dictionary %&amp;gt;% arrange(-dens) %&amp;gt;% head(5) %&amp;gt;% 
   kableExtra::kbl() %&amp;gt;%
@@ -929,7 +929,7 @@ head(adversarial_answers)&lt;/code&gt;&lt;/pre&gt;
   geom_density(data=freq %&amp;gt;% filter(word %in% adversarial_answers),
                aes(x=rank,col=&amp;quot;Adversarial answers&amp;quot;),bw=10)+
   scale_color_tableau() + labs(col=&amp;quot;&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;http://estebanmoro.org/post/2022-01-10-wordle/index_files/figure-html/unnamed-chunk-25-1.png&#34; width=&#34;672&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/post/2022-01-10-wordle/index_files/figure-html/unnamed-chunk-25-1.png&#34; width=&#34;672&#34; /&gt;
 As we can see this method selects words which have very small frequency, or large rank in the use of English.&lt;/p&gt;
 &lt;p&gt;Let’s play against them&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;adversarial_answers_games &amp;lt;- sapply(adversarial_answers,
@@ -1018,12 +1018,12 @@ Adversarial answers
     
     <item>
       <title>Personal Art Map with R</title>
-      <link>http://estebanmoro.org/post/2020-10-19-personal-art-map-with-r/</link>
+      <link>https://estebanmoro.org/post/2020-10-19-personal-art-map-with-r/</link>
       <pubDate>Mon, 19 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2020-10-19-personal-art-map-with-r/</guid>
-      <description>&lt;script src=&#34;http://estebanmoro.org/rmarkdown-libs/kePrint/kePrint.js&#34;&gt;&lt;/script&gt;
-&lt;link href=&#34;http://estebanmoro.org/rmarkdown-libs/lightable/lightable.css&#34; rel=&#34;stylesheet&#34; /&gt;
+      <guid>https://estebanmoro.org/post/2020-10-19-personal-art-map-with-r/</guid>
+      <description>&lt;script src=&#34;https://estebanmoro.org/rmarkdown-libs/kePrint/kePrint.js&#34;&gt;&lt;/script&gt;
+&lt;link href=&#34;https://estebanmoro.org/rmarkdown-libs/lightable/lightable.css&#34; rel=&#34;stylesheet&#34; /&gt;
 &lt;p&gt;Map art makes beautiful posters. You can find &lt;a href=&#34;https://www.google.com/search?q=map+art&amp;amp;client=safari&amp;amp;rls=en&amp;amp;sxsrf=ALeKk01Ce8a8IaqjUQbnAyamSAgqbV6hPg:1603129236599&amp;amp;source=lnms&amp;amp;tbm=isch&amp;amp;sa=X&amp;amp;ved=2ahUKEwiakrTlmcHsAhUGWN8KHbBiBV0Q_AUoAnoECA0QBA&amp;amp;biw=1324&amp;amp;bih=969&#34;&gt;them all over the internet&lt;/a&gt; and buy them even framed for your favorite city, area or country. Those posters&#39; beauty relies on the intricate and beautiful pattern of roads, buildings, parks, rivers, etc., which shape our cities and our mobility. In my &lt;a href=&#34;https://inequality.media.mit.edu&#34;&gt;research&lt;/a&gt; I constantly use those maps as the hardware fabric in which humans interact, move or encounter in urban settings. However, we found that each of us has a distinct mobility pattern around cities, so even people living in the same neighborhood experience the city in a different way.&lt;/p&gt;
 &lt;p&gt;For my map art, I wanted to create something more personal: a combination of those beautiful street maps with personal mobility. That is, the city and how we navigate it. In this tutorial, you&amp;rsquo;ll learn how to create those street maps for your city and your mobility. We will use data from &lt;a href=&#34;https://www.openstreetmap.org/&#34;&gt;Open Street Maps&lt;/a&gt; (OSM) and, of course, &lt;code&gt;R&lt;/code&gt;. We will also use personal mobility data, which you can input manually. Still, we will learn too how to get it from Google Maps Timeline (if you have your location activated). Part of the material here is based on the &lt;a href=&#34;https://ggplot2tutor.com/author&#34;&gt;tutorial by Christian Burkhart&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;creating-the-streetmap&#34;&gt;Creating the streetmap&lt;/h2&gt;
@@ -1070,7 +1070,7 @@ bbx &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span st
           size &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;.4&lt;/span&gt;,
           alpha &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;.65&lt;/span&gt;)&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;
   &lt;span style=&#34;color:#a6e22e&#34;&gt;theme_void&lt;/span&gt;()
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;http://estebanmoro.org/post/2020-10-19-personal-art-map-with-r_files/figure-html/unnamed-chunk-7-1.png&#34; width=&#34;1152&#34; /&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;https://estebanmoro.org/post/2020-10-19-personal-art-map-with-r_files/figure-html/unnamed-chunk-7-1.png&#34; width=&#34;1152&#34; /&gt;
 &lt;p&gt;But we are also going to use the small streets, pedestrian paths or living streets that connect our neighborhoods (be advised, this is a large query so you might probably want to save it for later)&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;streets &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; bbx &lt;span style=&#34;color:#f92672&#34;&gt;%&amp;gt;%&lt;/span&gt;
   &lt;span style=&#34;color:#a6e22e&#34;&gt;opq&lt;/span&gt;()&lt;span style=&#34;color:#f92672&#34;&gt;%&amp;gt;%&lt;/span&gt;
@@ -1087,7 +1087,7 @@ bbx &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span st
           size &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;.4&lt;/span&gt;,
           alpha &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;.65&lt;/span&gt;)&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;
   &lt;span style=&#34;color:#a6e22e&#34;&gt;theme_void&lt;/span&gt;()
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;http://estebanmoro.org/post/2020-10-19-personal-art-map-with-r_files/figure-html/unnamed-chunk-10-1.png&#34; width=&#34;1152&#34; /&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;https://estebanmoro.org/post/2020-10-19-personal-art-map-with-r_files/figure-html/unnamed-chunk-10-1.png&#34; width=&#34;1152&#34; /&gt;
 &lt;p&gt;Those maps are already beautiful, right? You probably can see a darker area downtown Boston and Cambridge because of the larger street density there.&lt;/p&gt;
 &lt;p&gt;Let&amp;rsquo;s combine them and have different width for the highways and streets to highlight highways&#39; importance. At the same time, let&amp;rsquo;s crop the streets to show only those within the bounding box.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;color_roads &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;rgb&lt;/span&gt;(&lt;span style=&#34;color:#ae81ff&#34;&gt;0.42&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;0.449&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;0.488&lt;/span&gt;)
@@ -1104,7 +1104,7 @@ bbx &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span st
            ylim &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;c&lt;/span&gt;(min_lat,max_lat),
          expand &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;FALSE&lt;/span&gt;)&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;
   &lt;span style=&#34;color:#a6e22e&#34;&gt;theme&lt;/span&gt;(legend.position &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; F) &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;theme_void&lt;/span&gt;()
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;http://estebanmoro.org/post/2020-10-19-personal-art-map-with-r_files/figure-html/unnamed-chunk-11-1.png&#34; width=&#34;1152&#34; /&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;https://estebanmoro.org/post/2020-10-19-personal-art-map-with-r_files/figure-html/unnamed-chunk-11-1.png&#34; width=&#34;1152&#34; /&gt;
 &lt;h2 id=&#34;adding-the-geography&#34;&gt;Adding the geography&lt;/h2&gt;
 &lt;p&gt;Although those maps are very informative, they lack a crucial component of the geography: the land, rivers, coastlines that define our cities. In the maps of Boston above, you are probably missing the Charles River&amp;rsquo;s shape or those of the beautiful &lt;a href=&#34;https://www.bostonharborislands.org&#34;&gt;Boston Harbor Islands&lt;/a&gt;. In most maps around the internet, you will find those geographies are included using &lt;a href=&#34;https://wiki.openstreetmap.org/wiki/Tiles&#34;&gt;tiles&lt;/a&gt;, which are basically a raster layer of images with different characteristics (names of the places, POI, etc). However, since we are going to print these maps in a large format, we need a better resolution that typically those image tiles provide. Ideally, we would like vector graphics like the lines we downloaded from OSM.&lt;/p&gt;
 &lt;p&gt;Instead of using raster images, we are going to use the polygons for the different counties around the Boston Area. The US Census has an amazing service called &lt;a href=&#34;https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html&#34;&gt;Tiger&lt;/a&gt; to retrieve those boundaries in ESRI&amp;rsquo;s shapefile format. In &lt;code&gt;R&lt;/code&gt;, we can access those shapefiles using the &lt;code&gt;tigris&lt;/code&gt; package. For example, these are the counties in the state of Massachusetts for the same bounding box as before:&lt;/p&gt;
@@ -1264,7 +1264,7 @@ counties_MA &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; &lt
          ylim &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;c&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;min&lt;/span&gt;(bbx[2,]), &lt;span style=&#34;color:#a6e22e&#34;&gt;max&lt;/span&gt;(bbx[2,])),
          expand &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;FALSE&lt;/span&gt;)&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;
   &lt;span style=&#34;color:#a6e22e&#34;&gt;theme&lt;/span&gt;(legend.position &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; F) &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;theme_void&lt;/span&gt;()
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;http://estebanmoro.org/post/2020-10-19-personal-art-map-with-r_files/figure-html/unnamed-chunk-12-1.png&#34; width=&#34;1152&#34; /&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;https://estebanmoro.org/post/2020-10-19-personal-art-map-with-r_files/figure-html/unnamed-chunk-12-1.png&#34; width=&#34;1152&#34; /&gt;
 &lt;p&gt;We can see the coastline and some of the Boston Harbor Islands, but the Charles River or the ponds around Boston are missing. Also, note that the resolution is very low. The &lt;code&gt;tigris&lt;/code&gt; library calls the TIGER API using the default (maximum) resolution &lt;code&gt;500k&lt;/code&gt; (1:500k), which is not enough for our high-resolution map.&lt;/p&gt;
 &lt;p&gt;To get a better geography layer we are going to carve out the shapefile of the area of water from these polygons. The water shapefiles can be also obtained from the TIGER services. Fortunately, those water lines have a much better resolution than the counties shapefiles.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;get_water &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;function&lt;/span&gt;(county_GEOID){
@@ -1364,7 +1364,7 @@ water &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span 
          ylim &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;c&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;min&lt;/span&gt;(bbx[2,]), &lt;span style=&#34;color:#a6e22e&#34;&gt;max&lt;/span&gt;(bbx[2,])),
          expand &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;FALSE&lt;/span&gt;)&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;
   &lt;span style=&#34;color:#a6e22e&#34;&gt;theme&lt;/span&gt;(legend.position &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; F) &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;theme_void&lt;/span&gt;()
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;http://estebanmoro.org/post/2020-10-19-personal-art-map-with-r_files/figure-html/unnamed-chunk-14-1.png&#34; width=&#34;1152&#34; /&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;https://estebanmoro.org/post/2020-10-19-personal-art-map-with-r_files/figure-html/unnamed-chunk-14-1.png&#34; width=&#34;1152&#34; /&gt;
 &lt;p&gt;Finally, let&amp;rsquo;s carve out the water polygons from the counties polygons.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;st_erase &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;function&lt;/span&gt;(x, y) {
   &lt;span style=&#34;color:#a6e22e&#34;&gt;st_difference&lt;/span&gt;(x, &lt;span style=&#34;color:#a6e22e&#34;&gt;st_union&lt;/span&gt;(y))
@@ -1378,7 +1378,7 @@ counties_MA &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; &lt
          ylim &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;c&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;min&lt;/span&gt;(bbx[2,]), &lt;span style=&#34;color:#a6e22e&#34;&gt;max&lt;/span&gt;(bbx[2,])),
          expand &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;FALSE&lt;/span&gt;)&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;
   &lt;span style=&#34;color:#a6e22e&#34;&gt;theme&lt;/span&gt;(legend.position &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; F) &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;theme_void&lt;/span&gt;()
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;http://estebanmoro.org/post/2020-10-19-personal-art-map-with-r_files/figure-html/fig.wi-1.png&#34; width=&#34;1152&#34; /&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;https://estebanmoro.org/post/2020-10-19-personal-art-map-with-r_files/figure-html/fig.wi-1.png&#34; width=&#34;1152&#34; /&gt;
 &lt;p&gt;We can play now with the different colors for the water or land. Apart from the one above, I like these combinations (you might notice still the lines between counties. Don&amp;rsquo;t worry, they disappear when we print them in large format):&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;ggplot&lt;/span&gt;() &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; 
   &lt;span style=&#34;color:#a6e22e&#34;&gt;geom_sf&lt;/span&gt;(data&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;counties_MA,
@@ -1391,7 +1391,7 @@ counties_MA &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; &lt
   &lt;span style=&#34;color:#a6e22e&#34;&gt;theme&lt;/span&gt;(panel.background&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;
           &lt;span style=&#34;color:#a6e22e&#34;&gt;element_rect&lt;/span&gt;(fill &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;rgb&lt;/span&gt;(&lt;span style=&#34;color:#ae81ff&#34;&gt;0.92&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;0.679&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;0.105&lt;/span&gt;)))&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;
   &lt;span style=&#34;color:#a6e22e&#34;&gt;ggtitle&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Dark + Yellow theme&amp;#34;&lt;/span&gt;)
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;http://estebanmoro.org/post/2020-10-19-personal-art-map-with-r_files/figure-html/unnamed-chunk-16-1.png&#34; width=&#34;1344&#34; /&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;https://estebanmoro.org/post/2020-10-19-personal-art-map-with-r_files/figure-html/unnamed-chunk-16-1.png&#34; width=&#34;1344&#34; /&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;ggplot&lt;/span&gt;() &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; 
   &lt;span style=&#34;color:#a6e22e&#34;&gt;geom_sf&lt;/span&gt;(data&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;counties_MA,
           inherit.aes&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;FALSE&lt;/span&gt;,
@@ -1403,7 +1403,7 @@ counties_MA &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; &lt
   &lt;span style=&#34;color:#a6e22e&#34;&gt;theme&lt;/span&gt;(panel.background&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;
           &lt;span style=&#34;color:#a6e22e&#34;&gt;element_rect&lt;/span&gt;(fill &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;rgb&lt;/span&gt;(&lt;span style=&#34;color:#ae81ff&#34;&gt;0.9&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;0.9&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;0.9&lt;/span&gt;)))&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;
   &lt;span style=&#34;color:#a6e22e&#34;&gt;ggtitle&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Black + White theme&amp;#34;&lt;/span&gt;)
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;http://estebanmoro.org/post/2020-10-19-personal-art-map-with-r_files/figure-html/unnamed-chunk-17-1.png&#34; width=&#34;1344&#34; /&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;https://estebanmoro.org/post/2020-10-19-personal-art-map-with-r_files/figure-html/unnamed-chunk-17-1.png&#34; width=&#34;1344&#34; /&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;ggplot&lt;/span&gt;() &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; 
   &lt;span style=&#34;color:#a6e22e&#34;&gt;geom_sf&lt;/span&gt;(data&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;counties_MA,
           inherit.aes&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;FALSE&lt;/span&gt;,
@@ -1414,7 +1414,7 @@ counties_MA &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; &lt
   &lt;span style=&#34;color:#a6e22e&#34;&gt;theme&lt;/span&gt;(legend.position &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; F) &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;theme_void&lt;/span&gt;()&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;
   &lt;span style=&#34;color:#a6e22e&#34;&gt;theme&lt;/span&gt;(panel.background&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;element_rect&lt;/span&gt;(fill &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;black&amp;#34;&lt;/span&gt;))&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;
   &lt;span style=&#34;color:#a6e22e&#34;&gt;ggtitle&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;White + Black theme&amp;#34;&lt;/span&gt;)
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;http://estebanmoro.org/post/2020-10-19-personal-art-map-with-r_files/figure-html/unnamed-chunk-18-1.png&#34; width=&#34;1344&#34; /&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;https://estebanmoro.org/post/2020-10-19-personal-art-map-with-r_files/figure-html/unnamed-chunk-18-1.png&#34; width=&#34;1344&#34; /&gt;
 &lt;h2 id=&#34;putting-geography-and-streets-together&#34;&gt;Putting geography and streets together&lt;/h2&gt;
 &lt;p&gt;Once we have the geography, we can add the streets for our final streetmap:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;ggplot&lt;/span&gt;() &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; 
@@ -1437,7 +1437,7 @@ counties_MA &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; &lt
   &lt;span style=&#34;color:#a6e22e&#34;&gt;theme&lt;/span&gt;(legend.position &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; F) &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;theme_void&lt;/span&gt;()&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;
   &lt;span style=&#34;color:#a6e22e&#34;&gt;theme&lt;/span&gt;(panel.background&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;
           &lt;span style=&#34;color:#a6e22e&#34;&gt;element_rect&lt;/span&gt;(fill &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;rgb&lt;/span&gt;(&lt;span style=&#34;color:#ae81ff&#34;&gt;0.92&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;0.679&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;0.105&lt;/span&gt;)))
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;http://estebanmoro.org/post/2020-10-19-personal-art-map-with-r_files/figure-html/unnamed-chunk-19-1.png&#34; width=&#34;1344&#34; /&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;https://estebanmoro.org/post/2020-10-19-personal-art-map-with-r_files/figure-html/unnamed-chunk-19-1.png&#34; width=&#34;1344&#34; /&gt;
 &lt;h2 id=&#34;adding-personal-mobility&#34;&gt;Adding personal mobility&lt;/h2&gt;
 &lt;p&gt;As I said before, those maps are beautiful already. But I wanted to give them a more personal touch. As part of our research, we have been studying how people move in urban areas. Using high precision and anonymized data, we have understood &lt;a href=&#34;https://inequality.media.mit.edu&#34;&gt;how segregation happens&lt;/a&gt; on our streets, neighborhoods, working places. One of the things we found is that even if we happen to be in the same area, we tend to segregate ourselves and visit very different places. &lt;a href=&#34;https://www.youtube.com/watch?v=KJHW9FTURlM&#34;&gt;Even across the street! &lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;As part of that research, I&amp;rsquo;ve been collecting the locations that I visited in the last years in the Boston area. I used &lt;a href=&#34;https://www.google.com/maps/timeline&#34;&gt;Google Location History&lt;/a&gt; which needs to be activated to work. Once it is activated, it starts saving the places you go to. You can even visualize your movements using the &lt;a href=&#34;https://www.google.com/maps/timeline&#34;&gt;Google Maps Timeline&lt;/a&gt;. Or you can download it using the &lt;a href=&#34;https://takeout.google.com/settings/takeout&#34;&gt;Google Takeout&lt;/a&gt; tool. Of course, if you don&amp;rsquo;t have access to your location history or is deactivated, you can always list the most relevant locations in the area you live and create a table with the right format (see below).&lt;/p&gt;
@@ -1562,7 +1562,7 @@ routes &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span
   &lt;span style=&#34;color:#a6e22e&#34;&gt;theme&lt;/span&gt;(panel.background&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;
           &lt;span style=&#34;color:#a6e22e&#34;&gt;element_rect&lt;/span&gt;(fill&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;rgb&lt;/span&gt;(&lt;span style=&#34;color:#ae81ff&#34;&gt;0.92&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;0.679&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;0.105&lt;/span&gt;)))
 final_map
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;http://estebanmoro.org/post/2020-10-19-personal-art-map-with-r_files/figure-html/unnamed-chunk-26-1.png&#34; width=&#34;1152&#34; /&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;https://estebanmoro.org/post/2020-10-19-personal-art-map-with-r_files/figure-html/unnamed-chunk-26-1.png&#34; width=&#34;1152&#34; /&gt;
 &lt;h2 id=&#34;printing-them-out&#34;&gt;Printing them out&lt;/h2&gt;
 &lt;p&gt;Finally, let&amp;rsquo;s print it out in high resolution. In my case, I used 24 inches by 36 inches, but you can choose other sizes:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;ggsave&lt;/span&gt;(final_map, 
@@ -1573,31 +1573,31 @@ final_map
        units &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;in&amp;#34;&lt;/span&gt;,
        dpi &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;500&lt;/span&gt;)
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Note the &lt;code&gt;dpi = 500&lt;/code&gt;, which forces to save the image with high resolution (500 dots per inch). This is especially important if you want to print your poster in large dimensions. The file generated is large (around 40Mb).&lt;/p&gt;
-&lt;p&gt;The last step is to send to print or frame. You can use many services online to do that, but you need one that allows you to send such a big file. In my case, I ended up using the Mounted Canvas Print - 36&amp;quot; x 24&amp;quot; at &lt;a href=&#34;http://estebanmoro.org/www.vistaprint.com&#34;&gt;vistaprint&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The last step is to send to print or frame. You can use many services online to do that, but you need one that allows you to send such a big file. In my case, I ended up using the Mounted Canvas Print - 36&amp;quot; x 24&amp;quot; at &lt;a href=&#34;https://estebanmoro.org/www.vistaprint.com&#34;&gt;vistaprint&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;And here is the final result:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://estebanmoro.org/img/posts/final_map_art.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/img/posts/final_map_art.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;I hope you enjoyed my small project to produce personal map art with R.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Setting up your blog with RStudio and blogdown II: Workflow</title>
-      <link>http://estebanmoro.org/post/2019-02-01-setting-up-your-blog-with-rstudio-and-blogdown/</link>
+      <link>https://estebanmoro.org/post/2019-02-01-setting-up-your-blog-with-rstudio-and-blogdown/</link>
       <pubDate>Sat, 02 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2019-02-01-setting-up-your-blog-with-rstudio-and-blogdown/</guid>
+      <guid>https://estebanmoro.org/post/2019-02-01-setting-up-your-blog-with-rstudio-and-blogdown/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;&lt;em&gt;This is Part III of my series of posts about how to setup you blog with RStudio and blogdown. The other parts are:&lt;/em&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;blockquote&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;em&gt;&lt;a href=&#34;http://estebanmoro.org/post/2019-02-02-setting-up-your-blog-with-rstudio-and-blogdown-i-creating-the-blog/&#34;&gt;Part I&lt;/a&gt; about to setup the blog using Hugo, RStudio and blogdown&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;&lt;a href=&#34;https://estebanmoro.org/post/2019-02-02-setting-up-your-blog-with-rstudio-and-blogdown-i-creating-the-blog/&#34;&gt;Part I&lt;/a&gt; about to setup the blog using Hugo, RStudio and blogdown&lt;/em&gt;&lt;/li&gt;
 &lt;li&gt;&lt;em&gt;Part II explains my workflow of creating new posts.&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;&lt;a href=&#34;http://estebanmoro.org/post/2019-02-04-setting-up-your-blog-with-rstudio-and-blogdown-iii-modify-your-theme/&#34;&gt;Part III&lt;/a&gt; on how to modify the theme.&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;&lt;a href=&#34;https://estebanmoro.org/post/2019-02-04-setting-up-your-blog-with-rstudio-and-blogdown-iii-modify-your-theme/&#34;&gt;Part III&lt;/a&gt; on how to modify the theme.&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/blockquote&gt;
 &lt;h2 id=&#34;workflow&#34;&gt;Workflow&lt;/h2&gt;
-&lt;p&gt;In &lt;a href=&#34;http://estebanmoro.org/post/2019-02-02-setting-up-your-blog-with-rstudio-and-blogdown-i-creating-the-blog/&#34;&gt;Part I&lt;/a&gt; of this series of post we setup our new blog using blogdown and Hugo. Once the blog is configured, this is the typical workflow I follow to write new posts and update my blog online:&lt;/p&gt;
+&lt;p&gt;In &lt;a href=&#34;https://estebanmoro.org/post/2019-02-02-setting-up-your-blog-with-rstudio-and-blogdown-i-creating-the-blog/&#34;&gt;Part I&lt;/a&gt; of this series of post we setup our new blog using blogdown and Hugo. Once the blog is configured, this is the typical workflow I follow to write new posts and update my blog online:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;em&gt;Open your blog project with RStudio&lt;/em&gt;&lt;/li&gt;
 &lt;li&gt;&lt;em&gt;Load the blogdown library&lt;/em&gt; and start the Hugo server and browser&lt;/li&gt;
@@ -1609,10 +1609,10 @@ blogdown&lt;span style=&#34;color:#f92672&#34;&gt;::&lt;/span&gt;&lt;span style=
 &lt;/ol&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;blogdown&lt;span style=&#34;color:#f92672&#34;&gt;:::&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;new_post_addin&lt;/span&gt;()
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Then you will get a window like this&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://estebanmoro.org/img/posts/new_post_blogdown.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/img/posts/new_post_blogdown.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Fill in all the details. Don&amp;rsquo;t forget to choose plain markdown or R markdown. Use the latter if you want to include some R code.&lt;/p&gt;
 &lt;p&gt;A new markdown will open with the YAML header filled with the title, author, date, etc. of the posts.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://estebanmoro.org/img/posts/new_post_yaml.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/img/posts/new_post_yaml.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Take some time here to change/add categories and tags to your blog. You can also:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Add a featured image which will appear at the top of the post in some themes (like the casper-two that I chose)&lt;/li&gt;
@@ -1626,7 +1626,7 @@ blogdown&lt;span style=&#34;color:#f92672&#34;&gt;::&lt;/span&gt;&lt;span style=
 &lt;ol start=&#34;4&#34;&gt;
 &lt;li&gt;After that start writing your amazing post. Everytime you save a new version of the R/markdown file, the Hugo server will render the new version of the blog and you will get in the console something like this&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img src=&#34;http://estebanmoro.org/img/posts/server_built.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/img/posts/server_built.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Editing a R/markdown is super easy. You can find some really good guides to do that here&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://rmarkdown.rstudio.com/lesson-1.html&#34;&gt;Introduction to R Markdown&lt;/a&gt; from Rstudio.&lt;/li&gt;
@@ -1670,17 +1670,17 @@ exit 0
     
     <item>
       <title>Setting up your blog with RStudio and blogdown III: modify your theme</title>
-      <link>http://estebanmoro.org/post/2019-02-04-setting-up-your-blog-with-rstudio-and-blogdown-iii-modify-your-theme/</link>
+      <link>https://estebanmoro.org/post/2019-02-04-setting-up-your-blog-with-rstudio-and-blogdown-iii-modify-your-theme/</link>
       <pubDate>Sat, 02 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2019-02-04-setting-up-your-blog-with-rstudio-and-blogdown-iii-modify-your-theme/</guid>
+      <guid>https://estebanmoro.org/post/2019-02-04-setting-up-your-blog-with-rstudio-and-blogdown-iii-modify-your-theme/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;&lt;em&gt;This is Part III of my series of posts about how to setup you blog with RStudio and blogdown. The other parts are:&lt;/em&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;blockquote&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;em&gt;&lt;a href=&#34;http://estebanmoro.org/post/2019-02-02-setting-up-your-blog-with-rstudio-and-blogdown-i-creating-the-blog/&#34;&gt;Part I&lt;/a&gt; about to setup the blog using Hugo, RStudio and blogdown&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;&lt;a href=&#34;http://estebanmoro.org/post/2019-02-01-setting-up-your-blog-with-rstudio-and-blogdown/&#34;&gt;Part II&lt;/a&gt; explains my workflow of creating new posts.&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;&lt;a href=&#34;https://estebanmoro.org/post/2019-02-02-setting-up-your-blog-with-rstudio-and-blogdown-i-creating-the-blog/&#34;&gt;Part I&lt;/a&gt; about to setup the blog using Hugo, RStudio and blogdown&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;&lt;a href=&#34;https://estebanmoro.org/post/2019-02-01-setting-up-your-blog-with-rstudio-and-blogdown/&#34;&gt;Part II&lt;/a&gt; explains my workflow of creating new posts.&lt;/em&gt;&lt;/li&gt;
 &lt;li&gt;&lt;em&gt;Part III (this one) how to modify the theme.&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/blockquote&gt;
@@ -1698,9 +1698,9 @@ exit 0
 &lt;/ul&gt;
 &lt;h2 id=&#34;hugo-internals&#34;&gt;Hugo internals&lt;/h2&gt;
 &lt;p&gt;But before that we have to learn a little bit about how Hugo and our theme works underneath our blog. If you have a look the folder where your blog is, you will find this structure&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://estebanmoro.org/img/posts/folder-structure.png&#34; alt=&#34;&#34;&gt;{width=80%}&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/img/posts/folder-structure.png&#34; alt=&#34;&#34;&gt;{width=80%}&lt;/p&gt;
 &lt;p&gt;The last directory (&lt;code&gt;hugo-casper-two&lt;/code&gt;) contains the theme files and has this structure:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://estebanmoro.org/img/posts/theme-folder.png&#34; alt=&#34;&#34;&gt;{width=80%}&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/img/posts/theme-folder.png&#34; alt=&#34;&#34;&gt;{width=80%}&lt;/p&gt;
 &lt;p&gt;The folder &lt;code&gt;layouts&lt;/code&gt; contains a lot of html files in HUGO format that specify how our pages are going to be rendered. Each file is a mixture of html and HUGO variables. For example, this is how the &lt;code&gt;index.html&lt;/code&gt; looks like&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;{{ partial &amp;quot;head&amp;quot; . }}
 
@@ -1734,7 +1734,7 @@ exit 0
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Each &lt;code&gt;{{ }}&lt;/code&gt; command tells Hugo to do something. In particular the first one (&lt;code&gt;{{ partial &amp;quot;head&amp;quot; . }}&lt;/code&gt;) includes in that position the partial &lt;code&gt;head.html&lt;/code&gt; which is also in the layouts folder. Then it comes some HTML, another partial &lt;code&gt;header.html&lt;/code&gt;, etc. You can also put controls/functions for the final code (see for example the &lt;em&gt;if&lt;/em&gt; control &lt;code&gt;{{if .Paginator.HasPrev}}&lt;/code&gt;) or output some variables in the code depending on the context (&lt;code&gt;{{ .Paginator.Prev.URL }}&lt;/code&gt;), etc. Variables and parameters are preceded by a dot. For example .Site.BaseURL` is the base URL for the site.&lt;/p&gt;
 &lt;p&gt;Have a look at how Hugo manages the content in the templates in the &lt;a href=&#34;https://gohugo.io/content-management/&#34;&gt;Hugo webpage&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Modifying the template requires to changing the files for the different layouts. But instead of modifying the original template files in the &lt;code&gt;themes&lt;/code&gt; folder, it is better to &lt;a href=&#34;https://bookdown.org/yihui/blogdown/custom-layouts.html&#34;&gt;follow the advise here&lt;/a&gt; and replicate the layouts structure outside the &lt;code&gt;themes&lt;/code&gt; folder. Hugo will read first our own &lt;code&gt;layout&lt;/code&gt; folder and then the &lt;code&gt;layout&lt;/code&gt; folder in the original theme. For example, in this post we are going to modify &lt;code&gt;index.html&lt;/code&gt;, &lt;code&gt;js.html&lt;/code&gt;, etc. And create new layouts &lt;code&gt;post-list-main.html&lt;/code&gt; or shortcodes like &lt;code&gt;yt.html&lt;/code&gt;. So your final blog folder will look like this.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://estebanmoro.org/img/posts/folder_layouts.png&#34; alt=&#34;&#34;&gt;{width=80%}&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/img/posts/folder_layouts.png&#34; alt=&#34;&#34;&gt;{width=80%}&lt;/p&gt;
 &lt;h2 id=&#34;changing-the-main-menu&#34;&gt;Changing the main menu&lt;/h2&gt;
 &lt;p&gt;This is really easy. Go to your &lt;code&gt;config.toml&lt;/code&gt; and you will see a number of &lt;code&gt;[[menu.main]]&lt;/code&gt; items in it. Change them to link to&lt;/p&gt;
 &lt;ul&gt;
@@ -1801,7 +1801,7 @@ src=&amp;quot;https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?co
 &lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;altmetrics&#34;&gt;Altmetrics&lt;/h2&gt;
 &lt;p&gt;For those of us that work in academia, we use the number of citations or alternative ways to measure the impact of a paper. One of them is &lt;a href=&#34;https://www.altmetric.com&#34;&gt;Altmetric&lt;/a&gt; which is particularly useful to track who is talking about your research in social media, newspapers, blogs, etc.&lt;/p&gt;
 &lt;p&gt;Here is how the Altmetric page looks for one of my papers:&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.altmetric.com/details/24733392&#34;&gt;&lt;img src=&#34;http://estebanmoro.org/img/posts/altmetric_badge.png&#34; alt=&#34;&#34;&gt;{width=80%}&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.altmetric.com/details/24733392&#34;&gt;&lt;img src=&#34;https://estebanmoro.org/img/posts/altmetric_badge.png&#34; alt=&#34;&#34;&gt;{width=80%}&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;On the top left you can see the Altmetric &lt;strong&gt;bagde&lt;/strong&gt; for your paper, which is a sum of the mention in news outlets, blogs, Twitter users, etc.&lt;/p&gt;
 &lt;p&gt;Altmetric provides free javascript to embed that badge in your webpage (in a lab or personal homepage), so I decided to use it in each of my papers. Here are the instructions from the &lt;a href=&#34;http://api.altmetric.com/embeds.html&#34;&gt;Altmetric page&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -1836,7 +1836,7 @@ data-doi=&amp;quot;10.1371/journal.pone.0195750&amp;quot;&amp;gt;&amp;lt;/div&am
     background: rgba(0, 0, 0, 0.5);
 }
 &lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;show-only-some-posts-in-the-main-page&#34;&gt;Show only some posts in the main page&lt;/h2&gt;
-&lt;p&gt;On the things that I missed in my new blog is the ability to show in the main page only the posts that I want. For example, I have a &lt;a href=&#34;http://estebanmoro.org/post/list-of-publications/&#34;&gt;list of publications&lt;/a&gt; that I update regularly but I don&amp;rsquo;t want it to show in the main page. Or you could have a tutorial and you only want it to show up in a specific part of your blog.&lt;/p&gt;
+&lt;p&gt;On the things that I missed in my new blog is the ability to show in the main page only the posts that I want. For example, I have a &lt;a href=&#34;https://estebanmoro.org/post/list-of-publications/&#34;&gt;list of publications&lt;/a&gt; that I update regularly but I don&amp;rsquo;t want it to show in the main page. Or you could have a tutorial and you only want it to show up in a specific part of your blog.&lt;/p&gt;
 &lt;p&gt;To do that we are going to add a new parameter (by post) &lt;code&gt;hidden&lt;/code&gt; that tells Hugo to show the post in the main page (&lt;code&gt;hidden: false&lt;/code&gt;) or not (&lt;code&gt;hidden: true&lt;/code&gt;). Edit your post and include it in the post YAML as it is done here:&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;---
 title: List of Publications
@@ -1934,15 +1934,15 @@ allowfullscreen frameborder=&amp;quot;0&amp;quot; title=&amp;quot;YouTube Video&
     
     <item>
       <title>Setting up our blog with RStudio and blogdown I: Creating the blog</title>
-      <link>http://estebanmoro.org/post/2019-02-02-setting-up-your-blog-with-rstudio-and-blogdown-i-creating-the-blog/</link>
+      <link>https://estebanmoro.org/post/2019-02-02-setting-up-your-blog-with-rstudio-and-blogdown-i-creating-the-blog/</link>
       <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2019-02-02-setting-up-your-blog-with-rstudio-and-blogdown-i-creating-the-blog/</guid>
+      <guid>https://estebanmoro.org/post/2019-02-02-setting-up-your-blog-with-rstudio-and-blogdown-i-creating-the-blog/</guid>
       <description>&lt;p&gt;Last month I migrated my blog from Wordpress to Hugo and &lt;code&gt;blogdown&lt;/code&gt;. Now I can post from RStudio using R/markdown, which allow me to create interactive posts including R code. It has been such a good experience that I decide to write down how to do it with three posts to help others.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;This one about to setup the blog.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://estebanmoro.org/post/2019-02-01-setting-up-your-blog-with-rstudio-and-blogdown/&#34;&gt;Part II&lt;/a&gt; explains my workflow of creating new posts.&lt;/li&gt;
-&lt;li&gt;and &lt;a href=&#34;http://estebanmoro.org/post/2019-02-04-setting-up-your-blog-with-rstudio-and-blogdown-iii-modify-your-theme/&#34;&gt;Part III&lt;/a&gt; on how to modify the theme.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://estebanmoro.org/post/2019-02-01-setting-up-your-blog-with-rstudio-and-blogdown/&#34;&gt;Part II&lt;/a&gt; explains my workflow of creating new posts.&lt;/li&gt;
+&lt;li&gt;and &lt;a href=&#34;https://estebanmoro.org/post/2019-02-04-setting-up-your-blog-with-rstudio-and-blogdown-iii-modify-your-theme/&#34;&gt;Part III&lt;/a&gt; on how to modify the theme.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;But before starting, a disclaimer: I am not a programer, designer or web developer. Just a normal user of Rstudio and blogdown. This is not a technical guide, just some notes about how I set up my blog to help other people like me. So maybe there is a simpler, cleaner and more standard way to do it. If so, comments are welcome!&lt;/p&gt;
 &lt;p&gt;First let&amp;rsquo;s take a look at the different tools that we are going to use:&lt;/p&gt;
@@ -1983,15 +1983,15 @@ allowfullscreen frameborder=&amp;quot;0&amp;quot; title=&amp;quot;YouTube Video&
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Once you have decide the theme is important to locate its repository. Look for the &lt;code&gt;Homepage&lt;/code&gt; button in the Theme page you like. Here is the one for Casper-two:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://estebanmoro.org/img/posts/casper-two-homepage.png&#34; alt=&#34;&#34;&gt;{width=80%}&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/img/posts/casper-two-homepage.png&#34; alt=&#34;&#34;&gt;{width=80%}&lt;/p&gt;
 &lt;p&gt;As you can see in the top left corner of the webpage, the repository for this theme is maintained by &lt;code&gt;eueung&lt;/code&gt; in the folder &lt;code&gt;hugo-casper-two&lt;/code&gt;. So write it down or copy that as &lt;code&gt;eueung/hugo-casper-two&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;Once you have chosen the theme, we are ready to go in 3 simple steps:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Open a new project in RStudio: File → New Project  → New Directory  → Website using Blogdown&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img src=&#34;http://estebanmoro.org/img/posts/new_blog_project.png&#34; alt=&#34;&#34;&gt;{width=60%}&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/img/posts/new_blog_project.png&#34; alt=&#34;&#34;&gt;{width=60%}&lt;/p&gt;
 &lt;p&gt;In the next window, specify the directory name of the blog, the subdirectory where the blog is going to be place and the theme. Here is what it looks in my case&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://estebanmoro.org/img/posts/new_blog_ever.png&#34; alt=&#34;&#34;&gt;{width=60%}&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/img/posts/new_blog_ever.png&#34; alt=&#34;&#34;&gt;{width=60%}&lt;/p&gt;
 &lt;p&gt;Hit the &lt;code&gt;Create Project&lt;/code&gt; and you are done! You have just created your fist blog.&lt;/p&gt;
 &lt;ol start=&#34;2&#34;&gt;
 &lt;li&gt;The fist thing you will see in Rstudio is the &lt;code&gt;config.toml&lt;/code&gt; file containing all the parameters to setup the blog. At this point:&lt;/li&gt;
@@ -2011,7 +2011,7 @@ allowfullscreen frameborder=&amp;quot;0&amp;quot; title=&amp;quot;YouTube Video&
 &lt;p&gt;If didn&amp;rsquo;t set it before, blogdown has also installed some post examples so you can have an idea of how it looks like.&lt;/p&gt;
 &lt;h2 id=&#34;understanding-the-blog-directory-structure&#34;&gt;Understanding the blog directory structure&lt;/h2&gt;
 &lt;p&gt;Before starting to post to our new blog, let&amp;rsquo;s have a look at the directory structure that has been created. In my case, I created the blog in &lt;code&gt;~/best_blog_ever&lt;/code&gt; which looks like this&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://estebanmoro.org/img/posts/folder-structure.png&#34; alt=&#34;&#34;&gt;{width=80%}&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/img/posts/folder-structure.png&#34; alt=&#34;&#34;&gt;{width=80%}&lt;/p&gt;
 &lt;p&gt;The first file &lt;code&gt;best_blog_ever.Rproj&lt;/code&gt; is the blog project we have just created. All the new posts go into the &lt;code&gt;content/post&lt;/code&gt; folder. You can see there that already we have a number of them. They are in the markdown format (&lt;code&gt;.md&lt;/code&gt;) and there is one in the R markdown format (&lt;code&gt;.Rmd&lt;/code&gt;).&lt;/p&gt;
 &lt;p&gt;You also have a folder named &lt;code&gt;static&lt;/code&gt;. Think of it as the root folder for the new blog. That means that if there is file there named &lt;code&gt;cv.pdf&lt;/code&gt; it can be access as &lt;code&gt;http:/estebanmoro.org/cv.pdf&lt;/code&gt;. The folder &lt;code&gt;img&lt;/code&gt; is the perfect place to put our images/pictures. For example, if there is a file &lt;code&gt;picture_vacations.png&lt;/code&gt; in the &lt;code&gt;img&lt;/code&gt; folder, you can include it in our markdown post using&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;![](/img/picture_vacations.png)
@@ -2036,7 +2036,7 @@ allowfullscreen frameborder=&amp;quot;0&amp;quot; title=&amp;quot;YouTube Video&
 blogdown&lt;span style=&#34;color:#f92672&#34;&gt;::&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;hugo_build&lt;/span&gt;(local&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;F)
 &lt;span style=&#34;color:#a6e22e&#34;&gt;system&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;~/best_blog_ever/deploy.sh&amp;#34;&lt;/span&gt;)
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The fist command simply erases the &lt;code&gt;public&lt;/code&gt; directory where the new version of the blog is going to be built. This is probably not needed, but it gives me peace of mind :).&lt;/p&gt;
-&lt;p&gt;The second command builds the blog. Note the &lt;code&gt;local=F&lt;/code&gt; flag which tells Hugo to build a deployment version of the blog, meaning that all the posts with &lt;code&gt;draft: true&lt;/code&gt; in the YAML will not be rendered. This will be explained better in &lt;a href=&#34;http://estebanmoro.org/posts/2019-02-01-setting-up-your-blog-with-rstudio-and-blogdown/&#34;&gt;Part II&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The second command builds the blog. Note the &lt;code&gt;local=F&lt;/code&gt; flag which tells Hugo to build a deployment version of the blog, meaning that all the posts with &lt;code&gt;draft: true&lt;/code&gt; in the YAML will not be rendered. This will be explained better in &lt;a href=&#34;https://estebanmoro.org/posts/2019-02-01-setting-up-your-blog-with-rstudio-and-blogdown/&#34;&gt;Part II&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;The third command is my personal deployment script. Although most of the &lt;a href=&#34;https://bookdown.org/yihui/blogdown/deployment.html&#34;&gt;guides out there&lt;/a&gt; show you how to deploy your new blog using &lt;a href=&#34;https://www.netlify.com&#34;&gt;Netlify&lt;/a&gt; and/or GitHub, I am using my own domain and space at Dreamhost. Then to update my blog I simply synchronize the &lt;code&gt;public&lt;/code&gt; directory with the root directory of my domain. Here is the &lt;code&gt;deploy.sh&lt;/code&gt; script&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;#!/bin/sh 
 USER=your_user_to_our_blog_domain
@@ -2064,16 +2064,16 @@ exit 0
     
     <item>
       <title>Growing old in Twitter</title>
-      <link>http://estebanmoro.org/post/2018-12-14-growing-old-in-twitter/</link>
+      <link>https://estebanmoro.org/post/2018-12-14-growing-old-in-twitter/</link>
       <pubDate>Fri, 14 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2018-12-14-growing-old-in-twitter/</guid>
-      <description>&lt;script src=&#34;http://estebanmoro.org/rmarkdown-libs/htmlwidgets/htmlwidgets.js&#34;&gt;&lt;/script&gt;
-&lt;link href=&#34;http://estebanmoro.org/rmarkdown-libs/wordcloud2/wordcloud.css&#34; rel=&#34;stylesheet&#34; /&gt;
-&lt;script src=&#34;http://estebanmoro.org/rmarkdown-libs/wordcloud2/wordcloud2-all.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;http://estebanmoro.org/rmarkdown-libs/wordcloud2/hover.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;http://estebanmoro.org/rmarkdown-libs/wordcloud2-binding/wordcloud2.js&#34;&gt;&lt;/script&gt;
-&lt;p&gt;I started using Twitter more than 10 years ago (!). I open an account in this social network in 2008 and although I was not using it too much for the first year, I become a frequent user after that. It has helped me to get news, information both for my personal and professional interests. But not only that, Twitter has been also the data source for our research, that helped us to investigate the relationship between human behavior in the social platform and paramount problems in our society as &lt;a href=&#34;http://estebanmoro.org/post/2014-04-09-using-friends-as-sensors&#34;&gt;information propagation&lt;/a&gt;, &lt;a href=&#34;http://estebanmoro.org/post/2014-11-13-social-media-fingerprints-of-unemployment&#34;&gt;unemployment&lt;/a&gt;, &lt;a href=&#34;http://estebanmoro.org/post/2016-03-14-rapid-assessment-of-disaster-damage&#34;&gt;disaster damage&lt;/a&gt;, &lt;a href=&#34;http://estebanmoro.org/post/2014-04-22-comunidades-de-partidarios-en-redes-sociales-estudio-de-las-elecciones-catalanas-de-2010-y-2012&#34;&gt;political opinion&lt;/a&gt;. As we keep on working on those subjects we have also recently extended our research to other problems like health, or &lt;a href=&#34;http://estebanmoro.org/post/2018-04-28-weather-impacts-expressed-sentiment&#34;&gt;climate change&lt;/a&gt;&lt;/p&gt;
+      <guid>https://estebanmoro.org/post/2018-12-14-growing-old-in-twitter/</guid>
+      <description>&lt;script src=&#34;https://estebanmoro.org/rmarkdown-libs/htmlwidgets/htmlwidgets.js&#34;&gt;&lt;/script&gt;
+&lt;link href=&#34;https://estebanmoro.org/rmarkdown-libs/wordcloud2/wordcloud.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;script src=&#34;https://estebanmoro.org/rmarkdown-libs/wordcloud2/wordcloud2-all.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://estebanmoro.org/rmarkdown-libs/wordcloud2/hover.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://estebanmoro.org/rmarkdown-libs/wordcloud2-binding/wordcloud2.js&#34;&gt;&lt;/script&gt;
+&lt;p&gt;I started using Twitter more than 10 years ago (!). I open an account in this social network in 2008 and although I was not using it too much for the first year, I become a frequent user after that. It has helped me to get news, information both for my personal and professional interests. But not only that, Twitter has been also the data source for our research, that helped us to investigate the relationship between human behavior in the social platform and paramount problems in our society as &lt;a href=&#34;https://estebanmoro.org/post/2014-04-09-using-friends-as-sensors&#34;&gt;information propagation&lt;/a&gt;, &lt;a href=&#34;https://estebanmoro.org/post/2014-11-13-social-media-fingerprints-of-unemployment&#34;&gt;unemployment&lt;/a&gt;, &lt;a href=&#34;https://estebanmoro.org/post/2016-03-14-rapid-assessment-of-disaster-damage&#34;&gt;disaster damage&lt;/a&gt;, &lt;a href=&#34;https://estebanmoro.org/post/2014-04-22-comunidades-de-partidarios-en-redes-sociales-estudio-de-las-elecciones-catalanas-de-2010-y-2012&#34;&gt;political opinion&lt;/a&gt;. As we keep on working on those subjects we have also recently extended our research to other problems like health, or &lt;a href=&#34;https://estebanmoro.org/post/2018-04-28-weather-impacts-expressed-sentiment&#34;&gt;climate change&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Most of the research in human behavior is constrained either by time or by population covered, so we can’t have both. Large longitudinal databases, extending tens of years, are relatively small in the number of participants or users, while data from millions of users is usually obtained for a very short period of time (months or years). One of the good things about &lt;em&gt;growing old&lt;/em&gt; in those social networks is that we are starting to see tens of years of data to analyze.&lt;/p&gt;
 &lt;p&gt;Here I want to analyze by Twitter activity during those last 10 years. First thing is to download all our account activity, something that is explain in the &lt;a href=&#34;https://help.twitter.com/en/managing-your-account/how-to-download-your-twitter-archive&#34;&gt;How to download and view your Twitter archive&lt;/a&gt; help page at Twitter. Basically:&lt;/p&gt;
 &lt;ul&gt;
@@ -2098,7 +2098,7 @@ tweets &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; jsonlite
   &lt;span style=&#34;color:#a6e22e&#34;&gt;geom_bar&lt;/span&gt;(binwidth&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;.09&lt;/span&gt;)&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;scale_x_yearmon&lt;/span&gt;() &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; 
   &lt;span style=&#34;color:#a6e22e&#34;&gt;theme_bw&lt;/span&gt;() &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; 
   &lt;span style=&#34;color:#a6e22e&#34;&gt;ylab&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Number of tweets per month&amp;#34;&lt;/span&gt;) &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;xlab&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Time&amp;#34;&lt;/span&gt;)
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;http://estebanmoro.org/post/2018-12-14-growing-old-in-twitter_files/figure-html/unnamed-chunk-5-1.png&#34; width=&#34;672&#34; /&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;https://estebanmoro.org/post/2018-12-14-growing-old-in-twitter_files/figure-html/unnamed-chunk-5-1.png&#34; width=&#34;672&#34; /&gt;
 &lt;p&gt;As we can see, the most active years were from 2011 to 2015 (around 100 tweets per month). From then on I am tweeting less, corroborating my feeling that I spent less time in the platform (at least tweeting :) )&lt;/p&gt;
 &lt;h3 id=&#34;tweeting-or-retweeting-more&#34;&gt;Tweeting or retweeting more?&lt;/h3&gt;
 &lt;p&gt;Have I changed the way I use Twitter? Our research in &lt;a href=&#34;2017-03-07-twitter-session-analytics-profiling-users-short-term-behavioral-changes/&#34;&gt;Twitter sessions&lt;/a&gt; and social networks using mobile phone data shows that because of our limited atention and cognitive capacities people tend to perform simpler tasks with time and age. For example we found that in long sessions in Twitter (two or more hours), users start composing less messages (which require more effort) and use more retweets or mentions (replies) within the session, that require less effort.&lt;/p&gt;
@@ -2114,7 +2114,7 @@ tweets&lt;span style=&#34;color:#f92672&#34;&gt;$&lt;/span&gt;class&lt;span styl
   &lt;span style=&#34;color:#a6e22e&#34;&gt;geom_bar&lt;/span&gt;(position&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;fill&amp;#34;&lt;/span&gt;,binwidth&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;.09&lt;/span&gt;)&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;
   &lt;span style=&#34;color:#a6e22e&#34;&gt;scale_x_yearmon&lt;/span&gt;() &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;theme_bw&lt;/span&gt;() &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; 
   &lt;span style=&#34;color:#a6e22e&#34;&gt;ylab&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Fraction of tweets of each class&amp;#34;&lt;/span&gt;) &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;xlab&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Time&amp;#34;&lt;/span&gt;)
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;http://estebanmoro.org/post/2018-12-14-growing-old-in-twitter_files/figure-html/unnamed-chunk-7-1.png&#34; width=&#34;672&#34; /&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;https://estebanmoro.org/post/2018-12-14-growing-old-in-twitter_files/figure-html/unnamed-chunk-7-1.png&#34; width=&#34;672&#34; /&gt;
 &lt;p&gt;Similar to our research for Twitter sessions, I can see that I compose less original tweets with time: while in 2010 almost 50% of my tweets were composed, now only 20% are original and more than 50% of the tweets in my account are retweets.&lt;/p&gt;
 &lt;h3 id=&#34;tweeting-about-what&#34;&gt;Tweeting about what?&lt;/h3&gt;
 &lt;p&gt;Finally, let’s see what I tweeted about. Although we could probably do much elaborated analysis, a simple wordcloud will do here. We clean up the text of the tweets (including mentions and retweets) and produce a wordcloud&lt;/p&gt;
@@ -2146,11 +2146,11 @@ d &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span styl
     
     <item>
       <title>Temporal networks with R and igraph (updated)</title>
-      <link>http://estebanmoro.org/post/2015-12-21-temporal-networks-with-r-and-igraph-updated/</link>
+      <link>https://estebanmoro.org/post/2015-12-21-temporal-networks-with-r-and-igraph-updated/</link>
       <pubDate>Mon, 21 Dec 2015 21:17:18 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2015-12-21-temporal-networks-with-r-and-igraph-updated/</guid>
-      <description>&lt;p&gt;A while ago, I wrote &lt;a href=&#34;http://estebanmoro.org/post/2012-11-10-temporal-networks-with-igraph-and-r-with-20-lines-of-code/&#34;&gt;a post&lt;/a&gt; about how to create animations of temporal networks using R and the amazing package &lt;a href=&#34;http://igraph.org&#34;&gt;igraph package&lt;/a&gt;. The post was written in 2012 and the code does not work with the most recent versions (1.0) of &lt;code&gt;igraph&lt;/code&gt;. Here I revisited that post, improving its performance and also making it consistent with the new versions of the package and R.&lt;/p&gt;
+      <guid>https://estebanmoro.org/post/2015-12-21-temporal-networks-with-r-and-igraph-updated/</guid>
+      <description>&lt;p&gt;A while ago, I wrote &lt;a href=&#34;https://estebanmoro.org/post/2012-11-10-temporal-networks-with-igraph-and-r-with-20-lines-of-code/&#34;&gt;a post&lt;/a&gt; about how to create animations of temporal networks using R and the amazing package &lt;a href=&#34;http://igraph.org&#34;&gt;igraph package&lt;/a&gt;. The post was written in 2012 and the code does not work with the most recent versions (1.0) of &lt;code&gt;igraph&lt;/code&gt;. Here I revisited that post, improving its performance and also making it consistent with the new versions of the package and R.&lt;/p&gt;
 &lt;p&gt;First of all, let me remind you the basic idea: we want to get an animated evolution of a network in which nodes/edges appear (and/or disappear) dynamically. We also want a &amp;ldquo;dynamical layout&amp;rdquo; for the temporal network in which the arrangement of the nodes and edges changes accordingly to the dynamics of the temporal network. In this post I will show you how to render the network at each time step and how to encode all snapshots into a video file using the &lt;code&gt;igraph&lt;/code&gt; package in R and &lt;code&gt;ffmpeg&lt;/code&gt;. The idea is very simple:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;generate a number of snapshots of the network at different times using R and &lt;code&gt;igraph&lt;/code&gt;, and&lt;/li&gt;
@@ -2168,7 +2168,7 @@ layout.old &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span sty
   &lt;span style=&#34;color:#a6e22e&#34;&gt;plot&lt;/span&gt;(g,layout&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;layout.new)
   layout.old &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; layout.new
 }
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;http://estebanmoro.org/post/2015-12-21-temporal-networks-with-r-and-igraph-updated_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;https://estebanmoro.org/post/2015-12-21-temporal-networks-with-r-and-igraph-updated_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;
 &lt;p&gt;As you can see the layouts are similar. There are three parameters passed to the layout function: &lt;code&gt;niter = 10&lt;/code&gt; which specifies the number of iterations (10) of energy minimization procedure in the forced based algorithm. This number should be small, otherwise the final result will be very different from the initial condition. The argument &lt;code&gt;start.temp&lt;/code&gt; is the maximum amount of movement allowed along one axis, within one step, for a vertex and it should be kept small for the same reason. Finally, for performance issues, the Fruchterman-reingold algorithm might be implemented in a grid, something we prevent by using the &lt;code&gt;grid=&amp;ldquo;nogrid&amp;rdquo;&lt;/code&gt; setting.&lt;/p&gt;
 &lt;p&gt;The second problem is that in a temporal network nodes and/or edges appear and disappear dynamically. Thus the time dependent graph might have different number of nodes and/or edges from one snapshot to the next one. This means that the layout at a given snapshot cannot be used as the initial condition to generate next time layout, since the number of nodes can be different. My approach here is very simple: consider all (past/present/future) nodes/edges and calculate the layout for all of them in each step, but considering only those edges which are present at a given time and displaying only nodes with at least one edge. This trick allows the reutilization of the layouts between steps. Furthermore, it will produce a layout in which present nodes are tightly connected, while past/future nodes are repelled from them. This effect dramatically highlights the appearance and disappearance of nodes, but could create too much confusion if there are many of those events.&lt;/p&gt;
 &lt;p&gt;To test this ideas, we will again work an important example in the theory of complex networks: the preferential attachment mechanism to generate scale-free networks, i.e. the &lt;a href=&#34;http://en.wikipedia.org/wiki/BA_model&#34;&gt;Barabási-Albert model&lt;/a&gt;. In our implementation, we keep the mechanism very simple: starting from an initial core of nodes, at each time step we add a single node that connects to m existing nodes which are selected proportionally to the number of links that the existing nodes already have. This mechanism leads to heavily linked nodes (“hubs”) together with a large fraction of poorly connected nodes. A particular realization of this model can be found in the file &lt;code&gt;edges.csv&lt;/code&gt; below. The structure of the file is simple&lt;/p&gt;
@@ -2241,15 +2241,15 @@ dt &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span sty
     
     <item>
       <title>Temporal networks with igraph and R (with 20 lines of code!)</title>
-      <link>http://estebanmoro.org/post/2012-11-10-temporal-networks-with-igraph-and-r-with-20-lines-of-code/</link>
+      <link>https://estebanmoro.org/post/2012-11-10-temporal-networks-with-igraph-and-r-with-20-lines-of-code/</link>
       <pubDate>Sat, 10 Nov 2012 23:55:46 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2012-11-10-temporal-networks-with-igraph-and-r-with-20-lines-of-code/</guid>
-      <description>&lt;link href=&#34;http://estebanmoro.org/rmarkdown-libs/vembedr/css/vembedr.css&#34; rel=&#34;stylesheet&#34; /&gt;
+      <guid>https://estebanmoro.org/post/2012-11-10-temporal-networks-with-igraph-and-r-with-20-lines-of-code/</guid>
+      <description>&lt;link href=&#34;https://estebanmoro.org/rmarkdown-libs/vembedr/css/vembedr.css&#34; rel=&#34;stylesheet&#34; /&gt;
 &lt;blockquote&gt;
 **UPDATE**: the version of the R code in this post does not work with newer versions of the igraph package (\&gt; 1.0). I have posted an updated version of this post here: [Temporal networks with R and igraph (updated)](/post/2015-12-21-temporal-networks-with-r-and-igraph-updated/). Please visit the new post to use the new code and follow the discussion there.
 &lt;/blockquote&gt;
-&lt;p&gt;In my &lt;a href=&#34;http://estebanmoro.org/post/2012-10-29-temporal-network-of-information-diffusion-in-twitter/&#34;&gt;last post&lt;/a&gt; about how a twitter conversation unfolds in time on Twitter, the dynamical nature of information diffusion in twitter was illustrated with a video of the temporal network of interactions (RTs) between accounts. The temporal evolution of the network yields to another perspective of social structure and, in some cases, aggregating the data in a time window might blur out important temporal structures on information diffusion, community or opinion formation, etc. Although many of the commercial and free &lt;a href=&#34;http://en.wikipedia.org/wiki/Social_network_analysis_software&#34;&gt;Social Network Analysis software&lt;/a&gt; have tools to visualize static networks, there are no so many options out there for dynamical networks. And in some cases they have very limited options for their “dynamical layout”. A notable exception is &lt;a href=&#34;http://www.stanford.edu/group/sonia/documentation/install.html&#34;&gt;SoNIA&lt;/a&gt;, the Java-based package, which unfortunately is &lt;a href=&#34;http://sourceforge.net/projects/sonia/files/sonia/sonia_1_2_2_unstable/&#34;&gt;not updated frequently&lt;/a&gt;. Another possibility is to work with the &lt;a href=&#34;http://gephi.org/2011/gsoc-mid-term-a-new-timeline/&#34;&gt;Timeline plugin&lt;/a&gt; in Gephi. However there is no video recording possibility for the animations. In this post I will show you how to render the network at each time step and how to encode all snapshots into a video file using the &lt;a href=&#34;http://igraph.sourceforge.net&#34;&gt;igraph package&lt;/a&gt; in R and ffmpeg. The idea is very simple&lt;/p&gt;
+&lt;p&gt;In my &lt;a href=&#34;https://estebanmoro.org/post/2012-10-29-temporal-network-of-information-diffusion-in-twitter/&#34;&gt;last post&lt;/a&gt; about how a twitter conversation unfolds in time on Twitter, the dynamical nature of information diffusion in twitter was illustrated with a video of the temporal network of interactions (RTs) between accounts. The temporal evolution of the network yields to another perspective of social structure and, in some cases, aggregating the data in a time window might blur out important temporal structures on information diffusion, community or opinion formation, etc. Although many of the commercial and free &lt;a href=&#34;http://en.wikipedia.org/wiki/Social_network_analysis_software&#34;&gt;Social Network Analysis software&lt;/a&gt; have tools to visualize static networks, there are no so many options out there for dynamical networks. And in some cases they have very limited options for their “dynamical layout”. A notable exception is &lt;a href=&#34;http://www.stanford.edu/group/sonia/documentation/install.html&#34;&gt;SoNIA&lt;/a&gt;, the Java-based package, which unfortunately is &lt;a href=&#34;http://sourceforge.net/projects/sonia/files/sonia/sonia_1_2_2_unstable/&#34;&gt;not updated frequently&lt;/a&gt;. Another possibility is to work with the &lt;a href=&#34;http://gephi.org/2011/gsoc-mid-term-a-new-timeline/&#34;&gt;Timeline plugin&lt;/a&gt; in Gephi. However there is no video recording possibility for the animations. In this post I will show you how to render the network at each time step and how to encode all snapshots into a video file using the &lt;a href=&#34;http://igraph.sourceforge.net&#34;&gt;igraph package&lt;/a&gt; in R and ffmpeg. The idea is very simple&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;generate a number of snapshots of the network at different times using R and igraph, and&lt;/li&gt;
 &lt;li&gt;then put them together in a video file using ffmpeg.&lt;/li&gt;
@@ -2262,7 +2262,7 @@ dt &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span sty
 &lt;span style=&#34;color:#a6e22e&#34;&gt;par&lt;/span&gt;(mfrow&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;c&lt;/span&gt;(&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;),mar&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;c&lt;/span&gt;(&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;), oma&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;c&lt;/span&gt;(&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;))
 g &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;watts.strogatz.game&lt;/span&gt;(&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;20&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;3&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;0.4&lt;/span&gt;)
 &lt;span style=&#34;color:#a6e22e&#34;&gt;for&lt;/span&gt;(i in &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;4&lt;/span&gt;) &lt;span style=&#34;color:#a6e22e&#34;&gt;plot&lt;/span&gt;(g,layout&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;layout.fruchterman.reingold,margin&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;)
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;http://estebanmoro.org/post/2012-11-10-temporal-networks-with-igraph-and-r-with-20-lines-of-code_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;https://estebanmoro.org/post/2012-11-10-temporal-networks-with-igraph-and-r-with-20-lines-of-code_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;
 &lt;p&gt;Luckily, in igraph 0.6 we can specify the initial position of the nodes for some layout functions: &lt;code&gt;layout.graphopt&lt;/code&gt;, &lt;code&gt;layout.kamada.kawai&lt;/code&gt; and &lt;code&gt;layout.fruchterman.reingold&lt;/code&gt;. My personal experience is that &lt;code&gt;layout.graphopt&lt;/code&gt; crashes in this 0.6 version (although it works on 0.5), so we are left with the other two algorithms. The plan (taken from &lt;a href=&#34;https://vimeo.com/14922587&#34;&gt;this original idea&lt;/a&gt; of Tamás Nepusz, one of the developers of igraph) is to use the layout of the previous snapshot as the initial condition for the next snapshot layout so we have a smooth transtion from one to the other. In the example above, the implementation will be the following using the &lt;code&gt;start&lt;/code&gt; parameter:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;par&lt;/span&gt;(mfrow&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;c&lt;/span&gt;(&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;),mar&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;c&lt;/span&gt;(&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;), oma&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;c&lt;/span&gt;(&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;))
 g &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;watts.strogatz.game&lt;/span&gt;(&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;20&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;3&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;0.4&lt;/span&gt;)
@@ -2272,7 +2272,7 @@ layout.old &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span sty
   &lt;span style=&#34;color:#a6e22e&#34;&gt;plot&lt;/span&gt;(g,layout&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;layout.new)
   layout.old &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; layout.new
 }
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;http://estebanmoro.org/img/posts/igraph_old4.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/img/posts/igraph_old4.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Now you can see that the layouts are similar. There are two new parameters passed to the layout function: &lt;code&gt;niter = 10&lt;/code&gt; specify the number of iterations (10) of the minimization of energy procedure in the force based algorithm. This number should be small, otherwise the final result will be very different from the initial condition. The same happens for the other parameter &lt;code&gt;maxdelta=2&lt;/code&gt; which controls the maximum change in the position of the nodes allowed in the minimization procedure.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;The other problem is that in a temporal network nodes and/or edges appear and disappear dynamically. Thus the time dependent graph might have different number of nodes and/or edges from one snapshot to the next one. This means that the layout at a given snapshot cannot be used as the initial condition to generate next time layout, since the number of nodes can be different. My solution to this problem is to consider all (past/present/future) nodes/edges when calculating the layout but to display only present nodes/edges in the plot by making past and future nodes/edges transparent. This trick allows the reutilization of the layouts between steps, but it will produce a more or less steady visualization in which the layout at any given time is not related to the instantaneous structure of the temporal graph. To overcome this problem we take advantage of another property of force based algorithms: nodes which are connected attract each other along the edge. At a given instant, we could then modify the attraction between nodes along edges depending on whether the the edge is not present. In igraph 0.6, only the &lt;code&gt;layout.fruchterman.reingold&lt;/code&gt; has this possibility through the parameter &lt;code&gt;weights&lt;/code&gt;, a vector giving edge weights which are use to multiply the attraction along the edge. For example we could set weight equal to one if the edge is present and use zero weight for the rest. This will produce a layout in which present nodes are tightly connected while the past/future nodes are repelled from them. This effect dramatically highlights the appearance and disappearance of nodes, but could create too much confusion if there are many of those events.&lt;/li&gt;
@@ -2351,11 +2351,11 @@ nsteps &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span
     
     <item>
       <title>Temporal network of information diffusion in Twitter</title>
-      <link>http://estebanmoro.org/post/2012-10-29-temporal-network-of-information-diffusion-in-twitter/</link>
+      <link>https://estebanmoro.org/post/2012-10-29-temporal-network-of-information-diffusion-in-twitter/</link>
       <pubDate>Mon, 29 Oct 2012 21:58:29 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2012-10-29-temporal-network-of-information-diffusion-in-twitter/</guid>
-      <description>&lt;link href=&#34;http://estebanmoro.org/rmarkdown-libs/vembedr/css/vembedr.css&#34; rel=&#34;stylesheet&#34; /&gt;
+      <guid>https://estebanmoro.org/post/2012-10-29-temporal-network-of-information-diffusion-in-twitter/</guid>
+      <description>&lt;link href=&#34;https://estebanmoro.org/rmarkdown-libs/vembedr/css/vembedr.css&#34; rel=&#34;stylesheet&#34; /&gt;
 &lt;p&gt;Millions of tweets, retweets and mentions are exchanged in Twitter everyday about very different subjects, events, opinions, etc. While aggregating this data over a time window might help to understand some properties of those processes in online social networks, the speed of information diffusion around particular time-bound events requires a temporal analysis of them. To show that (and with the help of the &lt;a href=&#34;http://www.iic.uam.es/en/solutions-and-services/text-a-opinion-mining&#34;&gt;Text &amp;amp; Opinion Mining Group&lt;/a&gt; at IIC) we collected all tweets (750k) of the vibrant conversation around the disputed subject of the &lt;a href=&#34;http://www.guardian.co.uk/business/2012/mar/29/spain-general-strike-rebellion-austerity&#34;&gt;general strike of March 29th&lt;/a&gt; in Spain. The data spans 10 days from 03/27 to 04/04 and using the RTs related to the general strike between twitter accounts we build up the following temporal network of information diffusion in Twitter.&lt;/p&gt;
 &lt;div class=&#34;vembedr&#34;&gt;
 &lt;div&gt;
@@ -2365,7 +2365,7 @@ nsteps &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span
 &lt;p&gt;Day/night human rhythms are clearly seen, and there is an increase of activity in the evening/night before March 29th, which ended in the burst of RTs during that day. Moreover, using &lt;a href=&#34;http://en.wikipedia.org/wiki/Community_structure&#34;&gt;community-finding algorithms&lt;/a&gt; over the static (weighted) network of RTs we could assign each twitter account to one of the communities found. Analyzing the text of tweets within those communities we found the nature of the biggest groups: one is in favor of the economic motivations behind the strike, the other is not. Those communities fight close to dominate information propagation in Twitter even some days after the strike.&lt;/p&gt;
 &lt;p&gt;This video highlights the importance of &lt;a href=&#34;http://arxiv.org/abs/1108.1780&#34;&gt;temporal networks&lt;/a&gt; in the analysis of information diffusion in online social networks.&lt;/p&gt;
 &lt;p&gt;Technical details: the video was done using the amazing &lt;a href=&#34;http://igraph.sourceforge.net&#34;&gt;igraph&lt;/a&gt; package in R and encoded using ffmpeg. Thanks to everyone that contributes to those open-source projects for their work.&lt;/p&gt;
-&lt;p&gt;Edit (11/9/2012): I have post a tutorial on how to make this kind of visualizations &lt;a href=&#34;http://estebanmoro.org/post/2012-11-10-temporal-networks-with-igraph-and-r-with-20-lines-of-code/&#34;&gt;here&lt;/a&gt;. Spread the word!&lt;/p&gt;
+&lt;p&gt;Edit (11/9/2012): I have post a tutorial on how to make this kind of visualizations &lt;a href=&#34;https://estebanmoro.org/post/2012-11-10-temporal-networks-with-igraph-and-r-with-20-lines-of-code/&#34;&gt;here&lt;/a&gt;. Spread the word!&lt;/p&gt;
 </description>
     </item>
     

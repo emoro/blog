@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>NetSI on </title>
-    <link>http://estebanmoro.org/tags/netsi/</link>
+    <link>https://estebanmoro.org/tags/netsi/</link>
     <description>Recent content in NetSI on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Fri, 20 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://estebanmoro.org/tags/netsi/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 20 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://estebanmoro.org/tags/netsi/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Phd Positions at SUN, NetSI, Northeastern University</title>
-      <link>http://estebanmoro.org/post/2023-10-20-phd-positions-at-sun-netsi-northeastern-university/</link>
+      <link>https://estebanmoro.org/post/2023-10-20-phd-positions-at-sun-netsi-northeastern-university/</link>
       <pubDate>Fri, 20 Oct 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2023-10-20-phd-positions-at-sun-netsi-northeastern-university/</guid>
+      <guid>https://estebanmoro.org/post/2023-10-20-phd-positions-at-sun-netsi-northeastern-university/</guid>
       <description>PhD Positions to work with my team at the Network Science Institute, Northeastern University
 The Social Urban Networks (SUN) group, led by Dr. Esteban Moro, focuses on developing computational social science tools to address urban challenges, from climate change and inequality to health and economic development. By using large datasets of human behavior, tools and ideas from physics, applied mathematics, complex systems or network science, and collaborations with industry, government, and local communities, we seek not only to advance the understanding of the temporal dynamics of social systems to unprecedented levels but also to transform our findings into tools and policies to help achieve resilient and equitable adaptation of our societies.</description>
     </item>
     
     <item>
       <title>Postdoc Positions at SUN, NetSI, Northeastern University</title>
-      <link>http://estebanmoro.org/post/2023-09-22-postdoc-positions-at-sun-netsi-northeastern/</link>
+      <link>https://estebanmoro.org/post/2023-09-22-postdoc-positions-at-sun-netsi-northeastern/</link>
       <pubDate>Fri, 22 Sep 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2023-09-22-postdoc-positions-at-sun-netsi-northeastern/</guid>
+      <guid>https://estebanmoro.org/post/2023-09-22-postdoc-positions-at-sun-netsi-northeastern/</guid>
       <description>Postdoc Positions to work with my team at the Network Science Institute, Northeastern University:
 The Network Science Institute is seeking researchers at the postdoctoral and associate levels to join the new Social Urban Networks (SUN) group. The Social Urban Networks (SUN) group, led by Dr. Esteban Moro, focuses on developing computational social science tools to address urban challenges, from climate change and inequality to health and economic development. By using large datasets of human behavior, tools and ideas from physics, applied mathematics, complex systems or network science, and collaborations with industry, government, and local communities, we seek not only to advance the understanding of the temporal dynamics of social systems to unprecedented levels but also to transform our findings into tools and policies to help achieve resilient and equitable adaptation of our societies.</description>
     </item>

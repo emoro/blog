@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2025 on </title>
-    <link>http://estebanmoro.org/tags/2025/</link>
+    <link>https://estebanmoro.org/tags/2025/</link>
     <description>Recent content in 2025 on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Wed, 26 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://estebanmoro.org/tags/2025/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 26 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://estebanmoro.org/tags/2025/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Using human mobility data to quantify experienced urban inequalities</title>
-      <link>http://estebanmoro.org/post/2025-02-26-using-human-mobility-data-to-quantify-experienced-urban-inequalities/</link>
+      <link>https://estebanmoro.org/post/2025-02-26-using-human-mobility-data-to-quantify-experienced-urban-inequalities/</link>
       <pubDate>Wed, 26 Feb 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2025-02-26-using-human-mobility-data-to-quantify-experienced-urban-inequalities/</guid>
+      <guid>https://estebanmoro.org/post/2025-02-26-using-human-mobility-data-to-quantify-experienced-urban-inequalities/</guid>
       <description>Authors: Fengli Xu, Qi Wang, Esteban Moro, Arianna Salazar Miranda, Marta C. González, Chaoming Song, Carlo Ratti, Luis Bettencourt, James Evans
 Publication: Nature Human Behavior (2025) LINK
 Abstract: The lived experience of urban life is shaped by personal mobility through dynamic relationships and resources, marked not only by access and opportunity, but also inequality and segregation. The recent availability of fine-grained mobility data and context attributes ranging from venue type to demographic mixture offer researchers a deeper understanding of experienced inequalities at scale, and pose many new questions.</description>
@@ -20,10 +20,10 @@ Abstract: The lived experience of urban life is shaped by personal mobility thro
     
     <item>
       <title>Human mobility is well described by closed-form gravity-like models learned automatically from data</title>
-      <link>http://estebanmoro.org/post/2025-02-26-human-mobility-is-well-described-by-closed-form-gravity-like-models-learned-automatically-from-data/</link>
+      <link>https://estebanmoro.org/post/2025-02-26-human-mobility-is-well-described-by-closed-form-gravity-like-models-learned-automatically-from-data/</link>
       <pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2025-02-26-human-mobility-is-well-described-by-closed-form-gravity-like-models-learned-automatically-from-data/</guid>
+      <guid>https://estebanmoro.org/post/2025-02-26-human-mobility-is-well-described-by-closed-form-gravity-like-models-learned-automatically-from-data/</guid>
       <description>Authors: Oriol Cabanas-Tirapu, Lluís Danús, Esteban Moro, Marta Sales-Pardo &amp;amp; Roger Guimerà Publication: Nature Communications 16, 1336 (2025). LINK
 Abstract: Modeling human mobility is critical to address questions in urban planning, sustainability, public health, and economic development. However, our understanding and ability to model flows between urban areas are still incomplete. At one end of the modeling spectrum we have gravity models, which are easy to interpret but provide modestly accurate predictions of flows.</description>
     </item>

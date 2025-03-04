@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Temporal Networks on </title>
-    <link>http://estebanmoro.org/tags/temporal-networks/</link>
+    <link>https://estebanmoro.org/tags/temporal-networks/</link>
     <description>Recent content in Temporal Networks on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Wed, 28 Jun 2017 12:54:18 +0000</lastBuildDate><atom:link href="http://estebanmoro.org/tags/temporal-networks/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 28 Jun 2017 12:54:18 +0000</lastBuildDate><atom:link href="https://estebanmoro.org/tags/temporal-networks/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Temporal patterns behind the strength of persistent ties</title>
-      <link>http://estebanmoro.org/post/2017-06-28-temporal-patterns-behind-the-strength-of-persistent-ties/</link>
+      <link>https://estebanmoro.org/post/2017-06-28-temporal-patterns-behind-the-strength-of-persistent-ties/</link>
       <pubDate>Wed, 28 Jun 2017 12:54:18 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2017-06-28-temporal-patterns-behind-the-strength-of-persistent-ties/</guid>
+      <guid>https://estebanmoro.org/post/2017-06-28-temporal-patterns-behind-the-strength-of-persistent-ties/</guid>
       <description>Authors: Henry Navarro, Giovanna Miritello, Arturo Canales, Esteban Moro
 Journal: EPJ Data Science (2017) 6:31 LINK
 Abstract: Social networks are made out of strong and weak ties having very different structural and dynamical properties. But what features of human interaction build a strong tie? Here we approach this question from a practical way by finding what are the properties of social interactions that make ties more persistent and thus stronger to maintain social interactions in the future.</description>
@@ -20,20 +20,20 @@ Abstract: Social networks are made out of strong and weak ties having very diffe
     
     <item>
       <title>Temporal networks with R and igraph (updated)</title>
-      <link>http://estebanmoro.org/post/2015-12-21-temporal-networks-with-r-and-igraph-updated/</link>
+      <link>https://estebanmoro.org/post/2015-12-21-temporal-networks-with-r-and-igraph-updated/</link>
       <pubDate>Mon, 21 Dec 2015 21:17:18 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2015-12-21-temporal-networks-with-r-and-igraph-updated/</guid>
+      <guid>https://estebanmoro.org/post/2015-12-21-temporal-networks-with-r-and-igraph-updated/</guid>
       <description>A while ago, I wrote a post about how to create animations of temporal networks using R and the amazing package igraph package. The post was written in 2012 and the code does not work with the most recent versions (1.0) of igraph. Here I revisited that post, improving its performance and also making it consistent with the new versions of the package and R.
 First of all, let me remind you the basic idea: we want to get an animated evolution of a network in which nodes/edges appear (and/or disappear) dynamically.</description>
     </item>
     
     <item>
       <title>Time allocation in social networks: correlation between social structure and human communication dynamics</title>
-      <link>http://estebanmoro.org/post/2013-05-17-time-allocation-in-social-networks-correlation-between-social-structure-and-human-communication-dynamics/</link>
+      <link>https://estebanmoro.org/post/2013-05-17-time-allocation-in-social-networks-correlation-between-social-structure-and-human-communication-dynamics/</link>
       <pubDate>Fri, 17 May 2013 07:47:26 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2013-05-17-time-allocation-in-social-networks-correlation-between-social-structure-and-human-communication-dynamics/</guid>
+      <guid>https://estebanmoro.org/post/2013-05-17-time-allocation-in-social-networks-correlation-between-social-structure-and-human-communication-dynamics/</guid>
       <description>Authors: Giovanna Miritello, Rubén Lara, and Esteban Moro
 Book: &amp;ldquo;Temporal Networks&amp;rdquo;, Springer, 2013. Series: Understanding Complex Systems. Holme, Petter; Saramaki, Jari (Eds.) [PDF]((http://arxiv.org/pdf/1305.3865v1.pdf)
 Summary Recent research has shown the deep impact of the dynamics of human interactions (or temporal social networks) on the spreading of information, opinion formation, etc. In general, the bursty nature of human interactions lowers the interaction between people to the extent that both the speed and reach of information diffusion are diminished.</description>
@@ -41,10 +41,10 @@ Summary Recent research has shown the deep impact of the dynamics of human inter
     
     <item>
       <title>Limited communication capacity unveils strategies for human interaction</title>
-      <link>http://estebanmoro.org/post/2013-04-09-limited-communication-capacity-unveils-strategies-for-human-interaction/</link>
+      <link>https://estebanmoro.org/post/2013-04-09-limited-communication-capacity-unveils-strategies-for-human-interaction/</link>
       <pubDate>Tue, 09 Apr 2013 07:43:09 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2013-04-09-limited-communication-capacity-unveils-strategies-for-human-interaction/</guid>
+      <guid>https://estebanmoro.org/post/2013-04-09-limited-communication-capacity-unveils-strategies-for-human-interaction/</guid>
       <description>Authors: Giovanna Miritello, Rubén Lara, Manuel Cebrián and Esteban Moro
 Journal: Scientific Reports 3, 1950 (2013). LINK
 Abstract: Social connectivity is the key process that characterizes the structural properties of social networks and in turn processes such as navigation, influence or information diffusion. Since time, attention and cognition are inelastic resources, humans should have a predefined strategy to manage their social interactions over time. However, the limited observational length of existing human interaction datasets, together with the bursty nature of dyadic communications have hampered the observation of tie dynamics in social networks.</description>
@@ -52,19 +52,19 @@ Abstract: Social connectivity is the key process that characterizes the structur
     
     <item>
       <title>Temporal networks with igraph and R (with 20 lines of code!)</title>
-      <link>http://estebanmoro.org/post/2012-11-10-temporal-networks-with-igraph-and-r-with-20-lines-of-code/</link>
+      <link>https://estebanmoro.org/post/2012-11-10-temporal-networks-with-igraph-and-r-with-20-lines-of-code/</link>
       <pubDate>Sat, 10 Nov 2012 23:55:46 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2012-11-10-temporal-networks-with-igraph-and-r-with-20-lines-of-code/</guid>
+      <guid>https://estebanmoro.org/post/2012-11-10-temporal-networks-with-igraph-and-r-with-20-lines-of-code/</guid>
       <description>**UPDATE**: the version of the R code in this post does not work with newer versions of the igraph package (\ 1.0). I have posted an updated version of this post here: [Temporal networks with R and igraph (updated)](/post/2015-12-21-temporal-networks-with-r-and-igraph-updated/). Please visit the new post to use the new code and follow the discussion there.  In my last post about how a twitter conversation unfolds in time on Twitter, the dynamical nature of information diffusion in twitter was illustrated with a video of the temporal network of interactions (RTs) between accounts.</description>
     </item>
     
     <item>
       <title>Temporal network of information diffusion in Twitter</title>
-      <link>http://estebanmoro.org/post/2012-10-29-temporal-network-of-information-diffusion-in-twitter/</link>
+      <link>https://estebanmoro.org/post/2012-10-29-temporal-network-of-information-diffusion-in-twitter/</link>
       <pubDate>Mon, 29 Oct 2012 21:58:29 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2012-10-29-temporal-network-of-information-diffusion-in-twitter/</guid>
+      <guid>https://estebanmoro.org/post/2012-10-29-temporal-network-of-information-diffusion-in-twitter/</guid>
       <description>Millions of tweets, retweets and mentions are exchanged in Twitter everyday about very different subjects, events, opinions, etc. While aggregating this data over a time window might help to understand some properties of those processes in online social networks, the speed of information diffusion around particular time-bound events requires a temporal analysis of them. To show that (and with the help of the Text &amp;amp; Opinion Mining Group at IIC) we collected all tweets (750k) of the vibrant conversation around the disputed subject of the general strike of March 29th in Spain.</description>
     </item>
     

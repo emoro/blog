@@ -2,37 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Complex Networks on </title>
-    <link>http://estebanmoro.org/tags/complex-networks/</link>
+    <link>https://estebanmoro.org/tags/complex-networks/</link>
     <description>Recent content in Complex Networks on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Sat, 11 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://estebanmoro.org/tags/complex-networks/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 11 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://estebanmoro.org/tags/complex-networks/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Behaviour-based dependency networks between places shape urban economic resilience</title>
-      <link>http://estebanmoro.org/post/2025-01-11-behaviour-based-dependency-networks/</link>
+      <link>https://estebanmoro.org/post/2025-01-11-behaviour-based-dependency-networks/</link>
       <pubDate>Sat, 11 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2025-01-11-behaviour-based-dependency-networks/</guid>
+      <guid>https://estebanmoro.org/post/2025-01-11-behaviour-based-dependency-networks/</guid>
       <description>Authors: Takahiro Yabe, Bernardo García Bulle Bueno, Morgan R Frank, Alex Pentland, Esteban Moro Publication: Nature Human Behavior (2024) LINK
 Abstract: Disruptions, such as closures of businesses during pandemics, not only affect businesses and amenities directly but also influence how people move, spreading the impact to other businesses and increasing the overall economic shock. However, it is unclear how much businesses depend on each other during disruptions. Leveraging human mobility data and same-day visits in five US cities, we quantify dependencies between points of interest encompassing businesses, stores and amenities.</description>
     </item>
     
     <item>
       <title>Social Media Sensors to Detect Early Warnings of Influenza at Scale</title>
-      <link>http://estebanmoro.org/post/2022-11-18-social-media-sensors-to-detect-early-warnings-of-influenza-at-scale/</link>
+      <link>https://estebanmoro.org/post/2022-11-18-social-media-sensors-to-detect-early-warnings-of-influenza-at-scale/</link>
       <pubDate>Fri, 18 Nov 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2022-11-18-social-media-sensors-to-detect-early-warnings-of-influenza-at-scale/</guid>
+      <guid>https://estebanmoro.org/post/2022-11-18-social-media-sensors-to-detect-early-warnings-of-influenza-at-scale/</guid>
       <description>Authors: David Martín-Corral, Manuel García-Herranz, Manuel Cebrian, Esteban Moro Publication: medRxiv 2022.11.15.22282355 LINK
 Abstract: Detecting early signs of an outbreak in a viral process is challenging due to its exponential nature, yet crucial given the benefits to public health it can provide. If available, the network structure where infection happens can provide rich information about the very early stages of viral outbreaks. For example, more central nodes have been used as social network sensors in biological or informational diffusion processes to detect early contagious outbreaks.</description>
     </item>
     
     <item>
       <title>Talk &#34;Dynamics in Complex Networks: Analysing Real-world Data&#34;</title>
-      <link>http://estebanmoro.org/post/2016-01-07-talk-dynamics-in-complex-networks-analysing-real-world-data/</link>
+      <link>https://estebanmoro.org/post/2016-01-07-talk-dynamics-in-complex-networks-analysing-real-world-data/</link>
       <pubDate>Thu, 07 Jan 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2016-01-07-talk-dynamics-in-complex-networks-analysing-real-world-data/</guid>
+      <guid>https://estebanmoro.org/post/2016-01-07-talk-dynamics-in-complex-networks-analysing-real-world-data/</guid>
       <description>Video of my talk &amp;ldquo;Dynamics in Complex Networks: Analysing Real-world Data&amp;rdquo; at the Workshop on Complex Network Mining and Analysis in Wrocław, Poland, January 2016
  You can also find the transparencies here</description>
     </item>

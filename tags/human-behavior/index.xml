@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Human behavior on </title>
-    <link>http://estebanmoro.org/tags/human-behavior/</link>
+    <link>https://estebanmoro.org/tags/human-behavior/</link>
     <description>Recent content in Human behavior on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Sat, 23 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://estebanmoro.org/tags/human-behavior/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 23 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://estebanmoro.org/tags/human-behavior/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Infrequent activities predict economic outcomes in major American cities</title>
-      <link>http://estebanmoro.org/post/2024-03-23-infrequent-activities-predict-economic-outcomes-in-major-american-cities/</link>
+      <link>https://estebanmoro.org/post/2024-03-23-infrequent-activities-predict-economic-outcomes-in-major-american-cities/</link>
       <pubDate>Sat, 23 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2024-03-23-infrequent-activities-predict-economic-outcomes-in-major-american-cities/</guid>
+      <guid>https://estebanmoro.org/post/2024-03-23-infrequent-activities-predict-economic-outcomes-in-major-american-cities/</guid>
       <description>Authors: Shenhao Wang, Yunhan Zheng, Guang Wang, Takahiro Yabe, Esteban Moro &amp;amp; Alex ‘Sandy’ Pentland Publication: Nature Cities 10.1038/s44284-024-00051-7. LINK
 Abstract: Many studies have revealed the predictive power of the most frequent, regular and habitual mobility patterns. However, it remains unclear which components of the mobility patterns contain the most informative signals for predicting disparate economic development across urban areas. Here we use machine learning to predict economic outcomes by analyzing the heterogeneous mobility networks of 687 activities from more than 560,000 anonymized users in Boston, Chicago and Miami.</description>
     </item>
     
     <item>
       <title>Effect of mobile food environments on fast food visits</title>
-      <link>http://estebanmoro.org/post/2022-09-22-you-are-where-you-eat-effect-of-mobile-food-environments-on-fast-food-visits/</link>
+      <link>https://estebanmoro.org/post/2022-09-22-you-are-where-you-eat-effect-of-mobile-food-environments-on-fast-food-visits/</link>
       <pubDate>Thu, 14 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2022-09-22-you-are-where-you-eat-effect-of-mobile-food-environments-on-fast-food-visits/</guid>
+      <guid>https://estebanmoro.org/post/2022-09-22-you-are-where-you-eat-effect-of-mobile-food-environments-on-fast-food-visits/</guid>
       <description>Authors: Bernardo Garcia-Bulle, Abigail L. Horn, Brooke M. Bell, Mohsen Bahrami, Burcin Bozkaya, Alex Pentland, Kayla de la Haye, and Esteban Moro
 Publication: Nature Communications 15, article number: 2291. LINK
 Abstract: Poor diets are a leading cause of morbidity and mortality. Exposure to low-quality food environments saturated with fast food outlets is hypothesized to negatively impact diet. However, food environment research has predominantly focused on static food environments around home neighborhoods and generated mixed findings.</description>
@@ -30,10 +30,10 @@ Abstract: Poor diets are a leading cause of morbidity and mortality. Exposure to
     
     <item>
       <title>Twitter Session Analytics: Profiling Users’ Short-Term Behavioral Changes</title>
-      <link>http://estebanmoro.org/post/2017-03-07-twitter-session-analytics-profiling-users-short-term-behavioral-changes/</link>
+      <link>https://estebanmoro.org/post/2017-03-07-twitter-session-analytics-profiling-users-short-term-behavioral-changes/</link>
       <pubDate>Tue, 07 Mar 2017 14:25:23 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2017-03-07-twitter-session-analytics-profiling-users-short-term-behavioral-changes/</guid>
+      <guid>https://estebanmoro.org/post/2017-03-07-twitter-session-analytics-profiling-users-short-term-behavioral-changes/</guid>
       <description>Authors: Farshad Kooti, Esteban Moro, and Kristina Lerman
 Journal: Proceedings of SocInfo 2016 LINK
 Abstract: Human behavior shows strong daily, weekly, and monthly patterns. In this work, we demonstrate online behavioral changes that occur on a much smaller time scale: minutes, rather than days or weeks. Specifically, we study how people distribute their effort over different tasks during periods of activity on the Twitter social platform. We demonstrate that later in a session on Twitter, people prefer to per- form simpler tasks, such as replying and retweeting others’ posts, rather than composing original messages, and they also tend to post shorter messages.</description>
@@ -41,19 +41,19 @@ Abstract: Human behavior shows strong daily, weekly, and monthly patterns. In th
     
     <item>
       <title>Financial markets as empirical labs to study the evolving ecology of human decision making</title>
-      <link>http://estebanmoro.org/post/2019-02-02-financial-markets-as-empirical-labs-to-study-the-evolving-ecology-of-human-decision-making/</link>
+      <link>https://estebanmoro.org/post/2019-02-02-financial-markets-as-empirical-labs-to-study-the-evolving-ecology-of-human-decision-making/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2019-02-02-financial-markets-as-empirical-labs-to-study-the-evolving-ecology-of-human-decision-making/</guid>
+      <guid>https://estebanmoro.org/post/2019-02-02-financial-markets-as-empirical-labs-to-study-the-evolving-ecology-of-human-decision-making/</guid>
       <description>Human decision making strategies evolve through time based on past experience and they are influence by the spectrum of other strategies with which they come into contact. Financial markets provide the best empirical lab to understand how human decide under risk and uncertainty. They are complex systems which provide massive datasets of detail records of human decisions which constantly evolve and collide in centralized or social structures. Furthermore financial markets provide us with a very simple measure of performance (profits, ROI), thus enabling us to study the relationship between human decision making strategies and performance.</description>
     </item>
     
     <item>
       <title>The predictability of consumer visitation patterns</title>
-      <link>http://estebanmoro.org/post/2013-04-18-the-predictability-of-consumer-visitation-patterns/</link>
+      <link>https://estebanmoro.org/post/2013-04-18-the-predictability-of-consumer-visitation-patterns/</link>
       <pubDate>Thu, 18 Apr 2013 20:23:55 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2013-04-18-the-predictability-of-consumer-visitation-patterns/</guid>
+      <guid>https://estebanmoro.org/post/2013-04-18-the-predictability-of-consumer-visitation-patterns/</guid>
       <description>Authors: Coco Krumme, Alejandro Llorente, Manuel Cebrian, Alex (&amp;ldquo;Sandy&amp;rdquo;) Pentland &amp;amp; Esteban Moro
 Journal: Sci. Rep. 3, 1645; (2013). LINK
 Abstract: We consider hundreds of thousands of individual economic transactions to ask: how predictable are consumers in their merchant visitation patterns? Our results suggest that, in the long-run, much of our seemingly elective activity is actually highly predictable. Notwithstanding a wide range of individual preferences, shoppers share regularities in how they visit merchant locations over time.</description>
@@ -61,10 +61,10 @@ Abstract: We consider hundreds of thousands of individual economic transactions 
     
     <item>
       <title>Limited communication capacity unveils strategies for human interaction</title>
-      <link>http://estebanmoro.org/post/2013-04-09-limited-communication-capacity-unveils-strategies-for-human-interaction/</link>
+      <link>https://estebanmoro.org/post/2013-04-09-limited-communication-capacity-unveils-strategies-for-human-interaction/</link>
       <pubDate>Tue, 09 Apr 2013 07:43:09 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2013-04-09-limited-communication-capacity-unveils-strategies-for-human-interaction/</guid>
+      <guid>https://estebanmoro.org/post/2013-04-09-limited-communication-capacity-unveils-strategies-for-human-interaction/</guid>
       <description>Authors: Giovanna Miritello, Rubén Lara, Manuel Cebrián and Esteban Moro
 Journal: Scientific Reports 3, 1950 (2013). LINK
 Abstract: Social connectivity is the key process that characterizes the structural properties of social networks and in turn processes such as navigation, influence or information diffusion. Since time, attention and cognition are inelastic resources, humans should have a predefined strategy to manage their social interactions over time. However, the limited observational length of existing human interaction datasets, together with the bursty nature of dyadic communications have hampered the observation of tie dynamics in social networks.</description>
@@ -72,10 +72,10 @@ Abstract: Social connectivity is the key process that characterizes the structur
     
     <item>
       <title>Time as a limited resource: Communication Strategy in Mobile Phone Networks</title>
-      <link>http://estebanmoro.org/post/2013-01-14-time-as-a-limited-resource-communication-strategy-in-mobile-phone-networks/</link>
+      <link>https://estebanmoro.org/post/2013-01-14-time-as-a-limited-resource-communication-strategy-in-mobile-phone-networks/</link>
       <pubDate>Mon, 14 Jan 2013 08:52:59 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2013-01-14-time-as-a-limited-resource-communication-strategy-in-mobile-phone-networks/</guid>
+      <guid>https://estebanmoro.org/post/2013-01-14-time-as-a-limited-resource-communication-strategy-in-mobile-phone-networks/</guid>
       <description>Authors: Giovanna Miritello, Esteban Moro, Rubén Lara, Rocío Martínez-López, Sam G. B. Roberts, Robin I. M. Dunbar
 Journal: Social Networks 35, 89 (2013) LINK | arXiv
 Abstract: We used a large database of 9 billion calls from 20 million mobile users to examine the relationships between aggregated time spent on the phone, personal network size, tiestrength and the way in which users distributed their limited time across their network (disparity). Compared to those with smaller networks, those with large networks did not devote proportionally more time to communication and had on average weaker ties (as measured by time spent communicating).</description>
@@ -83,10 +83,10 @@ Abstract: We used a large database of 9 billion calls from 20 million mobile use
     
     <item>
       <title>Dynamical strength of social ties in information spreading</title>
-      <link>http://estebanmoro.org/post/2010-11-25-the-dynamical-strength-of-social-ties-in-information-spreading/</link>
+      <link>https://estebanmoro.org/post/2010-11-25-the-dynamical-strength-of-social-ties-in-information-spreading/</link>
       <pubDate>Thu, 25 Nov 2010 10:19:44 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2010-11-25-the-dynamical-strength-of-social-ties-in-information-spreading/</guid>
+      <guid>https://estebanmoro.org/post/2010-11-25-the-dynamical-strength-of-social-ties-in-information-spreading/</guid>
       <description>Authors: Giovanna Miritello, Esteban Moro y Rubén Lara
 Journal: Physical Review E (Rapid Comm) 83, 045102 (2011). LINK | arXiv
 Abstract: We investigate the temporal patterns of human communication and its influence on the spreading of information in social networks. The analysis of mobile phone calls of 20 million people in one country shows that human communication is bursty and happens in group conversations. These features have opposite effects in information reach: while bursts hinder propagation at large scales, conversations favor local rapid cascades.</description>

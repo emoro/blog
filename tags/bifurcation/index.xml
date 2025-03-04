@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Bifurcation on </title>
-    <link>http://estebanmoro.org/tags/bifurcation/</link>
+    <link>https://estebanmoro.org/tags/bifurcation/</link>
     <description>Recent content in Bifurcation on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Tue, 11 Mar 2003 09:45:25 +0000</lastBuildDate><atom:link href="http://estebanmoro.org/tags/bifurcation/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 11 Mar 2003 09:45:25 +0000</lastBuildDate><atom:link href="https://estebanmoro.org/tags/bifurcation/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Defect formation in the Swift-Hohenberg equation</title>
-      <link>http://estebanmoro.org/post/2003-03-11-defect-formation-in-the-swift-hohenberg-equation/</link>
+      <link>https://estebanmoro.org/post/2003-03-11-defect-formation-in-the-swift-hohenberg-equation/</link>
       <pubDate>Tue, 11 Mar 2003 09:45:25 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2003-03-11-defect-formation-in-the-swift-hohenberg-equation/</guid>
+      <guid>https://estebanmoro.org/post/2003-03-11-defect-formation-in-the-swift-hohenberg-equation/</guid>
       <description>Authors: Tobias Galla and Esteban Moro
 Journal: Phys. Rev. E, Rapid Communication 67, 035101 (2003). LINK | arXiv
 Abstract: We study numerically and analytically the dynamics of defect formation during a finite-time quench of the two-dimensional Swift-Hohenberg (SH) model of Rayleigh-Bénard convection. We find that the Kibble-Zurek picture of defect formation can be applied to describe the density of defects produced during the quench. Our study reveals the relevance of two factors: the effect of local variations of the striped patterns within defect-free domains and the presence of both pointlike and extended defects.</description>

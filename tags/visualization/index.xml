@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>visualization on </title>
-    <link>http://estebanmoro.org/tags/visualization/</link>
+    <link>https://estebanmoro.org/tags/visualization/</link>
     <description>Recent content in visualization on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Thu, 31 Oct 2019 00:00:00 +0000</lastBuildDate><atom:link href="http://estebanmoro.org/tags/visualization/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 31 Oct 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://estebanmoro.org/tags/visualization/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Exploring the Atlas of Inequality in US Cities</title>
-      <link>http://estebanmoro.org/post/2019-10-31-exploring-the-atlas-of-inequality-in-us-cities/</link>
+      <link>https://estebanmoro.org/post/2019-10-31-exploring-the-atlas-of-inequality-in-us-cities/</link>
       <pubDate>Thu, 31 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2019-10-31-exploring-the-atlas-of-inequality-in-us-cities/</guid>
+      <guid>https://estebanmoro.org/post/2019-10-31-exploring-the-atlas-of-inequality-in-us-cities/</guid>
       <description>Video of my talk &amp;ldquo;Exploring the Atlas of Inequality in US Cities&amp;rdquo; at the Spatial Data Science Conference in University of Columbia (NY), October 2019
  </description>
     </item>
     
     <item>
       <title>The Atlas of Inequality</title>
-      <link>http://estebanmoro.org/post/2019-03-02-the-atlas-of-segregation/</link>
+      <link>https://estebanmoro.org/post/2019-03-02-the-atlas-of-segregation/</link>
       <pubDate>Sat, 02 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2019-03-02-the-atlas-of-segregation/</guid>
+      <guid>https://estebanmoro.org/post/2019-03-02-the-atlas-of-segregation/</guid>
       <description>Segregation is hurting our societies and specially our cities. But economic inequality isn&amp;rsquo;t just limited to neighborhoods. The restaurants, stores, and other places we visit in cities are all unequal in their own way.
 The Atlas of Inequality shows the income inequality of people who visit different places in the Boston metro area. It uses aggregated anonymous location data from digital devices to estimate people&amp;rsquo;s incomes and where they spend their time.</description>
     </item>

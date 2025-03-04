@@ -1,21 +1,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on </title>
-    <link>http://estebanmoro.org/categories/projects/</link>
+    <link>https://estebanmoro.org/categories/projects/</link>
     <description>Recent content in Projects on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Mon, 03 Oct 2022 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="http://estebanmoro.org/categories/projects/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://estebanmoro.org/categories/projects/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Behavioral roots of inequality</title>
-      <link>http://estebanmoro.org/post/2019-02-02-behavioral-fundations-of-inequality/</link>
+      <link>https://estebanmoro.org/post/2019-02-02-behavioral-fundations-of-inequality/</link>
       <pubDate>Mon, 03 Oct 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2019-02-02-behavioral-fundations-of-inequality/</guid>
+      <guid>https://estebanmoro.org/post/2019-02-02-behavioral-fundations-of-inequality/</guid>
       <description>&lt;p&gt;Inequality is one of the most important problems in our societies. For example, economic inequality is today higher than it was in the 1970’s and by some metrics stands at levels not seen since the last Great Depression. A special form of segregation is that happening in our cities. We share the public places, our workplaces and our residential neighborhoods with people like us: same type of jobs, same education, similar economic status, and political opinions.&lt;/p&gt;
 &lt;p&gt;That segregation has an enormous costs in our societies: for example, top 1 percent income group live 10 to 15 years longer than their counterparts in the bottom 1 percent income group. Children with more exposure to distressed neighborhoods have worse educational outcomes and higher levels of segregation are associated with high homicide rates, slower economic growth or less innovation over time. To understand this problem most interest and policies for cities are focused on neighborhoods. The assumption is that our behavior is mainly determined by the place where we live. However, most of our daily activities happen well beyond our residence and we interact and encounter people in many different places around the city. This implies that &lt;strong&gt;segregation or isolation in our cities is  mainly encoded in our choices, our daily behavior, not where we live&lt;/strong&gt;. The unavailability of high resolution data about those daily choices have prevented researchers to understand behavioral segregation, limiting our understanding of what is happening in cities to residential segregation or very small studies based on personal surveys. We have partnered with Location Based Services companies to access massive datasets about people&amp;rsquo;s movements in big cities in the US. Our plan is to go beyond residential segregation and develop the tools and models to understand &lt;em&gt;economic&lt;/em&gt; segregation at the level of public places, workplaces, shopping centers, but also to come up with measures of how even a single individual is segregated. Also that information will allow us to create high-resolution temporal encounter networks in the city that can be use not only to study segregation, but other problems like disease propagation, crime prediction, etc. We plan to create the most detail map of how people encounter and interact in the city. This tool will allow researchers to have better models of mobility, city planners can make better data-driven decisions about how to shape their communities, how to invest their money or where to locate their new business while mitigate segregation.&lt;/p&gt;
 &lt;p&gt;Knowing also what are the behavioral traits (preferences, commuting patterns, leisure activities, exercise habits) of individual users in their segregation will allow companies and city planers to design behavioral interventions to change our segregated behavior. To test that, our plan is to use our modeling of individual segregation to be able to partner with decision-makers, city planers or companies in deploying small intervention experiments in local neighborhood. This is a rather interdisciplinary research and we are reaching out to scientists in Social Sciences, Civil Engineering in Harvard, Northeastern University, MIT or the Boston Area Research Initiative to help us build those tools.&lt;/p&gt;
@@ -26,25 +26,25 @@
 &lt;p&gt;&lt;b&gt;Rhythm of the streets: a street classification framework based on street activity patterns&lt;/b&gt;&lt;br&gt;
 Tianyu Su, Maoran Sun, Zhuangyuan Fan, Ariel Noyman, Alex Pentland, Esteban Moro&lt;br&gt;
 EPJ Data Science &lt;strong&gt;11&lt;/strong&gt; 43 (2022)&lt;br&gt;
-&lt;a href=&#34;http://estebanmoro.org/pdf/Rhythm_of_the_streets__a_street_classification_framework_based_on_street_activity_patterns.pdf&#34; class=&#34;BUTTON_JEL&#34;&gt;PDF&lt;/a&gt; &lt;a href=&#34;https://epjds.epj.org/articles/epjdata/abs/2022/01/13688_2022_Article_355/13688_2022_Article_355.html&#34; class=&#34;BUTTON_JEL&#34;&gt;Journal&lt;/a&gt; &lt;div data-badge-popover=&#34;right&#34; data-badge-type=&#34;2&#34; data-doi=&#34;10.1140/epjds/s13688-022-00355-5&#34; data-hide-no-mentions=&#34;true&#34; data-hide-less-than=&#34;10&#34; class=&#34;altmetric-embed&#34;&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;a href=&#34;https://estebanmoro.org/pdf/Rhythm_of_the_streets__a_street_classification_framework_based_on_street_activity_patterns.pdf&#34; class=&#34;BUTTON_JEL&#34;&gt;PDF&lt;/a&gt; &lt;a href=&#34;https://epjds.epj.org/articles/epjdata/abs/2022/01/13688_2022_Article_355/13688_2022_Article_355.html&#34; class=&#34;BUTTON_JEL&#34;&gt;Journal&lt;/a&gt; &lt;div data-badge-popover=&#34;right&#34; data-badge-type=&#34;2&#34; data-doi=&#34;10.1140/epjds/s13688-022-00355-5&#34; data-hide-no-mentions=&#34;true&#34; data-hide-less-than=&#34;10&#34; class=&#34;altmetric-embed&#34;&gt;&lt;/div&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;b&gt;Generating synthetic mobility data for a realistic population with RNNs to improve utility and privacy&lt;/b&gt;&lt;br&gt;
 Alex Berke, Ronan Doorley, Kent Larson, Esteban Moro&lt;br&gt;
 In Proceedings of the 37th ACM/SIGAPP Symposium on Applied Computing (2022)&lt;br&gt;
-&lt;a href=&#34;http://estebanmoro.org/pdf/Generating_synthetic_mobility_data_for_a_realistic_population_with_RNNs_to_improve_utility_and_privacy.pdf&#34; class=&#34;BUTTON_JEL&#34;&gt;PDF&lt;/a&gt; &lt;a href=&#34;https://dl.acm.org/doi/abs/10.1145/3477314.3507230&#34; class=&#34;BUTTON_JEL&#34;&gt;Proceedings&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&#34;https://estebanmoro.org/pdf/Generating_synthetic_mobility_data_for_a_realistic_population_with_RNNs_to_improve_utility_and_privacy.pdf&#34; class=&#34;BUTTON_JEL&#34;&gt;PDF&lt;/a&gt; &lt;a href=&#34;https://dl.acm.org/doi/abs/10.1145/3477314.3507230&#34; class=&#34;BUTTON_JEL&#34;&gt;Proceedings&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;b&gt;Mobility patterns are associated with experienced income segregation in large US cities&lt;/b&gt;&lt;br&gt;
 Esteban Moro, Dan Calacci, Xiaowen Dong, Alex Pentland&lt;br&gt;
 Nature Communications &lt;strong&gt;12&lt;/strong&gt; 4633 (2021)&lt;br&gt;
-&lt;a href=&#34;http://estebanmoro.org/pdf/Mobility_patterns_are_associated_with_experienced_income_segregation_in_large_US_cities.pdf&#34; class=&#34;BUTTON_JEL&#34;&gt;PDF&lt;/a&gt; &lt;a href=&#34;https://www.nature.com/articles/s41467-021-24899-8&#34; class=&#34;BUTTON_JEL&#34;&gt;Journal&lt;/a&gt; &lt;div data-badge-popover=&#34;right&#34; data-badge-type=&#34;2&#34; data-doi=&#34;10.1038/s41467-021-24899-8&#34; data-hide-no-mentions=&#34;true&#34; data-hide-less-than=&#34;10&#34; class=&#34;altmetric-embed&#34;&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;a href=&#34;https://estebanmoro.org/pdf/Mobility_patterns_are_associated_with_experienced_income_segregation_in_large_US_cities.pdf&#34; class=&#34;BUTTON_JEL&#34;&gt;PDF&lt;/a&gt; &lt;a href=&#34;https://www.nature.com/articles/s41467-021-24899-8&#34; class=&#34;BUTTON_JEL&#34;&gt;Journal&lt;/a&gt; &lt;div data-badge-popover=&#34;right&#34; data-badge-type=&#34;2&#34; data-doi=&#34;10.1038/s41467-021-24899-8&#34; data-hide-no-mentions=&#34;true&#34; data-hide-less-than=&#34;10&#34; class=&#34;altmetric-embed&#34;&gt;&lt;/div&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;b&gt;Segregated interactions in urban and online space&lt;/b&gt;&lt;br&gt;
 Xiaowen Dong, Alfredo J. Morales, Eaman Jahani, Esteban Moro, Bruno Lepri, Burcin Bozkaya, Carlos Sarraute, Yaneer Bar-Yam, Alex Pentland&lt;br&gt;
 EPJ Data Science &lt;strong&gt;9&lt;/strong&gt; 20 (2020)&lt;br&gt;
-&lt;a href=&#34;http://estebanmoro.org/pdf/Segregated_interactions_in_urban_and_online_space.pdf&#34; class=&#34;BUTTON_JEL&#34;&gt;PDF&lt;/a&gt; &lt;a href=&#34;https://epjds.epj.org/articles/epjdata/abs/2020/01/13688_2020_Article_238/13688_2020_Article_238.html&#34; class=&#34;BUTTON_JEL&#34;&gt;Journal&lt;/a&gt; &lt;div data-badge-popover=&#34;right&#34; data-badge-type=&#34;2&#34; data-doi=&#34;10.1140/epjds/s13688-020-00238-7&#34; data-hide-no-mentions=&#34;true&#34; data-hide-less-than=&#34;10&#34; class=&#34;altmetric-embed&#34;&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;a href=&#34;https://estebanmoro.org/pdf/Segregated_interactions_in_urban_and_online_space.pdf&#34; class=&#34;BUTTON_JEL&#34;&gt;PDF&lt;/a&gt; &lt;a href=&#34;https://epjds.epj.org/articles/epjdata/abs/2020/01/13688_2020_Article_238/13688_2020_Article_238.html&#34; class=&#34;BUTTON_JEL&#34;&gt;Journal&lt;/a&gt; &lt;div data-badge-popover=&#34;right&#34; data-badge-type=&#34;2&#34; data-doi=&#34;10.1140/epjds/s13688-020-00238-7&#34; data-hide-no-mentions=&#34;true&#34; data-hide-less-than=&#34;10&#34; class=&#34;altmetric-embed&#34;&gt;&lt;/div&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 </description>
@@ -52,10 +52,10 @@ EPJ Data Science &lt;strong&gt;9&lt;/strong&gt; 20 (2020)&lt;br&gt;
     
     <item>
       <title>Behavioral-network determinants of health outcomes.</title>
-      <link>http://estebanmoro.org/post/2022-10-25-behavioral-network-determinants-of-health-outcomes/</link>
+      <link>https://estebanmoro.org/post/2022-10-25-behavioral-network-determinants-of-health-outcomes/</link>
       <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2022-10-25-behavioral-network-determinants-of-health-outcomes/</guid>
+      <guid>https://estebanmoro.org/post/2022-10-25-behavioral-network-determinants-of-health-outcomes/</guid>
       <description>
 
 
@@ -68,7 +68,7 @@ EPJ Data Science &lt;strong&gt;9&lt;/strong&gt; 20 (2020)&lt;br&gt;
 &lt;em&gt;What is the influence of the places we visit/work/shop on our dietary choices? We find that effect is large, but not everybody is affected by the environment equally. As a result we can design better policies to change environments and increase consumption of healthy food among different socio-demographic groups&lt;/em&gt;&lt;br&gt;
 Bernardo Garcia-Bulle, Abigail L Horn, Brooke M Bell, Mohsen Bahrami, Burcin Bozkaya, Alex Pentland, Kayla de la Haye, Esteban Moro&lt;br&gt;
 Nature Communications &lt;strong&gt;15&lt;/strong&gt; 2291 (2024)&lt;br&gt;
-&lt;a href=&#34;http://estebanmoro.org/pdf/Effect_of_mobile_food_environments_on_fast_food_visits.pdf&#34; class=&#34;BUTTON_JEL&#34;&gt;PDF&lt;/a&gt; &lt;a href=&#34;https://www.nature.com/articles/s41467-024-46425-2&#34; class=&#34;BUTTON_JEL&#34;&gt;Journal&lt;/a&gt;
+&lt;a href=&#34;https://estebanmoro.org/pdf/Effect_of_mobile_food_environments_on_fast_food_visits.pdf&#34; class=&#34;BUTTON_JEL&#34;&gt;PDF&lt;/a&gt; &lt;a href=&#34;https://www.nature.com/articles/s41467-024-46425-2&#34; class=&#34;BUTTON_JEL&#34;&gt;Journal&lt;/a&gt;
 &lt;div class=&#34;altmetric-embed&#34; data-badge-popover=&#34;right&#34; data-badge-type=&#34;2&#34; data-doi=&#34;10.1038/s41467-024-46425-2&#34; data-hide-no-mentions=&#34;true&#34; data-hide-less-than=&#34;10&#34;&gt;
 
 &lt;/div&gt;&lt;/li&gt;
@@ -76,7 +76,7 @@ Nature Communications &lt;strong&gt;15&lt;/strong&gt; 2291 (2024)&lt;br&gt;
 &lt;em&gt;We use mobility data to investigate if visits to fast-food places can be use to get better understanding of who consume fast food in urban areas. We find that mobility data is a better predictor of diet-related diseases in communities than traditional surveys.&lt;/em&gt;&lt;br&gt;
 Abigail L. Horn, Brooke M. Bell, Bernardo Garcia Bulle Bueno, Mohsen Bahrami, Burcin Bozkaya, Yan Cui, John P. Wilson, Alex Pentland, Esteban Moro, Kayla de la Haye&lt;br&gt;
 NPJ Digital Medicine &lt;strong&gt;6&lt;/strong&gt; 208 (2023)&lt;br&gt;
-&lt;a href=&#34;http://estebanmoro.org/pdf/Population_mobility_data_provides_meaningful_indicators_of_fast_food_intake_and_diet_related_diseases_in_diverse_populations.pdf&#34; class=&#34;BUTTON_JEL&#34;&gt;PDF&lt;/a&gt; &lt;a href=&#34;https://www.nature.com/articles/s41746-023-00949-x&#34; class=&#34;BUTTON_JEL&#34;&gt;Journal&lt;/a&gt;
+&lt;a href=&#34;https://estebanmoro.org/pdf/Population_mobility_data_provides_meaningful_indicators_of_fast_food_intake_and_diet_related_diseases_in_diverse_populations.pdf&#34; class=&#34;BUTTON_JEL&#34;&gt;PDF&lt;/a&gt; &lt;a href=&#34;https://www.nature.com/articles/s41746-023-00949-x&#34; class=&#34;BUTTON_JEL&#34;&gt;Journal&lt;/a&gt;
 &lt;div class=&#34;altmetric-embed&#34; data-badge-popover=&#34;right&#34; data-badge-type=&#34;2&#34; data-doi=&#34;10.1038/s41746-023-00949-x&#34; data-hide-no-mentions=&#34;true&#34; data-hide-less-than=&#34;10&#34;&gt;
 
 &lt;/div&gt;&lt;/li&gt;
@@ -84,21 +84,21 @@ NPJ Digital Medicine &lt;strong&gt;6&lt;/strong&gt; 208 (2023)&lt;br&gt;
 &lt;em&gt;Using massive mobility data and high-resolution contact matrices we investigate who, when, and where was infected by COVID-19 in major urban areas in the US. We find that infection paths where very different across cities and that super-spreading events were prevalent but not important to explain the majority of infections&lt;/em&gt;&lt;br&gt;
 Alberto Aleta, David Martin-Corral, Michiel A. Bakker, Ana Pastore y Piontti, Marco Ajelli, Maria Litvinova, Matteo Chinazzi, Natalie E. Dean, M. Elizabeth Halloran, Ira M. Longini, Alex Pentland, Alessandro Vespignani, Yamir Moreno, Esteban Moro&lt;br&gt;
 Proceedings of the National Academy of Sciences &lt;strong&gt;119&lt;/strong&gt; e2112182119 (2022)&lt;br&gt;
-&lt;a href=&#34;http://estebanmoro.org/pdf/Quantifying_the_importance_and_location_of_SARS_CoV_2_transmission_events_in_large_metropolitan_areas.pdf&#34; class=&#34;BUTTON_JEL&#34;&gt;PDF&lt;/a&gt; &lt;a href=&#34;https://www.pnas.org/doi/abs/10.1073/pnas.2112182119&#34; class=&#34;BUTTON_JEL&#34;&gt;Journal&lt;/a&gt;
+&lt;a href=&#34;https://estebanmoro.org/pdf/Quantifying_the_importance_and_location_of_SARS_CoV_2_transmission_events_in_large_metropolitan_areas.pdf&#34; class=&#34;BUTTON_JEL&#34;&gt;PDF&lt;/a&gt; &lt;a href=&#34;https://www.pnas.org/doi/abs/10.1073/pnas.2112182119&#34; class=&#34;BUTTON_JEL&#34;&gt;Journal&lt;/a&gt;
 &lt;div class=&#34;altmetric-embed&#34; data-badge-popover=&#34;right&#34; data-badge-type=&#34;2&#34; data-doi=&#34;10.1073/pnas.2112182119&#34; data-hide-no-mentions=&#34;true&#34; data-hide-less-than=&#34;10&#34;&gt;
 
 &lt;/div&gt;&lt;/li&gt;
 &lt;li&gt;&lt;b&gt;Effect of COVID-19 response policies on walking behavior in US cities&lt;/b&gt;&lt;br&gt;
 Ruth F. Hunter, Leandro Garcia, Thiago Herick de Sa, Belen Zapata-Diomedi, Christopher Millett, James Woodcock, Alex ‘Sandy’ Pentland, Esteban Moro&lt;br&gt;
 Nature Communications &lt;strong&gt;12&lt;/strong&gt; 3652 (2021)&lt;br&gt;
-&lt;a href=&#34;http://estebanmoro.org/pdf/Effect_of_COVID_19_response_policies_on_walking_behavior_in_US_cities.pdf&#34; class=&#34;BUTTON_JEL&#34;&gt;PDF&lt;/a&gt; &lt;a href=&#34;https://www.nature.com/articles/s41467-021-23937-9&#34; class=&#34;BUTTON_JEL&#34;&gt;Journal&lt;/a&gt;
+&lt;a href=&#34;https://estebanmoro.org/pdf/Effect_of_COVID_19_response_policies_on_walking_behavior_in_US_cities.pdf&#34; class=&#34;BUTTON_JEL&#34;&gt;PDF&lt;/a&gt; &lt;a href=&#34;https://www.nature.com/articles/s41467-021-23937-9&#34; class=&#34;BUTTON_JEL&#34;&gt;Journal&lt;/a&gt;
 &lt;div class=&#34;altmetric-embed&#34; data-badge-popover=&#34;right&#34; data-badge-type=&#34;2&#34; data-doi=&#34;10.1038/s41467-021-23937-9&#34; data-hide-no-mentions=&#34;true&#34; data-hide-less-than=&#34;10&#34;&gt;
 
 &lt;/div&gt;&lt;/li&gt;
 &lt;li&gt;&lt;b&gt;Modelling the impact of testing, contact tracing and household quarantine on second waves of COVID-19&lt;/b&gt;&lt;br&gt;
 Alberto Aleta, David Martin-Corral, Ana Pastore y Piontti, Marco Ajelli, Maria Litvinova, Matteo Chinazzi, Natalie E. Dean, M. Elizabeth Halloran, Ira M. Longini Jr, Stefano Merler, Alex Pentland, Alessandro Vespignani, Esteban Moro, Yamir Moreno&lt;br&gt;
 Nature Human Behaviour &lt;strong&gt;4&lt;/strong&gt; 964–971 (2020)&lt;br&gt;
-&lt;a href=&#34;http://estebanmoro.org/pdf/Modelling_the_impact_of_testing__contact_tracing_and_household_quarantine_on_second_waves_of_COVID_19.pdf&#34; class=&#34;BUTTON_JEL&#34;&gt;PDF&lt;/a&gt; &lt;a href=&#34;https://www.nature.com/articles/s41562-020-0931-9&#34; class=&#34;BUTTON_JEL&#34;&gt;Journal&lt;/a&gt;
+&lt;a href=&#34;https://estebanmoro.org/pdf/Modelling_the_impact_of_testing__contact_tracing_and_household_quarantine_on_second_waves_of_COVID_19.pdf&#34; class=&#34;BUTTON_JEL&#34;&gt;PDF&lt;/a&gt; &lt;a href=&#34;https://www.nature.com/articles/s41562-020-0931-9&#34; class=&#34;BUTTON_JEL&#34;&gt;Journal&lt;/a&gt;
 &lt;div class=&#34;altmetric-embed&#34; data-badge-popover=&#34;right&#34; data-badge-type=&#34;2&#34; data-doi=&#34;10.1038/s41562-020-0931-9&#34; data-hide-no-mentions=&#34;true&#34; data-hide-less-than=&#34;10&#34;&gt;
 
 &lt;/div&gt;&lt;/li&gt;
@@ -108,10 +108,10 @@ Nature Human Behaviour &lt;strong&gt;4&lt;/strong&gt; 964–971 (2020)&lt;br&gt;
     
     <item>
       <title>Creating resilient urban labor economies</title>
-      <link>http://estebanmoro.org/post/2022-10-25-creating-resilient-urban-labor-economies/</link>
+      <link>https://estebanmoro.org/post/2022-10-25-creating-resilient-urban-labor-economies/</link>
       <pubDate>Sun, 02 Jan 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2022-10-25-creating-resilient-urban-labor-economies/</guid>
+      <guid>https://estebanmoro.org/post/2022-10-25-creating-resilient-urban-labor-economies/</guid>
       <description>
 
 
@@ -127,21 +127,21 @@ fer less from technological disruptions (automation). Building on these initial 
 &lt;li&gt;&lt;b&gt;Network constraints on worker mobility&lt;/b&gt;&lt;br&gt;
 Morgan R Frank, Esteban Moro, Tobin South, Alex Rutherford, Alex Pentland, Bledi Taska, Iyad Rahwan&lt;br&gt;
 Nature Cities &lt;strong&gt;1&lt;/strong&gt; 94–104 (2024)&lt;br&gt;
-&lt;a href=&#34;http://estebanmoro.org/pdf/Network_constraints_on_worker_mobility.pdf&#34; class=&#34;BUTTON_JEL&#34;&gt;PDF&lt;/a&gt; &lt;a href=&#34;https://www.nature.com/articles/s44284-023-00009-1&#34; class=&#34;BUTTON_JEL&#34;&gt;Journal&lt;/a&gt;
+&lt;a href=&#34;https://estebanmoro.org/pdf/Network_constraints_on_worker_mobility.pdf&#34; class=&#34;BUTTON_JEL&#34;&gt;PDF&lt;/a&gt; &lt;a href=&#34;https://www.nature.com/articles/s44284-023-00009-1&#34; class=&#34;BUTTON_JEL&#34;&gt;Journal&lt;/a&gt;
 &lt;div class=&#34;altmetric-embed&#34; data-badge-popover=&#34;right&#34; data-badge-type=&#34;2&#34; data-doi=&#34;10.1038/s44284-023-00009-1&#34; data-hide-no-mentions=&#34;true&#34; data-hide-less-than=&#34;10&#34;&gt;
 
 &lt;/div&gt;&lt;/li&gt;
 &lt;li&gt;&lt;b&gt;Universal resilience patterns in labor markets&lt;/b&gt;&lt;br&gt;
 Esteban Moro, Morgan R. Frank, Alex Pentland, Alex Rutherford, Manuel Cebrian, Iyad Rahwan&lt;br&gt;
 Nature Communications &lt;strong&gt;12&lt;/strong&gt; 1972 (2021)&lt;br&gt;
-&lt;a href=&#34;http://estebanmoro.org/pdf/Universal_resilience_patterns_in_labor_markets.pdf&#34; class=&#34;BUTTON_JEL&#34;&gt;PDF&lt;/a&gt; &lt;a href=&#34;https://www.nature.com/articles/s41467-021-22086-3&#34; class=&#34;BUTTON_JEL&#34;&gt;Journal&lt;/a&gt;
+&lt;a href=&#34;https://estebanmoro.org/pdf/Universal_resilience_patterns_in_labor_markets.pdf&#34; class=&#34;BUTTON_JEL&#34;&gt;PDF&lt;/a&gt; &lt;a href=&#34;https://www.nature.com/articles/s41467-021-22086-3&#34; class=&#34;BUTTON_JEL&#34;&gt;Journal&lt;/a&gt;
 &lt;div class=&#34;altmetric-embed&#34; data-badge-popover=&#34;right&#34; data-badge-type=&#34;2&#34; data-doi=&#34;10.1038/s41467-021-22086-3&#34; data-hide-no-mentions=&#34;true&#34; data-hide-less-than=&#34;10&#34;&gt;
 
 &lt;/div&gt;&lt;/li&gt;
 &lt;li&gt;&lt;b&gt;Toward understanding the impact of artificial intelligence on labor&lt;/b&gt;&lt;br&gt;
 Morgan R Frank, David Autor, James E Bessen, Erik Brynjolfsson, Manuel Cebrian, David J Deming, Maryann Feldman, Matthew Groh, Jose Lobo, Esteban Moro, Dashun Wang, Hyejin Youn, Iyad Rahwan&lt;br&gt;
 Proceedings of the National Academy of Sciences &lt;strong&gt;116&lt;/strong&gt; 201900949 (2019)&lt;br&gt;
-&lt;a href=&#34;http://estebanmoro.org/pdf/Toward_understanding_the_impact_of_artificial_intelligence_on_labor.pdf&#34; class=&#34;BUTTON_JEL&#34;&gt;PDF&lt;/a&gt; &lt;a href=&#34;https://www.pnas.org/content/early/2019/03/21/1900949116.abstract&#34; class=&#34;BUTTON_JEL&#34;&gt;Journal&lt;/a&gt;
+&lt;a href=&#34;https://estebanmoro.org/pdf/Toward_understanding_the_impact_of_artificial_intelligence_on_labor.pdf&#34; class=&#34;BUTTON_JEL&#34;&gt;PDF&lt;/a&gt; &lt;a href=&#34;https://www.pnas.org/content/early/2019/03/21/1900949116.abstract&#34; class=&#34;BUTTON_JEL&#34;&gt;Journal&lt;/a&gt;
 &lt;div class=&#34;altmetric-embed&#34; data-badge-popover=&#34;right&#34; data-badge-type=&#34;2&#34; data-doi=&#34;10.1073/pnas.1900949116&#34; data-hide-no-mentions=&#34;true&#34; data-hide-less-than=&#34;10&#34;&gt;
 
 &lt;/div&gt;&lt;/li&gt;
@@ -151,13 +151,13 @@ Proceedings of the National Academy of Sciences &lt;strong&gt;116&lt;/strong&gt;
     
     <item>
       <title>Social networks as economic and social sensors</title>
-      <link>http://estebanmoro.org/post/2019-02-02-social-networks-as-sensors/</link>
+      <link>https://estebanmoro.org/post/2019-02-02-social-networks-as-sensors/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2019-02-02-social-networks-as-sensors/</guid>
+      <guid>https://estebanmoro.org/post/2019-02-02-social-networks-as-sensors/</guid>
       <description>&lt;p&gt;Temporal, structural and activity patterns in social networks are related to human behavior. Thus, networks do have different shape and dynamics under different exogenous and endogenous shocks or conditions. In the last years we have addressed the question of &lt;strong&gt;whether we can use our understanding of social networks to anticipate, predict or measure important phenomena as information propagation, disaster damage, unemployment shocks, weather conditions, gender digital divide, etc.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;For example in a series of papers, we demonstrated for the first time the ability of the so-called &amp;ldquo;friendship paradox&amp;rdquo; in social networks to get better collection of users (&lt;em&gt;sensors&lt;/em&gt;) that can anticipate meme, news or event-related &lt;a href=&#34;http://estebanmoro.org/post/2014-04-09-using-friends-as-sensors/&#34;&gt;information propagation in networks&lt;/a&gt;. Even those sensors can be user to disaster management as &lt;a href=&#34;http://estebanmoro.org/post/2016-03-14-rapid-assessment-of-disaster-damage/&#34;&gt;we found during Hurricane Sandy&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;We also found that social media behaviors like mobility around economical areas (see figure), diversity of interactions between areas or the gramatical correctness of posts are &lt;a href=&#34;http://estebanmoro.org/post/2014-11-13-social-media-fingerprints-of-unemployment/&#34;&gt;deeply related to unemployment in those areas&lt;/a&gt;. Those findings have been corroborated in other countries, showing the universal character of those fingerprints of socio-economic status in social media. In the last years we have also used data from social media to understand gender inequality. By developing a unique large-scale dataset from Facebook, we have seen the relation between the activity of 1.4 billion users in 217 countries, the digital gender gap and other inequality measures related to education, health or economic opportunity. This research was published in PNAS \cite{Garcia:2018bv} and together with the methodology in &lt;a href=&#34;http://estebanmoro.org/post/2014-11-13-social-media-fingerprints-of-unemployment/&#34;&gt;previous papers&lt;/a&gt; we have use these results in a collaboration with &lt;a href=&#34;https://www.unicef.org/innovation/stories/how-do-we-keep-socio-economic-estimates-date&#34;&gt;UNICEF to measure Human Development Indexes in third world countries&lt;/a&gt;, where official data is scarce or incomplete.&lt;/p&gt;
+&lt;p&gt;For example in a series of papers, we demonstrated for the first time the ability of the so-called &amp;ldquo;friendship paradox&amp;rdquo; in social networks to get better collection of users (&lt;em&gt;sensors&lt;/em&gt;) that can anticipate meme, news or event-related &lt;a href=&#34;https://estebanmoro.org/post/2014-04-09-using-friends-as-sensors/&#34;&gt;information propagation in networks&lt;/a&gt;. Even those sensors can be user to disaster management as &lt;a href=&#34;https://estebanmoro.org/post/2016-03-14-rapid-assessment-of-disaster-damage/&#34;&gt;we found during Hurricane Sandy&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;We also found that social media behaviors like mobility around economical areas (see figure), diversity of interactions between areas or the gramatical correctness of posts are &lt;a href=&#34;https://estebanmoro.org/post/2014-11-13-social-media-fingerprints-of-unemployment/&#34;&gt;deeply related to unemployment in those areas&lt;/a&gt;. Those findings have been corroborated in other countries, showing the universal character of those fingerprints of socio-economic status in social media. In the last years we have also used data from social media to understand gender inequality. By developing a unique large-scale dataset from Facebook, we have seen the relation between the activity of 1.4 billion users in 217 countries, the digital gender gap and other inequality measures related to education, health or economic opportunity. This research was published in PNAS \cite{Garcia:2018bv} and together with the methodology in &lt;a href=&#34;https://estebanmoro.org/post/2014-11-13-social-media-fingerprints-of-unemployment/&#34;&gt;previous papers&lt;/a&gt; we have use these results in a collaboration with &lt;a href=&#34;https://www.unicef.org/innovation/stories/how-do-we-keep-socio-economic-estimates-date&#34;&gt;UNICEF to measure Human Development Indexes in third world countries&lt;/a&gt;, where official data is scarce or incomplete.&lt;/p&gt;
 &lt;p&gt;Some recent papers:
 &lt;small&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -165,31 +165,31 @@ Proceedings of the National Academy of Sciences &lt;strong&gt;116&lt;/strong&gt;
 &lt;p&gt;&lt;b&gt;Analyzing gender inequality through large-scale Facebook advertising data&lt;/b&gt;&lt;br&gt;
 David Garcia, Yonas Mitike Kassa, Angel Cuevas, Manuel Cebrian, Esteban Moro, Iyad Rahwan, Ruben Cuevas&lt;br&gt;
 Proceedings Of The National Academy Of Sciences &lt;strong&gt;115&lt;/strong&gt; 6958&amp;ndash;6963 (2018)&lt;br&gt;
-&lt;a href=&#34;http://estebanmoro.org/pdf/Analyzing_gender_inequality_through_large_scale_Facebook_advertising_data.pdf&#34; class=&#34;BUTTON_JEL&#34;&gt;PDF&lt;/a&gt; &lt;a href=&#34;http://www.pnas.org/lookup/doi/10.1073/pnas.1717781115&#34; class=&#34;BUTTON_JEL&#34;&gt;Journal&lt;/a&gt; &lt;a href=&#34;http://www.altmetric.com/details.php?citation_id=43888153&#34; class=&#34;BUTTON_JEL&#34;&gt;Altmetric: 203&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&#34;https://estebanmoro.org/pdf/Analyzing_gender_inequality_through_large_scale_Facebook_advertising_data.pdf&#34; class=&#34;BUTTON_JEL&#34;&gt;PDF&lt;/a&gt; &lt;a href=&#34;http://www.pnas.org/lookup/doi/10.1073/pnas.1717781115&#34; class=&#34;BUTTON_JEL&#34;&gt;Journal&lt;/a&gt; &lt;a href=&#34;http://www.altmetric.com/details.php?citation_id=43888153&#34; class=&#34;BUTTON_JEL&#34;&gt;Altmetric: 203&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;b&gt;Social Media Fingerprints of Unemployment&lt;/b&gt;&lt;br&gt;
 Alejandro Llorente, Manuel Garcia-Herranz, Manuel Cebrian, Esteban Moro&lt;br&gt;
 PLoS ONE &lt;strong&gt;10&lt;/strong&gt; e0128692 (2015)&lt;br&gt;
-&lt;a href=&#34;http://estebanmoro.org/pdf/Social_Media_Fingerprints_of_Unemployment.pdf&#34; class=&#34;BUTTON_JEL&#34;&gt;PDF&lt;/a&gt; &lt;a href=&#34;https://dx.plos.org/10.1371/journal.pone.0128692&#34; class=&#34;BUTTON_JEL&#34;&gt;Journal&lt;/a&gt; &lt;a href=&#34;http://www.altmetric.com/details.php?citation_id=2882502&#34; class=&#34;BUTTON_JEL&#34;&gt;Altmetric: 325&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&#34;https://estebanmoro.org/pdf/Social_Media_Fingerprints_of_Unemployment.pdf&#34; class=&#34;BUTTON_JEL&#34;&gt;PDF&lt;/a&gt; &lt;a href=&#34;https://dx.plos.org/10.1371/journal.pone.0128692&#34; class=&#34;BUTTON_JEL&#34;&gt;Journal&lt;/a&gt; &lt;a href=&#34;http://www.altmetric.com/details.php?citation_id=2882502&#34; class=&#34;BUTTON_JEL&#34;&gt;Altmetric: 325&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;b&gt;Using friends as sensors to detect global-scale contagious outbreaks.&lt;/b&gt;&lt;br&gt;
 Manuel Garcia-Herranz, Esteban Moro, Manuel Cebrian, Nicholas A Christakis, James H Fowler&lt;br&gt;
 PLoS ONE &lt;strong&gt;9&lt;/strong&gt; e92413&amp;ndash; (2014)&lt;br&gt;
-&lt;a href=&#34;http://estebanmoro.org/pdf/Using_friends_as_sensors_to_detect_global_scale_contagious_outbreaks_.pdf&#34; class=&#34;BUTTON_JEL&#34;&gt;PDF&lt;/a&gt; &lt;a href=&#34;http://adsabs.harvard.edu/cgi-bin/nph-data_query?bibcode=2014PLoSO...992413G&amp;link_type=EJOURNAL&#34; class=&#34;BUTTON_JEL&#34;&gt;Journal&lt;/a&gt; &lt;a href=&#34;http://www.altmetric.com/details.php?citation_id=2268575&#34; class=&#34;BUTTON_JEL&#34;&gt;Altmetric: 251&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&#34;https://estebanmoro.org/pdf/Using_friends_as_sensors_to_detect_global_scale_contagious_outbreaks_.pdf&#34; class=&#34;BUTTON_JEL&#34;&gt;PDF&lt;/a&gt; &lt;a href=&#34;http://adsabs.harvard.edu/cgi-bin/nph-data_query?bibcode=2014PLoSO...992413G&amp;link_type=EJOURNAL&#34; class=&#34;BUTTON_JEL&#34;&gt;Journal&lt;/a&gt; &lt;a href=&#34;http://www.altmetric.com/details.php?citation_id=2268575&#34; class=&#34;BUTTON_JEL&#34;&gt;Altmetric: 251&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;b&gt;Rapid assessment of disaster damage using social media activity&lt;/b&gt;&lt;br&gt;
 Yury Kryvasheyeu, Haohui Chen, Nick Obradovich, Esteban Moro, Pascal Van Hentenryck, James Fowler, Manuel Cebrian&lt;br&gt;
 Science Advances &lt;strong&gt;2&lt;/strong&gt; e1500779 (2016)&lt;br&gt;
-&lt;a href=&#34;http://estebanmoro.org/pdf/Rapid_assessment_of_disaster_damage_using_social_media_activity.pdf&#34; class=&#34;BUTTON_JEL&#34;&gt;PDF&lt;/a&gt; &lt;a href=&#34;http://advances.sciencemag.org/lookup/doi/10.1126/sciadv.1500779&#34; class=&#34;BUTTON_JEL&#34;&gt;Journal&lt;/a&gt; &lt;a href=&#34;http://www.altmetric.com/details.php?citation_id=6165647&#34; class=&#34;BUTTON_JEL&#34;&gt;Altmetric: 521&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&#34;https://estebanmoro.org/pdf/Rapid_assessment_of_disaster_damage_using_social_media_activity.pdf&#34; class=&#34;BUTTON_JEL&#34;&gt;PDF&lt;/a&gt; &lt;a href=&#34;http://advances.sciencemag.org/lookup/doi/10.1126/sciadv.1500779&#34; class=&#34;BUTTON_JEL&#34;&gt;Journal&lt;/a&gt; &lt;a href=&#34;http://www.altmetric.com/details.php?citation_id=6165647&#34; class=&#34;BUTTON_JEL&#34;&gt;Altmetric: 521&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/small&gt;
 &lt;p&gt;Talks:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://estebanmoro.org/talks/Network_Interventions_2018.pdf&#34;&gt;From individual behavior to social processes: using human traces for social good&lt;/a&gt; Invited talk at ICCS 2018 (Boston).&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://estebanmoro.org/talks/Network_Interventions_2018.pdf&#34;&gt;From individual behavior to social processes: using human traces for social good&lt;/a&gt; Invited talk at ICCS 2018 (Boston).&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Videos:&lt;/p&gt;
 &lt;p&gt;Media:&lt;/p&gt;
@@ -198,14 +198,14 @@ Science Advances &lt;strong&gt;2&lt;/strong&gt; e1500779 (2016)&lt;br&gt;
     
     <item>
       <title>The dynamic character of our networked society</title>
-      <link>http://estebanmoro.org/post/2019-02-02-the-dynamic-character-of-our-networked-society/</link>
+      <link>https://estebanmoro.org/post/2019-02-02-the-dynamic-character-of-our-networked-society/</link>
       <pubDate>Sat, 02 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2019-02-02-the-dynamic-character-of-our-networked-society/</guid>
-      <description>&lt;p&gt;We live in a networked society and our actions, opinions, behaviors are affected and can affect other people. Understanding such social networked structures is one of the key challenges in our attempt to decode human behavior and its impact in our society. Although human interactions are dynamical by nature, most of our understanding relies in static representations of those social networks. However, social interactions &lt;a href=&#34;http://estebanmoro.org/post/2015-05-07-from-seconds-to-months-multi-scale-dynamics-of-mobile-telephone-calls/&#34;&gt;are rarely static&lt;/a&gt;. Very often the networks evolve by means of processes that happen at diverse time scales, like link decay/formation, group formation, etc. Our research in the last years have been to &lt;strong&gt;develop dynamical models of social networks that account for all those processes at different temporal scales&lt;/strong&gt;. Understanding how networks evolve has allowed us to reveal new behavior patterns hidden in those social dynamics, but also their effect in societal problems like information diffusion, viral marketing or social mobilization.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://estebanmoro.org/img/posts/timescales.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;For example, using massive datasets of viral marketing campaigns and mobile phone calls by 20 million people, we were the first group to identify the slowing down of information diffusion in social networks due to the inhomogeneous (bursty) activity of humans. This finding explained also why marketing techniques based on spreading of information (viral marketing) are sometimes &lt;a href=&#34;http://estebanmoro.org/post/2009-08-04-impact-of-human-activity-patterns-on-the-dynamics-of-information-diffusion/&#34;&gt;unsuccessful to achieve expected reach and coverage in reasonable time&lt;/a&gt;. But also, it warns us about the potential risk of using network strategies in situations of critical mobilization, a study &lt;a href=&#34;http://estebanmoro.org/post/2013-04-01-limits-of-social-mobilization/&#34;&gt;we published in PNAS&lt;/a&gt;: social mobilization can be very fast, but it is unreliable. Part of this research, and specially the understanding of viral marketing campaigns, was recognized by IBM with &amp;ldquo;2007 Shared University Research&amp;rdquo; award.&lt;/p&gt;
-&lt;p&gt;At a different temporal scale, humans create and decay human interactions every day. The unavailability of large longitudinal databases about human interactions prevented the understanding of what are the main strategies behind our social dynamics. In collaboration with Telefónica and accessing the largest dataset (almost two years) used in this kind of research, we were the first group to identify what is the &lt;a href=&#34;http://estebanmoro.org/post/2013-04-09-limited-communication-capacity-unveils-strategies-for-human-interaction/&#34;&gt;strategy that individuals use to create and decay social&lt;/a&gt; relationships while maintaining a constant amount of time/attention to those relationships. We found the universal result that people can be classified as keepers or explorers depending on whether they create less or more relationships for a given capacity to maintain a certain number of relationships. Our finding of those universal strategies have been corroborated by other groups in email or human mobility, for example.&lt;/p&gt;
+      <guid>https://estebanmoro.org/post/2019-02-02-the-dynamic-character-of-our-networked-society/</guid>
+      <description>&lt;p&gt;We live in a networked society and our actions, opinions, behaviors are affected and can affect other people. Understanding such social networked structures is one of the key challenges in our attempt to decode human behavior and its impact in our society. Although human interactions are dynamical by nature, most of our understanding relies in static representations of those social networks. However, social interactions &lt;a href=&#34;https://estebanmoro.org/post/2015-05-07-from-seconds-to-months-multi-scale-dynamics-of-mobile-telephone-calls/&#34;&gt;are rarely static&lt;/a&gt;. Very often the networks evolve by means of processes that happen at diverse time scales, like link decay/formation, group formation, etc. Our research in the last years have been to &lt;strong&gt;develop dynamical models of social networks that account for all those processes at different temporal scales&lt;/strong&gt;. Understanding how networks evolve has allowed us to reveal new behavior patterns hidden in those social dynamics, but also their effect in societal problems like information diffusion, viral marketing or social mobilization.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/img/posts/timescales.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;For example, using massive datasets of viral marketing campaigns and mobile phone calls by 20 million people, we were the first group to identify the slowing down of information diffusion in social networks due to the inhomogeneous (bursty) activity of humans. This finding explained also why marketing techniques based on spreading of information (viral marketing) are sometimes &lt;a href=&#34;https://estebanmoro.org/post/2009-08-04-impact-of-human-activity-patterns-on-the-dynamics-of-information-diffusion/&#34;&gt;unsuccessful to achieve expected reach and coverage in reasonable time&lt;/a&gt;. But also, it warns us about the potential risk of using network strategies in situations of critical mobilization, a study &lt;a href=&#34;https://estebanmoro.org/post/2013-04-01-limits-of-social-mobilization/&#34;&gt;we published in PNAS&lt;/a&gt;: social mobilization can be very fast, but it is unreliable. Part of this research, and specially the understanding of viral marketing campaigns, was recognized by IBM with &amp;ldquo;2007 Shared University Research&amp;rdquo; award.&lt;/p&gt;
+&lt;p&gt;At a different temporal scale, humans create and decay human interactions every day. The unavailability of large longitudinal databases about human interactions prevented the understanding of what are the main strategies behind our social dynamics. In collaboration with Telefónica and accessing the largest dataset (almost two years) used in this kind of research, we were the first group to identify what is the &lt;a href=&#34;https://estebanmoro.org/post/2013-04-09-limited-communication-capacity-unveils-strategies-for-human-interaction/&#34;&gt;strategy that individuals use to create and decay social&lt;/a&gt; relationships while maintaining a constant amount of time/attention to those relationships. We found the universal result that people can be classified as keepers or explorers depending on whether they create less or more relationships for a given capacity to maintain a certain number of relationships. Our finding of those universal strategies have been corroborated by other groups in email or human mobility, for example.&lt;/p&gt;
 &lt;p&gt;We have worked extensively in this line of research to find how other temporal patterns of social interactions can predict long-term successful relations or the importance of daily rhythms in social relationships. Finally, we have know a collaboration with Facebook to use their data to understand how strong ties are created in our society whether is it possible to predict their creation.&lt;/p&gt;
 &lt;p&gt;Some recent papers:
 &lt;small&gt;&lt;/p&gt;
@@ -214,43 +214,43 @@ Science Advances &lt;strong&gt;2&lt;/strong&gt; e1500779 (2016)&lt;br&gt;
 &lt;p&gt;&lt;b&gt;Temporal patterns behind the strength of persistent ties&lt;/b&gt;&lt;br&gt;
 Henry Navarro, Giovanna Miritello, Arturo Canales, Esteban Moro&lt;br&gt;
 EPJ Data Science &lt;strong&gt;6&lt;/strong&gt; 97 (2017)&lt;br&gt;
-&lt;a href=&#34;http://estebanmoro.org/pdf/Temporal_patterns_behind_the_strength_of_persistent_ties.pdf&#34; class=&#34;BUTTON_JEL&#34;&gt;PDF&lt;/a&gt; &lt;a href=&#34;https://epjdatascience.springeropen.com/articles/10.1140/epjds/s13688-017-0127-3&#34; class=&#34;BUTTON_JEL&#34;&gt;Journal&lt;/a&gt; &lt;a href=&#34;http://www.altmetric.com/details.php?citation_id=30531887&#34; class=&#34;BUTTON_JEL&#34;&gt;Altmetric: 35&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&#34;https://estebanmoro.org/pdf/Temporal_patterns_behind_the_strength_of_persistent_ties.pdf&#34; class=&#34;BUTTON_JEL&#34;&gt;PDF&lt;/a&gt; &lt;a href=&#34;https://epjdatascience.springeropen.com/articles/10.1140/epjds/s13688-017-0127-3&#34; class=&#34;BUTTON_JEL&#34;&gt;Journal&lt;/a&gt; &lt;a href=&#34;http://www.altmetric.com/details.php?citation_id=30531887&#34; class=&#34;BUTTON_JEL&#34;&gt;Altmetric: 35&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;b&gt;Twitter session analytics: Profiling users\textquoteright short-term behavioral changes&lt;/b&gt;&lt;br&gt;
 Farshad Kooti, Esteban Moro, Kristina Lerman&lt;br&gt;
 In Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics) (2016)&lt;br&gt;
-&lt;a href=&#34;http://estebanmoro.org/pdf/Twitter_session_analytics__Profiling_users_textquoteright_short_term_behavioral_changes.pdf&#34; class=&#34;BUTTON_JEL&#34;&gt;PDF&lt;/a&gt; &lt;a href=&#34;http://link.springer.com/10.1007/978-3-319-47874-6_6&#34; class=&#34;BUTTON_JEL&#34;&gt;Proceedings&lt;/a&gt; &lt;a href=&#34;http://www.altmetric.com/details.php?citation_id=19204017&#34; class=&#34;BUTTON_JEL&#34;&gt;Altmetric: 5&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&#34;https://estebanmoro.org/pdf/Twitter_session_analytics__Profiling_users_textquoteright_short_term_behavioral_changes.pdf&#34; class=&#34;BUTTON_JEL&#34;&gt;PDF&lt;/a&gt; &lt;a href=&#34;http://link.springer.com/10.1007/978-3-319-47874-6_6&#34; class=&#34;BUTTON_JEL&#34;&gt;Proceedings&lt;/a&gt; &lt;a href=&#34;http://www.altmetric.com/details.php?citation_id=19204017&#34; class=&#34;BUTTON_JEL&#34;&gt;Altmetric: 5&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;b&gt;Channel-Specific Daily Patterns in Mobile Phone Communication&lt;/b&gt;&lt;br&gt;
 Talayeh Aledavood, Eduardo Lopez, Sam G B Roberts, Felix Reed-Tsochas, Esteban Moro, Robin I M Dunbar, Jari Saramaki&lt;br&gt;
 In Proceedings of ECCS 2014 (2016)&lt;br&gt;
-&lt;a href=&#34;http://estebanmoro.org/pdf/Channel_Specific_Daily_Patterns_in_Mobile_Phone_Communication.pdf&#34; class=&#34;BUTTON_JEL&#34;&gt;PDF&lt;/a&gt; &lt;a href=&#34;https://link.springer.com/chapter/10.1007/978-3-319-29228-1_18&#34; class=&#34;BUTTON_JEL&#34;&gt;Chapter&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&#34;https://estebanmoro.org/pdf/Channel_Specific_Daily_Patterns_in_Mobile_Phone_Communication.pdf&#34; class=&#34;BUTTON_JEL&#34;&gt;PDF&lt;/a&gt; &lt;a href=&#34;https://link.springer.com/chapter/10.1007/978-3-319-29228-1_18&#34; class=&#34;BUTTON_JEL&#34;&gt;Chapter&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;b&gt;Time allocation in social networks: correlation between social structure and human communication dynamics&lt;/b&gt;&lt;br&gt;
 Giovanna Miritello, Ruben Lara, Esteban Moro&lt;br&gt;
 Preprint  175&amp;ndash; (2013)&lt;br&gt;
-&lt;a href=&#34;http://estebanmoro.org/pdf/Time_allocation_in_social_networks__correlation_between_social_structure_and_human_communication_dynamics.pdf&#34; class=&#34;BUTTON_JEL&#34;&gt;PDF&lt;/a&gt; &lt;a href=&#34;http://adsabs.harvard.edu/cgi-bin/nph-data_query?bibcode=2013tnuc.book..175M&amp;link_type=EJOURNAL&#34; class=&#34;BUTTON_JEL&#34;&gt;arXiv&lt;/a&gt; &lt;a href=&#34;http://www.altmetric.com/details.php?citation_id=1482369&#34; class=&#34;BUTTON_JEL&#34;&gt;Altmetric: 7&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&#34;https://estebanmoro.org/pdf/Time_allocation_in_social_networks__correlation_between_social_structure_and_human_communication_dynamics.pdf&#34; class=&#34;BUTTON_JEL&#34;&gt;PDF&lt;/a&gt; &lt;a href=&#34;http://adsabs.harvard.edu/cgi-bin/nph-data_query?bibcode=2013tnuc.book..175M&amp;link_type=EJOURNAL&#34; class=&#34;BUTTON_JEL&#34;&gt;arXiv&lt;/a&gt; &lt;a href=&#34;http://www.altmetric.com/details.php?citation_id=1482369&#34; class=&#34;BUTTON_JEL&#34;&gt;Altmetric: 7&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;b&gt;Limits of social mobilization&lt;/b&gt;&lt;br&gt;
 Alex Rutherford, Manuel Cebrian, Sohan D&amp;rsquo;souza, Esteban Moro, Alex Pentland, Iyad Rahwan&lt;br&gt;
 Proceedings Of The National Academy Of Sciences Of The United States Of America &lt;strong&gt;110&lt;/strong&gt; 6281&amp;ndash;6286 (2013)&lt;br&gt;
-&lt;a href=&#34;http://estebanmoro.org/pdf/Limits_of_social_mobilization.pdf&#34; class=&#34;BUTTON_JEL&#34;&gt;PDF&lt;/a&gt; &lt;a href=&#34;http://www.pnas.org/cgi/doi/10.1073/pnas.1216338110&#34; class=&#34;BUTTON_JEL&#34;&gt;Journal&lt;/a&gt; &lt;a href=&#34;http://www.altmetric.com/details.php?citation_id=1331862&#34; class=&#34;BUTTON_JEL&#34;&gt;Altmetric: 55&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&#34;https://estebanmoro.org/pdf/Limits_of_social_mobilization.pdf&#34; class=&#34;BUTTON_JEL&#34;&gt;PDF&lt;/a&gt; &lt;a href=&#34;http://www.pnas.org/cgi/doi/10.1073/pnas.1216338110&#34; class=&#34;BUTTON_JEL&#34;&gt;Journal&lt;/a&gt; &lt;a href=&#34;http://www.altmetric.com/details.php?citation_id=1331862&#34; class=&#34;BUTTON_JEL&#34;&gt;Altmetric: 55&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;b&gt;Limited communication capacity unveils strategies for human interaction.&lt;/b&gt;&lt;br&gt;
 Giovanna Miritello, Ruben Lara, Manuel Cebrian, Esteban Moro&lt;br&gt;
 Scientific Reports &lt;strong&gt;3&lt;/strong&gt; 1950 (2013)&lt;br&gt;
-&lt;a href=&#34;http://estebanmoro.org/pdf/Limited_communication_capacity_unveils_strategies_for_human_interaction_.pdf&#34; class=&#34;BUTTON_JEL&#34;&gt;PDF&lt;/a&gt; &lt;a href=&#34;http://www.nature.com/articles/srep01950&#34; class=&#34;BUTTON_JEL&#34;&gt;Journal&lt;/a&gt; &lt;a href=&#34;http://www.altmetric.com/details.php?citation_id=1535527&#34; class=&#34;BUTTON_JEL&#34;&gt;Altmetric: 37&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&#34;https://estebanmoro.org/pdf/Limited_communication_capacity_unveils_strategies_for_human_interaction_.pdf&#34; class=&#34;BUTTON_JEL&#34;&gt;PDF&lt;/a&gt; &lt;a href=&#34;http://www.nature.com/articles/srep01950&#34; class=&#34;BUTTON_JEL&#34;&gt;Journal&lt;/a&gt; &lt;a href=&#34;http://www.altmetric.com/details.php?citation_id=1535527&#34; class=&#34;BUTTON_JEL&#34;&gt;Altmetric: 37&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/small&gt;
 &lt;p&gt;Talks:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;2016-01-07-talk-dynamics-in-complex-networks-analysing-real-world-data/&#34;&gt;Dynamics in Complex Networks: Analysing Real-world data&lt;/a&gt; my talk (video) at the Workshop on Complex Network Mining and Analysis. Transparencies can also be found &lt;a href=&#34;http://estebanmoro.org/pdf/talks/DynamicsInComplexNetworks.pdf&#34;&gt;here&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;2016-01-07-talk-dynamics-in-complex-networks-analysing-real-world-data/&#34;&gt;Dynamics in Complex Networks: Analysing Real-world data&lt;/a&gt; my talk (video) at the Workshop on Complex Network Mining and Analysis. Transparencies can also be found &lt;a href=&#34;https://estebanmoro.org/pdf/talks/DynamicsInComplexNetworks.pdf&#34;&gt;here&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Media:&lt;/p&gt;
 </description>
@@ -258,10 +258,10 @@ Scientific Reports &lt;strong&gt;3&lt;/strong&gt; 1950 (2013)&lt;br&gt;
     
     <item>
       <title>Financial markets as empirical labs to study the evolving ecology of human decision making</title>
-      <link>http://estebanmoro.org/post/2019-02-02-financial-markets-as-empirical-labs-to-study-the-evolving-ecology-of-human-decision-making/</link>
+      <link>https://estebanmoro.org/post/2019-02-02-financial-markets-as-empirical-labs-to-study-the-evolving-ecology-of-human-decision-making/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2019-02-02-financial-markets-as-empirical-labs-to-study-the-evolving-ecology-of-human-decision-making/</guid>
+      <guid>https://estebanmoro.org/post/2019-02-02-financial-markets-as-empirical-labs-to-study-the-evolving-ecology-of-human-decision-making/</guid>
       <description>&lt;p&gt;Human decision making strategies evolve through time based on past experience and they are influence by the spectrum of other strategies with which they come into contact. Financial markets provide the best empirical lab to understand how human decide under risk and uncertainty. They are complex systems which provide massive datasets of detail records of human decisions which constantly evolve and collide in centralized or social structures. Furthermore financial markets provide us with a very simple measure of performance (profits, ROI), thus enabling us to study the relationship between human decision making strategies and performance. During the last year we have studied those systems to understand the regularities of &lt;strong&gt;how agents in financial markets analyze the information and perform their decisions&lt;/strong&gt;. In the past and due to agreements with the Spanish and London Stock market we found that different institutions/agents have different strategies in the market, do have different impact in the price at small time scales or optimize the trading of their large orders in different way.&lt;/p&gt;
 &lt;p&gt;More recently, we have been studying new or non-traditional financial venues, like the social trading platform &lt;em&gt;eToro&lt;/em&gt; or the evolution of &lt;em&gt;crypto-currencies&lt;/em&gt;. We found that agents in social trading platforms do suffer from the same cognitive limitations as human in other social venues (social networks for example) and that limits the potential performance of them in those platforms. Finally, we have put to test one of the most traditional hypothesis of financial markets in the trading of new crypto-currencies: the fact that their price reflects all the information available to them. Analysing thousands of forums about those &lt;em&gt;e-coins&lt;/em&gt; we found that the volatility of them is actually related to the level, quality and technicality of that discussion.&lt;/p&gt;
 &lt;p&gt;Some recent papers:
@@ -271,31 +271,31 @@ Scientific Reports &lt;strong&gt;3&lt;/strong&gt; 1950 (2013)&lt;br&gt;
 &lt;p&gt;&lt;b&gt;Accuracy-Risk Trade-Off Due to Social Learning in Crowd-Sourced Financial Predictions&lt;/b&gt;&lt;br&gt;
 Dhaval Adjodah, Yan Leng, Shi Kai Chong, P. M. Krafft, Esteban Moro, Alex Pentland&lt;br&gt;
 Entropy &lt;strong&gt;23&lt;/strong&gt; 801 (2021)&lt;br&gt;
-&lt;a href=&#34;http://estebanmoro.org/pdf/Accuracy_Risk_Trade_Off_Due_to_Social_Learning_in_Crowd_Sourced_Financial_Predictions.pdf&#34; class=&#34;BUTTON_JEL&#34;&gt;PDF&lt;/a&gt; &lt;a href=&#34;https://www.mdpi.com/1099-4300/23/7/801&#34; class=&#34;BUTTON_JEL&#34;&gt;Journal&lt;/a&gt; &lt;div data-badge-popover=&#34;right&#34; data-badge-type=&#34;2&#34; data-doi=&#34;10.3390/e23070801&#34; data-hide-no-mentions=&#34;true&#34; data-hide-less-than=&#34;10&#34; class=&#34;altmetric-embed&#34;&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;a href=&#34;https://estebanmoro.org/pdf/Accuracy_Risk_Trade_Off_Due_to_Social_Learning_in_Crowd_Sourced_Financial_Predictions.pdf&#34; class=&#34;BUTTON_JEL&#34;&gt;PDF&lt;/a&gt; &lt;a href=&#34;https://www.mdpi.com/1099-4300/23/7/801&#34; class=&#34;BUTTON_JEL&#34;&gt;Journal&lt;/a&gt; &lt;div data-badge-popover=&#34;right&#34; data-badge-type=&#34;2&#34; data-doi=&#34;10.3390/e23070801&#34; data-hide-no-mentions=&#34;true&#34; data-hide-less-than=&#34;10&#34; class=&#34;altmetric-embed&#34;&gt;&lt;/div&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;b&gt;ScamCoins, S*** Posters, and the Search for the Next Bitcoin TM : Collective Sensemaking in Cryptocurrency Discussions&lt;/b&gt;&lt;br&gt;
 Eaman Jahani, Peter M Krafft, Yoshihiko Suhara, Esteban Moro, Alex Sandy Pentland&lt;br&gt;
 Proceedings of the ACM on Human-Computer Interaction &lt;strong&gt;2&lt;/strong&gt; 79&amp;ndash;28 (2018)&lt;br&gt;
-&lt;a href=&#34;http://estebanmoro.org/pdf/ScamCoins__S__Posters__and_the_Search_for_the_Next_Bitcoin_TM___Collective_Sensemaking_in_Cryptocurrency_Discussions.pdf&#34; class=&#34;BUTTON_JEL&#34;&gt;PDF&lt;/a&gt; &lt;a href=&#34;http://dl.acm.org/citation.cfm?doid=3290265.3274348&#34; class=&#34;BUTTON_JEL&#34;&gt;Journal&lt;/a&gt; &lt;a href=&#34;http://www.altmetric.com/details.php?citation_id=50793871&#34; class=&#34;BUTTON_JEL&#34;&gt;Altmetric: 9&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&#34;https://estebanmoro.org/pdf/ScamCoins__S__Posters__and_the_Search_for_the_Next_Bitcoin_TM___Collective_Sensemaking_in_Cryptocurrency_Discussions.pdf&#34; class=&#34;BUTTON_JEL&#34;&gt;PDF&lt;/a&gt; &lt;a href=&#34;http://dl.acm.org/citation.cfm?doid=3290265.3274348&#34; class=&#34;BUTTON_JEL&#34;&gt;Journal&lt;/a&gt; &lt;a href=&#34;http://www.altmetric.com/details.php?citation_id=50793871&#34; class=&#34;BUTTON_JEL&#34;&gt;Altmetric: 9&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;b&gt;Market impact and trading profile of hidden orders in stock markets.&lt;/b&gt;&lt;br&gt;
 Esteban Moro, Javier Vicente, Luis G Moyano, Austin Gerig, J Doyne Farmer, Gabriella Vaglica, Fabrizio Lillo, Rosario N Mantegna&lt;br&gt;
 Physical review E, Statistical, nonlinear, and soft matter physics &lt;strong&gt;80&lt;/strong&gt; 066102 (2009)&lt;br&gt;
-&lt;a href=&#34;http://estebanmoro.org/pdf/Market_impact_and_trading_profile_of_hidden_orders_in_stock_markets_.pdf&#34; class=&#34;BUTTON_JEL&#34;&gt;PDF&lt;/a&gt; &lt;a href=&#34;http://adsabs.harvard.edu/cgi-bin/nph-data_query?bibcode=2009PhRvE..80f6102M&amp;link_type=EJOURNAL&#34; class=&#34;BUTTON_JEL&#34;&gt;Journal&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&#34;https://estebanmoro.org/pdf/Market_impact_and_trading_profile_of_hidden_orders_in_stock_markets_.pdf&#34; class=&#34;BUTTON_JEL&#34;&gt;PDF&lt;/a&gt; &lt;a href=&#34;http://adsabs.harvard.edu/cgi-bin/nph-data_query?bibcode=2009PhRvE..80f6102M&amp;link_type=EJOURNAL&#34; class=&#34;BUTTON_JEL&#34;&gt;Journal&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;b&gt;Specialization and herding behavior of trading firms in a financial market&lt;/b&gt;&lt;br&gt;
 Fabrizio Lillo, Esteban Moro, Gabriella Vaglica, Rosario N Mantegna&lt;br&gt;
 New Journal of Physics &lt;strong&gt;10&lt;/strong&gt; 043019 (2008)&lt;br&gt;
-&lt;a href=&#34;http://estebanmoro.org/pdf/Specialization_and_herding_behavior_of_trading_firms_in_a_financial_market.pdf&#34; class=&#34;BUTTON_JEL&#34;&gt;PDF&lt;/a&gt; &lt;a href=&#34;http://stacks.iop.org/1367-2630/10/i=4/a=043019?key=crossref.1d46fbbc0f5d90b1aedae63d2df571c9&#34; class=&#34;BUTTON_JEL&#34;&gt;Journal&lt;/a&gt; &lt;a href=&#34;http://www.altmetric.com/details.php?citation_id=21140866&#34; class=&#34;BUTTON_JEL&#34;&gt;Altmetric: 2&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&#34;https://estebanmoro.org/pdf/Specialization_and_herding_behavior_of_trading_firms_in_a_financial_market.pdf&#34; class=&#34;BUTTON_JEL&#34;&gt;PDF&lt;/a&gt; &lt;a href=&#34;http://stacks.iop.org/1367-2630/10/i=4/a=043019?key=crossref.1d46fbbc0f5d90b1aedae63d2df571c9&#34; class=&#34;BUTTON_JEL&#34;&gt;Journal&lt;/a&gt; &lt;a href=&#34;http://www.altmetric.com/details.php?citation_id=21140866&#34; class=&#34;BUTTON_JEL&#34;&gt;Altmetric: 2&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;b&gt;Scaling laws of strategic behavior and size heterogeneity in agent dynamics.&lt;/b&gt;&lt;br&gt;
 Gabriella Vaglica, Fabrizio Lillo, Esteban Moro, Rosario N Mantegna&lt;br&gt;
 Physical review E, Statistical, nonlinear, and soft matter physics &lt;strong&gt;77&lt;/strong&gt; 036110 (2008)&lt;br&gt;
-&lt;a href=&#34;http://estebanmoro.org/pdf/Scaling_laws_of_strategic_behavior_and_size_heterogeneity_in_agent_dynamics_.pdf&#34; class=&#34;BUTTON_JEL&#34;&gt;PDF&lt;/a&gt; &lt;a href=&#34;https://link.aps.org/doi/10.1103/PhysRevE.77.036110&#34; class=&#34;BUTTON_JEL&#34;&gt;Journal&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&#34;https://estebanmoro.org/pdf/Scaling_laws_of_strategic_behavior_and_size_heterogeneity_in_agent_dynamics_.pdf&#34; class=&#34;BUTTON_JEL&#34;&gt;PDF&lt;/a&gt; &lt;a href=&#34;https://link.aps.org/doi/10.1103/PhysRevE.77.036110&#34; class=&#34;BUTTON_JEL&#34;&gt;Journal&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/small&gt;

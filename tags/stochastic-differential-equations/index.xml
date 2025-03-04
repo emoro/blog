@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Stochastic Differential Equations on </title>
-    <link>http://estebanmoro.org/tags/stochastic-differential-equations/</link>
+    <link>https://estebanmoro.org/tags/stochastic-differential-equations/</link>
     <description>Recent content in Stochastic Differential Equations on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Mon, 03 Nov 2014 08:22:16 +0000</lastBuildDate><atom:link href="http://estebanmoro.org/tags/stochastic-differential-equations/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 03 Nov 2014 08:22:16 +0000</lastBuildDate><atom:link href="https://estebanmoro.org/tags/stochastic-differential-equations/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Macroscopic Response to Microscopic Intrinsic Noise in Three-Dimensional Fisher Fronts</title>
-      <link>http://estebanmoro.org/post/2014-11-03-macroscopic-response-to-microscopic-intrinsic-noise-in-three-dimensional-fisher-fronts/</link>
+      <link>https://estebanmoro.org/post/2014-11-03-macroscopic-response-to-microscopic-intrinsic-noise-in-three-dimensional-fisher-fronts/</link>
       <pubDate>Mon, 03 Nov 2014 08:22:16 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2014-11-03-macroscopic-response-to-microscopic-intrinsic-noise-in-three-dimensional-fisher-fronts/</guid>
+      <guid>https://estebanmoro.org/post/2014-11-03-macroscopic-response-to-microscopic-intrinsic-noise-in-three-dimensional-fisher-fronts/</guid>
       <description>Authors:Svetozar Nesic, Rodolfo Cuerno, and Esteban Moro
 Journal: Physical Review Letters 113, 180602 (2014) LINK
 Summary We study the dynamics of three-dimensional Fisher fronts in the presence of density fluctuations. To this end we simulate the Fisher equation subject to stochastic internal noise, and study how the front moves and roughens as a function of the number of particles in the system, N. Our results suggest that the macroscopic behaviour of the system is driven by the microscopic dynamics at its leading edge where number fluctuations are dominated by rare events.</description>
@@ -20,10 +20,10 @@ Summary We study the dynamics of three-dimensional Fisher fronts in the presence
     
     <item>
       <title>Itô calculus for the rest of us</title>
-      <link>http://estebanmoro.org/post/2009-02-12-ito-calculus-for-the-rest-of-us/</link>
+      <link>https://estebanmoro.org/post/2009-02-12-ito-calculus-for-the-rest-of-us/</link>
       <pubDate>Thu, 12 Feb 2009 08:21:42 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2009-02-12-ito-calculus-for-the-rest-of-us/</guid>
+      <guid>https://estebanmoro.org/post/2009-02-12-ito-calculus-for-the-rest-of-us/</guid>
       <description>One of the areas of my research is stochastic differential equations (SDE). I posted about it several times before. One of the things students and collaborators keep asking me about SDEs is the weird stochastic Itô Calculus. Itô Calculus is different from what you learn in 101 calculus. In particular, the chain rule is not longer valid. Let me explain it with an example. Suppose you have the following equation</description>
     </item>
     

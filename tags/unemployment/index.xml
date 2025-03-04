@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Unemployment on </title>
-    <link>http://estebanmoro.org/tags/unemployment/</link>
+    <link>https://estebanmoro.org/tags/unemployment/</link>
     <description>Recent content in Unemployment on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Sun, 19 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://estebanmoro.org/tags/unemployment/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 19 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://estebanmoro.org/tags/unemployment/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The unequal effects of the health–economy trade-off during the COVID19 pandemic</title>
-      <link>http://estebanmoro.org/post/2023-11-20-the-unequal-effects-of-the-health-economy-trade-off-during-the-covid-19-pandemic/</link>
+      <link>https://estebanmoro.org/post/2023-11-20-the-unequal-effects-of-the-health-economy-trade-off-during-the-covid-19-pandemic/</link>
       <pubDate>Sun, 19 Nov 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2023-11-20-the-unequal-effects-of-the-health-economy-trade-off-during-the-covid-19-pandemic/</guid>
+      <guid>https://estebanmoro.org/post/2023-11-20-the-unequal-effects-of-the-health-economy-trade-off-during-the-covid-19-pandemic/</guid>
       <description>Authors: Marco Pangallo, Alberto Aleta, R. Maria del Rio-Chanona, Anton Pichler, David Martin-Corral, Matteo Chinazzi, Francois Lafond, Marco Ajelli, Esteban Moro, Yamir Moreno, Alessandro Vespignani, J. Doyne Farmer
 Publication: Nature Human Behavior, Nov 16th, (2023)
 LINK
@@ -21,30 +21,30 @@ Abstract: Despite the global impact of the coronavirus disease 2019 pandemic, th
     
     <item>
       <title>Video of my talk “Your data, our society&#34;</title>
-      <link>http://estebanmoro.org/post/2019-01-01-video-of-my-talk-your-data-our-society/</link>
+      <link>https://estebanmoro.org/post/2019-01-01-video-of-my-talk-your-data-our-society/</link>
       <pubDate>Thu, 05 Nov 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2019-01-01-video-of-my-talk-your-data-our-society/</guid>
+      <guid>https://estebanmoro.org/post/2019-01-01-video-of-my-talk-your-data-our-society/</guid>
       <description>Video of my talk &amp;ldquo;your data, our society&amp;rdquo; given at #sngular810, the S|ngular presentation event celebrated in Madrid in Oct. 2015. In my talk I show the uses of bigdata at different scales of resolution to understand our society.
  </description>
     </item>
     
     <item>
       <title>Talk at itdUPM2015 &#34;Nowcasting. Sociedades para nuevas formas de organización&#34;</title>
-      <link>http://estebanmoro.org/post/2015-09-24-talk-at-itdupm2015-nowcasting-sociedades-para-nuevas-formas-de-organizacio%CC%81n/</link>
+      <link>https://estebanmoro.org/post/2015-09-24-talk-at-itdupm2015-nowcasting-sociedades-para-nuevas-formas-de-organizacio%CC%81n/</link>
       <pubDate>Thu, 24 Sep 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2015-09-24-talk-at-itdupm2015-nowcasting-sociedades-para-nuevas-formas-de-organizacio%CC%81n/</guid>
+      <guid>https://estebanmoro.org/post/2015-09-24-talk-at-itdupm2015-nowcasting-sociedades-para-nuevas-formas-de-organizacio%CC%81n/</guid>
       <description>Video of my talk &amp;ldquo;Nowcasting. Sociedades para nuevas formas de organización&amp;rdquo; in the conference &amp;ldquo;Tecnología e Innovación para el Desarrollo&amp;rdquo; at Universidad Politécnica de Madrid.
  </description>
     </item>
     
     <item>
       <title>Social media fingerprints of unemployment</title>
-      <link>http://estebanmoro.org/post/2014-11-13-social-media-fingerprints-of-unemployment/</link>
+      <link>https://estebanmoro.org/post/2014-11-13-social-media-fingerprints-of-unemployment/</link>
       <pubDate>Thu, 07 May 2015 12:39:43 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2014-11-13-social-media-fingerprints-of-unemployment/</guid>
+      <guid>https://estebanmoro.org/post/2014-11-13-social-media-fingerprints-of-unemployment/</guid>
       <description>Authors:Alejandro Llorente, Manuel García-Herránz, Manuel Cebrián and Esteban Moro
 Journal: PLoS ONE 10(5): e0128692 (2014) LINK
 Summary: Publicly available social media data can be used to quantify deviations from typical patterns of behavior and uncover how these deviations signal the socio-economical status of regions. Using data from geolocalized Twitter messages, we find that unemployment is correlated with technology adoption, daily activity, diversity in mobility patterns and correctness in communication style. These behavioral metrics serve to build simple, interpretable, and cost-effective socio-economical predictors from these novel digital datasets.</description>

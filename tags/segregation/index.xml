@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Segregation on </title>
-    <link>http://estebanmoro.org/tags/segregation/</link>
+    <link>https://estebanmoro.org/tags/segregation/</link>
     <description>Recent content in Segregation on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Sun, 02 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://estebanmoro.org/tags/segregation/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 02 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://estebanmoro.org/tags/segregation/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Diversity beyond density: Experienced social mixing of urban streets</title>
-      <link>http://estebanmoro.org/post/2023-04-03-diversity-beyond-density-experienced-social-mixing-of-urban-streets/</link>
+      <link>https://estebanmoro.org/post/2023-04-03-diversity-beyond-density-experienced-social-mixing-of-urban-streets/</link>
       <pubDate>Sun, 02 Apr 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2023-04-03-diversity-beyond-density-experienced-social-mixing-of-urban-streets/</guid>
+      <guid>https://estebanmoro.org/post/2023-04-03-diversity-beyond-density-experienced-social-mixing-of-urban-streets/</guid>
       <description>Authors: Zhuangyuan Fan, Tianyu Su, Maoran Sun, Ariel Noyman, Fan Zhang, Alex ‘Sandy’ Pentland, Esteban Moro
 Publication: PNAS Nexus, Volumen 2, Issue 4, pgad077, 2023 LINK
 Abstract: Urban density, in the form of residents’ and visitors’ concentration, is long considered to foster diverse exchanges of interpersonal knowledge and skills, which are intrinsic to sustainable human settlements. However, with current urban studies primarily devoted to city- and district-level analyses, we cannot unveil the elemental connection between urban density and diversity.</description>
@@ -20,40 +20,40 @@ Abstract: Urban density, in the form of residents’ and visitors’ concentrati
     
     <item>
       <title>A city is not a static tree: understanding urban areas through the lens of real-time behavioral data</title>
-      <link>http://estebanmoro.org/post/2023-02-24-a-city-is-not-a-static-tree/</link>
+      <link>https://estebanmoro.org/post/2023-02-24-a-city-is-not-a-static-tree/</link>
       <pubDate>Fri, 24 Feb 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2023-02-24-a-city-is-not-a-static-tree/</guid>
+      <guid>https://estebanmoro.org/post/2023-02-24-a-city-is-not-a-static-tree/</guid>
       <description>Authors:Esteban Moro Publication: ZARCH, 19, 28–39. 2023 LINK
 Abstract: Cities are the main ground on which our society and culture develop today and will evolve in the future. Against the traditional understanding of cities as physical spaces mostly around our neighborhoods, recent use of large-scale mobility datasets has enabled the study of our behavior at unprecedented spatial and temporal scales, much beyond our static residential spaces. Here we show how it is possible to use these datasets to investigate the role that human behavior plays in traditional urban problems like segregation, public health, or epidemics.</description>
     </item>
     
     <item>
       <title>Mobility patterns are associated with experienced income segregation in large US cities</title>
-      <link>http://estebanmoro.org/post/2021-07-31-mobility-patterns-are-associated-with-experienced-income-segregation-in-large-us-cities/</link>
+      <link>https://estebanmoro.org/post/2021-07-31-mobility-patterns-are-associated-with-experienced-income-segregation-in-large-us-cities/</link>
       <pubDate>Sat, 31 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2021-07-31-mobility-patterns-are-associated-with-experienced-income-segregation-in-large-us-cities/</guid>
+      <guid>https://estebanmoro.org/post/2021-07-31-mobility-patterns-are-associated-with-experienced-income-segregation-in-large-us-cities/</guid>
       <description>Authors: Esteban Moro, Dan Calacci, Xiaowen Dong &amp;amp; Alex Pentland. Publication: Nature Communications 12, 4633 (2021). Link
 Abstract: Traditional understanding of urban income segregation is largely based on static coarse grained residential patterns. However, these do not capture the income segregation experience implied by the rich social interactions that happen in places that may relate to individual choices, opportunities, and mobility behavior. Using a large-scale high-resolution mobility data set of 4.</description>
     </item>
     
     <item>
       <title>Segregated interactions in urban and online space</title>
-      <link>http://estebanmoro.org/post/2020-07-10-segregated-interactions-in-urban-and-online-space/</link>
+      <link>https://estebanmoro.org/post/2020-07-10-segregated-interactions-in-urban-and-online-space/</link>
       <pubDate>Fri, 10 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2020-07-10-segregated-interactions-in-urban-and-online-space/</guid>
+      <guid>https://estebanmoro.org/post/2020-07-10-segregated-interactions-in-urban-and-online-space/</guid>
       <description>Authors: Xiaowen Dong , Alfredo J. Morales, Eaman Jahani, Esteban Moro, Bruno Lepri, Burcin Bozkaya, Carlos Sarraute, Yaneer Bar-Yam and Alex Pentland Publication: EPJ Data Science 9, Article number: 20 LINK
 Abstract: Urban income segregation is a widespread phenomenon that challenges societies across the globe. Classical studies on segregation have largely focused on the geographic distribution of residential neighborhoods rather than on patterns of social behaviors and interactions. In this study, we analyze segregation in economic and social interactions by observing credit card transactions and Twitter mentions among thousands of individuals in three culturally different metropolitan areas.</description>
     </item>
     
     <item>
       <title>The Atlas of Inequality</title>
-      <link>http://estebanmoro.org/post/2019-03-02-the-atlas-of-segregation/</link>
+      <link>https://estebanmoro.org/post/2019-03-02-the-atlas-of-segregation/</link>
       <pubDate>Sat, 02 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2019-03-02-the-atlas-of-segregation/</guid>
+      <guid>https://estebanmoro.org/post/2019-03-02-the-atlas-of-segregation/</guid>
       <description>Segregation is hurting our societies and specially our cities. But economic inequality isn&amp;rsquo;t just limited to neighborhoods. The restaurants, stores, and other places we visit in cities are all unequal in their own way.
 The Atlas of Inequality shows the income inequality of people who visit different places in the Boston metro area. It uses aggregated anonymous location data from digital devices to estimate people&amp;rsquo;s incomes and where they spend their time.</description>
     </item>

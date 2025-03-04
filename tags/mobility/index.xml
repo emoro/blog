@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mobility on </title>
-    <link>http://estebanmoro.org/tags/mobility/</link>
+    <link>https://estebanmoro.org/tags/mobility/</link>
     <description>Recent content in Mobility on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Wed, 26 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://estebanmoro.org/tags/mobility/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 26 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://estebanmoro.org/tags/mobility/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Using human mobility data to quantify experienced urban inequalities</title>
-      <link>http://estebanmoro.org/post/2025-02-26-using-human-mobility-data-to-quantify-experienced-urban-inequalities/</link>
+      <link>https://estebanmoro.org/post/2025-02-26-using-human-mobility-data-to-quantify-experienced-urban-inequalities/</link>
       <pubDate>Wed, 26 Feb 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2025-02-26-using-human-mobility-data-to-quantify-experienced-urban-inequalities/</guid>
+      <guid>https://estebanmoro.org/post/2025-02-26-using-human-mobility-data-to-quantify-experienced-urban-inequalities/</guid>
       <description>Authors: Fengli Xu, Qi Wang, Esteban Moro, Arianna Salazar Miranda, Marta C. González, Chaoming Song, Carlo Ratti, Luis Bettencourt, James Evans
 Publication: Nature Human Behavior (2025) LINK
 Abstract: The lived experience of urban life is shaped by personal mobility through dynamic relationships and resources, marked not only by access and opportunity, but also inequality and segregation. The recent availability of fine-grained mobility data and context attributes ranging from venue type to demographic mixture offer researchers a deeper understanding of experienced inequalities at scale, and pose many new questions.</description>
@@ -20,40 +20,40 @@ Abstract: The lived experience of urban life is shaped by personal mobility thro
     
     <item>
       <title>Human mobility is well described by closed-form gravity-like models learned automatically from data</title>
-      <link>http://estebanmoro.org/post/2025-02-26-human-mobility-is-well-described-by-closed-form-gravity-like-models-learned-automatically-from-data/</link>
+      <link>https://estebanmoro.org/post/2025-02-26-human-mobility-is-well-described-by-closed-form-gravity-like-models-learned-automatically-from-data/</link>
       <pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2025-02-26-human-mobility-is-well-described-by-closed-form-gravity-like-models-learned-automatically-from-data/</guid>
+      <guid>https://estebanmoro.org/post/2025-02-26-human-mobility-is-well-described-by-closed-form-gravity-like-models-learned-automatically-from-data/</guid>
       <description>Authors: Oriol Cabanas-Tirapu, Lluís Danús, Esteban Moro, Marta Sales-Pardo &amp;amp; Roger Guimerà Publication: Nature Communications 16, 1336 (2025). LINK
 Abstract: Modeling human mobility is critical to address questions in urban planning, sustainability, public health, and economic development. However, our understanding and ability to model flows between urban areas are still incomplete. At one end of the modeling spectrum we have gravity models, which are easy to interpret but provide modestly accurate predictions of flows.</description>
     </item>
     
     <item>
       <title>Enhancing human mobility research with open and standardized datasets</title>
-      <link>http://estebanmoro.org/post/2024-07-15-enhancing-human-mobility-research-with-open-and-standardized-datasets/</link>
+      <link>https://estebanmoro.org/post/2024-07-15-enhancing-human-mobility-research-with-open-and-standardized-datasets/</link>
       <pubDate>Tue, 16 Jul 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2024-07-15-enhancing-human-mobility-research-with-open-and-standardized-datasets/</guid>
+      <guid>https://estebanmoro.org/post/2024-07-15-enhancing-human-mobility-research-with-open-and-standardized-datasets/</guid>
       <description>Authors: Takahiro Yabe, Massimiliano Luca, Kota Tsubouchi, Bruno Lepri, Marta C. Gonzalez &amp;amp; Esteban Moro Publication: Nature Computational Science (2024). doi: 10.1038/s43588-024-00650-3 LINK
 Abstract: Human mobility research intersects with various disciplines, with profound implications for urban planning, transportation engineering, public health, disaster management, and economic analysis. Here, we discuss the urgent need for open and standardized datasets in the field, including current challenges and lessons from other computational science domains, and propose collaborative efforts to enhance the validity and reproducibility of human mobility research.</description>
     </item>
     
     <item>
       <title>Infrequent activities predict economic outcomes in major American cities</title>
-      <link>http://estebanmoro.org/post/2024-03-23-infrequent-activities-predict-economic-outcomes-in-major-american-cities/</link>
+      <link>https://estebanmoro.org/post/2024-03-23-infrequent-activities-predict-economic-outcomes-in-major-american-cities/</link>
       <pubDate>Sat, 23 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2024-03-23-infrequent-activities-predict-economic-outcomes-in-major-american-cities/</guid>
+      <guid>https://estebanmoro.org/post/2024-03-23-infrequent-activities-predict-economic-outcomes-in-major-american-cities/</guid>
       <description>Authors: Shenhao Wang, Yunhan Zheng, Guang Wang, Takahiro Yabe, Esteban Moro &amp;amp; Alex ‘Sandy’ Pentland Publication: Nature Cities 10.1038/s44284-024-00051-7. LINK
 Abstract: Many studies have revealed the predictive power of the most frequent, regular and habitual mobility patterns. However, it remains unclear which components of the mobility patterns contain the most informative signals for predicting disparate economic development across urban areas. Here we use machine learning to predict economic outcomes by analyzing the heterogeneous mobility networks of 687 activities from more than 560,000 anonymized users in Boston, Chicago and Miami.</description>
     </item>
     
     <item>
       <title>Effect of mobile food environments on fast food visits</title>
-      <link>http://estebanmoro.org/post/2022-09-22-you-are-where-you-eat-effect-of-mobile-food-environments-on-fast-food-visits/</link>
+      <link>https://estebanmoro.org/post/2022-09-22-you-are-where-you-eat-effect-of-mobile-food-environments-on-fast-food-visits/</link>
       <pubDate>Thu, 14 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2022-09-22-you-are-where-you-eat-effect-of-mobile-food-environments-on-fast-food-visits/</guid>
+      <guid>https://estebanmoro.org/post/2022-09-22-you-are-where-you-eat-effect-of-mobile-food-environments-on-fast-food-visits/</guid>
       <description>Authors: Bernardo Garcia-Bulle, Abigail L. Horn, Brooke M. Bell, Mohsen Bahrami, Burcin Bozkaya, Alex Pentland, Kayla de la Haye, and Esteban Moro
 Publication: Nature Communications 15, article number: 2291. LINK
 Abstract: Poor diets are a leading cause of morbidity and mortality. Exposure to low-quality food environments saturated with fast food outlets is hypothesized to negatively impact diet. However, food environment research has predominantly focused on static food environments around home neighborhoods and generated mixed findings.</description>
@@ -61,10 +61,10 @@ Abstract: Poor diets are a leading cause of morbidity and mortality. Exposure to
     
     <item>
       <title>The unequal effects of the health–economy trade-off during the COVID19 pandemic</title>
-      <link>http://estebanmoro.org/post/2023-11-20-the-unequal-effects-of-the-health-economy-trade-off-during-the-covid-19-pandemic/</link>
+      <link>https://estebanmoro.org/post/2023-11-20-the-unequal-effects-of-the-health-economy-trade-off-during-the-covid-19-pandemic/</link>
       <pubDate>Sun, 19 Nov 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2023-11-20-the-unequal-effects-of-the-health-economy-trade-off-during-the-covid-19-pandemic/</guid>
+      <guid>https://estebanmoro.org/post/2023-11-20-the-unequal-effects-of-the-health-economy-trade-off-during-the-covid-19-pandemic/</guid>
       <description>Authors: Marco Pangallo, Alberto Aleta, R. Maria del Rio-Chanona, Anton Pichler, David Martin-Corral, Matteo Chinazzi, Francois Lafond, Marco Ajelli, Esteban Moro, Yamir Moreno, Alessandro Vespignani, J. Doyne Farmer
 Publication: Nature Human Behavior, Nov 16th, (2023)
 LINK
@@ -73,10 +73,10 @@ Abstract: Despite the global impact of the coronavirus disease 2019 pandemic, th
     
     <item>
       <title>Population mobility data provides meaningful indicators of fast food intake and diet-related diseases in diverse populations</title>
-      <link>http://estebanmoro.org/post/2023-11-20-population-mobility-data-provides-meaningful-indicators-of-fast-food-intake-and-diet-related-diseases-in-diverse-populations/</link>
+      <link>https://estebanmoro.org/post/2023-11-20-population-mobility-data-provides-meaningful-indicators-of-fast-food-intake-and-diet-related-diseases-in-diverse-populations/</link>
       <pubDate>Sat, 18 Nov 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2023-11-20-population-mobility-data-provides-meaningful-indicators-of-fast-food-intake-and-diet-related-diseases-in-diverse-populations/</guid>
+      <guid>https://estebanmoro.org/post/2023-11-20-population-mobility-data-provides-meaningful-indicators-of-fast-food-intake-and-diet-related-diseases-in-diverse-populations/</guid>
       <description>Authors: Abigail L. Horn, Brooke M. Bell, Bernardo Garcia Bulle Bueno, Mohsen Bahrami, Burcin Bozkaya, Yan Cui, John P. Wilson, Alex Pentland, Esteban Moro, Kayla de la Haye
 Publication: NPJ Digital Medicine 6, 208 (2023)
 LINK
@@ -85,20 +85,20 @@ Abstract: The characteristics of food environments people are exposed to, such a
     
     <item>
       <title>Identifying latent activity behaviors and lifestyles using mobility data to describe urban dynamics</title>
-      <link>http://estebanmoro.org/post/2022-11-28-identifying-latent-activity-behaviors-and-lifestyles-using-mobility-data-to-describe-urban-dynamics/</link>
+      <link>https://estebanmoro.org/post/2022-11-28-identifying-latent-activity-behaviors-and-lifestyles-using-mobility-data-to-describe-urban-dynamics/</link>
       <pubDate>Thu, 18 May 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2022-11-28-identifying-latent-activity-behaviors-and-lifestyles-using-mobility-data-to-describe-urban-dynamics/</guid>
+      <guid>https://estebanmoro.org/post/2022-11-28-identifying-latent-activity-behaviors-and-lifestyles-using-mobility-data-to-describe-urban-dynamics/</guid>
       <description>Authors: Yanni Yang, Alex Pentland, Esteban Moro Publication: EPJ Data Science 12, Article number: 15 (2023) LINK
 Abstract: Urbanization and its problems require an in-depth and comprehensive understanding of urban dynamics, especially the complex and diversified lifestyles in modern cities. Digitally acquired data can accurately capture complex human activity, but it lacks the interpretability of demographic data. In this paper, we study a privacy-enhanced dataset of the mobility visitation patterns of 1.</description>
     </item>
     
     <item>
       <title>Behavioral changes during the COVID-19 pandemic decreased income diversity of urban encounters</title>
-      <link>http://estebanmoro.org/post/2023-04-21-behavioral-changes-during-the-covid-19-pandemic-decreased-income-diversity-of-urban-encounters/</link>
+      <link>https://estebanmoro.org/post/2023-04-21-behavioral-changes-during-the-covid-19-pandemic-decreased-income-diversity-of-urban-encounters/</link>
       <pubDate>Fri, 21 Apr 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2023-04-21-behavioral-changes-during-the-covid-19-pandemic-decreased-income-diversity-of-urban-encounters/</guid>
+      <guid>https://estebanmoro.org/post/2023-04-21-behavioral-changes-during-the-covid-19-pandemic-decreased-income-diversity-of-urban-encounters/</guid>
       <description>Authors: Takahiro Yabe, Bernardo García Bulle Bueno, Xiaowen Dong, Alex Pentland &amp;amp; Esteban Moro
 Publication: Nature Communications volume 14, Article number: 2310 (2023) LINK
 Abstract: Diversity of physical encounters in urban environments is known to spur economic productivity while also fostering social capital. However, mobility restrictions during the pandemic have forced people to reduce urban encounters, raising questions about the social implications of behavioral changes. In this paper, we study how individual income diversity of urban encounters changed during the pandemic, using a large-scale, privacy-enhanced mobility dataset of more than one million anonymized mobile phone users in Boston, Dallas, Los Angeles, and Seattle, across three years spanning before and during the pandemic.</description>
@@ -106,29 +106,29 @@ Abstract: Diversity of physical encounters in urban environments is known to spu
     
     <item>
       <title>Mobility patterns are associated with experienced income segregation in large US cities</title>
-      <link>http://estebanmoro.org/post/2021-07-31-mobility-patterns-are-associated-with-experienced-income-segregation-in-large-us-cities/</link>
+      <link>https://estebanmoro.org/post/2021-07-31-mobility-patterns-are-associated-with-experienced-income-segregation-in-large-us-cities/</link>
       <pubDate>Sat, 31 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2021-07-31-mobility-patterns-are-associated-with-experienced-income-segregation-in-large-us-cities/</guid>
+      <guid>https://estebanmoro.org/post/2021-07-31-mobility-patterns-are-associated-with-experienced-income-segregation-in-large-us-cities/</guid>
       <description>Authors: Esteban Moro, Dan Calacci, Xiaowen Dong &amp;amp; Alex Pentland. Publication: Nature Communications 12, 4633 (2021). Link
 Abstract: Traditional understanding of urban income segregation is largely based on static coarse grained residential patterns. However, these do not capture the income segregation experience implied by the rich social interactions that happen in places that may relate to individual choices, opportunities, and mobility behavior. Using a large-scale high-resolution mobility data set of 4.</description>
     </item>
     
     <item>
       <title>Personal Art Map with R</title>
-      <link>http://estebanmoro.org/post/2020-10-19-personal-art-map-with-r/</link>
+      <link>https://estebanmoro.org/post/2020-10-19-personal-art-map-with-r/</link>
       <pubDate>Mon, 19 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2020-10-19-personal-art-map-with-r/</guid>
+      <guid>https://estebanmoro.org/post/2020-10-19-personal-art-map-with-r/</guid>
       <description>Map art makes beautiful posters. You can find them all over the internet and buy them even framed for your favorite city, area or country. Those posters&#39; beauty relies on the intricate and beautiful pattern of roads, buildings, parks, rivers, etc., which shape our cities and our mobility. In my research I constantly use those maps as the hardware fabric in which humans interact, move or encounter in urban settings.</description>
     </item>
     
     <item>
       <title>Modeling the impact of social distancing, testing, contact tracing and household quarantine on second-wave scenarios of the COVID-19 epidemic</title>
-      <link>http://estebanmoro.org/post/2020-05-27-modeling-the-impact-of-social-distancing-testing-contact-tracing-and-household-quarantine-on-second-wave-scenarios-of-the-covid-19-epidemic/</link>
+      <link>https://estebanmoro.org/post/2020-05-27-modeling-the-impact-of-social-distancing-testing-contact-tracing-and-household-quarantine-on-second-wave-scenarios-of-the-covid-19-epidemic/</link>
       <pubDate>Wed, 27 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2020-05-27-modeling-the-impact-of-social-distancing-testing-contact-tracing-and-household-quarantine-on-second-wave-scenarios-of-the-covid-19-epidemic/</guid>
+      <guid>https://estebanmoro.org/post/2020-05-27-modeling-the-impact-of-social-distancing-testing-contact-tracing-and-household-quarantine-on-second-wave-scenarios-of-the-covid-19-epidemic/</guid>
       <description>Authors: Alberto Aleta, David Martíın-Corral, Ana Pastore y Piontti, Marco Ajelli, Maria Litvinova, Matteo Chinazzi, Natalie E. Dean, M. Elizabeth Halloran, Ira M. Longini, Jr., Stefano Merler, Alex Pentland, Alessandro Vespignani, Esteban Moro &amp;amp; Yamir Moreno
 Publication: Nature Human Behavior(2020). Link
 Abstract: While severe social-distancing measures have proven effective in slowing the coronavirus disease 2019 (COVID-19) pandemic, second-wave scenarios are likely to emerge as restrictions are lifted. Here we integrate anonymized, geolocalized mobility data with census and demographic data to build a detailed agent-based model of severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) transmission in the Boston metropolitan area.</description>
@@ -136,10 +136,10 @@ Abstract: While severe social-distancing measures have proven effective in slowi
     
     <item>
       <title>Social media fingerprints of unemployment</title>
-      <link>http://estebanmoro.org/post/2014-11-13-social-media-fingerprints-of-unemployment/</link>
+      <link>https://estebanmoro.org/post/2014-11-13-social-media-fingerprints-of-unemployment/</link>
       <pubDate>Thu, 07 May 2015 12:39:43 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2014-11-13-social-media-fingerprints-of-unemployment/</guid>
+      <guid>https://estebanmoro.org/post/2014-11-13-social-media-fingerprints-of-unemployment/</guid>
       <description>Authors:Alejandro Llorente, Manuel García-Herránz, Manuel Cebrián and Esteban Moro
 Journal: PLoS ONE 10(5): e0128692 (2014) LINK
 Summary: Publicly available social media data can be used to quantify deviations from typical patterns of behavior and uncover how these deviations signal the socio-economical status of regions. Using data from geolocalized Twitter messages, we find that unemployment is correlated with technology adoption, daily activity, diversity in mobility patterns and correctness in communication style. These behavioral metrics serve to build simple, interpretable, and cost-effective socio-economical predictors from these novel digital datasets.</description>

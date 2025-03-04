@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>blogdown on </title>
-    <link>http://estebanmoro.org/tags/blogdown/</link>
+    <link>https://estebanmoro.org/tags/blogdown/</link>
     <description>Recent content in blogdown on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Fri, 01 Feb 2019 00:00:00 +0000</lastBuildDate><atom:link href="http://estebanmoro.org/tags/blogdown/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 01 Feb 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://estebanmoro.org/tags/blogdown/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Setting up our blog with RStudio and blogdown I: Creating the blog</title>
-      <link>http://estebanmoro.org/post/2019-02-02-setting-up-your-blog-with-rstudio-and-blogdown-i-creating-the-blog/</link>
+      <link>https://estebanmoro.org/post/2019-02-02-setting-up-your-blog-with-rstudio-and-blogdown-i-creating-the-blog/</link>
       <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2019-02-02-setting-up-your-blog-with-rstudio-and-blogdown-i-creating-the-blog/</guid>
+      <guid>https://estebanmoro.org/post/2019-02-02-setting-up-your-blog-with-rstudio-and-blogdown-i-creating-the-blog/</guid>
       <description>Last month I migrated my blog from Wordpress to Hugo and blogdown. Now I can post from RStudio using R/markdown, which allow me to create interactive posts including R code. It has been such a good experience that I decide to write down how to do it with three posts to help others.
  This one about to setup the blog. Part II explains my workflow of creating new posts. and Part III on how to modify the theme.</description>
     </item>

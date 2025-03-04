@@ -2,75 +2,75 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>R on </title>
-    <link>http://estebanmoro.org/tags/r/</link>
+    <link>https://estebanmoro.org/tags/r/</link>
     <description>Recent content in R on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Sat, 02 Feb 2019 00:00:00 +0000</lastBuildDate><atom:link href="http://estebanmoro.org/tags/r/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 02 Feb 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://estebanmoro.org/tags/r/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Setting up your blog with RStudio and blogdown II: Workflow</title>
-      <link>http://estebanmoro.org/post/2019-02-01-setting-up-your-blog-with-rstudio-and-blogdown/</link>
+      <link>https://estebanmoro.org/post/2019-02-01-setting-up-your-blog-with-rstudio-and-blogdown/</link>
       <pubDate>Sat, 02 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2019-02-01-setting-up-your-blog-with-rstudio-and-blogdown/</guid>
+      <guid>https://estebanmoro.org/post/2019-02-01-setting-up-your-blog-with-rstudio-and-blogdown/</guid>
       <description>This is Part III of my series of posts about how to setup you blog with RStudio and blogdown. The other parts are:
    Part I about to setup the blog using Hugo, RStudio and blogdown Part II explains my workflow of creating new posts. Part III on how to modify the theme.   Workflow In Part I of this series of post we setup our new blog using blogdown and Hugo.</description>
     </item>
     
     <item>
       <title>Setting up your blog with RStudio and blogdown III: modify your theme</title>
-      <link>http://estebanmoro.org/post/2019-02-04-setting-up-your-blog-with-rstudio-and-blogdown-iii-modify-your-theme/</link>
+      <link>https://estebanmoro.org/post/2019-02-04-setting-up-your-blog-with-rstudio-and-blogdown-iii-modify-your-theme/</link>
       <pubDate>Sat, 02 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2019-02-04-setting-up-your-blog-with-rstudio-and-blogdown-iii-modify-your-theme/</guid>
+      <guid>https://estebanmoro.org/post/2019-02-04-setting-up-your-blog-with-rstudio-and-blogdown-iii-modify-your-theme/</guid>
       <description>This is Part III of my series of posts about how to setup you blog with RStudio and blogdown. The other parts are:
    Part I about to setup the blog using Hugo, RStudio and blogdown Part II explains my workflow of creating new posts. Part III (this one) how to modify the theme.   In this post I am going to show how I modified the original theme casper-two that I use for my blog.</description>
     </item>
     
     <item>
       <title>Setting up our blog with RStudio and blogdown I: Creating the blog</title>
-      <link>http://estebanmoro.org/post/2019-02-02-setting-up-your-blog-with-rstudio-and-blogdown-i-creating-the-blog/</link>
+      <link>https://estebanmoro.org/post/2019-02-02-setting-up-your-blog-with-rstudio-and-blogdown-i-creating-the-blog/</link>
       <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2019-02-02-setting-up-your-blog-with-rstudio-and-blogdown-i-creating-the-blog/</guid>
+      <guid>https://estebanmoro.org/post/2019-02-02-setting-up-your-blog-with-rstudio-and-blogdown-i-creating-the-blog/</guid>
       <description>Last month I migrated my blog from Wordpress to Hugo and blogdown. Now I can post from RStudio using R/markdown, which allow me to create interactive posts including R code. It has been such a good experience that I decide to write down how to do it with three posts to help others.
  This one about to setup the blog. Part II explains my workflow of creating new posts. and Part III on how to modify the theme.</description>
     </item>
     
     <item>
       <title>Growing old in Twitter</title>
-      <link>http://estebanmoro.org/post/2018-12-14-growing-old-in-twitter/</link>
+      <link>https://estebanmoro.org/post/2018-12-14-growing-old-in-twitter/</link>
       <pubDate>Fri, 14 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2018-12-14-growing-old-in-twitter/</guid>
+      <guid>https://estebanmoro.org/post/2018-12-14-growing-old-in-twitter/</guid>
       <description>I started using Twitter more than 10 years ago (!). I open an account in this social network in 2008 and although I was not using it too much for the first year, I become a frequent user after that. It has helped me to get news, information both for my personal and professional interests. But not only that, Twitter has been also the data source for our research, that helped us to investigate the relationship between human behavior in the social platform and paramount problems in our society as information propagation, unemployment, disaster damage, political opinion.</description>
     </item>
     
     <item>
       <title>Temporal networks with R and igraph (updated)</title>
-      <link>http://estebanmoro.org/post/2015-12-21-temporal-networks-with-r-and-igraph-updated/</link>
+      <link>https://estebanmoro.org/post/2015-12-21-temporal-networks-with-r-and-igraph-updated/</link>
       <pubDate>Mon, 21 Dec 2015 21:17:18 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2015-12-21-temporal-networks-with-r-and-igraph-updated/</guid>
+      <guid>https://estebanmoro.org/post/2015-12-21-temporal-networks-with-r-and-igraph-updated/</guid>
       <description>A while ago, I wrote a post about how to create animations of temporal networks using R and the amazing package igraph package. The post was written in 2012 and the code does not work with the most recent versions (1.0) of igraph. Here I revisited that post, improving its performance and also making it consistent with the new versions of the package and R.
 First of all, let me remind you the basic idea: we want to get an animated evolution of a network in which nodes/edges appear (and/or disappear) dynamically.</description>
     </item>
     
     <item>
       <title>Temporal networks with igraph and R (with 20 lines of code!)</title>
-      <link>http://estebanmoro.org/post/2012-11-10-temporal-networks-with-igraph-and-r-with-20-lines-of-code/</link>
+      <link>https://estebanmoro.org/post/2012-11-10-temporal-networks-with-igraph-and-r-with-20-lines-of-code/</link>
       <pubDate>Sat, 10 Nov 2012 23:55:46 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2012-11-10-temporal-networks-with-igraph-and-r-with-20-lines-of-code/</guid>
+      <guid>https://estebanmoro.org/post/2012-11-10-temporal-networks-with-igraph-and-r-with-20-lines-of-code/</guid>
       <description>**UPDATE**: the version of the R code in this post does not work with newer versions of the igraph package (\ 1.0). I have posted an updated version of this post here: [Temporal networks with R and igraph (updated)](/post/2015-12-21-temporal-networks-with-r-and-igraph-updated/). Please visit the new post to use the new code and follow the discussion there.  In my last post about how a twitter conversation unfolds in time on Twitter, the dynamical nature of information diffusion in twitter was illustrated with a video of the temporal network of interactions (RTs) between accounts.</description>
     </item>
     
     <item>
       <title>Temporal network of information diffusion in Twitter</title>
-      <link>http://estebanmoro.org/post/2012-10-29-temporal-network-of-information-diffusion-in-twitter/</link>
+      <link>https://estebanmoro.org/post/2012-10-29-temporal-network-of-information-diffusion-in-twitter/</link>
       <pubDate>Mon, 29 Oct 2012 21:58:29 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2012-10-29-temporal-network-of-information-diffusion-in-twitter/</guid>
+      <guid>https://estebanmoro.org/post/2012-10-29-temporal-network-of-information-diffusion-in-twitter/</guid>
       <description>Millions of tweets, retweets and mentions are exchanged in Twitter everyday about very different subjects, events, opinions, etc. While aggregating this data over a time window might help to understand some properties of those processes in online social networks, the speed of information diffusion around particular time-bound events requires a temporal analysis of them. To show that (and with the help of the Text &amp;amp; Opinion Mining Group at IIC) we collected all tweets (750k) of the vibrant conversation around the disputed subject of the general strike of March 29th in Spain.</description>
     </item>
     

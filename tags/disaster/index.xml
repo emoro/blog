@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Disaster on </title>
-    <link>http://estebanmoro.org/tags/disaster/</link>
+    <link>https://estebanmoro.org/tags/disaster/</link>
     <description>Recent content in Disaster on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Mon, 14 Mar 2016 09:06:19 +0000</lastBuildDate><atom:link href="http://estebanmoro.org/tags/disaster/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 14 Mar 2016 09:06:19 +0000</lastBuildDate><atom:link href="https://estebanmoro.org/tags/disaster/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Rapid assessment of disaster damage using social media activity</title>
-      <link>http://estebanmoro.org/post/2016-03-14-rapid-assessment-of-disaster-damage/</link>
+      <link>https://estebanmoro.org/post/2016-03-14-rapid-assessment-of-disaster-damage/</link>
       <pubDate>Mon, 14 Mar 2016 09:06:19 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2016-03-14-rapid-assessment-of-disaster-damage/</guid>
+      <guid>https://estebanmoro.org/post/2016-03-14-rapid-assessment-of-disaster-damage/</guid>
       <description>Authors: Yury Kryvasheyeu1, Haohui Chen, Nick Obradovich, Esteban Moro, Pascal Van Hentenryck, James Fowler and Manuel Cebrian
 Journal: Science Advances 11 Mar 2016: Vol. 2, no. 3, e1500779 (2016) LINK
 Abstract: Could social media data aid in disaster response and damage assessment? Countries face both an increasing frequency and an increasing intensity of natural disasters resulting from climate change. During such events, citizens turn to social media platforms for disaster-related communication and information.</description>
@@ -20,10 +20,10 @@ Abstract: Could social media data aid in disaster response and damage assessment
     
     <item>
       <title>Performance of Social Network Sensors During Hurricane Sandy</title>
-      <link>http://estebanmoro.org/post/2014-02-13-performance-of-social-network-sensors-during-hurricane-sandy/</link>
+      <link>https://estebanmoro.org/post/2014-02-13-performance-of-social-network-sensors-during-hurricane-sandy/</link>
       <pubDate>Thu, 13 Feb 2014 13:57:24 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2014-02-13-performance-of-social-network-sensors-during-hurricane-sandy/</guid>
+      <guid>https://estebanmoro.org/post/2014-02-13-performance-of-social-network-sensors-during-hurricane-sandy/</guid>
       <description>Authors: Yury Kryvasheyeu, Haohui Chen, Esteban Moro, Pascal Van Hentenryck, Manuel Cebrian Journal: PLoS ONE 10(2): e0117288 (2015) LINK
 Summary Information flow during catastrophic events is a critical aspect of disaster management. Modern communication platforms, in particular online social networks, provide an opportunity to study such flow, and a mean to derive early-warning sensors, improving emergency preparedness and response. Performance of the social networks sensor method, based on topological and behavioural properties derived from the &amp;ldquo;friendship paradox&amp;rdquo;, is studied here for over 50 million Twitter messages posted before, during, and after Hurricane Sandy.</description>
     </item>

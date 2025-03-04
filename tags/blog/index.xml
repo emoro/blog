@@ -2,37 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>blog on </title>
-    <link>http://estebanmoro.org/tags/blog/</link>
+    <link>https://estebanmoro.org/tags/blog/</link>
     <description>Recent content in blog on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Sat, 02 Feb 2019 00:00:00 +0000</lastBuildDate><atom:link href="http://estebanmoro.org/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 02 Feb 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://estebanmoro.org/tags/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Setting up your blog with RStudio and blogdown II: Workflow</title>
-      <link>http://estebanmoro.org/post/2019-02-01-setting-up-your-blog-with-rstudio-and-blogdown/</link>
+      <link>https://estebanmoro.org/post/2019-02-01-setting-up-your-blog-with-rstudio-and-blogdown/</link>
       <pubDate>Sat, 02 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2019-02-01-setting-up-your-blog-with-rstudio-and-blogdown/</guid>
+      <guid>https://estebanmoro.org/post/2019-02-01-setting-up-your-blog-with-rstudio-and-blogdown/</guid>
       <description>This is Part III of my series of posts about how to setup you blog with RStudio and blogdown. The other parts are:
    Part I about to setup the blog using Hugo, RStudio and blogdown Part II explains my workflow of creating new posts. Part III on how to modify the theme.   Workflow In Part I of this series of post we setup our new blog using blogdown and Hugo.</description>
     </item>
     
     <item>
       <title>Setting up your blog with RStudio and blogdown III: modify your theme</title>
-      <link>http://estebanmoro.org/post/2019-02-04-setting-up-your-blog-with-rstudio-and-blogdown-iii-modify-your-theme/</link>
+      <link>https://estebanmoro.org/post/2019-02-04-setting-up-your-blog-with-rstudio-and-blogdown-iii-modify-your-theme/</link>
       <pubDate>Sat, 02 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2019-02-04-setting-up-your-blog-with-rstudio-and-blogdown-iii-modify-your-theme/</guid>
+      <guid>https://estebanmoro.org/post/2019-02-04-setting-up-your-blog-with-rstudio-and-blogdown-iii-modify-your-theme/</guid>
       <description>This is Part III of my series of posts about how to setup you blog with RStudio and blogdown. The other parts are:
    Part I about to setup the blog using Hugo, RStudio and blogdown Part II explains my workflow of creating new posts. Part III (this one) how to modify the theme.   In this post I am going to show how I modified the original theme casper-two that I use for my blog.</description>
     </item>
     
     <item>
       <title>Setting up our blog with RStudio and blogdown I: Creating the blog</title>
-      <link>http://estebanmoro.org/post/2019-02-02-setting-up-your-blog-with-rstudio-and-blogdown-i-creating-the-blog/</link>
+      <link>https://estebanmoro.org/post/2019-02-02-setting-up-your-blog-with-rstudio-and-blogdown-i-creating-the-blog/</link>
       <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2019-02-02-setting-up-your-blog-with-rstudio-and-blogdown-i-creating-the-blog/</guid>
+      <guid>https://estebanmoro.org/post/2019-02-02-setting-up-your-blog-with-rstudio-and-blogdown-i-creating-the-blog/</guid>
       <description>Last month I migrated my blog from Wordpress to Hugo and blogdown. Now I can post from RStudio using R/markdown, which allow me to create interactive posts including R code. It has been such a good experience that I decide to write down how to do it with three posts to help others.
  This one about to setup the blog. Part II explains my workflow of creating new posts. and Part III on how to modify the theme.</description>
     </item>

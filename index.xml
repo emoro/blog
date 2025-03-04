@@ -1,35 +1,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title></title>
-    <link>http://estebanmoro.org/</link>
+    <link>https://estebanmoro.org/</link>
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Thu, 27 Feb 2025 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="http://estebanmoro.org/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://estebanmoro.org/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Posts</title>
-      <link>http://estebanmoro.org/post/</link>
+      <link>https://estebanmoro.org/post/</link>
       <pubDate>Thu, 27 Feb 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/</guid>
+      <guid>https://estebanmoro.org/post/</guid>
       <description></description>
     </item>
     
     <item>
       <title>About me</title>
-      <link>http://estebanmoro.org/about/</link>
+      <link>https://estebanmoro.org/about/</link>
       <pubDate>Tue, 14 Apr 2015 22:17:00 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/about/</guid>
-      <description>&lt;script src=&#34;http://estebanmoro.org/rmarkdown-libs/htmlwidgets/htmlwidgets.js&#34;&gt;&lt;/script&gt;
-&lt;link href=&#34;http://estebanmoro.org/rmarkdown-libs/vis/vis-network.min.css&#34; rel=&#34;stylesheet&#34; /&gt;
-&lt;script src=&#34;http://estebanmoro.org/rmarkdown-libs/vis/vis-network.min.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;http://estebanmoro.org/rmarkdown-libs/visNetwork-binding/visNetwork.js&#34;&gt;&lt;/script&gt;
-&lt;img src=&#34;http://estebanmoro.org/img/aboutme.jpg&#34; style=&#34;width:70.0%&#34; /&gt;
+      <guid>https://estebanmoro.org/about/</guid>
+      <description>&lt;script src=&#34;https://estebanmoro.org/rmarkdown-libs/htmlwidgets/htmlwidgets.js&#34;&gt;&lt;/script&gt;
+&lt;link href=&#34;https://estebanmoro.org/rmarkdown-libs/vis/vis-network.min.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;script src=&#34;https://estebanmoro.org/rmarkdown-libs/vis/vis-network.min.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://estebanmoro.org/rmarkdown-libs/visNetwork-binding/visNetwork.js&#34;&gt;&lt;/script&gt;
+&lt;img src=&#34;https://estebanmoro.org/img/aboutme.jpg&#34; style=&#34;width:70.0%&#34; /&gt;
 Full CV -\&gt; [**PDF**](/pdf/cv_emoro.pdf)
 &lt;p&gt;I’m a professor in the &lt;a href=&#34;https://www.networkscienceinstitute.org&#34;&gt;Network Science Institute&lt;/a&gt; at Northeastern University and the director of the &lt;a href=&#34;https://socialurban.net&#34;&gt;Social Urban Networks (SUNLab)&lt;/a&gt; group. Previously, I was an associate professor at &lt;a href=&#34;https://matematicas.uc3m.es/index.php/esteban-moro-egido&#34;&gt;Universidad Carlos III&lt;/a&gt; (UC3M) in Spain, Researcher and Visiting Professor at &lt;a href=&#34;https://www.media.mit.edu/people/emoro/overview/&#34;&gt;MIT Media Lab&lt;/a&gt; and Researcher at University of Oxford. A native from Salamanca (Spain) I hold a PhD in Physics and I am an affiliate researcher at the MIT Media Lab. I have published extensively throughout my career and have led many projects funded by government agencies and private companies. Also served as jury in many Data Science and Big Data challenges, as editor of several journals and has advised many PhD students.&lt;/p&gt;
 &lt;p&gt;My work lies in the intersection of &lt;strong&gt;big data&lt;/strong&gt; and &lt;strong&gt;computational social science&lt;/strong&gt;, with special attention to human dynamics, collective intelligence, social networks and urban mobility in problems like viral marketing, natural disaster management, food accessibility, or economical segregation in cities. Apart from my academic career I have worked closely with companies like Twitter, Telefónica or BBVA in the use of massive datasets to understand problems like how humans communicate, how political opinion spreads in social networks or building alternative well-being indexes. I have received numerous awards for my research, including the “Shared University Award” from IBM in 2007 for my research in modeling viral marketing in social networks and the “Excellence in Research” Awards in 2013 and 2015 from UC3M.&lt;/p&gt;
@@ -52,12 +52,12 @@ Full CV -\&gt; [**PDF**](/pdf/cv_emoro.pdf)
 &lt;p&gt;And a little bit about &lt;strong&gt;my publications&lt;/strong&gt;: &lt;br&gt;
 &lt;small&gt; (last update 2025-02-26. Data from Google Scholar, retrieved using the &lt;a href=&#34;https://github.com/YuLab-SMU/scholar&#34;&gt;scholar&lt;/a&gt; package in &lt;code&gt;R&lt;/code&gt;)&lt;/small&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;You can find a &lt;a href=&#34;http://estebanmoro.org/post/list-of-publications/&#34;&gt;list of my publications here&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;You can find a &lt;a href=&#34;https://estebanmoro.org/post/list-of-publications/&#34;&gt;list of my publications here&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;My h-index now is &lt;strong&gt;42&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;I have received &lt;strong&gt;8616 citations&lt;/strong&gt; to &lt;strong&gt;166 publications/documents&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;Here is the distribution of my citations since 2010:&lt;/li&gt;
 &lt;/ul&gt;
-&lt;img src=&#34;http://estebanmoro.org/about_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;
+&lt;img src=&#34;https://estebanmoro.org/about_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;
 &lt;ul&gt;
 &lt;li&gt;This is the network of my top co-authors (red) and their top co-authors (blue) (you can interact with the visualization):&lt;/li&gt;
 &lt;/ul&gt;
@@ -72,10 +72,10 @@ Full CV -\&gt; [**PDF**](/pdf/cv_emoro.pdf)
     
     <item>
       <title>Reading</title>
-      <link>http://estebanmoro.org/reading/</link>
+      <link>https://estebanmoro.org/reading/</link>
       <pubDate>Thu, 18 Dec 2008 09:27:47 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/reading/</guid>
+      <guid>https://estebanmoro.org/reading/</guid>
       <description>
 
 

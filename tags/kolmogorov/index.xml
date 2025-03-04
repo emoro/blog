@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>kolmogorov on </title>
-    <link>http://estebanmoro.org/tags/kolmogorov/</link>
+    <link>https://estebanmoro.org/tags/kolmogorov/</link>
     <description>Recent content in kolmogorov on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Wed, 15 Mar 2006 08:25:04 +0000</lastBuildDate><atom:link href="http://estebanmoro.org/tags/kolmogorov/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 15 Mar 2006 08:25:04 +0000</lastBuildDate><atom:link href="https://estebanmoro.org/tags/kolmogorov/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Writing bad letters of recommendation: the story of Bachelier and Lévy</title>
-      <link>http://estebanmoro.org/2006/03/writing-bad-letters-of-recommendation-the-story-of-bachelier-and-levy/</link>
+      <link>https://estebanmoro.org/2006/03/writing-bad-letters-of-recommendation-the-story-of-bachelier-and-levy/</link>
       <pubDate>Wed, 15 Mar 2006 08:25:04 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/2006/03/writing-bad-letters-of-recommendation-the-story-of-bachelier-and-levy/</guid>
+      <guid>https://estebanmoro.org/2006/03/writing-bad-letters-of-recommendation-the-story-of-bachelier-and-levy/</guid>
       <description>Take a coin and toss it a number \(N\) of times in a time interval of duration \(T\). Suppose that every time you get head you win \(a\) euros and that you lose the same amount of money when you get tail. Then your capital is a random process with ups and dows like this:
  ![](/img/posts/figurebachelier.jpg) This process is a stochastic process usually called &amp;ldquo;Random Walk&amp;rdquo; and its properties depend on the parameters $N, a $ and \(T\).</description>
     </item>

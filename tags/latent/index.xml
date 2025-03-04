@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>latent on </title>
-    <link>http://estebanmoro.org/tags/latent/</link>
+    <link>https://estebanmoro.org/tags/latent/</link>
     <description>Recent content in latent on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Thu, 18 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://estebanmoro.org/tags/latent/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 18 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://estebanmoro.org/tags/latent/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Identifying latent activity behaviors and lifestyles using mobility data to describe urban dynamics</title>
-      <link>http://estebanmoro.org/post/2022-11-28-identifying-latent-activity-behaviors-and-lifestyles-using-mobility-data-to-describe-urban-dynamics/</link>
+      <link>https://estebanmoro.org/post/2022-11-28-identifying-latent-activity-behaviors-and-lifestyles-using-mobility-data-to-describe-urban-dynamics/</link>
       <pubDate>Thu, 18 May 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2022-11-28-identifying-latent-activity-behaviors-and-lifestyles-using-mobility-data-to-describe-urban-dynamics/</guid>
+      <guid>https://estebanmoro.org/post/2022-11-28-identifying-latent-activity-behaviors-and-lifestyles-using-mobility-data-to-describe-urban-dynamics/</guid>
       <description>Authors: Yanni Yang, Alex Pentland, Esteban Moro Publication: EPJ Data Science 12, Article number: 15 (2023) LINK
 Abstract: Urbanization and its problems require an in-depth and comprehensive understanding of urban dynamics, especially the complex and diversified lifestyles in modern cities. Digitally acquired data can accurately capture complex human activity, but it lacks the interpretability of demographic data. In this paper, we study a privacy-enhanced dataset of the mobility visitation patterns of 1.</description>
     </item>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>diffusion on </title>
-    <link>http://estebanmoro.org/tags/diffusion/</link>
+    <link>https://estebanmoro.org/tags/diffusion/</link>
     <description>Recent content in diffusion on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Thu, 25 Nov 2010 10:19:44 +0000</lastBuildDate><atom:link href="http://estebanmoro.org/tags/diffusion/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 25 Nov 2010 10:19:44 +0000</lastBuildDate><atom:link href="https://estebanmoro.org/tags/diffusion/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Dynamical strength of social ties in information spreading</title>
-      <link>http://estebanmoro.org/post/2010-11-25-the-dynamical-strength-of-social-ties-in-information-spreading/</link>
+      <link>https://estebanmoro.org/post/2010-11-25-the-dynamical-strength-of-social-ties-in-information-spreading/</link>
       <pubDate>Thu, 25 Nov 2010 10:19:44 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/post/2010-11-25-the-dynamical-strength-of-social-ties-in-information-spreading/</guid>
+      <guid>https://estebanmoro.org/post/2010-11-25-the-dynamical-strength-of-social-ties-in-information-spreading/</guid>
       <description>Authors: Giovanna Miritello, Esteban Moro y Rubén Lara
 Journal: Physical Review E (Rapid Comm) 83, 045102 (2011). LINK | arXiv
 Abstract: We investigate the temporal patterns of human communication and its influence on the spreading of information in social networks. The analysis of mobile phone calls of 20 million people in one country shows that human communication is bursty and happens in group conversations. These features have opposite effects in information reach: while bursts hinder propagation at large scales, conversations favor local rapid cascades.</description>
@@ -20,19 +20,19 @@ Abstract: We investigate the temporal patterns of human communication and its in
     
     <item>
       <title>Relationship mining</title>
-      <link>http://estebanmoro.org/2010/01/relationship-mining/</link>
+      <link>https://estebanmoro.org/2010/01/relationship-mining/</link>
       <pubDate>Mon, 11 Jan 2010 09:16:09 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/2010/01/relationship-mining/</guid>
+      <guid>https://estebanmoro.org/2010/01/relationship-mining/</guid>
       <description>Each day trillions of emails, phone calls, comments on blogs, twitter messages, exchanges in online social networks, etc. are done. Not only the number of communications has increased, but also each of these transactions leaves a digital trace that can be recorded to reconstruct our high-frequency human activity. It is not only the amount and variety of data that is recorded what is important. Also its high-frequency character and its comprehensive nature have allowed researchers, companies and agencies to investigate individual and group dynamics at an unprecedented level of detail and applied them to client modeling, organizational analysis or epidemic spreading [1].</description>
     </item>
     
     <item>
       <title>Humans are superdiffusive</title>
-      <link>http://estebanmoro.org/2006/02/humans-are-superdiffusive/</link>
+      <link>https://estebanmoro.org/2006/02/humans-are-superdiffusive/</link>
       <pubDate>Thu, 09 Feb 2006 07:31:36 +0000</pubDate>
       
-      <guid>http://estebanmoro.org/2006/02/humans-are-superdiffusive/</guid>
+      <guid>https://estebanmoro.org/2006/02/humans-are-superdiffusive/</guid>
       <description>When tea is poured in a cup of hot water, we observe a phenomenon called diffusion: in the end particles of tea spread evenly throughout the mass of water and we enjoy our cup of tea. Diffusion occurs as a result of the second law of thermodynamics (increase of entropy) and can be modeled quantitatively using the diffusion equation (or heat equation). This is a funny equation, since it establishes that the velocity of spreading is infinite while the mean root square fluctuations of the position of the particles grows in time as</description>
     </item>
     
