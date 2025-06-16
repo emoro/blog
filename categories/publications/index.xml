@@ -5,7 +5,7 @@
     <description>Recent content in Publications on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Thu, 27 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Jun 2025 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://estebanmoro.org/categories/publications/index.xml" rel="self" type="application/rss+xml" />
     
@@ -13,18 +13,39 @@
     <item>
       <title>List of Publications</title>
       <link>https://estebanmoro.org/post/list-of-publications/</link>
-      <pubDate>Thu, 27 Feb 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 16 Jun 2025 00:00:00 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/list-of-publications/</guid>
       <description>
 
 
 &lt;small&gt;
-I have published 105 articles/preprints
+I have published 108 articles/preprints
 &lt;h3&gt;
 2025
 &lt;/h3&gt;
 &lt;ul&gt;
+&lt;li&gt;&lt;b&gt;Future-proofing cities against negative city mobility and public health impacts of impending natural hazards: a system dynamics modelling study&lt;/b&gt;&lt;br&gt;
+Leandro Garcia, Mehdi Hafezi, Larissa Lima, Christopher Millett, Jason Thompson, Ruoyu Wang, Selin Akaraci, Rahul Goel, Rodrigo Reis, Kerry A Nice, others&lt;br&gt;
+The Lancet Planetary Health &lt;strong&gt;9&lt;/strong&gt; e207–e218 (2025)&lt;br&gt;
+&lt;a href=&#34;https://estebanmoro.org/pdf/Future_proofing_cities_against_negative_city_mobility_and_public_health_impacts_of_impending_natural_hazards__a_system_dynamics_modelling_study.pdf&#34; class=&#34;BUTTON_JEL&#34;&gt;PDF&lt;/a&gt; &lt;a href=&#34;https://www.thelancet.com/journals/lanplh/article/PIIS2542-5196(25)00026-9/fulltext&#34; class=&#34;BUTTON_JEL&#34;&gt;Journal&lt;/a&gt;
+&lt;div class=&#34;altmetric-embed&#34; data-badge-popover=&#34;right&#34; data-badge-type=&#34;2&#34; data-doi=&#34;10.1016/S2542-5196(25)00026-9&#34; data-hide-no-mentions=&#34;true&#34; data-hide-less-than=&#34;10&#34;&gt;
+
+&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Green space exposure and active transportation during the COVID-19 pandemic: a global analysis using Apple mobility data&lt;/b&gt;&lt;br&gt;
+Ruoyu Wang, Selin Akaraci, Esteban Moro, Pedro C Hallal, Rodrigo Reis, Ruth Hunter&lt;br&gt;
+BMJ Global Health &lt;strong&gt;10&lt;/strong&gt; NA (2025)&lt;br&gt;
+&lt;a href=&#34;https://estebanmoro.org/pdf/Green_space_exposure_and_active_transportation_during_the_COVID_19_pandemic__a_global_analysis_using_Apple_mobility_data.pdf&#34; class=&#34;BUTTON_JEL&#34;&gt;PDF&lt;/a&gt; &lt;a href=&#34;https://www.thelancet.com/journals/lanplh/article/PIIS2542-5196(25)00026-9/fulltext&#34; class=&#34;BUTTON_JEL&#34;&gt;Journal&lt;/a&gt;
+&lt;div class=&#34;altmetric-embed&#34; data-badge-popover=&#34;right&#34; data-badge-type=&#34;2&#34; data-doi=&#34;10.1136/bmjgh-2024-017108&#34; data-hide-no-mentions=&#34;true&#34; data-hide-less-than=&#34;10&#34;&gt;
+
+&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;AI exposure predicts unemployment risk: A new approach to technology-driven job loss&lt;/b&gt;&lt;br&gt;
+Morgan R Frank, Yong-Yeol Ahn, Esteban Moro&lt;br&gt;
+PNAS nexus &lt;strong&gt;4&lt;/strong&gt; pgaf107 (2025)&lt;br&gt;
+&lt;a href=&#34;https://estebanmoro.org/pdf/AI_exposure_predicts_unemployment_risk__A_new_approach_to_technology_driven_job_loss.pdf&#34; class=&#34;BUTTON_JEL&#34;&gt;PDF&lt;/a&gt; &lt;a href=&#34;https://academic.oup.com/pnasnexus/article/4/4/pgaf107/8104152&#34; class=&#34;BUTTON_JEL&#34;&gt;Journal&lt;/a&gt;
+&lt;div class=&#34;altmetric-embed&#34; data-badge-popover=&#34;right&#34; data-badge-type=&#34;2&#34; data-doi=&#34;10.1093/pnasnexus/pgaf107&#34; data-hide-no-mentions=&#34;true&#34; data-hide-less-than=&#34;10&#34;&gt;
+
+&lt;/div&gt;&lt;/li&gt;
 &lt;li&gt;&lt;b&gt;Using human mobility data to quantify experienced urban inequalities&lt;/b&gt;&lt;br&gt;
 Fengli Xu, Qi Wang, Esteban Moro, Lin Chen, Arianna Salazar Miranda, Marta C Gonzalez, Michele Tizzoni, Chaoming Song, Carlo Ratti, Luis Bettencourt, others&lt;br&gt;
 Nature Human Behaviour &lt;strong&gt;NA&lt;/strong&gt; 1–11 (2025)&lt;br&gt;
