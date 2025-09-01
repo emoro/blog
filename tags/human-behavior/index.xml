@@ -1,20 +1,33 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Human behavior on </title>
+    <title>Human Behavior on </title>
     <link>https://estebanmoro.org/tags/human-behavior/</link>
-    <description>Recent content in Human behavior on </description>
+    <description>Recent content in Human Behavior on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Sat, 23 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://estebanmoro.org/tags/human-behavior/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 23 Mar 2024 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://estebanmoro.org/tags/human-behavior/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Infrequent activities predict economic outcomes in major American cities</title>
       <link>https://estebanmoro.org/post/2024-03-23-infrequent-activities-predict-economic-outcomes-in-major-american-cities/</link>
       <pubDate>Sat, 23 Mar 2024 00:00:00 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2024-03-23-infrequent-activities-predict-economic-outcomes-in-major-american-cities/</guid>
-      <description>Authors: Shenhao Wang, Yunhan Zheng, Guang Wang, Takahiro Yabe, Esteban Moro &amp;amp; Alex ‘Sandy’ Pentland Publication: Nature Cities 10.1038/s44284-024-00051-7. LINK
-Abstract: Many studies have revealed the predictive power of the most frequent, regular and habitual mobility patterns. However, it remains unclear which components of the mobility patterns contain the most informative signals for predicting disparate economic development across urban areas. Here we use machine learning to predict economic outcomes by analyzing the heterogeneous mobility networks of 687 activities from more than 560,000 anonymized users in Boston, Chicago and Miami.</description>
+      <description>
+
+
+&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Shenhao Wang, Yunhan Zheng, Guang Wang, Takahiro Yabe, Esteban Moro &amp;amp; Alex ‘Sandy’ Pentland
+&lt;br&gt;
+&lt;em&gt;Publication&lt;/em&gt;: Nature Cities 10.1038/s44284-024-00051-7. &lt;strong&gt;&lt;a href=&#34;https://doi.org/10.1038/s44284-024-00051-7&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Many studies have revealed the predictive power of the most frequent, regular and habitual mobility patterns. However, it remains unclear which components of the mobility patterns contain the most informative signals for predicting disparate economic development across urban areas. Here we use machine learning to predict economic outcomes by analyzing the heterogeneous mobility networks of 687 activities from more than 560,000 anonymized users in Boston, Chicago and Miami. We find that mobility patterns are highly predictive of the current and future economic development in major American cities but, surprisingly, the high predictive power is concentrated on infrequent, irregular and exploratory activities. These predictive activities account for only less than 2% of total visits but successfully explain more than 50% of variation in economic outcomes. Future research should shift more attention from regular visits to irregular activities, and policymakers could leverage these infrequent yet informative activities to manage urban economic development.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Media&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://news.ufl.edu/2024/03/urban-economy-exploration/&#34;&gt;Exploration – not work – explains cities’ economic fortunes&lt;/a&gt; University of Florida News.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -23,9 +36,19 @@ Abstract: Many studies have revealed the predictive power of the most frequent, 
       <pubDate>Thu, 14 Mar 2024 00:00:00 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2022-09-22-you-are-where-you-eat-effect-of-mobile-food-environments-on-fast-food-visits/</guid>
-      <description>Authors: Bernardo Garcia-Bulle, Abigail L. Horn, Brooke M. Bell, Mohsen Bahrami, Burcin Bozkaya, Alex Pentland, Kayla de la Haye, and Esteban Moro
-Publication: Nature Communications 15, article number: 2291. LINK
-Abstract: Poor diets are a leading cause of morbidity and mortality. Exposure to low-quality food environments saturated with fast food outlets is hypothesized to negatively impact diet. However, food environment research has predominantly focused on static food environments around home neighborhoods and generated mixed findings.</description>
+      <description>
+
+
+&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Bernardo Garcia-Bulle, Abigail L. Horn, Brooke M. Bell, Mohsen Bahrami, Burcin Bozkaya, Alex Pentland, Kayla de la Haye, and Esteban Moro&lt;br&gt;
+&lt;em&gt;Publication&lt;/em&gt;: Nature Communications &lt;strong&gt;15&lt;/strong&gt;, article number: 2291. &lt;strong&gt;&lt;a href=&#34;https://www.nature.com/articles/s41467-024-46425-2&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Poor diets are a leading cause of morbidity and mortality. Exposure to low-quality food environments saturated with fast food outlets is hypothesized to negatively impact diet. However, food environment research has predominantly focused on static food environments around home neighborhoods and generated mixed findings. In this work, we leverage population-scale mobility data in the U.S. to examine 62M people’s visits to food outlets and evaluate how food choice is influenced by the food environments people are exposed to as they move through their daily routines. We find that a 10% increase in exposure to fast food outlets in mobile environments increases individuals’ odds of visitation by 20%. Using our results, we simulate multiple policy strategies for intervening on food environments to reduce fast-food outlet visits. This analysis suggests that optimal interventions are informed by spatial, temporal, and behavioral features and could have 2x to 4x larger effect than traditional interventions focused on home food environments.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Media&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://news.northeastern.edu/2024/03/15/fast-food-location-health-impact/&#34;&gt;Efforts to limit fast-food near homes need rethinking&lt;/a&gt;, Northeastern Global News.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.news-medical.net/news/20240318/Study-reveals-daily-food-environment-exposure-shapes-fast-food-habits.aspx&#34;&gt;Study reveals daily food environment exposure shapes fast food habits&lt;/a&gt; News Medical&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://dornsife.usc.edu/news/stories/fast-food-choices-revealed-by-smartphone-data/&#34;&gt;New research shows “you are what… or rather… where you eat”&lt;/a&gt; USC Dornsife News and Events&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -34,9 +57,10 @@ Abstract: Poor diets are a leading cause of morbidity and mortality. Exposure to
       <pubDate>Tue, 07 Mar 2017 14:25:23 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2017-03-07-twitter-session-analytics-profiling-users-short-term-behavioral-changes/</guid>
-      <description>Authors: Farshad Kooti, Esteban Moro, and Kristina Lerman
-Journal: Proceedings of SocInfo 2016 LINK
-Abstract: Human behavior shows strong daily, weekly, and monthly patterns. In this work, we demonstrate online behavioral changes that occur on a much smaller time scale: minutes, rather than days or weeks. Specifically, we study how people distribute their effort over different tasks during periods of activity on the Twitter social platform. We demonstrate that later in a session on Twitter, people prefer to per- form simpler tasks, such as replying and retweeting others’ posts, rather than composing original messages, and they also tend to post shorter messages.</description>
+      <description>&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Farshad Kooti, Esteban Moro, and Kristina Lerman&lt;br&gt;
+&lt;em&gt;Journal&lt;/em&gt;: Proceedings of SocInfo 2016 &lt;strong&gt;&lt;a href=&#34;http://link.springer.com/chapter/10.1007/978-3-319-47874-6_6&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt;  Human behavior shows strong daily, weekly, and monthly patterns. In this work, we demonstrate online behavioral changes that occur on a much smaller time scale: minutes, rather than days or weeks. Specifically, we study how people distribute their effort over different tasks during periods of activity on the Twitter social platform. We demonstrate that later in a session on Twitter, people prefer to per- form simpler tasks, such as replying and retweeting others’ posts, rather than composing original messages, and they also tend to post shorter messages. We measure the strength of this effect empirically and statis- tically using mixed-effects models, and find that the first post of a session is up to 25% more likely to be a composed message, and 10–20% less likely to be a reply or retweet. Qualitatively, our results hold for different populations of Twitter users segmented by how active and well-connected they are. Although our work does not resolve the mechanisms responsi- ble for these behavioral changes, our results offer insights for improving user experience and engagement on online social platforms.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -45,7 +69,47 @@ Abstract: Human behavior shows strong daily, weekly, and monthly patterns. In th
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2019-02-02-financial-markets-as-empirical-labs-to-study-the-evolving-ecology-of-human-decision-making/</guid>
-      <description>Human decision making strategies evolve through time based on past experience and they are influence by the spectrum of other strategies with which they come into contact. Financial markets provide the best empirical lab to understand how human decide under risk and uncertainty. They are complex systems which provide massive datasets of detail records of human decisions which constantly evolve and collide in centralized or social structures. Furthermore financial markets provide us with a very simple measure of performance (profits, ROI), thus enabling us to study the relationship between human decision making strategies and performance.</description>
+      <description>&lt;p&gt;Human decision making strategies evolve through time based on past experience and they are influence by the spectrum of other strategies with which they come into contact. Financial markets provide the best empirical lab to understand how human decide under risk and uncertainty. They are complex systems which provide massive datasets of detail records of human decisions which constantly evolve and collide in centralized or social structures. Furthermore financial markets provide us with a very simple measure of performance (profits, ROI), thus enabling us to study the relationship between human decision making strategies and performance. During the last year we have studied those systems to understand the regularities of &lt;strong&gt;how agents in financial markets analyze the information and perform their decisions&lt;/strong&gt;. In the past and due to agreements with the Spanish and London Stock market we found that different institutions/agents have different strategies in the market, do have different impact in the price at small time scales or optimize the trading of their large orders in different way.&lt;/p&gt;
+&lt;p&gt;More recently, we have been studying new or non-traditional financial venues, like the social trading platform &lt;em&gt;eToro&lt;/em&gt; or the evolution of &lt;em&gt;crypto-currencies&lt;/em&gt;. We found that agents in social trading platforms do suffer from the same cognitive limitations as human in other social venues (social networks for example) and that limits the potential performance of them in those platforms. Finally, we have put to test one of the most traditional hypothesis of financial markets in the trading of new crypto-currencies: the fact that their price reflects all the information available to them. Analysing thousands of forums about those &lt;em&gt;e-coins&lt;/em&gt; we found that the volatility of them is actually related to the level, quality and technicality of that discussion.&lt;/p&gt;
+&lt;p&gt;Some recent papers:
+&lt;small&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;b&gt;Accuracy-Risk Trade-Off Due to Social Learning in Crowd-Sourced Financial Predictions&lt;/b&gt;&lt;br&gt;
+Dhaval Adjodah, Yan Leng, Shi Kai Chong, P. M. Krafft, Esteban Moro, Alex Pentland&lt;br&gt;
+Entropy &lt;strong&gt;23&lt;/strong&gt; 801 (2021)&lt;br&gt;
+&lt;a href=&#34;https://estebanmoro.org/pdf/Accuracy_Risk_Trade_Off_Due_to_Social_Learning_in_Crowd_Sourced_Financial_Predictions.pdf&#34; class=&#34;BUTTON_JEL&#34;&gt;PDF&lt;/a&gt; &lt;a href=&#34;https://www.mdpi.com/1099-4300/23/7/801&#34; class=&#34;BUTTON_JEL&#34;&gt;Journal&lt;/a&gt; &lt;div data-badge-popover=&#34;right&#34; data-badge-type=&#34;2&#34; data-doi=&#34;10.3390/e23070801&#34; data-hide-no-mentions=&#34;true&#34; data-hide-less-than=&#34;10&#34; class=&#34;altmetric-embed&#34;&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;b&gt;ScamCoins, S*** Posters, and the Search for the Next Bitcoin TM : Collective Sensemaking in Cryptocurrency Discussions&lt;/b&gt;&lt;br&gt;
+Eaman Jahani, Peter M Krafft, Yoshihiko Suhara, Esteban Moro, Alex Sandy Pentland&lt;br&gt;
+Proceedings of the ACM on Human-Computer Interaction &lt;strong&gt;2&lt;/strong&gt; 79&amp;ndash;28 (2018)&lt;br&gt;
+&lt;a href=&#34;https://estebanmoro.org/pdf/ScamCoins__S__Posters__and_the_Search_for_the_Next_Bitcoin_TM___Collective_Sensemaking_in_Cryptocurrency_Discussions.pdf&#34; class=&#34;BUTTON_JEL&#34;&gt;PDF&lt;/a&gt; &lt;a href=&#34;http://dl.acm.org/citation.cfm?doid=3290265.3274348&#34; class=&#34;BUTTON_JEL&#34;&gt;Journal&lt;/a&gt; &lt;a href=&#34;http://www.altmetric.com/details.php?citation_id=50793871&#34; class=&#34;BUTTON_JEL&#34;&gt;Altmetric: 9&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;b&gt;Market impact and trading profile of hidden orders in stock markets.&lt;/b&gt;&lt;br&gt;
+Esteban Moro, Javier Vicente, Luis G Moyano, Austin Gerig, J Doyne Farmer, Gabriella Vaglica, Fabrizio Lillo, Rosario N Mantegna&lt;br&gt;
+Physical review E, Statistical, nonlinear, and soft matter physics &lt;strong&gt;80&lt;/strong&gt; 066102 (2009)&lt;br&gt;
+&lt;a href=&#34;https://estebanmoro.org/pdf/Market_impact_and_trading_profile_of_hidden_orders_in_stock_markets_.pdf&#34; class=&#34;BUTTON_JEL&#34;&gt;PDF&lt;/a&gt; &lt;a href=&#34;http://adsabs.harvard.edu/cgi-bin/nph-data_query?bibcode=2009PhRvE..80f6102M&amp;link_type=EJOURNAL&#34; class=&#34;BUTTON_JEL&#34;&gt;Journal&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;b&gt;Specialization and herding behavior of trading firms in a financial market&lt;/b&gt;&lt;br&gt;
+Fabrizio Lillo, Esteban Moro, Gabriella Vaglica, Rosario N Mantegna&lt;br&gt;
+New Journal of Physics &lt;strong&gt;10&lt;/strong&gt; 043019 (2008)&lt;br&gt;
+&lt;a href=&#34;https://estebanmoro.org/pdf/Specialization_and_herding_behavior_of_trading_firms_in_a_financial_market.pdf&#34; class=&#34;BUTTON_JEL&#34;&gt;PDF&lt;/a&gt; &lt;a href=&#34;http://stacks.iop.org/1367-2630/10/i=4/a=043019?key=crossref.1d46fbbc0f5d90b1aedae63d2df571c9&#34; class=&#34;BUTTON_JEL&#34;&gt;Journal&lt;/a&gt; &lt;a href=&#34;http://www.altmetric.com/details.php?citation_id=21140866&#34; class=&#34;BUTTON_JEL&#34;&gt;Altmetric: 2&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;b&gt;Scaling laws of strategic behavior and size heterogeneity in agent dynamics.&lt;/b&gt;&lt;br&gt;
+Gabriella Vaglica, Fabrizio Lillo, Esteban Moro, Rosario N Mantegna&lt;br&gt;
+Physical review E, Statistical, nonlinear, and soft matter physics &lt;strong&gt;77&lt;/strong&gt; 036110 (2008)&lt;br&gt;
+&lt;a href=&#34;https://estebanmoro.org/pdf/Scaling_laws_of_strategic_behavior_and_size_heterogeneity_in_agent_dynamics_.pdf&#34; class=&#34;BUTTON_JEL&#34;&gt;PDF&lt;/a&gt; &lt;a href=&#34;https://link.aps.org/doi/10.1103/PhysRevE.77.036110&#34; class=&#34;BUTTON_JEL&#34;&gt;Journal&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/small&gt;
+&lt;p&gt;Talks:&lt;/p&gt;
+&lt;p&gt;Videos:&lt;/p&gt;
+&lt;p&gt;Media:&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -54,9 +118,25 @@ Abstract: Human behavior shows strong daily, weekly, and monthly patterns. In th
       <pubDate>Thu, 18 Apr 2013 20:23:55 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2013-04-18-the-predictability-of-consumer-visitation-patterns/</guid>
-      <description>Authors: Coco Krumme, Alejandro Llorente, Manuel Cebrian, Alex (&amp;ldquo;Sandy&amp;rdquo;) Pentland &amp;amp; Esteban Moro
-Journal: Sci. Rep. 3, 1645; (2013). LINK
-Abstract: We consider hundreds of thousands of individual economic transactions to ask: how predictable are consumers in their merchant visitation patterns? Our results suggest that, in the long-run, much of our seemingly elective activity is actually highly predictable. Notwithstanding a wide range of individual preferences, shoppers share regularities in how they visit merchant locations over time.</description>
+      <description>&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Coco Krumme, Alejandro Llorente, Manuel Cebrian, Alex (&amp;ldquo;Sandy&amp;rdquo;) Pentland &amp;amp; Esteban Moro&lt;br&gt;
+&lt;em&gt;Journal&lt;/em&gt;: Sci. Rep. &lt;strong&gt;3&lt;/strong&gt;, 1645; (2013). &lt;strong&gt;&lt;a href=&#34;http://www.nature.com/srep/2013/130418/srep01645/full/srep01645.html&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; We consider hundreds of thousands of individual economic transactions to ask: how predictable are consumers in their merchant visitation patterns? Our results suggest that, in the long-run, much of our seemingly elective activity is actually highly predictable. Notwithstanding a wide range of individual preferences, shoppers share regularities in how they visit merchant locations over time. Yet while aggregate behavior is largely predictable, the interleaving of shopping events introduces important stochastic elements at short time scales. These short- and long-scale patterns suggest a theoretical upper bound on predictability, and describe the accuracy of a Markov model in predicting a person&amp;rsquo;s next location. We incorporate population-level transition probabilities in the predictive models, and find that in many cases these improve accuracy. While our results point to the elusiveness of precise predictions about where a person will go next, they suggest the existence, at large time-scales, of regularities across the population.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Press:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;All real-world shoppers are zombies [&lt;a href=&#34;http://www.lifehacker.com.au/2013/04/all-shoppers-are-zombies/&#34;&gt;Lifehacker&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;Animales de costumbres a la hora de la compra [&lt;a href=&#34;http://www.abc.es/sociedad/20130507/abci-consumo-estudio-carlosiii-201305062009.html&#34;&gt;ABC.es&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;Consumers almost always buy in the same shops [&lt;a href=&#34;http://www.uc3m.es/portal/page/portal/actualidad_cientifica/noticias/shops&#34;&gt;UC3M&lt;/a&gt;, &lt;a href=&#34;http://www.eurekalert.org/pub_releases/2013-05/ciuo-waa050613.php&#34;&gt;Eurekalert&lt;/a&gt;, &lt;a href=&#34;http://phys.org/news/2013-05-we-almost-always-buy-in.html&#34;&gt;Phys.org&lt;/a&gt;, &lt;a href=&#34;http://www.sciencedaily.com/releases/2013/05/130506095303.htm?utm_source=feedburner&amp;amp;utm_medium=feed&amp;amp;utm_campaign=Feed%3A+sciencedaily+%28ScienceDaily%3A+Latest+Science+News%29&#34;&gt;ScienceDaily&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;Compramos casi siempre en las mismas tiendas [&lt;a href=&#34;http://www.uc3m.es/portal/page/portal/repositorio_noticias/noticias_generales/Compramos%20casi%20siempre%20en%20las%20mismas%20tiendas&#34;&gt;UC3M&lt;/a&gt;, &lt;a href=&#34;http://www.puromarketing.com/88/16069/compramos-siempre-mismas-tiendas.html&#34;&gt;Puromarketing&lt;/a&gt;, &lt;a href=&#34;http://madridiario.es/ciencia-tecnologia/universidad-carlos-iii/estudio-compras/400756&#34;&gt;MadridDiario&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;Consument keert altijd terug naar dezelfde winkels [&lt;a href=&#34;http://www.express.be/business/nl/marketing/consument-keert-altijd-terug-naar-dezelfde-winkels/190083.htm&#34;&gt;Express.be&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;Shopping Happiness is Bursts of Spontaneity Within The Routine [&lt;a href=&#34;http://analyzingmedia.com/2013/shopping-happiness-is-bursts-of-spontaneity-within-the-routine/&#34;&gt;AnalyzingMedia&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;Shoppers almost always land up at same place to buy [&lt;a href=&#34;http://truthdive.com/2013/05/07/Shoppers-almost-always-land-up-at-same-place-to-buy.html&#34;&gt;Truthdive&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;Creatures of habit [&lt;a href=&#34;http://www.talentzoo.com/beyond-madison-ave/blog_news.php?articleID=17464&#34;&gt;Beyond Madison Avenue&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;Los hábitos de los consumidores son monótonos y repetitivos [&lt;a href=&#34;http://www.tendencias21.net/Los-habitos-de-los-consumidores-son-monotonos-y-repetitivos_a17956.html&#34;&gt;Tendencias21&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;Shopping habits predictable to a point [&lt;a href=&#34;http://www.abc.net.au/science/articles/2013/04/19/3740905.htm&#34;&gt;ABC.net.au&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;Nuestros hábitos de consumo son repetitivos y por tanto predecibles [&lt;a href=&#34;http://www.uam.es/ss/Satellite/es/1242652871049/1242671372062/notcientifica/notCientific/Nuestros_habitos_de_consumo_son_repetitivos_y_por_tanto_predecibles,_concluye_un_estudio_sobre_patro.htm&#34;&gt;UAM&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;Somos repetitivos y predecibles a la hora de comprar [&lt;a href=&#34;http://www.innovaspain.com/detalle_noticia.php?noticia=2341&#34;&gt;Innovaspain&lt;/a&gt;]&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -65,9 +145,10 @@ Abstract: We consider hundreds of thousands of individual economic transactions 
       <pubDate>Tue, 09 Apr 2013 07:43:09 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2013-04-09-limited-communication-capacity-unveils-strategies-for-human-interaction/</guid>
-      <description>Authors: Giovanna Miritello, Rubén Lara, Manuel Cebrián and Esteban Moro
-Journal: Scientific Reports 3, 1950 (2013). LINK
-Abstract: Social connectivity is the key process that characterizes the structural properties of social networks and in turn processes such as navigation, influence or information diffusion. Since time, attention and cognition are inelastic resources, humans should have a predefined strategy to manage their social interactions over time. However, the limited observational length of existing human interaction datasets, together with the bursty nature of dyadic communications have hampered the observation of tie dynamics in social networks.</description>
+      <description>&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Giovanna Miritello, Rubén Lara, Manuel Cebrián and Esteban Moro&lt;br&gt;
+&lt;em&gt;Journal&lt;/em&gt;: Scientific Reports &lt;strong&gt;3&lt;/strong&gt;, 1950 (2013). &lt;strong&gt;&lt;a href=&#34;http://www.nature.com/srep/2013/130606/srep01950/full/srep01950.html&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Social connectivity is the key process that characterizes the structural properties of social networks and in turn processes such as navigation, influence or information diffusion. Since time, attention and cognition are inelastic resources, humans should have a predefined strategy to manage their social interactions over time. However, the limited observational length of existing human interaction datasets, together with the bursty nature of dyadic communications have hampered the observation of tie dynamics in social networks. Here we develop a method for the detection of tie activation/deactivation, and apply it to a large longitudinal, cross-sectional communication dataset (≈19 months, ≈ 20 million people). Contrary to the perception of ever-growing connectivity, we observe that individuals exhibit a finite communication capacity, which limits the number of ties they can maintain active. In particular we find that men have an overall higher communication capacity than women and that this capacity decreases gradually for both sexes over the lifespan of individuals (16-70 years). We are then able to separate communication capacity from communication activity, revealing a diverse range of tie activation patterns, from stable to exploratory. We find that, in simulation, individuals exhibiting exploratory strategies display longer time to receive information spreading in the network those individuals with stable strategies. Our principled method to determine the communication capacity of an individual allows us to quantify how strategies for human interaction shape the dynamical evolution of social networks.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -76,9 +157,10 @@ Abstract: Social connectivity is the key process that characterizes the structur
       <pubDate>Mon, 14 Jan 2013 08:52:59 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2013-01-14-time-as-a-limited-resource-communication-strategy-in-mobile-phone-networks/</guid>
-      <description>Authors: Giovanna Miritello, Esteban Moro, Rubén Lara, Rocío Martínez-López, Sam G. B. Roberts, Robin I. M. Dunbar
-Journal: Social Networks 35, 89 (2013) LINK | arXiv
-Abstract: We used a large database of 9 billion calls from 20 million mobile users to examine the relationships between aggregated time spent on the phone, personal network size, tiestrength and the way in which users distributed their limited time across their network (disparity). Compared to those with smaller networks, those with large networks did not devote proportionally more time to communication and had on average weaker ties (as measured by time spent communicating).</description>
+      <description>&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Giovanna Miritello, Esteban Moro, Rubén Lara, Rocío Martínez-López, Sam G. B. Roberts, Robin I. M. Dunbar&lt;br&gt;
+&lt;em&gt;Journal&lt;/em&gt;: Social Networks &lt;strong&gt;35&lt;/strong&gt;, 89 (2013) &lt;strong&gt;&lt;a href=&#34;https://www.sciencedirect.com/science/article/pii/S037887331300004X&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt; |  &lt;strong&gt;&lt;a href=&#34;http://arxiv.org/abs/1301.2464&#34;&gt;arXiv&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; We used a large database of 9 billion calls from 20 million mobile users to examine the relationships between aggregated time spent on the phone, personal network size, tiestrength and the way in which users distributed their limited time across their network (disparity). Compared to those with smaller networks, those with large networks did not devote proportionally more time to communication and had on average weaker ties (as measured by time spent communicating). Further, there were not substantially different levels of disparity between individuals, in that mobile users tend to distribute their time very unevenly across their network, with a large proportion of calls going to a small number of individuals. Together, these results suggest that there are time constraints which limit tie strength in large personal networks, and that even high levels of mobile communication do not fundamentally alter the disparity of time allocation across networks.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -87,9 +169,10 @@ Abstract: We used a large database of 9 billion calls from 20 million mobile use
       <pubDate>Thu, 25 Nov 2010 10:19:44 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2010-11-25-the-dynamical-strength-of-social-ties-in-information-spreading/</guid>
-      <description>Authors: Giovanna Miritello, Esteban Moro y Rubén Lara
-Journal: Physical Review E (Rapid Comm) 83, 045102 (2011). LINK | arXiv
-Abstract: We investigate the temporal patterns of human communication and its influence on the spreading of information in social networks. The analysis of mobile phone calls of 20 million people in one country shows that human communication is bursty and happens in group conversations. These features have opposite effects in information reach: while bursts hinder propagation at large scales, conversations favor local rapid cascades.</description>
+      <description>&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Giovanna Miritello, Esteban Moro y Rubén Lara&lt;br&gt;
+&lt;em&gt;Journal&lt;/em&gt;: Physical Review E (Rapid Comm) &lt;strong&gt;83&lt;/strong&gt;, 045102 (2011). &lt;strong&gt;&lt;a href=&#34;https://www.sciencedirect.com/science/article/pii/S0378873310000596&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt; | &lt;strong&gt;&lt;a href=&#34;https://arxiv.org/abs/1011.5367&#34;&gt;arXiv&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; We investigate the temporal patterns of human communication and its influence on the spreading of information in social networks. The analysis of mobile phone calls of 20 million people in one country shows that human communication is bursty and happens in group conversations. These features have opposite effects in information reach: while bursts hinder propagation at large scales, conversations favor local rapid cascades. To explain these phenomena we define the dynamical strength of social ties, a quantity that encompasses both the topological and temporal patterns of human communication.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

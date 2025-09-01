@@ -1,20 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>nobel prize on </title>
+    <title>Nobel Prize on </title>
     <link>https://estebanmoro.org/tags/nobel-prize/</link>
-    <description>Recent content in nobel prize on </description>
+    <description>Recent content in Nobel Prize on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Mon, 01 Dec 2008 07:40:05 +0000</lastBuildDate><atom:link href="https://estebanmoro.org/tags/nobel-prize/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 01 Dec 2008 07:40:05 +0000</lastBuildDate>
+    
+        <atom:link href="https://estebanmoro.org/tags/nobel-prize/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Is Game Theory a scientific theory?</title>
       <link>https://estebanmoro.org/2008/12/is-game-theory-a-scientific-theory/</link>
       <pubDate>Mon, 01 Dec 2008 07:40:05 +0000</pubDate>
       
       <guid>https://estebanmoro.org/2008/12/is-game-theory-a-scientific-theory/</guid>
-      <description>A wonderful quote about the nature of Game Theory
-Game theory is no doubt wonderful for telling stories. However, it flunks the main test of any scientific theory: The ability to make empirically testable predictions. In most real-life situations, many different outcomes -- from full cooperation to near-disastrous conflict -- are consistent with the game-theory version of rationality.  by Michael Mandel, on Kahneman and Smith 2002 Nobel Prize in Economics.</description>
+      <description>&lt;p&gt;A wonderful quote about the nature of Game Theory&lt;/p&gt;
+&lt;blockquote&gt;Game theory is no doubt wonderful for telling stories. However, it flunks the main test of any scientific theory: The ability to make empirically testable predictions. In most real-life situations, many different outcomes -- from full cooperation to near-disastrous conflict -- are consistent with the game-theory version of rationality. &lt;/blockquote&gt;
+&lt;p&gt;by Michael Mandel, on &lt;a href=&#34;http://www.businessweek.com/bwdaily/dnflash/oct2005/nf20051011_3028_db084.htm&#34;&gt;Kahneman and Smith 2002 Nobel Prize in Economics&lt;/a&gt;. &lt;/p&gt;
+&lt;p&gt;Interestingly enough, as of Dec. 1st 2008, google finds 3 million pages about &amp;ldquo;game theory&amp;rdquo;, half of them containing criticisms about it. Mostly about the abuse of the &amp;ldquo;rationality assumption&amp;rdquo; but also about the confusion about using it as a normative theory (i.e. a theory of how humans must behave) instead of descriptive picture (i.e. a mathematical way to explain how humans could behave). More on normative vs. descriptive analysis in the &lt;a href=&#34;http://en.wikipedia.org/wiki/Game_theory&#34;&gt;wikipedia&lt;/a&gt;.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

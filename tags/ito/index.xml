@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ito on </title>
@@ -6,14 +5,39 @@
     <description>Recent content in Ito on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Thu, 12 Feb 2009 08:21:42 +0000</lastBuildDate><atom:link href="https://estebanmoro.org/tags/ito/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 12 Feb 2009 08:21:42 +0000</lastBuildDate>
+    
+        <atom:link href="https://estebanmoro.org/tags/ito/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Itô calculus for the rest of us</title>
       <link>https://estebanmoro.org/post/2009-02-12-ito-calculus-for-the-rest-of-us/</link>
       <pubDate>Thu, 12 Feb 2009 08:21:42 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2009-02-12-ito-calculus-for-the-rest-of-us/</guid>
-      <description>One of the areas of my research is stochastic differential equations (SDE). I posted about it several times before. One of the things students and collaborators keep asking me about SDEs is the weird stochastic Itô Calculus. Itô Calculus is different from what you learn in 101 calculus. In particular, the chain rule is not longer valid. Let me explain it with an example. Suppose you have the following equation</description>
+      <description>&lt;p&gt;One of the areas of my research is stochastic differential equations (SDE). I posted about it &lt;a href=&#34;http://estebanmoro.org/2008/12/introduction-to-stochastic-differential-equations/&#34;&gt;several&lt;/a&gt; &lt;a href=&#34;http://estebanmoro.org/2008/11/kiyoshi-ito-93-dies/&#34;&gt;times&lt;/a&gt; &lt;a href=&#34;http://estebanmoro.org/2006/03/writing-bad-letters-of-recommendation-the-story-of-bachelier-and-levy/&#34;&gt;before&lt;/a&gt;. One of the things students and collaborators keep asking me about SDEs is the weird stochastic &lt;a href=&#34;http://en.wikipedia.org/wiki/Ito_stochastic_calculus&#34;&gt;Itô Calculus&lt;/a&gt;. Itô Calculus is different from what you learn in 101 calculus. In particular, the chain rule is not longer valid. Let me explain it with an example. Suppose you have the following equation&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;$$dX = a dW(t)$$&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;where &lt;code&gt;\(W(t)\)&lt;/code&gt; is the Wiener stochastic process: it is a process in which &lt;code&gt;\(W(0) = 0\)&lt;/code&gt; and with Gaussian independent increments &lt;code&gt;\(W(t)-W(s) \sim {\cal N}(0,t-s)\)&lt;/code&gt;, where &lt;code&gt;\({\cal N}(\mu,\sigma^2)\)&lt;/code&gt; are Gaussian random numbers with mean &lt;code&gt;\(\mu\)&lt;/code&gt; and variance &lt;code&gt;\(\sigma^2\)&lt;/code&gt;. This equation is the simplest SDE and its solution is (obviously),&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;$$X(t) = a W(t)$$&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;But there is a different way to look at SDEs. Since they describe the trayectory of &lt;code&gt;\(X(t)\)&lt;/code&gt; subject to &lt;code&gt;\(W(t)\)&lt;/code&gt; we can instead ask ourselves what is the probability to find that &lt;code&gt;\(X(t) = x\)&lt;/code&gt; in average, i.e. after many different runs of &lt;code&gt;\(W(t)\)&lt;/code&gt;. Let&amp;rsquo;s call &lt;code&gt;\(P(x,t)\)&lt;/code&gt;that probability which is known to satisfy the &lt;a href=&#34;http://en.wikipedia.org/wiki/Fokker%E2%80%93Planck_equation&#34;&gt;Fokker-Planck equation&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;$$\frac{dP}{dt}=a\frac{d^2P}{dx^2}$$&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;which is the simple diffusion equation. The following figure shows the relationship between &lt;code&gt;\(X(t)\)&lt;/code&gt; and &lt;code&gt;\(P(x,t)\)&lt;/code&gt;. While &lt;code&gt;\(X(t)\)&lt;/code&gt; is a simple trayectory (for a given &lt;code&gt;\(W(t)\)&lt;/code&gt; realization), &lt;code&gt;\(P(x,t)\)&lt;/code&gt; is the probability to find &lt;code&gt;\(X(t) = x\)&lt;/code&gt; over all possible realizations of &lt;code&gt;\(W(t)\)&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/img/posts/pdf1.jpg&#34; alt=&#34;pdf1&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The relationship between &lt;code&gt;\(X(t)\)&lt;/code&gt; and &lt;code&gt;\(P(x,t)\)&lt;/code&gt; is more general than for the example used here. In general, if we have the SDE&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;$$dX(t) = f(X,t)dt + g(X,t) dW(t)$$&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;in the Itô sense, then &lt;code&gt;\(P(x,t)\)&lt;/code&gt; is the solution of&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;$$\frac{\partial P}{\partial t}= - \frac{\partial}{\partial x}\left[f(x,t)P(x,t)\right] + \frac{\partial^2}{\partial x^2}\left[g^2(x,t)P(x,t)\right]$$&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;The term &lt;code&gt;\(f(x,t)\)&lt;/code&gt; is usually know as the drift and &lt;code&gt;\(g(x,t)\)&lt;/code&gt; is the diffusion term.&lt;/p&gt;
+&lt;p&gt;Once the relationship between the Fokker-Planck equation and its SDE is given, it is very easy to understand Itô Calculus. For example, given the above SDE &lt;code&gt;\(dX = a dW(t)\)&lt;/code&gt;, what is the SDE that will satisfy &lt;code&gt;\(Y(t) = X^2(t)\)&lt;/code&gt;?&lt;/p&gt;
+&lt;p&gt;Instead of using Itô&amp;rsquo;s lemma,  we will use the Fokker Planck equation and traditional calculus. Thus &lt;code&gt;\(\partial/\partial x = 2 \sqrt{y} \partial/\partial y\)&lt;/code&gt;. We also have that &lt;code&gt;\(P(x,t) dx = P(y,t) dy\)&lt;/code&gt; or &lt;code&gt;\(P(x,t) = 2 \sqrt{y} P(y,t)\)&lt;/code&gt;. Putting all these things together we get&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;$$\frac{\partial}{\partial t}2\sqrt{y}P(y,t) = \frac{a^2}{2}\left\{2\frac{\partial}{\partial y}+4y\frac{\partial^2}{\partial y^2}\right\}2\sqrt{y} P(y,t)$$&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;and with a little bit of algebra we get&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;$$\frac{\partial P}{\partial t}=-\frac{\partial}{\partial y}[a^2 P(y,t)] + \frac{a^2}{2}\frac{\partial^2}{\partial y^2}[4yP(y,t)]$$&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;which, according to the general relationship between Fokker-Planck equation and SDE, corresponds to the following SDE&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;$$dY = a^2 dt + 2a \sqrt{Y} dW(t)$$&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;as the Itô&amp;rsquo;s lemma says. Obviously, this way to get the Itô lemma is painful in general, so you’d better use it directly on the SDE instead of the method shown here which goes through the Fokker-Planck equation. However, it is interesting to see that you can recover it from the Fokker-Planck equation.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -22,8 +46,16 @@
       <pubDate>Thu, 04 Dec 2008 16:45:32 +0000</pubDate>
       
       <guid>https://estebanmoro.org/2008/12/introduction-to-stochastic-differential-equations/</guid>
-      <description>Stochastic differential equations (SDEs) are basically inhomogenous ordinary differential equations that depend on an external stochastic process.
-Typically, that stochastic process is white noise, which is the mathematical idealization of the noise found in nature. This idealization is handy, because it simplifies the mathematical description. However, this idealization comes at some cost: traditional calculus is no longer valid and you have to use the so-call Itô calculus. This introduces some non intuitive changes.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;http://en.wikipedia.org/wiki/Stochastic_differential_equation&#34;&gt;Stochastic differential equations&lt;/a&gt; (SDEs) are basically &lt;em&gt;inhomogenous ordinary differential equations that depend on an external stochastic process&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Typically, that stochastic process is &lt;a href=&#34;http://en.wikipedia.org/wiki/White_noise&#34;&gt;white noise&lt;/a&gt;, which is the mathematical idealization of the noise found in nature. This idealization is handy, because it simplifies the mathematical description. However, this idealization comes at some cost: traditional calculus is no longer valid and you have to use the so-call &lt;a href=&#34;http://en.wikipedia.org/wiki/Ito_stochastic_calculus&#34;&gt;Itô calculus&lt;/a&gt;. This introduces some non intuitive changes. For example, instead of the usual chain rule of calculus, the Itô formula should be used. Here is an example, the Itô integral of the Wiener process (or Brownian Motion) is&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/img/posts/itocalculus.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Note the last term in the right-hand-side (!).&lt;/p&gt;
+&lt;p&gt;If you are interested to learn more on SDEs:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;I prepared a long time ago &lt;a href=&#34;https://estebanmoro.org/img/ps/introtosde.pdf&#34;&gt;some notes&lt;/a&gt; about SDEs in Spanish&lt;/li&gt;
+&lt;li&gt;A &lt;a href=&#34;http://math.berkeley.edu/~evans/SDE.course.pdf&#34;&gt;nicer introduction&lt;/a&gt; to SDEs by Prof. Evans&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -32,7 +64,15 @@ Typically, that stochastic process is white noise, which is the mathematical ide
       <pubDate>Sun, 30 Nov 2008 22:17:18 +0000</pubDate>
       
       <guid>https://estebanmoro.org/2008/11/kiyoshi-ito-93-dies/</guid>
-      <description>November was a rather sad month in the world of stochastic differential equations. In the 26th we were suppose to be celebrating the birth of one of the best mathematicians in history, Norbert Wiener, who gives name to the Wiener process, usually denoted W(t). However, in the 10th, Kiyoshi Itô, the father of stochastic differential equations, passed away. Interestingly both are present in a simple stochastic differential equation like this</description>
+      <description>&lt;p&gt;&lt;a href=&#34;http://estebanmoro.org/wp-content/uploads/2008/11/ito.jpeg&#34;&gt;&lt;img src=&#34;http://estebanmoro.org/wp-content/uploads/2008/11/ito-242x300.jpg&#34; alt=&#34;&#34;&gt;
+&lt;/a&gt;November was a rather sad month in the world of stochastic differential equations. In the 26th we were suppose to be celebrating the birth of one of the best mathematicians in history, &lt;a href=&#34;http://en.wikipedia.org/wiki/Norbert_Wiener&#34;&gt;Norbert Wiener&lt;/a&gt;, who gives name to the Wiener process, usually denoted W(t). However, in the 10th, &lt;a href=&#34;en.wikipedia.org/wiki/Kiyoshi_It%C5%8D&#34;&gt;Kiyoshi Itô&lt;/a&gt;, the father of stochastic differential equations, &lt;a href=&#34;http://www.nytimes.com/2008/11/24/business/24ito.html?_r=1&amp;amp;ref=obituaries&#34;&gt;passed away&lt;/a&gt;. Interestingly both are present in a simple stochastic differential equation like this&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://estebanmoro.org/wp-content/uploads/2008/11/sdejpeg.jpg&#34;&gt;&lt;img src=&#34;http://estebanmoro.org/wp-content/uploads/2008/11/sdejpeg-300x22.jpg&#34; alt=&#34;&#34;&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;which serves as a tribute to both giants. More information:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  * [Mathematical work of Norbert Wiener](www.ams.org/notices/199506/mandrekar.pdf)
+  * [Kiyoshi Itô biography](http://www-groups.dcs.st-and.ac.uk/~history/Biographies/Ito.html)
+&lt;/code&gt;&lt;/pre&gt;
+</description>
     </item>
     
     <item>
@@ -41,7 +81,9 @@ Typically, that stochastic process is white noise, which is the mathematical ide
       <pubDate>Wed, 06 Sep 2006 08:13:26 +0000</pubDate>
       
       <guid>https://estebanmoro.org/2006/09/kiyoshi-ito-wins-the-gauss-prize/</guid>
-      <description>Kiyoshi Itô (90), professor emeritus at kyoto University, has become the first winner of the Gauss Prize. This prize is to honor scientist whose mathematical research has had an impact outside mathematics. Ito&amp;rsquo;s work, mainly in establishing a well defined calculus (named Ito&amp;rsquo;s calculus) to treat high irregular noise functions has got widespread application in describing several stochastic processes across fields like economics, biology, chemistry, physics, etc. Ito&amp;rsquo;s calculus is behind the pricing of options introduced by Black, Scholes and Merton (which got them a Nobel price).</description>
+      <description>&lt;p&gt;&lt;img src=&#34;http://estebanmoro.org/wp-content/uploads/2008/11/ito-242x300.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Kiyoshi Itô (90), professor emeritus at kyoto University, has become the first winner of the Gauss Prize. This prize is to honor scientist whose mathematical research has had an impact outside mathematics. Ito&amp;rsquo;s work, mainly in establishing a well defined calculus (named Ito&amp;rsquo;s calculus) to treat high irregular noise functions has got widespread application in describing several stochastic processes across fields like economics, biology, chemistry, physics, etc. Ito&amp;rsquo;s calculus is behind the pricing of options introduced by Black, Scholes and Merton (which got them a Nobel price). It is also the mathematical theory behind the formal description (Langevin equation) of the Brownian motion studied previously by Bachelier or Einstein: basically, Itô&amp;rsquo;s contribution was to give mathematical basis to the continuum time description (in terms of a differential equation) for the motion of a particle under random, uncorrelated kicks from other particles. The solution of this equation is a function of time which is nowhere differentiable but still continuous. Itô&amp;rsquo;s give precise way to handle with those solutions by what is known as stochastic calculus. Specifically, he is well known for the Itô&amp;rsquo;s lemma, which is a modification of the standard chain rule of normal calculus when the function that we are dealing with is either that stochastic path or a function of it.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -50,9 +92,12 @@ Typically, that stochastic process is white noise, which is the mathematical ide
       <pubDate>Mon, 01 Aug 2005 07:40:15 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2005-08-01-boundary-preserving-semi-analytical-numerical-algorithms-for-stochastic-differential-equations/</guid>
-      <description>Authors: Esteban Moro and Henri Schurz
-Journal: SIAM Journal of Scientific Computing, Volume 29 Issue 4, Pages 1525-1549 (2007). LINK | arXiv
-Abstract: Construction of splitting-step methods and properties of related non-negativity andboundary preserving numerical algorithms for solving stochastic differential equations (SDEs) of Ito-type are discussed. We present convergence proofs for a newly designed splitting-step algorithm and simulation studies for numerous numerical examples ranging from stochastic dynamics occurring in asset pricing theory in mathematical finance (SDEs of CIR and CEV models) to measure-valued diffusion and superBrownian motion (SPDEs) as met in biology and physics.</description>
+      <description>&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Esteban Moro and Henri Schurz&lt;br&gt;
+&lt;em&gt;Journal&lt;/em&gt;: SIAM Journal of Scientific Computing, Volume 29 Issue 4, Pages 1525-1549 (2007).
+&lt;strong&gt;&lt;a href=&#34;https://doi.org/10.1137/05063725X&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt; |  &lt;strong&gt;&lt;a href=&#34;https://arxiv.org/abs/math/0509724&#34;&gt;arXiv&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt;
+Construction of splitting-step methods and properties of related non-negativity andboundary preserving numerical algorithms for solving stochastic differential equations (SDEs) of Ito-type are discussed. We present convergence proofs for a newly designed splitting-step algorithm and simulation studies for numerous numerical examples ranging from stochastic dynamics occurring in asset pricing theory in mathematical finance (SDEs of CIR and CEV models) to measure-valued diffusion and superBrownian motion (SPDEs) as met in biology and physics.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

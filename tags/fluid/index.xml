@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Fluid on </title>
@@ -6,16 +5,21 @@
     <description>Recent content in Fluid on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Mon, 14 Mar 2016 09:06:19 +0000</lastBuildDate><atom:link href="https://estebanmoro.org/tags/fluid/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 14 Mar 2016 09:06:19 +0000</lastBuildDate>
+    
+        <atom:link href="https://estebanmoro.org/tags/fluid/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Fully nonlinear dynamics of stochastic thin-film dewetting</title>
       <link>https://estebanmoro.org/post/2015-12-28-fully-nonlinear-dynamics-of-stochastic-thin-film-dewetting/</link>
       <pubDate>Mon, 14 Mar 2016 09:06:19 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2015-12-28-fully-nonlinear-dynamics-of-stochastic-thin-film-dewetting/</guid>
-      <description>Authors: S. Nesic, R. Cuerno, E. Moro, and L. Kondic
-Journal: Physical Review E 92, 061002(R) LINK | PDF
-Abstract: The spontaneous formation of droplets via dewetting of a thin fluid film from a solid substrate allows materials nanostructuring. Often, it is crucial to be able to control the evolution, and to produce patterns characterized by regularly spaced droplets. While thermal fluctuations are expected to play a role in the dewetting process, their relevance has remained poorly understood, particularly during the nonlinear stages of evolution that involve droplet formation.</description>
+      <description>&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: S. Nesic, R. Cuerno, E. Moro, and L. Kondic&lt;br&gt;
+&lt;em&gt;Journal&lt;/em&gt;: Physical Review E &lt;strong&gt;92&lt;/strong&gt;, 061002(R) &lt;strong&gt;&lt;a href=&#34;http://journals.aps.org/pre/abstract/10.1103/PhysRevE.92.061002&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt; |  &lt;strong&gt;&lt;a href=&#34;http://gisc.uc3m.es/~cuerno/papers/pre_92_2015.pdf&#34;&gt;PDF&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; The spontaneous formation of droplets via dewetting of a thin fluid film from a solid substrate allows materials nanostructuring. Often, it is crucial to be able to control the evolution, and to produce patterns characterized by regularly spaced droplets. While thermal fluctuations are expected to play a role in the dewetting process, their relevance has remained poorly understood, particularly during the nonlinear stages of evolution that involve droplet formation. Within a stochastic lubrication framework, we show that thermal noise substantially influences the process of droplets formation. Stochastic systems feature a smaller number of droplets with a larger variability in size and space distribution, when compared to their deterministic counterparts. Finally, we discuss the influence of stochasticity on droplet coarsening for asymptotically long times.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -24,9 +28,15 @@ Abstract: The spontaneous formation of droplets via dewetting of a thin fluid fi
       <pubDate>Thu, 09 Feb 2006 09:19:42 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2006-02-09-spreading-of-viscous-fluid-drops-on-a-solid-substrate-assisted-by-thermal-fluctuations/</guid>
-      <description>Authors: Benny Davidovitch, Esteban Moro, and Howard A. Stone
-Journal: Physical Review Letters 95, 244505 (2005). LINK
-Abstract: We study the spreading of viscous drops on a solid substrate, taking into account the effects of thermal fluctuations in the fluid momentum. A nonlinear stochastic lubrication equation is derived and studied using numerical simulations and scaling analysis. We show that asymptotically spreading drops admit self-similar shapes, whose average radii can increase at rates much faster than these predicted by Tanner’s law.</description>
+      <description>&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Benny Davidovitch, Esteban Moro, and Howard A. Stone&lt;br&gt;
+&lt;em&gt;Journal&lt;/em&gt;: Physical Review Letters &lt;strong&gt;95&lt;/strong&gt;, 244505 (2005).
+&lt;strong&gt;&lt;a href=&#34;https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.95.244505&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt;
+We study the spreading of viscous drops on a solid substrate, taking into account the effects of thermal fluctuations in the fluid momentum. A nonlinear stochastic lubrication equation is derived and studied using numerical simulations and scaling analysis. We show that asymptotically spreading drops admit self-similar shapes, whose average radii can increase at rates much faster than these predicted by Tanner’s law. We discuss the physical realizability of our results for thin molecular and complex fluid films, and predict that such phenomenon can in principal be observed in various flow geometries.&lt;/p&gt;
+&lt;!-- more --&gt;
+&lt;h3 id=&#34;spreading-nanodrops-shake-it-speed-it&#34;&gt;&lt;strong&gt;Spreading nanodrops: shake it, speed it!&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;How rapidly liquid droplets spread can have significant implications not just for daily kitchen functions, but also for technological and geophysical problems such as placing ultrathin films on surfaces  or estimating diffusion rate of contamination. The usual approach to thinking about this question views the liquid film as smooth and uses  hydrodynamic theory, which neglects the random nature of molecular motion, to quantify the spreading rate (see the simulation shown top right). While this approach works well for describing spreading of macroscopic drops, in a recent PRL Davidovitch, Moro and Stone [1] argue that this might not be the case for the dynamics of spreading nanodrops. They showed that incorporating effects of thermal agitation into the hydrodynamic description of the spreading process leads to fluctuating shapes and enhanced spreading rates of nanodrops (compare the simulations shown at right; the lower describes an average over many realizations of the spreading dynamics where thermal effects are included). Their findings suggest that the traditional continuum characterization of fluids should be supplemented with thermal fluctuations and probably other microscopic mechanisms to correctly describe the motion of fluids at nanoscales.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

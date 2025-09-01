@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Social Mobilization on </title>
@@ -6,16 +5,39 @@
     <description>Recent content in Social Mobilization on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Mon, 01 Apr 2013 20:37:19 +0000</lastBuildDate><atom:link href="https://estebanmoro.org/tags/social-mobilization/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 01 Apr 2013 20:37:19 +0000</lastBuildDate>
+    
+        <atom:link href="https://estebanmoro.org/tags/social-mobilization/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Limits of social mobilization</title>
       <link>https://estebanmoro.org/post/2013-04-01-limits-of-social-mobilization/</link>
       <pubDate>Mon, 01 Apr 2013 20:37:19 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2013-04-01-limits-of-social-mobilization/</guid>
-      <description>Authors: Alex Rutherford, Manuel Cebrian, Sohan Dsouza, Esteban Moro, Alex Pentland, and Iyad Rahwan
-Journal: PNAS 110 (16), 6281-6286 (2013) LINK
-Abstract: The Internet and social media have enabled the mobilization of large crowds to achieve time-critical feats, ranging from mapping crises in real time, to organizing mass rallies, to conducting search-and-rescue operations over large geographies. Despite significant success, selection bias may lead to inflated expectations of the efficacy of social mobilization for these tasks.</description>
+      <description>&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Alex Rutherford, Manuel Cebrian, Sohan Dsouza, Esteban Moro, Alex Pentland, and Iyad Rahwan&lt;br&gt;
+&lt;em&gt;Journal&lt;/em&gt;: PNAS &lt;strong&gt;110&lt;/strong&gt; (16), 6281-6286 (2013) &lt;strong&gt;&lt;a href=&#34;http://www.pnas.org/content/early/2013/03/27/1216338110.abstract&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; The Internet and social media have enabled the mobilization of large crowds to achieve time-critical feats, ranging from mapping crises in real time, to organizing mass rallies, to conducting search-and-rescue operations over large geographies. Despite significant success, selection bias may lead to inflated expectations of the efficacy of social mobilization for these tasks. What are the limits of social mobilization, and how reliable is it in operating at these limits? We build on recent results on the spatiotemporal structure of social and information networks to elucidate the constraints they pose on social mobilization. We use the DARPA Network Challenge as our working scenario, in which social media were used to locate 10 balloons across the United States. We conduct high-resolution simulations for referral-based crowdsourcing and obtain a statistical characterization of the population recruited, geography covered, and time to completion. Our results demonstrate that the outcome is plausible without the presence of mass media but lies at the limit of what time-critical social mobilization can achieve. Success relies critically on highly connected individuals willing to mobilize people in distant locations, overcoming the local trapping of diffusion in highly dense areas. However, even under these highly favorable conditions, the risk of unsuccessful search remains significant. These findings have implications for the design of better incentive schemes for social mobilization. They also call for caution in estimating the reliability of this capability.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Press:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;How social media mobilizes society [&lt;a href=&#34;http://www.livescience.com/28341-social-media-helps-mobilize-society.html&#34;&gt;LiveScience&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;La movilización por redes sociales puede ser rápida, pero tiene límites (EFE, El Diario Vasco, La Información, &lt;a href=&#34;http://www.muyinteresante.es/tecnologia/articulo/la-movilizacion-por-redes-sociales-es-rapida-pero-tiene-limites-431364993906&#34;&gt;Muy Interesante&lt;/a&gt;) [&lt;a href=&#34;http://www.eleconomista.es/ciencia-eAm/noticias/4714085/04/13/La-movilizacion-por-redes-sociales-puede-ser-rapida-pero-tiene-limites.html&#34;&gt;link&lt;/a&gt;,&lt;a href=&#34;http://noticias.lainformacion.com/ciencia-y-tecnologia/geografia/la-movilizacion-por-redes-sociales-puede-ser-rapida-pero-tiene-limites_aLUmE7atwRZa7EJiiLP7U3/&#34;&gt;link2&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;Researchers root out the limits of social mobilization [&lt;a href=&#34;http://phys.org/news/2013-04-root-limits-social-mobilization.html&#34;&gt;Phys.org&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;Usar las redes sociales para movilizar tiene límites [&lt;a href=&#34;http://www.uc3m.es/portal/page/portal/actualidad_cientifica/noticias/limites_redes_sociales&#34;&gt;UC3M&lt;/a&gt;, &lt;a href=&#34;http://www.abc.es/agencias/noticia.asp?noticia=1388850&#34;&gt;ABC.es&lt;/a&gt;, &lt;a href=&#34;http://www.finanzas.com/noticias/empresas/20130406/usar-redes-sociales-para-2267962.html&#34;&gt;Finanzas.com&lt;/a&gt; &lt;a href=&#34;http://www.efe.com/efe/noticias/espana/tecnologia/usar-las-redes-sociales-para-movilizar-tiene-limites-segun-estudio-uc3m/1/30/2008555&#34;&gt;EFE&lt;/a&gt;, &lt;a href=&#34;http://www.agenciasinc.es/Noticias/Las-movilizaciones-en-las-redes-sociales-son-rapidas-pero-con-un-alto-riesgo-de-fracaso&#34;&gt;AgenciaSinc&lt;/a&gt;, &lt;a href=&#34;http://www.madrimasd.org/queesmadrimasd/En_Prensa/notas/notasdesglose.asp?id=2065&#34;&gt;Madri+d&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;Using social networks for mobilization has its limits [&lt;a href=&#34;http://www.uc3m.es/portal/page/portal/actualidad_cientifica/noticias/social_networks_limits&#34;&gt;UC3M&lt;/a&gt;, &lt;a href=&#34;http://www.sciencenewsline.com/articles/2013040820000012.html&#34;&gt;ScienceNewsLine&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;¿Son las Redes sociales una buena herramienta de movilización social en situaciones críticas ? (audio) [&lt;a href=&#34;http://www.rtve.es/alacarta/audios/cronica-del-exterior/cronica-del-exterior-son-redes-sociales-buena-herramienta-movilizacion-social-situaciones-criticas/1746725/&#34;&gt;RTVE&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;Las movilizaciones en redes sociales son muy eficientes, si están dirigidas [&lt;a href=&#34;http://www.tendencias21.net/Las-movilizaciones-en-redes-sociales-son-muy-eficientes-si-estan-dirigidas_a16916.html&#34;&gt;Tendencias21&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;Facebook passes research test for quick responses, collaboration [&lt;a href=&#34;http://www.nbcnews.com/technology/technolog/facebook-passes-research-test-quick-responses-collaboration-1C9168738&#34;&gt;NBCNEWS.com&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;Social media has limited mobilisation power [&lt;a href=&#34;http://www.abc.net.au/science/articles/2013/04/02/3726067.htm&#34;&gt;ABC Science&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;Las movilizaciones en las redes sociales son rápidas, pero con un alto riesgo de fracaso [&lt;a href=&#34;http://www.rdipress.com/03/04/2013/las-movilizaciones-en-las-redes-sociales-son-rapidas-pero-con-un-alto-riesgo-de-fracaso/&#34;&gt;RDI Press&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;Researchers look into the use of social networks in emergency communications [&lt;a href=&#34;http://www.continuitycentral.com/news06715.html&#34;&gt;Continuity Central&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;Un experimento pone a prueba a las redes sociales [&lt;a href=&#34;http://www.larazon.es/detalle_normal/noticias/1711280/un-experimento-pone-a-prueba-a-las-redes-socia&#34;&gt;La Razón&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;Masdar Institute Researchers Quantify the &amp;lsquo;Reliability&amp;rsquo; of Social Media for Time-Critical Mobilization [&lt;a href=&#34;http://www.zawya.com/story/Masdar_Institute_Researchers_Quantify_the_Reliability_of_Social_Media_for_TimeCritical_Mobilization-ZAWYA20130418082012/&#34;&gt;Zawya&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;MIT researchers quantify ‘reliability’ of social media for mass mobilisation [&lt;a href=&#34;http://gulftoday.ae/portal/8a29ac8f-ed12-4ee4-bff0-11a7a97f782f.aspx&#34;&gt;The Gulf Today&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;El poder y la flaqueza de las redes sociales [&lt;a href=&#34;http://www.conec.es/2013/04/el-poder-y-la-flaqueza-de-las-redes-sociales/&#34;&gt;Conec&lt;/a&gt;]&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
   </channel>

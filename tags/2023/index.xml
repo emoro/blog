@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2023 on </title>
@@ -6,17 +5,30 @@
     <description>Recent content in 2023 on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Sun, 19 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://estebanmoro.org/tags/2023/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 19 Nov 2023 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://estebanmoro.org/tags/2023/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>The unequal effects of the health–economy trade-off during the COVID19 pandemic</title>
       <link>https://estebanmoro.org/post/2023-11-20-the-unequal-effects-of-the-health-economy-trade-off-during-the-covid-19-pandemic/</link>
       <pubDate>Sun, 19 Nov 2023 00:00:00 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2023-11-20-the-unequal-effects-of-the-health-economy-trade-off-during-the-covid-19-pandemic/</guid>
-      <description>Authors: Marco Pangallo, Alberto Aleta, R. Maria del Rio-Chanona, Anton Pichler, David Martin-Corral, Matteo Chinazzi, Francois Lafond, Marco Ajelli, Esteban Moro, Yamir Moreno, Alessandro Vespignani, J. Doyne Farmer
-Publication: Nature Human Behavior, Nov 16th, (2023)
-LINK
-Abstract: Despite the global impact of the coronavirus disease 2019 pandemic, the question of whether mandated interventions have similar economic and public health effects as spontaneous behavioural change remains unresolved. Addressing this question, and understanding differential effects across socioeconomic groups, requires building quantitative and fine-grained mechanistic models.</description>
+      <description>
+
+
+&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Marco Pangallo, Alberto Aleta, R. Maria del Rio-Chanona, Anton Pichler, David Martin-Corral, Matteo Chinazzi, Francois Lafond, Marco Ajelli, Esteban Moro, Yamir Moreno, Alessandro Vespignani, J. Doyne Farmer&lt;br&gt;
+&lt;em&gt;Publication&lt;/em&gt;: Nature Human Behavior, Nov 16th, (2023)&lt;br&gt; &lt;strong&gt;&lt;a href=&#34;https://www.nature.com/articles/s41562-023-01747-x&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Despite the global impact of the coronavirus disease 2019 pandemic, the question of whether mandated interventions have similar economic and public health effects as spontaneous behavioural change remains unresolved. Addressing this question, and understanding differential effects across socioeconomic groups, requires building quantitative and fine-grained mechanistic models. Here we introduce a data-driven, granular, agent-based model that simulates epidemic and economic outcomes across industries, occupations and income levels. We validate the model by reproducing key outcomes of the first wave of coronavirus disease 2019 in the New York metropolitan area. The key mechanism coupling the epidemic and economic modules is the reduction in consumption due to fear of infection. In counterfactual experiments, we show that a similar trade-off between epidemic and economic outcomes exists both when individuals change their behaviour due to fear of infection and when non-pharmaceutical interventions are imposed. Low-income workers, who perform in-person occupations in customer-facing industries, face the strongest trade-off.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Media&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.ox.ac.uk/news/2023-11-17-epidemic-economic-model-provides-answers-key-pandemic-policy-questions&#34;&gt;Epidemic-economic model provides answers to key pandemic policy questions&lt;/a&gt;, News &amp;amp; Events, University of Oxford&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://socialsciences.nature.com/posts/the-unequal-effects-of-the-health-economy-tradeoff-during-the-covid-19-pandemic&#34;&gt;The unequal effects of the health-economy tradeoff during the COVID-19 pandemic&lt;/a&gt;, Behavioral and Social Sciences at Nature Research.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://ssrc.mit.edu/epidemic-economic-model-provides-answers-to-key-pandemic-policy-questions/&#34;&gt;Epidemic-economic model provides answers to key pandemic policy questions&lt;/a&gt;, MIT SSRC NEWS.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -25,10 +37,20 @@ Abstract: Despite the global impact of the coronavirus disease 2019 pandemic, th
       <pubDate>Sat, 18 Nov 2023 00:00:00 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2023-11-20-population-mobility-data-provides-meaningful-indicators-of-fast-food-intake-and-diet-related-diseases-in-diverse-populations/</guid>
-      <description>Authors: Abigail L. Horn, Brooke M. Bell, Bernardo Garcia Bulle Bueno, Mohsen Bahrami, Burcin Bozkaya, Yan Cui, John P. Wilson, Alex Pentland, Esteban Moro, Kayla de la Haye
-Publication: NPJ Digital Medicine 6, 208 (2023)
-LINK
-Abstract: The characteristics of food environments people are exposed to, such as the density of fast food (FF) outlets, can impact their diet and risk for diet-related chronic disease. Previous studies examining the relationship between food environments and nutritional health have produced mixed findings, potentially due to the predominant focus on static food environments around people’s homes.</description>
+      <description>
+
+
+&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Abigail L. Horn, Brooke M. Bell, Bernardo Garcia Bulle Bueno, Mohsen Bahrami, Burcin Bozkaya, Yan Cui, John P. Wilson, Alex Pentland, Esteban Moro, Kayla de la Haye&lt;br&gt;
+&lt;em&gt;Publication&lt;/em&gt;: NPJ Digital Medicine &lt;strong&gt;6&lt;/strong&gt;, 208 (2023)&lt;br&gt; &lt;strong&gt;&lt;a href=&#34;https://www.nature.com/articles/s41746-023-00949-x&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; The characteristics of food environments people are exposed to, such as the density of fast food (FF) outlets, can impact their diet and risk for diet-related chronic disease. Previous studies examining the relationship between food environments and nutritional health have produced mixed findings, potentially due to the predominant focus on static food environments around people’s homes. As smartphone ownership increases, large-scale data on human mobility (i.e., smartphone geolocations) represents a promising resource for studying dynamic food environments that people have access to and visit as they move throughout their day. This study investigates whether mobility data provides meaningful indicators of diet, measured as FF intake, and diet-related disease, evaluating its usefulness for food environment research. Using a mobility dataset consisting of 14.5 million visits to geolocated food outlets in Los Angeles County (LAC) across a representative sample of 243,644 anonymous and opted-in adult smartphone users in LAC, we construct measures of visits to FF outlets aggregated over users living in neighborhood. We find that the aggregated measures strongly and significantly correspond to self-reported FF intake, obesity, and diabetes in a diverse, representative sample of 8,036 LAC adults included in a population health survey carried out by the LAC Department of Public Health. Visits to FF outlets were a better predictor of individuals’ obesity and diabetes than their self-reported FF intake, controlling for other known risks. These findings suggest mobility data represents a valid tool to study people’s use of dynamic food environments and links to diet and health.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Media&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://viterbischool.usc.edu/news/2023/11/are-you-at-risk-for-diet-related-disease-where-you-spend-your-day-plays-a-role/&#34;&gt;Are You at Risk for Diet-Related Disease? Where You Spend Your Day Plays a Role&lt;/a&gt; USC Viterbi News.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://interestingengineering.com/innovation/smartphone-location-data-used-to-evaluate-risk-of-diet-related-disease&#34;&gt;Smartphone location data used to evaluate risk of diet-related disease&lt;/a&gt;, Interesting Engineering.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.techtimes.com/articles/299261/20231129/smartphones-help-evaluate-diet-related-diseases-users-location-study.htm&#34;&gt;Smartphones Can Help Evaluate Diet-Related Diseases, All Based on a User’s Location, Study Suggests&lt;/a&gt;, Tech Times.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://ustimespost.com/smartphone-data-reveals-link-between-fast-food-outlets-and-diet-related-illnesses/&#34;&gt;Smartphone data reveals link between fast food outlets and diet-related illnesses&lt;/a&gt; US Times Post.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -37,9 +59,26 @@ Abstract: The characteristics of food environments people are exposed to, such a
       <pubDate>Fri, 21 Apr 2023 00:00:00 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2023-04-21-behavioral-changes-during-the-covid-19-pandemic-decreased-income-diversity-of-urban-encounters/</guid>
-      <description>Authors: Takahiro Yabe, Bernardo García Bulle Bueno, Xiaowen Dong, Alex Pentland &amp;amp; Esteban Moro
-Publication: Nature Communications volume 14, Article number: 2310 (2023) LINK
-Abstract: Diversity of physical encounters in urban environments is known to spur economic productivity while also fostering social capital. However, mobility restrictions during the pandemic have forced people to reduce urban encounters, raising questions about the social implications of behavioral changes. In this paper, we study how individual income diversity of urban encounters changed during the pandemic, using a large-scale, privacy-enhanced mobility dataset of more than one million anonymized mobile phone users in Boston, Dallas, Los Angeles, and Seattle, across three years spanning before and during the pandemic.</description>
+      <description>
+
+
+&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Takahiro Yabe, Bernardo García Bulle Bueno, Xiaowen Dong, Alex Pentland &amp;amp; Esteban Moro&lt;br&gt;
+&lt;em&gt;Publication&lt;/em&gt;: Nature Communications volume 14, Article number: 2310 (2023) &lt;br&gt; &lt;strong&gt;&lt;a href=&#34;https://www.nature.com/articles/s41467-023-37913-y&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Diversity of physical encounters in urban environments is known to spur economic productivity while also fostering social capital. However, mobility restrictions during the pandemic have forced people to reduce urban encounters, raising questions about the social implications of behavioral changes. In this paper, we study how individual income diversity of urban encounters changed during the pandemic, using a large-scale, privacy-enhanced mobility dataset of more than one million anonymized mobile phone users in Boston, Dallas, Los Angeles, and Seattle, across three years spanning before and during the pandemic. We find that the diversity of urban encounters has substantially decreased (by 15% to 30%) during the pandemic and has persisted through late 2021, even though aggregated mobility metrics have recovered to pre-pandemic levels. Counterfactual analyses show that behavioral changes including lower willingness to explore new places further decreased the diversity of encounters in the long term. Our findings provide implications for managing the trade-off between the stringency of COVID-19 policies and the diversity of urban encounters as we move beyond the pandemic.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Media&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://news.mit.edu/2023/study-covid-19-reduced-diverse-urban-interactions-0428&#34;&gt;Study: Covid-19 has reduced diverse urban interactions&lt;/a&gt;, MIT News.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.techexplorist.com/comparative-study-urban-interactions-before-after-covid-19/59561/?utm_source=rss&amp;amp;utm_medium=rss&amp;amp;utm_campaign=comparative-study-urban-interactions-before-after-covid-19&#34;&gt;A comparative study of urban interactions before and after covid-19&lt;/a&gt; Tech Explorist.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://phys.org/news/2023-04-mobility-related-pandemic-limited-breadth-people.html&#34;&gt;Mobility-related data show the pandemic has limited the breadth of places people visit in cities&lt;/a&gt;, Phys.org.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.bostonglobe.com/2023/05/10/opinion/covid-reduced-wealthy-poor-interactions&#34;&gt;COVID made us retreat into our corners. A worrisome new study says we haven’t left them&lt;/a&gt;, Boston Globe&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://eng.ox.ac.uk/news/covid-19-has-reduced-diverse-urban-interactions/&#34;&gt;Covid-19 has reduced diverse urban interactions&lt;/a&gt; University of Oxford.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://socialsciences.nature.com/posts/covid-19-has-reduced-diverse-urban-interactions&#34;&gt;Behind the paper: COVID-19 reduced diverse urban interactions&lt;/a&gt; Behavioral and Social Sciences at Nature Portfolio.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.bloomberg.com/news/articles/2023-05-18/residents-of-us-cities-are-stuck-in-post-pandemic-socialization-rut&#34;&gt;Americans Have Become Less Willing to Explore Their Own Cities&lt;/a&gt; CityLab Bloomberg.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.fox4news.com/news/americans-are-not-exploring-their-own-cities-like-they-used-to-study-says&#34;&gt;Americans are not exploring their own cities like they used to, study says&lt;/a&gt;, Fox 4 News&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.seattletimes.com/seattle-news/in-seattle-were-seeing-the-splitting-of-a-city/&#34;&gt;In Seattle, we’re seeing the splitting of a city&lt;/a&gt;, The Seattle Times.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.geekwire.com/2023/study-shows-how-pandemic-decreased-income-diversity-of-urban-encounters-even-after-lockdowns/&#34;&gt;Study shows how pandemic decreased income diversity of urban encounters, even after lockdowns&lt;/a&gt;, Geek Wire.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
   </channel>

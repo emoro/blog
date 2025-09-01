@@ -1,19 +1,38 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>arcsin law on </title>
+    <title>Arcsin Law on </title>
     <link>https://estebanmoro.org/tags/arcsin-law/</link>
-    <description>Recent content in arcsin law on </description>
+    <description>Recent content in Arcsin Law on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Tue, 14 Apr 2009 11:37:02 +0000</lastBuildDate><atom:link href="https://estebanmoro.org/tags/arcsin-law/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 14 Apr 2009 11:37:02 +0000</lastBuildDate>
+    
+        <atom:link href="https://estebanmoro.org/tags/arcsin-law/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>The probability of going through a bad patch</title>
       <link>https://estebanmoro.org/2009/04/the-probability-of-going-through-a-bad-patch/</link>
       <pubDate>Tue, 14 Apr 2009 11:37:02 +0000</pubDate>
       
       <guid>https://estebanmoro.org/2009/04/the-probability-of-going-through-a-bad-patch/</guid>
-      <description>We&amp;rsquo;ve heard it: people that invest on the stock market or that gamble in lotteries, casinos, etc usually say &amp;ldquo;I&amp;rsquo;m going through a bad patch&amp;rdquo; (or bad spell). That is, they have been losing money for a while, but hey! better times are ahead and there&amp;rsquo;s no reason to quit. Are they sure? Are better times ahead? How close is &amp;ldquo;ahead&amp;rdquo; to today? Let&amp;rsquo;s work through a specific example to see how far is &amp;ldquo;ahead&amp;rdquo;.</description>
+      <description>&lt;p&gt;We&amp;rsquo;ve heard it: people that invest on the stock market or that gamble in lotteries, casinos, etc usually say &amp;ldquo;I&amp;rsquo;m going through a bad patch&amp;rdquo; (or bad spell). That is, they have been losing money for a while, but hey! better times are ahead and there&amp;rsquo;s no reason to quit. Are they sure? Are better times ahead? How close is &amp;ldquo;ahead&amp;rdquo; to today? Let&amp;rsquo;s work through a specific example to see how far is &amp;ldquo;ahead&amp;rdquo;. Suppose we play a fair game: we toss a coin and with probability 1/2 we get $1 (heads) and with probability 1/2 we lose $1 (tails). We play the game &lt;code&gt;\(n\)&lt;/code&gt; times and compute our capital &lt;code&gt;\(C(n)\)&lt;/code&gt; up to time &lt;code&gt;\(n\)&lt;/code&gt;. If our initial capital is zero, then we expect that our capital fluctuate around zero as the coin-tossing game goes on. Sometimes we will be in the &amp;ldquo;winning area&amp;rdquo;, where our capital is positive &lt;code&gt;\(C(n)\)&lt;/code&gt; &amp;gt; 0. However, we can also be in the &amp;ldquo;losing area&amp;rdquo; in which our capital is negative &lt;code&gt;\(C(n)\)&lt;/code&gt; &amp;lt; 0. If we are going through a bad patch (being in the losing area) we expect that waiting long enough we will recover and come back to the winning area.&lt;/p&gt;
+&lt;p&gt;But this is incorrect. Let me show you why: let&amp;rsquo;s use some mathematics. Suppose that &lt;code&gt;\(x_i\)&lt;/code&gt; is the gain (+$1) or lose (-$1) in toss &lt;code&gt;\(i\)&lt;/code&gt; of the coin. Since our coin is fair, then &lt;code&gt;\(x_i\)&lt;/code&gt; is a random number which takes +1 or -1 with equal probability (1/2). Thus the capital up to time &lt;code&gt;\(n\)&lt;/code&gt; is the sum of those random numbers&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;$$C(n) = \sum_{i=1}^n x_i$$&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;\(C(n)\)&lt;/code&gt; is then the sum of &lt;code&gt;\(n\)&lt;/code&gt; equally distributed random numbers. In other contexts, &lt;code&gt;\(C(n)\)&lt;/code&gt; is also know as a &lt;a href=&#34;http://en.wikipedia.org/wiki/Random_walk&#34;&gt;random walk&lt;/a&gt;. We can apply the &lt;a href=&#34;http://en.wikipedia.org/wiki/Law_of_large_numbers&#34;&gt;law of large numbers&lt;/a&gt; and the &lt;a href=&#34;http://en.wikipedia.org/wiki/Central_limit_theorem&#34;&gt;central limit theorem&lt;/a&gt; to know something about &lt;code&gt;\(C(n)\)&lt;/code&gt;. For example, the expected value of &lt;code&gt;\(C(n)\)&lt;/code&gt; is&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;$$\mathbb{E}[C(n)] = 0$$&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;as expected, since it is a fair game. Thus we have equal probability of being winning or losing at time &lt;code&gt;\(n\)&lt;/code&gt;. However, &lt;code&gt;\(C(n)\)&lt;/code&gt; fluctuates wildly around zero and in fact&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;$$Var[C(n)] = n$$&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Thus our capital at time &lt;code&gt;\(n\)&lt;/code&gt; is mostly in an interval of area &lt;code&gt;\(\sqrt{n}\)&lt;/code&gt; around zero, as shown in the next graph.&lt;/p&gt;
+&lt;center&gt;
+![](/img/posts/cn.jpg)&lt;/center&gt;
+&lt;p&gt;The graphs shows 4 realizations of the game (colors) and the lines are the &lt;code&gt;\(\sqrt{n}\)&lt;/code&gt; areas in which our capital is mostly expected. As we can see in the &amp;ldquo;red&amp;rdquo; game, we starting losing money, but after a while we recover and went back to the &amp;ldquo;winning area&amp;rdquo;. Now the question is: what is the probability that we are in the winning area? Specifically, what is the probability &lt;code&gt;\(P(\alpha)\)&lt;/code&gt; that we are in the winning area ($C(n)$ &amp;gt; 0) for a fraction &lt;code&gt;\(\alpha\)&lt;/code&gt; of the total &lt;code&gt;\(n\)&lt;/code&gt; turns? The naive reasoning in the introduction will tell us that since &lt;code&gt;\(C(n)\)&lt;/code&gt; is fluctuating around zero we expect that the probability will be peaked and 1/2 and thus half of the time we will be in a bad patch and half of the time we will be going through a good spell. Thus, if we are going through a bad patch, we have only to wait to come back to black numbers. However, this is not true. The probability &lt;code&gt;\(P(\alpha)\)&lt;/code&gt; can be &lt;a href=&#34;http://math.berkeley.edu/~chr/teach/Lec14_2006.pdf&#34;&gt;worked out&lt;/a&gt; (although not trivially) to get&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;$$P(\alpha) = \frac{1}{\pi\sqrt{\alpha(1-\alpha)}}$$&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/img/posts/pdfa.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;In the limit &lt;code&gt;\(n\to \infty\)&lt;/code&gt;, which is known as the&lt;a href=&#34;http://www.math.unl.edu/~sdunbar1/Teaching/MathematicalFinance/Lessons/CoinTossing/ExcessHeads/excessheads.shtml&#34;&gt; arc-sine law&lt;/a&gt; (since the cumulative distribution of &lt;code&gt;\(P(\alpha)\)&lt;/code&gt; is the arc-sin function). As the plot in the right shows the probability is peaked at 1 and 0 (actually, it diverges there!). Thus, for most of the realizations of the game we are most of the time in the winning area or in the losing area. This means that our naive reasoning above does not work: if you expect to recover from a bad patch, your chances are very small. This is obvious if we look at the colored figure above: the orange and black trajectories do not change from one winning/losing area to the other and, apart from the initial steps of the game, they remain in the winning/losing areas forever. The explanation for this behavior is that the &lt;a href=&#34;http://lib.stat.cmu.edu/~genovese/class/iprob-S06/notes/lec5-calcs.pdf&#34;&gt;first return time&lt;/a&gt; of &lt;code&gt;\(C(n)\)&lt;/code&gt; to zero is oftenly large. Actually, its expected time is infinite, which means that once you get into the positive/negative area you remain (mostly) there.&lt;/p&gt;
+&lt;p&gt;Note however, that there is no paradox in what we have found and the fact that &lt;code&gt;\(\mathbb{E}[C(n)] = 0\)&lt;/code&gt;, since &lt;code&gt;\(P(\alpha)\)&lt;/code&gt; is symmetric around &lt;code&gt;\(\alpha = 1/2\)&lt;/code&gt; and thus if we play the game a large number of times, on average, we have the same chances of winning and losing. But not for an individual game in which mostly we will be in a bad or good patch forever.&lt;/p&gt;
+&lt;p&gt;What is the moral? Simple: if you get into a bad patch, leave the game. Because chances to recover from a bad patch are small.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

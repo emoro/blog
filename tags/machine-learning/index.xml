@@ -1,20 +1,28 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>machine learning on </title>
+    <title>Machine Learning on </title>
     <link>https://estebanmoro.org/tags/machine-learning/</link>
-    <description>Recent content in machine learning on </description>
+    <description>Recent content in Machine Learning on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Thu, 18 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://estebanmoro.org/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 18 May 2023 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://estebanmoro.org/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Identifying latent activity behaviors and lifestyles using mobility data to describe urban dynamics</title>
       <link>https://estebanmoro.org/post/2022-11-28-identifying-latent-activity-behaviors-and-lifestyles-using-mobility-data-to-describe-urban-dynamics/</link>
       <pubDate>Thu, 18 May 2023 00:00:00 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2022-11-28-identifying-latent-activity-behaviors-and-lifestyles-using-mobility-data-to-describe-urban-dynamics/</guid>
-      <description>Authors: Yanni Yang, Alex Pentland, Esteban Moro Publication: EPJ Data Science 12, Article number: 15 (2023) LINK
-Abstract: Urbanization and its problems require an in-depth and comprehensive understanding of urban dynamics, especially the complex and diversified lifestyles in modern cities. Digitally acquired data can accurately capture complex human activity, but it lacks the interpretability of demographic data. In this paper, we study a privacy-enhanced dataset of the mobility visitation patterns of 1.</description>
+      <description>
+
+
+&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Yanni Yang, Alex Pentland, Esteban Moro &lt;br&gt;
+&lt;em&gt;Publication&lt;/em&gt;: EPJ Data Science &lt;strong&gt;12&lt;/strong&gt;, Article number: 15 (2023) &lt;strong&gt;&lt;a href=&#34;https://epjdatascience.springeropen.com/articles/10.1140/epjds/s13688-023-00390-w&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Urbanization and its problems require an in-depth and comprehensive understanding of urban dynamics, especially the complex and diversified lifestyles in modern cities. Digitally acquired data can accurately capture complex human activity, but it lacks the interpretability of demographic data. In this paper, we study a privacy-enhanced dataset of the mobility visitation patterns of 1.2 million people to 1.1 million places in 11 metro areas in the U.S. to detect the latent mobility behaviors and lifestyles in the largest American cities. Despite the considerable complexity of mobility visitations, we found that lifestyles can be automatically decomposed into only 12 latent interpretable activity behaviors on how people combine shopping, eating, working, or using their free time. Rather than describing individuals with a single lifestyle, we find that city dwellers’ behavior is a mixture of those behaviors. Those detected latent activity behaviors are equally present across cities and cannot be fully explained by main demographic features. Finally, we find those latent behaviors are associated with dynamics like experienced income segregation, transportation, or healthy behaviors in cities, even after controlling for demographic features. Our results signal the importance of complementing traditional census data with activity behaviors to understand urban dynamics.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -23,8 +31,13 @@ Abstract: Urbanization and its problems require an in-depth and comprehensive un
       <pubDate>Fri, 24 Feb 2023 00:00:00 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2023-02-24-a-city-is-not-a-static-tree/</guid>
-      <description>Authors:Esteban Moro Publication: ZARCH, 19, 28–39. 2023 LINK
-Abstract: Cities are the main ground on which our society and culture develop today and will evolve in the future. Against the traditional understanding of cities as physical spaces mostly around our neighborhoods, recent use of large-scale mobility datasets has enabled the study of our behavior at unprecedented spatial and temporal scales, much beyond our static residential spaces. Here we show how it is possible to use these datasets to investigate the role that human behavior plays in traditional urban problems like segregation, public health, or epidemics.</description>
+      <description>
+
+
+&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;:Esteban Moro &lt;br&gt;
+&lt;em&gt;Publication&lt;/em&gt;: ZARCH, &lt;b&gt;19&lt;/b&gt;, 28–39. 2023 &lt;br&gt; &lt;strong&gt;&lt;a href=&#34;https://doi.org/10.26754/ojs_zarch/zarch.2022197407&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Cities are the main ground on which our society and culture develop today and will evolve in the future. Against the traditional understanding of cities as physical spaces mostly around our neighborhoods, recent use of large-scale mobility datasets has enabled the study of our behavior at unprecedented spatial and temporal scales, much beyond our static residential spaces. Here we show how it is possible to use these datasets to investigate the role that human behavior plays in traditional urban problems like segregation, public health, or epidemics. Apart from measuring or monitoring such problems in a more comprehensive way, the analysis of those large datasets using modern machine learning techniques or causality detection permits to unveil of the behavioral roots behind them. As a result, only by incorporating real-time behavioral data can we design more efficient policies or interventions to improve such critical societal issues in our urban areas.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

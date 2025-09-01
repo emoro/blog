@@ -1,20 +1,31 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Stochastic differential equation on </title>
+    <title>Stochastic Differential Equation on </title>
     <link>https://estebanmoro.org/tags/stochastic-differential-equation/</link>
-    <description>Recent content in Stochastic differential equation on </description>
+    <description>Recent content in Stochastic Differential Equation on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Thu, 04 Dec 2008 16:45:32 +0000</lastBuildDate><atom:link href="https://estebanmoro.org/tags/stochastic-differential-equation/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 04 Dec 2008 16:45:32 +0000</lastBuildDate>
+    
+        <atom:link href="https://estebanmoro.org/tags/stochastic-differential-equation/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Introduction to stochastic differential equations</title>
       <link>https://estebanmoro.org/2008/12/introduction-to-stochastic-differential-equations/</link>
       <pubDate>Thu, 04 Dec 2008 16:45:32 +0000</pubDate>
       
       <guid>https://estebanmoro.org/2008/12/introduction-to-stochastic-differential-equations/</guid>
-      <description>Stochastic differential equations (SDEs) are basically inhomogenous ordinary differential equations that depend on an external stochastic process.
-Typically, that stochastic process is white noise, which is the mathematical idealization of the noise found in nature. This idealization is handy, because it simplifies the mathematical description. However, this idealization comes at some cost: traditional calculus is no longer valid and you have to use the so-call Itô calculus. This introduces some non intuitive changes.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;http://en.wikipedia.org/wiki/Stochastic_differential_equation&#34;&gt;Stochastic differential equations&lt;/a&gt; (SDEs) are basically &lt;em&gt;inhomogenous ordinary differential equations that depend on an external stochastic process&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Typically, that stochastic process is &lt;a href=&#34;http://en.wikipedia.org/wiki/White_noise&#34;&gt;white noise&lt;/a&gt;, which is the mathematical idealization of the noise found in nature. This idealization is handy, because it simplifies the mathematical description. However, this idealization comes at some cost: traditional calculus is no longer valid and you have to use the so-call &lt;a href=&#34;http://en.wikipedia.org/wiki/Ito_stochastic_calculus&#34;&gt;Itô calculus&lt;/a&gt;. This introduces some non intuitive changes. For example, instead of the usual chain rule of calculus, the Itô formula should be used. Here is an example, the Itô integral of the Wiener process (or Brownian Motion) is&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/img/posts/itocalculus.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Note the last term in the right-hand-side (!).&lt;/p&gt;
+&lt;p&gt;If you are interested to learn more on SDEs:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;I prepared a long time ago &lt;a href=&#34;https://estebanmoro.org/img/ps/introtosde.pdf&#34;&gt;some notes&lt;/a&gt; about SDEs in Spanish&lt;/li&gt;
+&lt;li&gt;A &lt;a href=&#34;http://math.berkeley.edu/~evans/SDE.course.pdf&#34;&gt;nicer introduction&lt;/a&gt; to SDEs by Prof. Evans&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -23,7 +34,15 @@ Typically, that stochastic process is white noise, which is the mathematical ide
       <pubDate>Sun, 30 Nov 2008 22:17:18 +0000</pubDate>
       
       <guid>https://estebanmoro.org/2008/11/kiyoshi-ito-93-dies/</guid>
-      <description>November was a rather sad month in the world of stochastic differential equations. In the 26th we were suppose to be celebrating the birth of one of the best mathematicians in history, Norbert Wiener, who gives name to the Wiener process, usually denoted W(t). However, in the 10th, Kiyoshi Itô, the father of stochastic differential equations, passed away. Interestingly both are present in a simple stochastic differential equation like this</description>
+      <description>&lt;p&gt;&lt;a href=&#34;http://estebanmoro.org/wp-content/uploads/2008/11/ito.jpeg&#34;&gt;&lt;img src=&#34;http://estebanmoro.org/wp-content/uploads/2008/11/ito-242x300.jpg&#34; alt=&#34;&#34;&gt;
+&lt;/a&gt;November was a rather sad month in the world of stochastic differential equations. In the 26th we were suppose to be celebrating the birth of one of the best mathematicians in history, &lt;a href=&#34;http://en.wikipedia.org/wiki/Norbert_Wiener&#34;&gt;Norbert Wiener&lt;/a&gt;, who gives name to the Wiener process, usually denoted W(t). However, in the 10th, &lt;a href=&#34;en.wikipedia.org/wiki/Kiyoshi_It%C5%8D&#34;&gt;Kiyoshi Itô&lt;/a&gt;, the father of stochastic differential equations, &lt;a href=&#34;http://www.nytimes.com/2008/11/24/business/24ito.html?_r=1&amp;amp;ref=obituaries&#34;&gt;passed away&lt;/a&gt;. Interestingly both are present in a simple stochastic differential equation like this&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://estebanmoro.org/wp-content/uploads/2008/11/sdejpeg.jpg&#34;&gt;&lt;img src=&#34;http://estebanmoro.org/wp-content/uploads/2008/11/sdejpeg-300x22.jpg&#34; alt=&#34;&#34;&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;which serves as a tribute to both giants. More information:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  * [Mathematical work of Norbert Wiener](www.ams.org/notices/199506/mandrekar.pdf)
+  * [Kiyoshi Itô biography](http://www-groups.dcs.st-and.ac.uk/~history/Biographies/Ito.html)
+&lt;/code&gt;&lt;/pre&gt;
+</description>
     </item>
     
     <item>
@@ -32,9 +51,15 @@ Typically, that stochastic process is white noise, which is the mathematical ide
       <pubDate>Thu, 09 Feb 2006 09:19:42 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2006-02-09-spreading-of-viscous-fluid-drops-on-a-solid-substrate-assisted-by-thermal-fluctuations/</guid>
-      <description>Authors: Benny Davidovitch, Esteban Moro, and Howard A. Stone
-Journal: Physical Review Letters 95, 244505 (2005). LINK
-Abstract: We study the spreading of viscous drops on a solid substrate, taking into account the effects of thermal fluctuations in the fluid momentum. A nonlinear stochastic lubrication equation is derived and studied using numerical simulations and scaling analysis. We show that asymptotically spreading drops admit self-similar shapes, whose average radii can increase at rates much faster than these predicted by Tanner’s law.</description>
+      <description>&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Benny Davidovitch, Esteban Moro, and Howard A. Stone&lt;br&gt;
+&lt;em&gt;Journal&lt;/em&gt;: Physical Review Letters &lt;strong&gt;95&lt;/strong&gt;, 244505 (2005).
+&lt;strong&gt;&lt;a href=&#34;https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.95.244505&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt;
+We study the spreading of viscous drops on a solid substrate, taking into account the effects of thermal fluctuations in the fluid momentum. A nonlinear stochastic lubrication equation is derived and studied using numerical simulations and scaling analysis. We show that asymptotically spreading drops admit self-similar shapes, whose average radii can increase at rates much faster than these predicted by Tanner’s law. We discuss the physical realizability of our results for thin molecular and complex fluid films, and predict that such phenomenon can in principal be observed in various flow geometries.&lt;/p&gt;
+&lt;!-- more --&gt;
+&lt;h3 id=&#34;spreading-nanodrops-shake-it-speed-it&#34;&gt;&lt;strong&gt;Spreading nanodrops: shake it, speed it!&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;How rapidly liquid droplets spread can have significant implications not just for daily kitchen functions, but also for technological and geophysical problems such as placing ultrathin films on surfaces  or estimating diffusion rate of contamination. The usual approach to thinking about this question views the liquid film as smooth and uses  hydrodynamic theory, which neglects the random nature of molecular motion, to quantify the spreading rate (see the simulation shown top right). While this approach works well for describing spreading of macroscopic drops, in a recent PRL Davidovitch, Moro and Stone [1] argue that this might not be the case for the dynamics of spreading nanodrops. They showed that incorporating effects of thermal agitation into the hydrodynamic description of the spreading process leads to fluctuating shapes and enhanced spreading rates of nanodrops (compare the simulations shown at right; the lower describes an average over many realizations of the spreading dynamics where thermal effects are included). Their findings suggest that the traditional continuum characterization of fluids should be supplemented with thermal fluctuations and probably other microscopic mechanisms to correctly describe the motion of fluids at nanoscales.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -43,9 +68,12 @@ Abstract: We study the spreading of viscous drops on a solid substrate, taking i
       <pubDate>Mon, 01 Aug 2005 07:40:15 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2005-08-01-boundary-preserving-semi-analytical-numerical-algorithms-for-stochastic-differential-equations/</guid>
-      <description>Authors: Esteban Moro and Henri Schurz
-Journal: SIAM Journal of Scientific Computing, Volume 29 Issue 4, Pages 1525-1549 (2007). LINK | arXiv
-Abstract: Construction of splitting-step methods and properties of related non-negativity andboundary preserving numerical algorithms for solving stochastic differential equations (SDEs) of Ito-type are discussed. We present convergence proofs for a newly designed splitting-step algorithm and simulation studies for numerous numerical examples ranging from stochastic dynamics occurring in asset pricing theory in mathematical finance (SDEs of CIR and CEV models) to measure-valued diffusion and superBrownian motion (SPDEs) as met in biology and physics.</description>
+      <description>&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Esteban Moro and Henri Schurz&lt;br&gt;
+&lt;em&gt;Journal&lt;/em&gt;: SIAM Journal of Scientific Computing, Volume 29 Issue 4, Pages 1525-1549 (2007).
+&lt;strong&gt;&lt;a href=&#34;https://doi.org/10.1137/05063725X&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt; |  &lt;strong&gt;&lt;a href=&#34;https://arxiv.org/abs/math/0509724&#34;&gt;arXiv&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt;
+Construction of splitting-step methods and properties of related non-negativity andboundary preserving numerical algorithms for solving stochastic differential equations (SDEs) of Ito-type are discussed. We present convergence proofs for a newly designed splitting-step algorithm and simulation studies for numerous numerical examples ranging from stochastic dynamics occurring in asset pricing theory in mathematical finance (SDEs of CIR and CEV models) to measure-valued diffusion and superBrownian motion (SPDEs) as met in biology and physics.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -54,9 +82,12 @@ Abstract: Construction of splitting-step methods and properties of related non-n
       <pubDate>Sat, 23 Oct 2004 09:41:58 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2004-10-23-numerical-schemes-for-continuum-models-of-reaction-diffusion-systems-subject-to-internal-noise/</guid>
-      <description>Authors: Esteban Moro
-Journal: Physical Review E (Rapid Communication) 70, 045102 (2004). LINK | arXiv
-Abstract: We present numerical schemes to integrate stochastic partial differential equations which describe the spatiotemporal dynamics of reaction-diffusion problems under the effect of internal fluctuations. The schemes conserve the non-negativity of the solutions and incorporate the Poissonian nature of internal fluctuations at small densities, their performance being limited by the level of approximation of density fluctuations at small scales.</description>
+      <description>&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Esteban Moro&lt;br&gt;
+&lt;em&gt;Journal&lt;/em&gt;: Physical Review E (Rapid Communication) &lt;strong&gt;70&lt;/strong&gt;, 045102 (2004).
+&lt;strong&gt;&lt;a href=&#34;https://journals.aps.org/pre/abstract/10.1103/PhysRevE.70.045102&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt; |  &lt;strong&gt;&lt;a href=&#34;https://arxiv.org/abs/cond-mat/0404583&#34;&gt;arXiv&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt;
+We present numerical schemes to integrate stochastic partial differential equations which describe the spatiotemporal dynamics of reaction-diffusion problems under the effect of internal fluctuations. The schemes conserve the non-negativity of the solutions and incorporate the Poissonian nature of internal fluctuations at small densities, their performance being limited by the level of approximation of density fluctuations at small scales. We apply the schemes to two different aspects of the Reggeon model, namely, the study of its nonequilibrium phase transition and the dynamics of fluctuating pulled fronts. In the latter case, our approach allows us to reproduce microscopic properties quantitatively within the continuum model&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -65,10 +96,12 @@ Abstract: We present numerical schemes to integrate stochastic partial different
       <pubDate>Mon, 25 Aug 2003 09:44:10 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2003-08-25-emergence-of-pulled-fronts-in-fermionic-microscopic-particle-models/</guid>
-      <description>Authors: Esteban Moro
-Phys. Rev. E, Rapid Communication, 68, 025102 (2003). LINK | arXiv
-Abstract:
-We study the emergence and dynamics of pulled fronts described by the Fisher-Kolmogorov-Petrovsky-Piscounov (FKPP) equation in the microscopic reaction-diffusion process \(A\leftrightarrow A+A\) on the lattice when only a particle is allowed per site. To this end we identify the parameter that controls the strength of internal fluctuations in this model, namely, the number of particles per correlated volume.</description>
+      <description>&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Esteban Moro&lt;br&gt;
+Phys. Rev. E, Rapid Communication, &lt;strong&gt;68&lt;/strong&gt;, 025102 (2003). &lt;strong&gt;&lt;a href=&#34;https://journals.aps.org/pre/abstract/10.1103/PhysRevE.68.025102&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt; |  &lt;strong&gt;&lt;a href=&#34;https://arxiv.org/abs/cond-mat/0307378&#34;&gt;arXiv&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;We study the emergence and dynamics of pulled fronts described by the Fisher-Kolmogorov-Petrovsky-Piscounov (FKPP) equation in the microscopic reaction-diffusion process &lt;code&gt;\(A\leftrightarrow A+A\)&lt;/code&gt; on the lattice when only a particle is allowed per site. To this end we identify the parameter that controls the strength of internal fluctuations in this model, namely, the number of particles per correlated volume. When internal fluctuations are suppressed, we explictly see the matching between the deterministic FKPP description and the microscopic particle model&lt;/p&gt;
+&lt;!--- **Press:** ----&gt;
+</description>
     </item>
     
     <item>
@@ -77,9 +110,12 @@ We study the emergence and dynamics of pulled fronts described by the Fisher-Kol
       <pubDate>Tue, 11 Mar 2003 09:45:25 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2003-03-11-defect-formation-in-the-swift-hohenberg-equation/</guid>
-      <description>Authors: Tobias Galla and Esteban Moro
-Journal: Phys. Rev. E, Rapid Communication 67, 035101 (2003). LINK | arXiv
-Abstract: We study numerically and analytically the dynamics of defect formation during a finite-time quench of the two-dimensional Swift-Hohenberg (SH) model of Rayleigh-Bénard convection. We find that the Kibble-Zurek picture of defect formation can be applied to describe the density of defects produced during the quench. Our study reveals the relevance of two factors: the effect of local variations of the striped patterns within defect-free domains and the presence of both pointlike and extended defects.</description>
+      <description>&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Tobias Galla and Esteban Moro&lt;br&gt;
+Journal: Phys. Rev. E, Rapid Communication &lt;strong&gt;67&lt;/strong&gt;, 035101 (2003). &lt;strong&gt;&lt;a href=&#34;https://journals.aps.org/pre/abstract/10.1103/PhysRevE.67.035101&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt; |  &lt;strong&gt;&lt;a href=&#34;https://arxiv.org/abs/cond-mat/0302010&#34;&gt;arXiv&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt;
+We study numerically and analytically the dynamics of defect formation during a finite-time quench of the two-dimensional Swift-Hohenberg (SH) model of Rayleigh-Bénard convection. We find that the Kibble-Zurek picture of defect formation can be applied to describe the density of defects produced during the quench. Our study reveals the relevance of two factors: the effect of local variations of the striped patterns within defect-free domains and the presence of both pointlike and extended defects. Taking into account these two aspects we are able to identify the characteristic length scale selected during the quench and to relate it to the density of defects. We discuss possible consequences of our study for the analysis of the coarsening process of the SH model.&lt;/p&gt;
+&lt;!--- **Press:** ----&gt;
+</description>
     </item>
     
   </channel>

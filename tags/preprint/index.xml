@@ -1,19 +1,44 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>preprint on </title>
+    <title>Preprint on </title>
     <link>https://estebanmoro.org/tags/preprint/</link>
-    <description>Recent content in preprint on </description>
+    <description>Recent content in Preprint on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Tue, 09 Dec 2008 09:05:42 +0000</lastBuildDate><atom:link href="https://estebanmoro.org/tags/preprint/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 09 Dec 2008 09:05:42 +0000</lastBuildDate>
+    
+        <atom:link href="https://estebanmoro.org/tags/preprint/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>New section in the arXiv: Quantitative Finance</title>
       <link>https://estebanmoro.org/2008/12/new-section-in-the-arxiv-quantitative-finance/</link>
       <pubDate>Tue, 09 Dec 2008 09:05:42 +0000</pubDate>
       
       <guid>https://estebanmoro.org/2008/12/new-section-in-the-arxiv-quantitative-finance/</guid>
-      <description>News from the arXiv: a new section has been created to host preprints about Quantitative Finance. The section (as stated in the press release) intends to fix a problem with existing pre-print repositories. One one hand, social sciences repositories like SSRN, RepEC/IDEAS and others are too academic for practitioners, while on the other hand sites like defaultrisk.com or wilmott.com have not attracted many academic contributors. The new category in the arXiv would be a gathering point for both practitioners and academic people working in this important research field</description>
+      <description>&lt;p&gt;News from the &lt;a href=&#34;http://arxiv.org/&#34;&gt;arXiv&lt;/a&gt;: a new section has been created to host preprints about Quantitative Finance. The section (as stated in the &lt;a href=&#34;http://arxiv.org/new/q-fin_announcement.html&#34;&gt;press release&lt;/a&gt;) intends to fix a problem with existing pre-print repositories. One one hand, social sciences repositories like SSRN, RepEC/IDEAS and others are too academic for practitioners, while on the other hand sites like defaultrisk.com or wilmott.com have not attracted many academic contributors. The new category in the arXiv would be a gathering point for both practitioners and academic people working in this important research field&lt;/p&gt;
+&lt;p&gt;The new sub-categories of the new q-fin category are:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  * q-fin.PR - Pricing of Securities
+  * q-fin.RM - Risk Management
+  * q-fin.PM - Portfolio Management
+  * q-fin.TR - Trading and Microstructure
+  * q-fin.ST - Statistical Finance
+  * q-fin.CP - Computational Finance
+  * q-fin.GN - General Finance
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The arXiv editors have already identified a large number of submissions to the repository which already fit in the q-fin category. These preprints have been re-classified and can be already found in the new category.&lt;/p&gt;
+&lt;p&gt;I like this move by arXiv. In the last years, the arXiv has been growing steadily and it is now one of the biggest scientific electronic repositories. It offers a good service to publish electronically your preprints. It improves the visibility of your preprints and it has a bunch of handy tools for authors and researchers, like RSS feeds, trackbacks from blogs, Citebase (preprint citations), etc. &lt;a href=&#34;http://arxiv.org/abs/cs/0603056&#34;&gt;Recent studies&lt;/a&gt;, for example, have shown that posting your preprints to the arXiv lead to higher number of citations for mathematics articles. &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Although it started as a Physics repository, new disciplines (an subdisciplines) have been incorporated in the last years:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  * Physics (started in 1991 as a bulletin with only one section: hep-th)
+  * Nonlinear (created in 1993 and installed on xyz.lanl.gov)
+  * Mathematics (created in 1998)
+  * Computer Science (created in 1998)
+  * Quantitative Biology (created in 2003)
+  * Statistics (created in 2007)
+  * Quantitative Finance (created in 2008)
+&lt;/code&gt;&lt;/pre&gt;
+</description>
     </item>
     
   </channel>

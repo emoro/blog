@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Agents on </title>
@@ -6,16 +5,21 @@
     <description>Recent content in Agents on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Mon, 12 Mar 2012 21:12:54 +0000</lastBuildDate><atom:link href="https://estebanmoro.org/tags/agents/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 12 Mar 2012 21:12:54 +0000</lastBuildDate>
+    
+        <atom:link href="https://estebanmoro.org/tags/agents/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Agent-specific impact of single trades in financial markets</title>
       <link>https://estebanmoro.org/post/2012-03-12-agent-specific-impact-of-single-trades-in-financial-markets/</link>
       <pubDate>Mon, 12 Mar 2012 21:12:54 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2012-03-12-agent-specific-impact-of-single-trades-in-financial-markets/</guid>
-      <description>Authors: Alex Bladon, Esteban Moro y Tobias Galla
-Journal: Physical Review E 85, 036103 (2012) LINK | arXiv
-Abstract: We present an analysis of the price impact associated with single trades effected by different financial firms. Using data from the Spanish Stock Market, we find a high degree of heterogeneity across different market members, both in the instantaneous impact functions and in the time-dependent market response to trades by individual members.</description>
+      <description>&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Alex Bladon, Esteban Moro y Tobias Galla&lt;br&gt;
+&lt;em&gt;Journal&lt;/em&gt;: Physical Review E &lt;strong&gt;85&lt;/strong&gt;, 036103 (2012) &lt;strong&gt;&lt;a href=&#34;http://pre.aps.org/abstract/PRE/v85/i3/e036103&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt; | &lt;strong&gt;&lt;a href=&#34;https://arxiv.org/abs/1109.0119&#34;&gt;arXiv&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; We present an analysis of the price impact associated with single trades effected by different financial firms. Using data from the Spanish Stock Market, we find a high degree of heterogeneity across different market members, both in the instantaneous impact functions and in the time-dependent market response to trades by individual members. This heterogeneity is statistically incompatible with the existence of market-wide universal impact dynamics that apply uniformly to all trades and suggest that, rather, market dynamics emerge from the complex interaction of different behaviors of market participants. Several possible reasons for this are discussed, along with potential extensions one may consider to increase the range of applicability of existing models of market impact.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -24,9 +28,10 @@ Abstract: We present an analysis of the price impact associated with single trad
       <pubDate>Tue, 04 Aug 2009 08:03:11 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2009-08-04-market-impact-and-trading-proefac81le-of-large-trading-orders-in-stock-markets/</guid>
-      <description>Authors: Esteban Moro, Javier Vicente, Luis G. Moyano, Austin Gerig, J. Doyne Farmer, Gabriella Vaglica, Fabrizio Lillo and Rosario N. Mantegna
-Journal: Phys. Rev. E 80, 066102 (2009) LINK | arXiv
-Abstract: We empirically study the market impact of trading orders. We are speciﬁcally interested in large trading orders that are executed incrementally, which we call hidden orders. These are reconstructed based on information about market member codes using data from the Spanish Stock Market and the London Stock Exchange.</description>
+      <description>&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Esteban Moro, Javier Vicente, Luis G. Moyano, Austin Gerig, J. Doyne Farmer, Gabriella Vaglica, Fabrizio Lillo and Rosario N. Mantegna&lt;br&gt;
+&lt;em&gt;Journal&lt;/em&gt;: Phys. Rev. E 80, 066102 (2009) &lt;strong&gt;&lt;a href=&#34;http://journals.aps.org/pre/abstract/10.1103/PhysRevE.80.066102&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt; |  &lt;strong&gt;&lt;a href=&#34;https://arxiv.org/pdf/0908.0202v1.pdf&#34;&gt;arXiv&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; We empirically study the market impact of trading orders. We are speciﬁcally interested in large trading orders that are executed incrementally, which we call hidden orders. These are reconstructed based on information about market member codes using data from the Spanish Stock Market and the London Stock Exchange. We find that market impact is strongly concave, approximately increasing as the square root of order size. Furthermore, as a given order is executed, the impact grows in time according to a power-law; after the order is finished, it reverts to a level of about 0.5-0.7 of its value at its peak. We observe that hidden orders are executed at a rate that more or less matches trading in the overall market, except for small deviations at the beginning and end of the order.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -35,9 +40,16 @@ Abstract: We empirically study the market impact of trading orders. We are speci
       <pubDate>Wed, 04 Jul 2007 20:19:35 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2007-07-04-specialization-of-strategies-and-herding-behavior-of-trading-firms-in-a-financial-market/</guid>
-      <description>Authors: Fabrizio Lillo, Esteban Moro, Gabriella Vaglica y Rosario Mantegna
-Journal: New Journal of Physics 10 (2008) 043019 LINK arXiv
-Abstract: Agent-based models of ﬁnancial markets usually make assumptions about agent&amp;rsquo;s preferred stylized strategies. Empirical validations of these assumptions have not been performed so far on a full-market scale. Here we present a comprehensive study of the resulting strategies followed by the ﬁrms which are members of the Spanish Stock Exchange.</description>
+      <description>&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Fabrizio Lillo, Esteban Moro, Gabriella Vaglica y Rosario Mantegna&lt;br&gt;
+&lt;em&gt;Journal&lt;/em&gt;: New Journal of Physics &lt;strong&gt;10&lt;/strong&gt; (2008) 043019 &lt;strong&gt;&lt;a href=&#34;http://iopscience.iop.org/article/10.1088/1367-2630/10/4/043019/meta&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt;
+&lt;strong&gt;&lt;a href=&#34;https://arxiv.org/abs/0707.0385&#34;&gt;arXiv&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt;
+Agent-based models of ﬁnancial markets usually make assumptions  about agent&amp;rsquo;s preferred stylized strategies. Empirical validations of these assumptions have not been performed so far on a full-market scale. Here we present a comprehensive study of the resulting strategies followed by the ﬁrms which are members of the Spanish Stock Exchange. We are able to show that they can be characterized by a resulting strategy and classiﬁed in three well-deﬁned groups of ﬁrms. Firms of the ﬁrst group have a change of inventory of the traded stock which is positively correlated with the synchronous stock return, whereas ﬁrms of the second group show a negative correlation.Firms of the third group have an inventory variation uncorrelated with stock return. Firms tend to stay in the same group over the years indicating a long term specialization in the strategies controlling their inventory variation. We detect a clear asymmetry in the Granger causality between inventory variation of ﬁrms and stock return. We also detect herding in the buying and selling activity of ﬁrms. The herding properties of the two groups are markedly different and consistently observed over a four-year period of trading. Firms of the second group herd much more frequently than the ones of the ﬁrst group. Our results can be used as an empirical basis for agent-based models of ﬁnancial markets.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Press&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.madrimasd.org/informacionidi/noticias/noticia.asp?id=34530&amp;amp;tipo=g&#34;&gt;**Press Release (in spanish) **&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -46,9 +58,13 @@ Abstract: Agent-based models of ﬁnancial markets usually make assumptions abo
       <pubDate>Fri, 20 Apr 2007 09:54:57 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2007-04-20-scaling-laws-of-strategic-behavior-and-size-heterogeneity-in-agent-dynamics/</guid>
-      <description>Authors: Gabriella Vaglica, Fabrizio Lillo, Esteban Moro y Rosario N. Mantegna
-Journal: Physical Review E 77, 036110 (2008). LINK | arXiv
-Abstract: The dynamics of many socioeconomic systems is determined by the decision making process of agents. The decision process depends on agent&amp;rsquo;s characteristics, such as preferences, risk aversion, behavioral biases, etc. In addition, in some systems the size of agents can be highly heterogeneous leading to very different impacts of agents on the system dynamics.</description>
+      <description>&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Gabriella Vaglica, Fabrizio Lillo, Esteban Moro y Rosario N. Mantegna&lt;br&gt;
+&lt;em&gt;Journal&lt;/em&gt;: Physical Review E &lt;strong&gt;77&lt;/strong&gt;, 036110 (2008).
+&lt;strong&gt;&lt;a href=&#34;http://link.aps.org/doi/10.1103/PhysRevE.77.036110&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt; |
+&lt;strong&gt;&lt;a href=&#34;https://arxiv.org/abs/0704.2003&#34;&gt;arXiv&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt;
+The dynamics of many socioeconomic systems is determined by the decision making process of agents. The decision process depends on agent&amp;rsquo;s characteristics, such as preferences, risk aversion, behavioral biases, etc. In addition, in some systems the size of agents can be highly heterogeneous leading to very different impacts of agents on the system dynamics. The large size of some agents poses challenging problems to agents who want to control their impact, either by forcing the system in a given direction or by hiding their intentionality. Here we consider the financial market as a model system, and we study empirically how agents strategically adjust the properties of large orders in order to meet their preference and minimize their impact. We quantify this strategic behavior by detecting scaling relations of allometric nature between the variables characterizing the trading activity of different institutions. We observe power law distributions in the investment time horizon, in the number of transactions needed to execute a large order and in the traded value exchanged by large institutions and we show that heterogeneity of agents is a key ingredient for the emergence of some aggregate properties characterizing this complex system.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -57,9 +73,21 @@ Abstract: The dynamics of many socioeconomic systems is determined by the decisi
       <pubDate>Tue, 31 Aug 2004 21:23:29 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2004-08-31-the-minority-game-an-introductory-guide/</guid>
-      <description>Authors: Esteban Moro
-Book: Advances in Condensed Matter and __Statistical Physics, _E. Korutcheva and R. Cuerno eds. (Nova Science Publishers, New York 2004). LINK | arXiv
-Abstract: The Minority Game is a simple model for the collective behavior of agents in an idealized situation where they have to compete through adaptation for a finite resource. This review summarizes the statistical mechanics community efforts to clear up and understand the behavior of this model.</description>
+      <description>&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Esteban Moro&lt;br&gt;
+&lt;em&gt;Book&lt;/em&gt;: Advances in Condensed Matter and __Statistical Physics, _E. Korutcheva and R. Cuerno eds. (Nova Science Publishers, New York 2004).
+&lt;strong&gt;&lt;a href=&#34;https://journals.aps.org/pre/abstract/10.1103/PhysRevE.69.060101&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt; |  &lt;strong&gt;&lt;a href=&#34;https://arxiv.org/abs/cond-mat/0402651&#34;&gt;arXiv&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:
+The Minority Game is a simple model for the collective behavior of agents in an idealized situation where they have to compete through adaptation for a finite resource. This review summarizes the statistical mechanics community efforts to clear up and understand the behavior of this model. Our emphasis is on trying to derive the underlying effective equations which govern the dynamics of the original Minority Game, and on making an interpretation of the results from the point of view of the statistical mechanics of disordered systems.&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&#34;introduction&#34;&gt;Introduction&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;There are 1011 stars in the galaxy. That used to be a huge number. But it’s only a hundred billion. It’s less than the national deficit! We used to call them astronomical numbers. Now we should call them economical numbers. (Richard Feynman)&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/img/posts/minoritygame.jpg&#34; alt=&#34;Cartoon of the Minority Game rules&#34;&gt;&lt;/p&gt;
+&lt;p&gt;During the last years, the statistical mechanics community has turned its attention to problems in social, biological and economic sciences. This is due to the fact that in those sciences, recent research has focused on the emergence of aggregates like economic institutions, migrations, patterns of behavior, etc., as a result of the outcome of dynamical interaction of many individual agent decisions [2, 42, 62, 55]. The differences of this approach with traditional studies are twofold: firstly, the fact that collective recognizable patterns are due to the interaction of many individuals. On the other hand, in the traditional neoclassical picture, agents are assumed to be hyperrational and have infinite information about other agents’ intentions. Under these circumstances, individuals jump directly into the steady state. However individuals are far from being hyperrational and their behavior often changes over time. Thus, new models consider explictly the dynamical approach towards the steady state through evolution, adaptation and/or learning of individuals. The dynamical nature of the problem poses new questions like whether individuals are able to reach a steady state and under which circumstances this steady state is stable.&lt;/p&gt;
+&lt;p&gt;The problem is thus very appealing to statistical mechanics researchers, since it is the study of many interacting degrees of freedom for which powerful tools and intuitions had been developed. However, the dynamics of the system might not be relaxing and the typical energy landscape in which steady states are identified with minima of a Lyapunov function so that the dynamical process executes a march which terminates at the bottom of one of the valleys could not be applicable. The situation is reminiscent of other areas at the borderline of statistical mechanics like Neural Networks [1] where sometimes is not possible to build up a Lyapunov function which the dynamics tend to minimize. In fact, as we will see below there are strong analogies of the model considered here with that area of research.&lt;/p&gt;
+&lt;p&gt;The model I consider here is called the Minority Game (MG) [12] which is the mathematical formulation of “El Farol Bar” problem considered by Brian Arthur [3]. The idea behind this problem is the study of how many individuals may reach a collective solution to a problem under adaptation of each one’s expectations about the future. As the models mentioned before, the MG is a dynamical system of many interacting degrees of freedom. However, the MG includes two new features which make it different: the first one is the minority rule, which makes a complete steady state in the community impossible. Thus, dust is never settled since individuals keep changing and adapting in quest of a non-existing equilibrium. The second ingredient is that the collectivity of individuals is heterogeneous, since individuals have different ways to tackle available information about the game and convert it into expectations about future. Effectively, the minority rule and heterogeneity translate into mean-field interaction, frustration and quenched disorder in the model, ideas which are somehow familiar to disordered systems in condensed matter [57, 61]. Actually, the MG is related to those systems and some of the techniques of disordered systems can be applied to understand its behavior.&lt;/p&gt;
+&lt;p&gt;At this point, I hope the reader is convinced that the MG is an interesting problem from the statistical mechanics point of view: is a complex dynamical disordered system which can be understood with techniques from statistical physics. In fact, most of the research about the MG problem has been done inside the physics community. However, the El Farol bar problem originates in the economic literature, although it represents a fierce assault on the conventions of standard economics. In this sense either the El Farol bar or the MG are interesting from the economic and game theory point of view as well. My intention here is to present the statistical mechanics approach to this problem and to explain how different concepts of economists and game theory translate into physics terminology. This biased review is the author’s effort to explain to physicists what is known about the MG. I make no attempt to be encyclopedic or chronologically historical.&lt;/p&gt;
+&lt;p&gt;Keep on reading: download the &lt;a href=&#34;http://estebanmoro.org/~emoro/ps/reviewMG.pdf&#34;&gt;full article&lt;/a&gt;&lt;/p&gt;
+</description>
     </item>
     
   </channel>

@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sandy on </title>
@@ -6,15 +5,22 @@
     <description>Recent content in Sandy on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Thu, 13 Feb 2014 13:57:24 +0000</lastBuildDate><atom:link href="https://estebanmoro.org/tags/sandy/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 13 Feb 2014 13:57:24 +0000</lastBuildDate>
+    
+        <atom:link href="https://estebanmoro.org/tags/sandy/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Performance of Social Network Sensors During Hurricane Sandy</title>
       <link>https://estebanmoro.org/post/2014-02-13-performance-of-social-network-sensors-during-hurricane-sandy/</link>
       <pubDate>Thu, 13 Feb 2014 13:57:24 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2014-02-13-performance-of-social-network-sensors-during-hurricane-sandy/</guid>
-      <description>Authors: Yury Kryvasheyeu, Haohui Chen, Esteban Moro, Pascal Van Hentenryck, Manuel Cebrian Journal: PLoS ONE 10(2): e0117288 (2015) LINK
-Summary Information flow during catastrophic events is a critical aspect of disaster management. Modern communication platforms, in particular online social networks, provide an opportunity to study such flow, and a mean to derive early-warning sensors, improving emergency preparedness and response. Performance of the social networks sensor method, based on topological and behavioural properties derived from the &amp;ldquo;friendship paradox&amp;rdquo;, is studied here for over 50 million Twitter messages posted before, during, and after Hurricane Sandy.</description>
+      <description>&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Yury Kryvasheyeu, Haohui Chen, Esteban Moro, Pascal Van Hentenryck, Manuel Cebrian
+&lt;br&gt;
+&lt;em&gt;Journal&lt;/em&gt;: PLoS ONE 10(2): e0117288 (2015) &lt;strong&gt;&lt;a href=&#34;http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0117288&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Summary&lt;/strong&gt; Information flow during catastrophic events is a critical aspect of disaster management. Modern communication platforms, in particular online social networks, provide an opportunity to study such flow, and a mean to derive early-warning sensors, improving emergency preparedness and response. Performance of the social networks sensor method, based on topological and behavioural properties derived from the &amp;ldquo;friendship paradox&amp;rdquo;, is studied here for over 50 million Twitter messages posted before, during, and after Hurricane Sandy. We find that differences in user&amp;rsquo;s network centrality effectively translate into moderate awareness advantage (up to 26 hours); and that geo-location of users within or outside of the hurricane-affected area plays significant role in determining the scale of such advantage. Emotional response appears to be universal regardless of the position in the network topology, and displays characteristic, easily detectable patterns, opening a possibility of implementing a simple &amp;ldquo;sentiment sensing&amp;rdquo; technique to detect and locate disasters.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

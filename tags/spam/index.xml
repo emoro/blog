@@ -1,20 +1,35 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>spam on </title>
+    <title>Spam on </title>
     <link>https://estebanmoro.org/tags/spam/</link>
-    <description>Recent content in spam on </description>
+    <description>Recent content in Spam on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Tue, 02 Dec 2008 09:47:23 +0000</lastBuildDate><atom:link href="https://estebanmoro.org/tags/spam/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 02 Dec 2008 09:47:23 +0000</lastBuildDate>
+    
+        <atom:link href="https://estebanmoro.org/tags/spam/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Percentages and absolute numbers</title>
       <link>https://estebanmoro.org/2008/12/percentages-and-absolute-numbers/</link>
       <pubDate>Tue, 02 Dec 2008 09:47:23 +0000</pubDate>
       
       <guid>https://estebanmoro.org/2008/12/percentages-and-absolute-numbers/</guid>
-      <description>Percentage of active users in the Internet 2.0 is tiny. Fractions go from
- * only 1% of Wikipedia&#39;s users contribute to making it better * only 0.1% of users upload their own videos to Youtube * only 3% of people with weblogs post on a daily basis * only 1% of Amazon.com customers contribute with reviews  The numbers are tiny. But not uncommon. Typical return rates of marketing campaigns or surveys are around 2-5% (see report by the Direct Marketing Association).</description>
+      <description>&lt;p&gt;Percentage of active users in the Internet 2.0 is tiny. &lt;a href=&#34;http://www.useit.com/alertbox/participation_inequality.html&#34;&gt;Fractions go from&lt;/a&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  * only 1% of Wikipedia&#39;s users contribute to making it better
+  * only 0.1% of users upload their own videos to Youtube
+  * only 3% of people with weblogs post on a daily basis
+  * only 1% of Amazon.com customers contribute with reviews
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The numbers are tiny. But not uncommon. Typical return rates of marketing campaigns or surveys are around 2-5% (see &lt;a href=&#34;http://www.the-dma.org/cgi/disppressrelease?article=1008&#34;&gt;report&lt;/a&gt; by the Direct Marketing Association). In our experiments of &lt;a href=&#34;http://estebanmoro.org/?p=100&#34;&gt;viral marketing campaigns&lt;/a&gt; we got up to 8% by triggering the action of clients using a prize contest.&lt;/p&gt;
+&lt;p&gt;So, how do all these business survive? The reason is absolute numbers. Percentages are small, but absolute numbers are huge:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  * 70000 active contributors maintain the Wikipedia
+  * 65000 videos are uploaded daily to Youtube
+  * 1.6 million of posts are created daily according to Technorati
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Even for the dubious business of email spam, absolute numbers matter: tens/hundreds of people usually answer email spam campaigns. Out of hundreds of millions of emails sent, yielding a &lt;a href=&#34;http://www.icsi.berkeley.edu/pubs/networking/2008-ccs-spamalytics.pdf&#34;&gt;0.0001% response rate [pdf]&lt;/a&gt;. But this low response rate does not matter, since sending email spam is &lt;a href=&#34;http://www.longtail.com/the_long_tail/2008/11/the-miraculous.html&#34;&gt;a freemium business&lt;/a&gt; which uses the near-zero marginal cost of online distribution&lt;/p&gt;
+</description>
     </item>
     
   </channel>

@@ -1,19 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>journal on </title>
+    <title>Journal on </title>
     <link>https://estebanmoro.org/tags/journal/</link>
-    <description>Recent content in journal on </description>
+    <description>Recent content in Journal on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Mon, 30 Mar 2009 06:46:26 +0000</lastBuildDate><atom:link href="https://estebanmoro.org/tags/journal/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 30 Mar 2009 06:46:26 +0000</lastBuildDate>
+    
+        <atom:link href="https://estebanmoro.org/tags/journal/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Being part of &#34;best of 2008&#34;</title>
       <link>https://estebanmoro.org/2009/03/being-part-of-best-of-2008/</link>
       <pubDate>Mon, 30 Mar 2009 06:46:26 +0000</pubDate>
       
       <guid>https://estebanmoro.org/2009/03/being-part-of-best-of-2008/</guid>
-      <description>I got wonderful news today. Our paper &amp;ldquo;Specialization and herding behavior of trading firms in a financial market&amp;rdquo; (pdf) has been selected by the Editorial Board of New Journal of Physics as part of the Journal&amp;rsquo;s Best of 2008. According to their site, &amp;ldquo;Best of 2008&amp;rdquo; is a compilation of articles selected by the Editorial Board and staff team on the basis of criteria including referee endorsements, readership and citation levels and simple broad appeal.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;http://estebanmoro.org/wp-content/uploads/2009/03/njpbest2008-300x211.jpg&#34; alt=&#34;njpbest2008&#34;&gt;
+I got wonderful news today. Our paper &amp;ldquo;Specialization and herding behavior of trading firms in a financial market&amp;rdquo; (&lt;a href=&#34;http://estebanmoro.org/2007/07/specialization-of-strategies-and-herding-behavior-of-trading-firms-in-a-financial-market/&#34;&gt;pdf&lt;/a&gt;) has been selected by the Editorial Board of New Journal of Physics as part of the Journal&amp;rsquo;s &lt;a href=&#34;http://www.iop.org/EJ/journal/-page=extra.bestof2008/1367-2630&#34;&gt;Best of 2008&lt;/a&gt;. According to their site, &amp;ldquo;Best of 2008&amp;rdquo; is a compilation of articles selected by the Editorial Board and staff team on the basis of criteria including referee endorsements, readership and citation levels and simple broad appeal. All articles are permanently free to read.&lt;/p&gt;
+&lt;p&gt;Thanks to NJP for this boost and congrats to their editorial board and staff for their work. Hope to make it to 2009 too.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

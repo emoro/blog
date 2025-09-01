@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mobile Phone Data on </title>
@@ -6,16 +5,25 @@
     <description>Recent content in Mobile Phone Data on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Wed, 26 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://estebanmoro.org/tags/mobile-phone-data/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 26 Feb 2025 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://estebanmoro.org/tags/mobile-phone-data/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Using human mobility data to quantify experienced urban inequalities</title>
       <link>https://estebanmoro.org/post/2025-02-26-using-human-mobility-data-to-quantify-experienced-urban-inequalities/</link>
       <pubDate>Wed, 26 Feb 2025 00:00:00 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2025-02-26-using-human-mobility-data-to-quantify-experienced-urban-inequalities/</guid>
-      <description>Authors: Fengli Xu, Qi Wang, Esteban Moro, Arianna Salazar Miranda, Marta C. González, Chaoming Song, Carlo Ratti, Luis Bettencourt, James Evans
-Publication: Nature Human Behavior (2025) LINK
-Abstract: The lived experience of urban life is shaped by personal mobility through dynamic relationships and resources, marked not only by access and opportunity, but also inequality and segregation. The recent availability of fine-grained mobility data and context attributes ranging from venue type to demographic mixture offer researchers a deeper understanding of experienced inequalities at scale, and pose many new questions.</description>
+      <description>
+
+
+&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Fengli Xu, Qi Wang, Esteban Moro, Arianna Salazar Miranda, Marta C. González, Chaoming Song, Carlo Ratti, Luis Bettencourt, James Evans&lt;br&gt;
+&lt;em&gt;Publication&lt;/em&gt;: Nature Human Behavior (2025) &lt;strong&gt;&lt;a href=&#34;https://www.nature.com/articles/s41562-024-02079-0&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; The lived experience of urban life is shaped by personal mobility through dynamic relationships and resources, marked not only by access and opportunity, but also inequality and segregation. The recent availability of fine-grained mobility data and context attributes ranging from venue type to demographic mixture offer researchers a deeper understanding of experienced inequalities at scale, and pose many new questions. Here we review emerging uses of urban mobility behaviour data, and propose an analytic framework to represent mobility patterns as a temporal bipartite network between people and places. As this network reconfigures over time, analysts can track experienced inequality along three critical dimensions: social mixing with others from specific demographic backgrounds, access to different types of facilities, and spontaneous adaptation to unexpected events, such as epidemics, conflicts or disasters. This framework traces the dynamic, lived experiences of urban inequality and complements prior work on static inequalities experience at home and work.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Media&lt;/strong&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -24,8 +32,14 @@ Abstract: The lived experience of urban life is shaped by personal mobility thro
       <pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2025-02-26-human-mobility-is-well-described-by-closed-form-gravity-like-models-learned-automatically-from-data/</guid>
-      <description>Authors: Oriol Cabanas-Tirapu, Lluís Danús, Esteban Moro, Marta Sales-Pardo &amp;amp; Roger Guimerà Publication: Nature Communications 16, 1336 (2025). LINK
-Abstract: Modeling human mobility is critical to address questions in urban planning, sustainability, public health, and economic development. However, our understanding and ability to model flows between urban areas are still incomplete. At one end of the modeling spectrum we have gravity models, which are easy to interpret but provide modestly accurate predictions of flows.</description>
+      <description>
+
+
+&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Oriol Cabanas-Tirapu, Lluís Danús, Esteban Moro, Marta Sales-Pardo &amp;amp; Roger Guimerà &lt;br&gt;
+&lt;em&gt;Publication&lt;/em&gt;: Nature Communications 16, 1336 (2025). &lt;strong&gt;&lt;a href=&#34;https://www.nature.com/articles/s41467-025-56495-5&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Modeling human mobility is critical to address questions in urban planning, sustainability, public health, and economic development. However, our understanding and ability to model flows between urban areas are still incomplete. At one end of the modeling spectrum we have gravity models, which are easy to interpret but provide modestly accurate predictions of flows. At the other end, we have machine learning models, with tens of features and thousands of parameters, which predict mobility more accurately than gravity models but do not provide clear insights on human behavior. Here, we show that simple machine-learned, closed-form models of mobility can predict mobility flows as accurately as complex machine learning models, and extrapolate better. Moreover, these models are simple and gravity-like, and can be interpreted similarly to standard gravity models. These models work for different datasets and at different scales, suggesting that they may capture the fundamental universal features of human mobility.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Media&lt;/strong&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -34,8 +48,21 @@ Abstract: Modeling human mobility is critical to address questions in urban plan
       <pubDate>Sat, 11 Jan 2025 00:00:00 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2025-01-11-behaviour-based-dependency-networks/</guid>
-      <description>Authors: Takahiro Yabe, Bernardo García Bulle Bueno, Morgan R Frank, Alex Pentland, Esteban Moro Publication: Nature Human Behavior (2024) LINK
-Abstract: Disruptions, such as closures of businesses during pandemics, not only affect businesses and amenities directly but also influence how people move, spreading the impact to other businesses and increasing the overall economic shock. However, it is unclear how much businesses depend on each other during disruptions. Leveraging human mobility data and same-day visits in five US cities, we quantify dependencies between points of interest encompassing businesses, stores and amenities.</description>
+      <description>
+
+
+&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Takahiro Yabe, Bernardo García Bulle Bueno, Morgan R Frank, Alex Pentland, Esteban Moro
+&lt;br&gt;
+&lt;em&gt;Publication&lt;/em&gt;: Nature Human Behavior (2024) &lt;strong&gt;&lt;a href=&#34;https://www.nature.com/articles/s41562-024-02072-7&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Disruptions, such as closures of businesses during pandemics, not only affect businesses and amenities directly but also influence how people move, spreading the impact to other businesses and increasing the overall economic shock. However, it is unclear how much businesses depend on each other during disruptions. Leveraging human mobility data and same-day visits in five US cities, we quantify dependencies between points of interest encompassing businesses, stores and amenities. We find that dependency networks computed from human mobility exhibit significantly higher rates of long-distance connections and biases towards specific pairs of point-of-interest categories. We show that using behaviour-based dependency relationships improves the predictability of business resilience during shocks by around 40% compared with distance-based models, and that neglecting behaviour-based dependencies can lead to underestimation of the spatial cascades of disruptions. Our findings underscore the importance of measuring complex relationships in patterns of human mobility to foster urban economic resilience to shocks.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Media&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://news.northeastern.edu/2025/01/06/remote-work-research-urban-economies/&#34;&gt;Remote work affects urban economies far beyond downtown hubs, Northeastern research finds&lt;/a&gt;, Northeastern Global News&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://engineering.nyu.edu/news/new-research-reveals-economic-ripple-effects-business-closures-remote-work-and-other&#34;&gt;New research reveals economic ripple effects of business closures, remote work and other disruptions&lt;/a&gt; NYU Tandon School of Engineering&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://phys.org/news/2025-01-reveals-economic-ripple-effects-business.html&#34;&gt;New research reveals economic ripple effects of business closures, remote work and other disruptions&lt;/a&gt;, Phys.org&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://phys.org/news/2025-01-behavior-based-networks-resilience-cities.html&#34;&gt;Behavior-based dependency networks can shape the resilience of cities following economic shocks&lt;/a&gt;, Phys.org&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -44,8 +71,16 @@ Abstract: Disruptions, such as closures of businesses during pandemics, not only
       <pubDate>Tue, 16 Jul 2024 00:00:00 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2024-07-15-enhancing-human-mobility-research-with-open-and-standardized-datasets/</guid>
-      <description>Authors: Takahiro Yabe, Massimiliano Luca, Kota Tsubouchi, Bruno Lepri, Marta C. Gonzalez &amp;amp; Esteban Moro Publication: Nature Computational Science (2024). doi: 10.1038/s43588-024-00650-3 LINK
-Abstract: Human mobility research intersects with various disciplines, with profound implications for urban planning, transportation engineering, public health, disaster management, and economic analysis. Here, we discuss the urgent need for open and standardized datasets in the field, including current challenges and lessons from other computational science domains, and propose collaborative efforts to enhance the validity and reproducibility of human mobility research.</description>
+      <description>
+
+
+&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Takahiro Yabe, Massimiliano Luca, Kota Tsubouchi, Bruno Lepri, Marta C. Gonzalez &amp;amp; Esteban Moro
+&lt;br&gt;
+&lt;em&gt;Publication&lt;/em&gt;: Nature Computational Science (2024). doi: 10.1038/s43588-024-00650-3 &lt;strong&gt;&lt;a href=&#34;https://doi.org/10.1038/s43588-024-00650-3&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Human mobility research intersects
+with various disciplines, with profound implications for urban planning, transportation engineering, public health, disaster management, and economic analysis. Here, we discuss the urgent need for open and standardized datasets in the field, including current challenges and lessons from other computational science domains, and propose collaborative efforts to enhance the validity and reproducibility of human mobility research.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Media&lt;/strong&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -54,8 +89,18 @@ Abstract: Human mobility research intersects with various disciplines, with prof
       <pubDate>Sat, 23 Mar 2024 00:00:00 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2024-03-23-infrequent-activities-predict-economic-outcomes-in-major-american-cities/</guid>
-      <description>Authors: Shenhao Wang, Yunhan Zheng, Guang Wang, Takahiro Yabe, Esteban Moro &amp;amp; Alex ‘Sandy’ Pentland Publication: Nature Cities 10.1038/s44284-024-00051-7. LINK
-Abstract: Many studies have revealed the predictive power of the most frequent, regular and habitual mobility patterns. However, it remains unclear which components of the mobility patterns contain the most informative signals for predicting disparate economic development across urban areas. Here we use machine learning to predict economic outcomes by analyzing the heterogeneous mobility networks of 687 activities from more than 560,000 anonymized users in Boston, Chicago and Miami.</description>
+      <description>
+
+
+&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Shenhao Wang, Yunhan Zheng, Guang Wang, Takahiro Yabe, Esteban Moro &amp;amp; Alex ‘Sandy’ Pentland
+&lt;br&gt;
+&lt;em&gt;Publication&lt;/em&gt;: Nature Cities 10.1038/s44284-024-00051-7. &lt;strong&gt;&lt;a href=&#34;https://doi.org/10.1038/s44284-024-00051-7&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Many studies have revealed the predictive power of the most frequent, regular and habitual mobility patterns. However, it remains unclear which components of the mobility patterns contain the most informative signals for predicting disparate economic development across urban areas. Here we use machine learning to predict economic outcomes by analyzing the heterogeneous mobility networks of 687 activities from more than 560,000 anonymized users in Boston, Chicago and Miami. We find that mobility patterns are highly predictive of the current and future economic development in major American cities but, surprisingly, the high predictive power is concentrated on infrequent, irregular and exploratory activities. These predictive activities account for only less than 2% of total visits but successfully explain more than 50% of variation in economic outcomes. Future research should shift more attention from regular visits to irregular activities, and policymakers could leverage these infrequent yet informative activities to manage urban economic development.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Media&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://news.ufl.edu/2024/03/urban-economy-exploration/&#34;&gt;Exploration – not work – explains cities’ economic fortunes&lt;/a&gt; University of Florida News.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -64,9 +109,19 @@ Abstract: Many studies have revealed the predictive power of the most frequent, 
       <pubDate>Thu, 14 Mar 2024 00:00:00 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2022-09-22-you-are-where-you-eat-effect-of-mobile-food-environments-on-fast-food-visits/</guid>
-      <description>Authors: Bernardo Garcia-Bulle, Abigail L. Horn, Brooke M. Bell, Mohsen Bahrami, Burcin Bozkaya, Alex Pentland, Kayla de la Haye, and Esteban Moro
-Publication: Nature Communications 15, article number: 2291. LINK
-Abstract: Poor diets are a leading cause of morbidity and mortality. Exposure to low-quality food environments saturated with fast food outlets is hypothesized to negatively impact diet. However, food environment research has predominantly focused on static food environments around home neighborhoods and generated mixed findings.</description>
+      <description>
+
+
+&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Bernardo Garcia-Bulle, Abigail L. Horn, Brooke M. Bell, Mohsen Bahrami, Burcin Bozkaya, Alex Pentland, Kayla de la Haye, and Esteban Moro&lt;br&gt;
+&lt;em&gt;Publication&lt;/em&gt;: Nature Communications &lt;strong&gt;15&lt;/strong&gt;, article number: 2291. &lt;strong&gt;&lt;a href=&#34;https://www.nature.com/articles/s41467-024-46425-2&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Poor diets are a leading cause of morbidity and mortality. Exposure to low-quality food environments saturated with fast food outlets is hypothesized to negatively impact diet. However, food environment research has predominantly focused on static food environments around home neighborhoods and generated mixed findings. In this work, we leverage population-scale mobility data in the U.S. to examine 62M people’s visits to food outlets and evaluate how food choice is influenced by the food environments people are exposed to as they move through their daily routines. We find that a 10% increase in exposure to fast food outlets in mobile environments increases individuals’ odds of visitation by 20%. Using our results, we simulate multiple policy strategies for intervening on food environments to reduce fast-food outlet visits. This analysis suggests that optimal interventions are informed by spatial, temporal, and behavioral features and could have 2x to 4x larger effect than traditional interventions focused on home food environments.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Media&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://news.northeastern.edu/2024/03/15/fast-food-location-health-impact/&#34;&gt;Efforts to limit fast-food near homes need rethinking&lt;/a&gt;, Northeastern Global News.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.news-medical.net/news/20240318/Study-reveals-daily-food-environment-exposure-shapes-fast-food-habits.aspx&#34;&gt;Study reveals daily food environment exposure shapes fast food habits&lt;/a&gt; News Medical&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://dornsife.usc.edu/news/stories/fast-food-choices-revealed-by-smartphone-data/&#34;&gt;New research shows “you are what… or rather… where you eat”&lt;/a&gt; USC Dornsife News and Events&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -75,10 +130,19 @@ Abstract: Poor diets are a leading cause of morbidity and mortality. Exposure to
       <pubDate>Sun, 19 Nov 2023 00:00:00 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2023-11-20-the-unequal-effects-of-the-health-economy-trade-off-during-the-covid-19-pandemic/</guid>
-      <description>Authors: Marco Pangallo, Alberto Aleta, R. Maria del Rio-Chanona, Anton Pichler, David Martin-Corral, Matteo Chinazzi, Francois Lafond, Marco Ajelli, Esteban Moro, Yamir Moreno, Alessandro Vespignani, J. Doyne Farmer
-Publication: Nature Human Behavior, Nov 16th, (2023)
-LINK
-Abstract: Despite the global impact of the coronavirus disease 2019 pandemic, the question of whether mandated interventions have similar economic and public health effects as spontaneous behavioural change remains unresolved. Addressing this question, and understanding differential effects across socioeconomic groups, requires building quantitative and fine-grained mechanistic models.</description>
+      <description>
+
+
+&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Marco Pangallo, Alberto Aleta, R. Maria del Rio-Chanona, Anton Pichler, David Martin-Corral, Matteo Chinazzi, Francois Lafond, Marco Ajelli, Esteban Moro, Yamir Moreno, Alessandro Vespignani, J. Doyne Farmer&lt;br&gt;
+&lt;em&gt;Publication&lt;/em&gt;: Nature Human Behavior, Nov 16th, (2023)&lt;br&gt; &lt;strong&gt;&lt;a href=&#34;https://www.nature.com/articles/s41562-023-01747-x&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Despite the global impact of the coronavirus disease 2019 pandemic, the question of whether mandated interventions have similar economic and public health effects as spontaneous behavioural change remains unresolved. Addressing this question, and understanding differential effects across socioeconomic groups, requires building quantitative and fine-grained mechanistic models. Here we introduce a data-driven, granular, agent-based model that simulates epidemic and economic outcomes across industries, occupations and income levels. We validate the model by reproducing key outcomes of the first wave of coronavirus disease 2019 in the New York metropolitan area. The key mechanism coupling the epidemic and economic modules is the reduction in consumption due to fear of infection. In counterfactual experiments, we show that a similar trade-off between epidemic and economic outcomes exists both when individuals change their behaviour due to fear of infection and when non-pharmaceutical interventions are imposed. Low-income workers, who perform in-person occupations in customer-facing industries, face the strongest trade-off.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Media&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.ox.ac.uk/news/2023-11-17-epidemic-economic-model-provides-answers-key-pandemic-policy-questions&#34;&gt;Epidemic-economic model provides answers to key pandemic policy questions&lt;/a&gt;, News &amp;amp; Events, University of Oxford&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://socialsciences.nature.com/posts/the-unequal-effects-of-the-health-economy-tradeoff-during-the-covid-19-pandemic&#34;&gt;The unequal effects of the health-economy tradeoff during the COVID-19 pandemic&lt;/a&gt;, Behavioral and Social Sciences at Nature Research.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://ssrc.mit.edu/epidemic-economic-model-provides-answers-to-key-pandemic-policy-questions/&#34;&gt;Epidemic-economic model provides answers to key pandemic policy questions&lt;/a&gt;, MIT SSRC NEWS.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -87,10 +151,20 @@ Abstract: Despite the global impact of the coronavirus disease 2019 pandemic, th
       <pubDate>Sat, 18 Nov 2023 00:00:00 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2023-11-20-population-mobility-data-provides-meaningful-indicators-of-fast-food-intake-and-diet-related-diseases-in-diverse-populations/</guid>
-      <description>Authors: Abigail L. Horn, Brooke M. Bell, Bernardo Garcia Bulle Bueno, Mohsen Bahrami, Burcin Bozkaya, Yan Cui, John P. Wilson, Alex Pentland, Esteban Moro, Kayla de la Haye
-Publication: NPJ Digital Medicine 6, 208 (2023)
-LINK
-Abstract: The characteristics of food environments people are exposed to, such as the density of fast food (FF) outlets, can impact their diet and risk for diet-related chronic disease. Previous studies examining the relationship between food environments and nutritional health have produced mixed findings, potentially due to the predominant focus on static food environments around people’s homes.</description>
+      <description>
+
+
+&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Abigail L. Horn, Brooke M. Bell, Bernardo Garcia Bulle Bueno, Mohsen Bahrami, Burcin Bozkaya, Yan Cui, John P. Wilson, Alex Pentland, Esteban Moro, Kayla de la Haye&lt;br&gt;
+&lt;em&gt;Publication&lt;/em&gt;: NPJ Digital Medicine &lt;strong&gt;6&lt;/strong&gt;, 208 (2023)&lt;br&gt; &lt;strong&gt;&lt;a href=&#34;https://www.nature.com/articles/s41746-023-00949-x&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; The characteristics of food environments people are exposed to, such as the density of fast food (FF) outlets, can impact their diet and risk for diet-related chronic disease. Previous studies examining the relationship between food environments and nutritional health have produced mixed findings, potentially due to the predominant focus on static food environments around people’s homes. As smartphone ownership increases, large-scale data on human mobility (i.e., smartphone geolocations) represents a promising resource for studying dynamic food environments that people have access to and visit as they move throughout their day. This study investigates whether mobility data provides meaningful indicators of diet, measured as FF intake, and diet-related disease, evaluating its usefulness for food environment research. Using a mobility dataset consisting of 14.5 million visits to geolocated food outlets in Los Angeles County (LAC) across a representative sample of 243,644 anonymous and opted-in adult smartphone users in LAC, we construct measures of visits to FF outlets aggregated over users living in neighborhood. We find that the aggregated measures strongly and significantly correspond to self-reported FF intake, obesity, and diabetes in a diverse, representative sample of 8,036 LAC adults included in a population health survey carried out by the LAC Department of Public Health. Visits to FF outlets were a better predictor of individuals’ obesity and diabetes than their self-reported FF intake, controlling for other known risks. These findings suggest mobility data represents a valid tool to study people’s use of dynamic food environments and links to diet and health.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Media&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://viterbischool.usc.edu/news/2023/11/are-you-at-risk-for-diet-related-disease-where-you-spend-your-day-plays-a-role/&#34;&gt;Are You at Risk for Diet-Related Disease? Where You Spend Your Day Plays a Role&lt;/a&gt; USC Viterbi News.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://interestingengineering.com/innovation/smartphone-location-data-used-to-evaluate-risk-of-diet-related-disease&#34;&gt;Smartphone location data used to evaluate risk of diet-related disease&lt;/a&gt;, Interesting Engineering.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.techtimes.com/articles/299261/20231129/smartphones-help-evaluate-diet-related-diseases-users-location-study.htm&#34;&gt;Smartphones Can Help Evaluate Diet-Related Diseases, All Based on a User’s Location, Study Suggests&lt;/a&gt;, Tech Times.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://ustimespost.com/smartphone-data-reveals-link-between-fast-food-outlets-and-diet-related-illnesses/&#34;&gt;Smartphone data reveals link between fast food outlets and diet-related illnesses&lt;/a&gt; US Times Post.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -99,8 +173,18 @@ Abstract: The characteristics of food environments people are exposed to, such a
       <pubDate>Wed, 21 Jun 2023 00:00:00 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2023-06-21-long-range-social-influence-in-phone-communication-networks-on-offline-adoption-decisions/</guid>
-      <description>Authors: Yan Leng , Xiaowen Dong, Esteban Moro, Alex Pentland Publication: Information Systems Research, Articles in Advance 21 Jun (2023) LINK
-Abstract: We use high-resolution mobile phone data with geolocation information and pro- pose a novel technical framework to study how social influence propagates within a phone communication network and affects the offline decision to attend a performance event. Our fine-grained data are based on the universe of phone calls made in a European country between January and July 2016.</description>
+      <description>
+
+
+&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Yan Leng , Xiaowen Dong, Esteban Moro, Alex Pentland &lt;br&gt;
+&lt;em&gt;Publication&lt;/em&gt;: Information Systems Research, Articles in Advance 21 Jun (2023) &lt;strong&gt;&lt;a href=&#34;https://pubsonline.informs.org/doi/full/10.1287/isre.2023.1231&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; We use high-resolution mobile phone data with geolocation information and pro- pose a novel technical framework to study how social influence propagates within a phone communication network and affects the offline decision to attend a performance event. Our fine-grained data are based on the universe of phone calls made in a European country between January and July 2016. We isolate social influence from observed and latent homophily by taking advantage of the rich spatial-temporal information and the social interactions available from the longitudinal behavioral data. We find that influence stemming from phone communication is significant and persists up to four degrees of separation in the communica- tion network. Building on this finding, we introduce a new “influence” centrality measure that captures the empirical pattern of influence decay over successive connections. A validation test shows that the average influence centrality of the adopters at the beginning of each observational period can strongly predict the number of eventual adopters and has a stronger predictive power than other prevailing centrality measures such as the eigenvector centrality and state-of-the-art measures such as diffusion centrality. Our centrality measure can be used to improve optimal seeding strategies in contexts with influence over phone calls, such as targeted or viral marketing campaigns. Finally, we quantitatively demonstrate how raising the communication probability over each connection, as well as the number of initial seeds, can significantly amplify the expected adoption in the network and raise net revenue after taking into account the cost of these interventions.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Media&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://phys.org/news/2023-06-communication-spurs-cascading-effect-social.html&#34;&gt;Phone communication spurs a cascading effect on social influence&lt;/a&gt;, Phys.org&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/texas-mccombs/phone-lines-of-connection-43daeeade404&#34;&gt;Phone Lines of Connection&lt;/a&gt; Big Ideas Story, McCombs School of Business.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -109,9 +193,26 @@ Abstract: We use high-resolution mobile phone data with geolocation information 
       <pubDate>Fri, 21 Apr 2023 00:00:00 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2023-04-21-behavioral-changes-during-the-covid-19-pandemic-decreased-income-diversity-of-urban-encounters/</guid>
-      <description>Authors: Takahiro Yabe, Bernardo García Bulle Bueno, Xiaowen Dong, Alex Pentland &amp;amp; Esteban Moro
-Publication: Nature Communications volume 14, Article number: 2310 (2023) LINK
-Abstract: Diversity of physical encounters in urban environments is known to spur economic productivity while also fostering social capital. However, mobility restrictions during the pandemic have forced people to reduce urban encounters, raising questions about the social implications of behavioral changes. In this paper, we study how individual income diversity of urban encounters changed during the pandemic, using a large-scale, privacy-enhanced mobility dataset of more than one million anonymized mobile phone users in Boston, Dallas, Los Angeles, and Seattle, across three years spanning before and during the pandemic.</description>
+      <description>
+
+
+&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Takahiro Yabe, Bernardo García Bulle Bueno, Xiaowen Dong, Alex Pentland &amp;amp; Esteban Moro&lt;br&gt;
+&lt;em&gt;Publication&lt;/em&gt;: Nature Communications volume 14, Article number: 2310 (2023) &lt;br&gt; &lt;strong&gt;&lt;a href=&#34;https://www.nature.com/articles/s41467-023-37913-y&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Diversity of physical encounters in urban environments is known to spur economic productivity while also fostering social capital. However, mobility restrictions during the pandemic have forced people to reduce urban encounters, raising questions about the social implications of behavioral changes. In this paper, we study how individual income diversity of urban encounters changed during the pandemic, using a large-scale, privacy-enhanced mobility dataset of more than one million anonymized mobile phone users in Boston, Dallas, Los Angeles, and Seattle, across three years spanning before and during the pandemic. We find that the diversity of urban encounters has substantially decreased (by 15% to 30%) during the pandemic and has persisted through late 2021, even though aggregated mobility metrics have recovered to pre-pandemic levels. Counterfactual analyses show that behavioral changes including lower willingness to explore new places further decreased the diversity of encounters in the long term. Our findings provide implications for managing the trade-off between the stringency of COVID-19 policies and the diversity of urban encounters as we move beyond the pandemic.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Media&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://news.mit.edu/2023/study-covid-19-reduced-diverse-urban-interactions-0428&#34;&gt;Study: Covid-19 has reduced diverse urban interactions&lt;/a&gt;, MIT News.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.techexplorist.com/comparative-study-urban-interactions-before-after-covid-19/59561/?utm_source=rss&amp;amp;utm_medium=rss&amp;amp;utm_campaign=comparative-study-urban-interactions-before-after-covid-19&#34;&gt;A comparative study of urban interactions before and after covid-19&lt;/a&gt; Tech Explorist.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://phys.org/news/2023-04-mobility-related-pandemic-limited-breadth-people.html&#34;&gt;Mobility-related data show the pandemic has limited the breadth of places people visit in cities&lt;/a&gt;, Phys.org.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.bostonglobe.com/2023/05/10/opinion/covid-reduced-wealthy-poor-interactions&#34;&gt;COVID made us retreat into our corners. A worrisome new study says we haven’t left them&lt;/a&gt;, Boston Globe&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://eng.ox.ac.uk/news/covid-19-has-reduced-diverse-urban-interactions/&#34;&gt;Covid-19 has reduced diverse urban interactions&lt;/a&gt; University of Oxford.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://socialsciences.nature.com/posts/covid-19-has-reduced-diverse-urban-interactions&#34;&gt;Behind the paper: COVID-19 reduced diverse urban interactions&lt;/a&gt; Behavioral and Social Sciences at Nature Portfolio.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.bloomberg.com/news/articles/2023-05-18/residents-of-us-cities-are-stuck-in-post-pandemic-socialization-rut&#34;&gt;Americans Have Become Less Willing to Explore Their Own Cities&lt;/a&gt; CityLab Bloomberg.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.fox4news.com/news/americans-are-not-exploring-their-own-cities-like-they-used-to-study-says&#34;&gt;Americans are not exploring their own cities like they used to, study says&lt;/a&gt;, Fox 4 News&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.seattletimes.com/seattle-news/in-seattle-were-seeing-the-splitting-of-a-city/&#34;&gt;In Seattle, we’re seeing the splitting of a city&lt;/a&gt;, The Seattle Times.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.geekwire.com/2023/study-shows-how-pandemic-decreased-income-diversity-of-urban-encounters-even-after-lockdowns/&#34;&gt;Study shows how pandemic decreased income diversity of urban encounters, even after lockdowns&lt;/a&gt;, Geek Wire.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -120,9 +221,17 @@ Abstract: Diversity of physical encounters in urban environments is known to spu
       <pubDate>Sun, 02 Apr 2023 00:00:00 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2023-04-03-diversity-beyond-density-experienced-social-mixing-of-urban-streets/</guid>
-      <description>Authors: Zhuangyuan Fan, Tianyu Su, Maoran Sun, Ariel Noyman, Fan Zhang, Alex ‘Sandy’ Pentland, Esteban Moro
-Publication: PNAS Nexus, Volumen 2, Issue 4, pgad077, 2023 LINK
-Abstract: Urban density, in the form of residents’ and visitors’ concentration, is long considered to foster diverse exchanges of interpersonal knowledge and skills, which are intrinsic to sustainable human settlements. However, with current urban studies primarily devoted to city- and district-level analyses, we cannot unveil the elemental connection between urban density and diversity.</description>
+      <description>
+
+
+&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Zhuangyuan Fan, Tianyu Su, Maoran Sun, Ariel Noyman, Fan Zhang, Alex ‘Sandy’ Pentland, Esteban Moro&lt;br&gt;
+&lt;em&gt;Publication&lt;/em&gt;: PNAS Nexus, Volumen 2, Issue 4, pgad077, 2023 &lt;br&gt; &lt;strong&gt;&lt;a href=&#34;https://academic.oup.com/pnasnexus/advance-article/doi/10.1093/pnasnexus/pgad077/7075905&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Urban density, in the form of residents’ and visitors’ concentration, is long considered to foster diverse exchanges of interpersonal knowledge and skills, which are intrinsic to sustainable human settlements. However, with current urban studies primarily devoted to city- and district-level analyses, we cannot unveil the elemental connection between urban density and diversity. Here we use an anonymized and privacy-enhanced mobile dataset of 0.5 million opted-in users from three metropolitan areas in the United States to show that at the scale of urban streets, density is not the only path to diversity. We represent the diversity of each street with the experienced social mixing (ESM), which describes the chances of people meeting diverse income groups throughout their daily experience. We conduct multiple experiments and show that the concentration of visitors only explains 26% of street-level ESM. However, adjacent amenities, residential diversity, and income level account for 44% of the ESM. Moreover, using longitudinal business data, we show that streets with an increased number of food businesses have seen an increased ESM from 2016 to 2018. Lastly, although streets with more visitors are more likely to have crime, diverse streets tend to have fewer crimes. These findings suggest that cities can leverage many tools beyond density to curate a diverse and safe street experience for people.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Media&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Great streets: visualization of the main results &lt;a href=&#34;http://greatstreets.mit.edu&#34; class=&#34;uri&#34;&gt;http://greatstreets.mit.edu&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -131,8 +240,13 @@ Abstract: Urban density, in the form of residents’ and visitors’ concentrati
       <pubDate>Fri, 24 Feb 2023 00:00:00 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2023-02-24-a-city-is-not-a-static-tree/</guid>
-      <description>Authors:Esteban Moro Publication: ZARCH, 19, 28–39. 2023 LINK
-Abstract: Cities are the main ground on which our society and culture develop today and will evolve in the future. Against the traditional understanding of cities as physical spaces mostly around our neighborhoods, recent use of large-scale mobility datasets has enabled the study of our behavior at unprecedented spatial and temporal scales, much beyond our static residential spaces. Here we show how it is possible to use these datasets to investigate the role that human behavior plays in traditional urban problems like segregation, public health, or epidemics.</description>
+      <description>
+
+
+&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;:Esteban Moro &lt;br&gt;
+&lt;em&gt;Publication&lt;/em&gt;: ZARCH, &lt;b&gt;19&lt;/b&gt;, 28–39. 2023 &lt;br&gt; &lt;strong&gt;&lt;a href=&#34;https://doi.org/10.26754/ojs_zarch/zarch.2022197407&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Cities are the main ground on which our society and culture develop today and will evolve in the future. Against the traditional understanding of cities as physical spaces mostly around our neighborhoods, recent use of large-scale mobility datasets has enabled the study of our behavior at unprecedented spatial and temporal scales, much beyond our static residential spaces. Here we show how it is possible to use these datasets to investigate the role that human behavior plays in traditional urban problems like segregation, public health, or epidemics. Apart from measuring or monitoring such problems in a more comprehensive way, the analysis of those large datasets using modern machine learning techniques or causality detection permits to unveil of the behavioral roots behind them. As a result, only by incorporating real-time behavioral data can we design more efficient policies or interventions to improve such critical societal issues in our urban areas.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -141,9 +255,13 @@ Abstract: Cities are the main ground on which our society and culture develop to
       <pubDate>Fri, 29 Jul 2022 00:00:00 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2022-07-29-rhythm-of-the-streets-a-street-classification-framework-based-on-street-activity-patterns/</guid>
-      <description>Authors: Tianyu Su , Maoran Sun, Zhuangyuan Fan, Ariel Noyman, Alex Pentland, and Esteban Moro
-Publication: EPJ Data Science 11, 43 (2022). Link
-Abstract: As the living tissue connecting urban places, streets play significant roles in driving city development, providing essential access, and promoting human interactions. Understanding street activities and how these activities vary across different streets is critical for designing both efficient and livable streets. However, current street classification frameworks primarily focus on either streets’ functions in transportation networks or their adjacent land uses rather than actual activity patterns, resulting in coarse classifications.</description>
+      <description>
+
+
+&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Tianyu Su , Maoran Sun, Zhuangyuan Fan, Ariel Noyman, Alex Pentland, and Esteban Moro&lt;br&gt;
+&lt;em&gt;Publication&lt;/em&gt;: EPJ Data Science &lt;strong&gt;11&lt;/strong&gt;, 43 (2022). &lt;strong&gt;&lt;a href=&#34;https://epjdatascience.springeropen.com/articles/10.1140/epjds/s13688-022-00355-5&#34;&gt;Link&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; As the living tissue connecting urban places, streets play significant roles in driving city development, providing essential access, and promoting human interactions. Understanding street activities and how these activities vary across different streets is critical for designing both efficient and livable streets. However, current street classification frameworks primarily focus on either streets’ functions in transportation networks or their adjacent land uses rather than actual activity patterns, resulting in coarse classifications. This research proposes an activity-based street classification framework to categorize street segments based on their temporal street activity patterns, which is derived from high-resolution de-identified and privacy-enhanced mobility data. We then apply the proposed framework to 18,023 street segments in the City of Boston and reveal 10 distinct activity-based street types (ASTs). These ASTs highlight dynamic street activities on streets, which complements existing street classification frameworks, which focus on the static or transportation characteristics of the street segments. Our results show that a street classification framework based on temporal street activity patterns can identify street categories at a finer granularity than current methods, which can offer useful implications for state-of-the-art urban management and planning. In particular, we find that our classification distinguishes better those streets where crime is more prevalent than current functional or contextual classifications of streets.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -152,8 +270,14 @@ Abstract: As the living tissue connecting urban places, streets play significant
       <pubDate>Mon, 13 Jun 2022 00:00:00 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2022-06-13-quantifying-the-importance-and-location-of-sars-cov-2-transmission-events-in-large-metropolitan-areas/</guid>
-      <description>Authors: Alberto Aleta, David Martín-Corral, Michiel A.Bakker, Ana Pastore y Piontti, Marco Ajelli, Maria Litvinova , Matteo Chinazzi, Natalie E. Dean, M. Elizabeth Halloran,Ira M. Longini,Jr, Alex Pentland, Alessandro Vespignani, Yamir Moreno, and Esteban Moro. Publication: PNAS (2022). Link
-Abstract: Detailed characterization of severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) transmission across different settings can help design less disruptive interventions. We used real-time, privacy-enhanced mobility data in the New York City, NY and Seattle, WA metropolitan areas to build a detailed agent-based model of SARS-CoV-2infection to estimate the where, when, and magnitude of transmission events during thepandemic’s first wave.</description>
+      <description>
+&lt;script src=&#34;https://estebanmoro.org/post/2022-06-13-quantifying-the-importance-and-location-of-sars-cov-2-transmission-events-in-large-metropolitan-areas/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Alberto Aleta, David Martín-Corral, Michiel A.Bakker, Ana Pastore y Piontti, Marco Ajelli, Maria Litvinova , Matteo Chinazzi, Natalie E. Dean, M. Elizabeth Halloran,Ira M. Longini,Jr, Alex Pentland, Alessandro Vespignani, Yamir Moreno, and Esteban Moro.
+&lt;em&gt;Publication&lt;/em&gt;: PNAS (2022). &lt;strong&gt;&lt;a href=&#34;https://www.pnas.org/doi/epdf/10.1073/pnas.2112182119&#34;&gt;Link&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Detailed characterization of severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) transmission across different settings can help design less disruptive interventions. We used real-time, privacy-enhanced mobility data in the New York City, NY and Seattle, WA metropolitan areas to build a detailed agent-based model of SARS-CoV-2infection to estimate the where, when, and magnitude of transmission events during thepandemic’s first wave. We estimate that only 18% of individuals produce most infections (80%), with about 10% of events that can be considered superspreading events (SSEs).Although mass gatherings present an important risk for SSEs, we estimate that the bulk of transmission occurred in smaller events in settings like workplaces, grocery stores, or food venues. The places most important for transmission change during the pandemic and are different across cities, signaling the large underlying behavioral component underneath them. Our modeling complements case studies and epidemiological data and indicates that real-time tracking of transmission events could help evaluate and define targeted mitigation policies.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -162,9 +286,17 @@ Abstract: Detailed characterization of severe acute respiratory syndrome coronav
       <pubDate>Mon, 31 Jan 2022 00:00:00 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2022-01-31-generating-synthetic-mobility-data-for-a-realistic-population-with-rnns-to-improve-utility-and-privacy/</guid>
-      <description>Authors: Alex Berke, Ronan Doorley, Kent Larson, Esteban Moro
-Publication: arXiv preprint arXiv:2201.01139 (2022). Link
-Abstract: Location data collected from mobile devices represent mobility behaviors at individual and societal levels. These data have important applications ranging from transportation planning to epidemic modeling. However, issues must be overcome to best serve these use cases: The data often represent a limited sample of the population and use of the data jeopardizes privacy.</description>
+      <description>
+&lt;script src=&#34;https://estebanmoro.org/post/2022-01-31-generating-synthetic-mobility-data-for-a-realistic-population-with-rnns-to-improve-utility-and-privacy/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Alex Berke, Ronan Doorley, Kent Larson, Esteban Moro&lt;br&gt;
+&lt;em&gt;Publication&lt;/em&gt;: arXiv preprint arXiv:2201.01139 (2022). &lt;strong&gt;&lt;a href=&#34;https://arxiv.org/abs/2201.01139&#34;&gt;Link&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Location data collected from mobile devices represent mobility behaviors at individual and societal levels. These data have important applications ranging from transportation planning to epidemic modeling. However, issues must be overcome to best serve these use cases: The data often represent a limited sample of the population and use of the data jeopardizes privacy.
+To address these issues, we present and evaluate a system for generating synthetic mobility data using a deep recurrent neural network (RNN) which is trained on real location data. The system takes a population distribution as input and generates mobility traces for a corresponding synthetic population.
+Related generative approaches have not solved the challenges of capturing both the patterns and variability in individuals’ mobility behaviors over longer time periods, while also balancing the generation of realistic data with privacy. Our system leverages RNNs’ ability to generate complex and novel sequences while retaining patterns from training data. Also, the model introduces randomness used to calibrate the variation between the synthetic and real data at the individual level. This is to both capture variability in human mobility, and protect user privacy.
+Location based services (LBS) data from more than 22,700 mobile devices were used in an experimental evaluation across utility and privacy metrics. We show the generated mobility data retain the characteristics of the real data, while varying from the real data at the individual level, and where this amount of variation matches the variation within the real data.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -173,8 +305,18 @@ Abstract: Location data collected from mobile devices represent mobility behavio
       <pubDate>Wed, 01 Dec 2021 00:00:00 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2021-12-01-news-or-social-media-socio-economic-divide-of-mobile-service-consumption/</guid>
-      <description>Authors: Iñaki Ucar, Marco Gramaglia, Marco Fiore, Zbigniew Smoreda, and Esteban Moro Publication: J. R. Soc. Interface (2021). Link
-Abstract: Reliable and timely information on socio-economic status and divides is critical to social and economic research and policing. Novel data sources from mobile communication platforms have enabled new cost-effective approaches and models to investigate social disparity, but their lack of interpretability, accuracy or scale has limited their relevance to date.</description>
+      <description>&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Iñaki Ucar, Marco Gramaglia, Marco Fiore, Zbigniew Smoreda,  and Esteban Moro
+&lt;em&gt;Publication&lt;/em&gt;: J. R. Soc. Interface (2021). &lt;strong&gt;&lt;a href=&#34;https://royalsocietypublishing.org/doi/10.1098/rsif.2021.0350&#34;&gt;Link&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Reliable and timely information on socio-economic status and divides is critical to social and economic research and policing. Novel data sources from mobile communication platforms have enabled new cost-effective approaches and models to investigate social disparity, but their lack of interpretability, accuracy or scale has limited their relevance to date. We investigate the divide in digital mobile service usage with a large dataset of 3.7 billion time-stamped and geo-referenced mobile traffic records in a major European country, and find profound geographical unevenness in mobile service usage—especially on news, e-mail, social media consumption and audio/video streaming. We relate such diversity with income, educational attainment and inequality, and reveal how low-income or low-education areas are more likely to engage in video streaming or social media and less in news consumption, information searching, e-mail or audio streaming. The digital usage gap is so large that we can accurately infer the socio-economic status of a small area or even its Gini coefficient only from aggregated data traffic. Our results make the case for an inexpensive, privacy-preserving, real-time and scalable way to understand the digital usage divide and, in turn, poverty, unemployment or economic growth in our societies through mobile phone data.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Media:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://phys.org/news/2022-01-digital-gap-internet-usage-rich.html&#34;&gt;Researchers report a new digital gap in internet usage between rich and poor people
+&lt;/a&gt; in Phys.org&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://elpais.com/tecnologia/2021-12-02/del-correo-y-las-noticias-a-facebook-y-youtube-asi-se-usa-internet-segun-barrios-ricos-y-pobres.html&#34;&gt;Del correo y las noticias a Facebook y Youtube: así se usa internet según barrios ricos y pobres&lt;/a&gt; in El Pais (Spain).&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.newtral.es/brecha-de-uso-renta-media-nivel-educativo/20220202/&#34;&gt;No vemos la misma internet: así es la brecha de uso entre ricos y pobres&lt;/a&gt; in Newtral (Spain).&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.uc3m.es/ss/Satellite/UC3MInstitucional/en/Detalle/Comunicacion_C/1371324218037/1371215537949/A_new_digital_gap_in_internet_usage_between_rich_and_poor_people_has_been_detected&#34;&gt;A new digital gap in internet usage between rich and poor people has been detected&lt;/a&gt;, UC3M news.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -183,8 +325,11 @@ Abstract: Reliable and timely information on socio-economic status and divides i
       <pubDate>Sat, 31 Jul 2021 00:00:00 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2021-07-31-mobility-patterns-are-associated-with-experienced-income-segregation-in-large-us-cities/</guid>
-      <description>Authors: Esteban Moro, Dan Calacci, Xiaowen Dong &amp;amp; Alex Pentland. Publication: Nature Communications 12, 4633 (2021). Link
-Abstract: Traditional understanding of urban income segregation is largely based on static coarse grained residential patterns. However, these do not capture the income segregation experience implied by the rich social interactions that happen in places that may relate to individual choices, opportunities, and mobility behavior. Using a large-scale high-resolution mobility data set of 4.</description>
+      <description>&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Esteban Moro, Dan Calacci, Xiaowen Dong &amp;amp; Alex Pentland.
+&lt;em&gt;Publication&lt;/em&gt;: Nature Communications 12, 4633 (2021). &lt;strong&gt;&lt;a href=&#34;https://www.nature.com/articles/s41467-021-24899-8&#34;&gt;Link&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Traditional understanding of urban income segregation is largely based on static coarse grained residential patterns. However, these do not capture the income segregation experience implied by the rich social interactions that happen in places that may relate to individual choices, opportunities, and mobility behavior. Using a large-scale high-resolution mobility data set of 4.5 million mobile phone users and 1.1 million places in 11 large American cities, we show that income segregation experienced in places and by individuals can differ greatly even within close spatial proximity. To further understand these ﬁne-grained income segregation patterns, we introduce a Schelling extension of a well-known mobility model, and show that experienced income segregation is associated with an individual’s tendency to explore new places (place exploration) as well as places with visitors from different income groups (social exploration). Interestingly, while the latter is more strongly associated with demographic characteristics, the former is more strongly associated with mobility behavioral variables. Our results suggest that mobility behavior plays an important role in experienced income segregation of individuals. To measure this form of income segregation, urban researchers should take into account mobility behavior and not only residential patterns.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Media:&lt;/strong&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -193,8 +338,22 @@ Abstract: Traditional understanding of urban income segregation is largely based
       <pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2021-06-16-effect-of-covid-19-response-policies-on-walking-behavior-in-us-cities/</guid>
-      <description>Authors: Ruth F. Hunter, Leandro Garcia, Thiago Herick de Sa, Belen Zapata-Diomedi, Christopher Millett, James Woodcock, Alex ’Sandy’ Pentland, and Esteban Moro Publication: Nature Communications (2021). Link
-Abstract: The COVID-19 pandemic is causing mass disruption to our daily lives. We integrate mobility data from mobile devices and area-level data to study the walking patterns of 1.62 million anonymous users in 10 metropolitan areas in the United States. The data covers the period from mid-February 2020 (pre-lockdown) to late June 2020 (easing of lockdown restrictions).</description>
+      <description>&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Ruth F. Hunter, Leandro Garcia, Thiago Herick de Sa, Belen Zapata-Diomedi, Christopher Millett, James Woodcock, Alex ’Sandy’ Pentland, and Esteban Moro
+&lt;em&gt;Publication&lt;/em&gt;: Nature Communications (2021). &lt;strong&gt;&lt;a href=&#34;https://www.nature.com/articles/s41467-021-23937-9&#34;&gt;Link&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; The COVID-19 pandemic is causing mass disruption to our daily lives. We integrate mobility data from mobile devices and area-level data to study the walking patterns of 1.62 million anonymous users in 10 metropolitan areas in the United States. The data covers the period from mid-February 2020 (pre-lockdown) to late June 2020 (easing of lockdown restrictions). We detect when users were walking, distance walked and time of the walk, and classify each walk as recreational or utilitarian. Our results reveal dramatic declines in walking, particularly utilitarian walking, while recreational walking has recovered and even surpassed pre-pandemic levels. Our findings also demonstrate important social patterns, widening existing inequalities in walking behavior. COVID-19 response measures have a larger impact on walking behavior for those from low-income areas and high use of public transportation. Provision of equal opportunities to support walking is key to opening up our society and economy.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Media:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Lockdowns reveal inequities in opportunities for walking activities, MIT News &lt;a href=&#34;https://news.mit.edu/2021/lockdowns-reveal-inequities-opportunities-walking-activities-0719&#34;&gt;link&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;COVID-related lockdowns reveal inequities in opportunities for walking, Center for Public Health, Queen&amp;rsquo;s University Belfast. &lt;a href=&#34;https://www.qub.ac.uk/research-centres/CentreforPublicHealth/News/COVID-relatedlockdownsrevealinequitiesinopportunitiesforwalking.html&#34;&gt;link&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Study: More people walked during the pandemic, but how much depended on their income level, Boston.com &lt;a href=&#34;https://www.boston.com/news/coronavirus/2021/09/22/walking-pandemic-study-mit/&#34;&gt;link&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -203,9 +362,10 @@ Abstract: The COVID-19 pandemic is causing mass disruption to our daily lives. W
       <pubDate>Fri, 18 Dec 2020 00:00:00 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2020-12-09-effect-of-covid-19-response-policies-on-walking-behavior-in-us-cities/</guid>
-      <description>Authors: Alberto Aleta, David Martin-Corral, Michiel Bakker, Ana Pastore y Piontti, Marco Ajelli, Maria Litvinova, Matteo Chinazzi, Natalie E Dean,M. Elizabeth Halloran, Ira M Longini, Alex Pentland, Alessandro Vespignani, Yamir Moreno, Esteban Moro
-Publication: medRxiv (2020). Link
-Abstract: Detailed characterizations of SARS-CoV-2 transmission risk across different social settings can inform the design of targeted and less disruptive non-pharmaceutical interventions (NPI), yet these data have been lacking. Here we integrate real-time, anonymous and privacy-enhanced geolocalized mobility data with census and demographic data in the New York City and Seattle metropolitan areas to build a detailed agent-based model of SARS-CoV-2 transmission.</description>
+      <description>&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Alberto Aleta, David Martin-Corral, Michiel Bakker, Ana Pastore y Piontti, Marco Ajelli,  Maria Litvinova, Matteo Chinazzi, Natalie E Dean,M. Elizabeth Halloran, Ira M Longini, Alex Pentland, Alessandro Vespignani, Yamir Moreno, Esteban Moro&lt;br&gt;
+&lt;em&gt;Publication&lt;/em&gt;: medRxiv (2020). &lt;strong&gt;&lt;a href=&#34;https://www.medrxiv.org/content/10.1101/2020.12.15.20248273v1&#34;&gt;Link&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Detailed characterizations of SARS-CoV-2 transmission risk across different social settings can inform the design of targeted and less disruptive non-pharmaceutical interventions (NPI), yet these data have been lacking. Here we integrate real-time, anonymous and privacy-enhanced geolocalized mobility data with census and demographic data in the New York City and Seattle metropolitan areas to build a detailed agent-based model of SARS-CoV-2 transmission. The aim is to estimate where, when, and how many transmission events happened in those urban areas during the first wave of the pandemic. We estimate that most infections (80%) are produced by a small number of people (27%), and that about 10% of events can be considered super-spreading events (SSEs), i.e. generating more than eight secondary infections. Although mass gatherings present an important risk for future SSEs, we find that the bulk of transmission in the first wave occurred in smaller events at settings like workplaces, grocery stores, or food venues. We also observe that places where the majority of transmission and SSEs happened changed during the pandemic and are different across cities, a signal of the large underlying behavioral component underneath them. Our results demonstrate that constant real-time tracking of transmission events is needed to create, evaluate, and refine more effective and localized measures to contain the pandemic.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -214,7 +374,17 @@ Abstract: Detailed characterizations of SARS-CoV-2 transmission risk across diff
       <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2019-02-01-netmob-2019/</guid>
-      <description>Another edition of Netmob is happening this year 2019. NetMob is the primary conference in the analysis of mobile phone datasets in social, urban, societal and industrial problems. Previous editions in Boston and Milano brought together more than 250 researchers, practitioners and decision-makers from more 140 institutions and 30 countries. I had the pleasure to organize the 2015 edition and it was a blast to put together so much interesting talks, people, projects.</description>
+      <description>&lt;p&gt;Another edition of Netmob is happening this year 2019. NetMob is the primary conference in the analysis of mobile phone datasets in social, urban, societal and industrial problems. Previous editions in Boston and Milano brought together more than 250 researchers, practitioners and decision-makers from more 140 institutions and 30 countries. I had the pleasure to organize the &lt;a href=&#34;https://estebanmoro.org/post/2015-04-14-netmob-2015&#34;&gt;2015 edition&lt;/a&gt; and it was a blast to put together so much interesting talks, people, projects.
+Any contribution about mobile phone data is welcome, not only CDRs (call detail records). This includes, mobile location data, wifi usage, app-generated data, Twitter, Facebook, etc. The format of the conference is also flexibel: one track of short contributed talks and a simplified submission procedure (1-page abstracts).&lt;/p&gt;
+&lt;p&gt;This time is happening at another special place for me: the Mathematical Institute or University of Oxford (UK) from July 8-10 2019 and the local organizer is Renaud Lambiotte. Join us there.&lt;/p&gt;
+&lt;p&gt;More info:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Submission deadline: 15 March 2019&lt;/li&gt;
+&lt;li&gt;Notification of acceptance: 30 March 2019&lt;/li&gt;
+&lt;li&gt;Registration opening: 30 March 2019&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;See &lt;a href=&#34;http://netmob.org&#34;&gt;http://netmob.org&lt;/a&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -223,9 +393,14 @@ Abstract: Detailed characterizations of SARS-CoV-2 transmission risk across diff
       <pubDate>Wed, 28 Jun 2017 12:54:18 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2017-06-28-temporal-patterns-behind-the-strength-of-persistent-ties/</guid>
-      <description>Authors: Henry Navarro, Giovanna Miritello, Arturo Canales, Esteban Moro
-Journal: EPJ Data Science (2017) 6:31 LINK
-Abstract: Social networks are made out of strong and weak ties having very different structural and dynamical properties. But what features of human interaction build a strong tie? Here we approach this question from a practical way by finding what are the properties of social interactions that make ties more persistent and thus stronger to maintain social interactions in the future.</description>
+      <description>&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Henry Navarro, Giovanna Miritello, Arturo Canales, Esteban Moro&lt;br&gt;
+&lt;em&gt;Journal&lt;/em&gt;: EPJ Data Science (2017) &lt;strong&gt;6&lt;/strong&gt;:31 &lt;strong&gt;&lt;a href=&#34;https://epjdatascience.springeropen.com/articles/10.1140/epjds/s13688-017-0127-3&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Social networks are made out of strong and weak ties having very different structural and dynamical properties. But what features of human interaction build a strong tie? Here we approach this question from a practical way by finding what are the properties of social interactions that make ties more persistent and thus stronger to maintain social interactions in the future. Using a large longitudinal mobile phone database we build a predictive model of tie persistence based on intensity, intimacy, structural and temporal patterns of social interaction. While our results confirm that structural (embeddedness) and intensity (number of calls) features are correlated with tie persistence, temporal features of communication events are better and more efficient predictors for tie persistence. Specifically, although communication within ties is always bursty we find that ties that are more bursty than the average are more likely to decay, signaling that tie strength is not only reflected in the intensity or topology of the network, but also on how individuals distribute time or attention across their relationships. We also found that stable relationships have and require a constant rhythm and if communication is halted for more than 8 times the previous communication frequency, most likely the tie will decay. Our results not only are important to understand the strength of social relationships but also to unveil the entanglement between the different temporal scales in networks, from microscopic tie burstiness and rhythm to macroscopic network evolution.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Media&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://estebanmoro.org/post/2017-12-19-important-relationships-are-not-bursty/&#34;&gt;Important relationships are not bursty&lt;/a&gt; Read more about the implications of our work to detect long-lasting relationships.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -234,7 +409,25 @@ Abstract: Social networks are made out of strong and weak ties having very diffe
       <pubDate>Tue, 14 Apr 2015 09:26:11 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2015-04-14-netmob-2015/</guid>
-      <description>I had the pleasure to organize last edition of Netmob at MIT Media Lab (together with Sandy Pentland, Vincent Blondel and Yves-Alexandre de Montjoye). Netmob is the primary conference in the analysis of those datasets in social, urban, societal and industrial problems. Netmob 2015 also hosted the final part of theD4D Challenge by Orange. They were 3 amazing days of applications and analysis of mobile phone datasets, preceded by one-day school and 3 days Hackathon.</description>
+      <description>&lt;p&gt;I had the pleasure to organize last edition of &lt;a href=&#34;http://netmob.org&#34;&gt;Netmob&lt;/a&gt; at MIT Media Lab (together with &lt;a href=&#34;http://web.media.mit.edu/~sandy/&#34;&gt;Sandy Pentland&lt;/a&gt;, &lt;a href=&#34;http://perso.uclouvain.be/vincent.blondel/&#34;&gt;Vincent Blondel&lt;/a&gt; and &lt;a href=&#34;http://www.demontjoye.com&#34;&gt;Yves-Alexandre de Montjoye&lt;/a&gt;). Netmob is the primary conference in the analysis of those datasets in social, urban, societal and industrial problems. Netmob 2015 also hosted the final part of the&lt;a href=&#34;http://www.d4d.orange.com/en/home&#34;&gt; D4D Challenge&lt;/a&gt; by Orange. They were 3 amazing days of applications and analysis of mobile phone datasets, preceded by one-day school and 3 days Hackathon. More than 60 talks and 40 posters were presented. Around 250 participants from 140 institutions, 32 countries (5 continents!) participated, showing the international and wide interest in Netmob.&lt;/p&gt;
+&lt;p&gt;Here is some information about the event:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://netmob.org&#34;&gt;Homepage of Netmob&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://netmob.org/#abstracts&#34;&gt;Books of abstracts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/netmob15&#34;&gt;Twitter account&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;And some pictures&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/img/posts/FullSizeRender-1024x803.jpg&#34; alt=&#34;Conference chairs: Yves-Alexandre de Montjoye, Esteban Moro, Alex &amp;lsquo;Sandy&amp;rsquo; Pentland and Vincent Blondel&#34;&gt;Conference chairs: Yves-Alexandre de Montjoye, Esteban Moro, Alex &amp;lsquo;Sandy&amp;rsquo; Pentland and Vincent Blondel&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/img/posts/mapanetmob.jpg&#34; alt=&#34;Map of the different countries of the Netmob 2015 participants&#34;&gt;Map of the different countries of the Netmob 2015 participants&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/img/posts/CCQOkDXUgAA1dxp.jpg-large.jpg&#34; alt=&#34;Giving the farewell speech at Netmob 2015&#34;&gt;
+Giving the farewell speech at Netmob 2015&lt;/p&gt;
+&lt;p&gt;Media coverage:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Por tu móvil te conocerán [&lt;a href=&#34;http://www.elbuzon.es/por-tu-movil-te-conoceran-10540&#34;&gt;Elbuzón.es&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;El móvil permitirá estudiar el comportamiento humano a un nivel espacial, temporal y social “sin precedentes” [&lt;a href=&#34;http://noticias.lainformacion.com/economia-negocios-y-finanzas/equipos-de-telecomunicaciones/el-movil-permitira-estudiar-el-comportamiento-humano-a-un-nivel-espacial-temporal-y-social-sin-precedentes_E3an5tt8AK01oV8FjC3Qi7/&#34;&gt;LaInformación.com&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;Analysis of mobile phone data applied to economic and social problems [&lt;a href=&#34;http://phys.org/news/2015-04-analysis-mobile-economic-social-problems.html&#34;&gt;Phys.org&lt;/a&gt;]&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -243,9 +436,10 @@ Abstract: Social networks are made out of strong and weak ties having very diffe
       <pubDate>Fri, 17 May 2013 07:47:26 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2013-05-17-time-allocation-in-social-networks-correlation-between-social-structure-and-human-communication-dynamics/</guid>
-      <description>Authors: Giovanna Miritello, Rubén Lara, and Esteban Moro
-Book: &amp;ldquo;Temporal Networks&amp;rdquo;, Springer, 2013. Series: Understanding Complex Systems. Holme, Petter; Saramaki, Jari (Eds.) [PDF]((http://arxiv.org/pdf/1305.3865v1.pdf)
-Summary Recent research has shown the deep impact of the dynamics of human interactions (or temporal social networks) on the spreading of information, opinion formation, etc. In general, the bursty nature of human interactions lowers the interaction between people to the extent that both the speed and reach of information diffusion are diminished.</description>
+      <description>&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Giovanna Miritello, Rubén Lara, and Esteban Moro&lt;br&gt;
+&lt;em&gt;Book&lt;/em&gt;: &amp;ldquo;Temporal Networks&amp;rdquo;, Springer, 2013. Series: Understanding Complex Systems. Holme, Petter; Saramaki, Jari (Eds.) &lt;strong&gt;[PDF]((&lt;a href=&#34;http://arxiv.org/pdf/1305.3865v1.pdf&#34;&gt;http://arxiv.org/pdf/1305.3865v1.pdf&lt;/a&gt;)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Summary&lt;/strong&gt; Recent research has shown the deep impact of the dynamics of human interactions (or temporal social networks) on the spreading of information, opinion formation, etc. In general, the bursty nature of human interactions lowers the interaction between people to the extent that both the speed and reach of information diffusion are diminished. Using a large database of 20 million users of mobile phone calls we show evidence this effect is not homogeneous in the social network but in fact, there is a large correlation between this effect and the social topological structure around a given individual. In particular, we show that social relations of hubs in a network are relatively weaker from the dynamical point than those that are poorer connected in the information diffusion process. Our results show the importance of the temporal patterns of communication when analyzing and modeling dynamical process on social networks.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -254,9 +448,10 @@ Summary Recent research has shown the deep impact of the dynamics of human inter
       <pubDate>Tue, 09 Apr 2013 07:43:09 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2013-04-09-limited-communication-capacity-unveils-strategies-for-human-interaction/</guid>
-      <description>Authors: Giovanna Miritello, Rubén Lara, Manuel Cebrián and Esteban Moro
-Journal: Scientific Reports 3, 1950 (2013). LINK
-Abstract: Social connectivity is the key process that characterizes the structural properties of social networks and in turn processes such as navigation, influence or information diffusion. Since time, attention and cognition are inelastic resources, humans should have a predefined strategy to manage their social interactions over time. However, the limited observational length of existing human interaction datasets, together with the bursty nature of dyadic communications have hampered the observation of tie dynamics in social networks.</description>
+      <description>&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Giovanna Miritello, Rubén Lara, Manuel Cebrián and Esteban Moro&lt;br&gt;
+&lt;em&gt;Journal&lt;/em&gt;: Scientific Reports &lt;strong&gt;3&lt;/strong&gt;, 1950 (2013). &lt;strong&gt;&lt;a href=&#34;http://www.nature.com/srep/2013/130606/srep01950/full/srep01950.html&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Social connectivity is the key process that characterizes the structural properties of social networks and in turn processes such as navigation, influence or information diffusion. Since time, attention and cognition are inelastic resources, humans should have a predefined strategy to manage their social interactions over time. However, the limited observational length of existing human interaction datasets, together with the bursty nature of dyadic communications have hampered the observation of tie dynamics in social networks. Here we develop a method for the detection of tie activation/deactivation, and apply it to a large longitudinal, cross-sectional communication dataset (≈19 months, ≈ 20 million people). Contrary to the perception of ever-growing connectivity, we observe that individuals exhibit a finite communication capacity, which limits the number of ties they can maintain active. In particular we find that men have an overall higher communication capacity than women and that this capacity decreases gradually for both sexes over the lifespan of individuals (16-70 years). We are then able to separate communication capacity from communication activity, revealing a diverse range of tie activation patterns, from stable to exploratory. We find that, in simulation, individuals exhibiting exploratory strategies display longer time to receive information spreading in the network those individuals with stable strategies. Our principled method to determine the communication capacity of an individual allows us to quantify how strategies for human interaction shape the dynamical evolution of social networks.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -265,9 +460,10 @@ Abstract: Social connectivity is the key process that characterizes the structur
       <pubDate>Thu, 25 Nov 2010 10:19:44 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2010-11-25-the-dynamical-strength-of-social-ties-in-information-spreading/</guid>
-      <description>Authors: Giovanna Miritello, Esteban Moro y Rubén Lara
-Journal: Physical Review E (Rapid Comm) 83, 045102 (2011). LINK | arXiv
-Abstract: We investigate the temporal patterns of human communication and its influence on the spreading of information in social networks. The analysis of mobile phone calls of 20 million people in one country shows that human communication is bursty and happens in group conversations. These features have opposite effects in information reach: while bursts hinder propagation at large scales, conversations favor local rapid cascades.</description>
+      <description>&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Giovanna Miritello, Esteban Moro y Rubén Lara&lt;br&gt;
+&lt;em&gt;Journal&lt;/em&gt;: Physical Review E (Rapid Comm) &lt;strong&gt;83&lt;/strong&gt;, 045102 (2011). &lt;strong&gt;&lt;a href=&#34;https://www.sciencedirect.com/science/article/pii/S0378873310000596&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt; | &lt;strong&gt;&lt;a href=&#34;https://arxiv.org/abs/1011.5367&#34;&gt;arXiv&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; We investigate the temporal patterns of human communication and its influence on the spreading of information in social networks. The analysis of mobile phone calls of 20 million people in one country shows that human communication is bursty and happens in group conversations. These features have opposite effects in information reach: while bursts hinder propagation at large scales, conversations favor local rapid cascades. To explain these phenomena we define the dynamical strength of social ties, a quantity that encompasses both the topological and temporal patterns of human communication.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

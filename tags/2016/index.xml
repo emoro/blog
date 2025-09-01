@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2016 on </title>
@@ -6,17 +5,23 @@
     <description>Recent content in 2016 on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Wed, 21 Dec 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://estebanmoro.org/tags/2016/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 21 Dec 2016 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://estebanmoro.org/tags/2016/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>2016 pictures</title>
       <link>https://estebanmoro.org/post/2016-12-20-2016-pictures/</link>
       <pubDate>Wed, 21 Dec 2016 00:00:00 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2016-12-20-2016-pictures/</guid>
-      <description>Some pictures of different activities during this year 2016
-I was invited to give a tutorial about temporal networs at the Workshop on Complex Network Mining and Analysis in Workclaw. Here we are hanging out with some of the other speakers (Bruno Goncalves and Marton Karsai)
-Just arrived to Boston, I gave a talk at Netsi about our work on Temporal Networks at Netsci, Northeastern University.
-Working at the Medialab I got the opportunity to talk about our work in other groups, like Scalable Cooperation here.</description>
+      <description>&lt;p&gt;Some pictures of different activities during this year 2016&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/img/2016/IMG_6372.jpg&#34; alt=&#34;I was invited to give a tutorial about temporal networs at the Workshop on Complex Network Mining and Analysis in Workclaw. Here we are hanging out with some of the other speakers (Bruno Goncalves and Marton Karsai)&#34;&gt; I was invited to give a tutorial about temporal networs at the &lt;em&gt;Workshop on Complex Network Mining and Analysis&lt;/em&gt; in Workclaw. Here we are hanging out with some of the other speakers (Bruno Goncalves and Marton Karsai)&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/img/2016/NETSI2016.jpg&#34; alt=&#34;Just arrived to Boston, I gave a talk at Netsi about our work on Temporal Networks at Netsci, Northeaster University&#34;&gt; Just arrived to Boston, I gave a talk at Netsi about our work on Temporal Networks at Netsci, Northeastern University.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/img/2016/CharlaGrupoIyad_2016.jpg&#34; alt=&#34;Working at the Medialab I got the opportunity to talk about our work in other groups, like Scalable Cooperation here.&#34;&gt; Working at the Medialab I got the opportunity to talk about our work in other groups, like Scalable Cooperation here.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/img/2016/DL4kB9AXkAEs2GF.jpg&#34; alt=&#34;I was invited to visit NICO at Northwestern University were I give a seminar about our work on social ties.&#34;&gt; I was invited to visit NICO at Northwestern University were I give a seminar about our work on social ties.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

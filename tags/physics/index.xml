@@ -1,20 +1,28 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>physics on </title>
+    <title>Physics on </title>
     <link>https://estebanmoro.org/tags/physics/</link>
-    <description>Recent content in physics on </description>
+    <description>Recent content in Physics on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Tue, 03 Oct 2006 08:12:00 +0000</lastBuildDate><atom:link href="https://estebanmoro.org/tags/physics/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 03 Oct 2006 08:12:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://estebanmoro.org/tags/physics/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>The marketing of breaking laws of physics</title>
       <link>https://estebanmoro.org/2006/10/the-marketing-of-breaking-laws-of-physics/</link>
       <pubDate>Tue, 03 Oct 2006 08:12:00 +0000</pubDate>
       
       <guid>https://estebanmoro.org/2006/10/the-marketing-of-breaking-laws-of-physics/</guid>
-      <description>Apparently, a company in Ireland named Steorn has found the killer marketing campaign for their products:
- 1. Get a law of physics: the first law of thermodynamics, for example, and claim you have a technology that can break it. Cool! 2. Get a good flashy marketing campaign by publishing in The Economist a &amp;quot;show us wrong&amp;quot; announcement to the scientific community. 3. Hide the details of your technology and delay its public announcement by creating a &amp;quot;challenge&amp;quot; to the scientific community.</description>
+      <description>&lt;p&gt;Apparently, a company in Ireland named &lt;a href=&#34;http://www.steorn.net/frontpage/default.aspx&#34;&gt;Steorn&lt;/a&gt; has found the killer marketing campaign for their products:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  1. Get a law of physics: the first law of thermodynamics, for example, and claim you have a technology that can break it. Cool!
+  2. Get a good flashy marketing campaign by publishing in The Economist a &amp;quot;show us wrong&amp;quot; announcement to the scientific community. 
+  3. Hide the details of your technology and delay its public announcement by creating a &amp;quot;challenge&amp;quot; to the scientific community.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This is it!. Nothing more than that and you get talked about in blogs, newspapers, etc. However, this seems to be just another case of &lt;a href=&#34;http://en.wikipedia.org/wiki/Cold_fusion&#34;&gt;cold fusion&lt;/a&gt;. Just reading their &amp;ldquo;about our products&amp;rdquo; web page shows how incredible (and irreal) their technology is: not only they promise that energy is totally conserved and not degradated in heat (100% performance of their technology) but&amp;hellip; they create energy out of the blue!!! Yes, you read it right, they get more than 100% performance! Dude, that is impressive. I hope they will start selling laptop batteries with their technology so they can recharged themselves forever.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -23,7 +31,18 @@
       <pubDate>Thu, 06 Apr 2006 08:15:39 +0000</pubDate>
       
       <guid>https://estebanmoro.org/2006/04/the-seven-warning-signs-of-bogus-science/</guid>
-      <description>We all are aware of recent cases of fraud in science. The case of cloning in South Korea is the most recent one, but not the first or the last to happen. Identifying those cases is hard, since most of the times the verification of the claims is a long time-consuming process. Very recently, Robert L. Park has identified some warning signs about a scientific discoverythat can make us doubt about the scientific soundness of it, since they indicate that a scientific claim lies well outside the bounds of rational scientific discourse:  * The discoverer pitches the claim directly to the media * The discoverer says that a powerful establishment is trying to suppress his or her work * The scientific effect involved is always at the very limit of detection * Evidence for a discovery is anecdotal * The discoverer says a belief is credible because it has endured for centuries * The discoverer has worked in isolation * The discoverer must propose new laws of nature to explain an observation  Several examples with all or several of these red lights come to my mind.</description>
+      <description>&lt;p&gt;We all are aware of recent cases of fraud in science. The case of cloning in South Korea is the most recent one, but not the first or the last to happen. Identifying those cases is hard, since most of the times the verification of the claims is a long time-consuming process. Very recently, Robert L. Park has identified &lt;a href=&#34;http://chronicle.com/free/v49/i21/21b02001.htm&#34;&gt;some warning signs about a scientific discovery&lt;/a&gt;that can make us doubt about the scientific soundness of it, since they indicate that a scientific claim lies well outside the bounds of rational scientific discourse: &lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  * The discoverer pitches the claim directly to the media 
+  * The discoverer says that a powerful establishment is trying to suppress his or her work
+  * The scientific effect involved is always at the very limit of detection
+  * Evidence for a discovery is anecdotal
+  * The discoverer says a belief is credible because it has endured for centuries
+  * The discoverer has worked in isolation
+  * The discoverer must propose new laws of nature to explain an observation
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Several examples with all or several of these red lights come to my mind. And I have the feeling that they are more frequent nowadays.&lt;/p&gt;
+&lt;p&gt;Note: Robert L. Park is a professor of Physics at University of Maryland and the director of public information for the American Physical Society.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

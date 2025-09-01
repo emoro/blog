@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Stock Market on </title>
@@ -6,14 +5,58 @@
     <description>Recent content in Stock Market on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://estebanmoro.org/tags/stock-market/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://estebanmoro.org/tags/stock-market/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Financial markets as empirical labs to study the evolving ecology of human decision making</title>
       <link>https://estebanmoro.org/post/2019-02-02-financial-markets-as-empirical-labs-to-study-the-evolving-ecology-of-human-decision-making/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2019-02-02-financial-markets-as-empirical-labs-to-study-the-evolving-ecology-of-human-decision-making/</guid>
-      <description>Human decision making strategies evolve through time based on past experience and they are influence by the spectrum of other strategies with which they come into contact. Financial markets provide the best empirical lab to understand how human decide under risk and uncertainty. They are complex systems which provide massive datasets of detail records of human decisions which constantly evolve and collide in centralized or social structures. Furthermore financial markets provide us with a very simple measure of performance (profits, ROI), thus enabling us to study the relationship between human decision making strategies and performance.</description>
+      <description>&lt;p&gt;Human decision making strategies evolve through time based on past experience and they are influence by the spectrum of other strategies with which they come into contact. Financial markets provide the best empirical lab to understand how human decide under risk and uncertainty. They are complex systems which provide massive datasets of detail records of human decisions which constantly evolve and collide in centralized or social structures. Furthermore financial markets provide us with a very simple measure of performance (profits, ROI), thus enabling us to study the relationship between human decision making strategies and performance. During the last year we have studied those systems to understand the regularities of &lt;strong&gt;how agents in financial markets analyze the information and perform their decisions&lt;/strong&gt;. In the past and due to agreements with the Spanish and London Stock market we found that different institutions/agents have different strategies in the market, do have different impact in the price at small time scales or optimize the trading of their large orders in different way.&lt;/p&gt;
+&lt;p&gt;More recently, we have been studying new or non-traditional financial venues, like the social trading platform &lt;em&gt;eToro&lt;/em&gt; or the evolution of &lt;em&gt;crypto-currencies&lt;/em&gt;. We found that agents in social trading platforms do suffer from the same cognitive limitations as human in other social venues (social networks for example) and that limits the potential performance of them in those platforms. Finally, we have put to test one of the most traditional hypothesis of financial markets in the trading of new crypto-currencies: the fact that their price reflects all the information available to them. Analysing thousands of forums about those &lt;em&gt;e-coins&lt;/em&gt; we found that the volatility of them is actually related to the level, quality and technicality of that discussion.&lt;/p&gt;
+&lt;p&gt;Some recent papers:
+&lt;small&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;b&gt;Accuracy-Risk Trade-Off Due to Social Learning in Crowd-Sourced Financial Predictions&lt;/b&gt;&lt;br&gt;
+Dhaval Adjodah, Yan Leng, Shi Kai Chong, P. M. Krafft, Esteban Moro, Alex Pentland&lt;br&gt;
+Entropy &lt;strong&gt;23&lt;/strong&gt; 801 (2021)&lt;br&gt;
+&lt;a href=&#34;https://estebanmoro.org/pdf/Accuracy_Risk_Trade_Off_Due_to_Social_Learning_in_Crowd_Sourced_Financial_Predictions.pdf&#34; class=&#34;BUTTON_JEL&#34;&gt;PDF&lt;/a&gt; &lt;a href=&#34;https://www.mdpi.com/1099-4300/23/7/801&#34; class=&#34;BUTTON_JEL&#34;&gt;Journal&lt;/a&gt; &lt;div data-badge-popover=&#34;right&#34; data-badge-type=&#34;2&#34; data-doi=&#34;10.3390/e23070801&#34; data-hide-no-mentions=&#34;true&#34; data-hide-less-than=&#34;10&#34; class=&#34;altmetric-embed&#34;&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;b&gt;ScamCoins, S*** Posters, and the Search for the Next Bitcoin TM : Collective Sensemaking in Cryptocurrency Discussions&lt;/b&gt;&lt;br&gt;
+Eaman Jahani, Peter M Krafft, Yoshihiko Suhara, Esteban Moro, Alex Sandy Pentland&lt;br&gt;
+Proceedings of the ACM on Human-Computer Interaction &lt;strong&gt;2&lt;/strong&gt; 79&amp;ndash;28 (2018)&lt;br&gt;
+&lt;a href=&#34;https://estebanmoro.org/pdf/ScamCoins__S__Posters__and_the_Search_for_the_Next_Bitcoin_TM___Collective_Sensemaking_in_Cryptocurrency_Discussions.pdf&#34; class=&#34;BUTTON_JEL&#34;&gt;PDF&lt;/a&gt; &lt;a href=&#34;http://dl.acm.org/citation.cfm?doid=3290265.3274348&#34; class=&#34;BUTTON_JEL&#34;&gt;Journal&lt;/a&gt; &lt;a href=&#34;http://www.altmetric.com/details.php?citation_id=50793871&#34; class=&#34;BUTTON_JEL&#34;&gt;Altmetric: 9&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;b&gt;Market impact and trading profile of hidden orders in stock markets.&lt;/b&gt;&lt;br&gt;
+Esteban Moro, Javier Vicente, Luis G Moyano, Austin Gerig, J Doyne Farmer, Gabriella Vaglica, Fabrizio Lillo, Rosario N Mantegna&lt;br&gt;
+Physical review E, Statistical, nonlinear, and soft matter physics &lt;strong&gt;80&lt;/strong&gt; 066102 (2009)&lt;br&gt;
+&lt;a href=&#34;https://estebanmoro.org/pdf/Market_impact_and_trading_profile_of_hidden_orders_in_stock_markets_.pdf&#34; class=&#34;BUTTON_JEL&#34;&gt;PDF&lt;/a&gt; &lt;a href=&#34;http://adsabs.harvard.edu/cgi-bin/nph-data_query?bibcode=2009PhRvE..80f6102M&amp;link_type=EJOURNAL&#34; class=&#34;BUTTON_JEL&#34;&gt;Journal&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;b&gt;Specialization and herding behavior of trading firms in a financial market&lt;/b&gt;&lt;br&gt;
+Fabrizio Lillo, Esteban Moro, Gabriella Vaglica, Rosario N Mantegna&lt;br&gt;
+New Journal of Physics &lt;strong&gt;10&lt;/strong&gt; 043019 (2008)&lt;br&gt;
+&lt;a href=&#34;https://estebanmoro.org/pdf/Specialization_and_herding_behavior_of_trading_firms_in_a_financial_market.pdf&#34; class=&#34;BUTTON_JEL&#34;&gt;PDF&lt;/a&gt; &lt;a href=&#34;http://stacks.iop.org/1367-2630/10/i=4/a=043019?key=crossref.1d46fbbc0f5d90b1aedae63d2df571c9&#34; class=&#34;BUTTON_JEL&#34;&gt;Journal&lt;/a&gt; &lt;a href=&#34;http://www.altmetric.com/details.php?citation_id=21140866&#34; class=&#34;BUTTON_JEL&#34;&gt;Altmetric: 2&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;b&gt;Scaling laws of strategic behavior and size heterogeneity in agent dynamics.&lt;/b&gt;&lt;br&gt;
+Gabriella Vaglica, Fabrizio Lillo, Esteban Moro, Rosario N Mantegna&lt;br&gt;
+Physical review E, Statistical, nonlinear, and soft matter physics &lt;strong&gt;77&lt;/strong&gt; 036110 (2008)&lt;br&gt;
+&lt;a href=&#34;https://estebanmoro.org/pdf/Scaling_laws_of_strategic_behavior_and_size_heterogeneity_in_agent_dynamics_.pdf&#34; class=&#34;BUTTON_JEL&#34;&gt;PDF&lt;/a&gt; &lt;a href=&#34;https://link.aps.org/doi/10.1103/PhysRevE.77.036110&#34; class=&#34;BUTTON_JEL&#34;&gt;Journal&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/small&gt;
+&lt;p&gt;Talks:&lt;/p&gt;
+&lt;p&gt;Videos:&lt;/p&gt;
+&lt;p&gt;Media:&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -22,9 +65,10 @@
       <pubDate>Mon, 12 Mar 2012 21:12:54 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2012-03-12-agent-specific-impact-of-single-trades-in-financial-markets/</guid>
-      <description>Authors: Alex Bladon, Esteban Moro y Tobias Galla
-Journal: Physical Review E 85, 036103 (2012) LINK | arXiv
-Abstract: We present an analysis of the price impact associated with single trades effected by different financial firms. Using data from the Spanish Stock Market, we find a high degree of heterogeneity across different market members, both in the instantaneous impact functions and in the time-dependent market response to trades by individual members.</description>
+      <description>&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Alex Bladon, Esteban Moro y Tobias Galla&lt;br&gt;
+&lt;em&gt;Journal&lt;/em&gt;: Physical Review E &lt;strong&gt;85&lt;/strong&gt;, 036103 (2012) &lt;strong&gt;&lt;a href=&#34;http://pre.aps.org/abstract/PRE/v85/i3/e036103&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt; | &lt;strong&gt;&lt;a href=&#34;https://arxiv.org/abs/1109.0119&#34;&gt;arXiv&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; We present an analysis of the price impact associated with single trades effected by different financial firms. Using data from the Spanish Stock Market, we find a high degree of heterogeneity across different market members, both in the instantaneous impact functions and in the time-dependent market response to trades by individual members. This heterogeneity is statistically incompatible with the existence of market-wide universal impact dynamics that apply uniformly to all trades and suggest that, rather, market dynamics emerge from the complex interaction of different behaviors of market participants. Several possible reasons for this are discussed, along with potential extensions one may consider to increase the range of applicability of existing models of market impact.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -33,9 +77,10 @@ Abstract: We present an analysis of the price impact associated with single trad
       <pubDate>Tue, 04 Aug 2009 08:03:11 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2009-08-04-market-impact-and-trading-proefac81le-of-large-trading-orders-in-stock-markets/</guid>
-      <description>Authors: Esteban Moro, Javier Vicente, Luis G. Moyano, Austin Gerig, J. Doyne Farmer, Gabriella Vaglica, Fabrizio Lillo and Rosario N. Mantegna
-Journal: Phys. Rev. E 80, 066102 (2009) LINK | arXiv
-Abstract: We empirically study the market impact of trading orders. We are speciﬁcally interested in large trading orders that are executed incrementally, which we call hidden orders. These are reconstructed based on information about market member codes using data from the Spanish Stock Market and the London Stock Exchange.</description>
+      <description>&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Esteban Moro, Javier Vicente, Luis G. Moyano, Austin Gerig, J. Doyne Farmer, Gabriella Vaglica, Fabrizio Lillo and Rosario N. Mantegna&lt;br&gt;
+&lt;em&gt;Journal&lt;/em&gt;: Phys. Rev. E 80, 066102 (2009) &lt;strong&gt;&lt;a href=&#34;http://journals.aps.org/pre/abstract/10.1103/PhysRevE.80.066102&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt; |  &lt;strong&gt;&lt;a href=&#34;https://arxiv.org/pdf/0908.0202v1.pdf&#34;&gt;arXiv&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; We empirically study the market impact of trading orders. We are speciﬁcally interested in large trading orders that are executed incrementally, which we call hidden orders. These are reconstructed based on information about market member codes using data from the Spanish Stock Market and the London Stock Exchange. We find that market impact is strongly concave, approximately increasing as the square root of order size. Furthermore, as a given order is executed, the impact grows in time according to a power-law; after the order is finished, it reverts to a level of about 0.5-0.7 of its value at its peak. We observe that hidden orders are executed at a rate that more or less matches trading in the overall market, except for small deviations at the beginning and end of the order.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -44,7 +89,29 @@ Abstract: We empirically study the market impact of trading orders. We are speci
       <pubDate>Tue, 09 Dec 2008 09:05:42 +0000</pubDate>
       
       <guid>https://estebanmoro.org/2008/12/new-section-in-the-arxiv-quantitative-finance/</guid>
-      <description>News from the arXiv: a new section has been created to host preprints about Quantitative Finance. The section (as stated in the press release) intends to fix a problem with existing pre-print repositories. One one hand, social sciences repositories like SSRN, RepEC/IDEAS and others are too academic for practitioners, while on the other hand sites like defaultrisk.com or wilmott.com have not attracted many academic contributors. The new category in the arXiv would be a gathering point for both practitioners and academic people working in this important research field</description>
+      <description>&lt;p&gt;News from the &lt;a href=&#34;http://arxiv.org/&#34;&gt;arXiv&lt;/a&gt;: a new section has been created to host preprints about Quantitative Finance. The section (as stated in the &lt;a href=&#34;http://arxiv.org/new/q-fin_announcement.html&#34;&gt;press release&lt;/a&gt;) intends to fix a problem with existing pre-print repositories. One one hand, social sciences repositories like SSRN, RepEC/IDEAS and others are too academic for practitioners, while on the other hand sites like defaultrisk.com or wilmott.com have not attracted many academic contributors. The new category in the arXiv would be a gathering point for both practitioners and academic people working in this important research field&lt;/p&gt;
+&lt;p&gt;The new sub-categories of the new q-fin category are:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  * q-fin.PR - Pricing of Securities
+  * q-fin.RM - Risk Management
+  * q-fin.PM - Portfolio Management
+  * q-fin.TR - Trading and Microstructure
+  * q-fin.ST - Statistical Finance
+  * q-fin.CP - Computational Finance
+  * q-fin.GN - General Finance
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The arXiv editors have already identified a large number of submissions to the repository which already fit in the q-fin category. These preprints have been re-classified and can be already found in the new category.&lt;/p&gt;
+&lt;p&gt;I like this move by arXiv. In the last years, the arXiv has been growing steadily and it is now one of the biggest scientific electronic repositories. It offers a good service to publish electronically your preprints. It improves the visibility of your preprints and it has a bunch of handy tools for authors and researchers, like RSS feeds, trackbacks from blogs, Citebase (preprint citations), etc. &lt;a href=&#34;http://arxiv.org/abs/cs/0603056&#34;&gt;Recent studies&lt;/a&gt;, for example, have shown that posting your preprints to the arXiv lead to higher number of citations for mathematics articles. &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Although it started as a Physics repository, new disciplines (an subdisciplines) have been incorporated in the last years:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  * Physics (started in 1991 as a bulletin with only one section: hep-th)
+  * Nonlinear (created in 1993 and installed on xyz.lanl.gov)
+  * Mathematics (created in 1998)
+  * Computer Science (created in 1998)
+  * Quantitative Biology (created in 2003)
+  * Statistics (created in 2007)
+  * Quantitative Finance (created in 2008)
+&lt;/code&gt;&lt;/pre&gt;
+</description>
     </item>
     
     <item>
@@ -53,9 +120,16 @@ Abstract: We empirically study the market impact of trading orders. We are speci
       <pubDate>Wed, 04 Jul 2007 20:19:35 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2007-07-04-specialization-of-strategies-and-herding-behavior-of-trading-firms-in-a-financial-market/</guid>
-      <description>Authors: Fabrizio Lillo, Esteban Moro, Gabriella Vaglica y Rosario Mantegna
-Journal: New Journal of Physics 10 (2008) 043019 LINK arXiv
-Abstract: Agent-based models of ﬁnancial markets usually make assumptions about agent&amp;rsquo;s preferred stylized strategies. Empirical validations of these assumptions have not been performed so far on a full-market scale. Here we present a comprehensive study of the resulting strategies followed by the ﬁrms which are members of the Spanish Stock Exchange.</description>
+      <description>&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Fabrizio Lillo, Esteban Moro, Gabriella Vaglica y Rosario Mantegna&lt;br&gt;
+&lt;em&gt;Journal&lt;/em&gt;: New Journal of Physics &lt;strong&gt;10&lt;/strong&gt; (2008) 043019 &lt;strong&gt;&lt;a href=&#34;http://iopscience.iop.org/article/10.1088/1367-2630/10/4/043019/meta&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt;
+&lt;strong&gt;&lt;a href=&#34;https://arxiv.org/abs/0707.0385&#34;&gt;arXiv&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt;
+Agent-based models of ﬁnancial markets usually make assumptions  about agent&amp;rsquo;s preferred stylized strategies. Empirical validations of these assumptions have not been performed so far on a full-market scale. Here we present a comprehensive study of the resulting strategies followed by the ﬁrms which are members of the Spanish Stock Exchange. We are able to show that they can be characterized by a resulting strategy and classiﬁed in three well-deﬁned groups of ﬁrms. Firms of the ﬁrst group have a change of inventory of the traded stock which is positively correlated with the synchronous stock return, whereas ﬁrms of the second group show a negative correlation.Firms of the third group have an inventory variation uncorrelated with stock return. Firms tend to stay in the same group over the years indicating a long term specialization in the strategies controlling their inventory variation. We detect a clear asymmetry in the Granger causality between inventory variation of ﬁrms and stock return. We also detect herding in the buying and selling activity of ﬁrms. The herding properties of the two groups are markedly different and consistently observed over a four-year period of trading. Firms of the second group herd much more frequently than the ones of the ﬁrst group. Our results can be used as an empirical basis for agent-based models of ﬁnancial markets.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Press&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.madrimasd.org/informacionidi/noticias/noticia.asp?id=34530&amp;amp;tipo=g&#34;&gt;**Press Release (in spanish) **&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -64,9 +138,13 @@ Abstract: Agent-based models of ﬁnancial markets usually make assumptions abo
       <pubDate>Fri, 20 Apr 2007 09:54:57 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2007-04-20-scaling-laws-of-strategic-behavior-and-size-heterogeneity-in-agent-dynamics/</guid>
-      <description>Authors: Gabriella Vaglica, Fabrizio Lillo, Esteban Moro y Rosario N. Mantegna
-Journal: Physical Review E 77, 036110 (2008). LINK | arXiv
-Abstract: The dynamics of many socioeconomic systems is determined by the decision making process of agents. The decision process depends on agent&amp;rsquo;s characteristics, such as preferences, risk aversion, behavioral biases, etc. In addition, in some systems the size of agents can be highly heterogeneous leading to very different impacts of agents on the system dynamics.</description>
+      <description>&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Gabriella Vaglica, Fabrizio Lillo, Esteban Moro y Rosario N. Mantegna&lt;br&gt;
+&lt;em&gt;Journal&lt;/em&gt;: Physical Review E &lt;strong&gt;77&lt;/strong&gt;, 036110 (2008).
+&lt;strong&gt;&lt;a href=&#34;http://link.aps.org/doi/10.1103/PhysRevE.77.036110&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt; |
+&lt;strong&gt;&lt;a href=&#34;https://arxiv.org/abs/0704.2003&#34;&gt;arXiv&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt;
+The dynamics of many socioeconomic systems is determined by the decision making process of agents. The decision process depends on agent&amp;rsquo;s characteristics, such as preferences, risk aversion, behavioral biases, etc. In addition, in some systems the size of agents can be highly heterogeneous leading to very different impacts of agents on the system dynamics. The large size of some agents poses challenging problems to agents who want to control their impact, either by forcing the system in a given direction or by hiding their intentionality. Here we consider the financial market as a model system, and we study empirically how agents strategically adjust the properties of large orders in order to meet their preference and minimize their impact. We quantify this strategic behavior by detecting scaling relations of allometric nature between the variables characterizing the trading activity of different institutions. We observe power law distributions in the investment time horizon, in the number of transactions needed to execute a large order and in the traded value exchanged by large institutions and we show that heterogeneity of agents is a key ingredient for the emergence of some aggregate properties characterizing this complex system.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -75,9 +153,12 @@ Abstract: The dynamics of many socioeconomic systems is determined by the decisi
       <pubDate>Mon, 01 Aug 2005 07:40:15 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2005-08-01-boundary-preserving-semi-analytical-numerical-algorithms-for-stochastic-differential-equations/</guid>
-      <description>Authors: Esteban Moro and Henri Schurz
-Journal: SIAM Journal of Scientific Computing, Volume 29 Issue 4, Pages 1525-1549 (2007). LINK | arXiv
-Abstract: Construction of splitting-step methods and properties of related non-negativity andboundary preserving numerical algorithms for solving stochastic differential equations (SDEs) of Ito-type are discussed. We present convergence proofs for a newly designed splitting-step algorithm and simulation studies for numerous numerical examples ranging from stochastic dynamics occurring in asset pricing theory in mathematical finance (SDEs of CIR and CEV models) to measure-valued diffusion and superBrownian motion (SPDEs) as met in biology and physics.</description>
+      <description>&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Esteban Moro and Henri Schurz&lt;br&gt;
+&lt;em&gt;Journal&lt;/em&gt;: SIAM Journal of Scientific Computing, Volume 29 Issue 4, Pages 1525-1549 (2007).
+&lt;strong&gt;&lt;a href=&#34;https://doi.org/10.1137/05063725X&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt; |  &lt;strong&gt;&lt;a href=&#34;https://arxiv.org/abs/math/0509724&#34;&gt;arXiv&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt;
+Construction of splitting-step methods and properties of related non-negativity andboundary preserving numerical algorithms for solving stochastic differential equations (SDEs) of Ito-type are discussed. We present convergence proofs for a newly designed splitting-step algorithm and simulation studies for numerous numerical examples ranging from stochastic dynamics occurring in asset pricing theory in mathematical finance (SDEs of CIR and CEV models) to measure-valued diffusion and superBrownian motion (SPDEs) as met in biology and physics.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -86,9 +167,21 @@ Abstract: Construction of splitting-step methods and properties of related non-n
       <pubDate>Tue, 31 Aug 2004 21:23:29 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2004-08-31-the-minority-game-an-introductory-guide/</guid>
-      <description>Authors: Esteban Moro
-Book: Advances in Condensed Matter and __Statistical Physics, _E. Korutcheva and R. Cuerno eds. (Nova Science Publishers, New York 2004). LINK | arXiv
-Abstract: The Minority Game is a simple model for the collective behavior of agents in an idealized situation where they have to compete through adaptation for a finite resource. This review summarizes the statistical mechanics community efforts to clear up and understand the behavior of this model.</description>
+      <description>&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Esteban Moro&lt;br&gt;
+&lt;em&gt;Book&lt;/em&gt;: Advances in Condensed Matter and __Statistical Physics, _E. Korutcheva and R. Cuerno eds. (Nova Science Publishers, New York 2004).
+&lt;strong&gt;&lt;a href=&#34;https://journals.aps.org/pre/abstract/10.1103/PhysRevE.69.060101&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt; |  &lt;strong&gt;&lt;a href=&#34;https://arxiv.org/abs/cond-mat/0402651&#34;&gt;arXiv&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:
+The Minority Game is a simple model for the collective behavior of agents in an idealized situation where they have to compete through adaptation for a finite resource. This review summarizes the statistical mechanics community efforts to clear up and understand the behavior of this model. Our emphasis is on trying to derive the underlying effective equations which govern the dynamics of the original Minority Game, and on making an interpretation of the results from the point of view of the statistical mechanics of disordered systems.&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&#34;introduction&#34;&gt;Introduction&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;There are 1011 stars in the galaxy. That used to be a huge number. But it’s only a hundred billion. It’s less than the national deficit! We used to call them astronomical numbers. Now we should call them economical numbers. (Richard Feynman)&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/img/posts/minoritygame.jpg&#34; alt=&#34;Cartoon of the Minority Game rules&#34;&gt;&lt;/p&gt;
+&lt;p&gt;During the last years, the statistical mechanics community has turned its attention to problems in social, biological and economic sciences. This is due to the fact that in those sciences, recent research has focused on the emergence of aggregates like economic institutions, migrations, patterns of behavior, etc., as a result of the outcome of dynamical interaction of many individual agent decisions [2, 42, 62, 55]. The differences of this approach with traditional studies are twofold: firstly, the fact that collective recognizable patterns are due to the interaction of many individuals. On the other hand, in the traditional neoclassical picture, agents are assumed to be hyperrational and have infinite information about other agents’ intentions. Under these circumstances, individuals jump directly into the steady state. However individuals are far from being hyperrational and their behavior often changes over time. Thus, new models consider explictly the dynamical approach towards the steady state through evolution, adaptation and/or learning of individuals. The dynamical nature of the problem poses new questions like whether individuals are able to reach a steady state and under which circumstances this steady state is stable.&lt;/p&gt;
+&lt;p&gt;The problem is thus very appealing to statistical mechanics researchers, since it is the study of many interacting degrees of freedom for which powerful tools and intuitions had been developed. However, the dynamics of the system might not be relaxing and the typical energy landscape in which steady states are identified with minima of a Lyapunov function so that the dynamical process executes a march which terminates at the bottom of one of the valleys could not be applicable. The situation is reminiscent of other areas at the borderline of statistical mechanics like Neural Networks [1] where sometimes is not possible to build up a Lyapunov function which the dynamics tend to minimize. In fact, as we will see below there are strong analogies of the model considered here with that area of research.&lt;/p&gt;
+&lt;p&gt;The model I consider here is called the Minority Game (MG) [12] which is the mathematical formulation of “El Farol Bar” problem considered by Brian Arthur [3]. The idea behind this problem is the study of how many individuals may reach a collective solution to a problem under adaptation of each one’s expectations about the future. As the models mentioned before, the MG is a dynamical system of many interacting degrees of freedom. However, the MG includes two new features which make it different: the first one is the minority rule, which makes a complete steady state in the community impossible. Thus, dust is never settled since individuals keep changing and adapting in quest of a non-existing equilibrium. The second ingredient is that the collectivity of individuals is heterogeneous, since individuals have different ways to tackle available information about the game and convert it into expectations about future. Effectively, the minority rule and heterogeneity translate into mean-field interaction, frustration and quenched disorder in the model, ideas which are somehow familiar to disordered systems in condensed matter [57, 61]. Actually, the MG is related to those systems and some of the techniques of disordered systems can be applied to understand its behavior.&lt;/p&gt;
+&lt;p&gt;At this point, I hope the reader is convinced that the MG is an interesting problem from the statistical mechanics point of view: is a complex dynamical disordered system which can be understood with techniques from statistical physics. In fact, most of the research about the MG problem has been done inside the physics community. However, the El Farol bar problem originates in the economic literature, although it represents a fierce assault on the conventions of standard economics. In this sense either the El Farol bar or the MG are interesting from the economic and game theory point of view as well. My intention here is to present the statistical mechanics approach to this problem and to explain how different concepts of economists and game theory translate into physics terminology. This biased review is the author’s effort to explain to physicists what is known about the MG. I make no attempt to be encyclopedic or chronologically historical.&lt;/p&gt;
+&lt;p&gt;Keep on reading: download the &lt;a href=&#34;http://estebanmoro.org/~emoro/ps/reviewMG.pdf&#34;&gt;full article&lt;/a&gt;&lt;/p&gt;
+</description>
     </item>
     
   </channel>

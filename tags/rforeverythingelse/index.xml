@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Rforeverythingelse on </title>
@@ -6,15 +5,248 @@
     <description>Recent content in Rforeverythingelse on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Mon, 14 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://estebanmoro.org/tags/rforeverythingelse/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 14 Feb 2022 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://estebanmoro.org/tags/rforeverythingelse/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Wordle is getting (slightly) harder</title>
       <link>https://estebanmoro.org/post/2022-02-14-wordle-is-getting-harder/</link>
       <pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2022-02-14-wordle-is-getting-harder/</guid>
-      <description>Marty, I’ve been to the future and I have bad news. Wordle is getting harder. Not much, but harder.
- With millions of people playing the game Wordle online and the recent takeover by the New York times, some speculation about whether the game is getting harder is unavoidable. Since Wordle chooses a different word every day, some players have started to complain recent target words are harder to be guessed: It must be a coincidence, but the NY Times puzzles are hard and suddenly Wordle has questionable words</description>
+      <description>
+
+
+&lt;blockquote&gt;
+&lt;p&gt;Marty, I’ve been to the future and I have bad news. Wordle is getting harder. Not much, but harder.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&#34;656tqq.jpg&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;With millions of people playing the game Wordle online and the recent takeover by the New York times, some speculation about whether the game is getting harder is unavoidable. Since Wordle chooses a different word every day, some players have started to complain recent target words are harder to be guessed:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;tweet.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Some claim that NYT might have changed something about the game. Even &lt;a href=&#34;https://www.theguardian.com/media/2022/feb/14/is-wordle-getting-harder-viral-game-tests-players-after-new-york-times-takeover&#34;&gt;some newspapers&lt;/a&gt; have covered that worry.&lt;/p&gt;
+&lt;p&gt;But &lt;strong&gt;this is not true&lt;/strong&gt;: nothing has changed in the game since the takeover, and the code and data used to get every day’s word has not changed. Moreover, it is statistically impossible to show that the game is getting more complicated since the NYT took over the game (only a couple of weeks).&lt;/p&gt;
+&lt;p&gt;Still, I’ve traveled to the future, and the answer is &lt;strong&gt;yes&lt;/strong&gt;, Wordle is getting harder, but not because somebody has changed the game. It was bound to get harder in the future since its creation. Let me explain you how I investigate it using statistics and &lt;code&gt;R&lt;/code&gt;.&lt;/p&gt;
+&lt;div id=&#34;defining-harder&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Defining &lt;em&gt;harder&lt;/em&gt;&lt;/h1&gt;
+&lt;p&gt;As you know, Wordle chooses a target word every day. Although there are 12972 5-letter words in the Wordle dictionary, one of the key ingredients of the game is that the target word is not chosen randomly from that dictionary. The very creator of the game, Josh Wardle &lt;a href=&#34;https://www.nytimes.com/2022/01/03/technology/wordle-word-game-creator.html&#34;&gt;revealed&lt;/a&gt; that he &lt;em&gt;narrowed down the list of Wordle words to about 2,500&lt;/em&gt; which are most likely to be known by his partner (the first recipient of the game).&lt;/p&gt;
+&lt;p&gt;As I showed in a &lt;a href=&#34;https://estebanmoro.org/post/2022-01-10-wordle/&#34;&gt;previous post&lt;/a&gt;, those words are more frequent in English than randomly chosen words from the dictionary. For example, the list of 2,500 contains words like &lt;em&gt;grade&lt;/em&gt;, &lt;em&gt;robot&lt;/em&gt;, &lt;em&gt;pride&lt;/em&gt;, but not some unusual (possible) words like &lt;em&gt;aahed&lt;/em&gt; or &lt;em&gt;bemix&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;657yri.jpg&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Let’s see how frequent possible answers are. To do that we are going to use the fantastic &lt;code&gt;wordle&lt;/code&gt; &lt;a href=&#34;https://github.com/coolbutuseless/wordle/&#34;&gt;package&lt;/a&gt; created by &lt;a href=&#34;https://twitter.com/coolbutuseless&#34;&gt;Mikefc&lt;/a&gt;.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;#remotes::install_github(&amp;#39;coolbutuseless/wordle&amp;#39;)
+library(wordle)
+library(tidyverse)
+helper &amp;lt;- WordleHelper$new(nchar = 5)
+dictionary &amp;lt;- helper$words
+length(dictionary)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 12972&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;As we can see, there are 12972 5-letter words in the Wordle dictionary. Many places on the web have a list of past Wordle answers. You can download the list of past answers &lt;a href=&#34;./data/past_answers.csv&#34;&gt;here&lt;/a&gt;, until yesterday’s:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;past_answers &amp;lt;- read.csv(&amp;quot;./data/past_answers.csv&amp;quot;)
+head(past_answers)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;##         date  word
+## 1 2021-06-19 cigar
+## 2 2021-06-20 rebut
+## 3 2021-06-21 sissy
+## 4 2021-06-22 humph
+## 5 2021-06-23 awake
+## 6 2021-06-24 blush&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;To define the game’s difficulty, we will use the same logic underneath Wardle’s choice of answers: their frequency in English. As in &lt;a href=&#34;https://estebanmoro.org/post/2022-01-10-wordle/&#34;&gt;my previous post&lt;/a&gt;, we will use two corpora of commonly-used words in English to rank them according to the frequency. They are the &lt;a href=&#34;https://www.kaggle.com/rtatman/english-word-frequency&#34;&gt;corpus of commonly-used words from the Google Web Trillion Word Corpus&lt;/a&gt; and the &lt;a href=&#34;http://ucrel.lancs.ac.uk/bncfreq/flists.html&#34;&gt;BNC word frequency list&lt;/a&gt;. Let’s put them together:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;helper = WordleHelper$new(nchar = 5)
+freq = tibble(word = helper$words) %&amp;gt;%
+  left_join(read.csv(&amp;quot;./data/unigram_freq.csv&amp;quot;), 
+            by = &amp;quot;word&amp;quot;) %&amp;gt;%
+  left_join(
+    read.csv(&amp;quot;./data/bnc_freq.csv&amp;quot;) %&amp;gt;%
+      group_by(word) %&amp;gt;%
+      summarise(count = sum(count)),
+    by = &amp;quot;word&amp;quot;
+  ) %&amp;gt;%
+  mutate(
+    count.x = ifelse(is.na(count.x), 0, count.x),
+    count.y = ifelse(is.na(count.y), 0, count.y),
+    count = count.x/sum(count.x) + count.y/sum(count.y),
+    # need a nonzero count for all words, 
+    # so just assume words that don&amp;#39;t
+    # appear at all are half as frequent as the 
+    # least frequent appearing word
+    count = ifelse(count==0,min(count[count != 0])/2,count),
+    # rough log of the count shifted above 0
+    # (we&amp;#39;ll want this later)
+    log_count = log(count) - log(min(count)/2),
+    rank = rank(-count,ties.method = &amp;quot;random&amp;quot;,)
+  ) &lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Here are the top most frequent 5-letter words (top ranked):&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;freq %&amp;gt;% arrange(rank) %&amp;gt;% head()&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## # A tibble: 6 × 6
+##   word     count.x count.y  count log_count  rank
+##   &amp;lt;chr&amp;gt;      &amp;lt;dbl&amp;gt;   &amp;lt;dbl&amp;gt;  &amp;lt;dbl&amp;gt;     &amp;lt;dbl&amp;gt; &amp;lt;int&amp;gt;
+## 1 which  810514085    3719 0.0554      13.9     1
+## 2 there  701170205    3278 0.0486      13.8     2
+## 3 their  782849411    2608 0.0423      13.6     3
+## 4 about 1226734006    1971 0.0420      13.6     4
+## 5 would  572644147    2551 0.0383      13.5     5
+## 6 other  978481319    1421 0.0317      13.4     6&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;and the bottom less frequent&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;freq %&amp;gt;% arrange(rank) %&amp;gt;% tail()&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## # A tibble: 6 × 6
+##   word  count.x count.y       count log_count  rank
+##   &amp;lt;chr&amp;gt;   &amp;lt;dbl&amp;gt;   &amp;lt;dbl&amp;gt;       &amp;lt;dbl&amp;gt;     &amp;lt;dbl&amp;gt; &amp;lt;int&amp;gt;
+## 1 kaneh       0       0 0.000000101     0.693 12967
+## 2 moyas       0       0 0.000000101     0.693 12968
+## 3 grisy       0       0 0.000000101     0.693 12969
+## 4 geits       0       0 0.000000101     0.693 12970
+## 5 ulnas       0       0 0.000000101     0.693 12971
+## 6 helot       0       0 0.000000101     0.693 12972&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The average &lt;em&gt;rank&lt;/em&gt; of the answers in Wordle is much smaller than randomly chosen words in the dictionary, as expected:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;freq %&amp;gt;% 
+  mutate(`Wordle Answer`=ifelse(word %in% past_answers$word,T,F)) %&amp;gt;%
+  group_by(`Wordle Answer`) %&amp;gt;% summarize(mean_rank=mean(rank))&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## # A tibble: 2 × 2
+##   `Wordle Answer` mean_rank
+##   &amp;lt;lgl&amp;gt;               &amp;lt;dbl&amp;gt;
+## 1 FALSE               6571.
+## 2 TRUE                1997.&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;We can investigate if the rank has changed since Wordle started in Jun 2021:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;require(ggrepel)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Loading required package: ggrepel&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;merge(past_answers,freq) %&amp;gt;% 
+  ggplot(aes(x=as.Date(date),y=rank)) + geom_point() + geom_smooth() +
+  geom_text_repel(aes(label=ifelse(rank&amp;gt;6000 | rank &amp;lt; 100,word,&amp;quot;&amp;quot;))) +
+  geom_vline(xintercept = as.Date(&amp;quot;2022-02-01&amp;quot;),linetype=2) + 
+  scale_y_log10() + labs(x=&amp;quot;Date&amp;quot;,title=&amp;quot;Rank (higher is harder)&amp;quot;,y=&amp;quot;&amp;quot;)+
+  scale_x_date(date_labels = &amp;quot;%b/%Y&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## `geom_smooth()` using method = &amp;#39;loess&amp;#39; and formula = &amp;#39;y ~ x&amp;#39;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/post/2022-02-14-wordle-is-getting-harder/index_files/figure-html/unnamed-chunk-8-1.png&#34; width=&#34;672&#34; /&gt;
+The vertical dashed line is when the NYT took over. We don’t see any statistically significant change (consider the error bars). If anything, we can see a little bit of change towards the end, but to more frequent words in English! So, if any, the game is getting simpler more recently. However, this small change is not statistically significant. A t-test between the average rank before and after the NYT takeover shows that (p-value = 0.27):&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(ggpubr)
+merge(past_answers,freq) %&amp;gt;% 
+  mutate(`NYT owned`=ifelse(date &amp;gt;= &amp;quot;2022-02-01&amp;quot;,T,F)) %&amp;gt;%
+  ggboxplot(x=&amp;quot;NYT owned&amp;quot;,y=&amp;quot;rank&amp;quot;,
+            color=&amp;quot;NYT owned&amp;quot;,add=&amp;quot;jitter&amp;quot;,palette=&amp;quot;jco&amp;quot;) +
+  stat_compare_means(method=&amp;quot;t.test&amp;quot;) + 
+  labs(y=&amp;quot;Rank (larger is harder)&amp;quot;,x=&amp;quot;&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/post/2022-02-14-wordle-is-getting-harder/index_files/figure-html/unnamed-chunk-9-1.png&#34; width=&#34;672&#34; /&gt;
+Again, nothing has changed in the dynamic and code of the game, so what the players might be reporting is just a statistical fluke. Or a personal impression.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;wordle-2027&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Wordle 2027&lt;/h1&gt;
+&lt;p&gt;If nothing changes, the only way the game could become harder is that answers are selected from less frequent words. Can we investigate it? Fortunately, I recently bought a DeLorean on eBay&lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt;, and I went &lt;em&gt;back to the future&lt;/em&gt; to obtain the list of all Wordle answers until October 2027. Yes, I got the Almanac in 2027 with all the past answers to the game!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;almanac.jpg&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Let’s load them (out of respect to the game’s developer and the community of players, I won’t distribute them, so the code below only works on my computer. I only show the first ones in 2021):&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;all_answers &amp;lt;- read.csv(&amp;quot;all_solutions.csv&amp;quot;)
+head(all_answers)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;##         date  word
+## 1 2021-06-19 cigar
+## 2 2021-06-20 rebut
+## 3 2021-06-21 sissy
+## 4 2021-06-22 humph
+## 5 2021-06-23 awake
+## 6 2021-06-24 blush&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;and add the rank of the chosen word each day&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;all_answers &amp;lt;- merge(all_answers,freq)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Let’s see the evolution of the rank (how hard is the game) of the answers in the future (I have added a small amount of noise so it cannot be reversed)&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;all_answers %&amp;gt;% 
+  ggplot(aes(x=as.Date(date),
+             y=rank+600*rnorm(length(rank)))) +
+  geom_point() + geom_smooth() +
+  geom_vline(xintercept = as.Date(&amp;quot;2022-02-01&amp;quot;),linetype=2)+
+  labs(x=&amp;quot;Date&amp;quot;,title=&amp;quot;Rank (higher is harder)&amp;quot;,y=&amp;quot;&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## `geom_smooth()` using method = &amp;#39;gam&amp;#39; and formula = &amp;#39;y ~ s(x, bs = &amp;quot;cs&amp;quot;)&amp;#39;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/post/2022-02-14-wordle-is-getting-harder/index_files/figure-html/unnamed-chunk-13-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;As we can see, the rank of the words is more or less homogeneous. Although we can see a slight upwards tendency in the rank. Let’s see how the average rank changes by month and year.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;require(lubridate)
+all_answers %&amp;gt;% group_by(month=month(date),year=year(date)) %&amp;gt;% 
+  summarize(mean_rank=mean(rank)) %&amp;gt;%
+  mutate(date = lubridate::my(paste(month,year,sep=&amp;quot;-&amp;quot;))) %&amp;gt;%
+  ggplot(aes(x=as.Date(date),y=mean_rank)) + geom_line() +
+  labs(x=&amp;quot;Date&amp;quot;,title=&amp;quot;Average rank by month&amp;quot;,y=&amp;quot;&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/post/2022-02-14-wordle-is-getting-harder/index_files/figure-html/unnamed-chunk-14-1.png&#34; width=&#34;672&#34; /&gt;
+The tendency is clear: the rank of the words will increase in the future, and the game will become more challenging because less frequent words will be chosen in the future. Actually, the beginning of 2022 looks promising since the average rank of the words chosen will be the lowest in the time series. However, it will be slightly harder than before around summer 2022.&lt;/p&gt;
+&lt;p&gt;But why is it getting slightly harder? The reason is how Wardle chose the answers. When composing the list, maybe he decided first the most common words in English and later those less common words. This could explain the small change towards the end of the time series.&lt;/p&gt;
+&lt;p&gt;Finally, we can test the statistical significance between 2022 and 2027.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;all_answers %&amp;gt;% filter(year(date) %in% c(&amp;quot;2022&amp;quot;,&amp;quot;2027&amp;quot;)) %&amp;gt;%
+  mutate(year=year(date)) %&amp;gt;% 
+  ggboxplot(x=&amp;quot;year&amp;quot;,y=&amp;quot;rank&amp;quot;,
+            color=&amp;quot;year&amp;quot;,add=&amp;quot;jitter&amp;quot;,palette=&amp;quot;jco&amp;quot;) +
+  stat_compare_means(method=&amp;quot;t.test&amp;quot;) + 
+  labs(y=&amp;quot;Rank (larger is harder)&amp;quot;,x=&amp;quot;&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/post/2022-02-14-wordle-is-getting-harder/index_files/figure-html/unnamed-chunk-15-1.png&#34; width=&#34;672&#34; /&gt;
+The statistical difference is there (at 0.05 p-value). Statistically speaking, we can say that Wordle 2027 will be harder (on average) than 2022.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;defining-harder-again&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Defining &lt;em&gt;harder&lt;/em&gt; (again)&lt;/h1&gt;
+&lt;p&gt;In the end, the real difficulty of the game can only be measured by how hard it is for the players to find the answer. Although we cannot get data about it, we can still simulate a simple strategy to win the game and see how well it will perform in the future. In a previous post &lt;a href=&#34;https://estebanmoro.org/post/2022-01-10-wordle/&#34;&gt;I presented a possible strategy&lt;/a&gt; based on choosing words according to their rank and a smart choice of the first word with a 97% winning probability in the past.&lt;/p&gt;
+&lt;p&gt;To evaluate that strategy, I wrote a function in &lt;code&gt;R&lt;/code&gt; named &lt;code&gt;play_game&lt;/code&gt; that uses the package &lt;code&gt;wordle&lt;/code&gt; to play against an answer given a first guess.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;play_game &amp;lt;- function(word,first_guess,quiet=FALSE){
+  helper = WordleHelper$new(nchar = nchar(word)) #initialize the game
+  game = WordleGame$new(helper$words, target_word = word)
+  
+  #make the first guess
+  if (!is.null(first_guess)) {
+    helper$update(first_guess, 
+                  game$try(first_guess, quiet = quiet))
+  }
+  
+  #iterate until solved
+  while (!game$is_solved()) {
+    guess = score_words(helper$words)$word[[1]] #choose next guess
+    helper$update(guess, game$try(guess,quiet=quiet))
+  }
+  game$attempts
+}&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The strategy is encoded into the &lt;code&gt;score_words&lt;/code&gt; function, which chooses always the most frequent word out of the compatible words in each round:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;score_words &amp;lt;- function(words){
+  ff &amp;lt;- freq %&amp;gt;% filter(word %in% words)
+  ff %&amp;gt;% arrange(rank)
+}&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;For example, this is how it plays against the word for Jan 10 using &lt;code&gt;orate&lt;/code&gt; as first guess:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;answer &amp;lt;- play_game(word=&amp;quot;query&amp;quot;,first_guess=&amp;quot;orate&amp;quot;,quiet=T)
+answer&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;orate&amp;quot; &amp;quot;under&amp;quot; &amp;quot;query&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This time it solved it in 3 tries.&lt;/p&gt;
+&lt;p&gt;Fast forward, let’s get the number of tries it will take to solve every game until 2027 using &lt;code&gt;orate&lt;/code&gt; as first guess:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;try_orate &amp;lt;- 
+  map_dfr(all_answers$word,
+          \(w) {
+            n &amp;lt;- length(play_game(w,&amp;quot;orate&amp;quot;,quiet=T))
+            data.frame(word=w,ntries=n)
+          }
+  ) %&amp;gt;%
+  merge(all_answers)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;And once again, let’s see the average number of attempts by month and year:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;try_orate %&amp;gt;% group_by(month=month(date),year=year(date)) %&amp;gt;% 
+  summarize(mean_tries=mean(ntries)) %&amp;gt;%
+  mutate(date = lubridate::my(paste(month,year,sep=&amp;quot;-&amp;quot;))) %&amp;gt;%
+  ggplot(aes(x=as.Date(date),y=mean_tries)) + geom_line() +
+  labs(x=&amp;quot;Date&amp;quot;,title=&amp;quot;Average number of tries by month&amp;quot;,y=&amp;quot;&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## `summarise()` has grouped output by &amp;#39;month&amp;#39;. You can override using the
+## `.groups` argument.&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/post/2022-02-14-wordle-is-getting-harder/index_files/figure-html/unnamed-chunk-20-1.png&#34; width=&#34;672&#34; /&gt;
+Again we can see that the strategy will perform worse in later years. Finally, this is the probability to win (less of equal to 6 tries)&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;try_orate %&amp;gt;% group_by(month=month(date),year=year(date)) %&amp;gt;% 
+  summarize(prob_win=100*mean(ntries &amp;lt; 7)) %&amp;gt;%
+  mutate(date = lubridate::my(paste(month,year,sep=&amp;quot;-&amp;quot;))) %&amp;gt;%
+  ggplot(aes(x=as.Date(date),y=prob_win)) + geom_line() +
+  labs(x=&amp;quot;Date&amp;quot;,title=&amp;quot;Probability of winning (%)&amp;quot;,y=&amp;quot;&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## `summarise()` has grouped output by &amp;#39;month&amp;#39;. You can override using the
+## `.groups` argument.&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/post/2022-02-14-wordle-is-getting-harder/index_files/figure-html/unnamed-chunk-21-1.png&#34; width=&#34;672&#34; /&gt;
+At the end of 2027, the probability of wining even goes below 85%.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;conclusion&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Conclusion&lt;/h1&gt;
+&lt;p&gt;So, yes, Wordle is getting slightly more challenging. But it has nothing to do with the recent New York Times takeover. If the game does not change in the future, we can expect the answers to be less frequent words in English (especially in 2027). Not too much, though, so it will still be playable and enjoyed by the community.&lt;/p&gt;
+&lt;p&gt;We still have time to practice those less common words. And most likely, the game will change before that. Perhaps since we now know the future, it will never become possible.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;paradox.jpeg&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footnotes footnotes-end-of-document&#34;&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;The actual list of possible answers up to October 2027 is hard encoded in the Javascript of the game. Out of respect to the game’s developer and the community of players I don’t recommend or encourage anybody to hack the code to do it and will not show or distribute them. The results displayed on this page are just for the statistical analysis of the game’s evolution. Please, don’t cheat, enjoy the game as it was intended.&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
     </item>
     
     <item>
@@ -23,8 +255,757 @@
       <pubDate>Mon, 10 Jan 2022 00:00:00 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2022-01-10-wordle/</guid>
-      <description>Introduction Unless you have been away for the last month, you, your family or friends have been talking about or playing Wordle. It is a very straightforward game which reminds us (old enough) of the great MasterMind, but with words.
-The idea is very simple. In the original version by Josh Wardle, we try to guess a (English) word of five letters. After each guess the game shows you what letters are in the answer in the right position (green), in the answer but in a wrong position (yellow) or not in the answer at all (gray).</description>
+      <description>
+&lt;script src=&#34;https://estebanmoro.org/post/2022-01-10-wordle/index_files/kePrint/kePrint.js&#34;&gt;&lt;/script&gt;
+&lt;link href=&#34;https://estebanmoro.org/post/2022-01-10-wordle/index_files/lightable/lightable.css&#34; rel=&#34;stylesheet&#34; /&gt;
+
+
+&lt;div id=&#34;introduction&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Introduction&lt;/h1&gt;
+&lt;p&gt;Unless you have been away for the last month, you, your family or friends have been &lt;a href=&#34;https://www.nytimes.com/2022/01/03/technology/wordle-word-game-creator.html&#34;&gt;talking about&lt;/a&gt; or playing &lt;a href=&#34;https://en.wikipedia.org/wiki/Wordle_(video_game)&#34;&gt;Wordle&lt;/a&gt;. It is a very straightforward game which reminds us (old enough) of the great &lt;a href=&#34;https://en.wikipedia.org/wiki/Mastermind_(board_game)&#34;&gt;MasterMind&lt;/a&gt;, but with words.&lt;/p&gt;
+&lt;p&gt;The idea is very simple. In the &lt;a href=&#34;https://www.powerlanguage.co.uk/wordle/&#34;&gt;original version&lt;/a&gt; by Josh Wardle, we try to guess a (English) word of five letters. After each guess the game shows you what letters are in the answer in the right position (green), in the answer but in a wrong position (yellow) or not in the answer at all (gray).&lt;/p&gt;
+&lt;p&gt;For example, here is the screenshot of the most recent one I played (Jan 10)&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;wordle.png&#34; style=&#34;width:50.0%&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;As you can see, I guessed the word in 3 tries out of 6 allowed. Many variations exist now, including &lt;a href=&#34;https://wordle.danielfrg.com&#34;&gt;one in Spanish&lt;/a&gt;. There are many reasons why it has become a viral phenomenon , most likely because Wardle added a sharing element to the game, letting users copy their results in the form of a grid of colored squared emojis.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;tweet_wordle_estebanmoro.png&#34; style=&#34;width:75.0%&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Since Wardle publishes only one puzzle per day, players can compare their results on Twitter or by message, allowing for synchronized and unhurried social interaction.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;cracking-the-game&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Cracking the game&lt;/h1&gt;
+&lt;p&gt;Although the game is not so difficult (another of its merits), the obvious question is what is the best strategy to win the game every day. In this post, we will investigate this question with the help of &lt;code&gt;R&lt;/code&gt; and in our journey, we will learn much more about how the game is designed.&lt;/p&gt;
+&lt;p&gt;To do it, we will use the fantastic &lt;code&gt;wordle&lt;/code&gt; &lt;a href=&#34;https://github.com/coolbutuseless/wordle/&#34;&gt;package&lt;/a&gt; created by Mikefc &lt;a href=&#34;https://twitter.com/coolbutuseless&#34;&gt;&lt;span class=&#34;citation&#34;&gt;@coolbutuseless&lt;/span&gt;&lt;/a&gt;. This package allows you to play Wordle in the &lt;code&gt;R&lt;/code&gt; console [with &lt;code&gt;play_wordle()&lt;/code&gt;]. Most interestingly, it can also help you play the online version through the &lt;code&gt;WordleHelper&lt;/code&gt; class. For example, this is how we can use it for the Jan 10 puzzle. Let’s initialize the game.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;#remotes::install_github(&amp;#39;coolbutuseless/wordle&amp;#39;)
+library(wordle)
+helper &amp;lt;- WordleHelper$new(nchar = 5)
+dictionary &amp;lt;- helper$words
+length(dictionary)
+## [1] 12972&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;As we can see, there are 12972 words of 5 letters in the Wordle dictionary.&lt;/p&gt;
+&lt;p&gt;My initial guess was &lt;code&gt;aeros&lt;/code&gt;, and I got ” ⬜ 🟨 🟨 ⬜ ⬜ “. We can use this to get us the list of options compatible with that answer.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;helper$update(&amp;quot;aeros&amp;quot;, c(&amp;#39;gray&amp;#39;, &amp;#39;yellow&amp;#39;, &amp;#39;yellow&amp;#39;, &amp;#39;gray&amp;#39;, &amp;#39;gray&amp;#39;))
+helper$words&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;##   [1] &amp;quot;bider&amp;quot; &amp;quot;biker&amp;quot; &amp;quot;biner&amp;quot; &amp;quot;biter&amp;quot; &amp;quot;blert&amp;quot; &amp;quot;bluer&amp;quot;
+##   [7] &amp;quot;brede&amp;quot; &amp;quot;breed&amp;quot; &amp;quot;breem&amp;quot; &amp;quot;breer&amp;quot; &amp;quot;breid&amp;quot; &amp;quot;breme&amp;quot;
+##  [13] &amp;quot;brent&amp;quot; &amp;quot;brere&amp;quot; &amp;quot;breve&amp;quot; &amp;quot;bribe&amp;quot; &amp;quot;bride&amp;quot; &amp;quot;brief&amp;quot;
+##  [19] &amp;quot;brier&amp;quot; &amp;quot;brine&amp;quot; &amp;quot;brize&amp;quot; &amp;quot;brule&amp;quot; &amp;quot;brume&amp;quot; &amp;quot;brute&amp;quot;
+##  [25] &amp;quot;buyer&amp;quot; &amp;quot;cheer&amp;quot; &amp;quot;chere&amp;quot; &amp;quot;chert&amp;quot; &amp;quot;cider&amp;quot; &amp;quot;citer&amp;quot;
+##  [31] &amp;quot;clerk&amp;quot; &amp;quot;creed&amp;quot; &amp;quot;creek&amp;quot; &amp;quot;creel&amp;quot; &amp;quot;creep&amp;quot; &amp;quot;creme&amp;quot;
+##  [37] &amp;quot;crepe&amp;quot; &amp;quot;crept&amp;quot; &amp;quot;crepy&amp;quot; &amp;quot;crewe&amp;quot; &amp;quot;cried&amp;quot; &amp;quot;crier&amp;quot;
+##  [43] &amp;quot;crime&amp;quot; &amp;quot;crine&amp;quot; &amp;quot;cripe&amp;quot; &amp;quot;crude&amp;quot; &amp;quot;cruel&amp;quot; &amp;quot;cruet&amp;quot;
+##  [49] &amp;quot;cruve&amp;quot; &amp;quot;cryer&amp;quot; &amp;quot;cuber&amp;quot; &amp;quot;cuter&amp;quot; &amp;quot;cyber&amp;quot; &amp;quot;cyder&amp;quot;
+##  [55] &amp;quot;dicer&amp;quot; &amp;quot;diker&amp;quot; &amp;quot;dimer&amp;quot; &amp;quot;diner&amp;quot; &amp;quot;diver&amp;quot; &amp;quot;dreck&amp;quot;
+##  [61] &amp;quot;dreed&amp;quot; &amp;quot;dreer&amp;quot; &amp;quot;drent&amp;quot; &amp;quot;drere&amp;quot; &amp;quot;drice&amp;quot; &amp;quot;dried&amp;quot;
+##  [67] &amp;quot;drier&amp;quot; &amp;quot;drive&amp;quot; &amp;quot;drupe&amp;quot; &amp;quot;dryer&amp;quot; &amp;quot;duper&amp;quot; &amp;quot;edger&amp;quot;
+##  [73] &amp;quot;egger&amp;quot; &amp;quot;eider&amp;quot; &amp;quot;elder&amp;quot; &amp;quot;elver&amp;quot; &amp;quot;ember&amp;quot; &amp;quot;emeer&amp;quot;
+##  [79] &amp;quot;emerg&amp;quot; &amp;quot;emery&amp;quot; &amp;quot;emmer&amp;quot; &amp;quot;emure&amp;quot; &amp;quot;ender&amp;quot; &amp;quot;enter&amp;quot;
+##  [85] &amp;quot;entry&amp;quot; &amp;quot;enure&amp;quot; &amp;quot;enurn&amp;quot; &amp;quot;erect&amp;quot; &amp;quot;erick&amp;quot; &amp;quot;ering&amp;quot;
+##  [91] &amp;quot;erned&amp;quot; &amp;quot;eruct&amp;quot; &amp;quot;erupt&amp;quot; &amp;quot;erven&amp;quot; &amp;quot;ervil&amp;quot; &amp;quot;ether&amp;quot;
+##  [97] &amp;quot;evert&amp;quot; &amp;quot;every&amp;quot; &amp;quot;exert&amp;quot; &amp;quot;exurb&amp;quot; &amp;quot;fiber&amp;quot; &amp;quot;fibre&amp;quot;
+## [103] &amp;quot;fiere&amp;quot; &amp;quot;fiery&amp;quot; &amp;quot;fifer&amp;quot; &amp;quot;filer&amp;quot; &amp;quot;finer&amp;quot; &amp;quot;fiver&amp;quot;
+## [109] &amp;quot;fixer&amp;quot; &amp;quot;fleer&amp;quot; &amp;quot;fleur&amp;quot; &amp;quot;flier&amp;quot; &amp;quot;flyer&amp;quot; &amp;quot;freed&amp;quot;
+## [115] &amp;quot;freer&amp;quot; &amp;quot;freet&amp;quot; &amp;quot;freit&amp;quot; &amp;quot;fremd&amp;quot; &amp;quot;frere&amp;quot; &amp;quot;fried&amp;quot;
+## [121] &amp;quot;frier&amp;quot; &amp;quot;frize&amp;quot; &amp;quot;fryer&amp;quot; &amp;quot;fumer&amp;quot; &amp;quot;giber&amp;quot; &amp;quot;giver&amp;quot;
+## [127] &amp;quot;gluer&amp;quot; &amp;quot;grebe&amp;quot; &amp;quot;grece&amp;quot; &amp;quot;greed&amp;quot; &amp;quot;greek&amp;quot; &amp;quot;green&amp;quot;
+## [133] &amp;quot;greet&amp;quot; &amp;quot;grege&amp;quot; &amp;quot;grein&amp;quot; &amp;quot;greve&amp;quot; &amp;quot;grice&amp;quot; &amp;quot;gride&amp;quot;
+## [139] &amp;quot;grief&amp;quot; &amp;quot;grike&amp;quot; &amp;quot;grime&amp;quot; &amp;quot;gripe&amp;quot; &amp;quot;grize&amp;quot; &amp;quot;grued&amp;quot;
+## [145] &amp;quot;gruel&amp;quot; &amp;quot;grufe&amp;quot; &amp;quot;grume&amp;quot; &amp;quot;gryce&amp;quot; &amp;quot;gryde&amp;quot; &amp;quot;gryke&amp;quot;
+## [151] &amp;quot;grype&amp;quot; &amp;quot;hider&amp;quot; &amp;quot;hiker&amp;quot; &amp;quot;hiver&amp;quot; &amp;quot;huger&amp;quot; &amp;quot;hyper&amp;quot;
+## [157] &amp;quot;icier&amp;quot; &amp;quot;icker&amp;quot; &amp;quot;idler&amp;quot; &amp;quot;iller&amp;quot; &amp;quot;inerm&amp;quot; &amp;quot;inert&amp;quot;
+## [163] &amp;quot;infer&amp;quot; &amp;quot;inker&amp;quot; &amp;quot;inner&amp;quot; &amp;quot;inter&amp;quot; &amp;quot;inure&amp;quot; &amp;quot;irked&amp;quot;
+## [169] &amp;quot;ither&amp;quot; &amp;quot;jiber&amp;quot; &amp;quot;jiver&amp;quot; &amp;quot;kiter&amp;quot; &amp;quot;kreep&amp;quot; &amp;quot;kreng&amp;quot;
+## [175] &amp;quot;krewe&amp;quot; &amp;quot;liber&amp;quot; &amp;quot;lifer&amp;quot; &amp;quot;liger&amp;quot; &amp;quot;liker&amp;quot; &amp;quot;liner&amp;quot;
+## [181] &amp;quot;liter&amp;quot; &amp;quot;litre&amp;quot; &amp;quot;liver&amp;quot; &amp;quot;livre&amp;quot; &amp;quot;lucre&amp;quot; &amp;quot;luger&amp;quot;
+## [187] &amp;quot;luter&amp;quot; &amp;quot;luxer&amp;quot; &amp;quot;miler&amp;quot; &amp;quot;mimer&amp;quot; &amp;quot;miner&amp;quot; &amp;quot;miter&amp;quot;
+## [193] &amp;quot;mitre&amp;quot; &amp;quot;mixer&amp;quot; &amp;quot;muter&amp;quot; &amp;quot;nicer&amp;quot; &amp;quot;niger&amp;quot; &amp;quot;niner&amp;quot;
+## [199] &amp;quot;niter&amp;quot; &amp;quot;nitre&amp;quot; &amp;quot;nixer&amp;quot; &amp;quot;nuder&amp;quot; &amp;quot;pheer&amp;quot; &amp;quot;piert&amp;quot;
+## [205] &amp;quot;piker&amp;quot; &amp;quot;piler&amp;quot; &amp;quot;piper&amp;quot; &amp;quot;plier&amp;quot; &amp;quot;plyer&amp;quot; &amp;quot;predy&amp;quot;
+## [211] &amp;quot;preed&amp;quot; &amp;quot;preen&amp;quot; &amp;quot;preif&amp;quot; &amp;quot;premy&amp;quot; &amp;quot;prent&amp;quot; &amp;quot;preve&amp;quot;
+## [217] &amp;quot;prexy&amp;quot; &amp;quot;price&amp;quot; &amp;quot;pride&amp;quot; &amp;quot;pried&amp;quot; &amp;quot;prief&amp;quot; &amp;quot;prier&amp;quot;
+## [223] &amp;quot;prime&amp;quot; &amp;quot;prize&amp;quot; &amp;quot;prude&amp;quot; &amp;quot;prune&amp;quot; &amp;quot;pryer&amp;quot; &amp;quot;pucer&amp;quot;
+## [229] &amp;quot;puker&amp;quot; &amp;quot;puler&amp;quot; &amp;quot;queer&amp;quot; &amp;quot;quern&amp;quot; &amp;quot;query&amp;quot; &amp;quot;quire&amp;quot;
+## [235] &amp;quot;rheme&amp;quot; &amp;quot;rheum&amp;quot; &amp;quot;rhime&amp;quot; &amp;quot;rhine&amp;quot; &amp;quot;rhyme&amp;quot; &amp;quot;rhyne&amp;quot;
+## [241] &amp;quot;riced&amp;quot; &amp;quot;ricer&amp;quot; &amp;quot;ricey&amp;quot; &amp;quot;rider&amp;quot; &amp;quot;ridge&amp;quot; &amp;quot;rieve&amp;quot;
+## [247] &amp;quot;rifer&amp;quot; &amp;quot;rifle&amp;quot; &amp;quot;rifte&amp;quot; &amp;quot;riled&amp;quot; &amp;quot;riley&amp;quot; &amp;quot;rille&amp;quot;
+## [253] &amp;quot;rimed&amp;quot; &amp;quot;rimer&amp;quot; &amp;quot;riped&amp;quot; &amp;quot;ripen&amp;quot; &amp;quot;riper&amp;quot; &amp;quot;rived&amp;quot;
+## [259] &amp;quot;rivel&amp;quot; &amp;quot;riven&amp;quot; &amp;quot;river&amp;quot; &amp;quot;rivet&amp;quot; &amp;quot;rubel&amp;quot; &amp;quot;ruble&amp;quot;
+## [265] &amp;quot;ruche&amp;quot; &amp;quot;ruder&amp;quot; &amp;quot;rudie&amp;quot; &amp;quot;ruffe&amp;quot; &amp;quot;ruled&amp;quot; &amp;quot;ruler&amp;quot;
+## [271] &amp;quot;rumen&amp;quot; &amp;quot;runed&amp;quot; &amp;quot;rupee&amp;quot; &amp;quot;ryked&amp;quot; &amp;quot;rymme&amp;quot; &amp;quot;ryper&amp;quot;
+## [277] &amp;quot;their&amp;quot; &amp;quot;there&amp;quot; &amp;quot;therm&amp;quot; &amp;quot;tiger&amp;quot; &amp;quot;tiler&amp;quot; &amp;quot;timer&amp;quot;
+## [283] &amp;quot;titer&amp;quot; &amp;quot;titre&amp;quot; &amp;quot;treck&amp;quot; &amp;quot;treed&amp;quot; &amp;quot;treen&amp;quot; &amp;quot;treif&amp;quot;
+## [289] &amp;quot;trend&amp;quot; &amp;quot;treyf&amp;quot; &amp;quot;tribe&amp;quot; &amp;quot;trice&amp;quot; &amp;quot;tride&amp;quot; &amp;quot;tried&amp;quot;
+## [295] &amp;quot;trier&amp;quot; &amp;quot;trike&amp;quot; &amp;quot;trine&amp;quot; &amp;quot;tripe&amp;quot; &amp;quot;trite&amp;quot; &amp;quot;truce&amp;quot;
+## [301] &amp;quot;trued&amp;quot; &amp;quot;truer&amp;quot; &amp;quot;tryer&amp;quot; &amp;quot;tryke&amp;quot; &amp;quot;tuber&amp;quot; &amp;quot;tuner&amp;quot;
+## [307] &amp;quot;tuyer&amp;quot; &amp;quot;tweer&amp;quot; &amp;quot;twerk&amp;quot; &amp;quot;twerp&amp;quot; &amp;quot;twier&amp;quot; &amp;quot;twire&amp;quot;
+## [313] &amp;quot;twyer&amp;quot; &amp;quot;tyler&amp;quot; &amp;quot;udder&amp;quot; &amp;quot;ulcer&amp;quot; &amp;quot;umber&amp;quot; &amp;quot;umbre&amp;quot;
+## [319] &amp;quot;under&amp;quot; &amp;quot;upper&amp;quot; &amp;quot;upter&amp;quot; &amp;quot;urbex&amp;quot; &amp;quot;urdee&amp;quot; &amp;quot;ureic&amp;quot;
+## [325] &amp;quot;urent&amp;quot; &amp;quot;urged&amp;quot; &amp;quot;urger&amp;quot; &amp;quot;urine&amp;quot; &amp;quot;urite&amp;quot; &amp;quot;urned&amp;quot;
+## [331] &amp;quot;urped&amp;quot; &amp;quot;uteri&amp;quot; &amp;quot;utter&amp;quot; &amp;quot;viler&amp;quot; &amp;quot;viner&amp;quot; &amp;quot;viper&amp;quot;
+## [337] &amp;quot;viver&amp;quot; &amp;quot;where&amp;quot; &amp;quot;wider&amp;quot; &amp;quot;wiper&amp;quot; &amp;quot;wiver&amp;quot; &amp;quot;wreck&amp;quot;
+## [343] &amp;quot;wried&amp;quot; &amp;quot;wrier&amp;quot; &amp;quot;write&amp;quot; &amp;quot;wryer&amp;quot; &amp;quot;yfere&amp;quot; &amp;quot;yrent&amp;quot;
+## [349] &amp;quot;yrneh&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;For my second guess I used &lt;code&gt;upter&lt;/code&gt; and I got ” 🟨 ⬜ ⬜ 🟨 🟨”&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;helper$update(&amp;quot;upter&amp;quot;, c(&amp;#39;yellow&amp;#39;, &amp;#39;gray&amp;#39;, &amp;#39;gray&amp;#39;, &amp;#39;yellow&amp;#39;, &amp;#39;yellow&amp;#39;))
+helper$words&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;##  [1] &amp;quot;brule&amp;quot; &amp;quot;brume&amp;quot; &amp;quot;crude&amp;quot; &amp;quot;cruve&amp;quot; &amp;quot;emure&amp;quot; &amp;quot;enure&amp;quot; &amp;quot;enurn&amp;quot;
+##  [8] &amp;quot;exurb&amp;quot; &amp;quot;grufe&amp;quot; &amp;quot;grume&amp;quot; &amp;quot;inure&amp;quot; &amp;quot;lucre&amp;quot; &amp;quot;quern&amp;quot; &amp;quot;query&amp;quot;
+## [15] &amp;quot;quire&amp;quot; &amp;quot;rheum&amp;quot; &amp;quot;ruble&amp;quot; &amp;quot;ruche&amp;quot; &amp;quot;rudie&amp;quot; &amp;quot;ruffe&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The number of candidates has been reduced enormously. In the next round, I tried &lt;code&gt;query&lt;/code&gt; and that solved it.&lt;/p&gt;
+&lt;p&gt;Obviously, the game’s &lt;em&gt;strategy&lt;/em&gt; is encoded in how to choose the next guess from the list of candidate words given the restrictions so far. Let’s try different choices.&lt;/p&gt;
+&lt;div id=&#34;random-choice&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Random choice&lt;/h2&gt;
+&lt;p&gt;The first and obvious choice is to choose randomly from the list of candidates. First we code the game using the &lt;code&gt;wordle&lt;/code&gt; package and the &lt;code&gt;WordleGame&lt;/code&gt; class. We are going to modify &lt;a href=&#34;https://github.com/mjskay/wordle_solver&#34;&gt;the code&lt;/a&gt; from
+Matthew Kay to define a function that plays the game for a given word:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;play_game &amp;lt;- function(word,first_guess,quiet=FALSE){
+  helper = WordleHelper$new(nchar = nchar(word)) #initialize the game
+  game = WordleGame$new(helper$words, target_word = word)
+  
+  #make the first guess
+  if (!is.null(first_guess)) {
+    helper$update(first_guess, 
+                  game$try(first_guess, quiet = quiet))
+  }
+  
+  #iterate until solved
+  while (!game$is_solved()) {
+    guess = score_words(helper$words)$word[[1]] #choose next guess
+    helper$update(guess, game$try(guess,quiet=quiet))
+  }
+  game$attempts
+}&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;As we can see in every step we &lt;em&gt;score&lt;/em&gt; the words and return the one with maximum score. To start, we are going to select them randomly:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;score_words &amp;lt;- function(words){
+  data.frame(word=words,score=runif(length(words))) %&amp;gt;% arrange(score)
+}&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Let’s try it out for Jan 10 word&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;set.seed(1)
+answer &amp;lt;- play_game(word=&amp;quot;query&amp;quot;,first_guess=&amp;quot;aeros&amp;quot;,quiet=T)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Since the unicode does not render properly in markdown, here is screenshot:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;screenshot.png&#34; style=&#34;width:50.0%&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Not bad, we got the solution in 4 tries.&lt;/p&gt;
+&lt;p&gt;How good is this strategy? We need to define an performance metric to evaluate each strategy. &lt;strong&gt;Edited&lt;/strong&gt; As with any algorithm, we can test its performance measuring how well does the strategy against a sample of chosen target words. We are going to take three of them&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;The first one is against a random choice of target word from the dictionary of 5 letters in English. There are 12972 words to choose from.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;However, in the original game, Wardle narrowed down the list of Wordle words to about 2500. So we will evaluate how well our strategy does against this list. You can download the list of possible answers &lt;a href=&#34;./data/possible_answers.csv&#34;&gt;here&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;possible_answers &amp;lt;- read.csv(&amp;quot;./data/possible_answers.txt&amp;quot;,header=F)&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;Finally, we can measure how well the strategy performs for the past wordle answers. [&lt;strong&gt;Caution: this contains spoilers!&lt;/strong&gt;]. Lucky for us Matthew Kay has compiled a list of them, to which I added the last ones &lt;a href=&#34;./data/past_answers.csv&#34;&gt;here&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;past_answers &amp;lt;- read.csv(&amp;quot;./data/past_answers.csv&amp;quot;,header=F)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Let’s evaluate each performance metric. First a random sample of words from the dictionary (only 1000).&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;set.seed(1)
+helper = WordleHelper$new(nchar = 5)
+dictionary &amp;lt;- helper$words
+first_guess &amp;lt;- &amp;quot;aeros&amp;quot;
+dictionary_games &amp;lt;- sapply(sample(dictionary,1000),
+                  \(w) tryCatch(length(play_game(w,first_guess,quiet=T)),
+                                error=function(e) NA))&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;now for the possible answers&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;possible_answers_games &amp;lt;- sapply(possible_answers[,1],
+                  \(w) tryCatch(length(play_game(w,first_guess,quiet=T)),
+                                error=function(e) NA))&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;and finally for the previous wordle answers&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;past_answers_games &amp;lt;- sapply(past_answers[,1],
+                  \(w) tryCatch(length(play_game(w,first_guess,quiet=T)),
+                                error=function(e) NA))&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;How well did they do? Here is the distribution of the number of tries for each case&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;bind_rows(tibble(selection=&amp;quot;Dictionary&amp;quot;,tries=dictionary_games),
+          tibble(selection=&amp;quot;Possible answers&amp;quot;,tries=possible_answers_games),
+          tibble(selection=&amp;quot;Past answers&amp;quot;,tries=past_answers_games)) %&amp;gt;%
+  group_by(selection,tries) %&amp;gt;% 
+  summarise(n=n()) %&amp;gt;% mutate(freq=n/sum(n)) %&amp;gt;% 
+  ggplot(aes(x=tries,y=freq,fill=selection)) + 
+    geom_bar(position=&amp;quot;dodge&amp;quot;,stat=&amp;quot;identity&amp;quot;) +
+    labs(x=&amp;quot;Tries&amp;quot;,fill=&amp;quot;&amp;quot;,y=&amp;quot;Frequency&amp;quot;,title=&amp;quot;Using random words&amp;quot;) +
+    scale_fill_tableau() +
+    geom_vline(xintercept = 6.5,linetype=2)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/post/2022-01-10-wordle/index_files/figure-html/unnamed-chunk-10-1.png&#34; width=&#34;100%&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Not bad! Most of the time, we solved the game in 6 or fewer tries. Actually, we get&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;list(&amp;quot;Dictionary&amp;quot;=dictionary_games,
+     &amp;quot;Possible answers&amp;quot;=possible_answers_games,
+     &amp;quot;Past answers&amp;quot;=past_answers_games) %&amp;gt;%
+  map_dfr(\(answers) tibble(&amp;quot;Average number of tries&amp;quot;=round(mean(answers),2),
+                            &amp;quot;Probability of winning (%)&amp;quot;=round(mean(answers&amp;lt;7)*100,2)),
+          .id=&amp;quot;Selection&amp;quot;) %&amp;gt;% 
+  kableExtra::kbl() %&amp;gt;%
+  kableExtra::kable_paper(bootstrap_options = &amp;quot;striped&amp;quot;, full_width = F)&lt;/code&gt;&lt;/pre&gt;
+&lt;table class=&#34; lightable-paper&#34; style=&#34;font-family: &amp;quot;Arial Narrow&amp;quot;, arial, helvetica, sans-serif; width: auto !important; margin-left: auto; margin-right: auto;&#34;&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left;&#34;&gt;
+Selection
+&lt;/th&gt;
+&lt;th style=&#34;text-align:right;&#34;&gt;
+Average number of tries
+&lt;/th&gt;
+&lt;th style=&#34;text-align:right;&#34;&gt;
+Probability of winning (%)
+&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+Dictionary
+&lt;/td&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+5.10
+&lt;/td&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+83.50
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+Possible answers
+&lt;/td&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+4.85
+&lt;/td&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+88.86
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+Past answers
+&lt;/td&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+4.78
+&lt;/td&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+89.37
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;As we can see random guessing is already a good strategy, solving it in less than 6 tries 82% of the times (for random words in the dictionary) and around 89% for the list of possible and past answers. But let’s see if we can do better.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;using-the-frequency-of-words&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Using the frequency of words&lt;/h2&gt;
+&lt;p&gt;(&lt;strong&gt;Edited&lt;/strong&gt;) One of the most interesting findings about the game (rediscovered by Matthew Kay) is that the answers each day are not chosen randomly from the list of possible 5 letter words in the English dictionary. The very Wardle said in &lt;a href=&#34;https://www.nytimes.com/2022/01/03/technology/wordle-word-game-creator.html&#34;&gt;an interview in the New York Times&lt;/a&gt; that &lt;em&gt;he narrowed down the list of Wordle words to about 2,500&lt;/em&gt; which are most likely to be known by his partner (the first recipient of the game). That means that there are some words that have more probability to be the target word each day than others. To see that, we will plot the distributions of the rank of the past answers in the corpus of words of English. We are going to use two sources: the &lt;a href=&#34;https://www.kaggle.com/rtatman/english-word-frequency&#34;&gt;corpus of commonly-used words from the Google Web Trillion Word Corpus&lt;/a&gt; and the &lt;a href=&#34;http://ucrel.lancs.ac.uk/bncfreq/flists.html&#34;&gt;BNC word frequency list&lt;/a&gt; and put them together:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;helper = WordleHelper$new(nchar = 5)
+freq = tibble(word = helper$words) %&amp;gt;%
+  left_join(read.csv(&amp;quot;./data/unigram_freq.csv&amp;quot;), by = &amp;quot;word&amp;quot;) %&amp;gt;%
+  left_join(
+    read.csv(&amp;quot;./data/bnc_freq.csv&amp;quot;) %&amp;gt;%
+      group_by(word) %&amp;gt;%
+      summarise(count = sum(count)),
+    by = &amp;quot;word&amp;quot;
+  ) %&amp;gt;%
+  mutate(
+    count.x = ifelse(is.na(count.x), 0, count.x),
+    count.y = ifelse(is.na(count.y), 0, count.y),
+    count = count.x/sum(count.x) + count.y/sum(count.y),
+    # need a nonzero count for all words, so just assume words that don&amp;#39;t
+    # appear at all are half as frequent as the least frequent appearing word
+    count = ifelse(count == 0, min(count[count != 0])/2, count),
+    # rough log of the count shifted above 0
+    # (we&amp;#39;ll want this later)
+    log_count = log(count) - log(min(count)/2),
+    rank = rank(-count,ties.method = &amp;quot;random&amp;quot;,)
+  ) &lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The following graph compares the distribution of ranks of randomly selected words in the wordle dictionary (flat) with the one of the past answers.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;ggplot() + geom_density(data=freq,aes(x=rank,col=&amp;quot;All words&amp;quot;),bw=10) +
+  geom_density(data=freq %&amp;gt;% filter(word %in% past_answers[,1]),
+               aes(x=rank,col=&amp;quot;Past answers&amp;quot;),bw=10)+
+  scale_color_tableau() + labs(col=&amp;quot;&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/post/2022-01-10-wordle/index_files/figure-html/unnamed-chunk-13-1.png&#34; width=&#34;672&#34; /&gt;
+Most of the target words in the past answers are chosen from the most frequent words in English. The distribution decays slowly, which means that some unusual (rank &amp;gt; 10000) words are likely. As Matthew suggests, “this is probably a sensible word selection strategy for making a good game, since it makes the puzzle not just a bunch of very common words (but also not just a bunch of rare words).”&lt;/p&gt;
+&lt;p&gt;But this information is quite useful since it tells us that the game is designed with a bias that we can exploit to design a better strategy. Specifically, we will choose the next guess as the most frequent word of the candidates in each step. Let’s modify the score function:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;score_words &amp;lt;- function(words){
+  ff &amp;lt;- freq %&amp;gt;% filter(word %in% words)
+  ff %&amp;gt;% arrange(rank)
+}&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;and play again the word for Jan 10&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;answer &amp;lt;- play_game(word=&amp;quot;query&amp;quot;,first_guess=&amp;quot;aeros&amp;quot;,quiet=)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [38;5;232m[48;5;249m a [48;5;226m e [48;5;226m r [48;5;249m o [48;5;249m s [39m[49m 
+## [38;5;232m[48;5;249m t [48;5;249m h [48;5;46m e [48;5;46m r [48;5;249m e [39m[49m 
+## [38;5;232m[48;5;46m q [48;5;46m u [48;5;46m e [48;5;46m r [48;5;46m y [39m[49m&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This time we solve the puzzle in 3 tries. How good is this strategy? We analyzed it using the same metrics as before. For the random choice of target word we get&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;set.seed(1)
+helper = WordleHelper$new(nchar = 5)
+dictionary &amp;lt;- helper$words
+first_guess &amp;lt;- &amp;quot;aeros&amp;quot;
+dictionary_games &amp;lt;- sapply(sample(dictionary,1000),
+                    \(w) tryCatch(length(play_game(w,first_guess,quiet=T)),
+                                  error=function(e) NA))&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;now for the possible answers&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;possible_answers_games &amp;lt;- sapply(possible_answers[,1],
+                    \(w) tryCatch(length(play_game(w,first_guess,quiet=T)),
+                                  error=function(e) NA))&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;and finally for the previous wordle answers&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;past_answers_games &amp;lt;- sapply(past_answers[,1],
+                    \(w) tryCatch(length(play_game(w,first_guess,quiet=T)),
+                                  error=function(e) NA))&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Here is the distribution of the number of tries for each&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;bind_rows(tibble(selection=&amp;quot;Dictionary&amp;quot;,tries=dictionary_games),
+          tibble(selection=&amp;quot;Possible answers&amp;quot;,tries=possible_answers_games),
+          tibble(selection=&amp;quot;Past answers&amp;quot;,tries=past_answers_games)) %&amp;gt;%
+  group_by(selection,tries) %&amp;gt;% 
+  summarise(n=n()) %&amp;gt;% mutate(freq=n/sum(n)) %&amp;gt;% 
+  ggplot(aes(x=tries,y=freq,fill=selection)) + 
+    geom_bar(position=&amp;quot;dodge&amp;quot;,stat=&amp;quot;identity&amp;quot;) +
+    labs(x=&amp;quot;Tries&amp;quot;,fill=&amp;quot;&amp;quot;,y=&amp;quot;&amp;quot;,title=&amp;quot;Using word frequency&amp;quot;) +
+    scale_fill_tableau() +
+    geom_vline(xintercept = 6.5,linetype=2)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/post/2022-01-10-wordle/index_files/figure-html/unnamed-chunk-16-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;As we can see, the strategy is much better for past answers and it solves it less tries. Actually we get that:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;list(&amp;quot;Dictionary&amp;quot;=dictionary_games,
+     &amp;quot;Possible answers&amp;quot;=possible_answers_games,
+     &amp;quot;Past answers&amp;quot;=past_answers_games) %&amp;gt;%
+  map_dfr(\(answers) tibble(&amp;quot;Average number of tries&amp;quot;=round(mean(answers),2),
+                            &amp;quot;Probability of winning (%)&amp;quot;=round(mean(answers&amp;lt;7)*100,2)),
+          .id=&amp;quot;Selection&amp;quot;) %&amp;gt;% 
+  kableExtra::kbl() %&amp;gt;%
+  kableExtra::kable_paper(bootstrap_options = &amp;quot;striped&amp;quot;, full_width = F)&lt;/code&gt;&lt;/pre&gt;
+&lt;table class=&#34; lightable-paper&#34; style=&#34;font-family: &amp;quot;Arial Narrow&amp;quot;, arial, helvetica, sans-serif; width: auto !important; margin-left: auto; margin-right: auto;&#34;&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left;&#34;&gt;
+Selection
+&lt;/th&gt;
+&lt;th style=&#34;text-align:right;&#34;&gt;
+Average number of tries
+&lt;/th&gt;
+&lt;th style=&#34;text-align:right;&#34;&gt;
+Probability of winning (%)
+&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+Dictionary
+&lt;/td&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+4.95
+&lt;/td&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+85.40
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+Possible answers
+&lt;/td&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+4.08
+&lt;/td&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+96.85
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+Past answers
+&lt;/td&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+3.93
+&lt;/td&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+97.10
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;This means that we could have solved the game 97% of the time using this strategy. On average, using this strategy we will lose once a month only. Not bad for this simple strategy!&lt;/p&gt;
+&lt;p&gt;Of course, more complicated strategies can be implemented. For example, occasionally, our next guess could be a word that does not contain the letters found so far. That helps in situations where only a letter remains to be identified but many words are compatible with the ones found so far.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Edited&lt;/strong&gt; Another possibility is to simulate the game forward. Given our final guess (e.g &lt;code&gt;aeros&lt;/code&gt;) we could choose the next guess by simulate the game forward using all possible candidates and getting the one that maximizes some kind of entropy or probability. This is actually the idea behind &lt;a href=&#34;https://github.com/LaurentLessard/wordlesolver&#34;&gt;some strategies&lt;/a&gt; that can reach even 100% winning probability. However, they are computationally expensive.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;choosing-the-best-initial-guess&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Choosing the best initial guess&lt;/h2&gt;
+&lt;p&gt;Without modifying our strategy for our guess in each round, the only free choice we have is the initial guess we start with. In the examples above, we chose &lt;code&gt;aeros&lt;/code&gt;, and it was intended. If we want to maximize the number of found letters from the beginning, our initial guess could be a word that contains the most frequent letters in English dictionary or in the past answers.&lt;/p&gt;
+&lt;p&gt;We can calculate these frequencies&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;dist_letters_dictionary &amp;lt;- unlist(strsplit(dictionary,&amp;quot;&amp;quot;)) %&amp;gt;% 
+  table() %&amp;gt;% data.frame() %&amp;gt;% rename(letter=1) %&amp;gt;% 
+  mutate(dens=Freq/sum(Freq),corpus=&amp;quot;Dictionary&amp;quot;)
+dist_letters_possible &amp;lt;- unlist(strsplit(possible_answers[,1],&amp;quot;&amp;quot;)) %&amp;gt;% 
+  table() %&amp;gt;% data.frame() %&amp;gt;% rename(letter=1) %&amp;gt;% 
+  mutate(dens=Freq/sum(Freq),corpus=&amp;quot;Possible answers&amp;quot;)
+dist_letters_past &amp;lt;- unlist(strsplit(past_answers[,1],&amp;quot;&amp;quot;)) %&amp;gt;% 
+  table() %&amp;gt;% data.frame() %&amp;gt;% rename(letter=1) %&amp;gt;% 
+  mutate(dens=Freq/sum(Freq),corpus=&amp;quot;Past answers&amp;quot;)
+dists &amp;lt;- rbind(dist_letters_dictionary,
+               dist_letters_possible,
+               dist_letters_past)
+ggplot(dists) + 
+  geom_bar(aes(x=reorder(letter,-dens),y=dens,fill=corpus),
+                         position=&amp;quot;dodge&amp;quot;,stat=&amp;quot;identity&amp;quot;)+
+  scale_fill_tableau() + labs(x=&amp;quot;Letter&amp;quot;,y=&amp;quot;Frequency&amp;quot;) +
+  scale_y_continuous(labels=scales::percent)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/post/2022-01-10-wordle/index_files/figure-html/unnamed-chunk-18-1.png&#34; width=&#34;672&#34; /&gt;
+Most frequent letters are vowels (&lt;code&gt;e&lt;/code&gt;, &lt;code&gt;o&lt;/code&gt;, &lt;code&gt;a&lt;/code&gt;) and usual consonants like &lt;code&gt;s&lt;/code&gt; and &lt;code&gt;r&lt;/code&gt;. In the dictionary, these are the top 5 most frequent letters&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;dist_letters_dictionary %&amp;gt;% arrange(-dens) %&amp;gt;% head(5) %&amp;gt;% 
+  kableExtra::kbl() %&amp;gt;%
+  kableExtra::kable_paper(bootstrap_options = &amp;quot;striped&amp;quot;, full_width = F)&lt;/code&gt;&lt;/pre&gt;
+&lt;table class=&#34; lightable-paper&#34; style=&#34;font-family: &amp;quot;Arial Narrow&amp;quot;, arial, helvetica, sans-serif; width: auto !important; margin-left: auto; margin-right: auto;&#34;&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left;&#34;&gt;
+letter
+&lt;/th&gt;
+&lt;th style=&#34;text-align:right;&#34;&gt;
+Freq
+&lt;/th&gt;
+&lt;th style=&#34;text-align:right;&#34;&gt;
+dens
+&lt;/th&gt;
+&lt;th style=&#34;text-align:left;&#34;&gt;
+corpus
+&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+s
+&lt;/td&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+6665
+&lt;/td&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+0.1027598
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+Dictionary
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+e
+&lt;/td&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+6662
+&lt;/td&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+0.1027135
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+Dictionary
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+a
+&lt;/td&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+5990
+&lt;/td&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+0.0923528
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+Dictionary
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+o
+&lt;/td&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+4438
+&lt;/td&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+0.0684243
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+Dictionary
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+r
+&lt;/td&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+4158
+&lt;/td&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+0.0641073
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+Dictionary
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;This is why I chose &lt;code&gt;aeros&lt;/code&gt; as the initial guess. However, we know the words are not chosen randomly from the dictionary. In fact for the possible answers the top 5 letters are&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;dist_letters_possible %&amp;gt;% arrange(-dens) %&amp;gt;% head(5) %&amp;gt;% 
+  kableExtra::kbl() %&amp;gt;%
+  kableExtra::kable_paper(bootstrap_options = &amp;quot;striped&amp;quot;, full_width = F)&lt;/code&gt;&lt;/pre&gt;
+&lt;table class=&#34; lightable-paper&#34; style=&#34;font-family: &amp;quot;Arial Narrow&amp;quot;, arial, helvetica, sans-serif; width: auto !important; margin-left: auto; margin-right: auto;&#34;&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left;&#34;&gt;
+letter
+&lt;/th&gt;
+&lt;th style=&#34;text-align:right;&#34;&gt;
+Freq
+&lt;/th&gt;
+&lt;th style=&#34;text-align:right;&#34;&gt;
+dens
+&lt;/th&gt;
+&lt;th style=&#34;text-align:left;&#34;&gt;
+corpus
+&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+e
+&lt;/td&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+1233
+&lt;/td&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+0.1065227
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+Possible answers
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+a
+&lt;/td&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+979
+&lt;/td&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+0.0845788
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+Possible answers
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+r
+&lt;/td&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+899
+&lt;/td&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+0.0776674
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+Possible answers
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+o
+&lt;/td&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+754
+&lt;/td&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+0.0651404
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+Possible answers
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+t
+&lt;/td&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+729
+&lt;/td&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+0.0629806
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+Possible answers
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;See, no &lt;code&gt;s&lt;/code&gt;, but a &lt;code&gt;t&lt;/code&gt; instead. These are the words that contain these 5 letters:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;dictionary[grepl(&amp;quot;e&amp;quot;,dictionary) &amp;amp; grepl(&amp;quot;r&amp;quot;,dictionary) &amp;amp; 
+             grepl(&amp;quot;a&amp;quot;,dictionary) &amp;amp; grepl(&amp;quot;o&amp;quot;,dictionary) &amp;amp; 
+             grepl(&amp;quot;t&amp;quot;,dictionary)]&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;oater&amp;quot; &amp;quot;orate&amp;quot; &amp;quot;roate&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Let’s see how good is the strategy we tried before with &lt;code&gt;orate&lt;/code&gt;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;set.seed(1)
+helper = WordleHelper$new(nchar = 5)
+dictionary &amp;lt;- helper$words
+first_guess &amp;lt;- &amp;quot;orate&amp;quot;
+dictionary_games &amp;lt;- sapply(sample(dictionary,1000),
+                     \(w) tryCatch(length(play_game(w,first_guess,quiet=T)),
+                                   error=function(e) NA))&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;now for the possible answers&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;possible_answers_games &amp;lt;- sapply(possible_answers[,1],
+                     \(w) tryCatch(length(play_game(w,first_guess,quiet=T)),
+                                   error=function(e) NA))&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;and finally for the previous wordle answers&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;past_answers_games &amp;lt;- sapply(past_answers[,1],
+                     \(w) tryCatch(length(play_game(w,first_guess,quiet=T)),
+                                   error=function(e) NA))&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;which gives the following metrics&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;list(&amp;quot;Dictionary&amp;quot;=dictionary_games,
+     &amp;quot;Possible answers&amp;quot;=possible_answers_games,
+     &amp;quot;Past answers&amp;quot;=past_answers_games) %&amp;gt;%
+  map_dfr(\(answers) tibble(&amp;quot;Average number of tries&amp;quot;=round(mean(answers),2),
+                            &amp;quot;Probability of winning (%)&amp;quot;=round(mean(answers&amp;lt;7)*100,2)),
+          .id=&amp;quot;Selection&amp;quot;) %&amp;gt;% 
+  kableExtra::kbl() %&amp;gt;%
+  kableExtra::kable_paper(bootstrap_options = &amp;quot;striped&amp;quot;, full_width = F)&lt;/code&gt;&lt;/pre&gt;
+&lt;table class=&#34; lightable-paper&#34; style=&#34;font-family: &amp;quot;Arial Narrow&amp;quot;, arial, helvetica, sans-serif; width: auto !important; margin-left: auto; margin-right: auto;&#34;&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left;&#34;&gt;
+Selection
+&lt;/th&gt;
+&lt;th style=&#34;text-align:right;&#34;&gt;
+Average number of tries
+&lt;/th&gt;
+&lt;th style=&#34;text-align:right;&#34;&gt;
+Probability of winning (%)
+&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+Dictionary
+&lt;/td&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+4.88
+&lt;/td&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+87.80
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+Possible answers
+&lt;/td&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+4.07
+&lt;/td&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+97.28
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+Past answers
+&lt;/td&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+3.90
+&lt;/td&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+99.03
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Wow! 99% with this initial guess for the past and 97% for all the possible solutions. This is around 2% increase from &lt;code&gt;aeros&lt;/code&gt; just by choosing a different word. It means (roughly) losing once every 100 games. Be aware that it could be an statistical fluke. More data (more games) are needed to assess if that increase is significant.&lt;/p&gt;
+&lt;p&gt;Here we have assumed that each letter has independent frequencies of appearance in a word, but in reality there could be patterns (two or three letters) which are more frequent that could be exploited to get better initial guess.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;adversarial-word-selection&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Adversarial word selection&lt;/h1&gt;
+&lt;p&gt;Finally, we can investigate how well our strategy plays against an adversarial Wordle in which target words are chosen inversely proportional to their frequency in English. That is, if the target words are rare words in English. Let’s first construct a list of potential target words&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;set.seed(1)
+adversarial_answers &amp;lt;- sample(freq$word,prob = 1/freq$log_count,size = 1000)
+head(adversarial_answers)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;erbia&amp;quot; &amp;quot;socas&amp;quot; &amp;quot;biach&amp;quot; &amp;quot;allyl&amp;quot; &amp;quot;imaum&amp;quot; &amp;quot;skink&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;As we can see, this method selects as target some unsual words in english like &lt;code&gt;erbia&lt;/code&gt; (oxide or erbium) or &lt;code&gt;allyl&lt;/code&gt; (a chemistry radical). Let’s see how the frequency of this words compares to the solutions and/or the dictionary&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;ggplot() + geom_density(data=freq,aes(x=rank,col=&amp;quot;All words&amp;quot;),bw=10) +
+  geom_density(data=freq %&amp;gt;% filter(word %in% past_answers[,1]),
+               aes(x=rank,col=&amp;quot;Past answers&amp;quot;),bw=10)+
+  geom_density(data=freq %&amp;gt;% filter(word %in% adversarial_answers),
+               aes(x=rank,col=&amp;quot;Adversarial answers&amp;quot;),bw=10)+
+  scale_color_tableau() + labs(col=&amp;quot;&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/post/2022-01-10-wordle/index_files/figure-html/unnamed-chunk-24-1.png&#34; width=&#34;672&#34; /&gt;
+As we can see this method selects words which have very small frequency, or large rank in the use of English.&lt;/p&gt;
+&lt;p&gt;Let’s play against them&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;adversarial_answers_games &amp;lt;- sapply(adversarial_answers,
+                    \(w) tryCatch(length(play_game(w,first_guess,quiet=T)),
+                                  error=function(e) NA))&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;and here is how it compares to the previous choices of target words&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;list(&amp;quot;Dictionary&amp;quot;=dictionary_games,
+     &amp;quot;Possible answers&amp;quot;=possible_answers_games,
+     &amp;quot;Past answers&amp;quot;=past_answers_games,
+     &amp;quot;Adversarial answers&amp;quot;=adversarial_answers_games) %&amp;gt;%
+  map_dfr(\(answers) tibble(&amp;quot;Average number of tries&amp;quot;=round(mean(answers,),2),
+                            &amp;quot;Probability of winning (%)&amp;quot;=round(mean(answers&amp;lt;7)*100,2)),
+          .id=&amp;quot;Selection&amp;quot;) %&amp;gt;% 
+  kableExtra::kbl() %&amp;gt;%
+  kableExtra::kable_paper(bootstrap_options = &amp;quot;striped&amp;quot;, full_width = F)&lt;/code&gt;&lt;/pre&gt;
+&lt;table class=&#34; lightable-paper&#34; style=&#34;font-family: &amp;quot;Arial Narrow&amp;quot;, arial, helvetica, sans-serif; width: auto !important; margin-left: auto; margin-right: auto;&#34;&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left;&#34;&gt;
+Selection
+&lt;/th&gt;
+&lt;th style=&#34;text-align:right;&#34;&gt;
+Average number of tries
+&lt;/th&gt;
+&lt;th style=&#34;text-align:right;&#34;&gt;
+Probability of winning (%)
+&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+Dictionary
+&lt;/td&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+4.88
+&lt;/td&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+87.80
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+Possible answers
+&lt;/td&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+4.07
+&lt;/td&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+97.28
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+Past answers
+&lt;/td&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+3.90
+&lt;/td&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+99.03
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+Adversarial answers
+&lt;/td&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+5.30
+&lt;/td&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+81.50
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;As we can see the probability of winning decreases to 81% only, that is, losing 1 out of every 5 days. This probability is smaller than choosing randomly our guess, which means that the strategy we have (choosing words according to the frequency in English) can fail for specific targeted adversarial games.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;conclusion&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Conclusion&lt;/h1&gt;
+&lt;p&gt;The strategy shown here only works because it exploits the bias in how the target word is chosen. If the designer of the game decides to change this, the performance will be different. For example, if words are randomly selected from the English dictionary the strategy here drops to 82%, not bad but means losing once every 5 days.&lt;/p&gt;
+&lt;p&gt;Without any change, we still can win most of the times by using &lt;code&gt;orate&lt;/code&gt; and choosing the most frequent words in English in each round. And that ends my orating about Wordle for today.&lt;/p&gt;
+&lt;/div&gt;
+</description>
     </item>
     
   </channel>

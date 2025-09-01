@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Artificial Intelligence on </title>
@@ -6,15 +5,35 @@
     <description>Recent content in Artificial Intelligence on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Tue, 26 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://estebanmoro.org/tags/artificial-intelligence/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 26 Mar 2019 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://estebanmoro.org/tags/artificial-intelligence/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Towards understanding the impact of artificial intelligence on labor</title>
       <link>https://estebanmoro.org/post/2019-03-26-towards-understanding-the-impact-of-artificial-intelligence-on-labor/</link>
       <pubDate>Tue, 26 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2019-03-26-towards-understanding-the-impact-of-artificial-intelligence-on-labor/</guid>
-      <description>title: &amp;lsquo;How to Organize your Deep Reinforcement Learning Agents: The Importance of Communication Topology&amp;rsquo; author: Esteban Moro date: &amp;lsquo;2018-12-14&amp;rsquo; categories:
- Publications tags: Deep Learning Networks image: /img/posts/NetES.jpg   Authors: Frank, Morgan R and Autor, David and Bessen, James E and Brynjolfsson, Erik and Cebrian, Manuel and Deming, David J and Feldman, Maryann and Groh, Matthew and Lobo, José and Moro, Esteban and Wang, Dashun and Youn, Hyejin and Rahwan, Iyad</description>
+      <description>&lt;hr&gt;
+&lt;p&gt;title: &amp;lsquo;How to Organize your Deep Reinforcement Learning Agents: The Importance of
+Communication Topology&amp;rsquo;
+author: Esteban Moro
+date: &amp;lsquo;2018-12-14&amp;rsquo;
+categories:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Publications
+tags:&lt;/li&gt;
+&lt;li&gt;Deep Learning&lt;/li&gt;
+&lt;li&gt;Networks
+image: /img/posts/NetES.jpg&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Frank, Morgan R and Autor, David and Bessen, James E and Brynjolfsson, Erik and Cebrian, Manuel and Deming, David J and Feldman, Maryann and Groh, Matthew and Lobo, José and Moro, Esteban and Wang, Dashun and Youn, Hyejin and Rahwan, Iyad&lt;br&gt;
+&lt;em&gt;Journal&lt;/em&gt;: PNAS (2019). &lt;strong&gt;&lt;a href=&#34;https://www.pnas.org/content/early/2019/03/21/1900949116.abstract&#34;&gt;JOURNAL&lt;/a&gt; | &lt;a href=&#34;https://estebanmoro.org/pdf/Toward_understanding_the_impact_of_artificial_intelligence_on_labor.pdf&#34;&gt;PDF&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Rapid advances in artificial intelligence (AI) and automation technologies have the potential to significantly disrupt labor markets. While AI and automation can augment the productivity of some workers, they can replace the work done by others and will likely transform almost all occupations at least to some degree. Rising automation is happening in a period of growing economic inequality, raising fears of mass technological unemployment and a renewed call for policy efforts to address the consequences of technological change. In this paper we discuss the barriers that inhibit scientists from measuring the effects of AI and automation on the future of work. These barriers include the lack of high-quality data about the nature of work (e.g., the dynamic requirements of occupations), lack of empirically informed models of key microlevel processes (e.g., skill substitution and human–machine complementarity), and insufficient understanding of how cognitive technologies interact with broader economic dynamics and institutional mechanisms (e.g., urban migration and international trade policy). Overcoming these barriers requires improvements in the longitudinal and spatial resolution of data, as well as refinements to data on workplace skills. These improvements will enable multidisciplinary research to quantitatively monitor and predict the complex evolution of work in tandem with technological progress. Finally, given the fundamental uncertainty in predicting technological change, we recommend developing a decision framework that focuses on resilience to unexpected scenarios in addition to general equilibrium behavior.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

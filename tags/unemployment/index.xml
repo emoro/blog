@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Unemployment on </title>
@@ -6,17 +5,30 @@
     <description>Recent content in Unemployment on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Sun, 19 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://estebanmoro.org/tags/unemployment/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 19 Nov 2023 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://estebanmoro.org/tags/unemployment/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>The unequal effects of the health–economy trade-off during the COVID19 pandemic</title>
       <link>https://estebanmoro.org/post/2023-11-20-the-unequal-effects-of-the-health-economy-trade-off-during-the-covid-19-pandemic/</link>
       <pubDate>Sun, 19 Nov 2023 00:00:00 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2023-11-20-the-unequal-effects-of-the-health-economy-trade-off-during-the-covid-19-pandemic/</guid>
-      <description>Authors: Marco Pangallo, Alberto Aleta, R. Maria del Rio-Chanona, Anton Pichler, David Martin-Corral, Matteo Chinazzi, Francois Lafond, Marco Ajelli, Esteban Moro, Yamir Moreno, Alessandro Vespignani, J. Doyne Farmer
-Publication: Nature Human Behavior, Nov 16th, (2023)
-LINK
-Abstract: Despite the global impact of the coronavirus disease 2019 pandemic, the question of whether mandated interventions have similar economic and public health effects as spontaneous behavioural change remains unresolved. Addressing this question, and understanding differential effects across socioeconomic groups, requires building quantitative and fine-grained mechanistic models.</description>
+      <description>
+
+
+&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Marco Pangallo, Alberto Aleta, R. Maria del Rio-Chanona, Anton Pichler, David Martin-Corral, Matteo Chinazzi, Francois Lafond, Marco Ajelli, Esteban Moro, Yamir Moreno, Alessandro Vespignani, J. Doyne Farmer&lt;br&gt;
+&lt;em&gt;Publication&lt;/em&gt;: Nature Human Behavior, Nov 16th, (2023)&lt;br&gt; &lt;strong&gt;&lt;a href=&#34;https://www.nature.com/articles/s41562-023-01747-x&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Despite the global impact of the coronavirus disease 2019 pandemic, the question of whether mandated interventions have similar economic and public health effects as spontaneous behavioural change remains unresolved. Addressing this question, and understanding differential effects across socioeconomic groups, requires building quantitative and fine-grained mechanistic models. Here we introduce a data-driven, granular, agent-based model that simulates epidemic and economic outcomes across industries, occupations and income levels. We validate the model by reproducing key outcomes of the first wave of coronavirus disease 2019 in the New York metropolitan area. The key mechanism coupling the epidemic and economic modules is the reduction in consumption due to fear of infection. In counterfactual experiments, we show that a similar trade-off between epidemic and economic outcomes exists both when individuals change their behaviour due to fear of infection and when non-pharmaceutical interventions are imposed. Low-income workers, who perform in-person occupations in customer-facing industries, face the strongest trade-off.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Media&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.ox.ac.uk/news/2023-11-17-epidemic-economic-model-provides-answers-key-pandemic-policy-questions&#34;&gt;Epidemic-economic model provides answers to key pandemic policy questions&lt;/a&gt;, News &amp;amp; Events, University of Oxford&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://socialsciences.nature.com/posts/the-unequal-effects-of-the-health-economy-tradeoff-during-the-covid-19-pandemic&#34;&gt;The unequal effects of the health-economy tradeoff during the COVID-19 pandemic&lt;/a&gt;, Behavioral and Social Sciences at Nature Research.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://ssrc.mit.edu/epidemic-economic-model-provides-answers-to-key-pandemic-policy-questions/&#34;&gt;Epidemic-economic model provides answers to key pandemic policy questions&lt;/a&gt;, MIT SSRC NEWS.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -25,18 +37,22 @@ Abstract: Despite the global impact of the coronavirus disease 2019 pandemic, th
       <pubDate>Thu, 05 Nov 2015 00:00:00 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2019-01-01-video-of-my-talk-your-data-our-society/</guid>
-      <description>Video of my talk &amp;ldquo;your data, our society&amp;rdquo; given at #sngular810, the S|ngular presentation event celebrated in Madrid in Oct. 2015. In my talk I show the uses of bigdata at different scales of resolution to understand our society.
- </description>
+      <description>&lt;p&gt;Video of my talk &amp;ldquo;your data, our society&amp;rdquo; given at #sngular810, the S|ngular presentation event celebrated in Madrid in Oct. 2015. In my talk I show the uses of bigdata at different scales of resolution to understand our society.&lt;/p&gt;
+&lt;iframe src=&#34;https://www.youtube.com/embed/SnApZNbiZKQ?start=&#34;
+  style=&#34;position: absolute; top: 0; left: 0; width: 560; height: 315;&#34; allowfullscreen frameborder=&#34;0&#34; title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+</description>
     </item>
     
     <item>
       <title>Talk at itdUPM2015 &#34;Nowcasting. Sociedades para nuevas formas de organización&#34;</title>
-      <link>https://estebanmoro.org/post/2015-09-24-talk-at-itdupm2015-nowcasting-sociedades-para-nuevas-formas-de-organizacio%CC%81n/</link>
+      <link>https://estebanmoro.org/post/2015-09-24-talk-at-itdupm2015-nowcasting-sociedades-para-nuevas-formas-de-organizaci%C3%B3n/</link>
       <pubDate>Thu, 24 Sep 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://estebanmoro.org/post/2015-09-24-talk-at-itdupm2015-nowcasting-sociedades-para-nuevas-formas-de-organizacio%CC%81n/</guid>
-      <description>Video of my talk &amp;ldquo;Nowcasting. Sociedades para nuevas formas de organización&amp;rdquo; in the conference &amp;ldquo;Tecnología e Innovación para el Desarrollo&amp;rdquo; at Universidad Politécnica de Madrid.
- </description>
+      <guid>https://estebanmoro.org/post/2015-09-24-talk-at-itdupm2015-nowcasting-sociedades-para-nuevas-formas-de-organizaci%C3%B3n/</guid>
+      <description>&lt;p&gt;Video of my talk &amp;ldquo;Nowcasting. Sociedades para nuevas formas de organización&amp;rdquo; in the conference &amp;ldquo;Tecnología e Innovación para el Desarrollo&amp;rdquo; at Universidad Politécnica de Madrid.&lt;/p&gt;
+&lt;iframe src=&#34;https://www.youtube.com/embed/RhmUhcnRlkw?start=&#34;
+  style=&#34;position: absolute; top: 0; left: 0; width: 560; height: 315;&#34; allowfullscreen frameborder=&#34;0&#34; title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+</description>
     </item>
     
     <item>
@@ -45,9 +61,39 @@ Abstract: Despite the global impact of the coronavirus disease 2019 pandemic, th
       <pubDate>Thu, 07 May 2015 12:39:43 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2014-11-13-social-media-fingerprints-of-unemployment/</guid>
-      <description>Authors:Alejandro Llorente, Manuel García-Herránz, Manuel Cebrián and Esteban Moro
-Journal: PLoS ONE 10(5): e0128692 (2014) LINK
-Summary: Publicly available social media data can be used to quantify deviations from typical patterns of behavior and uncover how these deviations signal the socio-economical status of regions. Using data from geolocalized Twitter messages, we find that unemployment is correlated with technology adoption, daily activity, diversity in mobility patterns and correctness in communication style. These behavioral metrics serve to build simple, interpretable, and cost-effective socio-economical predictors from these novel digital datasets.</description>
+      <description>&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;:Alejandro Llorente, Manuel García-Herránz, Manuel Cebrián and Esteban Moro&lt;br&gt;
+&lt;em&gt;Journal&lt;/em&gt;: PLoS ONE 10(5): e0128692 (2014) &lt;strong&gt;&lt;a href=&#34;http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0128692&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Summary&lt;/strong&gt;: Publicly available social media data can be used to quantify deviations from typical patterns of behavior and uncover how these deviations signal the socio-economical status of regions. Using data from geolocalized Twitter messages, we find that &lt;strong&gt;unemployment&lt;/strong&gt; is &lt;strong&gt;correlated with technology adoption, daily activity, diversity in mobility patterns&lt;/strong&gt; and &lt;strong&gt;correctness in communication style.&lt;/strong&gt; These behavioral metrics serve to build simple, interpretable, and cost-effective socio-economical predictors from these novel digital datasets. Our extensive investigation allows us not only to build accurate behavioral models of how unemployment impacts diverse geographical areas, but also to assessing the relevance and uniqueness of previously reported social media datasets to understand economical development.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt; Recent wide-spread adoption of electronic and pervasive technologies has enabled the study of human behavior at an unprecedented level, uncovering universal patterns underlying human activity, mobility, and inter-personal communication. In the present work, we investigate whether deviations from these universal patterns may reveal information about the socio-economical status of geographical regions. We quantify the extent to which deviations in diurnal rhythm, mobility patterns, and communication styles across regions relate to their unemployment incidence. For this we examine a country-scale publicly articulated social media dataset, where we quantify individual behavioral features from over 145 million geo-located messages distributed among more than 340 different Spanish economic regions, inferred by computing communities of cohesive mobility fluxes. We find that regions exhibiting more diverse mobility fluxes, earlier diurnal rhythms, and more correct grammatical styles display lower unemployment rates. As a result, we provide a simple model able to produce accurate, easily interpretable reconstruction of regional unemployment incidence from their social-media digital fingerprints alone. Our results show that cost-effective economical indicators can be built based on publicly-available social media datasets.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Media&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;See the &lt;a href=&#34;https://vimeo.com/111579945&#34;&gt;&lt;strong&gt;video&lt;/strong&gt;&lt;/a&gt; of thousands of trips in Spain used to characterize the mobility between municipalities in Spain&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Press&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://elpais.com/elpais/2014/11/13/ciencia/1415893051_731963.html&#34;&gt;http://www.technologyreview.com/view/532746/twitter-exhaust-reveals-patterns-of-unemployment/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.informationweek.com/government/big-data-analytics/tweets-tell-whether-you-have-a-job/d/d-id/1317636&#34;&gt;http://www.informationweek.com/government/big-data-analytics/tweets-tell-whether-you-have-a-job/d/d-id/1317636&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.informationweek.com/government/big-data-analytics/tweets-tell-whether-you-have-a-job/d/d-id/1317636&#34;&gt;http://elpais.com/elpais/2014/11/13/ciencia/1415893051_731963.html&lt;/a&gt;&lt;a href=&#34;http://www.informationweek.com/government/big-data-analytics/tweets-tell-whether-you-have-a-job/d/d-id/1317636&#34;&gt; (spanish)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://elpais.com/elpais/2014/11/17/inenglish/1416217012_371379.html&#34;&gt;http://elpais.com/elpais/2014/11/17/inenglish/1416217012_371379.html&lt;/a&gt; (english)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.clarin.com/sociedad/Twitter-revela-datos-claves-economia_0_1248475442.html&#34;&gt;http://www.clarin.com/sociedad/Twitter-revela-datos-claves-economia_0_1248475442.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.europapress.es/sociedad/noticia-viajes-dia-espana-resumidos-video-menos-minutos-20141113183732.html&#34;&gt;http://www.europapress.es/sociedad/noticia-viajes-dia-espana-resumidos-video-menos-minutos-20141113183732.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://digital-business-news.es/dime-si-trabajas-y-te-dir%C3%A9-c%C3%B3mo-tuiteas&#34;&gt;http://digital-business-news.es/dime-si-trabajas-y-te-diré-cómo-tuiteas&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.elconfidencial.com/tecnologia/2014-11-14/los-datos-no-mienten-donde-se-tuitea-con-mas-faltas-de-ortografia-hay-mas-paro_455021/&#34;&gt;http://www.elconfidencial.com/tecnologia/2014-11-14/los-datos-no-mienten-donde-se-tuitea-con-mas-faltas-de-ortografia-hay-mas-paro_455021/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.lavozdegalicia.es/video/vidadigital/2014/11/13/nuevo-mapa-espana-segun-twitter/00311415898851478818412.htm&#34;&gt;http://www.lavozdegalicia.es/video/vidadigital/2014/11/13/nuevo-mapa-espana-segun-twitter/00311415898851478818412.htm&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.antena3.com/noticias/tecnologia/crean-mapa-interactivo-que-refleja-como-nos-movemos-espanoles_2014111300214.html&#34;&gt;http://www.antena3.com/noticias/tecnologia/crean-mapa-interactivo-que-refleja-como-nos-movemos-espanoles_2014111300214.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.marketingdirecto.com/actualidad/social-media-marketing/como-cuando-y-donde-se-tuitea-en-espana/&#34;&gt;http://www.marketingdirecto.com/actualidad/social-media-marketing/como-cuando-y-donde-se-tuitea-en-espana/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.merca20.com/como-se-tuitea-en-espana/&#34;&gt;http://www.merca20.com/como-se-tuitea-en-espana/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.ideal.es/sociedad/201411/14/movemos-espanoles-normal-20141114092804.html&#34;&gt;http://www.ideal.es/sociedad/201411/14/movemos-espanoles-normal-20141114092804.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.viaempresa.cat/ca/notices/2014/11/l-economia-influeix-en-com-tuitegem-9324.php&#34;&gt;http://www.viaempresa.cat/ca/notices/2014/11/l-economia-influeix-en-com-tuitegem-9324.php&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://elpais.com/elpais/2014/11/15/opinion/1416068331_296691.html&#34;&gt;http://elpais.com/elpais/2014/11/15/opinion/1416068331_296691.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.netambulo.com/2014/11/19/mapa-de-uso-de-twitter-en-espana/&#34;&gt;http://www.netambulo.com/2014/11/19/mapa-de-uso-de-twitter-en-espana/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.citylab.com/work/2014/11/what-twitter-tells-us-about-unemployment/382840/&#34;&gt;http://www.citylab.com/work/2014/11/what-twitter-tells-us-about-unemployment/382840/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.engadget.com/2014/11/21/twitter-activity-unemployment-tracking/&#34;&gt;http://www.engadget.com/2014/11/21/twitter-activity-unemployment-tracking/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.forbes.com/sites/timworstall/2014/11/22/interesting-research-using-twitter-the-unemployed-get-up-late-and-cant-spell/&#34;&gt;http://www.forbes.com/sites/timworstall/2014/11/22/interesting-research-using-twitter-the-unemployed-get-up-late-and-cant-spell/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://digitalmarketingtrends.es/twitter-mas-que-140-caracteres/&#34;&gt;http://digitalmarketingtrends.es/twitter-mas-que-140-caracteres/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://lexpansion.lexpress.fr/high-tech/la-ou-le-chomage-est-fort-les-utilisateurs-de-twitter-sont-plus-nombreux_1623535.html&#34;&gt;http://lexpansion.lexpress.fr/high-tech/la-ou-le-chomage-est-fort-les-utilisateurs-de-twitter-sont-plus-nombreux_1623535.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
   </channel>

@@ -1,19 +1,33 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>email on </title>
+    <title>Email on </title>
     <link>https://estebanmoro.org/tags/email/</link>
-    <description>Recent content in email on </description>
+    <description>Recent content in Email on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Wed, 16 Nov 2005 07:36:34 +0000</lastBuildDate><atom:link href="https://estebanmoro.org/tags/email/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 16 Nov 2005 07:36:34 +0000</lastBuildDate>
+    
+        <atom:link href="https://estebanmoro.org/tags/email/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Why I didn’t answer your email</title>
       <link>https://estebanmoro.org/2005/11/why-i-didnt-answer-your-email/</link>
       <pubDate>Wed, 16 Nov 2005 07:36:34 +0000</pubDate>
       
       <guid>https://estebanmoro.org/2005/11/why-i-didnt-answer-your-email/</guid>
-      <description>In a recent Nature article, Albert-Lászlo Barabási and João Gama Oliveira, have found the perfect excuse for lazy people not answering some emails in their inbox: they analyzed the time response of emails and found that they follow a power law probability distribution of the form P(t) = 1/t. In particular this implies that not even the mean response time is finite. Hey! why should you then expect me to answer your emails within my lifetime period!</description>
+      <description>&lt;p&gt;In a recent &lt;a href=&#34;http://www.nature.com/nature/journal/v437/n7063/full/4371251a.html;jsessionid=565D6C403BDF1384DF5AA2DEEDFE5030&#34;&gt;Nature&lt;/a&gt; &lt;a href=&#34;http://www.nd.edu/%7Enetworks/Publication%20Categories/03%20Journal%20Articles/Social%20Science/CorrespondencePatterns_Nature%20437,%201251%20%2827Oct05%29.pdf&#34;&gt;article&lt;/a&gt;, &lt;a href=&#34;http://www.nd.edu/%7Ealb/&#34;&gt;Albert-Lászlo Barabási&lt;/a&gt; and João Gama Oliveira, have found the perfect excuse for lazy people not answering some emails in their inbox: they analyzed the time response of emails and found that they follow a power law probability distribution of the form P(t) = 1/t. In particular this implies that not even the mean response time is finite. Hey! why should you then expect me to answer your emails within my lifetime period! The &lt;a href=&#34;http://www.newscientist.com/article.ns?id=dn8214&#34;&gt;usual&lt;/a&gt; &lt;a href=&#34;http://physicsweb.org/articles/news/9/10/15/1&#34;&gt;buzz&lt;/a&gt; after the publication in Nature reach other scientific and &lt;a href=&#34;http://www.msnbc.msn.com/id/9827337/&#34;&gt;non-scientific&lt;/a&gt; publications.&lt;/p&gt;
+&lt;p&gt;Unfortunately for lazy people like me, Barabási and Oliveira analysis of the data is wrong and the power law observed is an artifact of a bad analysis of the data, which is immensely better described by a log-normal distribution as shown in a &lt;a href=&#34;http://arxiv.org/abs/physics/0510216&#34;&gt;recent comment&lt;/a&gt; by Stouffer, Malmgrem and Amaral also submitted to Nature. The inconsistency of Barabási’s analysis is shown in different ways, but their main points are:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;In the data considered by Barabási and Oliveira, the most frequent time interval between emails for some specific users is smaller than a second. This means that some people answer more than 60 emails per minute. Wow! that is fast and, unfortunately unrealistic.&lt;/li&gt;
+&lt;li&gt;If P(t) is a power-law with exponent -1, when plotting the P(s) where s = ln(t) we should observe a uniform probability distribution (P(s) = const.). However, Stouffer et al. found that it is far from uniform and it looks more like a Gaussian (which correspond to assume that P(t) is a log-normal distribution).&lt;/li&gt;
+&lt;li&gt;Stouffer et al. use Bayesian model selection analysis to find that the log-normal distribution is the one describing the data with probability one.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Moreover, the authors do also criticized the model proposed by Barabási and Oliveira to explain the data. &lt;a href=&#34;http://geomblog.blogspot.com/2005/10/darwins-and-einsteins-email.html&#34;&gt;Some&lt;/a&gt; &lt;a href=&#34;http://cscs.umich.edu/%7Ecrshalizi/weblog/2005/10/28#390&#34;&gt;other&lt;/a&gt; &lt;a href=&#34;http://cs.unm.edu/%7Eaaron/blog/archives/2005/10/links_links_lin.htm&#34;&gt;people&lt;/a&gt; comment on this flawed analysis of Barabási and Oliveira in their blogs.&lt;/p&gt;
+&lt;p&gt;Finally, it is interesting to find in the comment by Stouffer et al. the following sentence:&lt;/p&gt;
+&lt;blockquote&gt;Barabási analyzed the email communication patterns of a subset of users [2] in a database containing the email usage records of 3188 individuals using a university e-mail server over an 83-day period [3]. Upon examining the same data, we find a number of significant deficiencies in his analysis. These deficiencies were communicated to Barabási well in advance of publication [4].&lt;/blockquote&gt;
+&lt;p&gt;If Barabási and Oliveira were right, they should not expect an answer to this communication in finite time!&lt;/p&gt;
+</description>
     </item>
     
   </channel>

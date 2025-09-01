@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Temporal Network on </title>
@@ -6,16 +5,21 @@
     <description>Recent content in Temporal Network on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Tue, 13 Oct 2015 13:23:36 +0000</lastBuildDate><atom:link href="https://estebanmoro.org/tags/temporal-network/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 13 Oct 2015 13:23:36 +0000</lastBuildDate>
+    
+        <atom:link href="https://estebanmoro.org/tags/temporal-network/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Daily rhythms in mobile telephone communication</title>
       <link>https://estebanmoro.org/post/2015-10-13-daily-rhythms-in-mobile-telephone-communication/</link>
       <pubDate>Tue, 13 Oct 2015 13:23:36 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2015-10-13-daily-rhythms-in-mobile-telephone-communication/</guid>
-      <description>Authors:Talayeh Aledavood , Eduardo López, Sam G. B. Roberts, Felix Reed-Tsochas, Esteban Moro, Robin I. M. Dunbar, Jari Saramäki
-Journal: PLoS ONE 10(9), e0138098 (2015) LINK
-Abstract: Circadian rhythms are known to be important drivers of human activity and the recent availability of electronic records of human behaviour has provided fine-grained data of temporal patterns of activity on a large scale. Further, questionnaire studies have identified important individual differences in circadian rhythms, with people broadly categorised into morning-like or evening-like individuals.</description>
+      <description>&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;:Talayeh Aledavood , Eduardo López, Sam G. B. Roberts, Felix Reed-Tsochas, Esteban Moro, Robin I. M. Dunbar, Jari Saramäki&lt;br&gt;
+&lt;em&gt;Journal&lt;/em&gt;: PLoS ONE 10(9), e0138098 (2015) &lt;strong&gt;&lt;a href=&#34;http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0138098&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Circadian rhythms are known to be important drivers of human activity and the recent availability of electronic records of human behaviour has provided fine-grained data of temporal patterns of activity on a large scale. Further, questionnaire studies have identified important individual differences in circadian rhythms, with people broadly categorised into morning-like or evening-like individuals. However, little is known about the social aspects of these circadian rhythms, or how they vary across individuals. In this study we use a unique 18-month dataset that combines mobile phone calls and questionnaire data to examine individual differences in the daily rhythms of mobile phone activity. We demonstrate clear individual differences in daily patterns of phone calls, and show that these individual differences are persistent despite a high degree of turnover in the individuals’ social networks. Further, women’s calls were longer than men’s calls, especially during the evening and at night, and these calls were typically focused on a small number of emotionally intense relationships. These results demonstrate that individual differences in circadian rhythms are not just related to broad patterns of morningness and eveningness, but have a strong social component, in directing phone calls to specific individuals at specific times of day.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -24,9 +28,10 @@ Abstract: Circadian rhythms are known to be important drivers of human activity 
       <pubDate>Thu, 07 May 2015 12:39:43 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2015-05-07-from-seconds-to-months-multi-scale-dynamics-of-mobile-telephone-calls/</guid>
-      <description>Authors:Jari Saramaki, Esteban Moro
-Journal: Eur. Phys. J. B (2015) 88: 164 LINK | **arXiv
-Abstract: Big Data on electronic records of social interactions allow approaching human behaviour and sociality from a quantitative point of view with unforeseen statistical power. Mobile telephone Call Detail Records (CDRs), automatically collected by telecom operators for billing purposes, have proven especially fruitful for understanding one-to-one communication patterns as well as the dynamics of social networks that are reflected in such patterns.</description>
+      <description>&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;:Jari Saramaki, Esteban Moro&lt;br&gt;
+&lt;em&gt;Journal&lt;/em&gt;: Eur. Phys. J. B (2015) 88: 164 &lt;strong&gt;&lt;a href=&#34;https://www.epj.org/epjb-news/961-epjb-colloquium-from-seconds-to-months-the-multi-scale-dynamics-of-mobile-telephone-calls&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt; | **&lt;a href=&#34;http://arxiv.org/pdf/1504.01479v1.pdf&#34;&gt;arXiv&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;: Big Data on electronic records of social interactions allow approaching human behaviour and sociality from a quantitative point of view with unforeseen statistical power. Mobile telephone Call Detail Records (CDRs), automatically collected by telecom operators for billing purposes, have proven especially fruitful for understanding one-to-one communication patterns as well as the dynamics of social networks that are reflected in such patterns. We present an overview of empirical results on the multi-scale dynamics of social dynamics and networks inferred from mobile telephone calls. We begin with the shortest timescales and fastest dynamics, such as burstiness of call sequences between individuals, and &amp;ldquo;zoom out&amp;rdquo; towards longer temporal and larger structural scales, from temporal motifs formed by correlated calls between multiple individuals to long-term dynamics of social groups. We conclude this overview with a future outlook.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

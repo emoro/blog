@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>MediaLab on </title>
@@ -6,16 +5,22 @@
     <description>Recent content in MediaLab on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Sun, 08 Apr 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://estebanmoro.org/tags/medialab/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 08 Apr 2018 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://estebanmoro.org/tags/medialab/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Media Lab, el lugar donde se inventa el futuro</title>
       <link>https://estebanmoro.org/post/2019-01-01-media-lab-el-lugar-donde-se-inventa-el-futuro/</link>
       <pubDate>Sun, 08 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2019-01-01-media-lab-el-lugar-donde-se-inventa-el-futuro/</guid>
-      <description>Report in Magazine (in Spanish) about the work done by different groups at the MIT MediaLab, including ours!
-Media Lab, el lugar donde se inventa el futuro
- “Aquí no se busca un éxito incremental en los proyectos, como sucede en muchas universidades, ni tampoco desarrollos a largo plazo, sino que tratan de dar con moonshots, es decir, aspectos que a largo plazo pueden impactar en la sociedad. No hay departamentos.</description>
+      <description>&lt;p&gt;Report in Magazine (in Spanish) about the work done by different groups at the MIT MediaLab, including ours!&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.magazinedigital.com/historias/reportajes/media-lab-lugar-donde-se-inventa-futuro&#34;&gt;Media Lab, el lugar donde se inventa el futuro&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“Aquí no se busca un éxito incremental en los proyectos, como sucede en muchas universidades, ni tampoco desarrollos a largo plazo, sino que tratan de dar con moonshots, es decir, aspectos que a largo plazo pueden impactar en la sociedad. No hay departamentos. Por eso no se trabaja a corto plazo ni hay que rendir cuentas continuamente, como sucede en España. Y se valora el proceso, el aprender”, defiende el matemático Esteban Moro, profesor de la Universidad Carlos III que está como investigador visitante en el grupo de Cooperación Escalable. “Por eso –continúa Moro– el Media Lab es una isla dentro del MIT y también en el panorama de la investigación mundial. Lo más único de lo más único”.&lt;/p&gt;&lt;/blockquote&gt;
+</description>
     </item>
     
   </channel>

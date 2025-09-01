@@ -1,22 +1,37 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>conference on </title>
+    <title>Conference on </title>
     <link>https://estebanmoro.org/tags/conference/</link>
-    <description>Recent content in conference on </description>
+    <description>Recent content in Conference on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Mon, 28 Mar 2011 14:51:50 +0000</lastBuildDate><atom:link href="https://estebanmoro.org/tags/conference/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 28 Mar 2011 14:51:50 +0000</lastBuildDate>
+    
+        <atom:link href="https://estebanmoro.org/tags/conference/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Complex Dynamics of Human Interactions, September 14th 2011</title>
       <link>https://estebanmoro.org/2011/03/complex-dynamics-of-human-interactions-september-14th-2011/</link>
       <pubDate>Mon, 28 Mar 2011 14:51:50 +0000</pubDate>
       
       <guid>https://estebanmoro.org/2011/03/complex-dynamics-of-human-interactions-september-14th-2011/</guid>
-      <description>We (together with Kimmo Kaski, Aalto University) are organizing the ECCS&#39;11 Satellite conference &amp;ldquo;Complex Dynamics of Human Interactions&amp;rdquo; to be held at Vienna, September 14th.
-You can find more info at http://www.complexdynamics.org
-&amp;ldquo;It&amp;rsquo;s not enough to have a map of the structure. It is crucial to understand the dynamics of a process”, L. Barábasi
-Scope The nature of human interaction has undergone a substantial change in the past years and the change does not seem to be over.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;http://estebanmoro.org/wp-content/uploads/2011/03/cdhi11-150x150.jpg&#34; alt=&#34;cdhi11&#34;&gt;
+We (together with Kimmo Kaski, Aalto University) are organizing the &lt;a href=&#34;http://www.eccs2011.eu/&#34;&gt;ECCS&#39;11&lt;/a&gt; Satellite conference &lt;strong&gt;&amp;ldquo;Complex Dynamics of Human Interactions&amp;rdquo;&lt;/strong&gt; to be held at Vienna, September 14th.&lt;/p&gt;
+&lt;p&gt;You can find more info at &lt;a href=&#34;http://www.complexdynamics.org&#34;&gt;http://www.complexdynamics.org&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&amp;ldquo;It&amp;rsquo;s not enough to have a map of the structure. It is crucial to understand the dynamics of a process”&lt;/em&gt;, L. Barábasi&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Scope&lt;/strong&gt;
+The nature of human interaction has undergone a substantial change in the past years and the change does not seem to be over. Technologies like email, smart-phones, social networks like Facebook or broadcast technologies like Twitter transform the way people keep in touch and new trends of communication appear: individuals are continuously connected with each other, social activities are commonly shared by groups of people and people do not need to be geographically close to stay connected.&lt;/p&gt;
+&lt;p&gt;The high availability of digital data about human activity given by these communication channels and their high detail has provided unprecedented understanding of the nature of humans interactions, that affect the very definition of social relationships, hubs, communities and their role on society. Particular important is the role that human dynamics has in processes that happen concurrently with the dynamics of interaction, like information/disease epidemics in social networks, opinion dynamics, coordination, etc.&lt;/p&gt;
+&lt;p&gt;The aim of this meeting is to explore the dynamical structure of social and communication networks and the role of the human complex dynamics in realistic processes like information spreading, personal recommendation or &amp;ldquo;word-of-mouth&amp;rdquo;, etc.&lt;/p&gt;
+&lt;p&gt;Specific topics of interest are (but not only):&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  * High Frequency analysis of communication and social networks
+  * Causality and correlation in human communication patterns
+  * Reality Mining, Face-to-Face interactions
+  * Modeling dynamics of human interactions
+  * Applications to viral marketing, infection spreading, opinion dynamics.
+&lt;/code&gt;&lt;/pre&gt;
+</description>
     </item>
     
   </channel>

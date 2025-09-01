@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Fast Food on </title>
@@ -6,17 +5,31 @@
     <description>Recent content in Fast Food on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Sat, 18 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://estebanmoro.org/tags/fast-food/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 18 Nov 2023 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://estebanmoro.org/tags/fast-food/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Population mobility data provides meaningful indicators of fast food intake and diet-related diseases in diverse populations</title>
       <link>https://estebanmoro.org/post/2023-11-20-population-mobility-data-provides-meaningful-indicators-of-fast-food-intake-and-diet-related-diseases-in-diverse-populations/</link>
       <pubDate>Sat, 18 Nov 2023 00:00:00 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2023-11-20-population-mobility-data-provides-meaningful-indicators-of-fast-food-intake-and-diet-related-diseases-in-diverse-populations/</guid>
-      <description>Authors: Abigail L. Horn, Brooke M. Bell, Bernardo Garcia Bulle Bueno, Mohsen Bahrami, Burcin Bozkaya, Yan Cui, John P. Wilson, Alex Pentland, Esteban Moro, Kayla de la Haye
-Publication: NPJ Digital Medicine 6, 208 (2023)
-LINK
-Abstract: The characteristics of food environments people are exposed to, such as the density of fast food (FF) outlets, can impact their diet and risk for diet-related chronic disease. Previous studies examining the relationship between food environments and nutritional health have produced mixed findings, potentially due to the predominant focus on static food environments around people’s homes.</description>
+      <description>
+
+
+&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Abigail L. Horn, Brooke M. Bell, Bernardo Garcia Bulle Bueno, Mohsen Bahrami, Burcin Bozkaya, Yan Cui, John P. Wilson, Alex Pentland, Esteban Moro, Kayla de la Haye&lt;br&gt;
+&lt;em&gt;Publication&lt;/em&gt;: NPJ Digital Medicine &lt;strong&gt;6&lt;/strong&gt;, 208 (2023)&lt;br&gt; &lt;strong&gt;&lt;a href=&#34;https://www.nature.com/articles/s41746-023-00949-x&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; The characteristics of food environments people are exposed to, such as the density of fast food (FF) outlets, can impact their diet and risk for diet-related chronic disease. Previous studies examining the relationship between food environments and nutritional health have produced mixed findings, potentially due to the predominant focus on static food environments around people’s homes. As smartphone ownership increases, large-scale data on human mobility (i.e., smartphone geolocations) represents a promising resource for studying dynamic food environments that people have access to and visit as they move throughout their day. This study investigates whether mobility data provides meaningful indicators of diet, measured as FF intake, and diet-related disease, evaluating its usefulness for food environment research. Using a mobility dataset consisting of 14.5 million visits to geolocated food outlets in Los Angeles County (LAC) across a representative sample of 243,644 anonymous and opted-in adult smartphone users in LAC, we construct measures of visits to FF outlets aggregated over users living in neighborhood. We find that the aggregated measures strongly and significantly correspond to self-reported FF intake, obesity, and diabetes in a diverse, representative sample of 8,036 LAC adults included in a population health survey carried out by the LAC Department of Public Health. Visits to FF outlets were a better predictor of individuals’ obesity and diabetes than their self-reported FF intake, controlling for other known risks. These findings suggest mobility data represents a valid tool to study people’s use of dynamic food environments and links to diet and health.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Media&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://viterbischool.usc.edu/news/2023/11/are-you-at-risk-for-diet-related-disease-where-you-spend-your-day-plays-a-role/&#34;&gt;Are You at Risk for Diet-Related Disease? Where You Spend Your Day Plays a Role&lt;/a&gt; USC Viterbi News.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://interestingengineering.com/innovation/smartphone-location-data-used-to-evaluate-risk-of-diet-related-disease&#34;&gt;Smartphone location data used to evaluate risk of diet-related disease&lt;/a&gt;, Interesting Engineering.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.techtimes.com/articles/299261/20231129/smartphones-help-evaluate-diet-related-diseases-users-location-study.htm&#34;&gt;Smartphones Can Help Evaluate Diet-Related Diseases, All Based on a User’s Location, Study Suggests&lt;/a&gt;, Tech Times.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://ustimespost.com/smartphone-data-reveals-link-between-fast-food-outlets-and-diet-related-illnesses/&#34;&gt;Smartphone data reveals link between fast food outlets and diet-related illnesses&lt;/a&gt; US Times Post.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
   </channel>

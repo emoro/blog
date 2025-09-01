@@ -1,19 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>prize on </title>
+    <title>Prize on </title>
     <link>https://estebanmoro.org/tags/prize/</link>
-    <description>Recent content in prize on </description>
+    <description>Recent content in Prize on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Wed, 06 Sep 2006 08:13:26 +0000</lastBuildDate><atom:link href="https://estebanmoro.org/tags/prize/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 06 Sep 2006 08:13:26 +0000</lastBuildDate>
+    
+        <atom:link href="https://estebanmoro.org/tags/prize/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Kiyoshi Itô wins the Gauss Prize</title>
       <link>https://estebanmoro.org/2006/09/kiyoshi-ito-wins-the-gauss-prize/</link>
       <pubDate>Wed, 06 Sep 2006 08:13:26 +0000</pubDate>
       
       <guid>https://estebanmoro.org/2006/09/kiyoshi-ito-wins-the-gauss-prize/</guid>
-      <description>Kiyoshi Itô (90), professor emeritus at kyoto University, has become the first winner of the Gauss Prize. This prize is to honor scientist whose mathematical research has had an impact outside mathematics. Ito&amp;rsquo;s work, mainly in establishing a well defined calculus (named Ito&amp;rsquo;s calculus) to treat high irregular noise functions has got widespread application in describing several stochastic processes across fields like economics, biology, chemistry, physics, etc. Ito&amp;rsquo;s calculus is behind the pricing of options introduced by Black, Scholes and Merton (which got them a Nobel price).</description>
+      <description>&lt;p&gt;&lt;img src=&#34;http://estebanmoro.org/wp-content/uploads/2008/11/ito-242x300.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Kiyoshi Itô (90), professor emeritus at kyoto University, has become the first winner of the Gauss Prize. This prize is to honor scientist whose mathematical research has had an impact outside mathematics. Ito&amp;rsquo;s work, mainly in establishing a well defined calculus (named Ito&amp;rsquo;s calculus) to treat high irregular noise functions has got widespread application in describing several stochastic processes across fields like economics, biology, chemistry, physics, etc. Ito&amp;rsquo;s calculus is behind the pricing of options introduced by Black, Scholes and Merton (which got them a Nobel price). It is also the mathematical theory behind the formal description (Langevin equation) of the Brownian motion studied previously by Bachelier or Einstein: basically, Itô&amp;rsquo;s contribution was to give mathematical basis to the continuum time description (in terms of a differential equation) for the motion of a particle under random, uncorrelated kicks from other particles. The solution of this equation is a function of time which is nowhere differentiable but still continuous. Itô&amp;rsquo;s give precise way to handle with those solutions by what is known as stochastic calculus. Specifically, he is well known for the Itô&amp;rsquo;s lemma, which is a modification of the standard chain rule of normal calculus when the function that we are dealing with is either that stochastic path or a function of it.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

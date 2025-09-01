@@ -3,19 +3,19 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://estebanmoro.org/</loc>
-    <lastmod>2025-06-16T00:00:00+00:00</lastmod>
+    <lastmod>2025-08-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://estebanmoro.org/categories/</loc>
-    <lastmod>2025-06-16T00:00:00+00:00</lastmod>
+    <lastmod>2025-08-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://estebanmoro.org/post/list-of-publications/</loc>
-    <lastmod>2025-06-16T00:00:00+00:00</lastmod>
+    <lastmod>2025-08-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://estebanmoro.org/post/</loc>
-    <lastmod>2025-06-16T00:00:00+00:00</lastmod>
+    <lastmod>2025-08-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://estebanmoro.org/categories/publications/</loc>
-    <lastmod>2025-06-16T00:00:00+00:00</lastmod>
+    <lastmod>2025-08-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://estebanmoro.org/tags/2025/</loc>
     <lastmod>2025-02-26T00:00:00+00:00</lastmod>
@@ -317,10 +317,10 @@
     <loc>https://estebanmoro.org/tags/social-networks/</loc>
     <lastmod>2019-10-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://estebanmoro.org/tags/dunbar-number/</loc>
+    <loc>https://estebanmoro.org/post/2019-09-06-cu%C3%A1nta-gente-vas-a-acabar-conociendo-en-toda-tu-vida/</loc>
     <lastmod>2019-09-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://estebanmoro.org/post/2019-09-06-cua%CC%81nta-gente-vas-a-acabar-conociendo-en-toda-tu-vida/</loc>
+    <loc>https://estebanmoro.org/tags/dunbar-number/</loc>
     <lastmod>2019-09-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://estebanmoro.org/tags/2019/</loc>
@@ -392,7 +392,7 @@
     <loc>https://estebanmoro.org/tags/filter-bubble/</loc>
     <lastmod>2018-12-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://estebanmoro.org/post/2018-12-12-la-burbuja-poli%CC%81tica-o-co%CC%81mo-las-redes-multiplican-la-colisio%CC%81n-entre-quienes-piensan-distinto/</loc>
+    <loc>https://estebanmoro.org/post/2018-12-12-la-burbuja-pol%C3%ADtica-o-c%C3%B3mo-las-redes-multiplican-la-colisi%C3%B3n-entre-quienes-piensan-distinto/</loc>
     <lastmod>2018-12-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://estebanmoro.org/tags/politics/</loc>
@@ -449,7 +449,7 @@
     <loc>https://estebanmoro.org/tags/automation/</loc>
     <lastmod>2018-02-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://estebanmoro.org/post/2019-01-01-soluciones-para-ciudades-grandes-y-pequen%CC%83as-ante-la-automatizacio%CC%81n-de-empleos/</loc>
+    <loc>https://estebanmoro.org/post/2019-01-01-soluciones-para-ciudades-grandes-y-peque%C3%B1as-ante-la-automatizaci%C3%B3n-de-empleos/</loc>
     <lastmod>2018-02-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://estebanmoro.org/2017/12/important-relationships-are-not-bursty/</loc>
@@ -551,7 +551,7 @@
     <loc>https://estebanmoro.org/tags/nowcasting/</loc>
     <lastmod>2015-09-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://estebanmoro.org/post/2015-09-24-talk-at-itdupm2015-nowcasting-sociedades-para-nuevas-formas-de-organizacio%CC%81n/</loc>
+    <loc>https://estebanmoro.org/post/2015-09-24-talk-at-itdupm2015-nowcasting-sociedades-para-nuevas-formas-de-organizaci%C3%B3n/</loc>
     <lastmod>2015-09-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://estebanmoro.org/post/2015-05-07-from-seconds-to-months-multi-scale-dynamics-of-mobile-telephone-calls/</loc>
@@ -1039,5 +1039,7 @@
   </url><url>
     <loc>https://estebanmoro.org/post/2001-11-14-internal-fluctuations-effects-on-fisher-waves/</loc>
     <lastmod>2001-11-14T09:55:40+00:00</lastmod>
+  </url><url>
+    <loc>https://estebanmoro.org/post/2023-02-24-a-city-is-not-a-static-tree-copy/</loc>
   </url>
 </urlset>

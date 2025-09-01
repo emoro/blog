@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Strategy on </title>
@@ -6,16 +5,27 @@
     <description>Recent content in Strategy on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Wed, 04 Jul 2007 20:19:35 +0000</lastBuildDate><atom:link href="https://estebanmoro.org/tags/strategy/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 04 Jul 2007 20:19:35 +0000</lastBuildDate>
+    
+        <atom:link href="https://estebanmoro.org/tags/strategy/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Specialization of strategies and herding behavior of trading firms in a financial market</title>
       <link>https://estebanmoro.org/post/2007-07-04-specialization-of-strategies-and-herding-behavior-of-trading-firms-in-a-financial-market/</link>
       <pubDate>Wed, 04 Jul 2007 20:19:35 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2007-07-04-specialization-of-strategies-and-herding-behavior-of-trading-firms-in-a-financial-market/</guid>
-      <description>Authors: Fabrizio Lillo, Esteban Moro, Gabriella Vaglica y Rosario Mantegna
-Journal: New Journal of Physics 10 (2008) 043019 LINK arXiv
-Abstract: Agent-based models of ﬁnancial markets usually make assumptions about agent&amp;rsquo;s preferred stylized strategies. Empirical validations of these assumptions have not been performed so far on a full-market scale. Here we present a comprehensive study of the resulting strategies followed by the ﬁrms which are members of the Spanish Stock Exchange.</description>
+      <description>&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Fabrizio Lillo, Esteban Moro, Gabriella Vaglica y Rosario Mantegna&lt;br&gt;
+&lt;em&gt;Journal&lt;/em&gt;: New Journal of Physics &lt;strong&gt;10&lt;/strong&gt; (2008) 043019 &lt;strong&gt;&lt;a href=&#34;http://iopscience.iop.org/article/10.1088/1367-2630/10/4/043019/meta&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt;
+&lt;strong&gt;&lt;a href=&#34;https://arxiv.org/abs/0707.0385&#34;&gt;arXiv&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt;
+Agent-based models of ﬁnancial markets usually make assumptions  about agent&amp;rsquo;s preferred stylized strategies. Empirical validations of these assumptions have not been performed so far on a full-market scale. Here we present a comprehensive study of the resulting strategies followed by the ﬁrms which are members of the Spanish Stock Exchange. We are able to show that they can be characterized by a resulting strategy and classiﬁed in three well-deﬁned groups of ﬁrms. Firms of the ﬁrst group have a change of inventory of the traded stock which is positively correlated with the synchronous stock return, whereas ﬁrms of the second group show a negative correlation.Firms of the third group have an inventory variation uncorrelated with stock return. Firms tend to stay in the same group over the years indicating a long term specialization in the strategies controlling their inventory variation. We detect a clear asymmetry in the Granger causality between inventory variation of ﬁrms and stock return. We also detect herding in the buying and selling activity of ﬁrms. The herding properties of the two groups are markedly different and consistently observed over a four-year period of trading. Firms of the second group herd much more frequently than the ones of the ﬁrst group. Our results can be used as an empirical basis for agent-based models of ﬁnancial markets.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Press&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.madrimasd.org/informacionidi/noticias/noticia.asp?id=34530&amp;amp;tipo=g&#34;&gt;**Press Release (in spanish) **&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -24,9 +34,13 @@ Abstract: Agent-based models of ﬁnancial markets usually make assumptions abo
       <pubDate>Fri, 20 Apr 2007 09:54:57 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2007-04-20-scaling-laws-of-strategic-behavior-and-size-heterogeneity-in-agent-dynamics/</guid>
-      <description>Authors: Gabriella Vaglica, Fabrizio Lillo, Esteban Moro y Rosario N. Mantegna
-Journal: Physical Review E 77, 036110 (2008). LINK | arXiv
-Abstract: The dynamics of many socioeconomic systems is determined by the decision making process of agents. The decision process depends on agent&amp;rsquo;s characteristics, such as preferences, risk aversion, behavioral biases, etc. In addition, in some systems the size of agents can be highly heterogeneous leading to very different impacts of agents on the system dynamics.</description>
+      <description>&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Gabriella Vaglica, Fabrizio Lillo, Esteban Moro y Rosario N. Mantegna&lt;br&gt;
+&lt;em&gt;Journal&lt;/em&gt;: Physical Review E &lt;strong&gt;77&lt;/strong&gt;, 036110 (2008).
+&lt;strong&gt;&lt;a href=&#34;http://link.aps.org/doi/10.1103/PhysRevE.77.036110&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt; |
+&lt;strong&gt;&lt;a href=&#34;https://arxiv.org/abs/0704.2003&#34;&gt;arXiv&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt;
+The dynamics of many socioeconomic systems is determined by the decision making process of agents. The decision process depends on agent&amp;rsquo;s characteristics, such as preferences, risk aversion, behavioral biases, etc. In addition, in some systems the size of agents can be highly heterogeneous leading to very different impacts of agents on the system dynamics. The large size of some agents poses challenging problems to agents who want to control their impact, either by forcing the system in a given direction or by hiding their intentionality. Here we consider the financial market as a model system, and we study empirically how agents strategically adjust the properties of large orders in order to meet their preference and minimize their impact. We quantify this strategic behavior by detecting scaling relations of allometric nature between the variables characterizing the trading activity of different institutions. We observe power law distributions in the investment time horizon, in the number of transactions needed to execute a large order and in the traded value exchanged by large institutions and we show that heterogeneity of agents is a key ingredient for the emergence of some aggregate properties characterizing this complex system.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

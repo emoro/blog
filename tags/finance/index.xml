@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Finance on </title>
@@ -6,16 +5,21 @@
     <description>Recent content in Finance on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Mon, 12 Mar 2012 21:12:54 +0000</lastBuildDate><atom:link href="https://estebanmoro.org/tags/finance/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 12 Mar 2012 21:12:54 +0000</lastBuildDate>
+    
+        <atom:link href="https://estebanmoro.org/tags/finance/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Agent-specific impact of single trades in financial markets</title>
       <link>https://estebanmoro.org/post/2012-03-12-agent-specific-impact-of-single-trades-in-financial-markets/</link>
       <pubDate>Mon, 12 Mar 2012 21:12:54 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2012-03-12-agent-specific-impact-of-single-trades-in-financial-markets/</guid>
-      <description>Authors: Alex Bladon, Esteban Moro y Tobias Galla
-Journal: Physical Review E 85, 036103 (2012) LINK | arXiv
-Abstract: We present an analysis of the price impact associated with single trades effected by different financial firms. Using data from the Spanish Stock Market, we find a high degree of heterogeneity across different market members, both in the instantaneous impact functions and in the time-dependent market response to trades by individual members.</description>
+      <description>&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Alex Bladon, Esteban Moro y Tobias Galla&lt;br&gt;
+&lt;em&gt;Journal&lt;/em&gt;: Physical Review E &lt;strong&gt;85&lt;/strong&gt;, 036103 (2012) &lt;strong&gt;&lt;a href=&#34;http://pre.aps.org/abstract/PRE/v85/i3/e036103&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt; | &lt;strong&gt;&lt;a href=&#34;https://arxiv.org/abs/1109.0119&#34;&gt;arXiv&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; We present an analysis of the price impact associated with single trades effected by different financial firms. Using data from the Spanish Stock Market, we find a high degree of heterogeneity across different market members, both in the instantaneous impact functions and in the time-dependent market response to trades by individual members. This heterogeneity is statistically incompatible with the existence of market-wide universal impact dynamics that apply uniformly to all trades and suggest that, rather, market dynamics emerge from the complex interaction of different behaviors of market participants. Several possible reasons for this are discussed, along with potential extensions one may consider to increase the range of applicability of existing models of market impact.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -24,9 +28,10 @@ Abstract: We present an analysis of the price impact associated with single trad
       <pubDate>Tue, 04 Aug 2009 08:03:11 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2009-08-04-market-impact-and-trading-proefac81le-of-large-trading-orders-in-stock-markets/</guid>
-      <description>Authors: Esteban Moro, Javier Vicente, Luis G. Moyano, Austin Gerig, J. Doyne Farmer, Gabriella Vaglica, Fabrizio Lillo and Rosario N. Mantegna
-Journal: Phys. Rev. E 80, 066102 (2009) LINK | arXiv
-Abstract: We empirically study the market impact of trading orders. We are speciﬁcally interested in large trading orders that are executed incrementally, which we call hidden orders. These are reconstructed based on information about market member codes using data from the Spanish Stock Market and the London Stock Exchange.</description>
+      <description>&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Esteban Moro, Javier Vicente, Luis G. Moyano, Austin Gerig, J. Doyne Farmer, Gabriella Vaglica, Fabrizio Lillo and Rosario N. Mantegna&lt;br&gt;
+&lt;em&gt;Journal&lt;/em&gt;: Phys. Rev. E 80, 066102 (2009) &lt;strong&gt;&lt;a href=&#34;http://journals.aps.org/pre/abstract/10.1103/PhysRevE.80.066102&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt; |  &lt;strong&gt;&lt;a href=&#34;https://arxiv.org/pdf/0908.0202v1.pdf&#34;&gt;arXiv&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; We empirically study the market impact of trading orders. We are speciﬁcally interested in large trading orders that are executed incrementally, which we call hidden orders. These are reconstructed based on information about market member codes using data from the Spanish Stock Market and the London Stock Exchange. We find that market impact is strongly concave, approximately increasing as the square root of order size. Furthermore, as a given order is executed, the impact grows in time according to a power-law; after the order is finished, it reverts to a level of about 0.5-0.7 of its value at its peak. We observe that hidden orders are executed at a rate that more or less matches trading in the overall market, except for small deviations at the beginning and end of the order.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -35,7 +40,29 @@ Abstract: We empirically study the market impact of trading orders. We are speci
       <pubDate>Tue, 09 Dec 2008 09:05:42 +0000</pubDate>
       
       <guid>https://estebanmoro.org/2008/12/new-section-in-the-arxiv-quantitative-finance/</guid>
-      <description>News from the arXiv: a new section has been created to host preprints about Quantitative Finance. The section (as stated in the press release) intends to fix a problem with existing pre-print repositories. One one hand, social sciences repositories like SSRN, RepEC/IDEAS and others are too academic for practitioners, while on the other hand sites like defaultrisk.com or wilmott.com have not attracted many academic contributors. The new category in the arXiv would be a gathering point for both practitioners and academic people working in this important research field</description>
+      <description>&lt;p&gt;News from the &lt;a href=&#34;http://arxiv.org/&#34;&gt;arXiv&lt;/a&gt;: a new section has been created to host preprints about Quantitative Finance. The section (as stated in the &lt;a href=&#34;http://arxiv.org/new/q-fin_announcement.html&#34;&gt;press release&lt;/a&gt;) intends to fix a problem with existing pre-print repositories. One one hand, social sciences repositories like SSRN, RepEC/IDEAS and others are too academic for practitioners, while on the other hand sites like defaultrisk.com or wilmott.com have not attracted many academic contributors. The new category in the arXiv would be a gathering point for both practitioners and academic people working in this important research field&lt;/p&gt;
+&lt;p&gt;The new sub-categories of the new q-fin category are:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  * q-fin.PR - Pricing of Securities
+  * q-fin.RM - Risk Management
+  * q-fin.PM - Portfolio Management
+  * q-fin.TR - Trading and Microstructure
+  * q-fin.ST - Statistical Finance
+  * q-fin.CP - Computational Finance
+  * q-fin.GN - General Finance
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The arXiv editors have already identified a large number of submissions to the repository which already fit in the q-fin category. These preprints have been re-classified and can be already found in the new category.&lt;/p&gt;
+&lt;p&gt;I like this move by arXiv. In the last years, the arXiv has been growing steadily and it is now one of the biggest scientific electronic repositories. It offers a good service to publish electronically your preprints. It improves the visibility of your preprints and it has a bunch of handy tools for authors and researchers, like RSS feeds, trackbacks from blogs, Citebase (preprint citations), etc. &lt;a href=&#34;http://arxiv.org/abs/cs/0603056&#34;&gt;Recent studies&lt;/a&gt;, for example, have shown that posting your preprints to the arXiv lead to higher number of citations for mathematics articles. &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Although it started as a Physics repository, new disciplines (an subdisciplines) have been incorporated in the last years:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  * Physics (started in 1991 as a bulletin with only one section: hep-th)
+  * Nonlinear (created in 1993 and installed on xyz.lanl.gov)
+  * Mathematics (created in 1998)
+  * Computer Science (created in 1998)
+  * Quantitative Biology (created in 2003)
+  * Statistics (created in 2007)
+  * Quantitative Finance (created in 2008)
+&lt;/code&gt;&lt;/pre&gt;
+</description>
     </item>
     
     <item>
@@ -44,9 +71,12 @@ Abstract: We empirically study the market impact of trading orders. We are speci
       <pubDate>Mon, 01 Aug 2005 07:40:15 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2005-08-01-boundary-preserving-semi-analytical-numerical-algorithms-for-stochastic-differential-equations/</guid>
-      <description>Authors: Esteban Moro and Henri Schurz
-Journal: SIAM Journal of Scientific Computing, Volume 29 Issue 4, Pages 1525-1549 (2007). LINK | arXiv
-Abstract: Construction of splitting-step methods and properties of related non-negativity andboundary preserving numerical algorithms for solving stochastic differential equations (SDEs) of Ito-type are discussed. We present convergence proofs for a newly designed splitting-step algorithm and simulation studies for numerous numerical examples ranging from stochastic dynamics occurring in asset pricing theory in mathematical finance (SDEs of CIR and CEV models) to measure-valued diffusion and superBrownian motion (SPDEs) as met in biology and physics.</description>
+      <description>&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Esteban Moro and Henri Schurz&lt;br&gt;
+&lt;em&gt;Journal&lt;/em&gt;: SIAM Journal of Scientific Computing, Volume 29 Issue 4, Pages 1525-1549 (2007).
+&lt;strong&gt;&lt;a href=&#34;https://doi.org/10.1137/05063725X&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt; |  &lt;strong&gt;&lt;a href=&#34;https://arxiv.org/abs/math/0509724&#34;&gt;arXiv&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt;
+Construction of splitting-step methods and properties of related non-negativity andboundary preserving numerical algorithms for solving stochastic differential equations (SDEs) of Ito-type are discussed. We present convergence proofs for a newly designed splitting-step algorithm and simulation studies for numerous numerical examples ranging from stochastic dynamics occurring in asset pricing theory in mathematical finance (SDEs of CIR and CEV models) to measure-valued diffusion and superBrownian motion (SPDEs) as met in biology and physics.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

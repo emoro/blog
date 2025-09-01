@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Game Theory on </title>
@@ -6,15 +5,22 @@
     <description>Recent content in Game Theory on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Mon, 01 Dec 2008 07:40:05 +0000</lastBuildDate><atom:link href="https://estebanmoro.org/tags/game-theory/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 01 Dec 2008 07:40:05 +0000</lastBuildDate>
+    
+        <atom:link href="https://estebanmoro.org/tags/game-theory/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Is Game Theory a scientific theory?</title>
       <link>https://estebanmoro.org/2008/12/is-game-theory-a-scientific-theory/</link>
       <pubDate>Mon, 01 Dec 2008 07:40:05 +0000</pubDate>
       
       <guid>https://estebanmoro.org/2008/12/is-game-theory-a-scientific-theory/</guid>
-      <description>A wonderful quote about the nature of Game Theory
-Game theory is no doubt wonderful for telling stories. However, it flunks the main test of any scientific theory: The ability to make empirically testable predictions. In most real-life situations, many different outcomes -- from full cooperation to near-disastrous conflict -- are consistent with the game-theory version of rationality.  by Michael Mandel, on Kahneman and Smith 2002 Nobel Prize in Economics.</description>
+      <description>&lt;p&gt;A wonderful quote about the nature of Game Theory&lt;/p&gt;
+&lt;blockquote&gt;Game theory is no doubt wonderful for telling stories. However, it flunks the main test of any scientific theory: The ability to make empirically testable predictions. In most real-life situations, many different outcomes -- from full cooperation to near-disastrous conflict -- are consistent with the game-theory version of rationality. &lt;/blockquote&gt;
+&lt;p&gt;by Michael Mandel, on &lt;a href=&#34;http://www.businessweek.com/bwdaily/dnflash/oct2005/nf20051011_3028_db084.htm&#34;&gt;Kahneman and Smith 2002 Nobel Prize in Economics&lt;/a&gt;. &lt;/p&gt;
+&lt;p&gt;Interestingly enough, as of Dec. 1st 2008, google finds 3 million pages about &amp;ldquo;game theory&amp;rdquo;, half of them containing criticisms about it. Mostly about the abuse of the &amp;ldquo;rationality assumption&amp;rdquo; but also about the confusion about using it as a normative theory (i.e. a theory of how humans must behave) instead of descriptive picture (i.e. a mathematical way to explain how humans could behave). More on normative vs. descriptive analysis in the &lt;a href=&#34;http://en.wikipedia.org/wiki/Game_theory&#34;&gt;wikipedia&lt;/a&gt;.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -23,9 +29,21 @@ Game theory is no doubt wonderful for telling stories. However, it flunks the ma
       <pubDate>Tue, 31 Aug 2004 21:23:29 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2004-08-31-the-minority-game-an-introductory-guide/</guid>
-      <description>Authors: Esteban Moro
-Book: Advances in Condensed Matter and __Statistical Physics, _E. Korutcheva and R. Cuerno eds. (Nova Science Publishers, New York 2004). LINK | arXiv
-Abstract: The Minority Game is a simple model for the collective behavior of agents in an idealized situation where they have to compete through adaptation for a finite resource. This review summarizes the statistical mechanics community efforts to clear up and understand the behavior of this model.</description>
+      <description>&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Esteban Moro&lt;br&gt;
+&lt;em&gt;Book&lt;/em&gt;: Advances in Condensed Matter and __Statistical Physics, _E. Korutcheva and R. Cuerno eds. (Nova Science Publishers, New York 2004).
+&lt;strong&gt;&lt;a href=&#34;https://journals.aps.org/pre/abstract/10.1103/PhysRevE.69.060101&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt; |  &lt;strong&gt;&lt;a href=&#34;https://arxiv.org/abs/cond-mat/0402651&#34;&gt;arXiv&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:
+The Minority Game is a simple model for the collective behavior of agents in an idealized situation where they have to compete through adaptation for a finite resource. This review summarizes the statistical mechanics community efforts to clear up and understand the behavior of this model. Our emphasis is on trying to derive the underlying effective equations which govern the dynamics of the original Minority Game, and on making an interpretation of the results from the point of view of the statistical mechanics of disordered systems.&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&#34;introduction&#34;&gt;Introduction&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;There are 1011 stars in the galaxy. That used to be a huge number. But it’s only a hundred billion. It’s less than the national deficit! We used to call them astronomical numbers. Now we should call them economical numbers. (Richard Feynman)&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/img/posts/minoritygame.jpg&#34; alt=&#34;Cartoon of the Minority Game rules&#34;&gt;&lt;/p&gt;
+&lt;p&gt;During the last years, the statistical mechanics community has turned its attention to problems in social, biological and economic sciences. This is due to the fact that in those sciences, recent research has focused on the emergence of aggregates like economic institutions, migrations, patterns of behavior, etc., as a result of the outcome of dynamical interaction of many individual agent decisions [2, 42, 62, 55]. The differences of this approach with traditional studies are twofold: firstly, the fact that collective recognizable patterns are due to the interaction of many individuals. On the other hand, in the traditional neoclassical picture, agents are assumed to be hyperrational and have infinite information about other agents’ intentions. Under these circumstances, individuals jump directly into the steady state. However individuals are far from being hyperrational and their behavior often changes over time. Thus, new models consider explictly the dynamical approach towards the steady state through evolution, adaptation and/or learning of individuals. The dynamical nature of the problem poses new questions like whether individuals are able to reach a steady state and under which circumstances this steady state is stable.&lt;/p&gt;
+&lt;p&gt;The problem is thus very appealing to statistical mechanics researchers, since it is the study of many interacting degrees of freedom for which powerful tools and intuitions had been developed. However, the dynamics of the system might not be relaxing and the typical energy landscape in which steady states are identified with minima of a Lyapunov function so that the dynamical process executes a march which terminates at the bottom of one of the valleys could not be applicable. The situation is reminiscent of other areas at the borderline of statistical mechanics like Neural Networks [1] where sometimes is not possible to build up a Lyapunov function which the dynamics tend to minimize. In fact, as we will see below there are strong analogies of the model considered here with that area of research.&lt;/p&gt;
+&lt;p&gt;The model I consider here is called the Minority Game (MG) [12] which is the mathematical formulation of “El Farol Bar” problem considered by Brian Arthur [3]. The idea behind this problem is the study of how many individuals may reach a collective solution to a problem under adaptation of each one’s expectations about the future. As the models mentioned before, the MG is a dynamical system of many interacting degrees of freedom. However, the MG includes two new features which make it different: the first one is the minority rule, which makes a complete steady state in the community impossible. Thus, dust is never settled since individuals keep changing and adapting in quest of a non-existing equilibrium. The second ingredient is that the collectivity of individuals is heterogeneous, since individuals have different ways to tackle available information about the game and convert it into expectations about future. Effectively, the minority rule and heterogeneity translate into mean-field interaction, frustration and quenched disorder in the model, ideas which are somehow familiar to disordered systems in condensed matter [57, 61]. Actually, the MG is related to those systems and some of the techniques of disordered systems can be applied to understand its behavior.&lt;/p&gt;
+&lt;p&gt;At this point, I hope the reader is convinced that the MG is an interesting problem from the statistical mechanics point of view: is a complex dynamical disordered system which can be understood with techniques from statistical physics. In fact, most of the research about the MG problem has been done inside the physics community. However, the El Farol bar problem originates in the economic literature, although it represents a fierce assault on the conventions of standard economics. In this sense either the El Farol bar or the MG are interesting from the economic and game theory point of view as well. My intention here is to present the statistical mechanics approach to this problem and to explain how different concepts of economists and game theory translate into physics terminology. This biased review is the author’s effort to explain to physicists what is known about the MG. I make no attempt to be encyclopedic or chronologically historical.&lt;/p&gt;
+&lt;p&gt;Keep on reading: download the &lt;a href=&#34;http://estebanmoro.org/~emoro/ps/reviewMG.pdf&#34;&gt;full article&lt;/a&gt;&lt;/p&gt;
+</description>
     </item>
     
   </channel>

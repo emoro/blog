@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2024 on </title>
@@ -6,15 +5,32 @@
     <description>Recent content in 2024 on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Sat, 11 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://estebanmoro.org/tags/2024/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 11 Jan 2025 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://estebanmoro.org/tags/2024/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Behaviour-based dependency networks between places shape urban economic resilience</title>
       <link>https://estebanmoro.org/post/2025-01-11-behaviour-based-dependency-networks/</link>
       <pubDate>Sat, 11 Jan 2025 00:00:00 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2025-01-11-behaviour-based-dependency-networks/</guid>
-      <description>Authors: Takahiro Yabe, Bernardo García Bulle Bueno, Morgan R Frank, Alex Pentland, Esteban Moro Publication: Nature Human Behavior (2024) LINK
-Abstract: Disruptions, such as closures of businesses during pandemics, not only affect businesses and amenities directly but also influence how people move, spreading the impact to other businesses and increasing the overall economic shock. However, it is unclear how much businesses depend on each other during disruptions. Leveraging human mobility data and same-day visits in five US cities, we quantify dependencies between points of interest encompassing businesses, stores and amenities.</description>
+      <description>
+
+
+&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Takahiro Yabe, Bernardo García Bulle Bueno, Morgan R Frank, Alex Pentland, Esteban Moro
+&lt;br&gt;
+&lt;em&gt;Publication&lt;/em&gt;: Nature Human Behavior (2024) &lt;strong&gt;&lt;a href=&#34;https://www.nature.com/articles/s41562-024-02072-7&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Disruptions, such as closures of businesses during pandemics, not only affect businesses and amenities directly but also influence how people move, spreading the impact to other businesses and increasing the overall economic shock. However, it is unclear how much businesses depend on each other during disruptions. Leveraging human mobility data and same-day visits in five US cities, we quantify dependencies between points of interest encompassing businesses, stores and amenities. We find that dependency networks computed from human mobility exhibit significantly higher rates of long-distance connections and biases towards specific pairs of point-of-interest categories. We show that using behaviour-based dependency relationships improves the predictability of business resilience during shocks by around 40% compared with distance-based models, and that neglecting behaviour-based dependencies can lead to underestimation of the spatial cascades of disruptions. Our findings underscore the importance of measuring complex relationships in patterns of human mobility to foster urban economic resilience to shocks.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Media&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://news.northeastern.edu/2025/01/06/remote-work-research-urban-economies/&#34;&gt;Remote work affects urban economies far beyond downtown hubs, Northeastern research finds&lt;/a&gt;, Northeastern Global News&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://engineering.nyu.edu/news/new-research-reveals-economic-ripple-effects-business-closures-remote-work-and-other&#34;&gt;New research reveals economic ripple effects of business closures, remote work and other disruptions&lt;/a&gt; NYU Tandon School of Engineering&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://phys.org/news/2025-01-reveals-economic-ripple-effects-business.html&#34;&gt;New research reveals economic ripple effects of business closures, remote work and other disruptions&lt;/a&gt;, Phys.org&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://phys.org/news/2025-01-behavior-based-networks-resilience-cities.html&#34;&gt;Behavior-based dependency networks can shape the resilience of cities following economic shocks&lt;/a&gt;, Phys.org&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -23,8 +39,16 @@ Abstract: Disruptions, such as closures of businesses during pandemics, not only
       <pubDate>Tue, 16 Jul 2024 00:00:00 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2024-07-15-enhancing-human-mobility-research-with-open-and-standardized-datasets/</guid>
-      <description>Authors: Takahiro Yabe, Massimiliano Luca, Kota Tsubouchi, Bruno Lepri, Marta C. Gonzalez &amp;amp; Esteban Moro Publication: Nature Computational Science (2024). doi: 10.1038/s43588-024-00650-3 LINK
-Abstract: Human mobility research intersects with various disciplines, with profound implications for urban planning, transportation engineering, public health, disaster management, and economic analysis. Here, we discuss the urgent need for open and standardized datasets in the field, including current challenges and lessons from other computational science domains, and propose collaborative efforts to enhance the validity and reproducibility of human mobility research.</description>
+      <description>
+
+
+&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Takahiro Yabe, Massimiliano Luca, Kota Tsubouchi, Bruno Lepri, Marta C. Gonzalez &amp;amp; Esteban Moro
+&lt;br&gt;
+&lt;em&gt;Publication&lt;/em&gt;: Nature Computational Science (2024). doi: 10.1038/s43588-024-00650-3 &lt;strong&gt;&lt;a href=&#34;https://doi.org/10.1038/s43588-024-00650-3&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Human mobility research intersects
+with various disciplines, with profound implications for urban planning, transportation engineering, public health, disaster management, and economic analysis. Here, we discuss the urgent need for open and standardized datasets in the field, including current challenges and lessons from other computational science domains, and propose collaborative efforts to enhance the validity and reproducibility of human mobility research.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Media&lt;/strong&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -33,8 +57,15 @@ Abstract: Human mobility research intersects with various disciplines, with prof
       <pubDate>Mon, 15 Jul 2024 00:00:00 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2024-07-15-social-media-sensors-as-early-signals-of-influenza-outbreaks-at-scale/</guid>
-      <description>Authors: David Martín-Corral, Manuel García-Herranz, Manuel Cebrián &amp;amp; Esteban Moro Publication: EPJ Data Science (2024) 13:43 LINK
-Abstract: Detecting early signals of an outbreak in a viral process is challenging due to its exponential nature, yet crucial given the benefits to public health it can provide. If available, the network structure where infection happens can provide rich information about the very early stages of viral outbreaks. For example, more central nodes have been used as social network sensors in biological or informational diffusion processes to detect early contagious outbreaks.</description>
+      <description>
+
+
+&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: David Martín-Corral, Manuel García-Herranz, Manuel Cebrián &amp;amp; Esteban Moro
+&lt;br&gt;
+&lt;em&gt;Publication&lt;/em&gt;: EPJ Data Science (2024) 13:43 &lt;strong&gt;&lt;a href=&#34;https://epjdatascience.springeropen.com/articles/10.1140/epjds/s13688-024-00474-1&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Detecting early signals of an outbreak in a viral process is challenging due to its exponential nature, yet crucial given the benefits to public health it can provide. If available, the network structure where infection happens can provide rich information about the very early stages of viral outbreaks. For example, more central nodes have been used as social network sensors in biological or informational diffusion processes to detect early contagious outbreaks. We aim to combine both approaches to detect early signals of a biological viral process (influenza-like illness, ILI), using its informational epidemic coverage in public social media. We use a large social media dataset covering three years in a country. We demonstrate that it is possible to use highly central users on social media, more precisely high out-degree users from Twitter, as sensors to detect the early signals of ILI outbreaks in the physical world without monitoring the whole population. We also investigate other behavioral and content features that distinguish those early sensors in social media beyond centrality. While high centrality on Twitter is the most distinctive feature of sensors, they are more likely to talk about local news, language, politics, or government than the rest of the users. Our new approach could detect a better and smaller set of social sensors for epidemic outbreaks and is more operationally efficient and privacy respectful than previous ones, not requiring the collection of vast amounts of data.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Media&lt;/strong&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -43,8 +74,14 @@ Abstract: Detecting early signals of an outbreak in a viral process is challengi
       <pubDate>Tue, 16 Jan 2024 00:00:00 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2024-01-16-network-constraints-on-worker-mobility/</guid>
-      <description>Authors: Morgan R. Frank, Esteban Moro, Tobin South, Alex Rutherford, Alex Pentland, Bledi Taska &amp;amp; Iyad Rahwan Publication: Nature Cities, 1, pages 94–104 (2024) LINK
-Abstract: How do skills shape career mobility and access to cities’ labor markets? Here we model career pathways as an occupation network constructed from the similarity of occupations’ skill requirements within each US city. Using a nationally representative survey and three resume datasets, skill similarity predicts transition rates between occupations and predictions improve with increasingly granular skill data.</description>
+      <description>
+
+
+&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Morgan R. Frank, Esteban Moro, Tobin South, Alex Rutherford, Alex Pentland, Bledi Taska &amp;amp; Iyad Rahwan &lt;br&gt;
+&lt;em&gt;Publication&lt;/em&gt;: Nature Cities, 1, pages 94–104 (2024) &lt;br&gt; &lt;strong&gt;&lt;a href=&#34;https://www.nature.com/articles/s44284-023-00009-1&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; How do skills shape career mobility and access to cities’ labor markets? Here we model career pathways as an occupation network constructed from the similarity of occupations’ skill requirements within each US city. Using a nationally representative survey and three resume datasets, skill similarity predicts transition rates between occupations and predictions improve with increasingly granular skill data. Thus, a measure for skill specialization based on a workers’ position in their city’s occupation network may predict future career dynamics. Job changes that decrease workers’ network embeddedness also increased wages, and workers tend to decrease their embeddedness over their careers. Further, city pairs with dissimilar job embeddedness have greater census migration and increased flows of enplaned passengers according to the US Bureau of Transportation Statistics. This study directly connects workplace skills to workers’ career mobility and spatial mobility, thus offering insights into skill specialization, career mobility and urbanization.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Media&lt;/strong&gt;&lt;/p&gt;
+</description>
     </item>
     
   </channel>

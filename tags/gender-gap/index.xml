@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Gender Gap on </title>
@@ -6,16 +5,34 @@
     <description>Recent content in Gender Gap on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Tue, 19 Jun 2018 21:34:10 +0000</lastBuildDate><atom:link href="https://estebanmoro.org/tags/gender-gap/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 19 Jun 2018 21:34:10 +0000</lastBuildDate>
+    
+        <atom:link href="https://estebanmoro.org/tags/gender-gap/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Analyzing gender inequality through large-scale Facebook advertising data</title>
       <link>https://estebanmoro.org/post/2018-06-19-analyzing-gender-inequality-through-large-scale-facebook-advertising-data/</link>
       <pubDate>Tue, 19 Jun 2018 21:34:10 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2018-06-19-analyzing-gender-inequality-through-large-scale-facebook-advertising-data/</guid>
-      <description>Authors: David Garcia, Yonas Mitike Kassa, Angel Cuevas, Manuel Cebrian, Esteban Moro, Iyad Rahwan, and Ruben Cuevas
-Journal: PNAS June 19, 2018. 201717781. LINK
-Abstract: Online social media are information resources that can have a transformative power in society. While the Web was envisioned as an equalizing force that allows everyone to access information, the digital divide prevents large amounts of people from being present online. Online social media, in particular, are prone to gen- der inequality, an important issue given the link between social media use and employment.</description>
+      <description>&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: David Garcia, Yonas Mitike Kassa, Angel Cuevas, Manuel Cebrian, Esteban Moro, Iyad Rahwan, and Ruben Cuevas&lt;br&gt;
+&lt;em&gt;Journal&lt;/em&gt;: PNAS June 19, 2018. 201717781. &lt;strong&gt;&lt;a href=&#34;http://www.pnas.org/content/early/2018/06/12/1717781115&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Online social media are information resources that can have a transformative power in society. While the Web was envisioned as an equalizing force that allows everyone to access information, the digital divide prevents large amounts of people from being present online. Online social media, in particular, are prone to gen- der inequality, an important issue given the link between social media use and employment. Understanding gender inequality in social media is a challenging task due to the necessity of data sources that can provide large-scale measurements across multi- ple countries. Here, we show how the Facebook Gender Divide (FGD), a metric based on aggregated statistics of more than 1.4 billion users in 217 countries, explains various aspects of world- wide gender inequality. Our analysis shows that the FGD encodes gender equality indices in education, health, and economic oppor- tunity. We find gender differences in network externalities that suggest that using social media has an added value for women. Furthermore, we find that low values of the FGD are associated with increases in economic gender equality. Our results sug- gest that online social networks, while suffering evident gender imbalance, may lower the barriers that women have to access to informational resources and help to narrow the economic gender gap.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Visualizations:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://dgarcia-eu.github.io/FacebookGenderDivide/Visualization.html&#34;&gt;Interaction Visualization of the results&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Press:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Facebook Use Linked to Gender Equality &lt;a href=&#34;https://www.scientificamerican.com/article/facebook-use-linked-to-gender-equality/&#34;&gt;Scientific American&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Researchers are using Facebook data to study gender inequality &lt;a href=&#34;https://mic.com/articles/190240/researchers-are-using-facebook-data-to-study-gender-inequality#.10jg4TVzc&#34;&gt;Mic&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;New tool using Facebook data shows worldwide gender gap &lt;a href=&#34;https://phys.org/news/2018-06-tool-facebook-worldwide-gender-gap.html&#34;&gt;Phys.org&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;La brecha de género en Facebook refleja la desigualdad real &lt;a href=&#34;https://elpais.com/elpais/2017/10/29/ciencia/1509303294_166601.html&#34;&gt;El País&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Impact:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Altmetric &lt;div data-badge-popover=&#34;right&#34; data-badge-type=&#34;medium-donut&#34; data-doi=&#34;10.1073/pnas.1717781115&#34; data-hide-less-than=&#34;0&#34; class=&#34;altmetric-embed&#34;&gt;&lt;/div&gt;&lt;/p&gt;
+</description>
     </item>
     
   </channel>

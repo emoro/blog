@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Disaster on </title>
@@ -6,16 +5,33 @@
     <description>Recent content in Disaster on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Mon, 14 Mar 2016 09:06:19 +0000</lastBuildDate><atom:link href="https://estebanmoro.org/tags/disaster/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 14 Mar 2016 09:06:19 +0000</lastBuildDate>
+    
+        <atom:link href="https://estebanmoro.org/tags/disaster/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Rapid assessment of disaster damage using social media activity</title>
       <link>https://estebanmoro.org/post/2016-03-14-rapid-assessment-of-disaster-damage/</link>
       <pubDate>Mon, 14 Mar 2016 09:06:19 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2016-03-14-rapid-assessment-of-disaster-damage/</guid>
-      <description>Authors: Yury Kryvasheyeu1, Haohui Chen, Nick Obradovich, Esteban Moro, Pascal Van Hentenryck, James Fowler and Manuel Cebrian
-Journal: Science Advances 11 Mar 2016: Vol. 2, no. 3, e1500779 (2016) LINK
-Abstract: Could social media data aid in disaster response and damage assessment? Countries face both an increasing frequency and an increasing intensity of natural disasters resulting from climate change. During such events, citizens turn to social media platforms for disaster-related communication and information.</description>
+      <description>&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Yury Kryvasheyeu1, Haohui Chen, Nick Obradovich, Esteban Moro, Pascal Van Hentenryck, James Fowler and Manuel Cebrian&lt;br&gt;
+&lt;em&gt;Journal&lt;/em&gt;: Science Advances  11 Mar 2016: Vol. 2, no. 3, e1500779 (2016) &lt;strong&gt;&lt;a href=&#34;http://advances.sciencemag.org/content/2/3/e1500779&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Could social media data aid in disaster response and damage assessment? Countries face both an increasing frequency and an increasing intensity of natural disasters resulting from climate change. During such events, citizens turn to social media platforms for disaster-related communication and information. Social media improves situational awareness, facilitates dissemination of emergency information, enables early warning systems, and helps coordinate relief efforts. In addition, the spatiotemporal distribution of disaster-related messages helps with the real-time monitoring and assessment of the disaster itself. We present a multiscale analysis of Twitter activity before, during, and after Hurricane Sandy. We examine the online response of 50 metropolitan areas of the United States and find a strong relationship between proximity to Sandy’s path and hurricane-related social media activity. We show that real and perceived threats, together with physical disaster effects, are directly observable through the intensity and composition of Twitter’s message stream. We demonstrate that per-capita Twitter activity strongly correlates with the per-capita economic damage inflicted by the hurricane. We verify our findings for a wide range of disasters and suggest that massive online social networks can be used for rapid assessment of damage caused by a large-scale disaster.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Press:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Twitter can predict hurricane damage as well as emergency agencies, &lt;a href=&#34;http://www.sciencemag.org/news/2016/03/twitter-can-predict-hurricane-damage-well-emergency-agencies&#34;&gt;Science Magazine&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Twitter Storms Can Help Gauge Damage of Real Storms and Disasters, Study Says, &lt;a href=&#34;http://www.wsj.com/articles/twitter-storms-can-help-gauge-damage-of-real-storms-and-disasters-study-says-1457722801&#34;&gt;Wall Street Journal&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Why your tweets could really matter during a natural disaster, &lt;a href=&#34;https://www.washingtonpost.com/news/energy-environment/wp/2016/03/11/twitter-might-help-pinpoint-worst-damage-after-a-natural-disaster-study-finds/&#34;&gt;The Washington Post&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Twitter May Be Faster Than FEMA Models for Tracking Disaster Damage, &lt;a href=&#34;http://www.smithsonianmag.com/science-nature/twitter-may-be-faster-fema-models-tracking-disaster-damage-180958391/?no-ist&#34;&gt;Smithsonian.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Tweets about Hurricane Sandy were a good predictor of storm damage, study suggests, &lt;a href=&#34;http://www.theverge.com/2016/3/11/11200962/twitter-hurricane-sandy-damage-study&#34;&gt;The Verge&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Twitter-Aktivität zeigt Ausmaß der Schadenshöhe, &lt;a href=&#34;http://www.welt.de/wissenschaft/article153223204/Twitter-Aktivitaet-zeigt-Ausmass-der-Schadenshoehe.html&#34;&gt;Die Welt&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Twitter sabe antes que nadie cuánto cuestan las catástrofes, &lt;a href=&#34;http://tecnologia.elpais.com/tecnologia/2016/03/11/actualidad/1457704699_399299.html&#34;&gt;El Pais&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Twitter predice la severidad de los daños materiales de un huracán,&lt;a href=&#34;http://www.lavanguardia.com/ciencia/20160311/40363546310/huracan-twitter-sandy-danos-materiales-desastre-natural.html&#34;&gt; La Vanguardia&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Investigadores señalan a Twitter como una herramienta útil para mejorar la respuesta ante desastres naturales, &lt;a href=&#34;http://noticias.lainformacion.com/catastrofes-y-accidentes/catastrofes-general/desastre-natural/Investigadores-Twitter-herramienta-desastres-naturales_0_897511903.html&#34;&gt;LaInformación.com&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -24,8 +40,11 @@ Abstract: Could social media data aid in disaster response and damage assessment
       <pubDate>Thu, 13 Feb 2014 13:57:24 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2014-02-13-performance-of-social-network-sensors-during-hurricane-sandy/</guid>
-      <description>Authors: Yury Kryvasheyeu, Haohui Chen, Esteban Moro, Pascal Van Hentenryck, Manuel Cebrian Journal: PLoS ONE 10(2): e0117288 (2015) LINK
-Summary Information flow during catastrophic events is a critical aspect of disaster management. Modern communication platforms, in particular online social networks, provide an opportunity to study such flow, and a mean to derive early-warning sensors, improving emergency preparedness and response. Performance of the social networks sensor method, based on topological and behavioural properties derived from the &amp;ldquo;friendship paradox&amp;rdquo;, is studied here for over 50 million Twitter messages posted before, during, and after Hurricane Sandy.</description>
+      <description>&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Yury Kryvasheyeu, Haohui Chen, Esteban Moro, Pascal Van Hentenryck, Manuel Cebrian
+&lt;br&gt;
+&lt;em&gt;Journal&lt;/em&gt;: PLoS ONE 10(2): e0117288 (2015) &lt;strong&gt;&lt;a href=&#34;http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0117288&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Summary&lt;/strong&gt; Information flow during catastrophic events is a critical aspect of disaster management. Modern communication platforms, in particular online social networks, provide an opportunity to study such flow, and a mean to derive early-warning sensors, improving emergency preparedness and response. Performance of the social networks sensor method, based on topological and behavioural properties derived from the &amp;ldquo;friendship paradox&amp;rdquo;, is studied here for over 50 million Twitter messages posted before, during, and after Hurricane Sandy. We find that differences in user&amp;rsquo;s network centrality effectively translate into moderate awareness advantage (up to 26 hours); and that geo-location of users within or outside of the hurricane-affected area plays significant role in determining the scale of such advantage. Emotional response appears to be universal regardless of the position in the network topology, and displays characteristic, easily detectable patterns, opening a possibility of implementing a simple &amp;ldquo;sentiment sensing&amp;rdquo; technique to detect and locate disasters.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

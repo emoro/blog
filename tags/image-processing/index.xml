@@ -1,21 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Image processing on </title>
+    <title>Image Processing on </title>
     <link>https://estebanmoro.org/tags/image-processing/</link>
-    <description>Recent content in Image processing on </description>
+    <description>Recent content in Image Processing on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Tue, 24 Apr 2018 11:20:47 +0000</lastBuildDate><atom:link href="https://estebanmoro.org/tags/image-processing/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 24 Apr 2018 11:20:47 +0000</lastBuildDate>
+    
+        <atom:link href="https://estebanmoro.org/tags/image-processing/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>MemeSequencer: Sparse Matching for Embedding Image Macros</title>
       <link>https://estebanmoro.org/post/2018-04-24-memesequencer-sparse-matching-for-embedding-image-macros/</link>
       <pubDate>Tue, 24 Apr 2018 11:20:47 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2018-04-24-memesequencer-sparse-matching-for-embedding-image-macros/</guid>
-      <description>Authors: Abhimanyu Dubey, Esteban Moro, Manuel Cebrian, Iyad Rahwan
-Journal: WWW&#39;18 Proceedings of the Web Conference 2018 LINK
-Abstract: The analysis of the creation, mutation, and propagation of social media content on the Internet is an essential problem in computational social science, affecting areas ranging from marketing to political mobilization. A first step towards understanding the evolution of images online is the analysis of rapidly modifying and propagating memetic imagery or ‘memes’.</description>
+      <description>&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Abhimanyu Dubey, Esteban Moro, Manuel Cebrian, Iyad Rahwan&lt;br&gt;
+&lt;em&gt;Journal&lt;/em&gt;: WWW&#39;18 Proceedings of the Web Conference 2018 &lt;strong&gt;&lt;a href=&#34;http://delivery.acm.org/10.1145/3190000/3186021/p1225-trovato.html&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt;  The analysis of the creation, mutation, and propagation of social media content on the Internet is an essential problem in computational social science, affecting areas ranging from marketing to political mobilization. A first step towards understanding the evolution of images online is the analysis of rapidly modifying and propagating memetic imagery or ‘memes’. However, a pitfall in proceeding with such an investigation is the current incapability to produce a robust semantic space for such imagery, capable of understanding differences in Image Macros. In this study, we provide a first step in the systematic study of image evolution on the Internet, by proposing an algorithm based on sparse representations and deep learning to decouple various types of content in such images and produce a rich semantic embedding. We demonstrate the benefits of our approach on a variety of tasks pertaining to memes and Image Macros, such as image clustering, image retrieval, topic prediction and virality prediction, surpassing the existing methods on each. In addition to its utility on quantitative tasks, our method opens up the possibility of obtaining the first large-scale understanding of the evolution and propagation of memetic imagery.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

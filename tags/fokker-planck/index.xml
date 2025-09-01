@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Fokker-Planck on </title>
@@ -6,14 +5,39 @@
     <description>Recent content in Fokker-Planck on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Thu, 12 Feb 2009 08:21:42 +0000</lastBuildDate><atom:link href="https://estebanmoro.org/tags/fokker-planck/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 12 Feb 2009 08:21:42 +0000</lastBuildDate>
+    
+        <atom:link href="https://estebanmoro.org/tags/fokker-planck/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Itô calculus for the rest of us</title>
       <link>https://estebanmoro.org/post/2009-02-12-ito-calculus-for-the-rest-of-us/</link>
       <pubDate>Thu, 12 Feb 2009 08:21:42 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2009-02-12-ito-calculus-for-the-rest-of-us/</guid>
-      <description>One of the areas of my research is stochastic differential equations (SDE). I posted about it several times before. One of the things students and collaborators keep asking me about SDEs is the weird stochastic Itô Calculus. Itô Calculus is different from what you learn in 101 calculus. In particular, the chain rule is not longer valid. Let me explain it with an example. Suppose you have the following equation</description>
+      <description>&lt;p&gt;One of the areas of my research is stochastic differential equations (SDE). I posted about it &lt;a href=&#34;http://estebanmoro.org/2008/12/introduction-to-stochastic-differential-equations/&#34;&gt;several&lt;/a&gt; &lt;a href=&#34;http://estebanmoro.org/2008/11/kiyoshi-ito-93-dies/&#34;&gt;times&lt;/a&gt; &lt;a href=&#34;http://estebanmoro.org/2006/03/writing-bad-letters-of-recommendation-the-story-of-bachelier-and-levy/&#34;&gt;before&lt;/a&gt;. One of the things students and collaborators keep asking me about SDEs is the weird stochastic &lt;a href=&#34;http://en.wikipedia.org/wiki/Ito_stochastic_calculus&#34;&gt;Itô Calculus&lt;/a&gt;. Itô Calculus is different from what you learn in 101 calculus. In particular, the chain rule is not longer valid. Let me explain it with an example. Suppose you have the following equation&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;$$dX = a dW(t)$$&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;where &lt;code&gt;\(W(t)\)&lt;/code&gt; is the Wiener stochastic process: it is a process in which &lt;code&gt;\(W(0) = 0\)&lt;/code&gt; and with Gaussian independent increments &lt;code&gt;\(W(t)-W(s) \sim {\cal N}(0,t-s)\)&lt;/code&gt;, where &lt;code&gt;\({\cal N}(\mu,\sigma^2)\)&lt;/code&gt; are Gaussian random numbers with mean &lt;code&gt;\(\mu\)&lt;/code&gt; and variance &lt;code&gt;\(\sigma^2\)&lt;/code&gt;. This equation is the simplest SDE and its solution is (obviously),&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;$$X(t) = a W(t)$$&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;But there is a different way to look at SDEs. Since they describe the trayectory of &lt;code&gt;\(X(t)\)&lt;/code&gt; subject to &lt;code&gt;\(W(t)\)&lt;/code&gt; we can instead ask ourselves what is the probability to find that &lt;code&gt;\(X(t) = x\)&lt;/code&gt; in average, i.e. after many different runs of &lt;code&gt;\(W(t)\)&lt;/code&gt;. Let&amp;rsquo;s call &lt;code&gt;\(P(x,t)\)&lt;/code&gt;that probability which is known to satisfy the &lt;a href=&#34;http://en.wikipedia.org/wiki/Fokker%E2%80%93Planck_equation&#34;&gt;Fokker-Planck equation&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;$$\frac{dP}{dt}=a\frac{d^2P}{dx^2}$$&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;which is the simple diffusion equation. The following figure shows the relationship between &lt;code&gt;\(X(t)\)&lt;/code&gt; and &lt;code&gt;\(P(x,t)\)&lt;/code&gt;. While &lt;code&gt;\(X(t)\)&lt;/code&gt; is a simple trayectory (for a given &lt;code&gt;\(W(t)\)&lt;/code&gt; realization), &lt;code&gt;\(P(x,t)\)&lt;/code&gt; is the probability to find &lt;code&gt;\(X(t) = x\)&lt;/code&gt; over all possible realizations of &lt;code&gt;\(W(t)\)&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/img/posts/pdf1.jpg&#34; alt=&#34;pdf1&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The relationship between &lt;code&gt;\(X(t)\)&lt;/code&gt; and &lt;code&gt;\(P(x,t)\)&lt;/code&gt; is more general than for the example used here. In general, if we have the SDE&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;$$dX(t) = f(X,t)dt + g(X,t) dW(t)$$&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;in the Itô sense, then &lt;code&gt;\(P(x,t)\)&lt;/code&gt; is the solution of&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;$$\frac{\partial P}{\partial t}= - \frac{\partial}{\partial x}\left[f(x,t)P(x,t)\right] + \frac{\partial^2}{\partial x^2}\left[g^2(x,t)P(x,t)\right]$$&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;The term &lt;code&gt;\(f(x,t)\)&lt;/code&gt; is usually know as the drift and &lt;code&gt;\(g(x,t)\)&lt;/code&gt; is the diffusion term.&lt;/p&gt;
+&lt;p&gt;Once the relationship between the Fokker-Planck equation and its SDE is given, it is very easy to understand Itô Calculus. For example, given the above SDE &lt;code&gt;\(dX = a dW(t)\)&lt;/code&gt;, what is the SDE that will satisfy &lt;code&gt;\(Y(t) = X^2(t)\)&lt;/code&gt;?&lt;/p&gt;
+&lt;p&gt;Instead of using Itô&amp;rsquo;s lemma,  we will use the Fokker Planck equation and traditional calculus. Thus &lt;code&gt;\(\partial/\partial x = 2 \sqrt{y} \partial/\partial y\)&lt;/code&gt;. We also have that &lt;code&gt;\(P(x,t) dx = P(y,t) dy\)&lt;/code&gt; or &lt;code&gt;\(P(x,t) = 2 \sqrt{y} P(y,t)\)&lt;/code&gt;. Putting all these things together we get&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;$$\frac{\partial}{\partial t}2\sqrt{y}P(y,t) = \frac{a^2}{2}\left\{2\frac{\partial}{\partial y}+4y\frac{\partial^2}{\partial y^2}\right\}2\sqrt{y} P(y,t)$$&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;and with a little bit of algebra we get&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;$$\frac{\partial P}{\partial t}=-\frac{\partial}{\partial y}[a^2 P(y,t)] + \frac{a^2}{2}\frac{\partial^2}{\partial y^2}[4yP(y,t)]$$&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;which, according to the general relationship between Fokker-Planck equation and SDE, corresponds to the following SDE&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;$$dY = a^2 dt + 2a \sqrt{Y} dW(t)$$&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;as the Itô&amp;rsquo;s lemma says. Obviously, this way to get the Itô lemma is painful in general, so you’d better use it directly on the SDE instead of the method shown here which goes through the Fokker-Planck equation. However, it is interesting to see that you can recover it from the Fokker-Planck equation.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

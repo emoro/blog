@@ -1,20 +1,31 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>wiener on </title>
+    <title>Wiener on </title>
     <link>https://estebanmoro.org/tags/wiener/</link>
-    <description>Recent content in wiener on </description>
+    <description>Recent content in Wiener on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Thu, 04 Dec 2008 16:45:32 +0000</lastBuildDate><atom:link href="https://estebanmoro.org/tags/wiener/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 04 Dec 2008 16:45:32 +0000</lastBuildDate>
+    
+        <atom:link href="https://estebanmoro.org/tags/wiener/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Introduction to stochastic differential equations</title>
       <link>https://estebanmoro.org/2008/12/introduction-to-stochastic-differential-equations/</link>
       <pubDate>Thu, 04 Dec 2008 16:45:32 +0000</pubDate>
       
       <guid>https://estebanmoro.org/2008/12/introduction-to-stochastic-differential-equations/</guid>
-      <description>Stochastic differential equations (SDEs) are basically inhomogenous ordinary differential equations that depend on an external stochastic process.
-Typically, that stochastic process is white noise, which is the mathematical idealization of the noise found in nature. This idealization is handy, because it simplifies the mathematical description. However, this idealization comes at some cost: traditional calculus is no longer valid and you have to use the so-call Itô calculus. This introduces some non intuitive changes.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;http://en.wikipedia.org/wiki/Stochastic_differential_equation&#34;&gt;Stochastic differential equations&lt;/a&gt; (SDEs) are basically &lt;em&gt;inhomogenous ordinary differential equations that depend on an external stochastic process&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Typically, that stochastic process is &lt;a href=&#34;http://en.wikipedia.org/wiki/White_noise&#34;&gt;white noise&lt;/a&gt;, which is the mathematical idealization of the noise found in nature. This idealization is handy, because it simplifies the mathematical description. However, this idealization comes at some cost: traditional calculus is no longer valid and you have to use the so-call &lt;a href=&#34;http://en.wikipedia.org/wiki/Ito_stochastic_calculus&#34;&gt;Itô calculus&lt;/a&gt;. This introduces some non intuitive changes. For example, instead of the usual chain rule of calculus, the Itô formula should be used. Here is an example, the Itô integral of the Wiener process (or Brownian Motion) is&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/img/posts/itocalculus.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Note the last term in the right-hand-side (!).&lt;/p&gt;
+&lt;p&gt;If you are interested to learn more on SDEs:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;I prepared a long time ago &lt;a href=&#34;https://estebanmoro.org/img/ps/introtosde.pdf&#34;&gt;some notes&lt;/a&gt; about SDEs in Spanish&lt;/li&gt;
+&lt;li&gt;A &lt;a href=&#34;http://math.berkeley.edu/~evans/SDE.course.pdf&#34;&gt;nicer introduction&lt;/a&gt; to SDEs by Prof. Evans&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -23,7 +34,15 @@ Typically, that stochastic process is white noise, which is the mathematical ide
       <pubDate>Sun, 30 Nov 2008 22:17:18 +0000</pubDate>
       
       <guid>https://estebanmoro.org/2008/11/kiyoshi-ito-93-dies/</guid>
-      <description>November was a rather sad month in the world of stochastic differential equations. In the 26th we were suppose to be celebrating the birth of one of the best mathematicians in history, Norbert Wiener, who gives name to the Wiener process, usually denoted W(t). However, in the 10th, Kiyoshi Itô, the father of stochastic differential equations, passed away. Interestingly both are present in a simple stochastic differential equation like this</description>
+      <description>&lt;p&gt;&lt;a href=&#34;http://estebanmoro.org/wp-content/uploads/2008/11/ito.jpeg&#34;&gt;&lt;img src=&#34;http://estebanmoro.org/wp-content/uploads/2008/11/ito-242x300.jpg&#34; alt=&#34;&#34;&gt;
+&lt;/a&gt;November was a rather sad month in the world of stochastic differential equations. In the 26th we were suppose to be celebrating the birth of one of the best mathematicians in history, &lt;a href=&#34;http://en.wikipedia.org/wiki/Norbert_Wiener&#34;&gt;Norbert Wiener&lt;/a&gt;, who gives name to the Wiener process, usually denoted W(t). However, in the 10th, &lt;a href=&#34;en.wikipedia.org/wiki/Kiyoshi_It%C5%8D&#34;&gt;Kiyoshi Itô&lt;/a&gt;, the father of stochastic differential equations, &lt;a href=&#34;http://www.nytimes.com/2008/11/24/business/24ito.html?_r=1&amp;amp;ref=obituaries&#34;&gt;passed away&lt;/a&gt;. Interestingly both are present in a simple stochastic differential equation like this&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://estebanmoro.org/wp-content/uploads/2008/11/sdejpeg.jpg&#34;&gt;&lt;img src=&#34;http://estebanmoro.org/wp-content/uploads/2008/11/sdejpeg-300x22.jpg&#34; alt=&#34;&#34;&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;which serves as a tribute to both giants. More information:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  * [Mathematical work of Norbert Wiener](www.ams.org/notices/199506/mandrekar.pdf)
+  * [Kiyoshi Itô biography](http://www-groups.dcs.st-and.ac.uk/~history/Biographies/Ito.html)
+&lt;/code&gt;&lt;/pre&gt;
+</description>
     </item>
     
     <item>
@@ -32,8 +51,25 @@ Typically, that stochastic process is white noise, which is the mathematical ide
       <pubDate>Wed, 15 Mar 2006 08:25:04 +0000</pubDate>
       
       <guid>https://estebanmoro.org/2006/03/writing-bad-letters-of-recommendation-the-story-of-bachelier-and-levy/</guid>
-      <description>Take a coin and toss it a number \(N\) of times in a time interval of duration \(T\). Suppose that every time you get head you win \(a\) euros and that you lose the same amount of money when you get tail. Then your capital is a random process with ups and dows like this:
- ![](/img/posts/figurebachelier.jpg) This process is a stochastic process usually called &amp;ldquo;Random Walk&amp;rdquo; and its properties depend on the parameters $N, a $ and \(T\).</description>
+      <description>&lt;p&gt;Take a coin and toss it a number &lt;code&gt;\(N\)&lt;/code&gt; of times in a time interval of duration &lt;code&gt;\(T\)&lt;/code&gt;. Suppose that every time you get head you win &lt;code&gt;\(a\)&lt;/code&gt; euros and that you lose the same amount of money when you get tail. Then your capital is a random process with ups and dows like this:&lt;/p&gt;
+&lt;center&gt;
+![](/img/posts/figurebachelier.jpg)&lt;/center&gt;
+&lt;p&gt;This process is a stochastic process usually called &amp;ldquo;Random Walk&amp;rdquo; and its properties depend on the parameters $N, a $ and &lt;code&gt;\(T\)&lt;/code&gt;. For example: if we play this game several times, the average mean value of the capital obtained after a time &lt;code&gt;\(T\)&lt;/code&gt; is zero! This is simple to realize since the probability to get either head or tails is the same. The problem comes when you analyze the fluctuations around this zero gain: the variance of the deviations from this zero mean behavior go like&lt;/p&gt;
+&lt;p&gt;$$ Var(N) = N a^2 $$&lt;/p&gt;
+&lt;p&gt;which brings the sad conclusion that the more times you play the game the higher the fluctuations are. If you are risk-averse, this is the worst situation since, although in average you don&amp;rsquo;t lose or win, the uncertanty of what quantity you will get in one shot of the game is growing in time.&lt;/p&gt;
+&lt;p&gt;We now ask the following question: do the properties of this game change if we play &lt;code&gt;\(M &amp;gt; N\)&lt;/code&gt; times in the same time &lt;code&gt;\(T\)&lt;/code&gt; with a smaller payoff &lt;code&gt;\(b&amp;lt;a\)&lt;/code&gt;? Of course the stochastic process change, but some of the properties remain unchanged under proper choices of &lt;code&gt;\(a\)&lt;/code&gt; and &lt;code&gt;\(b\)&lt;/code&gt;. Obviously the average gain of this new game is also zero. What about the RMS? Note that if we take &lt;code&gt;\(a^2=T/N\)&lt;/code&gt; or &lt;code&gt;\(b^2 = T/M\)&lt;/code&gt; then we have&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;\(Var(N) = N a^2 = T\)&lt;/code&gt; for the first game&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;\(Var(M)  =M b^2 = T\)&lt;/code&gt; for the second game&lt;/p&gt;
+&lt;p&gt;which is independent of the payoff. This fact led some mathematicians early last century to study the asymptotic case &lt;code&gt;\(a\to 0\)&lt;/code&gt; and &lt;code&gt;\(N \to \infty\)&lt;/code&gt;, BUT taking&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;$$a^2 N = T = constant \qquad (1)$$&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;which usually called Brownian Motion. The name &amp;ldquo;Brownian&amp;rdquo; comes from the botanist Brown who observed how particles of (probably) &lt;a href=&#34;https://estebanmoro.org/2008/12/browns-observations-on-brownian-motion/&#34;&gt;clay moved in water under the kicks of the molecules of water&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/img/posts/louis_bachellier.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Bachelier (1870-1946 right) was the first one to study the Brownian motion in his PhD thesis at the Sorbonne in Paris and applied it as a possible model for the stock market. He was well ahead of his time not only for its application to the stock market, but also because he derived a lot of the properties of this stochastic process. Unfortunately his notation was a little bit sloppy. In particular, the dependence of &lt;code&gt;\(a^2\)&lt;/code&gt; with &lt;code&gt;\(N\)&lt;/code&gt; and &lt;code&gt;\(T\)&lt;/code&gt; [given by equation (1) above] in the limit &lt;code&gt;\(N\to\infty\)&lt;/code&gt; was omitted in most of his books and papers but always assumed by Bachelier. This &amp;ldquo;minor&amp;rdquo; omission and a careless reading of Bachelier&amp;rsquo;s work was the origin of Paul Lévy&amp;rsquo;s strong criticism to his work. It was so strong, that Levy wrote a very critical and negative report about Bachelier&amp;rsquo;s work when the latter was trying to get an appointment at Dijon. Bachelier of course didn&amp;rsquo;t get the position and moved then to a small university at Besançon and kept on working without much impact in the field.&lt;/p&gt;
+&lt;p&gt;It was after Kolmogorov&amp;rsquo;s 1931 citation of Bachelier work that Lévy went back to his work and realized that he made a misjudgment of Bachelier&amp;rsquo;s work. Apparently Levy didn&amp;rsquo;t even read Bachelier&amp;rsquo;s papers and books in the very first place and, even so, he disregarded Bachelier&amp;rsquo;s findings as erroneous. Quite a strange behavior for one of the best mathematicians of all times. After that, in 1931, Lévy wrote to Bachelier a letter apologizing for his behavior. It was a little bit late since Bachelier retired in 1937 although Bachelier was quite happy to receive Lévy&amp;rsquo;s letter. At last his work was read by someone, and by the best!&lt;/p&gt;
+&lt;p&gt;More information
+&lt;a href=&#34;http://www-groups.dcs.st-and.ac.uk/%7Ehistory/Mathematicians/Bachelier.html&#34;&gt;Biography of Bachelier&lt;/a&gt;
+&lt;a href=&#34;http://math.bu.edu/individual/murad/pub/bachelier-english43-fin-posted.pdf&#34;&gt;Bachelier and his times: A conversation with Bernard Bru&lt;/a&gt;, an article by M.S. Taqqu, published in Mathematical Finance - Bachelier Congress 2000&lt;/p&gt;
+</description>
     </item>
     
   </channel>

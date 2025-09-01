@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Weak Ties on </title>
@@ -6,16 +5,21 @@
     <description>Recent content in Weak Ties on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Thu, 21 Jul 2011 09:06:07 +0000</lastBuildDate><atom:link href="https://estebanmoro.org/tags/weak-ties/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 21 Jul 2011 09:06:07 +0000</lastBuildDate>
+    
+        <atom:link href="https://estebanmoro.org/tags/weak-ties/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Social Features of Online Networks: The Strength of Intermediary Ties in Online Social Media</title>
       <link>https://estebanmoro.org/post/2011-07-21-social-features-of-online-networks-the-strength-of-weak-ties-in-online-social-media/</link>
       <pubDate>Thu, 21 Jul 2011 09:06:07 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2011-07-21-social-features-of-online-networks-the-strength-of-weak-ties-in-online-social-media/</guid>
-      <description>Authors: P. A. Grabowicz, J. J. Ramasco, E. Moro, J. P. Pujol and V. M. Eguiluz
-Journal: PLoS ONE 7(1): e29358 (2012). LINK
-Abstract: An increasing fraction of today’s social interactions occur using online social media as communication channels. Recent worldwide events, such as social movements in Spain or revolts in the Middle East, highlight their capacity to boost people’s coordination. Online networks display in general a rich internal structure where users can choose among different types and intensity of interactions.</description>
+      <description>&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: P. A. Grabowicz, J. J. Ramasco, E. Moro, J. P. Pujol and V. M. Eguiluz&lt;br&gt;
+&lt;em&gt;Journal&lt;/em&gt;: PLoS ONE 7(1): e29358 (2012). &lt;strong&gt;&lt;a href=&#34;http://dx.plos.org/10.1371/journal.pone.0029358&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; An increasing fraction of today’s social interactions occur using online social media as communication channels. Recent worldwide events, such as social movements in Spain or revolts in the Middle East, highlight their capacity to boost people’s coordination. Online networks display in general a rich internal structure where users can choose among different types and intensity of interactions. Despite this, there are still open questions regarding the social value of online interactions. For example, the existence of users with millions of online friends sheds doubts on the relevance of these relations. In this work, we focus on Twitter, one of the most popular online social networks, and find that the network formed by the basic type of connections is organized in groups. The activity of the users conforms to the landscape determined by such groups. Furthermore, Twitter’s distinction between different types of interactions allows us to establish a parallelism between online and offline social networks: personal interactions are more likely to occur on internal links to the groups (the weakness of strong ties); events transmitting new information go preferentially through links connecting different groups (the strength of weak ties) or even more through links connecting to users belonging to several groups that act as brokers (the strength of intermediary ties).&lt;/p&gt;
+</description>
     </item>
     
   </channel>

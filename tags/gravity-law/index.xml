@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Gravity Law on </title>
@@ -6,15 +5,25 @@
     <description>Recent content in Gravity Law on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Fri, 07 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://estebanmoro.org/tags/gravity-law/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 07 Feb 2025 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://estebanmoro.org/tags/gravity-law/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Human mobility is well described by closed-form gravity-like models learned automatically from data</title>
       <link>https://estebanmoro.org/post/2025-02-26-human-mobility-is-well-described-by-closed-form-gravity-like-models-learned-automatically-from-data/</link>
       <pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2025-02-26-human-mobility-is-well-described-by-closed-form-gravity-like-models-learned-automatically-from-data/</guid>
-      <description>Authors: Oriol Cabanas-Tirapu, Lluís Danús, Esteban Moro, Marta Sales-Pardo &amp;amp; Roger Guimerà Publication: Nature Communications 16, 1336 (2025). LINK
-Abstract: Modeling human mobility is critical to address questions in urban planning, sustainability, public health, and economic development. However, our understanding and ability to model flows between urban areas are still incomplete. At one end of the modeling spectrum we have gravity models, which are easy to interpret but provide modestly accurate predictions of flows.</description>
+      <description>
+
+
+&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Oriol Cabanas-Tirapu, Lluís Danús, Esteban Moro, Marta Sales-Pardo &amp;amp; Roger Guimerà &lt;br&gt;
+&lt;em&gt;Publication&lt;/em&gt;: Nature Communications 16, 1336 (2025). &lt;strong&gt;&lt;a href=&#34;https://www.nature.com/articles/s41467-025-56495-5&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Modeling human mobility is critical to address questions in urban planning, sustainability, public health, and economic development. However, our understanding and ability to model flows between urban areas are still incomplete. At one end of the modeling spectrum we have gravity models, which are easy to interpret but provide modestly accurate predictions of flows. At the other end, we have machine learning models, with tens of features and thousands of parameters, which predict mobility more accurately than gravity models but do not provide clear insights on human behavior. Here, we show that simple machine-learned, closed-form models of mobility can predict mobility flows as accurately as complex machine learning models, and extrapolate better. Moreover, these models are simple and gravity-like, and can be interpreted similarly to standard gravity models. These models work for different datasets and at different scales, suggesting that they may capture the fundamental universal features of human mobility.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Media&lt;/strong&gt;&lt;/p&gt;
+</description>
     </item>
     
   </channel>

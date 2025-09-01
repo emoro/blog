@@ -1,21 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Prediction algorithms on </title>
+    <title>Prediction Algorithms on </title>
     <link>https://estebanmoro.org/tags/prediction-algorithms/</link>
-    <description>Recent content in Prediction algorithms on </description>
+    <description>Recent content in Prediction Algorithms on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Tue, 22 Oct 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://estebanmoro.org/tags/prediction-algorithms/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 22 Oct 2019 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://estebanmoro.org/tags/prediction-algorithms/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>How to Hide One&#39;s Relationships from Link Prediction Algorithms</title>
       <link>https://estebanmoro.org/post/2019-10-22-how-to-hide-one-s-relationships-from-link-prediction-algorithms/</link>
       <pubDate>Tue, 22 Oct 2019 00:00:00 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2019-10-22-how-to-hide-one-s-relationships-from-link-prediction-algorithms/</guid>
-      <description>Authors: Marcin Waniek, Kai Zhou, Yevgeniy Vorobeychik, Esteban Moro, Tomasz P Michalak, Talal Rahwan
-Journal: Scientific Reports volume 9, Article number: 12208 (2019) Link
-Abstract: Our private connections can be exposed by link prediction algorithms. To date, this threat has only been addressed from the perspective of a central authority, completely neglecting the possibility that members of the social network can themselves mitigate such threats. We fill this gap by studying how an individual can rewire her own network neighborhood to hide her sensitive relationships.</description>
+      <description>&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Marcin Waniek, Kai Zhou, Yevgeniy Vorobeychik, Esteban Moro, Tomasz P Michalak, Talal Rahwan&lt;br&gt;
+&lt;em&gt;Journal&lt;/em&gt;: Scientific Reports volume 9, Article number: 12208 (2019) &lt;strong&gt;&lt;a href=&#34;https://www.nature.com/articles/s41598-019-48583-6&#34;&gt;Link&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Our private connections can be exposed by link prediction algorithms. To date, this threat has only been addressed from the perspective of a central authority, completely neglecting the possibility that members of the social network can themselves mitigate such threats. We fill this gap by studying how an individual can rewire her own network neighborhood to hide her sensitive relationships. We prove that the optimization problem faced by such an individual is NP-complete, meaning that any attempt to identify an optimal way to hide one’s relationships is futile. Based on this, we shift our attention towards developing effective, albeit not optimal, heuristics that are readily-applicable by users of existing social media platforms to conceal any connections they deem sensitive. Our empirical evaluation reveals that it is more beneficial to focus on “unfriending” carefully-chosen individuals rather than befriending new ones. In fact, by avoiding communication with just 5 individuals, it is possible for one to hide some of her relationships in a massive, real-life telecommunication network, consisting of 829,725 phone calls between 248,763 individuals. Our analysis also shows that link prediction algorithms are more susceptible to manipulation in smaller and denser networks. Evaluating the error vs. attack tolerance of link prediction algorithms reveals that rewiring connections randomly may end up exposing one’s sensitive relationships, highlighting the importance of the strategic aspect. In an age where personal relationships continue to leave digital traces, our results empower the general public to proactively protect their private relationships.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

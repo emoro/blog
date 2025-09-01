@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Data Science on </title>
@@ -6,16 +5,30 @@
     <description>Recent content in Data Science on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Thu, 14 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://estebanmoro.org/tags/data-science/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 14 Mar 2024 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://estebanmoro.org/tags/data-science/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Effect of mobile food environments on fast food visits</title>
       <link>https://estebanmoro.org/post/2022-09-22-you-are-where-you-eat-effect-of-mobile-food-environments-on-fast-food-visits/</link>
       <pubDate>Thu, 14 Mar 2024 00:00:00 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2022-09-22-you-are-where-you-eat-effect-of-mobile-food-environments-on-fast-food-visits/</guid>
-      <description>Authors: Bernardo Garcia-Bulle, Abigail L. Horn, Brooke M. Bell, Mohsen Bahrami, Burcin Bozkaya, Alex Pentland, Kayla de la Haye, and Esteban Moro
-Publication: Nature Communications 15, article number: 2291. LINK
-Abstract: Poor diets are a leading cause of morbidity and mortality. Exposure to low-quality food environments saturated with fast food outlets is hypothesized to negatively impact diet. However, food environment research has predominantly focused on static food environments around home neighborhoods and generated mixed findings.</description>
+      <description>
+
+
+&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Bernardo Garcia-Bulle, Abigail L. Horn, Brooke M. Bell, Mohsen Bahrami, Burcin Bozkaya, Alex Pentland, Kayla de la Haye, and Esteban Moro&lt;br&gt;
+&lt;em&gt;Publication&lt;/em&gt;: Nature Communications &lt;strong&gt;15&lt;/strong&gt;, article number: 2291. &lt;strong&gt;&lt;a href=&#34;https://www.nature.com/articles/s41467-024-46425-2&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Poor diets are a leading cause of morbidity and mortality. Exposure to low-quality food environments saturated with fast food outlets is hypothesized to negatively impact diet. However, food environment research has predominantly focused on static food environments around home neighborhoods and generated mixed findings. In this work, we leverage population-scale mobility data in the U.S. to examine 62M people’s visits to food outlets and evaluate how food choice is influenced by the food environments people are exposed to as they move through their daily routines. We find that a 10% increase in exposure to fast food outlets in mobile environments increases individuals’ odds of visitation by 20%. Using our results, we simulate multiple policy strategies for intervening on food environments to reduce fast-food outlet visits. This analysis suggests that optimal interventions are informed by spatial, temporal, and behavioral features and could have 2x to 4x larger effect than traditional interventions focused on home food environments.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Media&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://news.northeastern.edu/2024/03/15/fast-food-location-health-impact/&#34;&gt;Efforts to limit fast-food near homes need rethinking&lt;/a&gt;, Northeastern Global News.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.news-medical.net/news/20240318/Study-reveals-daily-food-environment-exposure-shapes-fast-food-habits.aspx&#34;&gt;Study reveals daily food environment exposure shapes fast food habits&lt;/a&gt; News Medical&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://dornsife.usc.edu/news/stories/fast-food-choices-revealed-by-smartphone-data/&#34;&gt;New research shows “you are what… or rather… where you eat”&lt;/a&gt; USC Dornsife News and Events&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -24,8 +37,13 @@ Abstract: Poor diets are a leading cause of morbidity and mortality. Exposure to
       <pubDate>Thu, 18 May 2023 00:00:00 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2022-11-28-identifying-latent-activity-behaviors-and-lifestyles-using-mobility-data-to-describe-urban-dynamics/</guid>
-      <description>Authors: Yanni Yang, Alex Pentland, Esteban Moro Publication: EPJ Data Science 12, Article number: 15 (2023) LINK
-Abstract: Urbanization and its problems require an in-depth and comprehensive understanding of urban dynamics, especially the complex and diversified lifestyles in modern cities. Digitally acquired data can accurately capture complex human activity, but it lacks the interpretability of demographic data. In this paper, we study a privacy-enhanced dataset of the mobility visitation patterns of 1.</description>
+      <description>
+
+
+&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Yanni Yang, Alex Pentland, Esteban Moro &lt;br&gt;
+&lt;em&gt;Publication&lt;/em&gt;: EPJ Data Science &lt;strong&gt;12&lt;/strong&gt;, Article number: 15 (2023) &lt;strong&gt;&lt;a href=&#34;https://epjdatascience.springeropen.com/articles/10.1140/epjds/s13688-023-00390-w&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Urbanization and its problems require an in-depth and comprehensive understanding of urban dynamics, especially the complex and diversified lifestyles in modern cities. Digitally acquired data can accurately capture complex human activity, but it lacks the interpretability of demographic data. In this paper, we study a privacy-enhanced dataset of the mobility visitation patterns of 1.2 million people to 1.1 million places in 11 metro areas in the U.S. to detect the latent mobility behaviors and lifestyles in the largest American cities. Despite the considerable complexity of mobility visitations, we found that lifestyles can be automatically decomposed into only 12 latent interpretable activity behaviors on how people combine shopping, eating, working, or using their free time. Rather than describing individuals with a single lifestyle, we find that city dwellers’ behavior is a mixture of those behaviors. Those detected latent activity behaviors are equally present across cities and cannot be fully explained by main demographic features. Finally, we find those latent behaviors are associated with dynamics like experienced income segregation, transportation, or healthy behaviors in cities, even after controlling for demographic features. Our results signal the importance of complementing traditional census data with activity behaviors to understand urban dynamics.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -34,8 +52,13 @@ Abstract: Urbanization and its problems require an in-depth and comprehensive un
       <pubDate>Fri, 18 Nov 2022 00:00:00 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2022-11-18-social-media-sensors-to-detect-early-warnings-of-influenza-at-scale/</guid>
-      <description>Authors: David Martín-Corral, Manuel García-Herranz, Manuel Cebrian, Esteban Moro Publication: medRxiv 2022.11.15.22282355 LINK
-Abstract: Detecting early signs of an outbreak in a viral process is challenging due to its exponential nature, yet crucial given the benefits to public health it can provide. If available, the network structure where infection happens can provide rich information about the very early stages of viral outbreaks. For example, more central nodes have been used as social network sensors in biological or informational diffusion processes to detect early contagious outbreaks.</description>
+      <description>
+
+
+&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: David Martín-Corral, Manuel García-Herranz, Manuel Cebrian, Esteban Moro &lt;br&gt;
+&lt;em&gt;Publication&lt;/em&gt;: medRxiv 2022.11.15.22282355 &lt;strong&gt;&lt;a href=&#34;https://www.medrxiv.org/content/10.1101/2022.11.15.22282355v1&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Detecting early signs of an outbreak in a viral process is challenging due to its exponential nature, yet crucial given the benefits to public health it can provide. If available, the network structure where infection happens can provide rich information about the very early stages of viral outbreaks. For example, more central nodes have been used as social network sensors in biological or informational diffusion processes to detect early contagious outbreaks. Here we aim to put together both approaches to detect early warnings of a biological viral process (influenza-like illness, ILI), using its informational epidemic coverage in public social media. We use a large social media dataset covering three years in a country. We demonstrate that it is possible to use highly central users on the platform, more precisely high out-degree users from Twitter, as sensors to detect the early warning outbreaks of ILI in the physical world without monitoring the whole population. We also investigate other behavioral and content features that distinguish those early sensors in social media beyond centrality. We find that while high centrality on Twitter is the most distinctive feature of sensors, we see that they are more likely to talk about local news, language, politics, or government than the rest of the users. Our new approach could detect a better and smaller set of social sensors for epidemic outbreaks and is more operationally efficient and privacy respectful than previous ones, not requiring the collection of vast amounts of data.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -44,8 +67,54 @@ Abstract: Detecting early signs of an outbreak in a viral process is challenging
       <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2022-10-25-behavioral-network-determinants-of-health-outcomes/</guid>
-      <description>Our behavior conditions our health. Exposure to infections depends on our and other people’s mobility. Exposure to healthy environments or habits depends on our choices and opportunities. Although human behavior is highly adaptive and dynamic, most social determinants of health are restricted to static aggregated representations of socio-demographic groups or residential environments.
-We have started a program to understand behavioral-network determinants of health outcomes by modeling physical exposure between people and environments using large datasets of human mobility and activity and multilayer networks.</description>
+      <description>
+
+
+&lt;p&gt;Our behavior conditions our health. Exposure to infections depends on our and other people’s mobility. Exposure to healthy environments or habits depends on our choices and opportunities. Although human behavior is highly adaptive and dynamic, most social determinants of health are restricted to static aggregated representations of socio-demographic groups or residential environments.&lt;/p&gt;
+&lt;p&gt;We have started a program to understand behavioral-network determinants of health outcomes by modeling physical exposure between people and environments using large datasets of human mobility and activity and multilayer networks. For example, using mobility data and state-of-the-art epidemiological models, we built high-resolution temporal contact networks at the population scale. Having a direct link to human behavior allowed us to model and predict potential behavioral interventions (closing of venues, re-opening, quarantine, contact tracing) or the role of super-spreading events and settings in the propagation of the virus , or even analyze future trade-offs between the epidemic and economic dimensions of the pandemic. People’s movements also condition the food environments they are exposed to, impacting their diet and related disease. Most of the focus has been on static food environments around the home, such as food deserts. We use large datasets of human mobility and causal techniques to detect the food environments people are exposed to and food outlets they visit as they move through the day and study the time-dependent effect of food environments on more healthy dietary choices. By incorporating the intertwined effect between mobility, human behavior, and exposure to food environments, we can build more efficient interventions to promote healthier options and diets.&lt;/p&gt;
+&lt;p&gt;Recent papers
+&lt;small&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;Effect of mobile food environments on fast food visits&lt;/b&gt;&lt;br&gt;
+&lt;em&gt;What is the influence of the places we visit/work/shop on our dietary choices? We find that effect is large, but not everybody is affected by the environment equally. As a result we can design better policies to change environments and increase consumption of healthy food among different socio-demographic groups&lt;/em&gt;&lt;br&gt;
+Bernardo Garcia-Bulle, Abigail L Horn, Brooke M Bell, Mohsen Bahrami, Burcin Bozkaya, Alex Pentland, Kayla de la Haye, Esteban Moro&lt;br&gt;
+Nature Communications &lt;strong&gt;15&lt;/strong&gt; 2291 (2024)&lt;br&gt;
+&lt;a href=&#34;https://estebanmoro.org/pdf/Effect_of_mobile_food_environments_on_fast_food_visits.pdf&#34; class=&#34;BUTTON_JEL&#34;&gt;PDF&lt;/a&gt; &lt;a href=&#34;https://www.nature.com/articles/s41467-024-46425-2&#34; class=&#34;BUTTON_JEL&#34;&gt;Journal&lt;/a&gt;
+&lt;div class=&#34;altmetric-embed&#34; data-badge-popover=&#34;right&#34; data-badge-type=&#34;2&#34; data-doi=&#34;10.1038/s41467-024-46425-2&#34; data-hide-no-mentions=&#34;true&#34; data-hide-less-than=&#34;10&#34;&gt;
+
+&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Population mobility data provides meaningful indicators of fast food intake and diet-related diseases in diverse populations&lt;/b&gt;&lt;br&gt;
+&lt;em&gt;We use mobility data to investigate if visits to fast-food places can be use to get better understanding of who consume fast food in urban areas. We find that mobility data is a better predictor of diet-related diseases in communities than traditional surveys.&lt;/em&gt;&lt;br&gt;
+Abigail L. Horn, Brooke M. Bell, Bernardo Garcia Bulle Bueno, Mohsen Bahrami, Burcin Bozkaya, Yan Cui, John P. Wilson, Alex Pentland, Esteban Moro, Kayla de la Haye&lt;br&gt;
+NPJ Digital Medicine &lt;strong&gt;6&lt;/strong&gt; 208 (2023)&lt;br&gt;
+&lt;a href=&#34;https://estebanmoro.org/pdf/Population_mobility_data_provides_meaningful_indicators_of_fast_food_intake_and_diet_related_diseases_in_diverse_populations.pdf&#34; class=&#34;BUTTON_JEL&#34;&gt;PDF&lt;/a&gt; &lt;a href=&#34;https://www.nature.com/articles/s41746-023-00949-x&#34; class=&#34;BUTTON_JEL&#34;&gt;Journal&lt;/a&gt;
+&lt;div class=&#34;altmetric-embed&#34; data-badge-popover=&#34;right&#34; data-badge-type=&#34;2&#34; data-doi=&#34;10.1038/s41746-023-00949-x&#34; data-hide-no-mentions=&#34;true&#34; data-hide-less-than=&#34;10&#34;&gt;
+
+&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Quantifying the importance and location of SARS-CoV-2 transmission events in large metropolitan areas&lt;/b&gt;&lt;br&gt;
+&lt;em&gt;Using massive mobility data and high-resolution contact matrices we investigate who, when, and where was infected by COVID-19 in major urban areas in the US. We find that infection paths where very different across cities and that super-spreading events were prevalent but not important to explain the majority of infections&lt;/em&gt;&lt;br&gt;
+Alberto Aleta, David Martin-Corral, Michiel A. Bakker, Ana Pastore y Piontti, Marco Ajelli, Maria Litvinova, Matteo Chinazzi, Natalie E. Dean, M. Elizabeth Halloran, Ira M. Longini, Alex Pentland, Alessandro Vespignani, Yamir Moreno, Esteban Moro&lt;br&gt;
+Proceedings of the National Academy of Sciences &lt;strong&gt;119&lt;/strong&gt; e2112182119 (2022)&lt;br&gt;
+&lt;a href=&#34;https://estebanmoro.org/pdf/Quantifying_the_importance_and_location_of_SARS_CoV_2_transmission_events_in_large_metropolitan_areas.pdf&#34; class=&#34;BUTTON_JEL&#34;&gt;PDF&lt;/a&gt; &lt;a href=&#34;https://www.pnas.org/doi/abs/10.1073/pnas.2112182119&#34; class=&#34;BUTTON_JEL&#34;&gt;Journal&lt;/a&gt;
+&lt;div class=&#34;altmetric-embed&#34; data-badge-popover=&#34;right&#34; data-badge-type=&#34;2&#34; data-doi=&#34;10.1073/pnas.2112182119&#34; data-hide-no-mentions=&#34;true&#34; data-hide-less-than=&#34;10&#34;&gt;
+
+&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Effect of COVID-19 response policies on walking behavior in US cities&lt;/b&gt;&lt;br&gt;
+Ruth F. Hunter, Leandro Garcia, Thiago Herick de Sa, Belen Zapata-Diomedi, Christopher Millett, James Woodcock, Alex ‘Sandy’ Pentland, Esteban Moro&lt;br&gt;
+Nature Communications &lt;strong&gt;12&lt;/strong&gt; 3652 (2021)&lt;br&gt;
+&lt;a href=&#34;https://estebanmoro.org/pdf/Effect_of_COVID_19_response_policies_on_walking_behavior_in_US_cities.pdf&#34; class=&#34;BUTTON_JEL&#34;&gt;PDF&lt;/a&gt; &lt;a href=&#34;https://www.nature.com/articles/s41467-021-23937-9&#34; class=&#34;BUTTON_JEL&#34;&gt;Journal&lt;/a&gt;
+&lt;div class=&#34;altmetric-embed&#34; data-badge-popover=&#34;right&#34; data-badge-type=&#34;2&#34; data-doi=&#34;10.1038/s41467-021-23937-9&#34; data-hide-no-mentions=&#34;true&#34; data-hide-less-than=&#34;10&#34;&gt;
+
+&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Modelling the impact of testing, contact tracing and household quarantine on second waves of COVID-19&lt;/b&gt;&lt;br&gt;
+Alberto Aleta, David Martin-Corral, Ana Pastore y Piontti, Marco Ajelli, Maria Litvinova, Matteo Chinazzi, Natalie E. Dean, M. Elizabeth Halloran, Ira M. Longini Jr, Stefano Merler, Alex Pentland, Alessandro Vespignani, Esteban Moro, Yamir Moreno&lt;br&gt;
+Nature Human Behaviour &lt;strong&gt;4&lt;/strong&gt; 964–971 (2020)&lt;br&gt;
+&lt;a href=&#34;https://estebanmoro.org/pdf/Modelling_the_impact_of_testing__contact_tracing_and_household_quarantine_on_second_waves_of_COVID_19.pdf&#34; class=&#34;BUTTON_JEL&#34;&gt;PDF&lt;/a&gt; &lt;a href=&#34;https://www.nature.com/articles/s41562-020-0931-9&#34; class=&#34;BUTTON_JEL&#34;&gt;Journal&lt;/a&gt;
+&lt;div class=&#34;altmetric-embed&#34; data-badge-popover=&#34;right&#34; data-badge-type=&#34;2&#34; data-doi=&#34;10.1038/s41562-020-0931-9&#34; data-hide-no-mentions=&#34;true&#34; data-hide-less-than=&#34;10&#34;&gt;
+
+&lt;/div&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -54,8 +123,41 @@ We have started a program to understand behavioral-network determinants of healt
       <pubDate>Sun, 02 Jan 2022 00:00:00 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2022-10-25-creating-resilient-urban-labor-economies/</guid>
-      <description>Like ecosystems, societies with adaptable economies are best prepared for the future. We started a research program to understand and detect economic resilience encoded in the dependency networks of agents, businesses, cities, or jobs. In particular, how much of the adaptability of our economies depends on the fragility of those economic networks? Can we identify weaknesses and design policies to strengthen those interdependent units?
-Using highly detailed information about jobs, skills, and cities, our foundational study extended traditional economic models to show that the network structure of interactions and flows between jobs determines the resilience of labor markets.</description>
+      <description>
+
+
+&lt;p&gt;Like ecosystems, societies with adaptable economies are best prepared for the future. We started a research program to understand and detect economic resilience encoded in the dependency networks of agents, businesses, cities, or jobs. In particular, how much of the adaptability of our economies depends on the fragility of those economic networks? Can we identify weaknesses and design policies to strengthen those interdependent units?&lt;/p&gt;
+&lt;p&gt;Using highly detailed information about jobs, skills, and cities, our foundational study extended traditional economic models to show that the network structure of interactions and flows between
+jobs determines the resilience of labor markets. We found that cities with more excellent job connectivity experienced lower unemployment during the Great Recession and might suf-
+fer less from technological disruptions (automation). Building on these initial ideas and novel data, we have studied individual workers’ careers to understand the skill, occupational, educational, and systemic facilitators of job transitions in labor markets.&lt;/p&gt;
+&lt;p&gt;Through partnerships with resume companies like Burning Glass Technologies or FutureFit Ai and tools borrowed from ecological networks, we investigate how workers navigate the job network through their careers, developing new skills, getting new jobs, or even relocating to different cities. Understanding those processes will better predict how labor markets will respond to exogenous (pandemic, climate change) and endogenous (technological disruptions) shocks.&lt;/p&gt;
+&lt;p&gt;At a different level, local businesses or industries co-depend on other venues or business. For example, some restaurants depend on offices and schools and suffered more during the last pandemic. Using high-resolution mobility data and input-output matrices between different sectors, we quantify those networked dependencies to study how sudden changes in human behavior due to urban shocks could trigger economic cascades that could amplify their effects. We work with cities, companies, industries and workers’ associations so they can use our work to know the specific skills/jobs or businesses they will need to acquire, develop or invest in to build more resilient and equitable labor markets and business sectors in the future.&lt;/p&gt;
+&lt;p&gt;Recent papers:
+&lt;small&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;Network constraints on worker mobility&lt;/b&gt;&lt;br&gt;
+Morgan R Frank, Esteban Moro, Tobin South, Alex Rutherford, Alex Pentland, Bledi Taska, Iyad Rahwan&lt;br&gt;
+Nature Cities &lt;strong&gt;1&lt;/strong&gt; 94–104 (2024)&lt;br&gt;
+&lt;a href=&#34;https://estebanmoro.org/pdf/Network_constraints_on_worker_mobility.pdf&#34; class=&#34;BUTTON_JEL&#34;&gt;PDF&lt;/a&gt; &lt;a href=&#34;https://www.nature.com/articles/s44284-023-00009-1&#34; class=&#34;BUTTON_JEL&#34;&gt;Journal&lt;/a&gt;
+&lt;div class=&#34;altmetric-embed&#34; data-badge-popover=&#34;right&#34; data-badge-type=&#34;2&#34; data-doi=&#34;10.1038/s44284-023-00009-1&#34; data-hide-no-mentions=&#34;true&#34; data-hide-less-than=&#34;10&#34;&gt;
+
+&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Universal resilience patterns in labor markets&lt;/b&gt;&lt;br&gt;
+Esteban Moro, Morgan R. Frank, Alex Pentland, Alex Rutherford, Manuel Cebrian, Iyad Rahwan&lt;br&gt;
+Nature Communications &lt;strong&gt;12&lt;/strong&gt; 1972 (2021)&lt;br&gt;
+&lt;a href=&#34;https://estebanmoro.org/pdf/Universal_resilience_patterns_in_labor_markets.pdf&#34; class=&#34;BUTTON_JEL&#34;&gt;PDF&lt;/a&gt; &lt;a href=&#34;https://www.nature.com/articles/s41467-021-22086-3&#34; class=&#34;BUTTON_JEL&#34;&gt;Journal&lt;/a&gt;
+&lt;div class=&#34;altmetric-embed&#34; data-badge-popover=&#34;right&#34; data-badge-type=&#34;2&#34; data-doi=&#34;10.1038/s41467-021-22086-3&#34; data-hide-no-mentions=&#34;true&#34; data-hide-less-than=&#34;10&#34;&gt;
+
+&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Toward understanding the impact of artificial intelligence on labor&lt;/b&gt;&lt;br&gt;
+Morgan R Frank, David Autor, James E Bessen, Erik Brynjolfsson, Manuel Cebrian, David J Deming, Maryann Feldman, Matthew Groh, Jose Lobo, Esteban Moro, Dashun Wang, Hyejin Youn, Iyad Rahwan&lt;br&gt;
+Proceedings of the National Academy of Sciences &lt;strong&gt;116&lt;/strong&gt; 201900949 (2019)&lt;br&gt;
+&lt;a href=&#34;https://estebanmoro.org/pdf/Toward_understanding_the_impact_of_artificial_intelligence_on_labor.pdf&#34; class=&#34;BUTTON_JEL&#34;&gt;PDF&lt;/a&gt; &lt;a href=&#34;https://www.pnas.org/content/early/2019/03/21/1900949116.abstract&#34; class=&#34;BUTTON_JEL&#34;&gt;Journal&lt;/a&gt;
+&lt;div class=&#34;altmetric-embed&#34; data-badge-popover=&#34;right&#34; data-badge-type=&#34;2&#34; data-doi=&#34;10.1073/pnas.1900949116&#34; data-hide-no-mentions=&#34;true&#34; data-hide-less-than=&#34;10&#34;&gt;
+
+&lt;/div&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -64,9 +166,23 @@ Using highly detailed information about jobs, skills, and cities, our foundation
       <pubDate>Tue, 19 Jun 2018 21:34:10 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2018-06-19-analyzing-gender-inequality-through-large-scale-facebook-advertising-data/</guid>
-      <description>Authors: David Garcia, Yonas Mitike Kassa, Angel Cuevas, Manuel Cebrian, Esteban Moro, Iyad Rahwan, and Ruben Cuevas
-Journal: PNAS June 19, 2018. 201717781. LINK
-Abstract: Online social media are information resources that can have a transformative power in society. While the Web was envisioned as an equalizing force that allows everyone to access information, the digital divide prevents large amounts of people from being present online. Online social media, in particular, are prone to gen- der inequality, an important issue given the link between social media use and employment.</description>
+      <description>&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: David Garcia, Yonas Mitike Kassa, Angel Cuevas, Manuel Cebrian, Esteban Moro, Iyad Rahwan, and Ruben Cuevas&lt;br&gt;
+&lt;em&gt;Journal&lt;/em&gt;: PNAS June 19, 2018. 201717781. &lt;strong&gt;&lt;a href=&#34;http://www.pnas.org/content/early/2018/06/12/1717781115&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Online social media are information resources that can have a transformative power in society. While the Web was envisioned as an equalizing force that allows everyone to access information, the digital divide prevents large amounts of people from being present online. Online social media, in particular, are prone to gen- der inequality, an important issue given the link between social media use and employment. Understanding gender inequality in social media is a challenging task due to the necessity of data sources that can provide large-scale measurements across multi- ple countries. Here, we show how the Facebook Gender Divide (FGD), a metric based on aggregated statistics of more than 1.4 billion users in 217 countries, explains various aspects of world- wide gender inequality. Our analysis shows that the FGD encodes gender equality indices in education, health, and economic oppor- tunity. We find gender differences in network externalities that suggest that using social media has an added value for women. Furthermore, we find that low values of the FGD are associated with increases in economic gender equality. Our results sug- gest that online social networks, while suffering evident gender imbalance, may lower the barriers that women have to access to informational resources and help to narrow the economic gender gap.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Visualizations:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://dgarcia-eu.github.io/FacebookGenderDivide/Visualization.html&#34;&gt;Interaction Visualization of the results&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Press:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Facebook Use Linked to Gender Equality &lt;a href=&#34;https://www.scientificamerican.com/article/facebook-use-linked-to-gender-equality/&#34;&gt;Scientific American&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Researchers are using Facebook data to study gender inequality &lt;a href=&#34;https://mic.com/articles/190240/researchers-are-using-facebook-data-to-study-gender-inequality#.10jg4TVzc&#34;&gt;Mic&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;New tool using Facebook data shows worldwide gender gap &lt;a href=&#34;https://phys.org/news/2018-06-tool-facebook-worldwide-gender-gap.html&#34;&gt;Phys.org&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;La brecha de género en Facebook refleja la desigualdad real &lt;a href=&#34;https://elpais.com/elpais/2017/10/29/ciencia/1509303294_166601.html&#34;&gt;El País&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Impact:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Altmetric &lt;div data-badge-popover=&#34;right&#34; data-badge-type=&#34;medium-donut&#34; data-doi=&#34;10.1073/pnas.1717781115&#34; data-hide-less-than=&#34;0&#34; class=&#34;altmetric-embed&#34;&gt;&lt;/div&gt;&lt;/p&gt;
+</description>
     </item>
     
   </channel>

@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2018 on </title>
@@ -6,18 +5,24 @@
     <description>Recent content in 2018 on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Fri, 21 Dec 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://estebanmoro.org/tags/2018/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 21 Dec 2018 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://estebanmoro.org/tags/2018/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>2018 pictures</title>
       <link>https://estebanmoro.org/post/2018-12-21-2018-pictures/</link>
       <pubDate>Fri, 21 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2018-12-21-2018-pictures/</guid>
-      <description>Some pictures of different activities during this year 2018
-A group of us from Scallable Cooperation group at MediaLab visited Riyad, Abu Dhabi and Dubai to talk about Future of Work.
-Complenet happenned in Boston this year. Here I am talking about how do you met your best friend?
-I was an invited speaker at NERCCS 2018 conference to talk about our work on the dynamics of strong ties
-A bunch of network scientist close to the Netsci 2018 venue</description>
+      <description>&lt;p&gt;Some pictures of different activities during this year 2018&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/img/2018/riyadh.jpg&#34; alt=&#34;A group of us from Scallable Cooperation group at MediaLab visited Riyad, Abu Dhabi and Dubai to talk about Future of Work.&#34;&gt; A group of us from Scallable Cooperation group at MediaLab visited Riyad, Abu Dhabi and Dubai to talk about Future of Work.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/img/2018/DXiKb76VwAAIRcS.jpg&#34; alt=&#34;Complenet happenned in Boston this year. Here I am talking about how do you met your best friend? &#34;&gt;Complenet happenned in Boston this year. Here I am talking about &lt;em&gt;how do you met your best friend?&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/img/2018/DamEuFIW0AECKqw.jpg&#34; alt=&#34;I was an invited speaker at NERCCS 2018 conference to talk about our work on the dynamics of strong ties&#34;&gt;I was an invited speaker at NERCCS 2018 conference to talk about our work on the dynamics of strong ties&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/img/2018/IMG_2768.jpg&#34; alt=&#34;A bunch of network scientists close to the Netsci 2018 venue&#34;&gt; A bunch of network scientist close to the Netsci 2018 venue&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/img/2018/IMG_3753.jpg&#34; alt=&#34;My friend Manuel García Herranz invited me to visit the UN main building. Here we are together with Vedran Sekara&#34;&gt;My friend Manuel García Herranz invited me to visit the UN main building. Here we are together with Vedran Sekara&lt;/p&gt;
+</description>
     </item>
     
   </channel>

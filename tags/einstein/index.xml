@@ -1,19 +1,48 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>einstein on </title>
+    <title>Einstein on </title>
     <link>https://estebanmoro.org/tags/einstein/</link>
-    <description>Recent content in einstein on </description>
+    <description>Recent content in Einstein on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Thu, 18 Dec 2008 09:27:47 +0000</lastBuildDate><atom:link href="https://estebanmoro.org/tags/einstein/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 18 Dec 2008 09:27:47 +0000</lastBuildDate>
+    
+        <atom:link href="https://estebanmoro.org/tags/einstein/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Brown&#39;s observations on Brownian motion </title>
       <link>https://estebanmoro.org/2008/12/browns-observations-on-brownian-motion/</link>
       <pubDate>Thu, 18 Dec 2008 09:27:47 +0000</pubDate>
       
       <guid>https://estebanmoro.org/2008/12/browns-observations-on-brownian-motion/</guid>
-      <description>In 1828, Robert Brown published the manuscript entitled &amp;ldquo;A brief account of microscopical observations made in the months of June, July and August 1827, on the particles contained in the pollen of plants; and on the general existence of active molecules in organic and inorganic bodies&amp;rdquo; in the Edinburgh new Philosophical Journal [download it in pdf format here]. He suspended some of the pollen grains of the species Clarkia pulchella in water and examined them closely, only to see them &amp;ldquo;filled with particles&amp;rdquo; of around 5 µm diameter that were &amp;ldquo;very evidently in motion&amp;rdquo;.</description>
+      <description>&lt;center&gt;
+&lt;p&gt;&lt;img src=&#34;https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Robert_Brown_%28young_-_larousse%29.jpg/397px-Robert_Brown_%28young_-_larousse%29.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/center&gt;
+&lt;p&gt;In 1828, Robert Brown published the manuscript entitled &amp;ldquo;A brief account of microscopical observations made in the months of June, July and August 1827, on the particles contained in the pollen of plants; and on the general existence of active molecules in organic and inorganic bodies&amp;rdquo; in the Edinburgh new Philosophical Journal [download it in pdf format &lt;a href=&#34;http://sciweb.nybg.org/science2/pdfs/dws/Brownian.pdf&#34;&gt;here&lt;/a&gt;]. He suspended some of the pollen grains of the species &lt;a href=&#34;http://www.robsplants.com/plants/ClarkPulch.php&#34;&gt;Clarkia pulchella&lt;/a&gt; in water and examined them closely, only to see them &amp;ldquo;filled with particles&amp;rdquo; of around 5 µm diameter that were &amp;ldquo;very evidently in motion&amp;rdquo;. He was soon satisfied that the movement &amp;ldquo;arose neither from currents in the fluid nor form its gradual evaporation, but belonged to the particle itself&amp;rdquo;. Brown&amp;rsquo;s work was the first comprehensive observation of a phenomena called &lt;a href=&#34;http://en.wikipedia.org/wiki/Brownian_motion&#34;&gt;Brownian motion&lt;/a&gt; which remained unexplained until the beginning of the 20th century by Bachelier and most notably by Einstein in his famous paper in 1905. Brownian motion is the most basic description of the dynamics of a particle, price, etc. under the influence of external noise.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/img/posts/microscopio-brown-150x150.jpg&#34; alt=&#34;Microscope used by Brown&#34;&gt;Microscope used by Brown&lt;/p&gt;
+&lt;p&gt;A typical mistake found in books, encyclopedias and articles (even in the Nature journal and even by the great &lt;a href=&#34;http://www.nature.com/nature/journal/v433/n7023/full/433221a.html&#34;&gt;Giorgio Parisi&lt;/a&gt;) is that Brown observed the motion of the pollen grains themselves. This might be the most clear example of a propagated mistake in the scientific literature, since it is obvious from the very title that the particles he observed were &amp;ldquo;in the pollen grains&amp;rdquo;. In fact, using the explanation of the motion by Einstein is easy to convince ourselves that the pollen grains were too big to wander around enough to be observable: Einstein in 1905 published a paper (original &lt;a href=&#34;http://www.physik.uni-augsburg.de/theo1/hanggi/History/Einstein1906BMII.pdf&#34;&gt;in german&lt;/a&gt;) in which he derived the famous &lt;a href=&#34;http://en.wikipedia.org/wiki/Einstein_relation_(kinetic_theory)&#34;&gt;Einstein relation&lt;/a&gt; in kinetic theory&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;$$D = \frac{k_B T}{6 \pi \eta r}$$&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;which relates the diffusion constant of the Brownian motion of a particle &lt;code&gt;\(D\)&lt;/code&gt; with the radius of the particle &lt;code&gt;\(r\)&lt;/code&gt; and the viscosity of the medium in which the particle is moving &lt;code&gt;\(\eta\)&lt;/code&gt;. The diffusion constant &lt;code&gt;\(D\)&lt;/code&gt; is also proportional to the temperature &lt;code&gt;\(T\)&lt;/code&gt; and &lt;code&gt;\(k_B\)&lt;/code&gt; is the Boltzmann constant. In order to observe the motion by eye, the particle should move considerably in a matter of seconds. We can evaluate the size of the movement by looking at the root-mean-square fluctuations in the position which are given by&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;$$\langle x^2(t)\rangle = D t$$&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;For a pollen grain the radius is around &lt;code&gt;\(\simeq 100 \mu m\)&lt;/code&gt; and in water at &lt;code&gt;\(T =\)&lt;/code&gt; 25ºC we get that &lt;code&gt;\(\langle x^2(t)\rangle = 19 \mu m\)&lt;/code&gt; in &amp;hellip; one day!! This slow pace motion is hard to observe with today optical microscopes by eye, not to say with the microscope used by Brown (see the above picture).&lt;/p&gt;
+&lt;p&gt;To observe the Brownian motion by eye, the particles should be smaller. If we assume that the radius should be small enough so that the RMS fluctuations in one second are greater or of the order of the particle size, we get that&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;$$r \leq 1 \mu m$$&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;that is, of the same length of the particles observed by Brown inside the pollen grain. In the following video you can see this molecular motion in an experiment made a research group in the Universidad Complutense de Madrid (Luis Dinis, &lt;a href=&#34;http://www.ucm.es/info/goptic/&#34;&gt;Julio Serna&lt;/a&gt;, Rodrigo Soto and Ricardo Brito) using polystyrene spheres of &lt;code&gt;\(0.75-0.89\mu m\)&lt;/code&gt; diameter in water. The observations are made with an optical microscope using a 60x objective. The Brownian motion is evident.&lt;/p&gt;
+&lt;video width=&#34;600&#34; controls&gt;
+  &lt;source src=&#34;https://estebanmoro.org/img/posts/bmhq1.mp4&#34; type=&#34;video/mp4&#34;&gt;
+&lt;/video&gt;
+&lt;p&gt;More information about Brown&amp;rsquo;s observations and related work:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.ee.adfa.edu.au/staff/hrp/Literature/articles/karel3Avogadro.pdf&#34;&gt;Brownian motion and molecular size: counting and sizing molecules&lt;/a&gt;_, a Literature Study by K.L. Planken&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.nature.com/nature/journal/v434/n7030/full/434137c.html&#34;&gt;Brown knew particles were smaller than pollen&lt;/a&gt; by D. M. Wilkinson, Nature (2005). A nice note about the repetition of the mistake mentioned above.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.microscopy-uk.org.uk/dww/home/hombrown.htm&#34;&gt;An exploration of your house in close-up: studying Brownian motion&lt;/a&gt;, by Dave Walker. Dave shows how to repeat the experiment using the fat droplets suspended in milk (cool)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt;: Julio Serna (thanks) sent me this interesting reference:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.brianjford.com/wbbrowna.htm&#34;&gt;BROWNIAN MOVEMENT IN CLARKIA POLLEN: A REPRISE OF THE FIRST OBSERVATIONS&lt;/a&gt;, by Brian J Ford, The Microscope, &lt;strong&gt;40&lt;/strong&gt;(4): 235-241, 1992. in which he repeated the experiment by Brown and settle the question of whether Brown was able or not to observe the Brownian motion with his microscope.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
   </channel>

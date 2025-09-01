@@ -1,19 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>news on </title>
+    <title>News on </title>
     <link>https://estebanmoro.org/tags/news/</link>
-    <description>Recent content in news on </description>
+    <description>Recent content in News on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Thu, 11 Dec 2008 08:19:12 +0000</lastBuildDate><atom:link href="https://estebanmoro.org/tags/news/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 11 Dec 2008 08:19:12 +0000</lastBuildDate>
+    
+        <atom:link href="https://estebanmoro.org/tags/news/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Science is the only news</title>
       <link>https://estebanmoro.org/2008/12/science-is-the-only-news/</link>
       <pubDate>Thu, 11 Dec 2008 08:19:12 +0000</pubDate>
       
       <guid>https://estebanmoro.org/2008/12/science-is-the-only-news/</guid>
-      <description>Science is the only news. When you scan through a newspaper or magazine, all the human interest stuff is the same old he-said-she-said, the politics and economics the same sorry cyclic dramas, the fashions a pathetic illusion of newness, and even the technology is predictable if you know the science. Human nature doesn’t change much; science does, and the change accrues, altering the world irreversibly.  A famous quote by Stewart Brand, that appear in John Brockman&amp;rsquo;s essay (and book) The Third Culture</description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Science is the only news. When you scan through a newspaper or magazine, all the human interest stuff is the same old he-said-she-said, the politics and economics the same sorry cyclic dramas, the fashions a pathetic illusion of newness, and even the technology is predictable if you know the science. Human nature doesn’t change much; science does, and the change accrues, altering the world irreversibly. &lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;A famous quote by &lt;a href=&#34;http://en.wikipedia.org/wiki/Stewart_Brand&#34;&gt;Stewart Brand&lt;/a&gt;, that appear in John Brockman&amp;rsquo;s essay (and book) &lt;a href=&#34;http://www.edge.org/3rd_culture/&#34;&gt;The Third Culture&lt;/a&gt;&lt;/p&gt;
+</description>
     </item>
     
   </channel>

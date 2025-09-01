@@ -1,19 +1,33 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>h-index on </title>
+    <title>H-Index on </title>
     <link>https://estebanmoro.org/tags/h-index/</link>
-    <description>Recent content in h-index on </description>
+    <description>Recent content in H-Index on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Sun, 13 Nov 2005 07:37:57 +0000</lastBuildDate><atom:link href="https://estebanmoro.org/tags/h-index/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 13 Nov 2005 07:37:57 +0000</lastBuildDate>
+    
+        <atom:link href="https://estebanmoro.org/tags/h-index/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>A number to rank them all</title>
       <link>https://estebanmoro.org/2005/11/a-number-to-rank-them-all/</link>
       <pubDate>Sun, 13 Nov 2005 07:37:57 +0000</pubDate>
       
       <guid>https://estebanmoro.org/2005/11/a-number-to-rank-them-all/</guid>
-      <description>UCSD physicist Jorge E. Hirsch has propose a quick-and-dirty way to measure quality of academic scientist’s output. His method is explained and studied in a paper to be published in the November 15 issue of PNAS. The idea is very simple and it is called the h-index. This number relies on the number of citations our papers have. In particular the h-index is the maximum number h that verifies the following: at least h of papers of an author have h citations each.</description>
+      <description>&lt;p&gt;UCSD physicist &lt;a href=&#34;http://physics.ucsd.edu/%7Ejorge/jh.html&#34;&gt;Jorge E. Hirsch&lt;/a&gt; has propose a quick-and-dirty way to measure quality of academic scientist’s output. His method is explained and studied in a &lt;a href=&#34;http://arxiv.org/abs/physics/0508025&#34;&gt;paper to be published&lt;/a&gt; in the November 15 issue of PNAS. The idea is very simple and it is called the h-index. This number relies on the number of citations our papers have. In particular the h-index is the maximum number &lt;em&gt;h&lt;/em&gt; that verifies the following: at least h of papers of an author have h citations each. The method to calculate the number is fast (via the &lt;a href=&#34;http://isiknowledge.com/&#34;&gt;Thomson ISI Web of Science database&lt;/a&gt;) and he claims can tell apart good professional careers from a lifetime of mediocre work skewed by one or two highly cite papers. Let’s run the numbers to see how some people in the statistical physics community does:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  * **P.G. de Gennes**, 83, a Noble laureate. The paper by Hirsch miscalculates his h-index, probably because de Gennes appears as PG deGennes, PGD Gennes and PG de Gennes in the list of authors.
+  * **H.E. Stanley**, 79. Boltzman medal. impressive.
+  * **G. Parisi**, 74. The famous Kardar-Parisi-Zhang paper gets 1980 citations! G. Parisi have quite a lot of papers in high-energy with a lot of citations each as well
+  * **J.L. Lebowitz**, 65. Boltzman medal
+  * B. Widom, 41
+  * J-P. Bouchaud, 40
+  * A.L. Barabasi, 39
+  * M. Kardar, 39. Boltzman medal
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Note however that the h-index obviously depends on the numbers of years of scientific career. I forecast that part of the success of the h-index will be that is publicly available and thus scientists can compare themselves to their collegues. However, different scientific fields have different publication frequencies and different average number of citations, making the comparison a little bit difficult even across subdisciplines.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

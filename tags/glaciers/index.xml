@@ -1,19 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>glaciers on </title>
+    <title>Glaciers on </title>
     <link>https://estebanmoro.org/tags/glaciers/</link>
-    <description>Recent content in glaciers on </description>
+    <description>Recent content in Glaciers on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Wed, 21 Dec 2005 07:35:08 +0000</lastBuildDate><atom:link href="https://estebanmoro.org/tags/glaciers/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 21 Dec 2005 07:35:08 +0000</lastBuildDate>
+    
+        <atom:link href="https://estebanmoro.org/tags/glaciers/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Meet the glaciers</title>
       <link>https://estebanmoro.org/2005/12/meet-the-glaciers/</link>
       <pubDate>Wed, 21 Dec 2005 07:35:08 +0000</pubDate>
       
       <guid>https://estebanmoro.org/2005/12/meet-the-glaciers/</guid>
-      <description>I have been on holidays during the last two weeks visiting Argentina. The picture above was taken on top of the Perito Moreno glacier, which is amazing. Most glaciers we found where blueish, including the icebergs found floating in the rivers. The reason for that is that the thicker the ice or snow layer is, the better red colors are absorbed by the layer and only the blue colors are reflected (see a more detailed explanation here).</description>
+      <description>&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/img/posts/glacier.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;I have been on holidays during the last two weeks visiting Argentina. The picture above was taken on top of the &lt;a href=&#34;http://en.wikipedia.org/wiki/Perito_Moreno_Glacier&#34;&gt;Perito Moreno glacier&lt;/a&gt;, which is amazing. Most glaciers we found where blueish, including the icebergs found floating in the rivers. The reason for that is that the thicker the ice or snow layer is, the better red colors are absorbed by the layer and only the blue colors are reflected (see a more detailed explanation &lt;a href=&#34;http://webexhibits.org/causesofcolor/5C.html&#34;&gt;here&lt;/a&gt;). Ice in the freezer looks transparent or white because its thickness is small enough to make the absorption of the red colors negligible.&lt;/p&gt;
+&lt;p&gt;Perito Moreno glacier is one of the few glaciers in equilibrium: neither advancing nor retreating. Unfortunately, due to global warming, &lt;a href=&#34;http://www.geo.unizh.ch/wgms/mbb/mb04/sum04.html&#34;&gt;retreating is the norm&lt;/a&gt; and numerous glaciers have disappeared in recent years. Another unusual characteristic is that the glacier front is close to a peninsula. From time to time the glacier front touches the peninsula and both sides of the lake the glacier empties into get disconnected. The unbalance of the water levels at both sides of the lake makes the water to percolate underneath the front creating a ice bridge between the peninsula and the glacier front. This bridge inevitably collapse in a phenomenon name “la ruptura” (rupture). The last to happen was in March 2004 and &lt;a href=&#34;http://dude.uibk.ac.at/Projects/Patagonia/LakeDamming/&#34;&gt;it is a spectacular sight&lt;/a&gt;.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

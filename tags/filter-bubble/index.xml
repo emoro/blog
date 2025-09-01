@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Filter Bubble on </title>
@@ -6,16 +5,22 @@
     <description>Recent content in Filter Bubble on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Wed, 12 Dec 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://estebanmoro.org/tags/filter-bubble/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 12 Dec 2018 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://estebanmoro.org/tags/filter-bubble/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>La burbuja política o cómo las redes multiplican la colisión entre quienes piensan distinto</title>
-      <link>https://estebanmoro.org/post/2018-12-12-la-burbuja-poli%CC%81tica-o-co%CC%81mo-las-redes-multiplican-la-colisio%CC%81n-entre-quienes-piensan-distinto/</link>
+      <link>https://estebanmoro.org/post/2018-12-12-la-burbuja-pol%C3%ADtica-o-c%C3%B3mo-las-redes-multiplican-la-colisi%C3%B3n-entre-quienes-piensan-distinto/</link>
       <pubDate>Wed, 12 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://estebanmoro.org/post/2018-12-12-la-burbuja-poli%CC%81tica-o-co%CC%81mo-las-redes-multiplican-la-colisio%CC%81n-entre-quienes-piensan-distinto/</guid>
-      <description>Article in the spanish newspaper La Vanguardia about how social media is increasing polarization and radicalization in political opinion. With a quote to my opinion on this.
-La burbuja política o cómo las redes multiplican la colisión entre quienes piensan distinto
- Para Esteban Moro, investigador del Instituto de Tecnología de Massachusetts (MIT) y de la Universidad Carlos III, este trabajo “confirma lo que ya sabíamos acerca del efecto de partidismo o cámaras de eco.</description>
+      <guid>https://estebanmoro.org/post/2018-12-12-la-burbuja-pol%C3%ADtica-o-c%C3%B3mo-las-redes-multiplican-la-colisi%C3%B3n-entre-quienes-piensan-distinto/</guid>
+      <description>&lt;p&gt;Article in the spanish newspaper &lt;em&gt;La Vanguardia&lt;/em&gt; about how social media is increasing polarization and radicalization in political opinion. With a quote to my opinion on this.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.lavanguardia.com/politica/20181209/453445541336/papel-redes-sociales-radicalizacion-politica-discrepancias-twitter.html&#34;&gt;La burbuja política o cómo las redes multiplican la colisión entre quienes piensan distinto&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Para Esteban Moro, investigador del Instituto de Tecnología de Massachusetts (MIT) y de la Universidad Carlos III, este trabajo “confirma lo que ya sabíamos acerca del efecto de partidismo o cámaras de eco. Sólo nos relacionamos e interactuamos con gente que piensa como nosotros, como ocurre en la vida real”. El problema, destaca este matemático, es que esa polarización “se ve aún más exacerbada ahora en el contexto político actual e impide el debate”.&lt;/p&gt;&lt;/blockquote&gt;
+</description>
     </item>
     
   </channel>

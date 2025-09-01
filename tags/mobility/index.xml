@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mobility on </title>
@@ -6,16 +5,25 @@
     <description>Recent content in Mobility on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Wed, 26 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://estebanmoro.org/tags/mobility/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 26 Feb 2025 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://estebanmoro.org/tags/mobility/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Using human mobility data to quantify experienced urban inequalities</title>
       <link>https://estebanmoro.org/post/2025-02-26-using-human-mobility-data-to-quantify-experienced-urban-inequalities/</link>
       <pubDate>Wed, 26 Feb 2025 00:00:00 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2025-02-26-using-human-mobility-data-to-quantify-experienced-urban-inequalities/</guid>
-      <description>Authors: Fengli Xu, Qi Wang, Esteban Moro, Arianna Salazar Miranda, Marta C. González, Chaoming Song, Carlo Ratti, Luis Bettencourt, James Evans
-Publication: Nature Human Behavior (2025) LINK
-Abstract: The lived experience of urban life is shaped by personal mobility through dynamic relationships and resources, marked not only by access and opportunity, but also inequality and segregation. The recent availability of fine-grained mobility data and context attributes ranging from venue type to demographic mixture offer researchers a deeper understanding of experienced inequalities at scale, and pose many new questions.</description>
+      <description>
+
+
+&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Fengli Xu, Qi Wang, Esteban Moro, Arianna Salazar Miranda, Marta C. González, Chaoming Song, Carlo Ratti, Luis Bettencourt, James Evans&lt;br&gt;
+&lt;em&gt;Publication&lt;/em&gt;: Nature Human Behavior (2025) &lt;strong&gt;&lt;a href=&#34;https://www.nature.com/articles/s41562-024-02079-0&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; The lived experience of urban life is shaped by personal mobility through dynamic relationships and resources, marked not only by access and opportunity, but also inequality and segregation. The recent availability of fine-grained mobility data and context attributes ranging from venue type to demographic mixture offer researchers a deeper understanding of experienced inequalities at scale, and pose many new questions. Here we review emerging uses of urban mobility behaviour data, and propose an analytic framework to represent mobility patterns as a temporal bipartite network between people and places. As this network reconfigures over time, analysts can track experienced inequality along three critical dimensions: social mixing with others from specific demographic backgrounds, access to different types of facilities, and spontaneous adaptation to unexpected events, such as epidemics, conflicts or disasters. This framework traces the dynamic, lived experiences of urban inequality and complements prior work on static inequalities experience at home and work.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Media&lt;/strong&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -24,8 +32,14 @@ Abstract: The lived experience of urban life is shaped by personal mobility thro
       <pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2025-02-26-human-mobility-is-well-described-by-closed-form-gravity-like-models-learned-automatically-from-data/</guid>
-      <description>Authors: Oriol Cabanas-Tirapu, Lluís Danús, Esteban Moro, Marta Sales-Pardo &amp;amp; Roger Guimerà Publication: Nature Communications 16, 1336 (2025). LINK
-Abstract: Modeling human mobility is critical to address questions in urban planning, sustainability, public health, and economic development. However, our understanding and ability to model flows between urban areas are still incomplete. At one end of the modeling spectrum we have gravity models, which are easy to interpret but provide modestly accurate predictions of flows.</description>
+      <description>
+
+
+&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Oriol Cabanas-Tirapu, Lluís Danús, Esteban Moro, Marta Sales-Pardo &amp;amp; Roger Guimerà &lt;br&gt;
+&lt;em&gt;Publication&lt;/em&gt;: Nature Communications 16, 1336 (2025). &lt;strong&gt;&lt;a href=&#34;https://www.nature.com/articles/s41467-025-56495-5&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Modeling human mobility is critical to address questions in urban planning, sustainability, public health, and economic development. However, our understanding and ability to model flows between urban areas are still incomplete. At one end of the modeling spectrum we have gravity models, which are easy to interpret but provide modestly accurate predictions of flows. At the other end, we have machine learning models, with tens of features and thousands of parameters, which predict mobility more accurately than gravity models but do not provide clear insights on human behavior. Here, we show that simple machine-learned, closed-form models of mobility can predict mobility flows as accurately as complex machine learning models, and extrapolate better. Moreover, these models are simple and gravity-like, and can be interpreted similarly to standard gravity models. These models work for different datasets and at different scales, suggesting that they may capture the fundamental universal features of human mobility.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Media&lt;/strong&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -34,8 +48,16 @@ Abstract: Modeling human mobility is critical to address questions in urban plan
       <pubDate>Tue, 16 Jul 2024 00:00:00 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2024-07-15-enhancing-human-mobility-research-with-open-and-standardized-datasets/</guid>
-      <description>Authors: Takahiro Yabe, Massimiliano Luca, Kota Tsubouchi, Bruno Lepri, Marta C. Gonzalez &amp;amp; Esteban Moro Publication: Nature Computational Science (2024). doi: 10.1038/s43588-024-00650-3 LINK
-Abstract: Human mobility research intersects with various disciplines, with profound implications for urban planning, transportation engineering, public health, disaster management, and economic analysis. Here, we discuss the urgent need for open and standardized datasets in the field, including current challenges and lessons from other computational science domains, and propose collaborative efforts to enhance the validity and reproducibility of human mobility research.</description>
+      <description>
+
+
+&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Takahiro Yabe, Massimiliano Luca, Kota Tsubouchi, Bruno Lepri, Marta C. Gonzalez &amp;amp; Esteban Moro
+&lt;br&gt;
+&lt;em&gt;Publication&lt;/em&gt;: Nature Computational Science (2024). doi: 10.1038/s43588-024-00650-3 &lt;strong&gt;&lt;a href=&#34;https://doi.org/10.1038/s43588-024-00650-3&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Human mobility research intersects
+with various disciplines, with profound implications for urban planning, transportation engineering, public health, disaster management, and economic analysis. Here, we discuss the urgent need for open and standardized datasets in the field, including current challenges and lessons from other computational science domains, and propose collaborative efforts to enhance the validity and reproducibility of human mobility research.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Media&lt;/strong&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -44,8 +66,18 @@ Abstract: Human mobility research intersects with various disciplines, with prof
       <pubDate>Sat, 23 Mar 2024 00:00:00 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2024-03-23-infrequent-activities-predict-economic-outcomes-in-major-american-cities/</guid>
-      <description>Authors: Shenhao Wang, Yunhan Zheng, Guang Wang, Takahiro Yabe, Esteban Moro &amp;amp; Alex ‘Sandy’ Pentland Publication: Nature Cities 10.1038/s44284-024-00051-7. LINK
-Abstract: Many studies have revealed the predictive power of the most frequent, regular and habitual mobility patterns. However, it remains unclear which components of the mobility patterns contain the most informative signals for predicting disparate economic development across urban areas. Here we use machine learning to predict economic outcomes by analyzing the heterogeneous mobility networks of 687 activities from more than 560,000 anonymized users in Boston, Chicago and Miami.</description>
+      <description>
+
+
+&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Shenhao Wang, Yunhan Zheng, Guang Wang, Takahiro Yabe, Esteban Moro &amp;amp; Alex ‘Sandy’ Pentland
+&lt;br&gt;
+&lt;em&gt;Publication&lt;/em&gt;: Nature Cities 10.1038/s44284-024-00051-7. &lt;strong&gt;&lt;a href=&#34;https://doi.org/10.1038/s44284-024-00051-7&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Many studies have revealed the predictive power of the most frequent, regular and habitual mobility patterns. However, it remains unclear which components of the mobility patterns contain the most informative signals for predicting disparate economic development across urban areas. Here we use machine learning to predict economic outcomes by analyzing the heterogeneous mobility networks of 687 activities from more than 560,000 anonymized users in Boston, Chicago and Miami. We find that mobility patterns are highly predictive of the current and future economic development in major American cities but, surprisingly, the high predictive power is concentrated on infrequent, irregular and exploratory activities. These predictive activities account for only less than 2% of total visits but successfully explain more than 50% of variation in economic outcomes. Future research should shift more attention from regular visits to irregular activities, and policymakers could leverage these infrequent yet informative activities to manage urban economic development.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Media&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://news.ufl.edu/2024/03/urban-economy-exploration/&#34;&gt;Exploration – not work – explains cities’ economic fortunes&lt;/a&gt; University of Florida News.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -54,9 +86,19 @@ Abstract: Many studies have revealed the predictive power of the most frequent, 
       <pubDate>Thu, 14 Mar 2024 00:00:00 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2022-09-22-you-are-where-you-eat-effect-of-mobile-food-environments-on-fast-food-visits/</guid>
-      <description>Authors: Bernardo Garcia-Bulle, Abigail L. Horn, Brooke M. Bell, Mohsen Bahrami, Burcin Bozkaya, Alex Pentland, Kayla de la Haye, and Esteban Moro
-Publication: Nature Communications 15, article number: 2291. LINK
-Abstract: Poor diets are a leading cause of morbidity and mortality. Exposure to low-quality food environments saturated with fast food outlets is hypothesized to negatively impact diet. However, food environment research has predominantly focused on static food environments around home neighborhoods and generated mixed findings.</description>
+      <description>
+
+
+&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Bernardo Garcia-Bulle, Abigail L. Horn, Brooke M. Bell, Mohsen Bahrami, Burcin Bozkaya, Alex Pentland, Kayla de la Haye, and Esteban Moro&lt;br&gt;
+&lt;em&gt;Publication&lt;/em&gt;: Nature Communications &lt;strong&gt;15&lt;/strong&gt;, article number: 2291. &lt;strong&gt;&lt;a href=&#34;https://www.nature.com/articles/s41467-024-46425-2&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Poor diets are a leading cause of morbidity and mortality. Exposure to low-quality food environments saturated with fast food outlets is hypothesized to negatively impact diet. However, food environment research has predominantly focused on static food environments around home neighborhoods and generated mixed findings. In this work, we leverage population-scale mobility data in the U.S. to examine 62M people’s visits to food outlets and evaluate how food choice is influenced by the food environments people are exposed to as they move through their daily routines. We find that a 10% increase in exposure to fast food outlets in mobile environments increases individuals’ odds of visitation by 20%. Using our results, we simulate multiple policy strategies for intervening on food environments to reduce fast-food outlet visits. This analysis suggests that optimal interventions are informed by spatial, temporal, and behavioral features and could have 2x to 4x larger effect than traditional interventions focused on home food environments.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Media&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://news.northeastern.edu/2024/03/15/fast-food-location-health-impact/&#34;&gt;Efforts to limit fast-food near homes need rethinking&lt;/a&gt;, Northeastern Global News.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.news-medical.net/news/20240318/Study-reveals-daily-food-environment-exposure-shapes-fast-food-habits.aspx&#34;&gt;Study reveals daily food environment exposure shapes fast food habits&lt;/a&gt; News Medical&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://dornsife.usc.edu/news/stories/fast-food-choices-revealed-by-smartphone-data/&#34;&gt;New research shows “you are what… or rather… where you eat”&lt;/a&gt; USC Dornsife News and Events&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -65,10 +107,19 @@ Abstract: Poor diets are a leading cause of morbidity and mortality. Exposure to
       <pubDate>Sun, 19 Nov 2023 00:00:00 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2023-11-20-the-unequal-effects-of-the-health-economy-trade-off-during-the-covid-19-pandemic/</guid>
-      <description>Authors: Marco Pangallo, Alberto Aleta, R. Maria del Rio-Chanona, Anton Pichler, David Martin-Corral, Matteo Chinazzi, Francois Lafond, Marco Ajelli, Esteban Moro, Yamir Moreno, Alessandro Vespignani, J. Doyne Farmer
-Publication: Nature Human Behavior, Nov 16th, (2023)
-LINK
-Abstract: Despite the global impact of the coronavirus disease 2019 pandemic, the question of whether mandated interventions have similar economic and public health effects as spontaneous behavioural change remains unresolved. Addressing this question, and understanding differential effects across socioeconomic groups, requires building quantitative and fine-grained mechanistic models.</description>
+      <description>
+
+
+&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Marco Pangallo, Alberto Aleta, R. Maria del Rio-Chanona, Anton Pichler, David Martin-Corral, Matteo Chinazzi, Francois Lafond, Marco Ajelli, Esteban Moro, Yamir Moreno, Alessandro Vespignani, J. Doyne Farmer&lt;br&gt;
+&lt;em&gt;Publication&lt;/em&gt;: Nature Human Behavior, Nov 16th, (2023)&lt;br&gt; &lt;strong&gt;&lt;a href=&#34;https://www.nature.com/articles/s41562-023-01747-x&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Despite the global impact of the coronavirus disease 2019 pandemic, the question of whether mandated interventions have similar economic and public health effects as spontaneous behavioural change remains unresolved. Addressing this question, and understanding differential effects across socioeconomic groups, requires building quantitative and fine-grained mechanistic models. Here we introduce a data-driven, granular, agent-based model that simulates epidemic and economic outcomes across industries, occupations and income levels. We validate the model by reproducing key outcomes of the first wave of coronavirus disease 2019 in the New York metropolitan area. The key mechanism coupling the epidemic and economic modules is the reduction in consumption due to fear of infection. In counterfactual experiments, we show that a similar trade-off between epidemic and economic outcomes exists both when individuals change their behaviour due to fear of infection and when non-pharmaceutical interventions are imposed. Low-income workers, who perform in-person occupations in customer-facing industries, face the strongest trade-off.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Media&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.ox.ac.uk/news/2023-11-17-epidemic-economic-model-provides-answers-key-pandemic-policy-questions&#34;&gt;Epidemic-economic model provides answers to key pandemic policy questions&lt;/a&gt;, News &amp;amp; Events, University of Oxford&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://socialsciences.nature.com/posts/the-unequal-effects-of-the-health-economy-tradeoff-during-the-covid-19-pandemic&#34;&gt;The unequal effects of the health-economy tradeoff during the COVID-19 pandemic&lt;/a&gt;, Behavioral and Social Sciences at Nature Research.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://ssrc.mit.edu/epidemic-economic-model-provides-answers-to-key-pandemic-policy-questions/&#34;&gt;Epidemic-economic model provides answers to key pandemic policy questions&lt;/a&gt;, MIT SSRC NEWS.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -77,10 +128,20 @@ Abstract: Despite the global impact of the coronavirus disease 2019 pandemic, th
       <pubDate>Sat, 18 Nov 2023 00:00:00 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2023-11-20-population-mobility-data-provides-meaningful-indicators-of-fast-food-intake-and-diet-related-diseases-in-diverse-populations/</guid>
-      <description>Authors: Abigail L. Horn, Brooke M. Bell, Bernardo Garcia Bulle Bueno, Mohsen Bahrami, Burcin Bozkaya, Yan Cui, John P. Wilson, Alex Pentland, Esteban Moro, Kayla de la Haye
-Publication: NPJ Digital Medicine 6, 208 (2023)
-LINK
-Abstract: The characteristics of food environments people are exposed to, such as the density of fast food (FF) outlets, can impact their diet and risk for diet-related chronic disease. Previous studies examining the relationship between food environments and nutritional health have produced mixed findings, potentially due to the predominant focus on static food environments around people’s homes.</description>
+      <description>
+
+
+&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Abigail L. Horn, Brooke M. Bell, Bernardo Garcia Bulle Bueno, Mohsen Bahrami, Burcin Bozkaya, Yan Cui, John P. Wilson, Alex Pentland, Esteban Moro, Kayla de la Haye&lt;br&gt;
+&lt;em&gt;Publication&lt;/em&gt;: NPJ Digital Medicine &lt;strong&gt;6&lt;/strong&gt;, 208 (2023)&lt;br&gt; &lt;strong&gt;&lt;a href=&#34;https://www.nature.com/articles/s41746-023-00949-x&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; The characteristics of food environments people are exposed to, such as the density of fast food (FF) outlets, can impact their diet and risk for diet-related chronic disease. Previous studies examining the relationship between food environments and nutritional health have produced mixed findings, potentially due to the predominant focus on static food environments around people’s homes. As smartphone ownership increases, large-scale data on human mobility (i.e., smartphone geolocations) represents a promising resource for studying dynamic food environments that people have access to and visit as they move throughout their day. This study investigates whether mobility data provides meaningful indicators of diet, measured as FF intake, and diet-related disease, evaluating its usefulness for food environment research. Using a mobility dataset consisting of 14.5 million visits to geolocated food outlets in Los Angeles County (LAC) across a representative sample of 243,644 anonymous and opted-in adult smartphone users in LAC, we construct measures of visits to FF outlets aggregated over users living in neighborhood. We find that the aggregated measures strongly and significantly correspond to self-reported FF intake, obesity, and diabetes in a diverse, representative sample of 8,036 LAC adults included in a population health survey carried out by the LAC Department of Public Health. Visits to FF outlets were a better predictor of individuals’ obesity and diabetes than their self-reported FF intake, controlling for other known risks. These findings suggest mobility data represents a valid tool to study people’s use of dynamic food environments and links to diet and health.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Media&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://viterbischool.usc.edu/news/2023/11/are-you-at-risk-for-diet-related-disease-where-you-spend-your-day-plays-a-role/&#34;&gt;Are You at Risk for Diet-Related Disease? Where You Spend Your Day Plays a Role&lt;/a&gt; USC Viterbi News.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://interestingengineering.com/innovation/smartphone-location-data-used-to-evaluate-risk-of-diet-related-disease&#34;&gt;Smartphone location data used to evaluate risk of diet-related disease&lt;/a&gt;, Interesting Engineering.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.techtimes.com/articles/299261/20231129/smartphones-help-evaluate-diet-related-diseases-users-location-study.htm&#34;&gt;Smartphones Can Help Evaluate Diet-Related Diseases, All Based on a User’s Location, Study Suggests&lt;/a&gt;, Tech Times.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://ustimespost.com/smartphone-data-reveals-link-between-fast-food-outlets-and-diet-related-illnesses/&#34;&gt;Smartphone data reveals link between fast food outlets and diet-related illnesses&lt;/a&gt; US Times Post.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -89,8 +150,13 @@ Abstract: The characteristics of food environments people are exposed to, such a
       <pubDate>Thu, 18 May 2023 00:00:00 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2022-11-28-identifying-latent-activity-behaviors-and-lifestyles-using-mobility-data-to-describe-urban-dynamics/</guid>
-      <description>Authors: Yanni Yang, Alex Pentland, Esteban Moro Publication: EPJ Data Science 12, Article number: 15 (2023) LINK
-Abstract: Urbanization and its problems require an in-depth and comprehensive understanding of urban dynamics, especially the complex and diversified lifestyles in modern cities. Digitally acquired data can accurately capture complex human activity, but it lacks the interpretability of demographic data. In this paper, we study a privacy-enhanced dataset of the mobility visitation patterns of 1.</description>
+      <description>
+
+
+&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Yanni Yang, Alex Pentland, Esteban Moro &lt;br&gt;
+&lt;em&gt;Publication&lt;/em&gt;: EPJ Data Science &lt;strong&gt;12&lt;/strong&gt;, Article number: 15 (2023) &lt;strong&gt;&lt;a href=&#34;https://epjdatascience.springeropen.com/articles/10.1140/epjds/s13688-023-00390-w&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Urbanization and its problems require an in-depth and comprehensive understanding of urban dynamics, especially the complex and diversified lifestyles in modern cities. Digitally acquired data can accurately capture complex human activity, but it lacks the interpretability of demographic data. In this paper, we study a privacy-enhanced dataset of the mobility visitation patterns of 1.2 million people to 1.1 million places in 11 metro areas in the U.S. to detect the latent mobility behaviors and lifestyles in the largest American cities. Despite the considerable complexity of mobility visitations, we found that lifestyles can be automatically decomposed into only 12 latent interpretable activity behaviors on how people combine shopping, eating, working, or using their free time. Rather than describing individuals with a single lifestyle, we find that city dwellers’ behavior is a mixture of those behaviors. Those detected latent activity behaviors are equally present across cities and cannot be fully explained by main demographic features. Finally, we find those latent behaviors are associated with dynamics like experienced income segregation, transportation, or healthy behaviors in cities, even after controlling for demographic features. Our results signal the importance of complementing traditional census data with activity behaviors to understand urban dynamics.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -99,9 +165,26 @@ Abstract: Urbanization and its problems require an in-depth and comprehensive un
       <pubDate>Fri, 21 Apr 2023 00:00:00 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2023-04-21-behavioral-changes-during-the-covid-19-pandemic-decreased-income-diversity-of-urban-encounters/</guid>
-      <description>Authors: Takahiro Yabe, Bernardo García Bulle Bueno, Xiaowen Dong, Alex Pentland &amp;amp; Esteban Moro
-Publication: Nature Communications volume 14, Article number: 2310 (2023) LINK
-Abstract: Diversity of physical encounters in urban environments is known to spur economic productivity while also fostering social capital. However, mobility restrictions during the pandemic have forced people to reduce urban encounters, raising questions about the social implications of behavioral changes. In this paper, we study how individual income diversity of urban encounters changed during the pandemic, using a large-scale, privacy-enhanced mobility dataset of more than one million anonymized mobile phone users in Boston, Dallas, Los Angeles, and Seattle, across three years spanning before and during the pandemic.</description>
+      <description>
+
+
+&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Takahiro Yabe, Bernardo García Bulle Bueno, Xiaowen Dong, Alex Pentland &amp;amp; Esteban Moro&lt;br&gt;
+&lt;em&gt;Publication&lt;/em&gt;: Nature Communications volume 14, Article number: 2310 (2023) &lt;br&gt; &lt;strong&gt;&lt;a href=&#34;https://www.nature.com/articles/s41467-023-37913-y&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Diversity of physical encounters in urban environments is known to spur economic productivity while also fostering social capital. However, mobility restrictions during the pandemic have forced people to reduce urban encounters, raising questions about the social implications of behavioral changes. In this paper, we study how individual income diversity of urban encounters changed during the pandemic, using a large-scale, privacy-enhanced mobility dataset of more than one million anonymized mobile phone users in Boston, Dallas, Los Angeles, and Seattle, across three years spanning before and during the pandemic. We find that the diversity of urban encounters has substantially decreased (by 15% to 30%) during the pandemic and has persisted through late 2021, even though aggregated mobility metrics have recovered to pre-pandemic levels. Counterfactual analyses show that behavioral changes including lower willingness to explore new places further decreased the diversity of encounters in the long term. Our findings provide implications for managing the trade-off between the stringency of COVID-19 policies and the diversity of urban encounters as we move beyond the pandemic.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Media&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://news.mit.edu/2023/study-covid-19-reduced-diverse-urban-interactions-0428&#34;&gt;Study: Covid-19 has reduced diverse urban interactions&lt;/a&gt;, MIT News.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.techexplorist.com/comparative-study-urban-interactions-before-after-covid-19/59561/?utm_source=rss&amp;amp;utm_medium=rss&amp;amp;utm_campaign=comparative-study-urban-interactions-before-after-covid-19&#34;&gt;A comparative study of urban interactions before and after covid-19&lt;/a&gt; Tech Explorist.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://phys.org/news/2023-04-mobility-related-pandemic-limited-breadth-people.html&#34;&gt;Mobility-related data show the pandemic has limited the breadth of places people visit in cities&lt;/a&gt;, Phys.org.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.bostonglobe.com/2023/05/10/opinion/covid-reduced-wealthy-poor-interactions&#34;&gt;COVID made us retreat into our corners. A worrisome new study says we haven’t left them&lt;/a&gt;, Boston Globe&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://eng.ox.ac.uk/news/covid-19-has-reduced-diverse-urban-interactions/&#34;&gt;Covid-19 has reduced diverse urban interactions&lt;/a&gt; University of Oxford.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://socialsciences.nature.com/posts/covid-19-has-reduced-diverse-urban-interactions&#34;&gt;Behind the paper: COVID-19 reduced diverse urban interactions&lt;/a&gt; Behavioral and Social Sciences at Nature Portfolio.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.bloomberg.com/news/articles/2023-05-18/residents-of-us-cities-are-stuck-in-post-pandemic-socialization-rut&#34;&gt;Americans Have Become Less Willing to Explore Their Own Cities&lt;/a&gt; CityLab Bloomberg.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.fox4news.com/news/americans-are-not-exploring-their-own-cities-like-they-used-to-study-says&#34;&gt;Americans are not exploring their own cities like they used to, study says&lt;/a&gt;, Fox 4 News&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.seattletimes.com/seattle-news/in-seattle-were-seeing-the-splitting-of-a-city/&#34;&gt;In Seattle, we’re seeing the splitting of a city&lt;/a&gt;, The Seattle Times.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.geekwire.com/2023/study-shows-how-pandemic-decreased-income-diversity-of-urban-encounters-even-after-lockdowns/&#34;&gt;Study shows how pandemic decreased income diversity of urban encounters, even after lockdowns&lt;/a&gt;, Geek Wire.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -110,8 +193,11 @@ Abstract: Diversity of physical encounters in urban environments is known to spu
       <pubDate>Sat, 31 Jul 2021 00:00:00 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2021-07-31-mobility-patterns-are-associated-with-experienced-income-segregation-in-large-us-cities/</guid>
-      <description>Authors: Esteban Moro, Dan Calacci, Xiaowen Dong &amp;amp; Alex Pentland. Publication: Nature Communications 12, 4633 (2021). Link
-Abstract: Traditional understanding of urban income segregation is largely based on static coarse grained residential patterns. However, these do not capture the income segregation experience implied by the rich social interactions that happen in places that may relate to individual choices, opportunities, and mobility behavior. Using a large-scale high-resolution mobility data set of 4.</description>
+      <description>&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Esteban Moro, Dan Calacci, Xiaowen Dong &amp;amp; Alex Pentland.
+&lt;em&gt;Publication&lt;/em&gt;: Nature Communications 12, 4633 (2021). &lt;strong&gt;&lt;a href=&#34;https://www.nature.com/articles/s41467-021-24899-8&#34;&gt;Link&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Traditional understanding of urban income segregation is largely based on static coarse grained residential patterns. However, these do not capture the income segregation experience implied by the rich social interactions that happen in places that may relate to individual choices, opportunities, and mobility behavior. Using a large-scale high-resolution mobility data set of 4.5 million mobile phone users and 1.1 million places in 11 large American cities, we show that income segregation experienced in places and by individuals can differ greatly even within close spatial proximity. To further understand these ﬁne-grained income segregation patterns, we introduce a Schelling extension of a well-known mobility model, and show that experienced income segregation is associated with an individual’s tendency to explore new places (place exploration) as well as places with visitors from different income groups (social exploration). Interestingly, while the latter is more strongly associated with demographic characteristics, the former is more strongly associated with mobility behavioral variables. Our results suggest that mobility behavior plays an important role in experienced income segregation of individuals. To measure this form of income segregation, urban researchers should take into account mobility behavior and not only residential patterns.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Media:&lt;/strong&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -120,7 +206,562 @@ Abstract: Traditional understanding of urban income segregation is largely based
       <pubDate>Mon, 19 Oct 2020 00:00:00 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2020-10-19-personal-art-map-with-r/</guid>
-      <description>Map art makes beautiful posters. You can find them all over the internet and buy them even framed for your favorite city, area or country. Those posters&#39; beauty relies on the intricate and beautiful pattern of roads, buildings, parks, rivers, etc., which shape our cities and our mobility. In my research I constantly use those maps as the hardware fabric in which humans interact, move or encounter in urban settings.</description>
+      <description>&lt;script src=&#34;https://estebanmoro.org/rmarkdown-libs/kePrint/kePrint.js&#34;&gt;&lt;/script&gt;
+&lt;link href=&#34;https://estebanmoro.org/rmarkdown-libs/lightable/lightable.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;p&gt;Map art makes beautiful posters. You can find &lt;a href=&#34;https://www.google.com/search?q=map+art&amp;amp;client=safari&amp;amp;rls=en&amp;amp;sxsrf=ALeKk01Ce8a8IaqjUQbnAyamSAgqbV6hPg:1603129236599&amp;amp;source=lnms&amp;amp;tbm=isch&amp;amp;sa=X&amp;amp;ved=2ahUKEwiakrTlmcHsAhUGWN8KHbBiBV0Q_AUoAnoECA0QBA&amp;amp;biw=1324&amp;amp;bih=969&#34;&gt;them all over the internet&lt;/a&gt; and buy them even framed for your favorite city, area or country. Those posters&amp;rsquo; beauty relies on the intricate and beautiful pattern of roads, buildings, parks, rivers, etc., which shape our cities and our mobility. In my &lt;a href=&#34;https://inequality.media.mit.edu&#34;&gt;research&lt;/a&gt; I constantly use those maps as the hardware fabric in which humans interact, move or encounter in urban settings. However, we found that each of us has a distinct mobility pattern around cities, so even people living in the same neighborhood experience the city in a different way.&lt;/p&gt;
+&lt;p&gt;For my map art, I wanted to create something more personal: a combination of those beautiful street maps with personal mobility. That is, the city and how we navigate it. In this tutorial, you&amp;rsquo;ll learn how to create those street maps for your city and your mobility. We will use data from &lt;a href=&#34;https://www.openstreetmap.org/&#34;&gt;Open Street Maps&lt;/a&gt; (OSM) and, of course, &lt;code&gt;R&lt;/code&gt;. We will also use personal mobility data, which you can input manually. Still, we will learn too how to get it from Google Maps Timeline (if you have your location activated). Part of the material here is based on the &lt;a href=&#34;https://ggplot2tutor.com/author&#34;&gt;tutorial by Christian Burkhart&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;creating-the-streetmap&#34;&gt;Creating the streetmap&lt;/h2&gt;
+&lt;p&gt;The first thing will be to get a beautiful map of a given city&amp;rsquo;s streets and boundaries. In this case, Boston, the place where I live. To download the streets, we use the &lt;code&gt;osmdata&lt;/code&gt; package to query OSM. First, we define our bounding box, i.e. the area where we are going to query OSM:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;library&lt;/span&gt;(osmdata)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;bbx &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;getbb&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Boston, MA&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;But sometimes you want a more specific area, and you can create your own bounding box:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;min_lon &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;-71.28735&lt;/span&gt;; max_lon &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;-70.900578&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;min_lat &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;42.245838&lt;/span&gt;; max_lat &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;42.453673&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;bbx &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;rbind&lt;/span&gt;(x&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;c&lt;/span&gt;(min_lon,max_lon),y&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;c&lt;/span&gt;(min_lat,max_lat))
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;colnames&lt;/span&gt;(bbx) &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;c&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;min&amp;#34;&lt;/span&gt;,&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;max&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;OSM data has many layers (or &amp;ldquo;features&amp;rdquo;). You can find them &lt;a href=&#34;https://wiki.openstreetmap.org/wiki/Map_Features&#34;&gt;here&lt;/a&gt;. They go from railways, vegetation to streets or points of interest. Let&amp;rsquo;s see how many of them are related to &lt;code&gt;highway&lt;/code&gt;.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;available_tags&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;highway&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;## # A tibble: 53 × 2
+##    Key     Value                 
+##    &amp;lt;chr&amp;gt;   &amp;lt;chr&amp;gt;                 
+##  1 highway bridleway             
+##  2 highway bus_guideway          
+##  3 highway bus_stop              
+##  4 highway busway                
+##  5 highway construction          
+##  6 highway corridor              
+##  7 highway crossing              
+##  8 highway cycleway              
+##  9 highway elevator              
+## 10 highway emergency_access_point
+## # ℹ 43 more rows
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;They are a lot of them, but the main ones are &lt;code&gt;motorway&lt;/code&gt;, &lt;code&gt;trunk&lt;/code&gt;, &lt;code&gt;primary&lt;/code&gt;, &lt;code&gt;secondary&lt;/code&gt;, &lt;code&gt;tertiary&lt;/code&gt; that distinguish between highways and other roads conecting cities or small towns. Let&amp;rsquo;s collect them:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;highways &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; bbx &lt;span style=&#34;color:#f92672&#34;&gt;%&amp;gt;%&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;opq&lt;/span&gt;()&lt;span style=&#34;color:#f92672&#34;&gt;%&amp;gt;%&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;add_osm_feature&lt;/span&gt;(key &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;highway&amp;#34;&lt;/span&gt;, 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                  value&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;c&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;motorway&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;trunk&amp;#34;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                          &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;primary&amp;#34;&lt;/span&gt;,&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;secondary&amp;#34;&lt;/span&gt;, 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                          &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;tertiary&amp;#34;&lt;/span&gt;,&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;motorway_link&amp;#34;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                          &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;trunk_link&amp;#34;&lt;/span&gt;,&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;primary_link&amp;#34;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                          &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;secondary_link&amp;#34;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                          &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;tertiary_link&amp;#34;&lt;/span&gt;)) &lt;span style=&#34;color:#f92672&#34;&gt;%&amp;gt;%&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;osmdata_sf&lt;/span&gt;()
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;We have 182 lines. Let&amp;rsquo;s have a look at them. We color them according to the label &lt;code&gt;highway&lt;/code&gt;.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;require&lt;/span&gt;(sf)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;ggplot&lt;/span&gt;() &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;geom_sf&lt;/span&gt;(data &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; highways&lt;span style=&#34;color:#f92672&#34;&gt;$&lt;/span&gt;osm_lines,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          &lt;span style=&#34;color:#a6e22e&#34;&gt;aes&lt;/span&gt;(color&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;highway),
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          size &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;.4&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          alpha &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;.65&lt;/span&gt;)&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;theme_void&lt;/span&gt;()
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;https://estebanmoro.org/post/2020-10-19-personal-art-map-with-r_files/figure-html/unnamed-chunk-7-1.png&#34; width=&#34;1152&#34; /&gt;
+&lt;p&gt;But we are also going to use the small streets, pedestrian paths or living streets that connect our neighborhoods (be advised, this is a large query so you might probably want to save it for later)&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;streets &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; bbx &lt;span style=&#34;color:#f92672&#34;&gt;%&amp;gt;%&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;opq&lt;/span&gt;()&lt;span style=&#34;color:#f92672&#34;&gt;%&amp;gt;%&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;add_osm_feature&lt;/span&gt;(key &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;highway&amp;#34;&lt;/span&gt;, 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                  value &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;c&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;residential&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;living_street&amp;#34;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                            &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;service&amp;#34;&lt;/span&gt;,&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;unclassified&amp;#34;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                            &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;pedestrian&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;footway&amp;#34;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                            &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;track&amp;#34;&lt;/span&gt;,&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;path&amp;#34;&lt;/span&gt;)) &lt;span style=&#34;color:#f92672&#34;&gt;%&amp;gt;%&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;osmdata_sf&lt;/span&gt;()
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This time, we have 286 lines. Let&amp;rsquo;s have a look at them.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;ggplot&lt;/span&gt;() &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;geom_sf&lt;/span&gt;(data &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; streets&lt;span style=&#34;color:#f92672&#34;&gt;$&lt;/span&gt;osm_lines,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          &lt;span style=&#34;color:#a6e22e&#34;&gt;aes&lt;/span&gt;(color&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;highway),
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          size &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;.4&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          alpha &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;.65&lt;/span&gt;)&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;theme_void&lt;/span&gt;()
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;https://estebanmoro.org/post/2020-10-19-personal-art-map-with-r_files/figure-html/unnamed-chunk-10-1.png&#34; width=&#34;1152&#34; /&gt;
+&lt;p&gt;Those maps are already beautiful, right? You probably can see a darker area downtown Boston and Cambridge because of the larger street density there.&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s combine them and have different width for the highways and streets to highlight highways&amp;rsquo; importance. At the same time, let&amp;rsquo;s crop the streets to show only those within the bounding box.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;color_roads &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;rgb&lt;/span&gt;(&lt;span style=&#34;color:#ae81ff&#34;&gt;0.42&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;0.449&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;0.488&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;ggplot&lt;/span&gt;() &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;geom_sf&lt;/span&gt;(data &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; streets&lt;span style=&#34;color:#f92672&#34;&gt;$&lt;/span&gt;osm_lines,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          col &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; color_roads,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          size &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;.4&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          alpha &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;.65&lt;/span&gt;) &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;geom_sf&lt;/span&gt;(data &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; highways&lt;span style=&#34;color:#f92672&#34;&gt;$&lt;/span&gt;osm_lines,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          col &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; color_roads,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          size &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;.6&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          alpha &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;.8&lt;/span&gt;)&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;coord_sf&lt;/span&gt;(xlim &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;c&lt;/span&gt;(min_lon,max_lon),
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;           ylim &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;c&lt;/span&gt;(min_lat,max_lat),
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;         expand &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;FALSE&lt;/span&gt;)&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;theme&lt;/span&gt;(legend.position &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; F) &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;theme_void&lt;/span&gt;()
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;https://estebanmoro.org/post/2020-10-19-personal-art-map-with-r_files/figure-html/unnamed-chunk-11-1.png&#34; width=&#34;1152&#34; /&gt;
+&lt;h2 id=&#34;adding-the-geography&#34;&gt;Adding the geography&lt;/h2&gt;
+&lt;p&gt;Although those maps are very informative, they lack a crucial component of the geography: the land, rivers, coastlines that define our cities. In the maps of Boston above, you are probably missing the Charles River&amp;rsquo;s shape or those of the beautiful &lt;a href=&#34;https://www.bostonharborislands.org&#34;&gt;Boston Harbor Islands&lt;/a&gt;. In most maps around the internet, you will find those geographies are included using &lt;a href=&#34;https://wiki.openstreetmap.org/wiki/Tiles&#34;&gt;tiles&lt;/a&gt;, which are basically a raster layer of images with different characteristics (names of the places, POI, etc). However, since we are going to print these maps in a large format, we need a better resolution that typically those image tiles provide. Ideally, we would like vector graphics like the lines we downloaded from OSM.&lt;/p&gt;
+&lt;p&gt;Instead of using raster images, we are going to use the polygons for the different counties around the Boston Area. The US Census has an amazing service called &lt;a href=&#34;https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html&#34;&gt;Tiger&lt;/a&gt; to retrieve those boundaries in ESRI&amp;rsquo;s shapefile format. In &lt;code&gt;R&lt;/code&gt;, we can access those shapefiles using the &lt;code&gt;tigris&lt;/code&gt; package. For example, these are the counties in the state of Massachusetts for the same bounding box as before:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;require&lt;/span&gt;(tigris)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;counties_MA &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;counties&lt;/span&gt;(state&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;MA&amp;#34;&lt;/span&gt;,cb&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;T,class&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;sf&amp;#34;&lt;/span&gt;,)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;## 
+  |                                                        
+  |                                                  |   0%
+  |                                                        
+  |                                                  |   1%
+  |                                                        
+  |=                                                 |   1%
+  |                                                        
+  |=                                                 |   2%
+  |                                                        
+  |=                                                 |   3%
+  |                                                        
+  |==                                                |   3%
+  |                                                        
+  |==                                                |   4%
+  |                                                        
+  |==                                                |   5%
+  |                                                        
+  |===                                               |   6%
+  |                                                        
+  |===                                               |   7%
+  |                                                        
+  |====                                              |   7%
+  |                                                        
+  |====                                              |   8%
+  |                                                        
+  |=====                                             |   9%
+  |                                                        
+  |=====                                             |  10%
+  |                                                        
+  |======                                            |  11%
+  |                                                        
+  |======                                            |  12%
+  |                                                        
+  |==========                                        |  20%
+  |                                                        
+  |==========                                        |  21%
+  |                                                        
+  |===========                                       |  21%
+  |                                                        
+  |===========                                       |  22%
+  |                                                        
+  |===========                                       |  23%
+  |                                                        
+  |============                                      |  25%
+  |                                                        
+  |==============                                    |  28%
+  |                                                        
+  |===============                                   |  29%
+  |                                                        
+  |===============                                   |  30%
+  |                                                        
+  |===============                                   |  31%
+  |                                                        
+  |================                                  |  31%
+  |                                                        
+  |================                                  |  32%
+  |                                                        
+  |=================                                 |  33%
+  |                                                        
+  |=================                                 |  34%
+  |                                                        
+  |=================                                 |  35%
+  |                                                        
+  |===================                               |  37%
+  |                                                        
+  |=====================                             |  42%
+  |                                                        
+  |=======================                           |  45%
+  |                                                        
+  |==========================                        |  51%
+  |                                                        
+  |==========================                        |  53%
+  |                                                        
+  |===========================                       |  54%
+  |                                                        
+  |===========================                       |  55%
+  |                                                        
+  |============================                      |  56%
+  |                                                        
+  |==============================                    |  59%
+  |                                                        
+  |=================================                 |  66%
+  |                                                        
+  |=================================                 |  67%
+  |                                                        
+  |==================================                |  67%
+  |                                                        
+  |==================================                |  68%
+  |                                                        
+  |==================================                |  69%
+  |                                                        
+  |===================================               |  69%
+  |                                                        
+  |====================================              |  72%
+  |                                                        
+  |=====================================             |  75%
+  |                                                        
+  |======================================            |  75%
+  |                                                        
+  |======================================            |  76%
+  |                                                        
+  |======================================            |  77%
+  |                                                        
+  |=======================================           |  77%
+  |                                                        
+  |=======================================           |  78%
+  |                                                        
+  |========================================          |  80%
+  |                                                        
+  |========================================          |  81%
+  |                                                        
+  |=========================================         |  81%
+  |                                                        
+  |=========================================         |  82%
+  |                                                        
+  |=========================================         |  83%
+  |                                                        
+  |==========================================        |  83%
+  |                                                        
+  |==========================================        |  84%
+  |                                                        
+  |=============================================     |  89%
+  |                                                        
+  |=============================================     |  90%
+  |                                                        
+  |=============================================     |  91%
+  |                                                        
+  |==============================================    |  91%
+  |                                                        
+  |==============================================    |  92%
+  |                                                        
+  |==============================================    |  93%
+  |                                                        
+  |===============================================   |  94%
+  |                                                        
+  |================================================  |  95%
+  |                                                        
+  |================================================  |  96%
+  |                                                        
+  |================================================= |  98%
+  |                                                        
+  |================================================= |  99%
+  |                                                        
+  |==================================================| 100%
+&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;counties_MA &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;st_crop&lt;/span&gt;(counties_MA,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                       xmin&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;min_lon,xmax&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;max_lon,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                       ymin&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;min_lat,ymax&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;max_lat)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;ggplot&lt;/span&gt;() &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;geom_sf&lt;/span&gt;(data&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;counties_MA,fill&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;gray&amp;#34;&lt;/span&gt;,lwd&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;)&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;coord_sf&lt;/span&gt;(xlim &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;c&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;min&lt;/span&gt;(bbx[1,]), &lt;span style=&#34;color:#a6e22e&#34;&gt;max&lt;/span&gt;(bbx[1,])), 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;         ylim &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;c&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;min&lt;/span&gt;(bbx[2,]), &lt;span style=&#34;color:#a6e22e&#34;&gt;max&lt;/span&gt;(bbx[2,])),
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;         expand &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;FALSE&lt;/span&gt;)&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;theme&lt;/span&gt;(legend.position &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; F) &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;theme_void&lt;/span&gt;()
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;https://estebanmoro.org/post/2020-10-19-personal-art-map-with-r_files/figure-html/unnamed-chunk-12-1.png&#34; width=&#34;1152&#34; /&gt;
+&lt;p&gt;We can see the coastline and some of the Boston Harbor Islands, but the Charles River or the ponds around Boston are missing. Also, note that the resolution is very low. The &lt;code&gt;tigris&lt;/code&gt; library calls the TIGER API using the default (maximum) resolution &lt;code&gt;500k&lt;/code&gt; (1:500k), which is not enough for our high-resolution map.&lt;/p&gt;
+&lt;p&gt;To get a better geography layer we are going to carve out the shapefile of the area of water from these polygons. The water shapefiles can be also obtained from the TIGER services. Fortunately, those water lines have a much better resolution than the counties shapefiles.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;get_water &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;function&lt;/span&gt;(county_GEOID){
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;area_water&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;MA&amp;#34;&lt;/span&gt;, county_GEOID, class &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;sf&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;water &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;do.call&lt;/span&gt;(rbind, 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                 &lt;span style=&#34;color:#a6e22e&#34;&gt;lapply&lt;/span&gt;(counties_MA&lt;span style=&#34;color:#f92672&#34;&gt;$&lt;/span&gt;COUNTYFP,get_water))
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;## 
+  |                                                        
+  |                                                  |   0%
+  |                                                        
+  |===                                               |   6%
+  |                                                        
+  |=============                                     |  26%
+  |                                                        
+  |=================                                 |  33%
+  |                                                        
+  |=================                                 |  35%
+  |                                                        
+  |==============================                    |  61%
+  |                                                        
+  |==================================                |  68%
+  |                                                        
+  |==============================================    |  92%
+  |                                                        
+  |==================================================|  99%
+  |                                                        
+  |==================================================| 100%
+## 
+  |                                                        
+  |                                                  |   0%
+  |                                                        
+  |                                                  |   1%
+  |                                                        
+  |=====================                             |  42%
+  |                                                        
+  |==================================================| 100%
+## 
+  |                                                        
+  |                                                  |   0%
+  |                                                        
+  |========================                          |  48%
+  |                                                        
+  |=========================                         |  50%
+  |                                                        
+  |==================================                |  67%
+  |                                                        
+  |================================================  |  97%
+  |                                                        
+  |==================================================| 100%
+## 
+  |                                                        
+  |                                                  |   0%
+  |                                                        
+  |=                                                 |   1%
+  |                                                        
+  |==                                                |   4%
+  |                                                        
+  |=====                                             |  10%
+  |                                                        
+  |======                                            |  12%
+  |                                                        
+  |==========================                        |  52%
+  |                                                        
+  |==================================                |  68%
+  |                                                        
+  |======================================            |  76%
+  |                                                        
+  |========================================          |  81%
+  |                                                        
+  |==========================================        |  83%
+  |                                                        
+  |==============================================    |  93%
+  |                                                        
+  |================================================  |  95%
+  |                                                        
+  |==================================================| 100%
+## 
+  |                                                        
+  |                                                  |   0%
+  |                                                        
+  |===========                                       |  23%
+  |                                                        
+  |=======================                           |  46%
+  |                                                        
+  |==================================================| 100%
+&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;water &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;st_crop&lt;/span&gt;(water,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                 xmin&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;min_lon,xmax&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;max_lon,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                 ymin&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;min_lat,ymax&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;max_lat)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Let&amp;rsquo;s have a look at them:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;ggplot&lt;/span&gt;() &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;geom_sf&lt;/span&gt;(data&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;counties_MA)&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;geom_sf&lt;/span&gt;(data&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;water,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          inherit.aes &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; F,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          col&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;red&amp;#34;&lt;/span&gt;)&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;coord_sf&lt;/span&gt;(xlim &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;c&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;min&lt;/span&gt;(bbx[1,]), &lt;span style=&#34;color:#a6e22e&#34;&gt;max&lt;/span&gt;(bbx[1,])), 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;         ylim &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;c&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;min&lt;/span&gt;(bbx[2,]), &lt;span style=&#34;color:#a6e22e&#34;&gt;max&lt;/span&gt;(bbx[2,])),
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;         expand &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;FALSE&lt;/span&gt;)&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;theme&lt;/span&gt;(legend.position &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; F) &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;theme_void&lt;/span&gt;()
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;https://estebanmoro.org/post/2020-10-19-personal-art-map-with-r_files/figure-html/unnamed-chunk-14-1.png&#34; width=&#34;1152&#34; /&gt;
+&lt;p&gt;Finally, let&amp;rsquo;s carve out the water polygons from the counties polygons.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;st_erase &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;function&lt;/span&gt;(x, y) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;st_difference&lt;/span&gt;(x, &lt;span style=&#34;color:#a6e22e&#34;&gt;st_union&lt;/span&gt;(y))
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;counties_MA &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;st_erase&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;st_union&lt;/span&gt;(counties_MA),water)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;which looks like this (not showing the lines between counties)&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;ggplot&lt;/span&gt;() &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;geom_sf&lt;/span&gt;(data&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;counties_MA,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          lwd&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;)&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;coord_sf&lt;/span&gt;(xlim &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;c&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;min&lt;/span&gt;(bbx[1,]), &lt;span style=&#34;color:#a6e22e&#34;&gt;max&lt;/span&gt;(bbx[1,])), 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;         ylim &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;c&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;min&lt;/span&gt;(bbx[2,]), &lt;span style=&#34;color:#a6e22e&#34;&gt;max&lt;/span&gt;(bbx[2,])),
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;         expand &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;FALSE&lt;/span&gt;)&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;theme&lt;/span&gt;(legend.position &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; F) &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;theme_void&lt;/span&gt;()
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;https://estebanmoro.org/post/2020-10-19-personal-art-map-with-r_files/figure-html/fig.wi-1.png&#34; width=&#34;1152&#34; /&gt;
+&lt;p&gt;We can play now with the different colors for the water or land. Apart from the one above, I like these combinations (you might notice still the lines between counties. Don&amp;rsquo;t worry, they disappear when we print them in large format):&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;ggplot&lt;/span&gt;() &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;geom_sf&lt;/span&gt;(data&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;counties_MA,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          inherit.aes&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;FALSE&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          lwd&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;0.0&lt;/span&gt;,fill&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;rgb&lt;/span&gt;(&lt;span style=&#34;color:#ae81ff&#34;&gt;0.203&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;0.234&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;0.277&lt;/span&gt;))&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;coord_sf&lt;/span&gt;(xlim &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;c&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;min&lt;/span&gt;(bbx[1,]), &lt;span style=&#34;color:#a6e22e&#34;&gt;max&lt;/span&gt;(bbx[1,])), 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;         ylim &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;c&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;min&lt;/span&gt;(bbx[2,]), &lt;span style=&#34;color:#a6e22e&#34;&gt;max&lt;/span&gt;(bbx[2,])),
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;         expand &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;FALSE&lt;/span&gt;)&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;theme&lt;/span&gt;(legend.position &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; F) &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;theme_void&lt;/span&gt;()&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;theme&lt;/span&gt;(panel.background&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          &lt;span style=&#34;color:#a6e22e&#34;&gt;element_rect&lt;/span&gt;(fill &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;rgb&lt;/span&gt;(&lt;span style=&#34;color:#ae81ff&#34;&gt;0.92&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;0.679&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;0.105&lt;/span&gt;)))&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;ggtitle&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Dark + Yellow theme&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;https://estebanmoro.org/post/2020-10-19-personal-art-map-with-r_files/figure-html/unnamed-chunk-16-1.png&#34; width=&#34;1344&#34; /&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;ggplot&lt;/span&gt;() &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;geom_sf&lt;/span&gt;(data&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;counties_MA,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          inherit.aes&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;FALSE&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          lwd&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;0.0&lt;/span&gt;,fill&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;white&amp;#34;&lt;/span&gt;)&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;coord_sf&lt;/span&gt;(xlim &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;c&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;min&lt;/span&gt;(bbx[1,]), &lt;span style=&#34;color:#a6e22e&#34;&gt;max&lt;/span&gt;(bbx[1,])), 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;         ylim &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;c&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;min&lt;/span&gt;(bbx[2,]), &lt;span style=&#34;color:#a6e22e&#34;&gt;max&lt;/span&gt;(bbx[2,])),
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;         expand &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;FALSE&lt;/span&gt;)&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;theme&lt;/span&gt;(legend.position &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; F) &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;theme_void&lt;/span&gt;()&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;theme&lt;/span&gt;(panel.background&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          &lt;span style=&#34;color:#a6e22e&#34;&gt;element_rect&lt;/span&gt;(fill &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;rgb&lt;/span&gt;(&lt;span style=&#34;color:#ae81ff&#34;&gt;0.9&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;0.9&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;0.9&lt;/span&gt;)))&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;ggtitle&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Black + White theme&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;https://estebanmoro.org/post/2020-10-19-personal-art-map-with-r_files/figure-html/unnamed-chunk-17-1.png&#34; width=&#34;1344&#34; /&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;ggplot&lt;/span&gt;() &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;geom_sf&lt;/span&gt;(data&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;counties_MA,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          inherit.aes&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;FALSE&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          lwd&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;0.0&lt;/span&gt;,fill&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;rgb&lt;/span&gt;(&lt;span style=&#34;color:#ae81ff&#34;&gt;0.95&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;0.95&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;0.95&lt;/span&gt;))&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;coord_sf&lt;/span&gt;(xlim &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;c&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;min&lt;/span&gt;(bbx[1,]), &lt;span style=&#34;color:#a6e22e&#34;&gt;max&lt;/span&gt;(bbx[1,])), 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;         ylim &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;c&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;min&lt;/span&gt;(bbx[2,]), &lt;span style=&#34;color:#a6e22e&#34;&gt;max&lt;/span&gt;(bbx[2,])),
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;         expand &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;FALSE&lt;/span&gt;)&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;theme&lt;/span&gt;(legend.position &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; F) &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;theme_void&lt;/span&gt;()&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;theme&lt;/span&gt;(panel.background&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;element_rect&lt;/span&gt;(fill &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;black&amp;#34;&lt;/span&gt;))&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;ggtitle&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;White + Black theme&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;https://estebanmoro.org/post/2020-10-19-personal-art-map-with-r_files/figure-html/unnamed-chunk-18-1.png&#34; width=&#34;1344&#34; /&gt;
+&lt;h2 id=&#34;putting-geography-and-streets-together&#34;&gt;Putting geography and streets together&lt;/h2&gt;
+&lt;p&gt;Once we have the geography, we can add the streets for our final streetmap:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;ggplot&lt;/span&gt;() &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;geom_sf&lt;/span&gt;(data&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;counties_MA,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          inherit.aes&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;FALSE&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          lwd&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;0.0&lt;/span&gt;,fill&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;rgb&lt;/span&gt;(&lt;span style=&#34;color:#ae81ff&#34;&gt;0.203&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;0.234&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;0.277&lt;/span&gt;))&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;geom_sf&lt;/span&gt;(data &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; streets&lt;span style=&#34;color:#f92672&#34;&gt;$&lt;/span&gt;osm_lines,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          inherit.aes &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;FALSE&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          color&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;color_roads,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          size &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;.4&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          alpha &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;.65&lt;/span&gt;) &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;geom_sf&lt;/span&gt;(data &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; highways&lt;span style=&#34;color:#f92672&#34;&gt;$&lt;/span&gt;osm_lines,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          inherit.aes &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;FALSE&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          color&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;color_roads,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          size &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;.6&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          alpha &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;.65&lt;/span&gt;) &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;coord_sf&lt;/span&gt;(xlim &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;c&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;min&lt;/span&gt;(bbx[1,]), &lt;span style=&#34;color:#a6e22e&#34;&gt;max&lt;/span&gt;(bbx[1,])), 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;           ylim &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;c&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;min&lt;/span&gt;(bbx[2,]), &lt;span style=&#34;color:#a6e22e&#34;&gt;max&lt;/span&gt;(bbx[2,])),
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;           expand &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;FALSE&lt;/span&gt;) &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;theme&lt;/span&gt;(legend.position &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; F) &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;theme_void&lt;/span&gt;()&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;theme&lt;/span&gt;(panel.background&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          &lt;span style=&#34;color:#a6e22e&#34;&gt;element_rect&lt;/span&gt;(fill &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;rgb&lt;/span&gt;(&lt;span style=&#34;color:#ae81ff&#34;&gt;0.92&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;0.679&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;0.105&lt;/span&gt;)))
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;https://estebanmoro.org/post/2020-10-19-personal-art-map-with-r_files/figure-html/unnamed-chunk-19-1.png&#34; width=&#34;1344&#34; /&gt;
+&lt;h2 id=&#34;adding-personal-mobility&#34;&gt;Adding personal mobility&lt;/h2&gt;
+&lt;p&gt;As I said before, those maps are beautiful already. But I wanted to give them a more personal touch. As part of our research, we have been studying how people move in urban areas. Using high precision and anonymized data, we have understood &lt;a href=&#34;https://inequality.media.mit.edu&#34;&gt;how segregation happens&lt;/a&gt; on our streets, neighborhoods, working places. One of the things we found is that even if we happen to be in the same area, we tend to segregate ourselves and visit very different places. &lt;a href=&#34;https://www.youtube.com/watch?v=KJHW9FTURlM&#34;&gt;Even across the street! &lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;As part of that research, I&amp;rsquo;ve been collecting the locations that I visited in the last years in the Boston area. I used &lt;a href=&#34;https://www.google.com/maps/timeline&#34;&gt;Google Location History&lt;/a&gt; which needs to be activated to work. Once it is activated, it starts saving the places you go to. You can even visualize your movements using the &lt;a href=&#34;https://www.google.com/maps/timeline&#34;&gt;Google Maps Timeline&lt;/a&gt;. Or you can download it using the &lt;a href=&#34;https://takeout.google.com/settings/takeout&#34;&gt;Google Takeout&lt;/a&gt; tool. Of course, if you don&amp;rsquo;t have access to your location history or is deactivated, you can always list the most relevant locations in the area you live and create a table with the right format (see below).&lt;/p&gt;
+&lt;p&gt;Once you download your location, you will get two sets of files. The first one is called &lt;code&gt;Location History.json&lt;/code&gt; that contains a lot of location events (including latitute, longitud, timestamp) and a directory called &lt;code&gt;Semantic Location History&lt;/code&gt; that has all the places visited by year and month. Make sure when you download your data from Google Takeout that this semantic history is enabled. We will use the semantic one since it contains a list of places visited (inferred by Google).&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;require&lt;/span&gt;(jsonlite)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;require&lt;/span&gt;(data.table)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;path &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;./Semantic Location History/&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;files &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;list.files&lt;/span&gt;(path,pattern&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;*.json&amp;#34;&lt;/span&gt;,recursive&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;T)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;get_locations &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;function&lt;/span&gt;(f){
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  data &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; jsonlite&lt;span style=&#34;color:#f92672&#34;&gt;::&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;fromJSON&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;paste0&lt;/span&gt;(path,f))
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  tlObj &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; data&lt;span style=&#34;color:#f92672&#34;&gt;$&lt;/span&gt;timelineObjects&lt;span style=&#34;color:#f92672&#34;&gt;$&lt;/span&gt;placeVisit
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  loc &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;cbind&lt;/span&gt;(tlObj&lt;span style=&#34;color:#f92672&#34;&gt;$&lt;/span&gt;location,tlObj&lt;span style=&#34;color:#f92672&#34;&gt;$&lt;/span&gt;duration)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  tt &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;as.numeric&lt;/span&gt;(loc&lt;span style=&#34;color:#f92672&#34;&gt;$&lt;/span&gt;startTimestampMs)&lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;1000&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  loc&lt;span style=&#34;color:#f92672&#34;&gt;$&lt;/span&gt;time&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;as.POSIXct&lt;/span&gt;(tt,origin &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;1970-01-01&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#75715e&#34;&gt;#conver longitude &amp;amp; latitude from E7 to GPS &lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  loc&lt;span style=&#34;color:#f92672&#34;&gt;$&lt;/span&gt;lat &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; loc&lt;span style=&#34;color:#f92672&#34;&gt;$&lt;/span&gt;latitudeE7 &lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;1e7&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  loc&lt;span style=&#34;color:#f92672&#34;&gt;$&lt;/span&gt;lon &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; loc&lt;span style=&#34;color:#f92672&#34;&gt;$&lt;/span&gt;longitudeE7 &lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;1e7&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  loc &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;data.table&lt;/span&gt;(loc)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  loc &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; loc[,&lt;span style=&#34;color:#a6e22e&#34;&gt;c&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;placeId&amp;#34;&lt;/span&gt;,&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;time&amp;#34;&lt;/span&gt;,&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;lat&amp;#34;&lt;/span&gt;,&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;lon&amp;#34;&lt;/span&gt;)]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  loc &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; loc[&lt;span style=&#34;color:#f92672&#34;&gt;!&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;is.na&lt;/span&gt;(lon)]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;locs.df&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;rbindlist&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;lapply&lt;/span&gt;(files,get_locations))
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The data includes the Google Id for the place, the timestamp of the visit its longitude/latitude position. Of course, I&amp;rsquo;m not showing you my personal data. This table you see below was generated sampling from a bunch of random locations in the Boston area around my working place (MIT Media Lab).&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;head&lt;/span&gt;(locs.df) &lt;span style=&#34;color:#f92672&#34;&gt;%&amp;gt;%&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;kbl&lt;/span&gt;() &lt;span style=&#34;color:#f92672&#34;&gt;%&amp;gt;%&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;kable_styling&lt;/span&gt;()
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;table class=&#34;table&#34; style=&#34;margin-left: auto; margin-right: auto;&#34;&gt;
+ &lt;thead&gt;
+  &lt;tr&gt;
+   &lt;th style=&#34;text-align:left;&#34;&gt; placeId &lt;/th&gt;
+   &lt;th style=&#34;text-align:left;&#34;&gt; time &lt;/th&gt;
+   &lt;th style=&#34;text-align:right;&#34;&gt; lat &lt;/th&gt;
+   &lt;th style=&#34;text-align:right;&#34;&gt; lon &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; ChIJ780101a191a &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; 2020-02-20 16:55:59 &lt;/td&gt;
+   &lt;td style=&#34;text-align:right;&#34;&gt; 42.36126 &lt;/td&gt;
+   &lt;td style=&#34;text-align:right;&#34;&gt; -71.08695 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; ChIJ140101a191a &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; 2020-03-16 23:42:52 &lt;/td&gt;
+   &lt;td style=&#34;text-align:right;&#34;&gt; 42.37321 &lt;/td&gt;
+   &lt;td style=&#34;text-align:right;&#34;&gt; -71.09359 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; ChIJ740101a191a &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; 2020-05-31 15:38:12 &lt;/td&gt;
+   &lt;td style=&#34;text-align:right;&#34;&gt; 42.37020 &lt;/td&gt;
+   &lt;td style=&#34;text-align:right;&#34;&gt; -71.06178 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; ChIJ320101a191a &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; 2020-06-03 21:20:21 &lt;/td&gt;
+   &lt;td style=&#34;text-align:right;&#34;&gt; 42.37311 &lt;/td&gt;
+   &lt;td style=&#34;text-align:right;&#34;&gt; -71.12237 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; ChIJ420101a191a &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; 2020-02-10 12:15:43 &lt;/td&gt;
+   &lt;td style=&#34;text-align:right;&#34;&gt; 42.37220 &lt;/td&gt;
+   &lt;td style=&#34;text-align:right;&#34;&gt; -71.06315 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; ChIJ840101a191a &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; 2020-05-25 21:53:40 &lt;/td&gt;
+   &lt;td style=&#34;text-align:right;&#34;&gt; 42.38635 &lt;/td&gt;
+   &lt;td style=&#34;text-align:right;&#34;&gt; -71.22257 &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;One way to add this personal information to the map would be to show the location points to the previous map. But for most of us, that would be just a bunch (hundred in my case) of points very close to each other. Since we already have the streets in the map, we will do something different: to plot the routes we took to go from one place to the next one. Two comments about this:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The semantic locations do not include the routes taken to visit those places. Those can be calculated using the network of streets already downloaded.&lt;/li&gt;
+&lt;li&gt;However, most of the days, we will only have one significant place visited. That means we cannot calculate any route that day. What we will do is to assume that each day starts at your home location and ends up in the same place, so at least you have two routes for those days with at least one location in the Google dataset. In my case, I will choose the MIT Media Lab as my home location (I spent a lot of time there last year, but it&amp;rsquo;s definitely not my home 😄)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We first create a function that return the routes between all the locations within a given day. To get the routes between two locations we used the function &lt;code&gt;osrmRoute&lt;/code&gt; in the &lt;code&gt;osrm&lt;/code&gt; package, which gives the shortest path between two points in the streets&amp;rsquo; network.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;require&lt;/span&gt;(osrm)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;daily_routes &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;function&lt;/span&gt;(date){
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  ll&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt;locs.df&lt;span style=&#34;color:#a6e22e&#34;&gt;[as.Date&lt;/span&gt;(time)&lt;span style=&#34;color:#f92672&#34;&gt;==&lt;/span&gt;date,&lt;span style=&#34;color:#a6e22e&#34;&gt;c&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;lon&amp;#34;&lt;/span&gt;,&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;lat&amp;#34;&lt;/span&gt;)]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#75715e&#34;&gt;#add home early in the morning&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  ll&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;rbind&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;data.table&lt;/span&gt;(lon&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;-71.087658&lt;/span&gt;,lat&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;42.36&lt;/span&gt;),ll)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#75715e&#34;&gt;#add home late in the day&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  ll&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;rbind&lt;/span&gt;(ll,&lt;span style=&#34;color:#a6e22e&#34;&gt;data.table&lt;/span&gt;(lon&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;-71.087658&lt;/span&gt;,lat&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;42.36&lt;/span&gt;))
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  route &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;NULL&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt;(j &lt;span style=&#34;color:#66d9ef&#34;&gt;in&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;nrow&lt;/span&gt;(ll)){
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    p1 &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;c&lt;/span&gt;(ll&lt;span style=&#34;color:#f92672&#34;&gt;$&lt;/span&gt;lon[j&lt;span style=&#34;color:#ae81ff&#34;&gt;-1&lt;/span&gt;],ll&lt;span style=&#34;color:#f92672&#34;&gt;$&lt;/span&gt;lat[j&lt;span style=&#34;color:#ae81ff&#34;&gt;-1&lt;/span&gt;])
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    p2 &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;c&lt;/span&gt;(ll&lt;span style=&#34;color:#f92672&#34;&gt;$&lt;/span&gt;lon[j],ll&lt;span style=&#34;color:#f92672&#34;&gt;$&lt;/span&gt;lat[j])
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    oo &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;osrmRoute&lt;/span&gt;(src&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;p1,dst&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;p2,returnclass &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;sf&amp;#34;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                    overview&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;full&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    route &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;rbind&lt;/span&gt;(route,oo)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  route
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Note that those routes might not be the &lt;em&gt;actual route&lt;/em&gt; taken to go between those points. The &lt;code&gt;osrmRoute&lt;/code&gt; algorithm calculates the shortest path only.&lt;/p&gt;
+&lt;p&gt;And then we get all the routes for the whole period (this will take some time)&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;dates &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;unique&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;as.Date&lt;/span&gt;(locs.df&lt;span style=&#34;color:#f92672&#34;&gt;$&lt;/span&gt;time))
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;routes &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;do.call&lt;/span&gt;(rbind,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                  &lt;span style=&#34;color:#a6e22e&#34;&gt;lapply&lt;/span&gt;(dates,daily_routes))
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;We are now ready to plot our geography + streets + personal routes.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;final_map &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;ggplot&lt;/span&gt;() &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;geom_sf&lt;/span&gt;(data&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;counties_MA,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          inherit.aes&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;FALSE&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          lwd&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;0.0&lt;/span&gt;,fill&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;rgb&lt;/span&gt;(&lt;span style=&#34;color:#ae81ff&#34;&gt;0.203&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;0.234&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;0.277&lt;/span&gt;))&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;geom_sf&lt;/span&gt;(data &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; streets&lt;span style=&#34;color:#f92672&#34;&gt;$&lt;/span&gt;osm_lines,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          inherit.aes &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;FALSE&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          color&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;color_roads,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          size &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;.4&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          alpha &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;.65&lt;/span&gt;) &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;geom_sf&lt;/span&gt;(data &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; highways&lt;span style=&#34;color:#f92672&#34;&gt;$&lt;/span&gt;osm_lines,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          inherit.aes &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;FALSE&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          color&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;color_roads,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          size &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;.6&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          alpha &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;.65&lt;/span&gt;) &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;geom_sf&lt;/span&gt;(data&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;st_geometry&lt;/span&gt;(routes),
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          inherit.aes &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;FALSE&lt;/span&gt;,col&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;red&amp;#34;&lt;/span&gt;,alpha&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;0.5&lt;/span&gt;)&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;coord_sf&lt;/span&gt;(xlim &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;c&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;min&lt;/span&gt;(bbx[1,]), &lt;span style=&#34;color:#a6e22e&#34;&gt;max&lt;/span&gt;(bbx[1,])), 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;           ylim &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;c&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;min&lt;/span&gt;(bbx[2,]), &lt;span style=&#34;color:#a6e22e&#34;&gt;max&lt;/span&gt;(bbx[2,])),
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;           expand &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;FALSE&lt;/span&gt;) &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;theme&lt;/span&gt;(legend.position &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; F) &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;theme_void&lt;/span&gt;()&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;theme&lt;/span&gt;(panel.background&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          &lt;span style=&#34;color:#a6e22e&#34;&gt;element_rect&lt;/span&gt;(fill&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;rgb&lt;/span&gt;(&lt;span style=&#34;color:#ae81ff&#34;&gt;0.92&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;0.679&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;0.105&lt;/span&gt;)))
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;final_map
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;https://estebanmoro.org/post/2020-10-19-personal-art-map-with-r_files/figure-html/unnamed-chunk-26-1.png&#34; width=&#34;1152&#34; /&gt;
+&lt;h2 id=&#34;printing-them-out&#34;&gt;Printing them out&lt;/h2&gt;
+&lt;p&gt;Finally, let&amp;rsquo;s print it out in high resolution. In my case, I used 24 inches by 36 inches, but you can choose other sizes:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;ggsave&lt;/span&gt;(final_map, 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;       filename &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;my_personal_map_art.png&amp;#34;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;       scale &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;, 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;       width &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;36&lt;/span&gt;, 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;       height &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;24&lt;/span&gt;, 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;       units &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;in&amp;#34;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;       dpi &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;500&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Note the &lt;code&gt;dpi = 500&lt;/code&gt;, which forces to save the image with high resolution (500 dots per inch). This is especially important if you want to print your poster in large dimensions. The file generated is large (around 40Mb).&lt;/p&gt;
+&lt;p&gt;The last step is to send to print or frame. You can use many services online to do that, but you need one that allows you to send such a big file. In my case, I ended up using the Mounted Canvas Print - 36&amp;quot; x 24&amp;quot; at &lt;a href=&#34;https://estebanmoro.org/www.vistaprint.com&#34;&gt;vistaprint&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;And here is the final result:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/img/posts/final_map_art.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;I hope you enjoyed my small project to produce personal map art with R.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -129,9 +770,19 @@ Abstract: Traditional understanding of urban income segregation is largely based
       <pubDate>Wed, 27 May 2020 00:00:00 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2020-05-27-modeling-the-impact-of-social-distancing-testing-contact-tracing-and-household-quarantine-on-second-wave-scenarios-of-the-covid-19-epidemic/</guid>
-      <description>Authors: Alberto Aleta, David Martíın-Corral, Ana Pastore y Piontti, Marco Ajelli, Maria Litvinova, Matteo Chinazzi, Natalie E. Dean, M. Elizabeth Halloran, Ira M. Longini, Jr., Stefano Merler, Alex Pentland, Alessandro Vespignani, Esteban Moro &amp;amp; Yamir Moreno
-Publication: Nature Human Behavior(2020). Link
-Abstract: While severe social-distancing measures have proven effective in slowing the coronavirus disease 2019 (COVID-19) pandemic, second-wave scenarios are likely to emerge as restrictions are lifted. Here we integrate anonymized, geolocalized mobility data with census and demographic data to build a detailed agent-based model of severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) transmission in the Boston metropolitan area.</description>
+      <description>&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Alberto Aleta, David Martíın-Corral, Ana Pastore y Piontti, Marco Ajelli, Maria Litvinova,
+Matteo Chinazzi, Natalie E. Dean, M. Elizabeth Halloran, Ira M. Longini, Jr., Stefano Merler, Alex Pentland, Alessandro Vespignani, Esteban Moro &amp;amp; Yamir Moreno&lt;br&gt;
+&lt;em&gt;Publication&lt;/em&gt;: Nature Human Behavior(2020). &lt;strong&gt;&lt;a href=&#34;https://doi.org/10.1038/s41562-020-0931-9&#34;&gt;Link&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; While severe social-distancing measures have proven effective in slowing the coronavirus disease 2019 (COVID-19) pandemic, second-wave scenarios are likely to emerge as restrictions are lifted. Here we integrate anonymized, geolocalized mobility data with census and demographic data to build a detailed agent-based model of severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) transmission in the Boston metropolitan area. We find that a period of strict social distancing followed by a robust level of testing, contact-tracing and household quarantine could keep the disease within the capacity of the healthcare system while enabling the reopening of economic activities. Our results show that a response system based on enhanced testing and contact tracing can have a major role in relaxing social-distancing interventions in the absence of herd immunity against SARS-CoV-2.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Media:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://news.mit.edu/2020/modeling-impact-of-testing-contact-tracing-quarantine-0908&#34;&gt;Modeling the impact of testing, tracing, and quarantine&lt;/a&gt;, MIT News, September 8, 2020&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.wsj.com/articles/measuring-the-effectiveness-of-coronavirus-social-distancing-policies-01586547592&#34;&gt;Measuring the Effectiveness of Coronavirus Social Distancing Policies&lt;/a&gt;, Wall Street Journal, April 10, 2020&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dallasnews.com/news/public-health/2020/04/11/more-waves-of-virus-cases-could-follow-the-first-health-experts-warn/&#34;&gt;More waves of virus cases could follow the first, health experts warn&lt;/a&gt;, The Dallas Morning News, April 10, 2020&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://elpais.com/ciencia/2020-08-12/un-estudio-muestra-que-los-test-sin-rastreo-eficaz-de-contactos-son-insuficientes-para-frenar-la-oleada.html&#34;&gt;Un estudio muestra que los test sin rastreo eficaz de contactos son insuficientes para frenar la oleada&lt;/a&gt;, El Pais, August 12, 2020&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://medicalxpress.com/news/2020-03-effectiveness-social-distancing-strategies-epidemic.html&#34;&gt;The effectiveness of social distancing strategies in the face of an epidemic&lt;/a&gt; Medical Xpress, March 27, 2020&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -140,9 +791,39 @@ Abstract: While severe social-distancing measures have proven effective in slowi
       <pubDate>Thu, 07 May 2015 12:39:43 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2014-11-13-social-media-fingerprints-of-unemployment/</guid>
-      <description>Authors:Alejandro Llorente, Manuel García-Herránz, Manuel Cebrián and Esteban Moro
-Journal: PLoS ONE 10(5): e0128692 (2014) LINK
-Summary: Publicly available social media data can be used to quantify deviations from typical patterns of behavior and uncover how these deviations signal the socio-economical status of regions. Using data from geolocalized Twitter messages, we find that unemployment is correlated with technology adoption, daily activity, diversity in mobility patterns and correctness in communication style. These behavioral metrics serve to build simple, interpretable, and cost-effective socio-economical predictors from these novel digital datasets.</description>
+      <description>&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;:Alejandro Llorente, Manuel García-Herránz, Manuel Cebrián and Esteban Moro&lt;br&gt;
+&lt;em&gt;Journal&lt;/em&gt;: PLoS ONE 10(5): e0128692 (2014) &lt;strong&gt;&lt;a href=&#34;http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0128692&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Summary&lt;/strong&gt;: Publicly available social media data can be used to quantify deviations from typical patterns of behavior and uncover how these deviations signal the socio-economical status of regions. Using data from geolocalized Twitter messages, we find that &lt;strong&gt;unemployment&lt;/strong&gt; is &lt;strong&gt;correlated with technology adoption, daily activity, diversity in mobility patterns&lt;/strong&gt; and &lt;strong&gt;correctness in communication style.&lt;/strong&gt; These behavioral metrics serve to build simple, interpretable, and cost-effective socio-economical predictors from these novel digital datasets. Our extensive investigation allows us not only to build accurate behavioral models of how unemployment impacts diverse geographical areas, but also to assessing the relevance and uniqueness of previously reported social media datasets to understand economical development.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt; Recent wide-spread adoption of electronic and pervasive technologies has enabled the study of human behavior at an unprecedented level, uncovering universal patterns underlying human activity, mobility, and inter-personal communication. In the present work, we investigate whether deviations from these universal patterns may reveal information about the socio-economical status of geographical regions. We quantify the extent to which deviations in diurnal rhythm, mobility patterns, and communication styles across regions relate to their unemployment incidence. For this we examine a country-scale publicly articulated social media dataset, where we quantify individual behavioral features from over 145 million geo-located messages distributed among more than 340 different Spanish economic regions, inferred by computing communities of cohesive mobility fluxes. We find that regions exhibiting more diverse mobility fluxes, earlier diurnal rhythms, and more correct grammatical styles display lower unemployment rates. As a result, we provide a simple model able to produce accurate, easily interpretable reconstruction of regional unemployment incidence from their social-media digital fingerprints alone. Our results show that cost-effective economical indicators can be built based on publicly-available social media datasets.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Media&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;See the &lt;a href=&#34;https://vimeo.com/111579945&#34;&gt;&lt;strong&gt;video&lt;/strong&gt;&lt;/a&gt; of thousands of trips in Spain used to characterize the mobility between municipalities in Spain&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Press&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://elpais.com/elpais/2014/11/13/ciencia/1415893051_731963.html&#34;&gt;http://www.technologyreview.com/view/532746/twitter-exhaust-reveals-patterns-of-unemployment/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.informationweek.com/government/big-data-analytics/tweets-tell-whether-you-have-a-job/d/d-id/1317636&#34;&gt;http://www.informationweek.com/government/big-data-analytics/tweets-tell-whether-you-have-a-job/d/d-id/1317636&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.informationweek.com/government/big-data-analytics/tweets-tell-whether-you-have-a-job/d/d-id/1317636&#34;&gt;http://elpais.com/elpais/2014/11/13/ciencia/1415893051_731963.html&lt;/a&gt;&lt;a href=&#34;http://www.informationweek.com/government/big-data-analytics/tweets-tell-whether-you-have-a-job/d/d-id/1317636&#34;&gt; (spanish)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://elpais.com/elpais/2014/11/17/inenglish/1416217012_371379.html&#34;&gt;http://elpais.com/elpais/2014/11/17/inenglish/1416217012_371379.html&lt;/a&gt; (english)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.clarin.com/sociedad/Twitter-revela-datos-claves-economia_0_1248475442.html&#34;&gt;http://www.clarin.com/sociedad/Twitter-revela-datos-claves-economia_0_1248475442.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.europapress.es/sociedad/noticia-viajes-dia-espana-resumidos-video-menos-minutos-20141113183732.html&#34;&gt;http://www.europapress.es/sociedad/noticia-viajes-dia-espana-resumidos-video-menos-minutos-20141113183732.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://digital-business-news.es/dime-si-trabajas-y-te-dir%C3%A9-c%C3%B3mo-tuiteas&#34;&gt;http://digital-business-news.es/dime-si-trabajas-y-te-diré-cómo-tuiteas&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.elconfidencial.com/tecnologia/2014-11-14/los-datos-no-mienten-donde-se-tuitea-con-mas-faltas-de-ortografia-hay-mas-paro_455021/&#34;&gt;http://www.elconfidencial.com/tecnologia/2014-11-14/los-datos-no-mienten-donde-se-tuitea-con-mas-faltas-de-ortografia-hay-mas-paro_455021/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.lavozdegalicia.es/video/vidadigital/2014/11/13/nuevo-mapa-espana-segun-twitter/00311415898851478818412.htm&#34;&gt;http://www.lavozdegalicia.es/video/vidadigital/2014/11/13/nuevo-mapa-espana-segun-twitter/00311415898851478818412.htm&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.antena3.com/noticias/tecnologia/crean-mapa-interactivo-que-refleja-como-nos-movemos-espanoles_2014111300214.html&#34;&gt;http://www.antena3.com/noticias/tecnologia/crean-mapa-interactivo-que-refleja-como-nos-movemos-espanoles_2014111300214.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.marketingdirecto.com/actualidad/social-media-marketing/como-cuando-y-donde-se-tuitea-en-espana/&#34;&gt;http://www.marketingdirecto.com/actualidad/social-media-marketing/como-cuando-y-donde-se-tuitea-en-espana/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.merca20.com/como-se-tuitea-en-espana/&#34;&gt;http://www.merca20.com/como-se-tuitea-en-espana/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.ideal.es/sociedad/201411/14/movemos-espanoles-normal-20141114092804.html&#34;&gt;http://www.ideal.es/sociedad/201411/14/movemos-espanoles-normal-20141114092804.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.viaempresa.cat/ca/notices/2014/11/l-economia-influeix-en-com-tuitegem-9324.php&#34;&gt;http://www.viaempresa.cat/ca/notices/2014/11/l-economia-influeix-en-com-tuitegem-9324.php&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://elpais.com/elpais/2014/11/15/opinion/1416068331_296691.html&#34;&gt;http://elpais.com/elpais/2014/11/15/opinion/1416068331_296691.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.netambulo.com/2014/11/19/mapa-de-uso-de-twitter-en-espana/&#34;&gt;http://www.netambulo.com/2014/11/19/mapa-de-uso-de-twitter-en-espana/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.citylab.com/work/2014/11/what-twitter-tells-us-about-unemployment/382840/&#34;&gt;http://www.citylab.com/work/2014/11/what-twitter-tells-us-about-unemployment/382840/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.engadget.com/2014/11/21/twitter-activity-unemployment-tracking/&#34;&gt;http://www.engadget.com/2014/11/21/twitter-activity-unemployment-tracking/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.forbes.com/sites/timworstall/2014/11/22/interesting-research-using-twitter-the-unemployed-get-up-late-and-cant-spell/&#34;&gt;http://www.forbes.com/sites/timworstall/2014/11/22/interesting-research-using-twitter-the-unemployed-get-up-late-and-cant-spell/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://digitalmarketingtrends.es/twitter-mas-que-140-caracteres/&#34;&gt;http://digitalmarketingtrends.es/twitter-mas-que-140-caracteres/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://lexpansion.lexpress.fr/high-tech/la-ou-le-chomage-est-fort-les-utilisateurs-de-twitter-sont-plus-nombreux_1623535.html&#34;&gt;http://lexpansion.lexpress.fr/high-tech/la-ou-le-chomage-est-fort-les-utilisateurs-de-twitter-sont-plus-nombreux_1623535.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
   </channel>

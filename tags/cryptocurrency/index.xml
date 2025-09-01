@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cryptocurrency on </title>
@@ -6,16 +5,21 @@
     <description>Recent content in Cryptocurrency on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Wed, 07 Nov 2018 14:41:38 +0000</lastBuildDate><atom:link href="https://estebanmoro.org/tags/cryptocurrency/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 07 Nov 2018 14:41:38 +0000</lastBuildDate>
+    
+        <atom:link href="https://estebanmoro.org/tags/cryptocurrency/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>ScamCoins, S*** Posters, and the Search for the Next Bitcoin(TM): Collective Sensemaking in Cryptocurrency Discussions</title>
       <link>https://estebanmoro.org/post/2018-11-07-scamcoins-s-posters-and-the-search-for-the-next-bitcointm-collective-sensemaking-in-cryptocurrency-discussions/</link>
       <pubDate>Wed, 07 Nov 2018 14:41:38 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2018-11-07-scamcoins-s-posters-and-the-search-for-the-next-bitcointm-collective-sensemaking-in-cryptocurrency-discussions/</guid>
-      <description>Authors: Eaman Jahani, Peter M. Krafft, Yoshihiko Suhara, Esteban Moro, Alex “Sandy” Pentland
-Journal: Proc. ACM Hum.-Comput. Interact. 2, CSCW, Article 79 (November 2018), 28 pages. LINK
-Abstract: Participants in cryptocurrency markets are in constant communication with each other about the latest coins and news releases. Do these conversations build hype through the contagiousness of excitement, help the community process information, or play some other role? Using a novel dataset from a major cryptocurrency forum, we conduct an exploratory study of the characteristics of online discussion around cryptocurrencies.</description>
+      <description>&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Eaman Jahani, Peter M. Krafft, Yoshihiko Suhara, Esteban Moro, Alex “Sandy” Pentland&lt;br&gt;
+&lt;em&gt;Journal&lt;/em&gt;: Proc. ACM Hum.-Comput. Interact. 2, CSCW, Article 79 (November 2018), 28 pages. &lt;strong&gt;&lt;a href=&#34;https://dl.acm.org/citation.cfm?doid=3290265.3274348&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Participants in cryptocurrency markets are in constant communication with each other about the latest coins and news releases. Do these conversations build hype through the contagiousness of excitement, help the community process information, or play some other role? Using a novel dataset from a major cryptocurrency forum, we conduct an exploratory study of the characteristics of online discussion around cryptocurrencies. Through a regression analysis, we find that coins with more information available and higher levels of technical innovation are associated with higher quality discussion. People who talk about &amp;ldquo;serious&amp;rdquo; coins tend to participate in discussion displaying signatures of collective intelligence and information processing, while people who talk about &amp;ldquo;less serious&amp;rdquo; coins tend to display signatures of hype and naïvety. Interviews with experienced forum members also confirm these quantitative findings. These results highlight the varied roles of discussion in the cryptocurrency ecosystem and suggest that discussion of serious coins may be oriented towards earnest, perhaps more accurate, attempts at discovering which coins are likely to succeed.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

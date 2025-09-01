@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Social Media on </title>
@@ -6,15 +5,26 @@
     <description>Recent content in Social Media on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Mon, 15 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://estebanmoro.org/tags/social-media/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 15 Jul 2024 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://estebanmoro.org/tags/social-media/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Social media sensors as early signals of influenza outbreaks at scale</title>
       <link>https://estebanmoro.org/post/2024-07-15-social-media-sensors-as-early-signals-of-influenza-outbreaks-at-scale/</link>
       <pubDate>Mon, 15 Jul 2024 00:00:00 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2024-07-15-social-media-sensors-as-early-signals-of-influenza-outbreaks-at-scale/</guid>
-      <description>Authors: David Martín-Corral, Manuel García-Herranz, Manuel Cebrián &amp;amp; Esteban Moro Publication: EPJ Data Science (2024) 13:43 LINK
-Abstract: Detecting early signals of an outbreak in a viral process is challenging due to its exponential nature, yet crucial given the benefits to public health it can provide. If available, the network structure where infection happens can provide rich information about the very early stages of viral outbreaks. For example, more central nodes have been used as social network sensors in biological or informational diffusion processes to detect early contagious outbreaks.</description>
+      <description>
+
+
+&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: David Martín-Corral, Manuel García-Herranz, Manuel Cebrián &amp;amp; Esteban Moro
+&lt;br&gt;
+&lt;em&gt;Publication&lt;/em&gt;: EPJ Data Science (2024) 13:43 &lt;strong&gt;&lt;a href=&#34;https://epjdatascience.springeropen.com/articles/10.1140/epjds/s13688-024-00474-1&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Detecting early signals of an outbreak in a viral process is challenging due to its exponential nature, yet crucial given the benefits to public health it can provide. If available, the network structure where infection happens can provide rich information about the very early stages of viral outbreaks. For example, more central nodes have been used as social network sensors in biological or informational diffusion processes to detect early contagious outbreaks. We aim to combine both approaches to detect early signals of a biological viral process (influenza-like illness, ILI), using its informational epidemic coverage in public social media. We use a large social media dataset covering three years in a country. We demonstrate that it is possible to use highly central users on social media, more precisely high out-degree users from Twitter, as sensors to detect the early signals of ILI outbreaks in the physical world without monitoring the whole population. We also investigate other behavioral and content features that distinguish those early sensors in social media beyond centrality. While high centrality on Twitter is the most distinctive feature of sensors, they are more likely to talk about local news, language, politics, or government than the rest of the users. Our new approach could detect a better and smaller set of social sensors for epidemic outbreaks and is more operationally efficient and privacy respectful than previous ones, not requiring the collection of vast amounts of data.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Media&lt;/strong&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -23,8 +33,13 @@ Abstract: Detecting early signals of an outbreak in a viral process is challengi
       <pubDate>Fri, 18 Nov 2022 00:00:00 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2022-11-18-social-media-sensors-to-detect-early-warnings-of-influenza-at-scale/</guid>
-      <description>Authors: David Martín-Corral, Manuel García-Herranz, Manuel Cebrian, Esteban Moro Publication: medRxiv 2022.11.15.22282355 LINK
-Abstract: Detecting early signs of an outbreak in a viral process is challenging due to its exponential nature, yet crucial given the benefits to public health it can provide. If available, the network structure where infection happens can provide rich information about the very early stages of viral outbreaks. For example, more central nodes have been used as social network sensors in biological or informational diffusion processes to detect early contagious outbreaks.</description>
+      <description>
+
+
+&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: David Martín-Corral, Manuel García-Herranz, Manuel Cebrian, Esteban Moro &lt;br&gt;
+&lt;em&gt;Publication&lt;/em&gt;: medRxiv 2022.11.15.22282355 &lt;strong&gt;&lt;a href=&#34;https://www.medrxiv.org/content/10.1101/2022.11.15.22282355v1&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Detecting early signs of an outbreak in a viral process is challenging due to its exponential nature, yet crucial given the benefits to public health it can provide. If available, the network structure where infection happens can provide rich information about the very early stages of viral outbreaks. For example, more central nodes have been used as social network sensors in biological or informational diffusion processes to detect early contagious outbreaks. Here we aim to put together both approaches to detect early warnings of a biological viral process (influenza-like illness, ILI), using its informational epidemic coverage in public social media. We use a large social media dataset covering three years in a country. We demonstrate that it is possible to use highly central users on the platform, more precisely high out-degree users from Twitter, as sensors to detect the early warning outbreaks of ILI in the physical world without monitoring the whole population. We also investigate other behavioral and content features that distinguish those early sensors in social media beyond centrality. We find that while high centrality on Twitter is the most distinctive feature of sensors, we see that they are more likely to talk about local news, language, politics, or government than the rest of the users. Our new approach could detect a better and smaller set of social sensors for epidemic outbreaks and is more operationally efficient and privacy respectful than previous ones, not requiring the collection of vast amounts of data.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -33,8 +48,45 @@ Abstract: Detecting early signs of an outbreak in a viral process is challenging
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2019-02-02-social-networks-as-sensors/</guid>
-      <description>Temporal, structural and activity patterns in social networks are related to human behavior. Thus, networks do have different shape and dynamics under different exogenous and endogenous shocks or conditions. In the last years we have addressed the question of whether we can use our understanding of social networks to anticipate, predict or measure important phenomena as information propagation, disaster damage, unemployment shocks, weather conditions, gender digital divide, etc.
-For example in a series of papers, we demonstrated for the first time the ability of the so-called &amp;ldquo;friendship paradox&amp;rdquo; in social networks to get better collection of users (sensors) that can anticipate meme, news or event-related information propagation in networks.</description>
+      <description>&lt;p&gt;Temporal, structural and activity patterns in social networks are related to human behavior. Thus, networks do have different shape and dynamics under different exogenous and endogenous shocks or conditions. In the last years we have addressed the question of &lt;strong&gt;whether we can use our understanding of social networks to anticipate, predict or measure important phenomena as information propagation, disaster damage, unemployment shocks, weather conditions, gender digital divide, etc.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;For example in a series of papers, we demonstrated for the first time the ability of the so-called &amp;ldquo;friendship paradox&amp;rdquo; in social networks to get better collection of users (&lt;em&gt;sensors&lt;/em&gt;) that can anticipate meme, news or event-related &lt;a href=&#34;https://estebanmoro.org/post/2014-04-09-using-friends-as-sensors/&#34;&gt;information propagation in networks&lt;/a&gt;. Even those sensors can be user to disaster management as &lt;a href=&#34;https://estebanmoro.org/post/2016-03-14-rapid-assessment-of-disaster-damage/&#34;&gt;we found during Hurricane Sandy&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;We also found that social media behaviors like mobility around economical areas (see figure), diversity of interactions between areas or the gramatical correctness of posts are &lt;a href=&#34;https://estebanmoro.org/post/2014-11-13-social-media-fingerprints-of-unemployment/&#34;&gt;deeply related to unemployment in those areas&lt;/a&gt;. Those findings have been corroborated in other countries, showing the universal character of those fingerprints of socio-economic status in social media. In the last years we have also used data from social media to understand gender inequality. By developing a unique large-scale dataset from Facebook, we have seen the relation between the activity of 1.4 billion users in 217 countries, the digital gender gap and other inequality measures related to education, health or economic opportunity. This research was published in PNAS \cite{Garcia:2018bv} and together with the methodology in &lt;a href=&#34;https://estebanmoro.org/post/2014-11-13-social-media-fingerprints-of-unemployment/&#34;&gt;previous papers&lt;/a&gt; we have use these results in a collaboration with &lt;a href=&#34;https://www.unicef.org/innovation/stories/how-do-we-keep-socio-economic-estimates-date&#34;&gt;UNICEF to measure Human Development Indexes in third world countries&lt;/a&gt;, where official data is scarce or incomplete.&lt;/p&gt;
+&lt;p&gt;Some recent papers:
+&lt;small&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;b&gt;Analyzing gender inequality through large-scale Facebook advertising data&lt;/b&gt;&lt;br&gt;
+David Garcia, Yonas Mitike Kassa, Angel Cuevas, Manuel Cebrian, Esteban Moro, Iyad Rahwan, Ruben Cuevas&lt;br&gt;
+Proceedings Of The National Academy Of Sciences &lt;strong&gt;115&lt;/strong&gt; 6958&amp;ndash;6963 (2018)&lt;br&gt;
+&lt;a href=&#34;https://estebanmoro.org/pdf/Analyzing_gender_inequality_through_large_scale_Facebook_advertising_data.pdf&#34; class=&#34;BUTTON_JEL&#34;&gt;PDF&lt;/a&gt; &lt;a href=&#34;http://www.pnas.org/lookup/doi/10.1073/pnas.1717781115&#34; class=&#34;BUTTON_JEL&#34;&gt;Journal&lt;/a&gt; &lt;a href=&#34;http://www.altmetric.com/details.php?citation_id=43888153&#34; class=&#34;BUTTON_JEL&#34;&gt;Altmetric: 203&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;b&gt;Social Media Fingerprints of Unemployment&lt;/b&gt;&lt;br&gt;
+Alejandro Llorente, Manuel Garcia-Herranz, Manuel Cebrian, Esteban Moro&lt;br&gt;
+PLoS ONE &lt;strong&gt;10&lt;/strong&gt; e0128692 (2015)&lt;br&gt;
+&lt;a href=&#34;https://estebanmoro.org/pdf/Social_Media_Fingerprints_of_Unemployment.pdf&#34; class=&#34;BUTTON_JEL&#34;&gt;PDF&lt;/a&gt; &lt;a href=&#34;https://dx.plos.org/10.1371/journal.pone.0128692&#34; class=&#34;BUTTON_JEL&#34;&gt;Journal&lt;/a&gt; &lt;a href=&#34;http://www.altmetric.com/details.php?citation_id=2882502&#34; class=&#34;BUTTON_JEL&#34;&gt;Altmetric: 325&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;b&gt;Using friends as sensors to detect global-scale contagious outbreaks.&lt;/b&gt;&lt;br&gt;
+Manuel Garcia-Herranz, Esteban Moro, Manuel Cebrian, Nicholas A Christakis, James H Fowler&lt;br&gt;
+PLoS ONE &lt;strong&gt;9&lt;/strong&gt; e92413&amp;ndash; (2014)&lt;br&gt;
+&lt;a href=&#34;https://estebanmoro.org/pdf/Using_friends_as_sensors_to_detect_global_scale_contagious_outbreaks_.pdf&#34; class=&#34;BUTTON_JEL&#34;&gt;PDF&lt;/a&gt; &lt;a href=&#34;http://adsabs.harvard.edu/cgi-bin/nph-data_query?bibcode=2014PLoSO...992413G&amp;link_type=EJOURNAL&#34; class=&#34;BUTTON_JEL&#34;&gt;Journal&lt;/a&gt; &lt;a href=&#34;http://www.altmetric.com/details.php?citation_id=2268575&#34; class=&#34;BUTTON_JEL&#34;&gt;Altmetric: 251&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;b&gt;Rapid assessment of disaster damage using social media activity&lt;/b&gt;&lt;br&gt;
+Yury Kryvasheyeu, Haohui Chen, Nick Obradovich, Esteban Moro, Pascal Van Hentenryck, James Fowler, Manuel Cebrian&lt;br&gt;
+Science Advances &lt;strong&gt;2&lt;/strong&gt; e1500779 (2016)&lt;br&gt;
+&lt;a href=&#34;https://estebanmoro.org/pdf/Rapid_assessment_of_disaster_damage_using_social_media_activity.pdf&#34; class=&#34;BUTTON_JEL&#34;&gt;PDF&lt;/a&gt; &lt;a href=&#34;http://advances.sciencemag.org/lookup/doi/10.1126/sciadv.1500779&#34; class=&#34;BUTTON_JEL&#34;&gt;Journal&lt;/a&gt; &lt;a href=&#34;http://www.altmetric.com/details.php?citation_id=6165647&#34; class=&#34;BUTTON_JEL&#34;&gt;Altmetric: 521&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/small&gt;
+&lt;p&gt;Talks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://estebanmoro.org/talks/Network_Interventions_2018.pdf&#34;&gt;From individual behavior to social processes: using human traces for social good&lt;/a&gt; Invited talk at ICCS 2018 (Boston).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Videos:&lt;/p&gt;
+&lt;p&gt;Media:&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -43,8 +95,18 @@ For example in a series of papers, we demonstrated for the first time the abilit
       <pubDate>Wed, 01 Dec 2021 00:00:00 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2021-12-01-news-or-social-media-socio-economic-divide-of-mobile-service-consumption/</guid>
-      <description>Authors: Iñaki Ucar, Marco Gramaglia, Marco Fiore, Zbigniew Smoreda, and Esteban Moro Publication: J. R. Soc. Interface (2021). Link
-Abstract: Reliable and timely information on socio-economic status and divides is critical to social and economic research and policing. Novel data sources from mobile communication platforms have enabled new cost-effective approaches and models to investigate social disparity, but their lack of interpretability, accuracy or scale has limited their relevance to date.</description>
+      <description>&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Iñaki Ucar, Marco Gramaglia, Marco Fiore, Zbigniew Smoreda,  and Esteban Moro
+&lt;em&gt;Publication&lt;/em&gt;: J. R. Soc. Interface (2021). &lt;strong&gt;&lt;a href=&#34;https://royalsocietypublishing.org/doi/10.1098/rsif.2021.0350&#34;&gt;Link&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Reliable and timely information on socio-economic status and divides is critical to social and economic research and policing. Novel data sources from mobile communication platforms have enabled new cost-effective approaches and models to investigate social disparity, but their lack of interpretability, accuracy or scale has limited their relevance to date. We investigate the divide in digital mobile service usage with a large dataset of 3.7 billion time-stamped and geo-referenced mobile traffic records in a major European country, and find profound geographical unevenness in mobile service usage—especially on news, e-mail, social media consumption and audio/video streaming. We relate such diversity with income, educational attainment and inequality, and reveal how low-income or low-education areas are more likely to engage in video streaming or social media and less in news consumption, information searching, e-mail or audio streaming. The digital usage gap is so large that we can accurately infer the socio-economic status of a small area or even its Gini coefficient only from aggregated data traffic. Our results make the case for an inexpensive, privacy-preserving, real-time and scalable way to understand the digital usage divide and, in turn, poverty, unemployment or economic growth in our societies through mobile phone data.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Media:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://phys.org/news/2022-01-digital-gap-internet-usage-rich.html&#34;&gt;Researchers report a new digital gap in internet usage between rich and poor people
+&lt;/a&gt; in Phys.org&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://elpais.com/tecnologia/2021-12-02/del-correo-y-las-noticias-a-facebook-y-youtube-asi-se-usa-internet-segun-barrios-ricos-y-pobres.html&#34;&gt;Del correo y las noticias a Facebook y Youtube: así se usa internet según barrios ricos y pobres&lt;/a&gt; in El Pais (Spain).&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.newtral.es/brecha-de-uso-renta-media-nivel-educativo/20220202/&#34;&gt;No vemos la misma internet: así es la brecha de uso entre ricos y pobres&lt;/a&gt; in Newtral (Spain).&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.uc3m.es/ss/Satellite/UC3MInstitucional/en/Detalle/Comunicacion_C/1371324218037/1371215537949/A_new_digital_gap_in_internet_usage_between_rich_and_poor_people_has_been_detected&#34;&gt;A new digital gap in internet usage between rich and poor people has been detected&lt;/a&gt;, UC3M news.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -53,8 +115,10 @@ Abstract: Reliable and timely information on socio-economic status and divides i
       <pubDate>Fri, 10 Jul 2020 00:00:00 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2020-07-10-segregated-interactions-in-urban-and-online-space/</guid>
-      <description>Authors: Xiaowen Dong , Alfredo J. Morales, Eaman Jahani, Esteban Moro, Bruno Lepri, Burcin Bozkaya, Carlos Sarraute, Yaneer Bar-Yam and Alex Pentland Publication: EPJ Data Science 9, Article number: 20 LINK
-Abstract: Urban income segregation is a widespread phenomenon that challenges societies across the globe. Classical studies on segregation have largely focused on the geographic distribution of residential neighborhoods rather than on patterns of social behaviors and interactions. In this study, we analyze segregation in economic and social interactions by observing credit card transactions and Twitter mentions among thousands of individuals in three culturally different metropolitan areas.</description>
+      <description>&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Xiaowen Dong , Alfredo J. Morales, Eaman Jahani, Esteban Moro, Bruno Lepri, Burcin Bozkaya, Carlos Sarraute, Yaneer Bar-Yam and Alex Pentland &lt;br&gt;
+&lt;em&gt;Publication&lt;/em&gt;: EPJ Data Science &lt;b&gt;9&lt;/b&gt;, Article number: 20 &lt;strong&gt;&lt;a href=&#34;https://link.springer.com/article/10.1140/epjds/s13688-020-00238-7&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Urban income segregation is a widespread phenomenon that challenges societies across the globe. Classical studies on segregation have largely focused on the geographic distribution of residential neighborhoods rather than on patterns of social behaviors and interactions. In this study, we analyze segregation in economic and social interactions by observing credit card transactions and Twitter mentions among thousands of individuals in three culturally different metropolitan areas. We show that segregated interaction is amplified relative to the expected effects of geographic segregation in terms of both purchase activity and online communication. Furthermore, we find that segregation increases with difference in socio-economic status but is asymmetric for purchase activity, i.e., the amount of interaction from poorer to wealthier neighborhoods is larger than vice versa. Our results provide novel insights into the understanding of behavioral segregation in human interactions with significant socio-political and economic implications.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -63,9 +127,23 @@ Abstract: Urban income segregation is a widespread phenomenon that challenges so
       <pubDate>Tue, 19 Jun 2018 21:34:10 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2018-06-19-analyzing-gender-inequality-through-large-scale-facebook-advertising-data/</guid>
-      <description>Authors: David Garcia, Yonas Mitike Kassa, Angel Cuevas, Manuel Cebrian, Esteban Moro, Iyad Rahwan, and Ruben Cuevas
-Journal: PNAS June 19, 2018. 201717781. LINK
-Abstract: Online social media are information resources that can have a transformative power in society. While the Web was envisioned as an equalizing force that allows everyone to access information, the digital divide prevents large amounts of people from being present online. Online social media, in particular, are prone to gen- der inequality, an important issue given the link between social media use and employment.</description>
+      <description>&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: David Garcia, Yonas Mitike Kassa, Angel Cuevas, Manuel Cebrian, Esteban Moro, Iyad Rahwan, and Ruben Cuevas&lt;br&gt;
+&lt;em&gt;Journal&lt;/em&gt;: PNAS June 19, 2018. 201717781. &lt;strong&gt;&lt;a href=&#34;http://www.pnas.org/content/early/2018/06/12/1717781115&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Online social media are information resources that can have a transformative power in society. While the Web was envisioned as an equalizing force that allows everyone to access information, the digital divide prevents large amounts of people from being present online. Online social media, in particular, are prone to gen- der inequality, an important issue given the link between social media use and employment. Understanding gender inequality in social media is a challenging task due to the necessity of data sources that can provide large-scale measurements across multi- ple countries. Here, we show how the Facebook Gender Divide (FGD), a metric based on aggregated statistics of more than 1.4 billion users in 217 countries, explains various aspects of world- wide gender inequality. Our analysis shows that the FGD encodes gender equality indices in education, health, and economic oppor- tunity. We find gender differences in network externalities that suggest that using social media has an added value for women. Furthermore, we find that low values of the FGD are associated with increases in economic gender equality. Our results sug- gest that online social networks, while suffering evident gender imbalance, may lower the barriers that women have to access to informational resources and help to narrow the economic gender gap.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Visualizations:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://dgarcia-eu.github.io/FacebookGenderDivide/Visualization.html&#34;&gt;Interaction Visualization of the results&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Press:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Facebook Use Linked to Gender Equality &lt;a href=&#34;https://www.scientificamerican.com/article/facebook-use-linked-to-gender-equality/&#34;&gt;Scientific American&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Researchers are using Facebook data to study gender inequality &lt;a href=&#34;https://mic.com/articles/190240/researchers-are-using-facebook-data-to-study-gender-inequality#.10jg4TVzc&#34;&gt;Mic&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;New tool using Facebook data shows worldwide gender gap &lt;a href=&#34;https://phys.org/news/2018-06-tool-facebook-worldwide-gender-gap.html&#34;&gt;Phys.org&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;La brecha de género en Facebook refleja la desigualdad real &lt;a href=&#34;https://elpais.com/elpais/2017/10/29/ciencia/1509303294_166601.html&#34;&gt;El País&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Impact:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Altmetric &lt;div data-badge-popover=&#34;right&#34; data-badge-type=&#34;medium-donut&#34; data-doi=&#34;10.1073/pnas.1717781115&#34; data-hide-less-than=&#34;0&#34; class=&#34;altmetric-embed&#34;&gt;&lt;/div&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -74,9 +152,21 @@ Abstract: Online social media are information resources that can have a transfor
       <pubDate>Sat, 28 Apr 2018 08:56:46 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2018-04-28-weather-impacts-expressed-sentiment/</guid>
-      <description>Authors: Patrick Baylis, Nick Obradovich, Yury Kryvasheyeu, Haohui Chen, Lorenzo Coviello, Esteban Moro, Manuel Cebrian, James H. Fowler
-Journal: PLoS ONE 13(4): e0195750 (2018) LINK
-Abstract: We conduct the largest ever investigation into the relationship between meteorological con- ditions and the sentiment of human expressions. To do this, we employ over three and a half billion social media posts from tens of millions of individuals from both Facebook and Twitter between 2009 and 2016.</description>
+      <description>&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Patrick Baylis, Nick Obradovich, Yury Kryvasheyeu, Haohui Chen, Lorenzo Coviello, Esteban Moro, Manuel Cebrian, James H. Fowler&lt;br&gt;
+&lt;em&gt;Journal&lt;/em&gt;: PLoS ONE 13(4): e0195750 (2018) &lt;strong&gt;&lt;a href=&#34;http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0195750&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt;
+We conduct the largest ever investigation into the relationship between meteorological con- ditions and the sentiment of human expressions. To do this, we employ over three and a half billion social media posts from tens of millions of individuals from both Facebook and Twitter between 2009 and 2016. We find that cold temperatures, hot temperatures, precipitation, narrower daily temperature ranges, humidity, and cloud cover are all associated with wors- ened expressions of sentiment, even when excluding weather-related posts. We compare the magnitude of our estimates with the effect sizes associated with notable historical events occurring within our data.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Press&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;ldquo;IT&amp;rsquo;S NOT JUST YOU: DARK CLOUDS ARE LINKED WITH DARKER MOODS&amp;rdquo;, &lt;a href=&#34;http://www.newsweek.com/its-not-just-you-dark-clouds-are-linked-darker-moods-900911&#34;&gt;Newsweek&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;Under the Weather? How social media sentiments reflect weather patterns&amp;rdquo;, &lt;a href=&#34;http://researchnews.plos.org/2018/04/25/under-the-weather-how-social-media-sentiments-reflect-weather-patterns/&#34;&gt;PLOS Research News&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;The Way We Talk Online Is Impacted by Changing Weather, Study Finds&amp;rdquo; &lt;a href=&#34;https://weather.com/health/news/2018-04-27-weather-changes-sentiment-social-media-study&#34;&gt;The Weather Channel&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;Bad weather is &amp;lsquo;more depressing than terrorist attack&amp;rsquo;, study finds&amp;rdquo; &lt;a href=&#34;https://uk.news.yahoo.com/bad-weather-depressing-terrorist-attack-study-finds-145829545.html?guccounter=1&#34;&gt;Yahoo UK News&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;When the weather is good, we are happier on social networks&amp;rdquo;, &lt;a href=&#34;https://eurekalert.org/pub_releases/2018-04/ucid-wtw042518.php&#34;&gt;Eureka News&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;Weather associated with sentiments expressed on social media&amp;rdquo;, &lt;a href=&#34;https://phys.org/news/2018-04-weather-sentiments-social-media.html&#34;&gt;Phys.org&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;La temperatura de la felicidad es de 25 grados a mediodía y 10 por la noche&amp;rdquo;, &lt;a href=&#34;http://www.lavanguardia.com/ciencia/20180427/443038627627/estado-animo-meteorologia.html?utm_campaign=botones_sociales&amp;amp;utm_source=twitter&amp;amp;utm_medium=social&#34;&gt;La Vanguardia&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -85,9 +175,22 @@ Abstract: We conduct the largest ever investigation into the relationship betwee
       <pubDate>Mon, 14 Mar 2016 09:06:19 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2016-03-14-rapid-assessment-of-disaster-damage/</guid>
-      <description>Authors: Yury Kryvasheyeu1, Haohui Chen, Nick Obradovich, Esteban Moro, Pascal Van Hentenryck, James Fowler and Manuel Cebrian
-Journal: Science Advances 11 Mar 2016: Vol. 2, no. 3, e1500779 (2016) LINK
-Abstract: Could social media data aid in disaster response and damage assessment? Countries face both an increasing frequency and an increasing intensity of natural disasters resulting from climate change. During such events, citizens turn to social media platforms for disaster-related communication and information.</description>
+      <description>&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Yury Kryvasheyeu1, Haohui Chen, Nick Obradovich, Esteban Moro, Pascal Van Hentenryck, James Fowler and Manuel Cebrian&lt;br&gt;
+&lt;em&gt;Journal&lt;/em&gt;: Science Advances  11 Mar 2016: Vol. 2, no. 3, e1500779 (2016) &lt;strong&gt;&lt;a href=&#34;http://advances.sciencemag.org/content/2/3/e1500779&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Could social media data aid in disaster response and damage assessment? Countries face both an increasing frequency and an increasing intensity of natural disasters resulting from climate change. During such events, citizens turn to social media platforms for disaster-related communication and information. Social media improves situational awareness, facilitates dissemination of emergency information, enables early warning systems, and helps coordinate relief efforts. In addition, the spatiotemporal distribution of disaster-related messages helps with the real-time monitoring and assessment of the disaster itself. We present a multiscale analysis of Twitter activity before, during, and after Hurricane Sandy. We examine the online response of 50 metropolitan areas of the United States and find a strong relationship between proximity to Sandy’s path and hurricane-related social media activity. We show that real and perceived threats, together with physical disaster effects, are directly observable through the intensity and composition of Twitter’s message stream. We demonstrate that per-capita Twitter activity strongly correlates with the per-capita economic damage inflicted by the hurricane. We verify our findings for a wide range of disasters and suggest that massive online social networks can be used for rapid assessment of damage caused by a large-scale disaster.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Press:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Twitter can predict hurricane damage as well as emergency agencies, &lt;a href=&#34;http://www.sciencemag.org/news/2016/03/twitter-can-predict-hurricane-damage-well-emergency-agencies&#34;&gt;Science Magazine&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Twitter Storms Can Help Gauge Damage of Real Storms and Disasters, Study Says, &lt;a href=&#34;http://www.wsj.com/articles/twitter-storms-can-help-gauge-damage-of-real-storms-and-disasters-study-says-1457722801&#34;&gt;Wall Street Journal&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Why your tweets could really matter during a natural disaster, &lt;a href=&#34;https://www.washingtonpost.com/news/energy-environment/wp/2016/03/11/twitter-might-help-pinpoint-worst-damage-after-a-natural-disaster-study-finds/&#34;&gt;The Washington Post&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Twitter May Be Faster Than FEMA Models for Tracking Disaster Damage, &lt;a href=&#34;http://www.smithsonianmag.com/science-nature/twitter-may-be-faster-fema-models-tracking-disaster-damage-180958391/?no-ist&#34;&gt;Smithsonian.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Tweets about Hurricane Sandy were a good predictor of storm damage, study suggests, &lt;a href=&#34;http://www.theverge.com/2016/3/11/11200962/twitter-hurricane-sandy-damage-study&#34;&gt;The Verge&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Twitter-Aktivität zeigt Ausmaß der Schadenshöhe, &lt;a href=&#34;http://www.welt.de/wissenschaft/article153223204/Twitter-Aktivitaet-zeigt-Ausmass-der-Schadenshoehe.html&#34;&gt;Die Welt&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Twitter sabe antes que nadie cuánto cuestan las catástrofes, &lt;a href=&#34;http://tecnologia.elpais.com/tecnologia/2016/03/11/actualidad/1457704699_399299.html&#34;&gt;El Pais&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Twitter predice la severidad de los daños materiales de un huracán,&lt;a href=&#34;http://www.lavanguardia.com/ciencia/20160311/40363546310/huracan-twitter-sandy-danos-materiales-desastre-natural.html&#34;&gt; La Vanguardia&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Investigadores señalan a Twitter como una herramienta útil para mejorar la respuesta ante desastres naturales, &lt;a href=&#34;http://noticias.lainformacion.com/catastrofes-y-accidentes/catastrofes-general/desastre-natural/Investigadores-Twitter-herramienta-desastres-naturales_0_897511903.html&#34;&gt;LaInformación.com&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
   </channel>

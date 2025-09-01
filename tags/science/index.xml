@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Science on </title>
@@ -6,15 +5,23 @@
     <description>Recent content in Science on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Mon, 25 Mar 2013 18:58:09 +0000</lastBuildDate><atom:link href="https://estebanmoro.org/tags/science/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 25 Mar 2013 18:58:09 +0000</lastBuildDate>
+    
+        <atom:link href="https://estebanmoro.org/tags/science/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>when does emulation count as explanation?</title>
       <link>https://estebanmoro.org/2013/03/when-does-emulation-count-as-explanation/</link>
       <pubDate>Mon, 25 Mar 2013 18:58:09 +0000</pubDate>
       
       <guid>https://estebanmoro.org/2013/03/when-does-emulation-count-as-explanation/</guid>
-      <description>To me, the main question when modeling a process in the social sciences is &amp;quot;when does emulation count as explanation?&amp;quot;
-&amp;mdash; John Myles White (@johnmyleswhite) March 25, 2013  Interesting question. I guess the problem is that sometimes in science a model does not pretend to make any prediction, neither is supported by any relevant data. It simply emulates reality.</description>
+      <description>&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;To me, the main question when modeling a process in the social sciences is &amp;quot;when does emulation count as explanation?&amp;quot;&lt;/p&gt;&amp;mdash; John Myles White (@johnmyleswhite) &lt;a href=&#34;https://twitter.com/johnmyleswhite/status/316256250327334913?ref_src=twsrc%5Etfw&#34;&gt;March 25, 2013&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;Interesting question. I guess the problem is that sometimes in science a model does not pretend to make any prediction, neither is supported by any relevant data. It simply emulates reality.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -23,7 +30,10 @@
       <pubDate>Thu, 11 Dec 2008 08:19:12 +0000</pubDate>
       
       <guid>https://estebanmoro.org/2008/12/science-is-the-only-news/</guid>
-      <description>Science is the only news. When you scan through a newspaper or magazine, all the human interest stuff is the same old he-said-she-said, the politics and economics the same sorry cyclic dramas, the fashions a pathetic illusion of newness, and even the technology is predictable if you know the science. Human nature doesn’t change much; science does, and the change accrues, altering the world irreversibly.  A famous quote by Stewart Brand, that appear in John Brockman&amp;rsquo;s essay (and book) The Third Culture</description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Science is the only news. When you scan through a newspaper or magazine, all the human interest stuff is the same old he-said-she-said, the politics and economics the same sorry cyclic dramas, the fashions a pathetic illusion of newness, and even the technology is predictable if you know the science. Human nature doesn’t change much; science does, and the change accrues, altering the world irreversibly. &lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;A famous quote by &lt;a href=&#34;http://en.wikipedia.org/wiki/Stewart_Brand&#34;&gt;Stewart Brand&lt;/a&gt;, that appear in John Brockman&amp;rsquo;s essay (and book) &lt;a href=&#34;http://www.edge.org/3rd_culture/&#34;&gt;The Third Culture&lt;/a&gt;&lt;/p&gt;
+</description>
     </item>
     
   </channel>

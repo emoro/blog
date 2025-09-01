@@ -1,21 +1,34 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>environments on </title>
+    <title>Environments on </title>
     <link>https://estebanmoro.org/tags/environments/</link>
-    <description>Recent content in environments on </description>
+    <description>Recent content in Environments on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Thu, 14 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://estebanmoro.org/tags/environments/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 14 Mar 2024 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://estebanmoro.org/tags/environments/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Effect of mobile food environments on fast food visits</title>
       <link>https://estebanmoro.org/post/2022-09-22-you-are-where-you-eat-effect-of-mobile-food-environments-on-fast-food-visits/</link>
       <pubDate>Thu, 14 Mar 2024 00:00:00 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2022-09-22-you-are-where-you-eat-effect-of-mobile-food-environments-on-fast-food-visits/</guid>
-      <description>Authors: Bernardo Garcia-Bulle, Abigail L. Horn, Brooke M. Bell, Mohsen Bahrami, Burcin Bozkaya, Alex Pentland, Kayla de la Haye, and Esteban Moro
-Publication: Nature Communications 15, article number: 2291. LINK
-Abstract: Poor diets are a leading cause of morbidity and mortality. Exposure to low-quality food environments saturated with fast food outlets is hypothesized to negatively impact diet. However, food environment research has predominantly focused on static food environments around home neighborhoods and generated mixed findings.</description>
+      <description>
+
+
+&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Bernardo Garcia-Bulle, Abigail L. Horn, Brooke M. Bell, Mohsen Bahrami, Burcin Bozkaya, Alex Pentland, Kayla de la Haye, and Esteban Moro&lt;br&gt;
+&lt;em&gt;Publication&lt;/em&gt;: Nature Communications &lt;strong&gt;15&lt;/strong&gt;, article number: 2291. &lt;strong&gt;&lt;a href=&#34;https://www.nature.com/articles/s41467-024-46425-2&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Poor diets are a leading cause of morbidity and mortality. Exposure to low-quality food environments saturated with fast food outlets is hypothesized to negatively impact diet. However, food environment research has predominantly focused on static food environments around home neighborhoods and generated mixed findings. In this work, we leverage population-scale mobility data in the U.S. to examine 62M people’s visits to food outlets and evaluate how food choice is influenced by the food environments people are exposed to as they move through their daily routines. We find that a 10% increase in exposure to fast food outlets in mobile environments increases individuals’ odds of visitation by 20%. Using our results, we simulate multiple policy strategies for intervening on food environments to reduce fast-food outlet visits. This analysis suggests that optimal interventions are informed by spatial, temporal, and behavioral features and could have 2x to 4x larger effect than traditional interventions focused on home food environments.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Media&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://news.northeastern.edu/2024/03/15/fast-food-location-health-impact/&#34;&gt;Efforts to limit fast-food near homes need rethinking&lt;/a&gt;, Northeastern Global News.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.news-medical.net/news/20240318/Study-reveals-daily-food-environment-exposure-shapes-fast-food-habits.aspx&#34;&gt;Study reveals daily food environment exposure shapes fast food habits&lt;/a&gt; News Medical&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://dornsife.usc.edu/news/stories/fast-food-choices-revealed-by-smartphone-data/&#34;&gt;New research shows “you are what… or rather… where you eat”&lt;/a&gt; USC Dornsife News and Events&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
   </channel>

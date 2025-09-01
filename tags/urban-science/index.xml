@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Urban Science on </title>
@@ -6,15 +5,32 @@
     <description>Recent content in Urban Science on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Sat, 11 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://estebanmoro.org/tags/urban-science/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 11 Jan 2025 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://estebanmoro.org/tags/urban-science/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Behaviour-based dependency networks between places shape urban economic resilience</title>
       <link>https://estebanmoro.org/post/2025-01-11-behaviour-based-dependency-networks/</link>
       <pubDate>Sat, 11 Jan 2025 00:00:00 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2025-01-11-behaviour-based-dependency-networks/</guid>
-      <description>Authors: Takahiro Yabe, Bernardo García Bulle Bueno, Morgan R Frank, Alex Pentland, Esteban Moro Publication: Nature Human Behavior (2024) LINK
-Abstract: Disruptions, such as closures of businesses during pandemics, not only affect businesses and amenities directly but also influence how people move, spreading the impact to other businesses and increasing the overall economic shock. However, it is unclear how much businesses depend on each other during disruptions. Leveraging human mobility data and same-day visits in five US cities, we quantify dependencies between points of interest encompassing businesses, stores and amenities.</description>
+      <description>
+
+
+&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Takahiro Yabe, Bernardo García Bulle Bueno, Morgan R Frank, Alex Pentland, Esteban Moro
+&lt;br&gt;
+&lt;em&gt;Publication&lt;/em&gt;: Nature Human Behavior (2024) &lt;strong&gt;&lt;a href=&#34;https://www.nature.com/articles/s41562-024-02072-7&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Disruptions, such as closures of businesses during pandemics, not only affect businesses and amenities directly but also influence how people move, spreading the impact to other businesses and increasing the overall economic shock. However, it is unclear how much businesses depend on each other during disruptions. Leveraging human mobility data and same-day visits in five US cities, we quantify dependencies between points of interest encompassing businesses, stores and amenities. We find that dependency networks computed from human mobility exhibit significantly higher rates of long-distance connections and biases towards specific pairs of point-of-interest categories. We show that using behaviour-based dependency relationships improves the predictability of business resilience during shocks by around 40% compared with distance-based models, and that neglecting behaviour-based dependencies can lead to underestimation of the spatial cascades of disruptions. Our findings underscore the importance of measuring complex relationships in patterns of human mobility to foster urban economic resilience to shocks.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Media&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://news.northeastern.edu/2025/01/06/remote-work-research-urban-economies/&#34;&gt;Remote work affects urban economies far beyond downtown hubs, Northeastern research finds&lt;/a&gt;, Northeastern Global News&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://engineering.nyu.edu/news/new-research-reveals-economic-ripple-effects-business-closures-remote-work-and-other&#34;&gt;New research reveals economic ripple effects of business closures, remote work and other disruptions&lt;/a&gt; NYU Tandon School of Engineering&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://phys.org/news/2025-01-reveals-economic-ripple-effects-business.html&#34;&gt;New research reveals economic ripple effects of business closures, remote work and other disruptions&lt;/a&gt;, Phys.org&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://phys.org/news/2025-01-behavior-based-networks-resilience-cities.html&#34;&gt;Behavior-based dependency networks can shape the resilience of cities following economic shocks&lt;/a&gt;, Phys.org&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -23,8 +39,10 @@ Abstract: Disruptions, such as closures of businesses during pandemics, not only
       <pubDate>Mon, 15 Jul 2024 00:00:00 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2024-07-15-estudiar-ciudades-como-sistemas-complejos-esteban-moro-en-entrevista-para-c3/</guid>
-      <description>Video of my interview about the complexity of Urban Systems at the Centro de Ciencias de la Complejidad (C3) de la Universidad Nacional Autónoma de México.
- </description>
+      <description>&lt;p&gt;Video of my interview about the complexity of Urban Systems at the Centro de Ciencias de la Complejidad (C3) de la Universidad Nacional Autónoma de México.&lt;/p&gt;
+&lt;iframe src=&#34;https://www.youtube.com/embed/3kzDd0qRSZM?start=&#34;
+  style=&#34;position: absolute; top: 0; left: 0; width: 560; height: 315;&#34; allowfullscreen frameborder=&#34;0&#34; title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+</description>
     </item>
     
     <item>
@@ -33,9 +51,17 @@ Abstract: Disruptions, such as closures of businesses during pandemics, not only
       <pubDate>Sun, 02 Apr 2023 00:00:00 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2023-04-03-diversity-beyond-density-experienced-social-mixing-of-urban-streets/</guid>
-      <description>Authors: Zhuangyuan Fan, Tianyu Su, Maoran Sun, Ariel Noyman, Fan Zhang, Alex ‘Sandy’ Pentland, Esteban Moro
-Publication: PNAS Nexus, Volumen 2, Issue 4, pgad077, 2023 LINK
-Abstract: Urban density, in the form of residents’ and visitors’ concentration, is long considered to foster diverse exchanges of interpersonal knowledge and skills, which are intrinsic to sustainable human settlements. However, with current urban studies primarily devoted to city- and district-level analyses, we cannot unveil the elemental connection between urban density and diversity.</description>
+      <description>
+
+
+&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Zhuangyuan Fan, Tianyu Su, Maoran Sun, Ariel Noyman, Fan Zhang, Alex ‘Sandy’ Pentland, Esteban Moro&lt;br&gt;
+&lt;em&gt;Publication&lt;/em&gt;: PNAS Nexus, Volumen 2, Issue 4, pgad077, 2023 &lt;br&gt; &lt;strong&gt;&lt;a href=&#34;https://academic.oup.com/pnasnexus/advance-article/doi/10.1093/pnasnexus/pgad077/7075905&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Urban density, in the form of residents’ and visitors’ concentration, is long considered to foster diverse exchanges of interpersonal knowledge and skills, which are intrinsic to sustainable human settlements. However, with current urban studies primarily devoted to city- and district-level analyses, we cannot unveil the elemental connection between urban density and diversity. Here we use an anonymized and privacy-enhanced mobile dataset of 0.5 million opted-in users from three metropolitan areas in the United States to show that at the scale of urban streets, density is not the only path to diversity. We represent the diversity of each street with the experienced social mixing (ESM), which describes the chances of people meeting diverse income groups throughout their daily experience. We conduct multiple experiments and show that the concentration of visitors only explains 26% of street-level ESM. However, adjacent amenities, residential diversity, and income level account for 44% of the ESM. Moreover, using longitudinal business data, we show that streets with an increased number of food businesses have seen an increased ESM from 2016 to 2018. Lastly, although streets with more visitors are more likely to have crime, diverse streets tend to have fewer crimes. These findings suggest that cities can leverage many tools beyond density to curate a diverse and safe street experience for people.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Media&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Great streets: visualization of the main results &lt;a href=&#34;http://greatstreets.mit.edu&#34; class=&#34;uri&#34;&gt;http://greatstreets.mit.edu&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -44,7 +70,38 @@ Abstract: Urban density, in the form of residents’ and visitors’ concentrati
       <pubDate>Mon, 03 Oct 2022 00:00:00 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2019-02-02-behavioral-fundations-of-inequality/</guid>
-      <description>Inequality is one of the most important problems in our societies. For example, economic inequality is today higher than it was in the 1970’s and by some metrics stands at levels not seen since the last Great Depression. A special form of segregation is that happening in our cities. We share the public places, our workplaces and our residential neighborhoods with people like us: same type of jobs, same education, similar economic status, and political opinions.</description>
+      <description>&lt;p&gt;Inequality is one of the most important problems in our societies. For example, economic inequality is today higher than it was in the 1970’s and by some metrics stands at levels not seen since the last Great Depression. A special form of segregation is that happening in our cities. We share the public places, our workplaces and our residential neighborhoods with people like us: same type of jobs, same education, similar economic status, and political opinions.&lt;/p&gt;
+&lt;p&gt;That segregation has an enormous costs in our societies: for example, top 1 percent income group live 10 to 15 years longer than their counterparts in the bottom 1 percent income group. Children with more exposure to distressed neighborhoods have worse educational outcomes and higher levels of segregation are associated with high homicide rates, slower economic growth or less innovation over time. To understand this problem most interest and policies for cities are focused on neighborhoods. The assumption is that our behavior is mainly determined by the place where we live. However, most of our daily activities happen well beyond our residence and we interact and encounter people in many different places around the city. This implies that &lt;strong&gt;segregation or isolation in our cities is  mainly encoded in our choices, our daily behavior, not where we live&lt;/strong&gt;. The unavailability of high resolution data about those daily choices have prevented researchers to understand behavioral segregation, limiting our understanding of what is happening in cities to residential segregation or very small studies based on personal surveys. We have partnered with Location Based Services companies to access massive datasets about people&amp;rsquo;s movements in big cities in the US. Our plan is to go beyond residential segregation and develop the tools and models to understand &lt;em&gt;economic&lt;/em&gt; segregation at the level of public places, workplaces, shopping centers, but also to come up with measures of how even a single individual is segregated. Also that information will allow us to create high-resolution temporal encounter networks in the city that can be use not only to study segregation, but other problems like disease propagation, crime prediction, etc. We plan to create the most detail map of how people encounter and interact in the city. This tool will allow researchers to have better models of mobility, city planners can make better data-driven decisions about how to shape their communities, how to invest their money or where to locate their new business while mitigate segregation.&lt;/p&gt;
+&lt;p&gt;Knowing also what are the behavioral traits (preferences, commuting patterns, leisure activities, exercise habits) of individual users in their segregation will allow companies and city planers to design behavioral interventions to change our segregated behavior. To test that, our plan is to use our modeling of individual segregation to be able to partner with decision-makers, city planers or companies in deploying small intervention experiments in local neighborhood. This is a rather interdisciplinary research and we are reaching out to scientists in Social Sciences, Civil Engineering in Harvard, Northeastern University, MIT or the Boston Area Research Initiative to help us build those tools.&lt;/p&gt;
+&lt;p&gt;Recent publications:
+&lt;small&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;b&gt;Rhythm of the streets: a street classification framework based on street activity patterns&lt;/b&gt;&lt;br&gt;
+Tianyu Su, Maoran Sun, Zhuangyuan Fan, Ariel Noyman, Alex Pentland, Esteban Moro&lt;br&gt;
+EPJ Data Science &lt;strong&gt;11&lt;/strong&gt; 43 (2022)&lt;br&gt;
+&lt;a href=&#34;https://estebanmoro.org/pdf/Rhythm_of_the_streets__a_street_classification_framework_based_on_street_activity_patterns.pdf&#34; class=&#34;BUTTON_JEL&#34;&gt;PDF&lt;/a&gt; &lt;a href=&#34;https://epjds.epj.org/articles/epjdata/abs/2022/01/13688_2022_Article_355/13688_2022_Article_355.html&#34; class=&#34;BUTTON_JEL&#34;&gt;Journal&lt;/a&gt; &lt;div data-badge-popover=&#34;right&#34; data-badge-type=&#34;2&#34; data-doi=&#34;10.1140/epjds/s13688-022-00355-5&#34; data-hide-no-mentions=&#34;true&#34; data-hide-less-than=&#34;10&#34; class=&#34;altmetric-embed&#34;&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;b&gt;Generating synthetic mobility data for a realistic population with RNNs to improve utility and privacy&lt;/b&gt;&lt;br&gt;
+Alex Berke, Ronan Doorley, Kent Larson, Esteban Moro&lt;br&gt;
+In Proceedings of the 37th ACM/SIGAPP Symposium on Applied Computing (2022)&lt;br&gt;
+&lt;a href=&#34;https://estebanmoro.org/pdf/Generating_synthetic_mobility_data_for_a_realistic_population_with_RNNs_to_improve_utility_and_privacy.pdf&#34; class=&#34;BUTTON_JEL&#34;&gt;PDF&lt;/a&gt; &lt;a href=&#34;https://dl.acm.org/doi/abs/10.1145/3477314.3507230&#34; class=&#34;BUTTON_JEL&#34;&gt;Proceedings&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;b&gt;Mobility patterns are associated with experienced income segregation in large US cities&lt;/b&gt;&lt;br&gt;
+Esteban Moro, Dan Calacci, Xiaowen Dong, Alex Pentland&lt;br&gt;
+Nature Communications &lt;strong&gt;12&lt;/strong&gt; 4633 (2021)&lt;br&gt;
+&lt;a href=&#34;https://estebanmoro.org/pdf/Mobility_patterns_are_associated_with_experienced_income_segregation_in_large_US_cities.pdf&#34; class=&#34;BUTTON_JEL&#34;&gt;PDF&lt;/a&gt; &lt;a href=&#34;https://www.nature.com/articles/s41467-021-24899-8&#34; class=&#34;BUTTON_JEL&#34;&gt;Journal&lt;/a&gt; &lt;div data-badge-popover=&#34;right&#34; data-badge-type=&#34;2&#34; data-doi=&#34;10.1038/s41467-021-24899-8&#34; data-hide-no-mentions=&#34;true&#34; data-hide-less-than=&#34;10&#34; class=&#34;altmetric-embed&#34;&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;b&gt;Segregated interactions in urban and online space&lt;/b&gt;&lt;br&gt;
+Xiaowen Dong, Alfredo J. Morales, Eaman Jahani, Esteban Moro, Bruno Lepri, Burcin Bozkaya, Carlos Sarraute, Yaneer Bar-Yam, Alex Pentland&lt;br&gt;
+EPJ Data Science &lt;strong&gt;9&lt;/strong&gt; 20 (2020)&lt;br&gt;
+&lt;a href=&#34;https://estebanmoro.org/pdf/Segregated_interactions_in_urban_and_online_space.pdf&#34; class=&#34;BUTTON_JEL&#34;&gt;PDF&lt;/a&gt; &lt;a href=&#34;https://epjds.epj.org/articles/epjdata/abs/2020/01/13688_2020_Article_238/13688_2020_Article_238.html&#34; class=&#34;BUTTON_JEL&#34;&gt;Journal&lt;/a&gt; &lt;div data-badge-popover=&#34;right&#34; data-badge-type=&#34;2&#34; data-doi=&#34;10.1140/epjds/s13688-020-00238-7&#34; data-hide-no-mentions=&#34;true&#34; data-hide-less-than=&#34;10&#34; class=&#34;altmetric-embed&#34;&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -53,9 +110,13 @@ Abstract: Urban density, in the form of residents’ and visitors’ concentrati
       <pubDate>Fri, 29 Jul 2022 00:00:00 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2022-07-29-rhythm-of-the-streets-a-street-classification-framework-based-on-street-activity-patterns/</guid>
-      <description>Authors: Tianyu Su , Maoran Sun, Zhuangyuan Fan, Ariel Noyman, Alex Pentland, and Esteban Moro
-Publication: EPJ Data Science 11, 43 (2022). Link
-Abstract: As the living tissue connecting urban places, streets play significant roles in driving city development, providing essential access, and promoting human interactions. Understanding street activities and how these activities vary across different streets is critical for designing both efficient and livable streets. However, current street classification frameworks primarily focus on either streets’ functions in transportation networks or their adjacent land uses rather than actual activity patterns, resulting in coarse classifications.</description>
+      <description>
+
+
+&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Tianyu Su , Maoran Sun, Zhuangyuan Fan, Ariel Noyman, Alex Pentland, and Esteban Moro&lt;br&gt;
+&lt;em&gt;Publication&lt;/em&gt;: EPJ Data Science &lt;strong&gt;11&lt;/strong&gt;, 43 (2022). &lt;strong&gt;&lt;a href=&#34;https://epjdatascience.springeropen.com/articles/10.1140/epjds/s13688-022-00355-5&#34;&gt;Link&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; As the living tissue connecting urban places, streets play significant roles in driving city development, providing essential access, and promoting human interactions. Understanding street activities and how these activities vary across different streets is critical for designing both efficient and livable streets. However, current street classification frameworks primarily focus on either streets’ functions in transportation networks or their adjacent land uses rather than actual activity patterns, resulting in coarse classifications. This research proposes an activity-based street classification framework to categorize street segments based on their temporal street activity patterns, which is derived from high-resolution de-identified and privacy-enhanced mobility data. We then apply the proposed framework to 18,023 street segments in the City of Boston and reveal 10 distinct activity-based street types (ASTs). These ASTs highlight dynamic street activities on streets, which complements existing street classification frameworks, which focus on the static or transportation characteristics of the street segments. Our results show that a street classification framework based on temporal street activity patterns can identify street categories at a finer granularity than current methods, which can offer useful implications for state-of-the-art urban management and planning. In particular, we find that our classification distinguishes better those streets where crime is more prevalent than current functional or contextual classifications of streets.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -64,7 +125,562 @@ Abstract: As the living tissue connecting urban places, streets play significant
       <pubDate>Mon, 19 Oct 2020 00:00:00 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2020-10-19-personal-art-map-with-r/</guid>
-      <description>Map art makes beautiful posters. You can find them all over the internet and buy them even framed for your favorite city, area or country. Those posters&#39; beauty relies on the intricate and beautiful pattern of roads, buildings, parks, rivers, etc., which shape our cities and our mobility. In my research I constantly use those maps as the hardware fabric in which humans interact, move or encounter in urban settings.</description>
+      <description>&lt;script src=&#34;https://estebanmoro.org/rmarkdown-libs/kePrint/kePrint.js&#34;&gt;&lt;/script&gt;
+&lt;link href=&#34;https://estebanmoro.org/rmarkdown-libs/lightable/lightable.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;p&gt;Map art makes beautiful posters. You can find &lt;a href=&#34;https://www.google.com/search?q=map+art&amp;amp;client=safari&amp;amp;rls=en&amp;amp;sxsrf=ALeKk01Ce8a8IaqjUQbnAyamSAgqbV6hPg:1603129236599&amp;amp;source=lnms&amp;amp;tbm=isch&amp;amp;sa=X&amp;amp;ved=2ahUKEwiakrTlmcHsAhUGWN8KHbBiBV0Q_AUoAnoECA0QBA&amp;amp;biw=1324&amp;amp;bih=969&#34;&gt;them all over the internet&lt;/a&gt; and buy them even framed for your favorite city, area or country. Those posters&amp;rsquo; beauty relies on the intricate and beautiful pattern of roads, buildings, parks, rivers, etc., which shape our cities and our mobility. In my &lt;a href=&#34;https://inequality.media.mit.edu&#34;&gt;research&lt;/a&gt; I constantly use those maps as the hardware fabric in which humans interact, move or encounter in urban settings. However, we found that each of us has a distinct mobility pattern around cities, so even people living in the same neighborhood experience the city in a different way.&lt;/p&gt;
+&lt;p&gt;For my map art, I wanted to create something more personal: a combination of those beautiful street maps with personal mobility. That is, the city and how we navigate it. In this tutorial, you&amp;rsquo;ll learn how to create those street maps for your city and your mobility. We will use data from &lt;a href=&#34;https://www.openstreetmap.org/&#34;&gt;Open Street Maps&lt;/a&gt; (OSM) and, of course, &lt;code&gt;R&lt;/code&gt;. We will also use personal mobility data, which you can input manually. Still, we will learn too how to get it from Google Maps Timeline (if you have your location activated). Part of the material here is based on the &lt;a href=&#34;https://ggplot2tutor.com/author&#34;&gt;tutorial by Christian Burkhart&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;creating-the-streetmap&#34;&gt;Creating the streetmap&lt;/h2&gt;
+&lt;p&gt;The first thing will be to get a beautiful map of a given city&amp;rsquo;s streets and boundaries. In this case, Boston, the place where I live. To download the streets, we use the &lt;code&gt;osmdata&lt;/code&gt; package to query OSM. First, we define our bounding box, i.e. the area where we are going to query OSM:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;library&lt;/span&gt;(osmdata)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;bbx &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;getbb&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Boston, MA&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;But sometimes you want a more specific area, and you can create your own bounding box:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;min_lon &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;-71.28735&lt;/span&gt;; max_lon &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;-70.900578&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;min_lat &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;42.245838&lt;/span&gt;; max_lat &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;42.453673&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;bbx &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;rbind&lt;/span&gt;(x&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;c&lt;/span&gt;(min_lon,max_lon),y&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;c&lt;/span&gt;(min_lat,max_lat))
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;colnames&lt;/span&gt;(bbx) &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;c&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;min&amp;#34;&lt;/span&gt;,&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;max&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;OSM data has many layers (or &amp;ldquo;features&amp;rdquo;). You can find them &lt;a href=&#34;https://wiki.openstreetmap.org/wiki/Map_Features&#34;&gt;here&lt;/a&gt;. They go from railways, vegetation to streets or points of interest. Let&amp;rsquo;s see how many of them are related to &lt;code&gt;highway&lt;/code&gt;.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;available_tags&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;highway&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;## # A tibble: 53 × 2
+##    Key     Value                 
+##    &amp;lt;chr&amp;gt;   &amp;lt;chr&amp;gt;                 
+##  1 highway bridleway             
+##  2 highway bus_guideway          
+##  3 highway bus_stop              
+##  4 highway busway                
+##  5 highway construction          
+##  6 highway corridor              
+##  7 highway crossing              
+##  8 highway cycleway              
+##  9 highway elevator              
+## 10 highway emergency_access_point
+## # ℹ 43 more rows
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;They are a lot of them, but the main ones are &lt;code&gt;motorway&lt;/code&gt;, &lt;code&gt;trunk&lt;/code&gt;, &lt;code&gt;primary&lt;/code&gt;, &lt;code&gt;secondary&lt;/code&gt;, &lt;code&gt;tertiary&lt;/code&gt; that distinguish between highways and other roads conecting cities or small towns. Let&amp;rsquo;s collect them:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;highways &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; bbx &lt;span style=&#34;color:#f92672&#34;&gt;%&amp;gt;%&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;opq&lt;/span&gt;()&lt;span style=&#34;color:#f92672&#34;&gt;%&amp;gt;%&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;add_osm_feature&lt;/span&gt;(key &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;highway&amp;#34;&lt;/span&gt;, 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                  value&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;c&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;motorway&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;trunk&amp;#34;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                          &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;primary&amp;#34;&lt;/span&gt;,&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;secondary&amp;#34;&lt;/span&gt;, 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                          &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;tertiary&amp;#34;&lt;/span&gt;,&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;motorway_link&amp;#34;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                          &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;trunk_link&amp;#34;&lt;/span&gt;,&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;primary_link&amp;#34;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                          &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;secondary_link&amp;#34;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                          &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;tertiary_link&amp;#34;&lt;/span&gt;)) &lt;span style=&#34;color:#f92672&#34;&gt;%&amp;gt;%&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;osmdata_sf&lt;/span&gt;()
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;We have 182 lines. Let&amp;rsquo;s have a look at them. We color them according to the label &lt;code&gt;highway&lt;/code&gt;.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;require&lt;/span&gt;(sf)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;ggplot&lt;/span&gt;() &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;geom_sf&lt;/span&gt;(data &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; highways&lt;span style=&#34;color:#f92672&#34;&gt;$&lt;/span&gt;osm_lines,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          &lt;span style=&#34;color:#a6e22e&#34;&gt;aes&lt;/span&gt;(color&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;highway),
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          size &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;.4&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          alpha &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;.65&lt;/span&gt;)&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;theme_void&lt;/span&gt;()
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;https://estebanmoro.org/post/2020-10-19-personal-art-map-with-r_files/figure-html/unnamed-chunk-7-1.png&#34; width=&#34;1152&#34; /&gt;
+&lt;p&gt;But we are also going to use the small streets, pedestrian paths or living streets that connect our neighborhoods (be advised, this is a large query so you might probably want to save it for later)&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;streets &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; bbx &lt;span style=&#34;color:#f92672&#34;&gt;%&amp;gt;%&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;opq&lt;/span&gt;()&lt;span style=&#34;color:#f92672&#34;&gt;%&amp;gt;%&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;add_osm_feature&lt;/span&gt;(key &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;highway&amp;#34;&lt;/span&gt;, 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                  value &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;c&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;residential&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;living_street&amp;#34;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                            &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;service&amp;#34;&lt;/span&gt;,&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;unclassified&amp;#34;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                            &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;pedestrian&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;footway&amp;#34;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                            &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;track&amp;#34;&lt;/span&gt;,&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;path&amp;#34;&lt;/span&gt;)) &lt;span style=&#34;color:#f92672&#34;&gt;%&amp;gt;%&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;osmdata_sf&lt;/span&gt;()
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This time, we have 286 lines. Let&amp;rsquo;s have a look at them.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;ggplot&lt;/span&gt;() &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;geom_sf&lt;/span&gt;(data &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; streets&lt;span style=&#34;color:#f92672&#34;&gt;$&lt;/span&gt;osm_lines,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          &lt;span style=&#34;color:#a6e22e&#34;&gt;aes&lt;/span&gt;(color&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;highway),
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          size &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;.4&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          alpha &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;.65&lt;/span&gt;)&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;theme_void&lt;/span&gt;()
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;https://estebanmoro.org/post/2020-10-19-personal-art-map-with-r_files/figure-html/unnamed-chunk-10-1.png&#34; width=&#34;1152&#34; /&gt;
+&lt;p&gt;Those maps are already beautiful, right? You probably can see a darker area downtown Boston and Cambridge because of the larger street density there.&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s combine them and have different width for the highways and streets to highlight highways&amp;rsquo; importance. At the same time, let&amp;rsquo;s crop the streets to show only those within the bounding box.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;color_roads &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;rgb&lt;/span&gt;(&lt;span style=&#34;color:#ae81ff&#34;&gt;0.42&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;0.449&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;0.488&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;ggplot&lt;/span&gt;() &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;geom_sf&lt;/span&gt;(data &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; streets&lt;span style=&#34;color:#f92672&#34;&gt;$&lt;/span&gt;osm_lines,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          col &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; color_roads,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          size &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;.4&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          alpha &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;.65&lt;/span&gt;) &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;geom_sf&lt;/span&gt;(data &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; highways&lt;span style=&#34;color:#f92672&#34;&gt;$&lt;/span&gt;osm_lines,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          col &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; color_roads,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          size &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;.6&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          alpha &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;.8&lt;/span&gt;)&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;coord_sf&lt;/span&gt;(xlim &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;c&lt;/span&gt;(min_lon,max_lon),
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;           ylim &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;c&lt;/span&gt;(min_lat,max_lat),
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;         expand &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;FALSE&lt;/span&gt;)&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;theme&lt;/span&gt;(legend.position &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; F) &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;theme_void&lt;/span&gt;()
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;https://estebanmoro.org/post/2020-10-19-personal-art-map-with-r_files/figure-html/unnamed-chunk-11-1.png&#34; width=&#34;1152&#34; /&gt;
+&lt;h2 id=&#34;adding-the-geography&#34;&gt;Adding the geography&lt;/h2&gt;
+&lt;p&gt;Although those maps are very informative, they lack a crucial component of the geography: the land, rivers, coastlines that define our cities. In the maps of Boston above, you are probably missing the Charles River&amp;rsquo;s shape or those of the beautiful &lt;a href=&#34;https://www.bostonharborislands.org&#34;&gt;Boston Harbor Islands&lt;/a&gt;. In most maps around the internet, you will find those geographies are included using &lt;a href=&#34;https://wiki.openstreetmap.org/wiki/Tiles&#34;&gt;tiles&lt;/a&gt;, which are basically a raster layer of images with different characteristics (names of the places, POI, etc). However, since we are going to print these maps in a large format, we need a better resolution that typically those image tiles provide. Ideally, we would like vector graphics like the lines we downloaded from OSM.&lt;/p&gt;
+&lt;p&gt;Instead of using raster images, we are going to use the polygons for the different counties around the Boston Area. The US Census has an amazing service called &lt;a href=&#34;https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html&#34;&gt;Tiger&lt;/a&gt; to retrieve those boundaries in ESRI&amp;rsquo;s shapefile format. In &lt;code&gt;R&lt;/code&gt;, we can access those shapefiles using the &lt;code&gt;tigris&lt;/code&gt; package. For example, these are the counties in the state of Massachusetts for the same bounding box as before:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;require&lt;/span&gt;(tigris)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;counties_MA &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;counties&lt;/span&gt;(state&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;MA&amp;#34;&lt;/span&gt;,cb&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;T,class&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;sf&amp;#34;&lt;/span&gt;,)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;## 
+  |                                                        
+  |                                                  |   0%
+  |                                                        
+  |                                                  |   1%
+  |                                                        
+  |=                                                 |   1%
+  |                                                        
+  |=                                                 |   2%
+  |                                                        
+  |=                                                 |   3%
+  |                                                        
+  |==                                                |   3%
+  |                                                        
+  |==                                                |   4%
+  |                                                        
+  |==                                                |   5%
+  |                                                        
+  |===                                               |   6%
+  |                                                        
+  |===                                               |   7%
+  |                                                        
+  |====                                              |   7%
+  |                                                        
+  |====                                              |   8%
+  |                                                        
+  |=====                                             |   9%
+  |                                                        
+  |=====                                             |  10%
+  |                                                        
+  |======                                            |  11%
+  |                                                        
+  |======                                            |  12%
+  |                                                        
+  |==========                                        |  20%
+  |                                                        
+  |==========                                        |  21%
+  |                                                        
+  |===========                                       |  21%
+  |                                                        
+  |===========                                       |  22%
+  |                                                        
+  |===========                                       |  23%
+  |                                                        
+  |============                                      |  25%
+  |                                                        
+  |==============                                    |  28%
+  |                                                        
+  |===============                                   |  29%
+  |                                                        
+  |===============                                   |  30%
+  |                                                        
+  |===============                                   |  31%
+  |                                                        
+  |================                                  |  31%
+  |                                                        
+  |================                                  |  32%
+  |                                                        
+  |=================                                 |  33%
+  |                                                        
+  |=================                                 |  34%
+  |                                                        
+  |=================                                 |  35%
+  |                                                        
+  |===================                               |  37%
+  |                                                        
+  |=====================                             |  42%
+  |                                                        
+  |=======================                           |  45%
+  |                                                        
+  |==========================                        |  51%
+  |                                                        
+  |==========================                        |  53%
+  |                                                        
+  |===========================                       |  54%
+  |                                                        
+  |===========================                       |  55%
+  |                                                        
+  |============================                      |  56%
+  |                                                        
+  |==============================                    |  59%
+  |                                                        
+  |=================================                 |  66%
+  |                                                        
+  |=================================                 |  67%
+  |                                                        
+  |==================================                |  67%
+  |                                                        
+  |==================================                |  68%
+  |                                                        
+  |==================================                |  69%
+  |                                                        
+  |===================================               |  69%
+  |                                                        
+  |====================================              |  72%
+  |                                                        
+  |=====================================             |  75%
+  |                                                        
+  |======================================            |  75%
+  |                                                        
+  |======================================            |  76%
+  |                                                        
+  |======================================            |  77%
+  |                                                        
+  |=======================================           |  77%
+  |                                                        
+  |=======================================           |  78%
+  |                                                        
+  |========================================          |  80%
+  |                                                        
+  |========================================          |  81%
+  |                                                        
+  |=========================================         |  81%
+  |                                                        
+  |=========================================         |  82%
+  |                                                        
+  |=========================================         |  83%
+  |                                                        
+  |==========================================        |  83%
+  |                                                        
+  |==========================================        |  84%
+  |                                                        
+  |=============================================     |  89%
+  |                                                        
+  |=============================================     |  90%
+  |                                                        
+  |=============================================     |  91%
+  |                                                        
+  |==============================================    |  91%
+  |                                                        
+  |==============================================    |  92%
+  |                                                        
+  |==============================================    |  93%
+  |                                                        
+  |===============================================   |  94%
+  |                                                        
+  |================================================  |  95%
+  |                                                        
+  |================================================  |  96%
+  |                                                        
+  |================================================= |  98%
+  |                                                        
+  |================================================= |  99%
+  |                                                        
+  |==================================================| 100%
+&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;counties_MA &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;st_crop&lt;/span&gt;(counties_MA,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                       xmin&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;min_lon,xmax&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;max_lon,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                       ymin&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;min_lat,ymax&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;max_lat)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;ggplot&lt;/span&gt;() &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;geom_sf&lt;/span&gt;(data&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;counties_MA,fill&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;gray&amp;#34;&lt;/span&gt;,lwd&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;)&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;coord_sf&lt;/span&gt;(xlim &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;c&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;min&lt;/span&gt;(bbx[1,]), &lt;span style=&#34;color:#a6e22e&#34;&gt;max&lt;/span&gt;(bbx[1,])), 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;         ylim &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;c&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;min&lt;/span&gt;(bbx[2,]), &lt;span style=&#34;color:#a6e22e&#34;&gt;max&lt;/span&gt;(bbx[2,])),
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;         expand &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;FALSE&lt;/span&gt;)&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;theme&lt;/span&gt;(legend.position &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; F) &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;theme_void&lt;/span&gt;()
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;https://estebanmoro.org/post/2020-10-19-personal-art-map-with-r_files/figure-html/unnamed-chunk-12-1.png&#34; width=&#34;1152&#34; /&gt;
+&lt;p&gt;We can see the coastline and some of the Boston Harbor Islands, but the Charles River or the ponds around Boston are missing. Also, note that the resolution is very low. The &lt;code&gt;tigris&lt;/code&gt; library calls the TIGER API using the default (maximum) resolution &lt;code&gt;500k&lt;/code&gt; (1:500k), which is not enough for our high-resolution map.&lt;/p&gt;
+&lt;p&gt;To get a better geography layer we are going to carve out the shapefile of the area of water from these polygons. The water shapefiles can be also obtained from the TIGER services. Fortunately, those water lines have a much better resolution than the counties shapefiles.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;get_water &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;function&lt;/span&gt;(county_GEOID){
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;area_water&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;MA&amp;#34;&lt;/span&gt;, county_GEOID, class &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;sf&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;water &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;do.call&lt;/span&gt;(rbind, 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                 &lt;span style=&#34;color:#a6e22e&#34;&gt;lapply&lt;/span&gt;(counties_MA&lt;span style=&#34;color:#f92672&#34;&gt;$&lt;/span&gt;COUNTYFP,get_water))
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;## 
+  |                                                        
+  |                                                  |   0%
+  |                                                        
+  |===                                               |   6%
+  |                                                        
+  |=============                                     |  26%
+  |                                                        
+  |=================                                 |  33%
+  |                                                        
+  |=================                                 |  35%
+  |                                                        
+  |==============================                    |  61%
+  |                                                        
+  |==================================                |  68%
+  |                                                        
+  |==============================================    |  92%
+  |                                                        
+  |==================================================|  99%
+  |                                                        
+  |==================================================| 100%
+## 
+  |                                                        
+  |                                                  |   0%
+  |                                                        
+  |                                                  |   1%
+  |                                                        
+  |=====================                             |  42%
+  |                                                        
+  |==================================================| 100%
+## 
+  |                                                        
+  |                                                  |   0%
+  |                                                        
+  |========================                          |  48%
+  |                                                        
+  |=========================                         |  50%
+  |                                                        
+  |==================================                |  67%
+  |                                                        
+  |================================================  |  97%
+  |                                                        
+  |==================================================| 100%
+## 
+  |                                                        
+  |                                                  |   0%
+  |                                                        
+  |=                                                 |   1%
+  |                                                        
+  |==                                                |   4%
+  |                                                        
+  |=====                                             |  10%
+  |                                                        
+  |======                                            |  12%
+  |                                                        
+  |==========================                        |  52%
+  |                                                        
+  |==================================                |  68%
+  |                                                        
+  |======================================            |  76%
+  |                                                        
+  |========================================          |  81%
+  |                                                        
+  |==========================================        |  83%
+  |                                                        
+  |==============================================    |  93%
+  |                                                        
+  |================================================  |  95%
+  |                                                        
+  |==================================================| 100%
+## 
+  |                                                        
+  |                                                  |   0%
+  |                                                        
+  |===========                                       |  23%
+  |                                                        
+  |=======================                           |  46%
+  |                                                        
+  |==================================================| 100%
+&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;water &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;st_crop&lt;/span&gt;(water,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                 xmin&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;min_lon,xmax&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;max_lon,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                 ymin&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;min_lat,ymax&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;max_lat)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Let&amp;rsquo;s have a look at them:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;ggplot&lt;/span&gt;() &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;geom_sf&lt;/span&gt;(data&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;counties_MA)&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;geom_sf&lt;/span&gt;(data&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;water,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          inherit.aes &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; F,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          col&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;red&amp;#34;&lt;/span&gt;)&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;coord_sf&lt;/span&gt;(xlim &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;c&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;min&lt;/span&gt;(bbx[1,]), &lt;span style=&#34;color:#a6e22e&#34;&gt;max&lt;/span&gt;(bbx[1,])), 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;         ylim &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;c&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;min&lt;/span&gt;(bbx[2,]), &lt;span style=&#34;color:#a6e22e&#34;&gt;max&lt;/span&gt;(bbx[2,])),
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;         expand &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;FALSE&lt;/span&gt;)&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;theme&lt;/span&gt;(legend.position &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; F) &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;theme_void&lt;/span&gt;()
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;https://estebanmoro.org/post/2020-10-19-personal-art-map-with-r_files/figure-html/unnamed-chunk-14-1.png&#34; width=&#34;1152&#34; /&gt;
+&lt;p&gt;Finally, let&amp;rsquo;s carve out the water polygons from the counties polygons.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;st_erase &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;function&lt;/span&gt;(x, y) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;st_difference&lt;/span&gt;(x, &lt;span style=&#34;color:#a6e22e&#34;&gt;st_union&lt;/span&gt;(y))
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;counties_MA &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;st_erase&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;st_union&lt;/span&gt;(counties_MA),water)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;which looks like this (not showing the lines between counties)&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;ggplot&lt;/span&gt;() &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;geom_sf&lt;/span&gt;(data&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;counties_MA,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          lwd&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;)&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;coord_sf&lt;/span&gt;(xlim &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;c&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;min&lt;/span&gt;(bbx[1,]), &lt;span style=&#34;color:#a6e22e&#34;&gt;max&lt;/span&gt;(bbx[1,])), 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;         ylim &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;c&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;min&lt;/span&gt;(bbx[2,]), &lt;span style=&#34;color:#a6e22e&#34;&gt;max&lt;/span&gt;(bbx[2,])),
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;         expand &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;FALSE&lt;/span&gt;)&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;theme&lt;/span&gt;(legend.position &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; F) &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;theme_void&lt;/span&gt;()
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;https://estebanmoro.org/post/2020-10-19-personal-art-map-with-r_files/figure-html/fig.wi-1.png&#34; width=&#34;1152&#34; /&gt;
+&lt;p&gt;We can play now with the different colors for the water or land. Apart from the one above, I like these combinations (you might notice still the lines between counties. Don&amp;rsquo;t worry, they disappear when we print them in large format):&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;ggplot&lt;/span&gt;() &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;geom_sf&lt;/span&gt;(data&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;counties_MA,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          inherit.aes&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;FALSE&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          lwd&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;0.0&lt;/span&gt;,fill&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;rgb&lt;/span&gt;(&lt;span style=&#34;color:#ae81ff&#34;&gt;0.203&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;0.234&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;0.277&lt;/span&gt;))&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;coord_sf&lt;/span&gt;(xlim &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;c&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;min&lt;/span&gt;(bbx[1,]), &lt;span style=&#34;color:#a6e22e&#34;&gt;max&lt;/span&gt;(bbx[1,])), 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;         ylim &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;c&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;min&lt;/span&gt;(bbx[2,]), &lt;span style=&#34;color:#a6e22e&#34;&gt;max&lt;/span&gt;(bbx[2,])),
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;         expand &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;FALSE&lt;/span&gt;)&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;theme&lt;/span&gt;(legend.position &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; F) &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;theme_void&lt;/span&gt;()&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;theme&lt;/span&gt;(panel.background&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          &lt;span style=&#34;color:#a6e22e&#34;&gt;element_rect&lt;/span&gt;(fill &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;rgb&lt;/span&gt;(&lt;span style=&#34;color:#ae81ff&#34;&gt;0.92&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;0.679&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;0.105&lt;/span&gt;)))&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;ggtitle&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Dark + Yellow theme&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;https://estebanmoro.org/post/2020-10-19-personal-art-map-with-r_files/figure-html/unnamed-chunk-16-1.png&#34; width=&#34;1344&#34; /&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;ggplot&lt;/span&gt;() &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;geom_sf&lt;/span&gt;(data&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;counties_MA,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          inherit.aes&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;FALSE&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          lwd&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;0.0&lt;/span&gt;,fill&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;white&amp;#34;&lt;/span&gt;)&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;coord_sf&lt;/span&gt;(xlim &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;c&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;min&lt;/span&gt;(bbx[1,]), &lt;span style=&#34;color:#a6e22e&#34;&gt;max&lt;/span&gt;(bbx[1,])), 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;         ylim &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;c&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;min&lt;/span&gt;(bbx[2,]), &lt;span style=&#34;color:#a6e22e&#34;&gt;max&lt;/span&gt;(bbx[2,])),
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;         expand &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;FALSE&lt;/span&gt;)&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;theme&lt;/span&gt;(legend.position &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; F) &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;theme_void&lt;/span&gt;()&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;theme&lt;/span&gt;(panel.background&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          &lt;span style=&#34;color:#a6e22e&#34;&gt;element_rect&lt;/span&gt;(fill &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;rgb&lt;/span&gt;(&lt;span style=&#34;color:#ae81ff&#34;&gt;0.9&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;0.9&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;0.9&lt;/span&gt;)))&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;ggtitle&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Black + White theme&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;https://estebanmoro.org/post/2020-10-19-personal-art-map-with-r_files/figure-html/unnamed-chunk-17-1.png&#34; width=&#34;1344&#34; /&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;ggplot&lt;/span&gt;() &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;geom_sf&lt;/span&gt;(data&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;counties_MA,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          inherit.aes&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;FALSE&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          lwd&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;0.0&lt;/span&gt;,fill&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;rgb&lt;/span&gt;(&lt;span style=&#34;color:#ae81ff&#34;&gt;0.95&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;0.95&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;0.95&lt;/span&gt;))&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;coord_sf&lt;/span&gt;(xlim &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;c&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;min&lt;/span&gt;(bbx[1,]), &lt;span style=&#34;color:#a6e22e&#34;&gt;max&lt;/span&gt;(bbx[1,])), 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;         ylim &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;c&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;min&lt;/span&gt;(bbx[2,]), &lt;span style=&#34;color:#a6e22e&#34;&gt;max&lt;/span&gt;(bbx[2,])),
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;         expand &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;FALSE&lt;/span&gt;)&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;theme&lt;/span&gt;(legend.position &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; F) &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;theme_void&lt;/span&gt;()&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;theme&lt;/span&gt;(panel.background&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;element_rect&lt;/span&gt;(fill &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;black&amp;#34;&lt;/span&gt;))&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;ggtitle&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;White + Black theme&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;https://estebanmoro.org/post/2020-10-19-personal-art-map-with-r_files/figure-html/unnamed-chunk-18-1.png&#34; width=&#34;1344&#34; /&gt;
+&lt;h2 id=&#34;putting-geography-and-streets-together&#34;&gt;Putting geography and streets together&lt;/h2&gt;
+&lt;p&gt;Once we have the geography, we can add the streets for our final streetmap:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;ggplot&lt;/span&gt;() &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;geom_sf&lt;/span&gt;(data&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;counties_MA,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          inherit.aes&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;FALSE&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          lwd&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;0.0&lt;/span&gt;,fill&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;rgb&lt;/span&gt;(&lt;span style=&#34;color:#ae81ff&#34;&gt;0.203&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;0.234&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;0.277&lt;/span&gt;))&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;geom_sf&lt;/span&gt;(data &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; streets&lt;span style=&#34;color:#f92672&#34;&gt;$&lt;/span&gt;osm_lines,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          inherit.aes &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;FALSE&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          color&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;color_roads,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          size &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;.4&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          alpha &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;.65&lt;/span&gt;) &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;geom_sf&lt;/span&gt;(data &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; highways&lt;span style=&#34;color:#f92672&#34;&gt;$&lt;/span&gt;osm_lines,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          inherit.aes &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;FALSE&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          color&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;color_roads,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          size &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;.6&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          alpha &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;.65&lt;/span&gt;) &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;coord_sf&lt;/span&gt;(xlim &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;c&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;min&lt;/span&gt;(bbx[1,]), &lt;span style=&#34;color:#a6e22e&#34;&gt;max&lt;/span&gt;(bbx[1,])), 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;           ylim &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;c&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;min&lt;/span&gt;(bbx[2,]), &lt;span style=&#34;color:#a6e22e&#34;&gt;max&lt;/span&gt;(bbx[2,])),
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;           expand &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;FALSE&lt;/span&gt;) &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;theme&lt;/span&gt;(legend.position &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; F) &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;theme_void&lt;/span&gt;()&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;theme&lt;/span&gt;(panel.background&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          &lt;span style=&#34;color:#a6e22e&#34;&gt;element_rect&lt;/span&gt;(fill &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;rgb&lt;/span&gt;(&lt;span style=&#34;color:#ae81ff&#34;&gt;0.92&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;0.679&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;0.105&lt;/span&gt;)))
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;https://estebanmoro.org/post/2020-10-19-personal-art-map-with-r_files/figure-html/unnamed-chunk-19-1.png&#34; width=&#34;1344&#34; /&gt;
+&lt;h2 id=&#34;adding-personal-mobility&#34;&gt;Adding personal mobility&lt;/h2&gt;
+&lt;p&gt;As I said before, those maps are beautiful already. But I wanted to give them a more personal touch. As part of our research, we have been studying how people move in urban areas. Using high precision and anonymized data, we have understood &lt;a href=&#34;https://inequality.media.mit.edu&#34;&gt;how segregation happens&lt;/a&gt; on our streets, neighborhoods, working places. One of the things we found is that even if we happen to be in the same area, we tend to segregate ourselves and visit very different places. &lt;a href=&#34;https://www.youtube.com/watch?v=KJHW9FTURlM&#34;&gt;Even across the street! &lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;As part of that research, I&amp;rsquo;ve been collecting the locations that I visited in the last years in the Boston area. I used &lt;a href=&#34;https://www.google.com/maps/timeline&#34;&gt;Google Location History&lt;/a&gt; which needs to be activated to work. Once it is activated, it starts saving the places you go to. You can even visualize your movements using the &lt;a href=&#34;https://www.google.com/maps/timeline&#34;&gt;Google Maps Timeline&lt;/a&gt;. Or you can download it using the &lt;a href=&#34;https://takeout.google.com/settings/takeout&#34;&gt;Google Takeout&lt;/a&gt; tool. Of course, if you don&amp;rsquo;t have access to your location history or is deactivated, you can always list the most relevant locations in the area you live and create a table with the right format (see below).&lt;/p&gt;
+&lt;p&gt;Once you download your location, you will get two sets of files. The first one is called &lt;code&gt;Location History.json&lt;/code&gt; that contains a lot of location events (including latitute, longitud, timestamp) and a directory called &lt;code&gt;Semantic Location History&lt;/code&gt; that has all the places visited by year and month. Make sure when you download your data from Google Takeout that this semantic history is enabled. We will use the semantic one since it contains a list of places visited (inferred by Google).&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;require&lt;/span&gt;(jsonlite)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;require&lt;/span&gt;(data.table)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;path &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;./Semantic Location History/&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;files &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;list.files&lt;/span&gt;(path,pattern&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;*.json&amp;#34;&lt;/span&gt;,recursive&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;T)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;get_locations &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;function&lt;/span&gt;(f){
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  data &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; jsonlite&lt;span style=&#34;color:#f92672&#34;&gt;::&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;fromJSON&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;paste0&lt;/span&gt;(path,f))
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  tlObj &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; data&lt;span style=&#34;color:#f92672&#34;&gt;$&lt;/span&gt;timelineObjects&lt;span style=&#34;color:#f92672&#34;&gt;$&lt;/span&gt;placeVisit
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  loc &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;cbind&lt;/span&gt;(tlObj&lt;span style=&#34;color:#f92672&#34;&gt;$&lt;/span&gt;location,tlObj&lt;span style=&#34;color:#f92672&#34;&gt;$&lt;/span&gt;duration)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  tt &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;as.numeric&lt;/span&gt;(loc&lt;span style=&#34;color:#f92672&#34;&gt;$&lt;/span&gt;startTimestampMs)&lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;1000&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  loc&lt;span style=&#34;color:#f92672&#34;&gt;$&lt;/span&gt;time&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;as.POSIXct&lt;/span&gt;(tt,origin &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;1970-01-01&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#75715e&#34;&gt;#conver longitude &amp;amp; latitude from E7 to GPS &lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  loc&lt;span style=&#34;color:#f92672&#34;&gt;$&lt;/span&gt;lat &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; loc&lt;span style=&#34;color:#f92672&#34;&gt;$&lt;/span&gt;latitudeE7 &lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;1e7&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  loc&lt;span style=&#34;color:#f92672&#34;&gt;$&lt;/span&gt;lon &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; loc&lt;span style=&#34;color:#f92672&#34;&gt;$&lt;/span&gt;longitudeE7 &lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;1e7&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  loc &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;data.table&lt;/span&gt;(loc)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  loc &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; loc[,&lt;span style=&#34;color:#a6e22e&#34;&gt;c&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;placeId&amp;#34;&lt;/span&gt;,&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;time&amp;#34;&lt;/span&gt;,&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;lat&amp;#34;&lt;/span&gt;,&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;lon&amp;#34;&lt;/span&gt;)]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  loc &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; loc[&lt;span style=&#34;color:#f92672&#34;&gt;!&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;is.na&lt;/span&gt;(lon)]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;locs.df&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;rbindlist&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;lapply&lt;/span&gt;(files,get_locations))
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The data includes the Google Id for the place, the timestamp of the visit its longitude/latitude position. Of course, I&amp;rsquo;m not showing you my personal data. This table you see below was generated sampling from a bunch of random locations in the Boston area around my working place (MIT Media Lab).&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;head&lt;/span&gt;(locs.df) &lt;span style=&#34;color:#f92672&#34;&gt;%&amp;gt;%&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;kbl&lt;/span&gt;() &lt;span style=&#34;color:#f92672&#34;&gt;%&amp;gt;%&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;kable_styling&lt;/span&gt;()
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;table class=&#34;table&#34; style=&#34;margin-left: auto; margin-right: auto;&#34;&gt;
+ &lt;thead&gt;
+  &lt;tr&gt;
+   &lt;th style=&#34;text-align:left;&#34;&gt; placeId &lt;/th&gt;
+   &lt;th style=&#34;text-align:left;&#34;&gt; time &lt;/th&gt;
+   &lt;th style=&#34;text-align:right;&#34;&gt; lat &lt;/th&gt;
+   &lt;th style=&#34;text-align:right;&#34;&gt; lon &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; ChIJ780101a191a &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; 2020-02-20 16:55:59 &lt;/td&gt;
+   &lt;td style=&#34;text-align:right;&#34;&gt; 42.36126 &lt;/td&gt;
+   &lt;td style=&#34;text-align:right;&#34;&gt; -71.08695 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; ChIJ140101a191a &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; 2020-03-16 23:42:52 &lt;/td&gt;
+   &lt;td style=&#34;text-align:right;&#34;&gt; 42.37321 &lt;/td&gt;
+   &lt;td style=&#34;text-align:right;&#34;&gt; -71.09359 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; ChIJ740101a191a &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; 2020-05-31 15:38:12 &lt;/td&gt;
+   &lt;td style=&#34;text-align:right;&#34;&gt; 42.37020 &lt;/td&gt;
+   &lt;td style=&#34;text-align:right;&#34;&gt; -71.06178 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; ChIJ320101a191a &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; 2020-06-03 21:20:21 &lt;/td&gt;
+   &lt;td style=&#34;text-align:right;&#34;&gt; 42.37311 &lt;/td&gt;
+   &lt;td style=&#34;text-align:right;&#34;&gt; -71.12237 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; ChIJ420101a191a &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; 2020-02-10 12:15:43 &lt;/td&gt;
+   &lt;td style=&#34;text-align:right;&#34;&gt; 42.37220 &lt;/td&gt;
+   &lt;td style=&#34;text-align:right;&#34;&gt; -71.06315 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; ChIJ840101a191a &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; 2020-05-25 21:53:40 &lt;/td&gt;
+   &lt;td style=&#34;text-align:right;&#34;&gt; 42.38635 &lt;/td&gt;
+   &lt;td style=&#34;text-align:right;&#34;&gt; -71.22257 &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;One way to add this personal information to the map would be to show the location points to the previous map. But for most of us, that would be just a bunch (hundred in my case) of points very close to each other. Since we already have the streets in the map, we will do something different: to plot the routes we took to go from one place to the next one. Two comments about this:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The semantic locations do not include the routes taken to visit those places. Those can be calculated using the network of streets already downloaded.&lt;/li&gt;
+&lt;li&gt;However, most of the days, we will only have one significant place visited. That means we cannot calculate any route that day. What we will do is to assume that each day starts at your home location and ends up in the same place, so at least you have two routes for those days with at least one location in the Google dataset. In my case, I will choose the MIT Media Lab as my home location (I spent a lot of time there last year, but it&amp;rsquo;s definitely not my home 😄)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We first create a function that return the routes between all the locations within a given day. To get the routes between two locations we used the function &lt;code&gt;osrmRoute&lt;/code&gt; in the &lt;code&gt;osrm&lt;/code&gt; package, which gives the shortest path between two points in the streets&amp;rsquo; network.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;require&lt;/span&gt;(osrm)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;daily_routes &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;function&lt;/span&gt;(date){
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  ll&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt;locs.df&lt;span style=&#34;color:#a6e22e&#34;&gt;[as.Date&lt;/span&gt;(time)&lt;span style=&#34;color:#f92672&#34;&gt;==&lt;/span&gt;date,&lt;span style=&#34;color:#a6e22e&#34;&gt;c&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;lon&amp;#34;&lt;/span&gt;,&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;lat&amp;#34;&lt;/span&gt;)]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#75715e&#34;&gt;#add home early in the morning&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  ll&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;rbind&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;data.table&lt;/span&gt;(lon&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;-71.087658&lt;/span&gt;,lat&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;42.36&lt;/span&gt;),ll)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#75715e&#34;&gt;#add home late in the day&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  ll&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;rbind&lt;/span&gt;(ll,&lt;span style=&#34;color:#a6e22e&#34;&gt;data.table&lt;/span&gt;(lon&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;-71.087658&lt;/span&gt;,lat&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;42.36&lt;/span&gt;))
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  route &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;NULL&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt;(j &lt;span style=&#34;color:#66d9ef&#34;&gt;in&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;nrow&lt;/span&gt;(ll)){
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    p1 &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;c&lt;/span&gt;(ll&lt;span style=&#34;color:#f92672&#34;&gt;$&lt;/span&gt;lon[j&lt;span style=&#34;color:#ae81ff&#34;&gt;-1&lt;/span&gt;],ll&lt;span style=&#34;color:#f92672&#34;&gt;$&lt;/span&gt;lat[j&lt;span style=&#34;color:#ae81ff&#34;&gt;-1&lt;/span&gt;])
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    p2 &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;c&lt;/span&gt;(ll&lt;span style=&#34;color:#f92672&#34;&gt;$&lt;/span&gt;lon[j],ll&lt;span style=&#34;color:#f92672&#34;&gt;$&lt;/span&gt;lat[j])
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    oo &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;osrmRoute&lt;/span&gt;(src&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;p1,dst&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;p2,returnclass &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;sf&amp;#34;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                    overview&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;full&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    route &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;rbind&lt;/span&gt;(route,oo)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  route
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Note that those routes might not be the &lt;em&gt;actual route&lt;/em&gt; taken to go between those points. The &lt;code&gt;osrmRoute&lt;/code&gt; algorithm calculates the shortest path only.&lt;/p&gt;
+&lt;p&gt;And then we get all the routes for the whole period (this will take some time)&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;dates &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;unique&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;as.Date&lt;/span&gt;(locs.df&lt;span style=&#34;color:#f92672&#34;&gt;$&lt;/span&gt;time))
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;routes &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;do.call&lt;/span&gt;(rbind,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                  &lt;span style=&#34;color:#a6e22e&#34;&gt;lapply&lt;/span&gt;(dates,daily_routes))
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;We are now ready to plot our geography + streets + personal routes.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;final_map &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;ggplot&lt;/span&gt;() &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;geom_sf&lt;/span&gt;(data&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;counties_MA,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          inherit.aes&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;FALSE&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          lwd&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;0.0&lt;/span&gt;,fill&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;rgb&lt;/span&gt;(&lt;span style=&#34;color:#ae81ff&#34;&gt;0.203&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;0.234&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;0.277&lt;/span&gt;))&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;geom_sf&lt;/span&gt;(data &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; streets&lt;span style=&#34;color:#f92672&#34;&gt;$&lt;/span&gt;osm_lines,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          inherit.aes &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;FALSE&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          color&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;color_roads,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          size &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;.4&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          alpha &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;.65&lt;/span&gt;) &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;geom_sf&lt;/span&gt;(data &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; highways&lt;span style=&#34;color:#f92672&#34;&gt;$&lt;/span&gt;osm_lines,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          inherit.aes &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;FALSE&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          color&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;color_roads,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          size &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;.6&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          alpha &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;.65&lt;/span&gt;) &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;geom_sf&lt;/span&gt;(data&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;st_geometry&lt;/span&gt;(routes),
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          inherit.aes &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;FALSE&lt;/span&gt;,col&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;red&amp;#34;&lt;/span&gt;,alpha&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;0.5&lt;/span&gt;)&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;coord_sf&lt;/span&gt;(xlim &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;c&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;min&lt;/span&gt;(bbx[1,]), &lt;span style=&#34;color:#a6e22e&#34;&gt;max&lt;/span&gt;(bbx[1,])), 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;           ylim &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;c&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;min&lt;/span&gt;(bbx[2,]), &lt;span style=&#34;color:#a6e22e&#34;&gt;max&lt;/span&gt;(bbx[2,])),
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;           expand &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;FALSE&lt;/span&gt;) &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;theme&lt;/span&gt;(legend.position &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; F) &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;theme_void&lt;/span&gt;()&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;theme&lt;/span&gt;(panel.background&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          &lt;span style=&#34;color:#a6e22e&#34;&gt;element_rect&lt;/span&gt;(fill&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;rgb&lt;/span&gt;(&lt;span style=&#34;color:#ae81ff&#34;&gt;0.92&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;0.679&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;0.105&lt;/span&gt;)))
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;final_map
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;https://estebanmoro.org/post/2020-10-19-personal-art-map-with-r_files/figure-html/unnamed-chunk-26-1.png&#34; width=&#34;1152&#34; /&gt;
+&lt;h2 id=&#34;printing-them-out&#34;&gt;Printing them out&lt;/h2&gt;
+&lt;p&gt;Finally, let&amp;rsquo;s print it out in high resolution. In my case, I used 24 inches by 36 inches, but you can choose other sizes:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;ggsave&lt;/span&gt;(final_map, 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;       filename &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;my_personal_map_art.png&amp;#34;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;       scale &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;, 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;       width &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;36&lt;/span&gt;, 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;       height &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;24&lt;/span&gt;, 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;       units &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;in&amp;#34;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;       dpi &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;500&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Note the &lt;code&gt;dpi = 500&lt;/code&gt;, which forces to save the image with high resolution (500 dots per inch). This is especially important if you want to print your poster in large dimensions. The file generated is large (around 40Mb).&lt;/p&gt;
+&lt;p&gt;The last step is to send to print or frame. You can use many services online to do that, but you need one that allows you to send such a big file. In my case, I ended up using the Mounted Canvas Print - 36&amp;quot; x 24&amp;quot; at &lt;a href=&#34;https://estebanmoro.org/www.vistaprint.com&#34;&gt;vistaprint&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;And here is the final result:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/img/posts/final_map_art.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;I hope you enjoyed my small project to produce personal map art with R.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -73,8 +689,10 @@ Abstract: As the living tissue connecting urban places, streets play significant
       <pubDate>Thu, 31 Oct 2019 00:00:00 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2019-10-31-exploring-the-atlas-of-inequality-in-us-cities/</guid>
-      <description>Video of my talk &amp;ldquo;Exploring the Atlas of Inequality in US Cities&amp;rdquo; at the Spatial Data Science Conference in University of Columbia (NY), October 2019
- </description>
+      <description>&lt;p&gt;Video of my talk &amp;ldquo;Exploring the Atlas of Inequality in US Cities&amp;rdquo; at the &lt;a href=&#34;http://engine.pwr.edu.pl/dpcn2016/&#34;&gt;Spatial Data Science Conference&lt;/a&gt; in University of Columbia (NY), October 2019&lt;/p&gt;
+&lt;iframe src=&#34;https://www.youtube.com/embed/X2VdluCW6Qw?start=&#34;
+  style=&#34;position: absolute; top: 0; left: 0; width: 560; height: 315;&#34; allowfullscreen frameborder=&#34;0&#34; title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+</description>
     </item>
     
     <item>
@@ -83,19 +701,26 @@ Abstract: As the living tissue connecting urban places, streets play significant
       <pubDate>Sat, 02 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2019-03-02-the-atlas-of-segregation/</guid>
-      <description>Segregation is hurting our societies and specially our cities. But economic inequality isn&amp;rsquo;t just limited to neighborhoods. The restaurants, stores, and other places we visit in cities are all unequal in their own way.
-The Atlas of Inequality shows the income inequality of people who visit different places in the Boston metro area. It uses aggregated anonymous location data from digital devices to estimate people&amp;rsquo;s incomes and where they spend their time.</description>
+      <description>&lt;p&gt;&lt;strong&gt;Segregation is hurting our societies and specially our cities. But economic inequality isn&amp;rsquo;t just limited to neighborhoods. The restaurants, stores, and other places we visit in cities are all unequal in their own way.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The Atlas of Inequality  shows the income inequality of people who visit different places in the Boston metro area. It uses aggregated anonymous location data from digital devices to estimate people&amp;rsquo;s incomes and where they spend their time. Using that data, we&amp;rsquo;ve made our own place inequality metric to capture how unequal the incomes of visitors to each place are. Economic inequality isn&amp;rsquo;t just limited to neighborhoods; it&amp;rsquo;s part of the places you visit every day.&lt;/p&gt;
+&lt;p&gt;Try it yourself here:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://inequality.media.mit.edu&#34;&gt;The Atlas of Inequality&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The Atlas of Inequality is a project from the Human Dynamics group at the &lt;a href=&#34;http://media.mit.edu&#34;&gt;MIT Media Lab&lt;/a&gt; and the Department of Mathematics at &lt;a href=&#34;http://www.uc3m.es&#34;&gt;Universidad Carlos III de Madrid&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;It is part of a broader initiative to understand human behavior in our cities and how large-scale problems like transportation, housing, segregation, or inequality depend in part on the emergent patterns of people’s individual opportunities and choices.&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>Soluciones para ciudades grandes y pequeñas ante la automatización de empleos</title>
-      <link>https://estebanmoro.org/post/2019-01-01-soluciones-para-ciudades-grandes-y-pequen%CC%83as-ante-la-automatizacio%CC%81n-de-empleos/</link>
+      <link>https://estebanmoro.org/post/2019-01-01-soluciones-para-ciudades-grandes-y-peque%C3%B1as-ante-la-automatizaci%C3%B3n-de-empleos/</link>
       <pubDate>Mon, 05 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://estebanmoro.org/post/2019-01-01-soluciones-para-ciudades-grandes-y-pequen%CC%83as-ante-la-automatizacio%CC%81n-de-empleos/</guid>
-      <description>Article (in Spanish) in MIT Technology Review (and the Sacyr innovation blog) about how automation is going to impact differently big or small cities.
-Soluciones para ciudades grandes y pequeñas ante la automatización de empleos
- La razón principal para que la automatización ataque más a los núcleos pequeños se debe a la propia naturaleza de los empleos disponibles en cada tipo de urbe. Las ciudades más pequeñas tienen más profesiones rutinarias y repetitivas, &amp;ldquo;como las tareas de servicios, labores mecánicas, fábricas y agricultura, que son susceptibles de ser automatizadas&amp;rdquo;, apunta el investigador del Media Lab y profesor de la Universidad Carlos III de Madrid Esteban Moro.</description>
+      <guid>https://estebanmoro.org/post/2019-01-01-soluciones-para-ciudades-grandes-y-peque%C3%B1as-ante-la-automatizaci%C3%B3n-de-empleos/</guid>
+      <description>&lt;p&gt;Article (in Spanish) in MIT Technology Review (and the Sacyr innovation blog) about how automation is going to impact differently big or small cities.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.technologyreview.es/s/10202/soluciones-para-ciudades-grandes-y-pequenas-ante-la-automatizacion-de-empleos&#34;&gt;Soluciones para ciudades grandes y pequeñas ante la automatización de empleos&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;La razón principal para que la automatización ataque más a los núcleos pequeños se debe a la propia naturaleza de los empleos disponibles en cada tipo de urbe. Las ciudades más pequeñas tienen más profesiones rutinarias y repetitivas, &amp;ldquo;como las tareas de servicios, labores mecánicas, fábricas y agricultura, que son susceptibles de ser automatizadas&amp;rdquo;, apunta el investigador del Media Lab y profesor de la Universidad Carlos III de Madrid Esteban Moro.&lt;/p&gt;&lt;/blockquote&gt;
+</description>
     </item>
     
   </channel>

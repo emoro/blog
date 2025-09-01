@@ -12,35 +12,25 @@
     <link rel="shortcut icon" href="https://estebanmoro.org/favicon.ico" />
     <link rel="canonical" href="https://estebanmoro.org/post/2012-11-10-temporal-networks-with-igraph-and-r-with-20-lines-of-code/" />
 
-     <meta name="description" content="**UPDATE**: the version of the R code in this post does not work with newer versions of the igraph package (\ 1.0). I have posted an updated version of this pos" /> 
+     <meta name="description" content="&lt;link href=&#34;/rmarkdown-libs/vembedr/css/vembedr.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;blockquote&gt;
+**UPDATE**: the version of the R code in this post does not work with newe" /> 
 
-     
-    
-    <meta name="twitter:card" content="summary_large_image"/>
-    <meta name="twitter:image" content="https://estebanmoro.org/img/posts/temporal_networks.png"/>
-    
- 
-    <meta name="twitter:title" content="Temporal networks with igraph and R (with 20 lines of code!)"/>
-    <meta name="twitter:description" content="**UPDATE**: the version of the R code in this post does not work with newer versions of the igraph package (\ 1.0). I have posted an updated version of this pos"/>
-    <meta name="twitter:url" content="https://estebanmoro.org/post/2012-11-10-temporal-networks-with-igraph-and-r-with-20-lines-of-code/" />
-    <meta name="twitter:site" content="@estebanmoro"/>
+    <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Temporal networks with igraph and R (with 20 lines of code!)">
+<meta name="twitter:description" content=" **UPDATE**: the version of the R code in this post does not work with newer versions of the igraph package (\&gt; 1.0). I have posted an updated version of this post here: [Temporal networks with R and …">
+<meta name="twitter:url" content="https://estebanmoro.org/post/2012-11-10-temporal-networks-with-igraph-and-r-with-20-lines-of-code/">
+  <meta name="twitter:image" content="https://estebanmoro.org/img/posts/temporal_networks.png">
 
-    <meta property="og:site_name" content="" />
-    <meta property="og:title" content="Temporal networks with igraph and R (with 20 lines of code!) &middot; Implicit None" />
-    <meta property="og:url" content="https://estebanmoro.org/post/2012-11-10-temporal-networks-with-igraph-and-r-with-20-lines-of-code/" />
-    
-
-    <meta property="og:type" content="article" />
-    <meta property="og:description" content="**UPDATE**: the version of the R code in this post does not work with newer versions of the igraph package (\ 1.0). I have posted an updated version of this pos" />
-
-    <meta property="article:published_time" content="2012-11-10T23:55:46Z" />
-    <meta property="article:tag" content="R" /><meta property="article:tag" content="Temporal Networks" /><meta property="article:tag" content="igraph" />
-
-    <meta property="og:image" content="https://estebanmoro.org/img/posts/temporal_networks.png"/>
+    <meta property="og:title" content="Temporal networks with igraph and R (with 20 lines of code!)">
+<meta property="og:description" content=" **UPDATE**: the version of the R code in this post does not work with newer versions of the igraph package (\&gt; 1.0). I have posted an updated version of this post here: [Temporal networks with R and …">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://estebanmoro.org/post/2012-11-10-temporal-networks-with-igraph-and-r-with-20-lines-of-code/">
+  <meta property="og:image" content="https://estebanmoro.org/img/posts/temporal_networks.png">
+<meta property="og:site_name" content="">
 
 
-
-    <meta name="generator" content="Hugo 0.92.2" />
+    <meta name="generator" content="Hugo 0.149.0">
 
     <!-- Stylesheets -->
     <link rel="stylesheet" type="text/css" href="https://estebanmoro.org/built/screen.css" /> 
@@ -163,21 +153,21 @@
 <ul>
 <li>Force based layout algorithms consist on performing a number of iterations aimed to minimize the energy of physical forces between nodes, and starting from an initial configuration which is typically a <em>random initial condition</em>. This means that even if your network does not evolve in time, successive calls to the layout algorithm will produce different results. In our temporal network case it means that the layout from one snapshot to the next one will be very different producing a swarm-of-bees kind of motion. For example, if you run this script you will see that the four layouts are very different:</li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r"><span style="color:#a6e22e">library</span>(igraph)
-<span style="color:#a6e22e">par</span>(mfrow<span style="color:#f92672">=</span><span style="color:#a6e22e">c</span>(<span style="color:#ae81ff">2</span>,<span style="color:#ae81ff">2</span>),mar<span style="color:#f92672">=</span><span style="color:#a6e22e">c</span>(<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>), oma<span style="color:#f92672">=</span><span style="color:#a6e22e">c</span>(<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>))
-g <span style="color:#f92672">=</span> <span style="color:#a6e22e">watts.strogatz.game</span>(<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">20</span>,<span style="color:#ae81ff">3</span>,<span style="color:#ae81ff">0.4</span>)
-<span style="color:#a6e22e">for</span>(i in <span style="color:#ae81ff">1</span><span style="color:#f92672">:</span><span style="color:#ae81ff">4</span>) <span style="color:#a6e22e">plot</span>(g,layout<span style="color:#f92672">=</span>layout.fruchterman.reingold,margin<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>)
-</code></pre></div><img src="https://estebanmoro.org/post/2012-11-10-temporal-networks-with-igraph-and-r-with-20-lines-of-code_files/figure-html/unnamed-chunk-1-1.png" width="672" />
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-r" data-lang="r"><span style="display:flex;"><span><span style="color:#a6e22e">library</span>(igraph)
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">par</span>(mfrow<span style="color:#f92672">=</span><span style="color:#a6e22e">c</span>(<span style="color:#ae81ff">2</span>,<span style="color:#ae81ff">2</span>),mar<span style="color:#f92672">=</span><span style="color:#a6e22e">c</span>(<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>), oma<span style="color:#f92672">=</span><span style="color:#a6e22e">c</span>(<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>))
+</span></span><span style="display:flex;"><span>g <span style="color:#f92672">=</span> <span style="color:#a6e22e">watts.strogatz.game</span>(<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">20</span>,<span style="color:#ae81ff">3</span>,<span style="color:#ae81ff">0.4</span>)
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span>(i <span style="color:#66d9ef">in</span> <span style="color:#ae81ff">1</span><span style="color:#f92672">:</span><span style="color:#ae81ff">4</span>) <span style="color:#a6e22e">plot</span>(g,layout<span style="color:#f92672">=</span>layout.fruchterman.reingold,margin<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>)
+</span></span></code></pre></div><img src="https://estebanmoro.org/post/2012-11-10-temporal-networks-with-igraph-and-r-with-20-lines-of-code_files/figure-html/unnamed-chunk-1-1.png" width="672" />
 <p>Luckily, in igraph 0.6 we can specify the initial position of the nodes for some layout functions: <code>layout.graphopt</code>, <code>layout.kamada.kawai</code> and <code>layout.fruchterman.reingold</code>. My personal experience is that <code>layout.graphopt</code> crashes in this 0.6 version (although it works on 0.5), so we are left with the other two algorithms. The plan (taken from <a href="https://vimeo.com/14922587">this original idea</a> of Tamás Nepusz, one of the developers of igraph) is to use the layout of the previous snapshot as the initial condition for the next snapshot layout so we have a smooth transtion from one to the other. In the example above, the implementation will be the following using the <code>start</code> parameter:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r"><span style="color:#a6e22e">par</span>(mfrow<span style="color:#f92672">=</span><span style="color:#a6e22e">c</span>(<span style="color:#ae81ff">2</span>,<span style="color:#ae81ff">2</span>),mar<span style="color:#f92672">=</span><span style="color:#a6e22e">c</span>(<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>), oma<span style="color:#f92672">=</span><span style="color:#a6e22e">c</span>(<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>))
-g <span style="color:#f92672">=</span> <span style="color:#a6e22e">watts.strogatz.game</span>(<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">20</span>,<span style="color:#ae81ff">3</span>,<span style="color:#ae81ff">0.4</span>)
-layout.old <span style="color:#f92672">=</span> <span style="color:#a6e22e">layout.fruchterman.reingold</span>(g)
-<span style="color:#a6e22e">for</span>(i in <span style="color:#ae81ff">1</span><span style="color:#f92672">:</span><span style="color:#ae81ff">4</span>){
-  layout.new <span style="color:#f92672">=</span> <span style="color:#a6e22e">layout.fruchterman.reingold</span>(g,params<span style="color:#f92672">=</span><span style="color:#a6e22e">list</span>(niter<span style="color:#f92672">=</span><span style="color:#ae81ff">10</span>,maxdelta<span style="color:#f92672">=</span><span style="color:#ae81ff">2</span>,start<span style="color:#f92672">=</span>layout.old))
-  <span style="color:#a6e22e">plot</span>(g,layout<span style="color:#f92672">=</span>layout.new)
-  layout.old <span style="color:#f92672">=</span> layout.new
-}
-</code></pre></div><p><img src="https://estebanmoro.org/img/posts/igraph_old4.png" alt=""></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-r" data-lang="r"><span style="display:flex;"><span><span style="color:#a6e22e">par</span>(mfrow<span style="color:#f92672">=</span><span style="color:#a6e22e">c</span>(<span style="color:#ae81ff">2</span>,<span style="color:#ae81ff">2</span>),mar<span style="color:#f92672">=</span><span style="color:#a6e22e">c</span>(<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>), oma<span style="color:#f92672">=</span><span style="color:#a6e22e">c</span>(<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>))
+</span></span><span style="display:flex;"><span>g <span style="color:#f92672">=</span> <span style="color:#a6e22e">watts.strogatz.game</span>(<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">20</span>,<span style="color:#ae81ff">3</span>,<span style="color:#ae81ff">0.4</span>)
+</span></span><span style="display:flex;"><span>layout.old <span style="color:#f92672">=</span> <span style="color:#a6e22e">layout.fruchterman.reingold</span>(g)
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span>(i <span style="color:#66d9ef">in</span> <span style="color:#ae81ff">1</span><span style="color:#f92672">:</span><span style="color:#ae81ff">4</span>){
+</span></span><span style="display:flex;"><span>  layout.new <span style="color:#f92672">=</span> <span style="color:#a6e22e">layout.fruchterman.reingold</span>(g,params<span style="color:#f92672">=</span><span style="color:#a6e22e">list</span>(niter<span style="color:#f92672">=</span><span style="color:#ae81ff">10</span>,maxdelta<span style="color:#f92672">=</span><span style="color:#ae81ff">2</span>,start<span style="color:#f92672">=</span>layout.old))
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">plot</span>(g,layout<span style="color:#f92672">=</span>layout.new)
+</span></span><span style="display:flex;"><span>  layout.old <span style="color:#f92672">=</span> layout.new
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p><img src="https://estebanmoro.org/img/posts/igraph_old4.png" alt=""></p>
 <p>Now you can see that the layouts are similar. There are two new parameters passed to the layout function: <code>niter = 10</code> specify the number of iterations (10) of the minimization of energy procedure in the force based algorithm. This number should be small, otherwise the final result will be very different from the initial condition. The same happens for the other parameter <code>maxdelta=2</code> which controls the maximum change in the position of the nodes allowed in the minimization procedure.</p>
 <ul>
 <li>The other problem is that in a temporal network nodes and/or edges appear and disappear dynamically. Thus the time dependent graph might have different number of nodes and/or edges from one snapshot to the next one. This means that the layout at a given snapshot cannot be used as the initial condition to generate next time layout, since the number of nodes can be different. My solution to this problem is to consider all (past/present/future) nodes/edges when calculating the layout but to display only present nodes/edges in the plot by making past and future nodes/edges transparent. This trick allows the reutilization of the layouts between steps, but it will produce a more or less steady visualization in which the layout at any given time is not related to the instantaneous structure of the temporal graph. To overcome this problem we take advantage of another property of force based algorithms: nodes which are connected attract each other along the edge. At a given instant, we could then modify the attraction between nodes along edges depending on whether the the edge is not present. In igraph 0.6, only the <code>layout.fruchterman.reingold</code> has this possibility through the parameter <code>weights</code>, a vector giving edge weights which are use to multiply the attraction along the edge. For example we could set weight equal to one if the edge is present and use zero weight for the rest. This will produce a layout in which present nodes are tightly connected while the past/future nodes are repelled from them. This effect dramatically highlights the appearance and disappearance of nodes, but could create too much confusion if there are many of those events.</li>
@@ -192,57 +182,57 @@ layout.old <span style="color:#f92672">=</span> <span style="color:#a6e22e">layo
 ## 6   7   2    4
 </code></pre>
 <p>each line of the form <code>id1 | id2 | time</code> indicates that a link between id1 and id2 appears at a particular time. Depending on the context this might represent that the tie was activated at that particular instant (for example if it is a RT between two twitter accounts) or that it was the time in which the edge appeared first (like in our Barabási-Albert model). Here is the code to generate the snapshots and producing a PNG picture for each of them:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r"><span style="color:#a6e22e">library</span>(igraph)
-
-<span style="color:#75715e">#load the edges with time stamp</span>
-<span style="color:#75715e">#there are three columns in edges: id1,id2,time</span>
-edges <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">read.table</span>(<span style="color:#e6db74">&#34;edges.csv&#34;</span>,header<span style="color:#f92672">=</span>T)
-
-<span style="color:#75715e">#generate the full graph</span>
-g <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">graph.edgelist</span>(<span style="color:#a6e22e">as.matrix</span>(edges[,<span style="color:#a6e22e">c</span>(<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">2</span>)]),directed<span style="color:#f92672">=</span>F)
-<span style="color:#a6e22e">E</span>(g)<span style="color:#f92672">$</span>time <span style="color:#f92672">&lt;-</span> edges[,<span style="color:#ae81ff">3</span>]
-
-<span style="color:#75715e">#generate a cool palette for the graph</span>
-YlOrBr <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">c</span>(<span style="color:#e6db74">&#34;#FFFFD4&#34;</span>, <span style="color:#e6db74">&#34;#FED98E&#34;</span>, <span style="color:#e6db74">&#34;#FE9929&#34;</span>, <span style="color:#e6db74">&#34;#D95F0E&#34;</span>, <span style="color:#e6db74">&#34;#993404&#34;</span>)
-YlOrBr.Lab <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">colorRampPalette</span>(YlOrBr, space <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Lab&#34;</span>)
-<span style="color:#75715e">#colors for the nodes are chosen from the very beginning</span>
-vcolor <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">rev</span>(<span style="color:#a6e22e">YlOrBr.Lab</span>(<span style="color:#a6e22e">vcount</span>(g)))
-
-<span style="color:#75715e">#time in the edges goes from 1 to 300. We kick off at time 3</span>
-ti <span style="color:#f92672">&lt;-</span> <span style="color:#ae81ff">3</span>
-<span style="color:#75715e">#weights of edges formed up to time ti is 1. Future edges are weighted 0</span>
-<span style="color:#a6e22e">E</span>(g)<span style="color:#f92672">$</span>weight <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">ifelse</span>(<span style="color:#a6e22e">E</span>(g)<span style="color:#f92672">$</span>time <span style="color:#f92672">&lt;</span> ti,<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">0</span>)
-<span style="color:#75715e">#generate first layout using weights.</span>
-layout.old <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">layout.fruchterman.reingold</span>(g,params<span style="color:#f92672">=</span><span style="color:#a6e22e">list</span>(weights<span style="color:#f92672">=</span><span style="color:#a6e22e">E</span>(g)<span style="color:#f92672">$</span>weight))
-
-
-<span style="color:#75715e">#total time of the dynamics</span>
-total_time <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">max</span>(<span style="color:#a6e22e">E</span>(g)<span style="color:#f92672">$</span>time)
-<span style="color:#75715e">#This is the time interval for the animation. In this case is taken to be 1/10 </span>
-<span style="color:#75715e">#of the time (i.e. 10 snapshots) between adding two consecutive nodes </span>
-dt <span style="color:#f92672">&lt;-</span> <span style="color:#ae81ff">0.1</span>
-<span style="color:#75715e">#Output for each frame will be a png with HD size 1600x900 :)</span>
-<span style="color:#a6e22e">png</span>(file<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;example%03d.png&#34;</span>, width<span style="color:#f92672">=</span><span style="color:#ae81ff">1600</span>,height<span style="color:#f92672">=</span><span style="color:#ae81ff">900</span>)
-nsteps <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">max</span>(<span style="color:#a6e22e">E</span>(g)<span style="color:#f92672">$</span>time)
-<span style="color:#75715e">#Time loop starts</span>
-<span style="color:#a6e22e">for</span>(ti in <span style="color:#a6e22e">seq</span>(<span style="color:#ae81ff">3</span>,total_time,dt)){
-  <span style="color:#75715e">#define weight for edges present up to time ti.</span>
-  <span style="color:#a6e22e">E</span>(g)<span style="color:#f92672">$</span>weight <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">ifelse</span>(<span style="color:#a6e22e">E</span>(g)<span style="color:#f92672">$</span>time <span style="color:#f92672">&lt;</span> ti,<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">0</span>) 
-  <span style="color:#75715e">#Edges with non-zero weight are in gray. The rest are transparent</span>
-  <span style="color:#a6e22e">E</span>(g)<span style="color:#f92672">$</span>color <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">ifelse</span>(<span style="color:#a6e22e">E</span>(g)<span style="color:#f92672">$</span>time <span style="color:#f92672">&lt;</span> ti,<span style="color:#e6db74">&#34;gray&#34;</span>,<span style="color:#a6e22e">rgb</span>(<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>))
-  <span style="color:#75715e">#Nodes with at least a non-zero weighted edge are in color. The rest are transparent</span>
-  <span style="color:#a6e22e">V</span>(g)<span style="color:#f92672">$</span>color <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">ifelse</span>(<span style="color:#a6e22e">graph.strength</span>(g)<span style="color:#f92672">==</span><span style="color:#ae81ff">0</span>,<span style="color:#a6e22e">rgb</span>(<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>),vcolor)
-  <span style="color:#75715e">#given the new weights, we update the layout a little bit</span>
-  layout.new <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">layout.fruchterman.reingold</span>(g,params<span style="color:#f92672">=</span><span style="color:#a6e22e">list</span>(niter<span style="color:#f92672">=</span><span style="color:#ae81ff">10</span>,start<span style="color:#f92672">=</span>layout.old,weights<span style="color:#f92672">=</span><span style="color:#a6e22e">E</span>(g)<span style="color:#f92672">$</span>weight,maxdelta<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>))
-  <span style="color:#75715e">#plot the new graph</span>
-  <span style="color:#a6e22e">plot</span>(g,layout<span style="color:#f92672">=</span>layout.new,vertex.label<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;&#34;</span>,vertex.size<span style="color:#f92672">=</span><span style="color:#ae81ff">1+2</span><span style="color:#f92672">*</span><span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">graph.strength</span>(g)),vertex.frame.color<span style="color:#f92672">=</span><span style="color:#a6e22e">V</span>(g)<span style="color:#f92672">$</span>color,edge.width<span style="color:#f92672">=</span><span style="color:#ae81ff">1.5</span>,asp<span style="color:#f92672">=</span><span style="color:#ae81ff">9</span><span style="color:#f92672">/</span><span style="color:#ae81ff">16</span>,margin<span style="color:#f92672">=</span><span style="color:#ae81ff">-0.15</span>)
-  <span style="color:#75715e">#use the new layout in the next round</span>
-  layout.old <span style="color:#f92672">&lt;-</span> layout.new 
-}
-<span style="color:#a6e22e">dev.off</span>()
-</code></pre></div><p>As you can see the edges present before time <code>ti</code> are colored in “gray” and weighted 1 while the rest are transparent <code>rgb(0,0,0,0)</code> and weighted 0. For the nodes we have used the function <code>graph.strength</code> that calculate the sum of weights of adjacent edges of a node: note that if at a given instant a node has no active adjacent edges, its graph strength is zero and thus the node is transparent. Otherwise it is colored as in the <code>vcolor</code> vector. Final step is to encode this images into a video format. To that end I have used <a href="http://ffmpeg.org">ffmpeg</a> which can be install in linux, windows or mac. The following command line in a terminal shell produces a video file <code>output.mp4</code> in the mpeg format:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r">ffmpeg <span style="color:#f92672">-</span>r <span style="color:#ae81ff">10</span> <span style="color:#f92672">-</span>b <span style="color:#ae81ff">20</span>M <span style="color:#f92672">-</span>i example%<span style="color:#ae81ff">03</span>d.png output.mp4`
-</code></pre></div><p>The first <code>-r 10</code> flag controls the rate of frames per second (fps), 10 in this case, while the <code>-b 20M</code> sets the bitrate in the output (set to a large value here, 20M). The result is the following video</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-r" data-lang="r"><span style="display:flex;"><span><span style="color:#a6e22e">library</span>(igraph)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#load the edges with time stamp</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#there are three columns in edges: id1,id2,time</span>
+</span></span><span style="display:flex;"><span>edges <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">read.table</span>(<span style="color:#e6db74">&#34;edges.csv&#34;</span>,header<span style="color:#f92672">=</span>T)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#generate the full graph</span>
+</span></span><span style="display:flex;"><span>g <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">graph.edgelist</span>(<span style="color:#a6e22e">as.matrix</span>(edges[,<span style="color:#a6e22e">c</span>(<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">2</span>)]),directed<span style="color:#f92672">=</span>F)
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">E</span>(g)<span style="color:#f92672">$</span>time <span style="color:#f92672">&lt;-</span> edges[,<span style="color:#ae81ff">3</span>]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#generate a cool palette for the graph</span>
+</span></span><span style="display:flex;"><span>YlOrBr <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">c</span>(<span style="color:#e6db74">&#34;#FFFFD4&#34;</span>, <span style="color:#e6db74">&#34;#FED98E&#34;</span>, <span style="color:#e6db74">&#34;#FE9929&#34;</span>, <span style="color:#e6db74">&#34;#D95F0E&#34;</span>, <span style="color:#e6db74">&#34;#993404&#34;</span>)
+</span></span><span style="display:flex;"><span>YlOrBr.Lab <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">colorRampPalette</span>(YlOrBr, space <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Lab&#34;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#colors for the nodes are chosen from the very beginning</span>
+</span></span><span style="display:flex;"><span>vcolor <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">rev</span>(<span style="color:#a6e22e">YlOrBr.Lab</span>(<span style="color:#a6e22e">vcount</span>(g)))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#time in the edges goes from 1 to 300. We kick off at time 3</span>
+</span></span><span style="display:flex;"><span>ti <span style="color:#f92672">&lt;-</span> <span style="color:#ae81ff">3</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#weights of edges formed up to time ti is 1. Future edges are weighted 0</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">E</span>(g)<span style="color:#f92672">$</span>weight <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">ifelse</span>(<span style="color:#a6e22e">E</span>(g)<span style="color:#f92672">$</span>time <span style="color:#f92672">&lt;</span> ti,<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">0</span>)
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#generate first layout using weights.</span>
+</span></span><span style="display:flex;"><span>layout.old <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">layout.fruchterman.reingold</span>(g,params<span style="color:#f92672">=</span><span style="color:#a6e22e">list</span>(weights<span style="color:#f92672">=</span><span style="color:#a6e22e">E</span>(g)<span style="color:#f92672">$</span>weight))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#total time of the dynamics</span>
+</span></span><span style="display:flex;"><span>total_time <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">max</span>(<span style="color:#a6e22e">E</span>(g)<span style="color:#f92672">$</span>time)
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#This is the time interval for the animation. In this case is taken to be 1/10 </span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#of the time (i.e. 10 snapshots) between adding two consecutive nodes </span>
+</span></span><span style="display:flex;"><span>dt <span style="color:#f92672">&lt;-</span> <span style="color:#ae81ff">0.1</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#Output for each frame will be a png with HD size 1600x900 :)</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">png</span>(file<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;example%03d.png&#34;</span>, width<span style="color:#f92672">=</span><span style="color:#ae81ff">1600</span>,height<span style="color:#f92672">=</span><span style="color:#ae81ff">900</span>)
+</span></span><span style="display:flex;"><span>nsteps <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">max</span>(<span style="color:#a6e22e">E</span>(g)<span style="color:#f92672">$</span>time)
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#Time loop starts</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span>(ti <span style="color:#66d9ef">in</span> <span style="color:#a6e22e">seq</span>(<span style="color:#ae81ff">3</span>,total_time,dt)){
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e">#define weight for edges present up to time ti.</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">E</span>(g)<span style="color:#f92672">$</span>weight <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">ifelse</span>(<span style="color:#a6e22e">E</span>(g)<span style="color:#f92672">$</span>time <span style="color:#f92672">&lt;</span> ti,<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">0</span>) 
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e">#Edges with non-zero weight are in gray. The rest are transparent</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">E</span>(g)<span style="color:#f92672">$</span>color <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">ifelse</span>(<span style="color:#a6e22e">E</span>(g)<span style="color:#f92672">$</span>time <span style="color:#f92672">&lt;</span> ti,<span style="color:#e6db74">&#34;gray&#34;</span>,<span style="color:#a6e22e">rgb</span>(<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>))
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e">#Nodes with at least a non-zero weighted edge are in color. The rest are transparent</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">V</span>(g)<span style="color:#f92672">$</span>color <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">ifelse</span>(<span style="color:#a6e22e">graph.strength</span>(g)<span style="color:#f92672">==</span><span style="color:#ae81ff">0</span>,<span style="color:#a6e22e">rgb</span>(<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>),vcolor)
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e">#given the new weights, we update the layout a little bit</span>
+</span></span><span style="display:flex;"><span>  layout.new <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">layout.fruchterman.reingold</span>(g,params<span style="color:#f92672">=</span><span style="color:#a6e22e">list</span>(niter<span style="color:#f92672">=</span><span style="color:#ae81ff">10</span>,start<span style="color:#f92672">=</span>layout.old,weights<span style="color:#f92672">=</span><span style="color:#a6e22e">E</span>(g)<span style="color:#f92672">$</span>weight,maxdelta<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>))
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e">#plot the new graph</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">plot</span>(g,layout<span style="color:#f92672">=</span>layout.new,vertex.label<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;&#34;</span>,vertex.size<span style="color:#f92672">=</span><span style="color:#ae81ff">1+2</span><span style="color:#f92672">*</span><span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">graph.strength</span>(g)),vertex.frame.color<span style="color:#f92672">=</span><span style="color:#a6e22e">V</span>(g)<span style="color:#f92672">$</span>color,edge.width<span style="color:#f92672">=</span><span style="color:#ae81ff">1.5</span>,asp<span style="color:#f92672">=</span><span style="color:#ae81ff">9</span><span style="color:#f92672">/</span><span style="color:#ae81ff">16</span>,margin<span style="color:#f92672">=</span><span style="color:#ae81ff">-0.15</span>)
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e">#use the new layout in the next round</span>
+</span></span><span style="display:flex;"><span>  layout.old <span style="color:#f92672">&lt;-</span> layout.new 
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">dev.off</span>()
+</span></span></code></pre></div><p>As you can see the edges present before time <code>ti</code> are colored in “gray” and weighted 1 while the rest are transparent <code>rgb(0,0,0,0)</code> and weighted 0. For the nodes we have used the function <code>graph.strength</code> that calculate the sum of weights of adjacent edges of a node: note that if at a given instant a node has no active adjacent edges, its graph strength is zero and thus the node is transparent. Otherwise it is colored as in the <code>vcolor</code> vector. Final step is to encode this images into a video format. To that end I have used <a href="http://ffmpeg.org">ffmpeg</a> which can be install in linux, windows or mac. The following command line in a terminal shell produces a video file <code>output.mp4</code> in the mpeg format:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-r" data-lang="r"><span style="display:flex;"><span>ffmpeg <span style="color:#f92672">-</span>r <span style="color:#ae81ff">10</span> <span style="color:#f92672">-</span>b <span style="color:#ae81ff">20</span>M <span style="color:#f92672">-</span>i example%<span style="color:#ae81ff">03</span>d.png output.mp4`
+</span></span></code></pre></div><p>The first <code>-r 10</code> flag controls the rate of frames per second (fps), 10 in this case, while the <code>-b 20M</code> sets the bitrate in the output (set to a large value here, 20M). The result is the following video</p>
 <iframe class="vimeo-embed" src="https://player.vimeo.com/video/53071346" width="800" height="600" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
 </iframe>
 <div class="vembedr">
@@ -267,29 +257,20 @@ nsteps <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">max<
 </article>
     
     
-    
-
-<div id="disqus_thread"></div>
-<script>
-
-
-
-
-var disqus_config = function () {
-this.page.url = "https:\/\/estebanmoro.org\/post\/2012-11-10-temporal-networks-with-igraph-and-r-with-20-lines-of-code\/";  
-this.page.identifier = "https:\/\/estebanmoro.org\/post\/2012-11-10-temporal-networks-with-igraph-and-r-with-20-lines-of-code\/"; 
-};
-
-(function() { 
-var d = document, s = d.createElement('script');
-s.src = 'https://implicitnone.disqus.com/embed.js';
-s.setAttribute('data-timestamp', +new Date());
-(d.head || d.body).appendChild(s);
-})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-
-
+    <div id="disqus_thread"></div>
+  <script>
+    var disqus_config = function () {
+      this.page.url = 'https:\/\/estebanmoro.org\/post\/2012-11-10-temporal-networks-with-igraph-and-r-with-20-lines-of-code\/';
+      this.page.identifier = 'post\/2012-11-10-temporal-networks-with-igraph-and-r-with-20-lines-of-code.md';
+    };
+    (function() {
+      var d = document, s = d.createElement('script');
+      s.src = 'https://implicitnone.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', Date.now().toString());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the comments.</noscript>
   </div>
 </main>
 
@@ -299,9 +280,9 @@ s.setAttribute('data-timestamp', +new Date());
     <div class="read-next-feed">      
       
 <article class="read-next-card" 
-            style="background-image: url(https://estebanmoro.org/img/mob.mp4);" >
+            style="background-image: url(https://estebanmoro.org/img/banner.jpg);" >
     <header class="read-next-card-header">
-        <small class="read-next-card-header-sitetitle">&mdash; Implicit None &mdash;</small>
+        <small class="read-next-card-header-sitetitle">&mdash; Esteban Moro &mdash;</small>
         
         <h3 class="read-next-card-header-title"><a href="https://estebanmoro.org/tags/r/">#R</a></h3>
     </header>
@@ -311,13 +292,13 @@ s.setAttribute('data-timestamp', +new Date());
     <div class="read-next-card-content">
       
         <ul>
-          <li><a href="https://estebanmoro.org/post/2019-02-02-behavioral-fundations-of-inequality/">Behavioral roots of inequality</a></li>            
+          <li><a href="https://estebanmoro.org/post/2001-11-14-internal-fluctuations-effects-on-fisher-waves/">Internal Fluctuations Effects on Fisher Waves</a></li>            
         
-          <li><a href="https://estebanmoro.org/post/2017-06-28-temporal-patterns-behind-the-strength-of-persistent-ties/">Temporal patterns behind the strength of persistent ties</a></li>            
+          <li><a href="https://estebanmoro.org/post/2019-01-01-video-of-my-talk-your-data-our-society/">Video of my talk “Your data, our society&#34;</a></li>            
         
           <li><a href="https://estebanmoro.org/2014/05/sistemas-para-predecir-las-tendencias-de-las-redes-sociales/">Sistemas para predecir las tendencias de las redes sociales</a></li>            
         
-          <li><a href="https://estebanmoro.org/post/2007-04-20-scaling-laws-of-strategic-behavior-and-size-heterogeneity-in-agent-dynamics/">Scaling laws of strategic behavior and size heterogeneity in agent dynamics</a></li>            
+          <li><a href="https://estebanmoro.org/post/2012-09-12-predicting-human-preferences-using-the-block-structure-of-complex-social-networks/">Predicting Human Preferences Using the Block Structure of Complex Social Networks</a></li>            
         </ul>
     </div>
     <footer class="read-next-card-footer">
@@ -348,8 +329,7 @@ s.setAttribute('data-timestamp', +new Date());
           <section class="post-card-excerpt">
               
                 <p>Authors: Giovanna Miritello, Esteban Moro, Rubén Lara, Rocío Martínez-López, Sam G. B. Roberts, Robin I. M. Dunbar
-Journal: Social Networks 35, 89 (2013) LINK | arXiv
-Abstract: We used a large database of 9 billion calls from 20 million mobile users to examine the relationships between aggregated time spent on the phone, personal network size, tiestrength and the way in which users distributed their limited time across their network (disparity). Compared to those with smaller networks, those with large networks did not devote proportionally more time to communication and had on average weaker ties (as measured by time spent communicating). ...  </p>
+Journal: Social Networks 35, 89 … ...  </p>
               
           </section>
       </a>
@@ -377,7 +357,7 @@ Abstract: We used a large database of 9 billion calls from 20 million mobile use
           </header>
           <section class="post-card-excerpt">
               
-                <p>Preferential attachment is a key process governing the dynamics of many economic, social and biological process. It is the “The rich get richer” mechanism by which a quantity is distributed among individuals according to how much they already have. It also happens in social networks and the ones that have more social connectivity (the “hubs”) receive more new connections than the poorly connected. In a famous paper, Laszlo Barabási and Reka Albert encoded this mechanics in the so called Barabasi-Albert model to generate random scale free-networks. ...  </p>
+                <p> Preferential attachment is a key process governing the dynamics of many economic, social and biological process. It is the “The rich get richer” … ...  </p>
               
           </section>
       </a>

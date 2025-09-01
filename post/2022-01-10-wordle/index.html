@@ -12,35 +12,24 @@
     <link rel="shortcut icon" href="https://estebanmoro.org/favicon.ico" />
     <link rel="canonical" href="https://estebanmoro.org/post/2022-01-10-wordle/" />
 
-     <meta name="description" content="Introduction Unless you have been away for the last month, you, your family or friends have been talking about or playing Wordle. It is a very straightforward g" /> 
+     <meta name="description" content="&lt;script src=&#34;https://estebanmoro.org/post/2022-01-10-wordle/index_files/kePrint/kePrint.js&#34;&gt;&lt;/script&gt;
+&lt;link href=&#34;https://estebanmoro.org/post/2022-01-10-wordle" /> 
 
-     
-    
-    <meta name="twitter:card" content="summary_large_image"/>
-    <meta name="twitter:image" content="https://estebanmoro.org/img/posts/header_wordle.png"/>
-    
- 
-    <meta name="twitter:title" content="Playing (and winning) Wordle with R"/>
-    <meta name="twitter:description" content="Introduction Unless you have been away for the last month, you, your family or friends have been talking about or playing Wordle. It is a very straightforward g"/>
-    <meta name="twitter:url" content="https://estebanmoro.org/post/2022-01-10-wordle/" />
-    <meta name="twitter:site" content="@estebanmoro"/>
+    <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Playing (and winning) Wordle with R">
+<meta name="twitter:description" content=" Introduction Unless you have been away for the last month, you, your family or friends have been talking about or playing Wordle. It is a very straightforward game which reminds us (old enough) of …">
+<meta name="twitter:url" content="https://estebanmoro.org/post/2022-01-10-wordle/">
+  <meta name="twitter:image" content="https://estebanmoro.org/img/posts/header_wordle.png">
 
-    <meta property="og:site_name" content="" />
-    <meta property="og:title" content="Playing (and winning) Wordle with R &middot; Implicit None" />
-    <meta property="og:url" content="https://estebanmoro.org/post/2022-01-10-wordle/" />
-    
-
-    <meta property="og:type" content="article" />
-    <meta property="og:description" content="Introduction Unless you have been away for the last month, you, your family or friends have been talking about or playing Wordle. It is a very straightforward g" />
-
-    <meta property="article:published_time" content="2022-01-10T00:00:00Z" />
-    <meta property="article:tag" content="wordle" /><meta property="article:tag" content="Rforeverythingelse" />
-
-    <meta property="og:image" content="https://estebanmoro.org/img/posts/header_wordle.png"/>
+    <meta property="og:title" content="Playing (and winning) Wordle with R">
+<meta property="og:description" content=" Introduction Unless you have been away for the last month, you, your family or friends have been talking about or playing Wordle. It is a very straightforward game which reminds us (old enough) of …">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://estebanmoro.org/post/2022-01-10-wordle/">
+  <meta property="og:image" content="https://estebanmoro.org/img/posts/header_wordle.png">
+<meta property="og:site_name" content="">
 
 
-
-    <meta name="generator" content="Hugo 0.92.2" />
+    <meta name="generator" content="Hugo 0.149.0">
 
     <!-- Stylesheets -->
     <link rel="stylesheet" type="text/css" href="https://estebanmoro.org/built/screen.css" /> 
@@ -151,7 +140,6 @@
     <section class="post-full-content">
         <div class="kg-card-markdown">
         
-<script src="https://estebanmoro.org/post/2022-01-10-wordle/index_files/header-attrs/header-attrs.js"></script>
 <script src="https://estebanmoro.org/post/2022-01-10-wordle/index_files/kePrint/kePrint.js"></script>
 <link href="https://estebanmoro.org/post/2022-01-10-wordle/index_files/lightable/lightable.css" rel="stylesheet" />
 
@@ -163,16 +151,13 @@
 <p>For example, here is the screenshot of the most recent one I played (Jan 10)</p>
 <p><img src="wordle.png" style="width:50.0%" /></p>
 <p>As you can see, I guessed the word in 3 tries out of 6 allowed. Many variations exist now, including <a href="https://wordle.danielfrg.com">one in Spanish</a>. There are many reasons why it has become a viral phenomenon , most likely because Wardle added a sharing element to the game, letting users copy their results in the form of a grid of colored squared emojis.</p>
-<p><blockquote class="twitter-tweet"><p lang="en" dir="ltr">Wordle 202 3/6<br><br>⬜⬜🟨🟨⬜<br>⬜🟩⬜🟨🟨<br>🟩🟩🟩🟩🟩 😎</p>&mdash; Esteban Moro (@estebanmoro) <a href="https://twitter.com/estebanmoro/status/1479467969545658369?ref_src=twsrc%5Etfw">January 7, 2022</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-</p>
+<p><img src="tweet_wordle_estebanmoro.png" style="width:75.0%" /></p>
 <p>Since Wardle publishes only one puzzle per day, players can compare their results on Twitter or by message, allowing for synchronized and unhurried social interaction.</p>
 </div>
 <div id="cracking-the-game" class="section level1">
 <h1>Cracking the game</h1>
 <p>Although the game is not so difficult (another of its merits), the obvious question is what is the best strategy to win the game every day. In this post, we will investigate this question with the help of <code>R</code> and in our journey, we will learn much more about how the game is designed.</p>
-<p>To do it, we will use the fantastic <code>wordle</code> <a href="https://github.com/coolbutuseless/wordle/">package</a> created by Mikefc <span class="citation">[@coolbutuseless]</span>(<a href="https://twitter.com/coolbutuseless" class="uri">https://twitter.com/coolbutuseless</a>). This package allows you to play Wordle in the <code>R</code> console [with <code>play_wordle()</code>]. Most interestingly, it can also help you play the online version through the <code>WordleHelper</code> class. For example, this is how we can use it for the Jan 10 puzzle. Let’s initialize the game.</p>
+<p>To do it, we will use the fantastic <code>wordle</code> <a href="https://github.com/coolbutuseless/wordle/">package</a> created by Mikefc <a href="https://twitter.com/coolbutuseless"><span class="citation">@coolbutuseless</span></a>. This package allows you to play Wordle in the <code>R</code> console [with <code>play_wordle()</code>]. Most interestingly, it can also help you play the online version through the <code>WordleHelper</code> class. For example, this is how we can use it for the Jan 10 puzzle. Let’s initialize the game.</p>
 <pre class="r"><code>#remotes::install_github(&#39;coolbutuseless/wordle&#39;)
 library(wordle)
 helper &lt;- WordleHelper$new(nchar = 5)
@@ -318,7 +303,7 @@ dictionary_games &lt;- sapply(sample(dictionary,1000),
     labs(x=&quot;Tries&quot;,fill=&quot;&quot;,y=&quot;Frequency&quot;,title=&quot;Using random words&quot;) +
     scale_fill_tableau() +
     geom_vline(xintercept = 6.5,linetype=2)</code></pre>
-<p><img src="https://estebanmoro.org/post/2022-01-10-wordle/index_files/figure-html/unnamed-chunk-11-1.png" width="100%" /></p>
+<p><img src="https://estebanmoro.org/post/2022-01-10-wordle/index_files/figure-html/unnamed-chunk-10-1.png" width="100%" /></p>
 <p>Not bad! Most of the time, we solved the game in 6 or fewer tries. Actually, we get</p>
 <pre class="r"><code>list(&quot;Dictionary&quot;=dictionary_games,
      &quot;Possible answers&quot;=possible_answers_games,
@@ -409,7 +394,7 @@ freq = tibble(word = helper$words) %&gt;%
   geom_density(data=freq %&gt;% filter(word %in% past_answers[,1]),
                aes(x=rank,col=&quot;Past answers&quot;),bw=10)+
   scale_color_tableau() + labs(col=&quot;&quot;)</code></pre>
-<p><img src="https://estebanmoro.org/post/2022-01-10-wordle/index_files/figure-html/unnamed-chunk-14-1.png" width="672" />
+<p><img src="https://estebanmoro.org/post/2022-01-10-wordle/index_files/figure-html/unnamed-chunk-13-1.png" width="672" />
 Most of the target words in the past answers are chosen from the most frequent words in English. The distribution decays slowly, which means that some unusual (rank &gt; 10000) words are likely. As Matthew suggests, “this is probably a sensible word selection strategy for making a good game, since it makes the puzzle not just a bunch of very common words (but also not just a bunch of rare words).”</p>
 <p>But this information is quite useful since it tells us that the game is designed with a bias that we can exploit to design a better strategy. Specifically, we will choose the next guess as the most frequent word of the candidates in each step. Let’s modify the score function:</p>
 <pre class="r"><code>score_words &lt;- function(words){
@@ -448,7 +433,7 @@ dictionary_games &lt;- sapply(sample(dictionary,1000),
     labs(x=&quot;Tries&quot;,fill=&quot;&quot;,y=&quot;&quot;,title=&quot;Using word frequency&quot;) +
     scale_fill_tableau() +
     geom_vline(xintercept = 6.5,linetype=2)</code></pre>
-<p><img src="https://estebanmoro.org/post/2022-01-10-wordle/index_files/figure-html/unnamed-chunk-17-1.png" width="672" /></p>
+<p><img src="https://estebanmoro.org/post/2022-01-10-wordle/index_files/figure-html/unnamed-chunk-16-1.png" width="672" /></p>
 <p>As we can see, the strategy is much better for past answers and it solves it less tries. Actually we get that:</p>
 <pre class="r"><code>list(&quot;Dictionary&quot;=dictionary_games,
      &quot;Possible answers&quot;=possible_answers_games,
@@ -533,7 +518,7 @@ ggplot(dists) +
                          position=&quot;dodge&quot;,stat=&quot;identity&quot;)+
   scale_fill_tableau() + labs(x=&quot;Letter&quot;,y=&quot;Frequency&quot;) +
   scale_y_continuous(labels=scales::percent)</code></pre>
-<p><img src="https://estebanmoro.org/post/2022-01-10-wordle/index_files/figure-html/unnamed-chunk-19-1.png" width="672" />
+<p><img src="https://estebanmoro.org/post/2022-01-10-wordle/index_files/figure-html/unnamed-chunk-18-1.png" width="672" />
 Most frequent letters are vowels (<code>e</code>, <code>o</code>, <code>a</code>) and usual consonants like <code>s</code> and <code>r</code>. In the dictionary, these are the top 5 most frequent letters</p>
 <pre class="r"><code>dist_letters_dictionary %&gt;% arrange(-dens) %&gt;% head(5) %&gt;% 
   kableExtra::kbl() %&gt;%
@@ -820,7 +805,7 @@ head(adversarial_answers)</code></pre>
   geom_density(data=freq %&gt;% filter(word %in% adversarial_answers),
                aes(x=rank,col=&quot;Adversarial answers&quot;),bw=10)+
   scale_color_tableau() + labs(col=&quot;&quot;)</code></pre>
-<p><img src="https://estebanmoro.org/post/2022-01-10-wordle/index_files/figure-html/unnamed-chunk-25-1.png" width="672" />
+<p><img src="https://estebanmoro.org/post/2022-01-10-wordle/index_files/figure-html/unnamed-chunk-24-1.png" width="672" />
 As we can see this method selects words which have very small frequency, or large rank in the use of English.</p>
 <p>Let’s play against them</p>
 <pre class="r"><code>adversarial_answers_games &lt;- sapply(adversarial_answers,
@@ -920,29 +905,20 @@ Adversarial answers
 </article>
     
     
-    
-
-<div id="disqus_thread"></div>
-<script>
-
-
-
-
-var disqus_config = function () {
-this.page.url = "https:\/\/estebanmoro.org\/post\/2022-01-10-wordle\/";  
-this.page.identifier = "https:\/\/estebanmoro.org\/post\/2022-01-10-wordle\/"; 
-};
-
-(function() { 
-var d = document, s = d.createElement('script');
-s.src = 'https://implicitnone.disqus.com/embed.js';
-s.setAttribute('data-timestamp', +new Date());
-(d.head || d.body).appendChild(s);
-})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-
-
+    <div id="disqus_thread"></div>
+  <script>
+    var disqus_config = function () {
+      this.page.url = 'https:\/\/estebanmoro.org\/post\/2022-01-10-wordle\/';
+      this.page.identifier = 'post\/2022-01-10-wordle\/index.html';
+    };
+    (function() {
+      var d = document, s = d.createElement('script');
+      s.src = 'https://implicitnone.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', Date.now().toString());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the comments.</noscript>
   </div>
 </main>
 
@@ -952,9 +928,9 @@ s.setAttribute('data-timestamp', +new Date());
     <div class="read-next-feed">      
       
 <article class="read-next-card" 
-            style="background-image: url(https://estebanmoro.org/img/mob.mp4);" >
+            style="background-image: url(https://estebanmoro.org/img/banner.jpg);" >
     <header class="read-next-card-header">
-        <small class="read-next-card-header-sitetitle">&mdash; Implicit None &mdash;</small>
+        <small class="read-next-card-header-sitetitle">&mdash; Esteban Moro &mdash;</small>
         
         <h3 class="read-next-card-header-title"><a href="https://estebanmoro.org/tags/wordle/">#wordle</a></h3>
     </header>
@@ -964,13 +940,13 @@ s.setAttribute('data-timestamp', +new Date());
     <div class="read-next-card-content">
       
         <ul>
-          <li><a href="https://estebanmoro.org/post/2019-02-02-social-networks-as-sensors/">Social networks as economic and social sensors</a></li>            
+          <li><a href="https://estebanmoro.org/post/2019-02-02-the-dynamic-character-of-our-networked-society/">The dynamic character of our networked society</a></li>            
         
-          <li><a href="https://estebanmoro.org/post/2012-03-12-agent-specific-impact-of-single-trades-in-financial-markets/">Agent-specific impact of single trades in financial markets</a></li>            
+          <li><a href="https://estebanmoro.org/post/2019-10-31-exploring-the-atlas-of-inequality-in-us-cities/">Exploring the Atlas of Inequality in US Cities</a></li>            
         
-          <li><a href="https://estebanmoro.org/post/2019-03-26-towards-understanding-the-impact-of-artificial-intelligence-on-labor/">Towards understanding the impact of artificial intelligence on labor</a></li>            
+          <li><a href="https://estebanmoro.org/post/2014-04-09-using-friends-as-sensors/">Using Friends as Sensors to Detect Global-Scale Contagious Outbreaks</a></li>            
         
-          <li><a href="https://estebanmoro.org/post/2019-02-02-setting-up-your-blog-with-rstudio-and-blogdown-i-creating-the-blog/">Setting up our blog with RStudio and blogdown I: Creating the blog</a></li>            
+          <li><a href="https://estebanmoro.org/2014/01/2013-pictures/">2013 pictures</a></li>            
         </ul>
     </div>
     <footer class="read-next-card-footer">
@@ -1000,9 +976,9 @@ s.setAttribute('data-timestamp', +new Date());
           </header>
           <section class="post-card-excerpt">
               
-                <p>Authors: Alex Berke, Ronan Doorley, Kent Larson, Esteban Moro
+                <p> Authors: Alex Berke, Ronan Doorley, Kent Larson, Esteban Moro
 Publication: arXiv preprint arXiv:2201.01139 (2022). Link
-Abstract: Location data collected from mobile devices represent mobility behaviors at individual and societal levels. These data have important applications ranging from transportation planning to epidemic modeling. However, issues must be overcome to best serve these use cases: The data often represent a limited sample of the population and use of the data jeopardizes privacy. ...  </p>
+ ...  </p>
               
           </section>
       </a>
@@ -1034,8 +1010,7 @@ Abstract: Location data collected from mobile devices represent mobility behavio
           </header>
           <section class="post-card-excerpt">
               
-                <p>Like ecosystems, societies with adaptable economies are best prepared for the future. We started a research program to understand and detect economic resilience encoded in the dependency networks of agents, businesses, cities, or jobs. In particular, how much of the adaptability of our economies depends on the fragility of those economic networks? Can we identify weaknesses and design policies to strengthen those interdependent units?
-Using highly detailed information about jobs, skills, and cities, our foundational study extended traditional economic models to show that the network structure of interactions and flows between jobs determines the resilience of labor markets. ...  </p>
+                <p>Like ecosystems, societies with adaptable economies are best prepared for the future. We started a research program to understand and detect economic … ...  </p>
               
           </section>
       </a>

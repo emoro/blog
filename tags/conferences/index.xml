@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Conferences on </title>
@@ -6,14 +5,28 @@
     <description>Recent content in Conferences on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Fri, 01 Feb 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://estebanmoro.org/tags/conferences/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 01 Feb 2019 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://estebanmoro.org/tags/conferences/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Netmob 2019</title>
       <link>https://estebanmoro.org/post/2019-02-01-netmob-2019/</link>
       <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2019-02-01-netmob-2019/</guid>
-      <description>Another edition of Netmob is happening this year 2019. NetMob is the primary conference in the analysis of mobile phone datasets in social, urban, societal and industrial problems. Previous editions in Boston and Milano brought together more than 250 researchers, practitioners and decision-makers from more 140 institutions and 30 countries. I had the pleasure to organize the 2015 edition and it was a blast to put together so much interesting talks, people, projects.</description>
+      <description>&lt;p&gt;Another edition of Netmob is happening this year 2019. NetMob is the primary conference in the analysis of mobile phone datasets in social, urban, societal and industrial problems. Previous editions in Boston and Milano brought together more than 250 researchers, practitioners and decision-makers from more 140 institutions and 30 countries. I had the pleasure to organize the &lt;a href=&#34;https://estebanmoro.org/post/2015-04-14-netmob-2015&#34;&gt;2015 edition&lt;/a&gt; and it was a blast to put together so much interesting talks, people, projects.
+Any contribution about mobile phone data is welcome, not only CDRs (call detail records). This includes, mobile location data, wifi usage, app-generated data, Twitter, Facebook, etc. The format of the conference is also flexibel: one track of short contributed talks and a simplified submission procedure (1-page abstracts).&lt;/p&gt;
+&lt;p&gt;This time is happening at another special place for me: the Mathematical Institute or University of Oxford (UK) from July 8-10 2019 and the local organizer is Renaud Lambiotte. Join us there.&lt;/p&gt;
+&lt;p&gt;More info:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Submission deadline: 15 March 2019&lt;/li&gt;
+&lt;li&gt;Notification of acceptance: 30 March 2019&lt;/li&gt;
+&lt;li&gt;Registration opening: 30 March 2019&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;See &lt;a href=&#34;http://netmob.org&#34;&gt;http://netmob.org&lt;/a&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -22,7 +35,25 @@
       <pubDate>Tue, 14 Apr 2015 09:26:11 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2015-04-14-netmob-2015/</guid>
-      <description>I had the pleasure to organize last edition of Netmob at MIT Media Lab (together with Sandy Pentland, Vincent Blondel and Yves-Alexandre de Montjoye). Netmob is the primary conference in the analysis of those datasets in social, urban, societal and industrial problems. Netmob 2015 also hosted the final part of theD4D Challenge by Orange. They were 3 amazing days of applications and analysis of mobile phone datasets, preceded by one-day school and 3 days Hackathon.</description>
+      <description>&lt;p&gt;I had the pleasure to organize last edition of &lt;a href=&#34;http://netmob.org&#34;&gt;Netmob&lt;/a&gt; at MIT Media Lab (together with &lt;a href=&#34;http://web.media.mit.edu/~sandy/&#34;&gt;Sandy Pentland&lt;/a&gt;, &lt;a href=&#34;http://perso.uclouvain.be/vincent.blondel/&#34;&gt;Vincent Blondel&lt;/a&gt; and &lt;a href=&#34;http://www.demontjoye.com&#34;&gt;Yves-Alexandre de Montjoye&lt;/a&gt;). Netmob is the primary conference in the analysis of those datasets in social, urban, societal and industrial problems. Netmob 2015 also hosted the final part of the&lt;a href=&#34;http://www.d4d.orange.com/en/home&#34;&gt; D4D Challenge&lt;/a&gt; by Orange. They were 3 amazing days of applications and analysis of mobile phone datasets, preceded by one-day school and 3 days Hackathon. More than 60 talks and 40 posters were presented. Around 250 participants from 140 institutions, 32 countries (5 continents!) participated, showing the international and wide interest in Netmob.&lt;/p&gt;
+&lt;p&gt;Here is some information about the event:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://netmob.org&#34;&gt;Homepage of Netmob&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://netmob.org/#abstracts&#34;&gt;Books of abstracts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/netmob15&#34;&gt;Twitter account&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;And some pictures&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/img/posts/FullSizeRender-1024x803.jpg&#34; alt=&#34;Conference chairs: Yves-Alexandre de Montjoye, Esteban Moro, Alex &amp;lsquo;Sandy&amp;rsquo; Pentland and Vincent Blondel&#34;&gt;Conference chairs: Yves-Alexandre de Montjoye, Esteban Moro, Alex &amp;lsquo;Sandy&amp;rsquo; Pentland and Vincent Blondel&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/img/posts/mapanetmob.jpg&#34; alt=&#34;Map of the different countries of the Netmob 2015 participants&#34;&gt;Map of the different countries of the Netmob 2015 participants&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/img/posts/CCQOkDXUgAA1dxp.jpg-large.jpg&#34; alt=&#34;Giving the farewell speech at Netmob 2015&#34;&gt;
+Giving the farewell speech at Netmob 2015&lt;/p&gt;
+&lt;p&gt;Media coverage:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Por tu móvil te conocerán [&lt;a href=&#34;http://www.elbuzon.es/por-tu-movil-te-conoceran-10540&#34;&gt;Elbuzón.es&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;El móvil permitirá estudiar el comportamiento humano a un nivel espacial, temporal y social “sin precedentes” [&lt;a href=&#34;http://noticias.lainformacion.com/economia-negocios-y-finanzas/equipos-de-telecomunicaciones/el-movil-permitira-estudiar-el-comportamiento-humano-a-un-nivel-espacial-temporal-y-social-sin-precedentes_E3an5tt8AK01oV8FjC3Qi7/&#34;&gt;LaInformación.com&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;Analysis of mobile phone data applied to economic and social problems [&lt;a href=&#34;http://phys.org/news/2015-04-analysis-mobile-economic-social-problems.html&#34;&gt;Phys.org&lt;/a&gt;]&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
   </channel>

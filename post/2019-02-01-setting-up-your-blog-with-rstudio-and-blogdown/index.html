@@ -12,38 +12,26 @@
     <link rel="shortcut icon" href="https://estebanmoro.org/favicon.ico" />
     <link rel="canonical" href="https://estebanmoro.org/post/2019-02-01-setting-up-your-blog-with-rstudio-and-blogdown/" />
 
-     <meta name="description" content="This is Part III of my series of posts about how to setup you blog with RStudio and blogdown. The other parts are:
-   Part I about to setup the blog using Hugo," /> 
+     <meta name="description" content="&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;This is Part III of my series of posts about how to setup you blog with RStudio and blogdown. The other parts are:&lt;/em&gt;&lt;/p&gt;" /> 
 
-     
-    
-    <meta name="twitter:card" content="summary_large_image"/>
-    <meta name="twitter:image" content="https://estebanmoro.org/img/posts/migrating2.png"/>
-    
- 
-    <meta name="twitter:title" content="Setting up your blog with RStudio and blogdown II: Workflow"/>
-    <meta name="twitter:description" content="This is Part III of my series of posts about how to setup you blog with RStudio and blogdown. The other parts are:
-   Part I about to setup the blog using Hugo,"/>
-    <meta name="twitter:url" content="https://estebanmoro.org/post/2019-02-01-setting-up-your-blog-with-rstudio-and-blogdown/" />
-    <meta name="twitter:site" content="@estebanmoro"/>
+    <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Setting up your blog with RStudio and blogdown II: Workflow">
+<meta name="twitter:description" content=" This is Part III of my series of posts about how to setup you blog with RStudio and blogdown. The other parts are:
+">
+<meta name="twitter:url" content="https://estebanmoro.org/post/2019-02-01-setting-up-your-blog-with-rstudio-and-blogdown/">
+  <meta name="twitter:image" content="https://estebanmoro.org/img/posts/migrating2.png">
 
-    <meta property="og:site_name" content="" />
-    <meta property="og:title" content="Setting up your blog with RStudio and blogdown II: Workflow &middot; Implicit None" />
-    <meta property="og:url" content="https://estebanmoro.org/post/2019-02-01-setting-up-your-blog-with-rstudio-and-blogdown/" />
-    
-
-    <meta property="og:type" content="article" />
-    <meta property="og:description" content="This is Part III of my series of posts about how to setup you blog with RStudio and blogdown. The other parts are:
-   Part I about to setup the blog using Hugo," />
-
-    <meta property="article:published_time" content="2019-02-02T00:00:00Z" />
-    <meta property="article:tag" content="blog" /><meta property="article:tag" content="R" /><meta property="article:tag" content="hugo" />
-
-    <meta property="og:image" content="https://estebanmoro.org/img/posts/migrating2.png"/>
+    <meta property="og:title" content="Setting up your blog with RStudio and blogdown II: Workflow">
+<meta property="og:description" content=" This is Part III of my series of posts about how to setup you blog with RStudio and blogdown. The other parts are:
+">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://estebanmoro.org/post/2019-02-01-setting-up-your-blog-with-rstudio-and-blogdown/">
+  <meta property="og:image" content="https://estebanmoro.org/img/posts/migrating2.png">
+<meta property="og:site_name" content="">
 
 
-
-    <meta name="generator" content="Hugo 0.92.2" />
+    <meta name="generator" content="Hugo 0.149.0">
 
     <!-- Stylesheets -->
     <link rel="stylesheet" type="text/css" href="https://estebanmoro.org/built/screen.css" /> 
@@ -153,7 +141,10 @@
 
     <section class="post-full-content">
         <div class="kg-card-markdown">
-        <blockquote>
+        
+
+
+<blockquote>
 <p><em>This is Part III of my series of posts about how to setup you blog with RStudio and blogdown. The other parts are:</em></p>
 </blockquote>
 <blockquote>
@@ -163,23 +154,24 @@
 <li><em><a href="https://estebanmoro.org/post/2019-02-04-setting-up-your-blog-with-rstudio-and-blogdown-iii-modify-your-theme/">Part III</a> on how to modify the theme.</em></li>
 </ul>
 </blockquote>
-<h2 id="workflow">Workflow</h2>
+<div id="workflow" class="section level2">
+<h2>Workflow</h2>
 <p>In <a href="https://estebanmoro.org/post/2019-02-02-setting-up-your-blog-with-rstudio-and-blogdown-i-creating-the-blog/">Part I</a> of this series of post we setup our new blog using blogdown and Hugo. Once the blog is configured, this is the typical workflow I follow to write new posts and update my blog online:</p>
-<ol>
+<ol style="list-style-type: decimal">
 <li><em>Open your blog project with RStudio</em></li>
 <li><em>Load the blogdown library</em> and start the Hugo server and browser</li>
 </ol>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r"><span style="color:#a6e22e">library</span>(blogdown)
-blogdown<span style="color:#f92672">::</span><span style="color:#a6e22e">serve_site</span>()
-</code></pre></div><ol start="3">
+<pre class="r"><code>library(blogdown)
+blogdown::serve_site()</code></pre>
+<ol start="3" style="list-style-type: decimal">
 <li><em>Create new post</em>: the best way is to use the RStudio Addins → New post. The Addins menu is in the top bar of RStudio, but you can also get it using</li>
 </ol>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r">blogdown<span style="color:#f92672">:::</span><span style="color:#a6e22e">new_post_addin</span>()
-</code></pre></div><p>Then you will get a window like this</p>
-<p><img src="https://estebanmoro.org/img/posts/new_post_blogdown.png" alt=""></p>
-<p>Fill in all the details. Don&rsquo;t forget to choose plain markdown or R markdown. Use the latter if you want to include some R code.</p>
+<pre class="r"><code>blogdown:::new_post_addin()</code></pre>
+<p>Then you will get a window like this</p>
+<p><img src="https://estebanmoro.org/img/posts/new_post_blogdown.png" /></p>
+<p>Fill in all the details. Don’t forget to choose plain markdown or R markdown. Use the latter if you want to include some R code.</p>
 <p>A new markdown will open with the YAML header filled with the title, author, date, etc. of the posts.</p>
-<p><img src="https://estebanmoro.org/img/posts/new_post_yaml.png" alt=""></p>
+<p><img src="https://estebanmoro.org/img/posts/new_post_yaml.png" /></p>
 <p>Take some time here to change/add categories and tags to your blog. You can also:</p>
 <ul>
 <li>Add a featured image which will appear at the top of the post in some themes (like the casper-two that I chose)</li>
@@ -190,48 +182,42 @@ blogdown<span style="color:#f92672">::</span><span style="color:#a6e22e">serve_s
 </ul>
 <p><code>draft: true</code></p>
 <p>in the YAML. If you do this, the post will show up in the Rstudio/Hugo local developing environment. But it will not be rendered when we build the deploy version of the blog. Once you have finished writint it change it to <code>draft: false</code> so next time we build the deployment version of the blog the post will be included.</p>
-<ol start="4">
+<ol start="4" style="list-style-type: decimal">
 <li>After that start writing your amazing post. Everytime you save a new version of the R/markdown file, the Hugo server will render the new version of the blog and you will get in the console something like this</li>
 </ol>
-<p><img src="https://estebanmoro.org/img/posts/server_built.png" alt=""></p>
+<p><img src="https://estebanmoro.org/img/posts/server_built.png" /></p>
 <p>Editing a R/markdown is super easy. You can find some really good guides to do that here</p>
 <ul>
 <li><a href="https://rmarkdown.rstudio.com/lesson-1.html">Introduction to R Markdown</a> from Rstudio.</li>
 <li><a href="https://www.markdownguide.org/getting-started">Mardown Guide</a> by Matt Cone</li>
 </ul>
 <p>Underneath Hugo is taking care of converting everything into HTML. This means that you can also use <a href="https://gohugo.io/content-management/shortcodes/">Hugo shortcodes</a> in the markdown to do things like inserting a tweet or a youtube video. Shortcodes are simple shortcuts to render HTML, iframes, etc. in those cases. Shortcodes appear in your R/markdown like this in markdown</p>
-<p>{{&lt; myshortcode &gt;}}</p>
+<p>{{&lt;/* myshortcode */&gt;}}</p>
 <p>of like this in R markdown</p>
 <p><code>{{ % ... %}}</code></p>
 <p>For example, if we want to include this youtube video <a href="https://www.youtube.com/watch?v=2WTWx0yknQQ">https://www.youtube.com/watch?v=2WTWx0yknQQ</a> in your R/markdown, you simply have to include the following code in your text:</p>
-<p><code>
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://www.youtube.com/embed/2WTWx0yknQQ" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
-</div>
-</code></p>
+<p><code>{{&lt; youtube 2WTWx0yknQQ &gt;}}</code></p>
 <p>Or to include this tweet <a href="https://twitter.com/xieyihui/status/817461069014859780">https://twitter.com/xieyihui/status/817461069014859780</a> simply use this code</p>
-<p><code><blockquote class="twitter-tweet"><p lang="en" dir="ltr">The bookdown book package just arrived at my door. Love the Alegreya &amp; Source Code Pro fonts on paper. Also happy that the book is so thin! <a href="https://t.co/kr21J19Cw1">pic.twitter.com/kr21J19Cw1</a></p>&mdash; Yihui Xie (@xieyihui) <a href="https://twitter.com/xieyihui/status/817461069014859780?ref_src=twsrc%5Etfw">January 6, 2017</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-</code></p>
+<p><code>{{&lt; x user="xieyihui" id="817461069014859780" &gt;}}</code></p>
 <p>Check the complete list of already available shortcodes <a href="https://gohugo.io/content-management/shortcodes/">here</a>. You can even write your own ones as we will see later in Part III of this tutorial.</p>
-<ol start="5">
+<ol start="5" style="list-style-type: decimal">
 <li>If you are happy with your post, remove the <code>draft: true</code> line in the YAML and we are ready to deploy the new version of your blog to our domain. Here is the commands in RStudio I use to do that:</li>
 </ol>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r"><span style="color:#a6e22e">system</span>(<span style="color:#e6db74">&#34;rm -r ~/best_blog_ever/public/*&#34;</span>)
-blogdown<span style="color:#f92672">::</span><span style="color:#a6e22e">hugo_build</span>(local<span style="color:#f92672">=</span>F)
-<span style="color:#a6e22e">system</span>(<span style="color:#e6db74">&#34;~/best_blog_ever/deploy.sh&#34;</span>)
-</code></pre></div><p>The fist command simply erases the <code>public</code> directory that contained the old version of the blog. This is probably not needed, but it gives me peace of mind :).</p>
+<pre class="r"><code>system(&quot;rm -r ~/best_blog_ever/public/*&quot;)
+blogdown::hugo_build(local=F)
+system(&quot;~/best_blog_ever/deploy.sh&quot;)</code></pre>
+<p>The fist command simply erases the <code>public</code> directory that contained the old version of the blog. This is probably not needed, but it gives me peace of mind :).</p>
 <p>The second command builds the blog. Note the <code>local=F</code> flag which tells Hugo to build a deployment version of the blog, meaning that all the posts with <code>draft: true</code> will not be rendered.</p>
 <p>The third command is my personal deployment script. Although most of the <a href="https://bookdown.org/yihui/blogdown/deployment.html">guides out there</a> show you how to deploy your blog using <a href="https://www.netlify.com">Netlify</a> and/or GitHub, I am using my own domain and space at Dreamhost. Then to update my blog I simply synchronize (using <code>rsync</code>) the <code>public</code> directory with the root directory of my domain. Here is my <code>deploy.sh</code> script</p>
-<pre tabindex="0"><code>#!/bin/sh 
+<pre><code>#!/bin/sh 
 USER=your_user_to_your_blog_domain
 HOST=your_dream_host_machine.dreamhost.com
 DIR=your_blog_domain/
-rsync -avz --exclude-from 'exclude-list.txt' --delete public/ ${USER}@${HOST}:~/${DIR}
-exit 0
-</code></pre><p>you might also notice that I have excluded some files in the synchronization which are specified in the file <code>exclude-list.txt</code>. In my case I only have the <code>.htacces</code> file there.</p>
+rsync -avz --exclude-from &#39;exclude-list.txt&#39; --delete public/ ${USER}@${HOST}:~/${DIR}
+exit 0</code></pre>
+<p>you might also notice that I have excluded some files in the synchronization which are specified in the file <code>exclude-list.txt</code>. In my case I only have the <code>.htacces</code> file there.</p>
 <p>All done!</p>
+</div>
     
         </div>
     </section>
@@ -248,29 +234,20 @@ exit 0
 </article>
     
     
-    
-
-<div id="disqus_thread"></div>
-<script>
-
-
-
-
-var disqus_config = function () {
-this.page.url = "https:\/\/estebanmoro.org\/post\/2019-02-01-setting-up-your-blog-with-rstudio-and-blogdown\/";  
-this.page.identifier = "https:\/\/estebanmoro.org\/post\/2019-02-01-setting-up-your-blog-with-rstudio-and-blogdown\/"; 
-};
-
-(function() { 
-var d = document, s = d.createElement('script');
-s.src = 'https://implicitnone.disqus.com/embed.js';
-s.setAttribute('data-timestamp', +new Date());
-(d.head || d.body).appendChild(s);
-})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-
-
+    <div id="disqus_thread"></div>
+  <script>
+    var disqus_config = function () {
+      this.page.url = 'https:\/\/estebanmoro.org\/post\/2019-02-01-setting-up-your-blog-with-rstudio-and-blogdown\/';
+      this.page.identifier = 'post\/2019-02-01-setting-up-your-blog-with-rstudio-and-blogdown.html';
+    };
+    (function() {
+      var d = document, s = d.createElement('script');
+      s.src = 'https://implicitnone.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', Date.now().toString());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the comments.</noscript>
   </div>
 </main>
 
@@ -280,9 +257,9 @@ s.setAttribute('data-timestamp', +new Date());
     <div class="read-next-feed">      
       
 <article class="read-next-card" 
-            style="background-image: url(https://estebanmoro.org/img/mob.mp4);" >
+            style="background-image: url(https://estebanmoro.org/img/banner.jpg);" >
     <header class="read-next-card-header">
-        <small class="read-next-card-header-sitetitle">&mdash; Implicit None &mdash;</small>
+        <small class="read-next-card-header-sitetitle">&mdash; Esteban Moro &mdash;</small>
         
         <h3 class="read-next-card-header-title"><a href="https://estebanmoro.org/tags/blog/">#blog</a></h3>
     </header>
@@ -292,13 +269,13 @@ s.setAttribute('data-timestamp', +new Date());
     <div class="read-next-card-content">
       
         <ul>
-          <li><a href="https://estebanmoro.org/2014/05/el-metodo-que-identifica-la-informacion-que-sera-relevante-en-las-redes-sociales/">El método que identifica la información que será relevante en las redes sociales</a></li>            
+          <li><a href="https://estebanmoro.org/post/2025-01-11-behaviour-based-dependency-networks/">Behaviour-based dependency networks between places shape urban economic resilience</a></li>            
         
-          <li><a href="https://estebanmoro.org/post/2012-03-12-agent-specific-impact-of-single-trades-in-financial-markets/">Agent-specific impact of single trades in financial markets</a></li>            
+          <li><a href="https://estebanmoro.org/post/2015-04-14-netmob-2015/">Netmob 2015</a></li>            
         
-          <li><a href="https://estebanmoro.org/post/2016-02-19-searching-for-someone/">Searching for someone</a></li>            
+          <li><a href="https://estebanmoro.org/2009/06/phd-offer/">Ph.D. offer... interested?</a></li>            
         
-          <li><a href="https://estebanmoro.org/2012/11/preferential-attachment-be-first/">Preferential attachment: be first</a></li>            
+          <li><a href="https://estebanmoro.org/2006/10/superconductivy-live/">Superconductivy Live!</a></li>            
         </ul>
     </div>
     <footer class="read-next-card-footer">
@@ -329,8 +306,7 @@ s.setAttribute('data-timestamp', +new Date());
           </header>
           <section class="post-card-excerpt">
               
-                <p>Segregation is hurting our societies and specially our cities. But economic inequality isn&rsquo;t just limited to neighborhoods. The restaurants, stores, and other places we visit in cities are all unequal in their own way.
-The Atlas of Inequality shows the income inequality of people who visit different places in the Boston metro area. It uses aggregated anonymous location data from digital devices to estimate people&rsquo;s incomes and where they spend their time. ...  </p>
+                <p>Segregation is hurting our societies and specially our cities. But economic inequality isn&rsquo;t just limited to neighborhoods. The restaurants, … ...  </p>
               
           </section>
       </a>
@@ -362,8 +338,8 @@ The Atlas of Inequality shows the income inequality of people who visit differen
           </header>
           <section class="post-card-excerpt">
               
-                <p>This is Part III of my series of posts about how to setup you blog with RStudio and blogdown. The other parts are:
-   Part I about to setup the blog using Hugo, RStudio and blogdown Part II explains my workflow of creating new posts. Part III (this one) how to modify the theme.   In this post I am going to show how I modified the original theme casper-two that I use for my blog. ...  </p>
+                <p> This is Part III of my series of posts about how to setup you blog with RStudio and blogdown. The other parts are:
+ ...  </p>
               
           </section>
       </a>

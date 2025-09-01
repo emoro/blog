@@ -5,7 +5,7 @@
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Mon, 16 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 30 Aug 2025 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://estebanmoro.org/index.xml" rel="self" type="application/rss+xml" />
     
@@ -13,7 +13,7 @@
     <item>
       <title>Posts</title>
       <link>https://estebanmoro.org/post/</link>
-      <pubDate>Mon, 16 Jun 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 30 Aug 2025 00:00:00 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/</guid>
       <description></description>
@@ -32,8 +32,8 @@
 &lt;script src=&#34;https://estebanmoro.org/rmarkdown-libs/visNetwork-binding/visNetwork.js&#34;&gt;&lt;/script&gt;
 
 
-&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/img/aboutme.jpg&#34; style=&#34;width:70.0%&#34; /&gt;
-Full CV -&amp;gt; &lt;a href=&#34;https://estebanmoro.org/pdf/cv_emoro.pdf&#34;&gt;&lt;strong&gt;PDF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/img/aboutme.jpg&#34; style=&#34;width:70.0%&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Full CV -&amp;gt; &lt;a href=&#34;https://estebanmoro.org/pdf/cv_emoro.pdf&#34;&gt;&lt;strong&gt;PDF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;I’m a professor in the &lt;a href=&#34;https://www.networkscienceinstitute.org&#34;&gt;Network Science Institute&lt;/a&gt; at Northeastern University and the director of the &lt;a href=&#34;https://socialurban.net&#34;&gt;Social Urban Networks (SUNLab)&lt;/a&gt; group. Previously, I was an associate professor at &lt;a href=&#34;https://matematicas.uc3m.es/index.php/esteban-moro-egido&#34;&gt;Universidad Carlos III&lt;/a&gt; (UC3M) in Spain, Researcher and Visiting Professor at &lt;a href=&#34;https://www.media.mit.edu/people/emoro/overview/&#34;&gt;MIT Media Lab&lt;/a&gt; and Researcher at University of Oxford. A native from Salamanca (Spain) I hold a PhD in Physics and I am an affiliate researcher at the MIT Media Lab. I have published extensively throughout my career and have led many projects funded by government agencies and private companies. Also served as jury in many Data Science and Big Data challenges, as editor of several journals and has advised many PhD students.&lt;/p&gt;
 &lt;p&gt;My work lies in the intersection of &lt;strong&gt;big data&lt;/strong&gt; and &lt;strong&gt;computational social science&lt;/strong&gt;, with special attention to human dynamics, collective intelligence, social networks and urban mobility in problems like viral marketing, natural disaster management, food accessibility, or economical segregation in cities. Apart from my academic career I have worked closely with companies like Twitter, Telefónica or BBVA in the use of massive datasets to understand problems like how humans communicate, how political opinion spreads in social networks or building alternative well-being indexes. I have received numerous awards for my research, including the “Shared University Award” from IBM in 2007 for my research in modeling viral marketing in social networks and the “Excellence in Research” Awards in 2013 and 2015 from UC3M.&lt;/p&gt;
 &lt;p&gt;Our work appeared in major journals including Nature Human Behavior, Nature Communications, PNAS or Science Advances and is regularly covered by media outlets The Atlantic, The Washington Post, The Wall Street Journal, El País (Spain).&lt;/p&gt;
@@ -53,12 +53,11 @@ Full CV -&amp;gt; &lt;a href=&#34;https://estebanmoro.org/pdf/cv_emoro.pdf&#34;&
 &lt;li&gt;[2019-2023] Research Scientist, SSRC MIT, US.&lt;/li&gt;
 &lt;li&gt;[2024-present] Full Professor at the Network Science Institute &amp;amp; Department of Physics, Northeastern University.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;And a little bit about &lt;strong&gt;my publications&lt;/strong&gt;: &lt;br&gt;
-&lt;small&gt; (last update 2025-08-18. Data from Google Scholar, retrieved using the &lt;a href=&#34;https://github.com/YuLab-SMU/scholar&#34;&gt;scholar&lt;/a&gt; package in &lt;code&gt;R&lt;/code&gt;)&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;And a little bit about &lt;strong&gt;my publications&lt;/strong&gt;: &lt;br&gt; &lt;small&gt; (last update 2025-08-30. Data from Google Scholar, retrieved using the &lt;a href=&#34;https://github.com/YuLab-SMU/scholar&#34;&gt;scholar&lt;/a&gt; package in &lt;code&gt;R&lt;/code&gt;)&lt;/small&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;You can find a &lt;a href=&#34;https://estebanmoro.org/post/list-of-publications/&#34;&gt;list of my publications here&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;My h-index now is &lt;strong&gt;45&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;I have received &lt;strong&gt;9370 citations&lt;/strong&gt; to &lt;strong&gt;182 publications/documents&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;I have received &lt;strong&gt;9413 citations&lt;/strong&gt; to &lt;strong&gt;182 publications/documents&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;Here is the distribution of my citations since 2010:&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/about_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;

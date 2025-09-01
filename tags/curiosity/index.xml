@@ -1,19 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>curiosity on </title>
+    <title>Curiosity on </title>
     <link>https://estebanmoro.org/tags/curiosity/</link>
-    <description>Recent content in curiosity on </description>
+    <description>Recent content in Curiosity on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Wed, 21 Dec 2005 07:35:08 +0000</lastBuildDate><atom:link href="https://estebanmoro.org/tags/curiosity/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 21 Dec 2005 07:35:08 +0000</lastBuildDate>
+    
+        <atom:link href="https://estebanmoro.org/tags/curiosity/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Meet the glaciers</title>
       <link>https://estebanmoro.org/2005/12/meet-the-glaciers/</link>
       <pubDate>Wed, 21 Dec 2005 07:35:08 +0000</pubDate>
       
       <guid>https://estebanmoro.org/2005/12/meet-the-glaciers/</guid>
-      <description>I have been on holidays during the last two weeks visiting Argentina. The picture above was taken on top of the Perito Moreno glacier, which is amazing. Most glaciers we found where blueish, including the icebergs found floating in the rivers. The reason for that is that the thicker the ice or snow layer is, the better red colors are absorbed by the layer and only the blue colors are reflected (see a more detailed explanation here).</description>
+      <description>&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/img/posts/glacier.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;I have been on holidays during the last two weeks visiting Argentina. The picture above was taken on top of the &lt;a href=&#34;http://en.wikipedia.org/wiki/Perito_Moreno_Glacier&#34;&gt;Perito Moreno glacier&lt;/a&gt;, which is amazing. Most glaciers we found where blueish, including the icebergs found floating in the rivers. The reason for that is that the thicker the ice or snow layer is, the better red colors are absorbed by the layer and only the blue colors are reflected (see a more detailed explanation &lt;a href=&#34;http://webexhibits.org/causesofcolor/5C.html&#34;&gt;here&lt;/a&gt;). Ice in the freezer looks transparent or white because its thickness is small enough to make the absorption of the red colors negligible.&lt;/p&gt;
+&lt;p&gt;Perito Moreno glacier is one of the few glaciers in equilibrium: neither advancing nor retreating. Unfortunately, due to global warming, &lt;a href=&#34;http://www.geo.unizh.ch/wgms/mbb/mb04/sum04.html&#34;&gt;retreating is the norm&lt;/a&gt; and numerous glaciers have disappeared in recent years. Another unusual characteristic is that the glacier front is close to a peninsula. From time to time the glacier front touches the peninsula and both sides of the lake the glacier empties into get disconnected. The unbalance of the water levels at both sides of the lake makes the water to percolate underneath the front creating a ice bridge between the peninsula and the glacier front. This bridge inevitably collapse in a phenomenon name “la ruptura” (rupture). The last to happen was in March 2004 and &lt;a href=&#34;http://dude.uibk.ac.at/Projects/Patagonia/LakeDamming/&#34;&gt;it is a spectacular sight&lt;/a&gt;.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -22,7 +28,22 @@
       <pubDate>Tue, 22 Nov 2005 08:26:34 +0000</pubDate>
       
       <guid>https://estebanmoro.org/2005/11/folding-paper/</guid>
-      <description>You can’t fold a paper more than seven or eight times. Don’t believe me? Then try it. Thinner paper? Longer paper? It doesn’t matter; you just can’t do it. I used to play this game with my friends which were always amazed and asked for an explanation. Is there any physical or mathematical constrain to do it? Nope: it is simply a matter of scale. If you have a paper of length L and you fold it, the length now is L/2.</description>
+      <description>&lt;p&gt;You can’t fold a paper more than seven or eight times. Don’t believe me? Then try it. Thinner paper? Longer paper? It doesn’t matter; you just can’t do it. I used to play this game with my friends which were always amazed and asked for an explanation. Is there any physical or mathematical constrain to do it? Nope: it is simply a matter of scale. If you have a paper of length &lt;em&gt;L&lt;/em&gt; and you fold it, the length now is &lt;em&gt;L/2&lt;/em&gt;. Do it again and it goes down to L/22. In general, if you fold it n times, the remaining length is&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;ln=L/2n&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Obviously, this folding can be repeated until the remaining length of the paper is approximatelly the width of the paper. Thus, the maximum number of times you can fold a piece of paper of length L and width d is given by&lt;/p&gt;
+&lt;p&gt;_d=L/2n =&amp;gt; n = Log[L/d]/Log[2] _&lt;/p&gt;
+&lt;p&gt;Now get a piece of paper (an A4 sheet for example), which is 297mm long and more or less 0.1mm of width. Thus _n = 11 _which is much larger than the 7 or 8 times expected. The explanation for this miscalculation is that when folding paper, the remaining length of the paper is not given by simply dividing by 2 the previous lenght (see figure).&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://estebanmoro.org/wp-content/uploads/2008/12/paperfolding1.jpg&#34;&gt;&lt;img src=&#34;http://estebanmoro.org/wp-content/uploads/2008/12/paperfolding1-300x155.jpg&#34; alt=&#34;&#34;&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Paper folding after two iterations. Note that the remaining
+length &lt;em&gt;l2&lt;/em&gt; is not equal to &lt;em&gt;L/22&lt;/em&gt; due to the paper lenght
+“used” in the arcs&lt;/p&gt;
+&lt;p&gt;One should account for the paper in the arcs conecting different layers and the series of remaining lengths was calculated&lt;a href=&#34;http://pomonahistorical.org/12times.htm&#34;&gt;by high school student Britney Gallivan&lt;/a&gt; in December of 2001 (&lt;a href=&#34;http://www.math.princeton.edu/%7Ewwong/blog/blog200511170411.shtml&#34;&gt;see a detailed explanation here&lt;/a&gt;):&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;ln = 6L/[pi (2n+4)(2n-1)]&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;In this case we get&lt;/p&gt;
+&lt;p&gt;_n = 1/2 Log[6L/pi d]/Log[2] _&lt;/p&gt;
+&lt;p&gt;which gives &lt;em&gt;n = 6&lt;/em&gt; for a A4 sheet of paper, as expected. In fact, longer paper can be folded more times: the same Britney Gallivan &lt;a href=&#34;http://pomonahistorical.org/12times.htm&#34;&gt;has recently folded 12 times&lt;/a&gt; a piece of paper, which accordingly to the equations above, was of (at least) length 879 meters.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

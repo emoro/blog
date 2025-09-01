@@ -12,38 +12,26 @@
     <link rel="shortcut icon" href="https://estebanmoro.org/favicon.ico" />
     <link rel="canonical" href="https://estebanmoro.org/post/2022-02-14-wordle-is-getting-harder/" />
 
-     <meta name="description" content="Marty, I’ve been to the future and I have bad news. Wordle is getting harder. Not much, but harder.
- With millions of people playing the game Wordle online and " /> 
+     <meta name="description" content="&lt;blockquote&gt;
+&lt;p&gt;Marty, I’ve been to the future and I have bad news. Wordle is getting harder. Not much, but harder.&lt;/p&gt;" /> 
 
-     
-    
-    <meta name="twitter:card" content="summary_large_image"/>
-    <meta name="twitter:image" content="https://estebanmoro.org/img/posts/header_wordle.png"/>
-    
- 
-    <meta name="twitter:title" content="Wordle is getting (slightly) harder"/>
-    <meta name="twitter:description" content="Marty, I’ve been to the future and I have bad news. Wordle is getting harder. Not much, but harder.
- With millions of people playing the game Wordle online and "/>
-    <meta name="twitter:url" content="https://estebanmoro.org/post/2022-02-14-wordle-is-getting-harder/" />
-    <meta name="twitter:site" content="@estebanmoro"/>
+    <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Wordle is getting (slightly) harder">
+<meta name="twitter:description" content=" Marty, I’ve been to the future and I have bad news. Wordle is getting harder. Not much, but harder.
+">
+<meta name="twitter:url" content="https://estebanmoro.org/post/2022-02-14-wordle-is-getting-harder/">
+  <meta name="twitter:image" content="https://estebanmoro.org/img/posts/header_wordle.png">
 
-    <meta property="og:site_name" content="" />
-    <meta property="og:title" content="Wordle is getting (slightly) harder &middot; Implicit None" />
-    <meta property="og:url" content="https://estebanmoro.org/post/2022-02-14-wordle-is-getting-harder/" />
-    
-
-    <meta property="og:type" content="article" />
-    <meta property="og:description" content="Marty, I’ve been to the future and I have bad news. Wordle is getting harder. Not much, but harder.
- With millions of people playing the game Wordle online and " />
-
-    <meta property="article:published_time" content="2022-02-14T00:00:00Z" />
-    <meta property="article:tag" content="wordle" /><meta property="article:tag" content="Rforeverythingelse" />
-
-    <meta property="og:image" content="https://estebanmoro.org/img/posts/header_wordle.png"/>
+    <meta property="og:title" content="Wordle is getting (slightly) harder">
+<meta property="og:description" content=" Marty, I’ve been to the future and I have bad news. Wordle is getting harder. Not much, but harder.
+">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://estebanmoro.org/post/2022-02-14-wordle-is-getting-harder/">
+  <meta property="og:image" content="https://estebanmoro.org/img/posts/header_wordle.png">
+<meta property="og:site_name" content="">
 
 
-
-    <meta name="generator" content="Hugo 0.92.2" />
+    <meta name="generator" content="Hugo 0.149.0">
 
     <!-- Stylesheets -->
     <link rel="stylesheet" type="text/css" href="https://estebanmoro.org/built/screen.css" /> 
@@ -154,18 +142,14 @@
     <section class="post-full-content">
         <div class="kg-card-markdown">
         
-<script src="https://estebanmoro.org/post/2022-02-14-wordle-is-getting-harder/index_files/header-attrs/header-attrs.js"></script>
 
 
 <blockquote>
 <p>Marty, I’ve been to the future and I have bad news. Wordle is getting harder. Not much, but harder.</p>
 </blockquote>
 <p><img src="656tqq.jpg" /></p>
-<p>With millions of people playing the game Wordle online and the recent takeover by the New York times, some speculation about whether the game is getting harder is unavoidable. Since Wordle chooses a different word every day, some players have started to complain recent target words are harder to be guessed:
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">It must be a coincidence, but the NY Times puzzles are hard and suddenly Wordle has questionable words</p>&mdash; anna spargo-ryan 🍉 (@annaspargoryan) <a href="https://twitter.com/annaspargoryan/status/1492576548137816067?ref_src=twsrc%5Etfw">February 12, 2022</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-</p>
+<p>With millions of people playing the game Wordle online and the recent takeover by the New York times, some speculation about whether the game is getting harder is unavoidable. Since Wordle chooses a different word every day, some players have started to complain recent target words are harder to be guessed:</p>
+<p><img src="tweet.png" /></p>
 <p>Some claim that NYT might have changed something about the game. Even <a href="https://www.theguardian.com/media/2022/feb/14/is-wordle-getting-harder-viral-game-tests-players-after-new-york-times-takeover">some newspapers</a> have covered that worry.</p>
 <p>But <strong>this is not true</strong>: nothing has changed in the game since the takeover, and the code and data used to get every day’s word has not changed. Moreover, it is statistically impossible to show that the game is getting more complicated since the NYT took over the game (only a couple of weeks).</p>
 <p>Still, I’ve traveled to the future, and the answer is <strong>yes</strong>, Wordle is getting harder, but not because somebody has changed the game. It was bound to get harder in the future since its creation. Let me explain you how I investigate it using statistics and <code>R</code>.</p>
@@ -233,12 +217,12 @@ freq = tibble(word = helper$words) %&gt;%
 <pre><code>## # A tibble: 6 × 6
 ##   word  count.x count.y       count log_count  rank
 ##   &lt;chr&gt;   &lt;dbl&gt;   &lt;dbl&gt;       &lt;dbl&gt;     &lt;dbl&gt; &lt;int&gt;
-## 1 flews       0       0 0.000000101     0.693 12967
-## 2 trods       0       0 0.000000101     0.693 12968
-## 3 fusks       0       0 0.000000101     0.693 12969
-## 4 fugus       0       0 0.000000101     0.693 12970
-## 5 staps       0       0 0.000000101     0.693 12971
-## 6 jurel       0       0 0.000000101     0.693 12972</code></pre>
+## 1 kaneh       0       0 0.000000101     0.693 12967
+## 2 moyas       0       0 0.000000101     0.693 12968
+## 3 grisy       0       0 0.000000101     0.693 12969
+## 4 geits       0       0 0.000000101     0.693 12970
+## 5 ulnas       0       0 0.000000101     0.693 12971
+## 6 helot       0       0 0.000000101     0.693 12972</code></pre>
 <p>The average <em>rank</em> of the answers in Wordle is much smaller than randomly chosen words in the dictionary, as expected:</p>
 <pre class="r"><code>freq %&gt;% 
   mutate(`Wordle Answer`=ifelse(word %in% past_answers$word,T,F)) %&gt;%
@@ -247,7 +231,7 @@ freq = tibble(word = helper$words) %&gt;%
 ##   `Wordle Answer` mean_rank
 ##   &lt;lgl&gt;               &lt;dbl&gt;
 ## 1 FALSE               6571.
-## 2 TRUE                1999.</code></pre>
+## 2 TRUE                1997.</code></pre>
 <p>We can investigate if the rank has changed since Wordle started in Jun 2021:</p>
 <pre class="r"><code>require(ggrepel)</code></pre>
 <pre><code>## Loading required package: ggrepel</code></pre>
@@ -257,8 +241,8 @@ freq = tibble(word = helper$words) %&gt;%
   geom_vline(xintercept = as.Date(&quot;2022-02-01&quot;),linetype=2) + 
   scale_y_log10() + labs(x=&quot;Date&quot;,title=&quot;Rank (higher is harder)&quot;,y=&quot;&quot;)+
   scale_x_date(date_labels = &quot;%b/%Y&quot;)</code></pre>
-<pre><code>## `geom_smooth()` using method = &#39;loess&#39; and formula &#39;y ~ x&#39;</code></pre>
-<p><img src="https://estebanmoro.org/post/2022-02-14-wordle-is-getting-harder/index_files/figure-html/unnamed-chunk-9-1.png" width="672" />
+<pre><code>## `geom_smooth()` using method = &#39;loess&#39; and formula = &#39;y ~ x&#39;</code></pre>
+<p><img src="https://estebanmoro.org/post/2022-02-14-wordle-is-getting-harder/index_files/figure-html/unnamed-chunk-8-1.png" width="672" />
 The vertical dashed line is when the NYT took over. We don’t see any statistically significant change (consider the error bars). If anything, we can see a little bit of change towards the end, but to more frequent words in English! So, if any, the game is getting simpler more recently. However, this small change is not statistically significant. A t-test between the average rank before and after the NYT takeover shows that (p-value = 0.27):</p>
 <pre class="r"><code>library(ggpubr)
 merge(past_answers,freq) %&gt;% 
@@ -267,7 +251,7 @@ merge(past_answers,freq) %&gt;%
             color=&quot;NYT owned&quot;,add=&quot;jitter&quot;,palette=&quot;jco&quot;) +
   stat_compare_means(method=&quot;t.test&quot;) + 
   labs(y=&quot;Rank (larger is harder)&quot;,x=&quot;&quot;)</code></pre>
-<p><img src="https://estebanmoro.org/post/2022-02-14-wordle-is-getting-harder/index_files/figure-html/unnamed-chunk-10-1.png" width="672" />
+<p><img src="https://estebanmoro.org/post/2022-02-14-wordle-is-getting-harder/index_files/figure-html/unnamed-chunk-9-1.png" width="672" />
 Again, nothing has changed in the dynamic and code of the game, so what the players might be reporting is just a statistical fluke. Or a personal impression.</p>
 </div>
 <div id="wordle-2027" class="section level1">
@@ -293,8 +277,8 @@ head(all_answers)</code></pre>
   geom_point() + geom_smooth() +
   geom_vline(xintercept = as.Date(&quot;2022-02-01&quot;),linetype=2)+
   labs(x=&quot;Date&quot;,title=&quot;Rank (higher is harder)&quot;,y=&quot;&quot;)</code></pre>
-<pre><code>## `geom_smooth()` using method = &#39;gam&#39; and formula &#39;y ~ s(x, bs = &quot;cs&quot;)&#39;</code></pre>
-<p><img src="https://estebanmoro.org/post/2022-02-14-wordle-is-getting-harder/index_files/figure-html/unnamed-chunk-14-1.png" width="672" /></p>
+<pre><code>## `geom_smooth()` using method = &#39;gam&#39; and formula = &#39;y ~ s(x, bs = &quot;cs&quot;)&#39;</code></pre>
+<p><img src="https://estebanmoro.org/post/2022-02-14-wordle-is-getting-harder/index_files/figure-html/unnamed-chunk-13-1.png" width="672" /></p>
 <p>As we can see, the rank of the words is more or less homogeneous. Although we can see a slight upwards tendency in the rank. Let’s see how the average rank changes by month and year.</p>
 <pre class="r"><code>require(lubridate)
 all_answers %&gt;% group_by(month=month(date),year=year(date)) %&gt;% 
@@ -302,7 +286,7 @@ all_answers %&gt;% group_by(month=month(date),year=year(date)) %&gt;%
   mutate(date = lubridate::my(paste(month,year,sep=&quot;-&quot;))) %&gt;%
   ggplot(aes(x=as.Date(date),y=mean_rank)) + geom_line() +
   labs(x=&quot;Date&quot;,title=&quot;Average rank by month&quot;,y=&quot;&quot;)</code></pre>
-<p><img src="https://estebanmoro.org/post/2022-02-14-wordle-is-getting-harder/index_files/figure-html/unnamed-chunk-15-1.png" width="672" />
+<p><img src="https://estebanmoro.org/post/2022-02-14-wordle-is-getting-harder/index_files/figure-html/unnamed-chunk-14-1.png" width="672" />
 The tendency is clear: the rank of the words will increase in the future, and the game will become more challenging because less frequent words will be chosen in the future. Actually, the beginning of 2022 looks promising since the average rank of the words chosen will be the lowest in the time series. However, it will be slightly harder than before around summer 2022.</p>
 <p>But why is it getting slightly harder? The reason is how Wardle chose the answers. When composing the list, maybe he decided first the most common words in English and later those less common words. This could explain the small change towards the end of the time series.</p>
 <p>Finally, we can test the statistical significance between 2022 and 2027.</p>
@@ -312,7 +296,7 @@ The tendency is clear: the rank of the words will increase in the future, and th
             color=&quot;year&quot;,add=&quot;jitter&quot;,palette=&quot;jco&quot;) +
   stat_compare_means(method=&quot;t.test&quot;) + 
   labs(y=&quot;Rank (larger is harder)&quot;,x=&quot;&quot;)</code></pre>
-<p><img src="https://estebanmoro.org/post/2022-02-14-wordle-is-getting-harder/index_files/figure-html/unnamed-chunk-16-1.png" width="672" />
+<p><img src="https://estebanmoro.org/post/2022-02-14-wordle-is-getting-harder/index_files/figure-html/unnamed-chunk-15-1.png" width="672" />
 The statistical difference is there (at 0.05 p-value). Statistically speaking, we can say that Wordle 2027 will be harder (on average) than 2022.</p>
 </div>
 <div id="defining-harder-again" class="section level1">
@@ -363,7 +347,7 @@ answer</code></pre>
   labs(x=&quot;Date&quot;,title=&quot;Average number of tries by month&quot;,y=&quot;&quot;)</code></pre>
 <pre><code>## `summarise()` has grouped output by &#39;month&#39;. You can override using the
 ## `.groups` argument.</code></pre>
-<p><img src="https://estebanmoro.org/post/2022-02-14-wordle-is-getting-harder/index_files/figure-html/unnamed-chunk-21-1.png" width="672" />
+<p><img src="https://estebanmoro.org/post/2022-02-14-wordle-is-getting-harder/index_files/figure-html/unnamed-chunk-20-1.png" width="672" />
 Again we can see that the strategy will perform worse in later years. Finally, this is the probability to win (less of equal to 6 tries)</p>
 <pre class="r"><code>try_orate %&gt;% group_by(month=month(date),year=year(date)) %&gt;% 
   summarize(prob_win=100*mean(ntries &lt; 7)) %&gt;%
@@ -372,7 +356,7 @@ Again we can see that the strategy will perform worse in later years. Finally, t
   labs(x=&quot;Date&quot;,title=&quot;Probability of winning (%)&quot;,y=&quot;&quot;)</code></pre>
 <pre><code>## `summarise()` has grouped output by &#39;month&#39;. You can override using the
 ## `.groups` argument.</code></pre>
-<p><img src="https://estebanmoro.org/post/2022-02-14-wordle-is-getting-harder/index_files/figure-html/unnamed-chunk-22-1.png" width="672" />
+<p><img src="https://estebanmoro.org/post/2022-02-14-wordle-is-getting-harder/index_files/figure-html/unnamed-chunk-21-1.png" width="672" />
 At the end of 2027, the probability of wining even goes below 85%.</p>
 </div>
 <div id="conclusion" class="section level1">
@@ -381,7 +365,7 @@ At the end of 2027, the probability of wining even goes below 85%.</p>
 <p>We still have time to practice those less common words. And most likely, the game will change before that. Perhaps since we now know the future, it will never become possible.</p>
 <p><img src="paradox.jpeg" /></p>
 </div>
-<div class="footnotes">
+<div class="footnotes footnotes-end-of-document">
 <hr />
 <ol>
 <li id="fn1"><p>The actual list of possible answers up to October 2027 is hard encoded in the Javascript of the game. Out of respect to the game’s developer and the community of players I don’t recommend or encourage anybody to hack the code to do it and will not show or distribute them. The results displayed on this page are just for the statistical analysis of the game’s evolution. Please, don’t cheat, enjoy the game as it was intended.<a href="#fnref1" class="footnote-back">↩︎</a></p></li>
@@ -403,29 +387,20 @@ At the end of 2027, the probability of wining even goes below 85%.</p>
 </article>
     
     
-    
-
-<div id="disqus_thread"></div>
-<script>
-
-
-
-
-var disqus_config = function () {
-this.page.url = "https:\/\/estebanmoro.org\/post\/2022-02-14-wordle-is-getting-harder\/";  
-this.page.identifier = "https:\/\/estebanmoro.org\/post\/2022-02-14-wordle-is-getting-harder\/"; 
-};
-
-(function() { 
-var d = document, s = d.createElement('script');
-s.src = 'https://implicitnone.disqus.com/embed.js';
-s.setAttribute('data-timestamp', +new Date());
-(d.head || d.body).appendChild(s);
-})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-
-
+    <div id="disqus_thread"></div>
+  <script>
+    var disqus_config = function () {
+      this.page.url = 'https:\/\/estebanmoro.org\/post\/2022-02-14-wordle-is-getting-harder\/';
+      this.page.identifier = 'post\/2022-02-14-wordle-is-getting-harder\/index.html';
+    };
+    (function() {
+      var d = document, s = d.createElement('script');
+      s.src = 'https://implicitnone.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', Date.now().toString());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the comments.</noscript>
   </div>
 </main>
 
@@ -435,9 +410,9 @@ s.setAttribute('data-timestamp', +new Date());
     <div class="read-next-feed">      
       
 <article class="read-next-card" 
-            style="background-image: url(https://estebanmoro.org/img/mob.mp4);" >
+            style="background-image: url(https://estebanmoro.org/img/banner.jpg);" >
     <header class="read-next-card-header">
-        <small class="read-next-card-header-sitetitle">&mdash; Implicit None &mdash;</small>
+        <small class="read-next-card-header-sitetitle">&mdash; Esteban Moro &mdash;</small>
         
         <h3 class="read-next-card-header-title"><a href="https://estebanmoro.org/tags/wordle/">#wordle</a></h3>
     </header>
@@ -447,13 +422,13 @@ s.setAttribute('data-timestamp', +new Date());
     <div class="read-next-card-content">
       
         <ul>
-          <li><a href="https://estebanmoro.org/post/2009-08-04-impact-of-human-activity-patterns-on-the-dynamics-of-information-diffusion/">Impact of Human Activity Patterns on the Dynamics of Information Diffusion</a></li>            
+          <li><a href="https://estebanmoro.org/post/2013-05-03-are-you-a-social-keeper-or-a-social-explorer/">Are you a social keeper or a social explorer?</a></li>            
         
-          <li><a href="https://estebanmoro.org/post/2013-01-14-time-as-a-limited-resource-communication-strategy-in-mobile-phone-networks/">Time as a limited resource: Communication Strategy in Mobile Phone Networks</a></li>            
+          <li><a href="https://estebanmoro.org/2017/03/network-science-for-kids/">Network Science for kids!</a></li>            
         
-          <li><a href="https://estebanmoro.org/post/2022-01-10-wordle/">Playing (and winning) Wordle with R</a></li>            
+          <li><a href="https://estebanmoro.org/2015/12/2015-year-in-review/">2015 year in review</a></li>            
         
-          <li><a href="https://estebanmoro.org/2006/10/the-marketing-of-breaking-laws-of-physics/">The marketing of breaking laws of physics</a></li>            
+          <li><a href="https://estebanmoro.org/2006/02/humans-are-superdiffusive/">Humans are superdiffusive</a></li>            
         </ul>
     </div>
     <footer class="read-next-card-footer">
@@ -483,8 +458,7 @@ s.setAttribute('data-timestamp', +new Date());
           </header>
           <section class="post-card-excerpt">
               
-                <p>Authors: Alberto Aleta, David Martín-Corral, Michiel A.Bakker, Ana Pastore y Piontti, Marco Ajelli, Maria Litvinova , Matteo Chinazzi, Natalie E. Dean, M. Elizabeth Halloran,Ira M. Longini,Jr, Alex Pentland, Alessandro Vespignani, Yamir Moreno, and Esteban Moro. Publication: PNAS (2022). Link
-Abstract: Detailed characterization of severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) transmission across different settings can help design less disruptive interventions. We used real-time, privacy-enhanced mobility data in the New York City, NY and Seattle, WA metropolitan areas to build a detailed agent-based model of SARS-CoV-2infection to estimate the where, when, and magnitude of transmission events during thepandemic’s first wave. ...  </p>
+                <p> Authors: Alberto Aleta, David Martín-Corral, Michiel A.Bakker, Ana Pastore y Piontti, Marco Ajelli, Maria Litvinova , Matteo Chinazzi, Natalie E. … ...  </p>
               
           </section>
       </a>
@@ -516,9 +490,9 @@ Abstract: Detailed characterization of severe acute respiratory syndrome coronav
           </header>
           <section class="post-card-excerpt">
               
-                <p>Authors: Alex Berke, Ronan Doorley, Kent Larson, Esteban Moro
+                <p> Authors: Alex Berke, Ronan Doorley, Kent Larson, Esteban Moro
 Publication: arXiv preprint arXiv:2201.01139 (2022). Link
-Abstract: Location data collected from mobile devices represent mobility behaviors at individual and societal levels. These data have important applications ranging from transportation planning to epidemic modeling. However, issues must be overcome to best serve these use cases: The data often represent a limited sample of the population and use of the data jeopardizes privacy. ...  </p>
+ ...  </p>
               
           </section>
       </a>

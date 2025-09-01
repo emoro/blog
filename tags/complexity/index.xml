@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Complexity on </title>
@@ -6,15 +5,21 @@
     <description>Recent content in Complexity on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Mon, 15 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://estebanmoro.org/tags/complexity/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 15 Jul 2024 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://estebanmoro.org/tags/complexity/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Estudiar ciudades como sistemas complejos</title>
       <link>https://estebanmoro.org/post/2024-07-15-estudiar-ciudades-como-sistemas-complejos-esteban-moro-en-entrevista-para-c3/</link>
       <pubDate>Mon, 15 Jul 2024 00:00:00 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2024-07-15-estudiar-ciudades-como-sistemas-complejos-esteban-moro-en-entrevista-para-c3/</guid>
-      <description>Video of my interview about the complexity of Urban Systems at the Centro de Ciencias de la Complejidad (C3) de la Universidad Nacional Autónoma de México.
- </description>
+      <description>&lt;p&gt;Video of my interview about the complexity of Urban Systems at the Centro de Ciencias de la Complejidad (C3) de la Universidad Nacional Autónoma de México.&lt;/p&gt;
+&lt;iframe src=&#34;https://www.youtube.com/embed/3kzDd0qRSZM?start=&#34;
+  style=&#34;position: absolute; top: 0; left: 0; width: 560; height: 315;&#34; allowfullscreen frameborder=&#34;0&#34; title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+</description>
     </item>
     
     <item>
@@ -23,9 +28,12 @@
       <pubDate>Fri, 19 Feb 2016 11:52:48 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2016-02-19-searching-for-someone/</guid>
-      <description>From the “Small World Experiment” to the “Red Balloon Challenge,” and beyond
-We live in a small world, right? But the cost and fragility of navigating it could harm any potential strategy to leverage the power of social networks. Read this fascinating story of the research, experiments, and failures in the quest for using social networks to search information/people:
-[Excerpt of the article] Our ability to search social networks for people and information is fundamental to our success.</description>
+      <description>&lt;p&gt;&lt;strong&gt;From the “Small World Experiment” to the “Red Balloon Challenge,” and beyond&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;We live in a small world, right? But the cost and fragility of navigating it could harm any potential strategy to leverage the power of social networks. Read this fascinating story of the research, experiments, and failures in the quest for using social networks to search information/people:&lt;/p&gt;
+&lt;p&gt;[Excerpt of the article] Our ability to search social networks for people and information is fundamental to our success. We use our personal connections to look for new job opportunities, to seek advice about what products to buy, to match with romantic partners, to find a good physician, to identify business partners, and so on.&lt;/p&gt;
+&lt;p&gt;Despite living in a world populated by seven billion people, we are able to navigate our contacts efficiently, only needing a handful of personal introductions before finding the answer to our question, or the person we are seeking. How does this come to be? In folk culture, the answer to this question is that we live in a “small world.” The catch-phrase was coined in 1929 by the visionary author &lt;a href=&#34;http://en.wikipedia.org/wiki/Frigyes_Karinthy&#34;&gt;Frigyes Karinthy&lt;/a&gt; in his &lt;a href=&#34;https://djjr-courses.wdfiles.com/local--files/soc180%3Akarinthy-chain-links/Karinthy-Chain-Links_1929.pdf&#34;&gt;Chain-Links essay&lt;/a&gt;, where these ideas are put forward for the first time.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://medium.com/mit-media-lab/searching-for-someone-688f6c12ff42#.b7aj7mdf0&#34;&gt;Keep reading at MIT Media Lab Medium&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -34,9 +42,10 @@ We live in a small world, right? But the cost and fragility of navigating it cou
       <pubDate>Mon, 12 Mar 2012 21:12:54 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2012-03-12-agent-specific-impact-of-single-trades-in-financial-markets/</guid>
-      <description>Authors: Alex Bladon, Esteban Moro y Tobias Galla
-Journal: Physical Review E 85, 036103 (2012) LINK | arXiv
-Abstract: We present an analysis of the price impact associated with single trades effected by different financial firms. Using data from the Spanish Stock Market, we find a high degree of heterogeneity across different market members, both in the instantaneous impact functions and in the time-dependent market response to trades by individual members.</description>
+      <description>&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Alex Bladon, Esteban Moro y Tobias Galla&lt;br&gt;
+&lt;em&gt;Journal&lt;/em&gt;: Physical Review E &lt;strong&gt;85&lt;/strong&gt;, 036103 (2012) &lt;strong&gt;&lt;a href=&#34;http://pre.aps.org/abstract/PRE/v85/i3/e036103&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt; | &lt;strong&gt;&lt;a href=&#34;https://arxiv.org/abs/1109.0119&#34;&gt;arXiv&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; We present an analysis of the price impact associated with single trades effected by different financial firms. Using data from the Spanish Stock Market, we find a high degree of heterogeneity across different market members, both in the instantaneous impact functions and in the time-dependent market response to trades by individual members. This heterogeneity is statistically incompatible with the existence of market-wide universal impact dynamics that apply uniformly to all trades and suggest that, rather, market dynamics emerge from the complex interaction of different behaviors of market participants. Several possible reasons for this are discussed, along with potential extensions one may consider to increase the range of applicability of existing models of market impact.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -45,10 +54,22 @@ Abstract: We present an analysis of the price impact associated with single trad
       <pubDate>Mon, 28 Mar 2011 14:51:50 +0000</pubDate>
       
       <guid>https://estebanmoro.org/2011/03/complex-dynamics-of-human-interactions-september-14th-2011/</guid>
-      <description>We (together with Kimmo Kaski, Aalto University) are organizing the ECCS&#39;11 Satellite conference &amp;ldquo;Complex Dynamics of Human Interactions&amp;rdquo; to be held at Vienna, September 14th.
-You can find more info at http://www.complexdynamics.org
-&amp;ldquo;It&amp;rsquo;s not enough to have a map of the structure. It is crucial to understand the dynamics of a process”, L. Barábasi
-Scope The nature of human interaction has undergone a substantial change in the past years and the change does not seem to be over.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;http://estebanmoro.org/wp-content/uploads/2011/03/cdhi11-150x150.jpg&#34; alt=&#34;cdhi11&#34;&gt;
+We (together with Kimmo Kaski, Aalto University) are organizing the &lt;a href=&#34;http://www.eccs2011.eu/&#34;&gt;ECCS&#39;11&lt;/a&gt; Satellite conference &lt;strong&gt;&amp;ldquo;Complex Dynamics of Human Interactions&amp;rdquo;&lt;/strong&gt; to be held at Vienna, September 14th.&lt;/p&gt;
+&lt;p&gt;You can find more info at &lt;a href=&#34;http://www.complexdynamics.org&#34;&gt;http://www.complexdynamics.org&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&amp;ldquo;It&amp;rsquo;s not enough to have a map of the structure. It is crucial to understand the dynamics of a process”&lt;/em&gt;, L. Barábasi&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Scope&lt;/strong&gt;
+The nature of human interaction has undergone a substantial change in the past years and the change does not seem to be over. Technologies like email, smart-phones, social networks like Facebook or broadcast technologies like Twitter transform the way people keep in touch and new trends of communication appear: individuals are continuously connected with each other, social activities are commonly shared by groups of people and people do not need to be geographically close to stay connected.&lt;/p&gt;
+&lt;p&gt;The high availability of digital data about human activity given by these communication channels and their high detail has provided unprecedented understanding of the nature of humans interactions, that affect the very definition of social relationships, hubs, communities and their role on society. Particular important is the role that human dynamics has in processes that happen concurrently with the dynamics of interaction, like information/disease epidemics in social networks, opinion dynamics, coordination, etc.&lt;/p&gt;
+&lt;p&gt;The aim of this meeting is to explore the dynamical structure of social and communication networks and the role of the human complex dynamics in realistic processes like information spreading, personal recommendation or &amp;ldquo;word-of-mouth&amp;rdquo;, etc.&lt;/p&gt;
+&lt;p&gt;Specific topics of interest are (but not only):&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  * High Frequency analysis of communication and social networks
+  * Causality and correlation in human communication patterns
+  * Reality Mining, Face-to-Face interactions
+  * Modeling dynamics of human interactions
+  * Applications to viral marketing, infection spreading, opinion dynamics.
+&lt;/code&gt;&lt;/pre&gt;
+</description>
     </item>
     
     <item>
@@ -57,7 +78,20 @@ Scope The nature of human interaction has undergone a substantial change in the 
       <pubDate>Mon, 11 Jan 2010 09:16:09 +0000</pubDate>
       
       <guid>https://estebanmoro.org/2010/01/relationship-mining/</guid>
-      <description>Each day trillions of emails, phone calls, comments on blogs, twitter messages, exchanges in online social networks, etc. are done. Not only the number of communications has increased, but also each of these transactions leaves a digital trace that can be recorded to reconstruct our high-frequency human activity. It is not only the amount and variety of data that is recorded what is important. Also its high-frequency character and its comprehensive nature have allowed researchers, companies and agencies to investigate individual and group dynamics at an unprecedented level of detail and applied them to client modeling, organizational analysis or epidemic spreading [1].</description>
+      <description>&lt;p&gt;Each day trillions of emails, phone calls, comments on blogs, twitter messages, exchanges in online social networks, etc. are done. Not only the number of communications has increased, but also each of these transactions leaves a digital trace that can be recorded to reconstruct our high-frequency human activity. It is not only the amount and variety of data that is recorded what is important. Also its high-frequency character and its comprehensive nature have allowed researchers, companies and agencies to investigate individual and group dynamics at an unprecedented level of detail and applied them to client modeling, organizational analysis or epidemic spreading [1].&lt;/p&gt;
+&lt;p&gt;However, for technical or privacy reasons only the existence but not of the content of those exchanges is known. Thus we can quantify the intensity and frequency of the interaction but not its type. For decades, social science has measured relationships between individuals in the currency of tie strength, introduced by Granovetter [1]. Weak ties (loose acquaintances) can help to disseminate ideas and/or innovations between different groups, help to find a job or new information; while strong ties (family, trusted friends) hold together organizations and social groups and can affect emotional health. Despite its success to explain these phenomena, tie strength of human relationships is vaguely defined in most large-scale social empirical work. Specifically, relationships are generally quantified by the intensity or duration of communication, although they are known to have significant drawbacks as tie strength predictor [3,4]. Multiplexity, rhythm and depth of the communication seem to be better predictors of tie strength than intensity [4]. Incorporating those metrics in the data mining of online communication might improve the definition of relationships between individuals and in turn transform our understanding of individual dynamics and its impact in our lives, organizations and society [5]. The challenge is to unveil social relationships in social media and not just mere interactions between individuals, which in general over-represent the real structure of a social group [6] (see figure). And this is of paramount importance to understand the propagation of ideas, opinions, commercial messages, etc. in social networks, since most links declared in social networks might be meaningless from a relationship point of view.&lt;/p&gt;
+&lt;p&gt;[caption id=&amp;ldquo;attachment_441&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; width=&amp;ldquo;500&amp;rdquo; caption=&amp;ldquo;Undressing the social network: considering all e-mail interactions in a academic social network (left) yields to a highly dense and connected social network, while strong interactions (based on the individual relative frequency of communication) render the social group sparser and disconnected&amp;rdquo;]&lt;img src=&#34;http://estebanmoro.org/wp-content/uploads/2010/01/undressing1.jpg&#34; alt=&#34;undressing1&#34;&gt;
+[/caption]&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;References&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  1. D. Lazer et al. _Computational Social Science_, Science **323**, 721 (2009)
+  2. M. S. Granovetter, _The Strength of Weak Ties_, The American Journal of Sociology **78(6)**, 1360 (1973)
+  3. P. V. Marsden, and K. E. Campbell _Measuring Tie Strength_ Social Forces **63(2)**, 482 (1990).
+  4. E. Gilbert and K. Karahalios, _Predicting Tie Strength with Social Media_, presented in CHI 2009.
+  5. C. T. Butts, _Revisting the Foundations of Network Analysis_, Science **325**, 414 (2009)
+  6. B. A. Huberman, D. M. Romero, and F. Wu, _Social networks that matter_, First Monday **14(1)** (2009).
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Note: This article appears in the Catalog of the exhibition &amp;ldquo;Culturas del Cambio: Átomos Sociales y Vidas Electrónicas&amp;rdquo; in the Center _&lt;a href=&#34;http://www.artssantamonica.cat/&#34;&gt;Arts Santa Mónica&lt;/a&gt;. _Thanks to  &lt;a href=&#34;http://www.ffn.ub.es/perello/&#34;&gt;Josep Perelló&lt;/a&gt; for his kind invitation to contribute&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -66,8 +100,11 @@ Scope The nature of human interaction has undergone a substantial change in the 
       <pubDate>Mon, 01 Dec 2008 07:40:05 +0000</pubDate>
       
       <guid>https://estebanmoro.org/2008/12/is-game-theory-a-scientific-theory/</guid>
-      <description>A wonderful quote about the nature of Game Theory
-Game theory is no doubt wonderful for telling stories. However, it flunks the main test of any scientific theory: The ability to make empirically testable predictions. In most real-life situations, many different outcomes -- from full cooperation to near-disastrous conflict -- are consistent with the game-theory version of rationality.  by Michael Mandel, on Kahneman and Smith 2002 Nobel Prize in Economics.</description>
+      <description>&lt;p&gt;A wonderful quote about the nature of Game Theory&lt;/p&gt;
+&lt;blockquote&gt;Game theory is no doubt wonderful for telling stories. However, it flunks the main test of any scientific theory: The ability to make empirically testable predictions. In most real-life situations, many different outcomes -- from full cooperation to near-disastrous conflict -- are consistent with the game-theory version of rationality. &lt;/blockquote&gt;
+&lt;p&gt;by Michael Mandel, on &lt;a href=&#34;http://www.businessweek.com/bwdaily/dnflash/oct2005/nf20051011_3028_db084.htm&#34;&gt;Kahneman and Smith 2002 Nobel Prize in Economics&lt;/a&gt;. &lt;/p&gt;
+&lt;p&gt;Interestingly enough, as of Dec. 1st 2008, google finds 3 million pages about &amp;ldquo;game theory&amp;rdquo;, half of them containing criticisms about it. Mostly about the abuse of the &amp;ldquo;rationality assumption&amp;rdquo; but also about the confusion about using it as a normative theory (i.e. a theory of how humans must behave) instead of descriptive picture (i.e. a mathematical way to explain how humans could behave). More on normative vs. descriptive analysis in the &lt;a href=&#34;http://en.wikipedia.org/wiki/Game_theory&#34;&gt;wikipedia&lt;/a&gt;.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -76,7 +113,9 @@ Game theory is no doubt wonderful for telling stories. However, it flunks the ma
       <pubDate>Wed, 26 Nov 2008 15:03:29 +0000</pubDate>
       
       <guid>https://estebanmoro.org/2008/11/individuals-and-groups/</guid>
-      <description>While the individual man is an insoluble puzzle, in the aggregate he becomes a mathematical certainty. You can, for example, never foretell what any one man will do, but you can say with precision what an average number will be up to. Individuals vary, but percentages remain constant. So says the statistician Sherlock Holmes in &amp;ldquo;The Sign of Four&amp;rdquo;. Via Gaussianos</description>
+      <description>&lt;blockquote&gt;While the individual man is an insoluble puzzle, in the aggregate he becomes a mathematical certainty. You can, for example, never foretell what any one man will do, but you can say with precision what an average number will be up to. Individuals vary, but percentages remain constant. So says the statistician&lt;/blockquote&gt;
+&lt;p&gt;Sherlock Holmes in &amp;ldquo;The Sign of Four&amp;rdquo;. Via &lt;a href=&#34;http://gaussianos.com/%C2%A1exacto/&#34;&gt;Gaussianos&lt;/a&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -85,9 +124,16 @@ Game theory is no doubt wonderful for telling stories. However, it flunks the ma
       <pubDate>Wed, 04 Jul 2007 20:19:35 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2007-07-04-specialization-of-strategies-and-herding-behavior-of-trading-firms-in-a-financial-market/</guid>
-      <description>Authors: Fabrizio Lillo, Esteban Moro, Gabriella Vaglica y Rosario Mantegna
-Journal: New Journal of Physics 10 (2008) 043019 LINK arXiv
-Abstract: Agent-based models of ﬁnancial markets usually make assumptions about agent&amp;rsquo;s preferred stylized strategies. Empirical validations of these assumptions have not been performed so far on a full-market scale. Here we present a comprehensive study of the resulting strategies followed by the ﬁrms which are members of the Spanish Stock Exchange.</description>
+      <description>&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Fabrizio Lillo, Esteban Moro, Gabriella Vaglica y Rosario Mantegna&lt;br&gt;
+&lt;em&gt;Journal&lt;/em&gt;: New Journal of Physics &lt;strong&gt;10&lt;/strong&gt; (2008) 043019 &lt;strong&gt;&lt;a href=&#34;http://iopscience.iop.org/article/10.1088/1367-2630/10/4/043019/meta&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt;
+&lt;strong&gt;&lt;a href=&#34;https://arxiv.org/abs/0707.0385&#34;&gt;arXiv&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt;
+Agent-based models of ﬁnancial markets usually make assumptions  about agent&amp;rsquo;s preferred stylized strategies. Empirical validations of these assumptions have not been performed so far on a full-market scale. Here we present a comprehensive study of the resulting strategies followed by the ﬁrms which are members of the Spanish Stock Exchange. We are able to show that they can be characterized by a resulting strategy and classiﬁed in three well-deﬁned groups of ﬁrms. Firms of the ﬁrst group have a change of inventory of the traded stock which is positively correlated with the synchronous stock return, whereas ﬁrms of the second group show a negative correlation.Firms of the third group have an inventory variation uncorrelated with stock return. Firms tend to stay in the same group over the years indicating a long term specialization in the strategies controlling their inventory variation. We detect a clear asymmetry in the Granger causality between inventory variation of ﬁrms and stock return. We also detect herding in the buying and selling activity of ﬁrms. The herding properties of the two groups are markedly different and consistently observed over a four-year period of trading. Firms of the second group herd much more frequently than the ones of the ﬁrst group. Our results can be used as an empirical basis for agent-based models of ﬁnancial markets.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Press&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.madrimasd.org/informacionidi/noticias/noticia.asp?id=34530&amp;amp;tipo=g&#34;&gt;**Press Release (in spanish) **&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -96,9 +142,13 @@ Abstract: Agent-based models of ﬁnancial markets usually make assumptions abo
       <pubDate>Fri, 20 Apr 2007 09:54:57 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2007-04-20-scaling-laws-of-strategic-behavior-and-size-heterogeneity-in-agent-dynamics/</guid>
-      <description>Authors: Gabriella Vaglica, Fabrizio Lillo, Esteban Moro y Rosario N. Mantegna
-Journal: Physical Review E 77, 036110 (2008). LINK | arXiv
-Abstract: The dynamics of many socioeconomic systems is determined by the decision making process of agents. The decision process depends on agent&amp;rsquo;s characteristics, such as preferences, risk aversion, behavioral biases, etc. In addition, in some systems the size of agents can be highly heterogeneous leading to very different impacts of agents on the system dynamics.</description>
+      <description>&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Gabriella Vaglica, Fabrizio Lillo, Esteban Moro y Rosario N. Mantegna&lt;br&gt;
+&lt;em&gt;Journal&lt;/em&gt;: Physical Review E &lt;strong&gt;77&lt;/strong&gt;, 036110 (2008).
+&lt;strong&gt;&lt;a href=&#34;http://link.aps.org/doi/10.1103/PhysRevE.77.036110&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt; |
+&lt;strong&gt;&lt;a href=&#34;https://arxiv.org/abs/0704.2003&#34;&gt;arXiv&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt;
+The dynamics of many socioeconomic systems is determined by the decision making process of agents. The decision process depends on agent&amp;rsquo;s characteristics, such as preferences, risk aversion, behavioral biases, etc. In addition, in some systems the size of agents can be highly heterogeneous leading to very different impacts of agents on the system dynamics. The large size of some agents poses challenging problems to agents who want to control their impact, either by forcing the system in a given direction or by hiding their intentionality. Here we consider the financial market as a model system, and we study empirically how agents strategically adjust the properties of large orders in order to meet their preference and minimize their impact. We quantify this strategic behavior by detecting scaling relations of allometric nature between the variables characterizing the trading activity of different institutions. We observe power law distributions in the investment time horizon, in the number of transactions needed to execute a large order and in the traded value exchanged by large institutions and we show that heterogeneity of agents is a key ingredient for the emergence of some aggregate properties characterizing this complex system.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

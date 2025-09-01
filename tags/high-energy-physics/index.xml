@@ -1,20 +1,31 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>high energy physics on </title>
+    <title>High Energy Physics on </title>
     <link>https://estebanmoro.org/tags/high-energy-physics/</link>
-    <description>Recent content in high energy physics on </description>
+    <description>Recent content in High Energy Physics on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Wed, 04 Oct 2006 07:24:25 +0000</lastBuildDate><atom:link href="https://estebanmoro.org/tags/high-energy-physics/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 04 Oct 2006 07:24:25 +0000</lastBuildDate>
+    
+        <atom:link href="https://estebanmoro.org/tags/high-energy-physics/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>The theory of nothing</title>
       <link>https://estebanmoro.org/2006/10/the-theory-of-nothing/</link>
       <pubDate>Wed, 04 Oct 2006 07:24:25 +0000</pubDate>
       
       <guid>https://estebanmoro.org/2006/10/the-theory-of-nothing/</guid>
-      <description>Two New York newspapers (The New York Times and the New Yorker) are running stories about whether string theory is a theory of anything or not. Specifically, both articles are reviews of a couple of very critic books on string theory:  *  NOT EVEN WRONG : The Failure of String Theory and the Search for Unity in Physical Law. By Peter Woit.
- *  THE TROUBLE WITH PHYSICS The Rise of String Theory, the Fall of a Science, and What Comes Next.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;http://stratonovich.uc3m.es/images/stories/notevenwrong.jpg&#34; alt=&#34;Image&#34;&gt;
+Two New York newspapers (&lt;a href=&#34;http://www.nytimes.com/2006/09/17/books/review/Siegfried.t.html&#34;&gt;The New York Times&lt;/a&gt; and the &lt;a href=&#34;http://www.newyorker.com/critics/atlarge/articles/061002crat_atlarge&#34;&gt;New Yorker&lt;/a&gt;) are running stories about whether string theory is a theory of anything or not. Specifically, both articles are reviews of a couple of very critic books on string theory:  &lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  * 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.math.columbia.edu/~woit/wordpress/&#34;&gt;NOT EVEN WRONG : The Failure of String Theory and the Search for Unity in Physical Law&lt;/a&gt;. By Peter Woit.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  * 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.thetroublewithphysics.com/&#34;&gt;THE TROUBLE WITH PHYSICS The Rise of String Theory, the Fall of a Science, and What Comes Next&lt;/a&gt;. By Lee Smolin.&lt;/p&gt;
+&lt;p&gt;Their criticisms are very interesting and pertain to any scientific discipline: if after 20 years of making calculations, there is not a clear-cut definition of the theory, different theories yield to the same results and there is not a single prediction made by string theory to be tested, is string theory really a theory? Are zillions of PhDs in string theory worth the effort? Or it is just &amp;ldquo;new version of medieval theology&amp;rdquo; as Sheldon Glashow put it? While the NYT article is very critic with both books above, the &lt;a href=&#34;http://www.newyorker.com/critics/atlarge/articles/061002crat_atlarge&#34;&gt;New Yorker article&lt;/a&gt; rises some points which I find intriguing in this discussion: is the search for beauty in the mathematical description of the universe enough reason for this exuberance of dimensions? And if so, how comes that thousands of different versions of the theory yield to the same result? The books are also very critic with the cultlike scientific community and atmosphere surrounding string theory. This is exemplified by the following anecdote: &amp;ldquo;The most hilarious recent symptom of string theory’s lack of rigor is the so-called Bogdanov Affair, in which French twin brothers, Igor and Grichka Bogdanov, managed to publish egregiously nonsensical articles on string theory in five peer-reviewed physics journals. Was it a reverse Sokal hoax? (In 1996, the physicist Alan Sokal fooled the editors of the postmodern journal Social Text into publishing an artful bit of drivel on the “hermeneutics of quantum gravity.”) The Bogdanov brothers have indignantly denied it, but even the Harvard string-theory group was said to be unsure, alternating between laughter at the obviousness of the fraud and hesitant concession that the authors might have been sincere.&amp;rdquo;&lt;/p&gt;
+</description>
     </item>
     
   </channel>

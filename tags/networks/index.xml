@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Networks on </title>
@@ -6,15 +5,25 @@
     <description>Recent content in Networks on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Tue, 16 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://estebanmoro.org/tags/networks/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 16 Jan 2024 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://estebanmoro.org/tags/networks/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Network constraints on worker mobility</title>
       <link>https://estebanmoro.org/post/2024-01-16-network-constraints-on-worker-mobility/</link>
       <pubDate>Tue, 16 Jan 2024 00:00:00 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2024-01-16-network-constraints-on-worker-mobility/</guid>
-      <description>Authors: Morgan R. Frank, Esteban Moro, Tobin South, Alex Rutherford, Alex Pentland, Bledi Taska &amp;amp; Iyad Rahwan Publication: Nature Cities, 1, pages 94–104 (2024) LINK
-Abstract: How do skills shape career mobility and access to cities’ labor markets? Here we model career pathways as an occupation network constructed from the similarity of occupations’ skill requirements within each US city. Using a nationally representative survey and three resume datasets, skill similarity predicts transition rates between occupations and predictions improve with increasingly granular skill data.</description>
+      <description>
+
+
+&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Morgan R. Frank, Esteban Moro, Tobin South, Alex Rutherford, Alex Pentland, Bledi Taska &amp;amp; Iyad Rahwan &lt;br&gt;
+&lt;em&gt;Publication&lt;/em&gt;: Nature Cities, 1, pages 94–104 (2024) &lt;br&gt; &lt;strong&gt;&lt;a href=&#34;https://www.nature.com/articles/s44284-023-00009-1&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; How do skills shape career mobility and access to cities’ labor markets? Here we model career pathways as an occupation network constructed from the similarity of occupations’ skill requirements within each US city. Using a nationally representative survey and three resume datasets, skill similarity predicts transition rates between occupations and predictions improve with increasingly granular skill data. Thus, a measure for skill specialization based on a workers’ position in their city’s occupation network may predict future career dynamics. Job changes that decrease workers’ network embeddedness also increased wages, and workers tend to decrease their embeddedness over their careers. Further, city pairs with dissimilar job embeddedness have greater census migration and increased flows of enplaned passengers according to the US Bureau of Transportation Statistics. This study directly connects workplace skills to workers’ career mobility and spatial mobility, thus offering insights into skill specialization, career mobility and urbanization.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Media&lt;/strong&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -23,9 +32,11 @@ Abstract: How do skills shape career mobility and access to cities’ labor mark
       <pubDate>Fri, 14 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2018-12-14-how-to-organize-your-deep-reinforcement-learning-agents-the-importance-of-communication-topology/</guid>
-      <description>Authors: Dhaval Adjodah, Dan Calacci, Abhimanyu Dubey, Peter Krafft, Esteban Moro, Alex `Sandy&#39; Pentland
-Journal: Preprint (2018). arXiv
-Abstract: In this empirical paper, we investigate how learning agents can be arranged in more efficient communication topologies for improved learning. This is an important problem because a common technique to improve speed and robustness of learning in deep reinforcement learning and many other machine learning algorithms is to run multiple learning agents in parallel.</description>
+      <description>&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Dhaval Adjodah, Dan Calacci, Abhimanyu Dubey, Peter Krafft, Esteban Moro, Alex `Sandy&amp;rsquo; Pentland&lt;br&gt;
+&lt;em&gt;Journal&lt;/em&gt;: Preprint (2018). &lt;strong&gt;&lt;a href=&#34;https://arxiv.org/abs/1811.12556&#34;&gt;arXiv&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; In this empirical paper, we investigate how learning agents can be arranged in more efficient communication topologies for improved learning. This is an important problem because a common technique to improve speed and robustness of learning in deep reinforcement learning and many other machine learning algorithms is to run multiple learning agents in parallel. The standard communication architecture typically involves all agents intermittently communicating with each other (fully connected topology) or with a centralized server (star topology). Unfortunately, optimizing the topology of communication over the space of all possible graphs is a hard problem, so we borrow results from the networked optimization and collective intelligence literatures which suggest that certain families of network topologies can lead to strong improvements over fully-connected networks. We start by introducing alternative network topologies to DRL benchmark tasks under the Evolution Strategies paradigm which we call Network Evolution Strategies. We explore the relative performance of the four main graph families and observe that one such family (Erdos-Renyi random graphs) empirically outperforms all other families, including the de facto fully-connected communication topologies. Additionally, the use of alternative network topologies has a multiplicative performance effect: we observe that when 1000 learning agents are arranged in a carefully designed communication topology, they can compete with 3000 agents arranged in the de facto fully-connected topology. Overall, our work suggests that distributed machine learning algorithms would learn more efficiently if the communication topology between learning agents was optimized.&lt;/p&gt;
+&lt;div data-badge-popover=&#34;right&#34; data-badge-type=&#34;donut&#34; data-arxiv-id=&#34;1811.12556&#34; data-hide-less-than=&#34;0&#34; class=&#34;altmetric-embed&#34;&gt;&lt;/div&gt;
+</description>
     </item>
     
   </channel>

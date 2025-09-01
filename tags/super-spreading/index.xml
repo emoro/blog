@@ -1,21 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>super-spreading on </title>
+    <title>Super-Spreading on </title>
     <link>https://estebanmoro.org/tags/super-spreading/</link>
-    <description>Recent content in super-spreading on </description>
+    <description>Recent content in Super-Spreading on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Fri, 18 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://estebanmoro.org/tags/super-spreading/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 18 Dec 2020 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://estebanmoro.org/tags/super-spreading/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Quantifying the importance and location of SARS-CoV-2 transmission events in large metropolitan areas</title>
       <link>https://estebanmoro.org/post/2020-12-09-effect-of-covid-19-response-policies-on-walking-behavior-in-us-cities/</link>
       <pubDate>Fri, 18 Dec 2020 00:00:00 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2020-12-09-effect-of-covid-19-response-policies-on-walking-behavior-in-us-cities/</guid>
-      <description>Authors: Alberto Aleta, David Martin-Corral, Michiel Bakker, Ana Pastore y Piontti, Marco Ajelli, Maria Litvinova, Matteo Chinazzi, Natalie E Dean,M. Elizabeth Halloran, Ira M Longini, Alex Pentland, Alessandro Vespignani, Yamir Moreno, Esteban Moro
-Publication: medRxiv (2020). Link
-Abstract: Detailed characterizations of SARS-CoV-2 transmission risk across different social settings can inform the design of targeted and less disruptive non-pharmaceutical interventions (NPI), yet these data have been lacking. Here we integrate real-time, anonymous and privacy-enhanced geolocalized mobility data with census and demographic data in the New York City and Seattle metropolitan areas to build a detailed agent-based model of SARS-CoV-2 transmission.</description>
+      <description>&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Alberto Aleta, David Martin-Corral, Michiel Bakker, Ana Pastore y Piontti, Marco Ajelli,  Maria Litvinova, Matteo Chinazzi, Natalie E Dean,M. Elizabeth Halloran, Ira M Longini, Alex Pentland, Alessandro Vespignani, Yamir Moreno, Esteban Moro&lt;br&gt;
+&lt;em&gt;Publication&lt;/em&gt;: medRxiv (2020). &lt;strong&gt;&lt;a href=&#34;https://www.medrxiv.org/content/10.1101/2020.12.15.20248273v1&#34;&gt;Link&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Detailed characterizations of SARS-CoV-2 transmission risk across different social settings can inform the design of targeted and less disruptive non-pharmaceutical interventions (NPI), yet these data have been lacking. Here we integrate real-time, anonymous and privacy-enhanced geolocalized mobility data with census and demographic data in the New York City and Seattle metropolitan areas to build a detailed agent-based model of SARS-CoV-2 transmission. The aim is to estimate where, when, and how many transmission events happened in those urban areas during the first wave of the pandemic. We estimate that most infections (80%) are produced by a small number of people (27%), and that about 10% of events can be considered super-spreading events (SSEs), i.e. generating more than eight secondary infections. Although mass gatherings present an important risk for future SSEs, we find that the bulk of transmission in the first wave occurred in smaller events at settings like workplaces, grocery stores, or food venues. We also observe that places where the majority of transmission and SSEs happened changed during the pandemic and are different across cities, a signal of the large underlying behavioral component underneath them. Our results demonstrate that constant real-time tracking of transmission events is needed to create, evaluate, and refine more effective and localized measures to contain the pandemic.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

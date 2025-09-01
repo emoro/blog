@@ -1,20 +1,37 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>walking on </title>
+    <title>Walking on </title>
     <link>https://estebanmoro.org/tags/walking/</link>
-    <description>Recent content in walking on </description>
+    <description>Recent content in Walking on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Wed, 16 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://estebanmoro.org/tags/walking/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 16 Jun 2021 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://estebanmoro.org/tags/walking/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Effect of COVID-19 response policies on walking behavior in US cities</title>
       <link>https://estebanmoro.org/post/2021-06-16-effect-of-covid-19-response-policies-on-walking-behavior-in-us-cities/</link>
       <pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2021-06-16-effect-of-covid-19-response-policies-on-walking-behavior-in-us-cities/</guid>
-      <description>Authors: Ruth F. Hunter, Leandro Garcia, Thiago Herick de Sa, Belen Zapata-Diomedi, Christopher Millett, James Woodcock, Alex ’Sandy’ Pentland, and Esteban Moro Publication: Nature Communications (2021). Link
-Abstract: The COVID-19 pandemic is causing mass disruption to our daily lives. We integrate mobility data from mobile devices and area-level data to study the walking patterns of 1.62 million anonymous users in 10 metropolitan areas in the United States. The data covers the period from mid-February 2020 (pre-lockdown) to late June 2020 (easing of lockdown restrictions).</description>
+      <description>&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Ruth F. Hunter, Leandro Garcia, Thiago Herick de Sa, Belen Zapata-Diomedi, Christopher Millett, James Woodcock, Alex ’Sandy’ Pentland, and Esteban Moro
+&lt;em&gt;Publication&lt;/em&gt;: Nature Communications (2021). &lt;strong&gt;&lt;a href=&#34;https://www.nature.com/articles/s41467-021-23937-9&#34;&gt;Link&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; The COVID-19 pandemic is causing mass disruption to our daily lives. We integrate mobility data from mobile devices and area-level data to study the walking patterns of 1.62 million anonymous users in 10 metropolitan areas in the United States. The data covers the period from mid-February 2020 (pre-lockdown) to late June 2020 (easing of lockdown restrictions). We detect when users were walking, distance walked and time of the walk, and classify each walk as recreational or utilitarian. Our results reveal dramatic declines in walking, particularly utilitarian walking, while recreational walking has recovered and even surpassed pre-pandemic levels. Our findings also demonstrate important social patterns, widening existing inequalities in walking behavior. COVID-19 response measures have a larger impact on walking behavior for those from low-income areas and high use of public transportation. Provision of equal opportunities to support walking is key to opening up our society and economy.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Media:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Lockdowns reveal inequities in opportunities for walking activities, MIT News &lt;a href=&#34;https://news.mit.edu/2021/lockdowns-reveal-inequities-opportunities-walking-activities-0719&#34;&gt;link&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;COVID-related lockdowns reveal inequities in opportunities for walking, Center for Public Health, Queen&amp;rsquo;s University Belfast. &lt;a href=&#34;https://www.qub.ac.uk/research-centres/CentreforPublicHealth/News/COVID-relatedlockdownsrevealinequitiesinopportunitiesforwalking.html&#34;&gt;link&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Study: More people walked during the pandemic, but how much depended on their income level, Boston.com &lt;a href=&#34;https://www.boston.com/news/coronavirus/2021/09/22/walking-pandemic-study-mit/&#34;&gt;link&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
   </channel>

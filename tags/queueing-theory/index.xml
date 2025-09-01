@@ -1,19 +1,40 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Queueing theory on </title>
+    <title>Queueing Theory on </title>
     <link>https://estebanmoro.org/tags/queueing-theory/</link>
-    <description>Recent content in Queueing theory on </description>
+    <description>Recent content in Queueing Theory on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Wed, 28 Jan 2009 10:54:22 +0000</lastBuildDate><atom:link href="https://estebanmoro.org/tags/queueing-theory/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 28 Jan 2009 10:54:22 +0000</lastBuildDate>
+    
+        <atom:link href="https://estebanmoro.org/tags/queueing-theory/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Waiting for the bus</title>
       <link>https://estebanmoro.org/post/2009-01-28-waiting-for-the-bus/</link>
       <pubDate>Wed, 28 Jan 2009 10:54:22 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2009-01-28-waiting-for-the-bus/</guid>
-      <description>Although the public transportation system in Madrid is very good, I don&amp;rsquo;t usually take the bus or the train to move around. But sometimes my car decides I should take public transportation (bus or train). One of things I always found intriguing is that I always wait way more for the bus than what is expected according to the frequency quoted by the transportation companies at the bus or train stop.</description>
+      <description>&lt;p&gt;Although the public transportation system in Madrid is very good, I don&amp;rsquo;t usually take the bus or the train to move around. But sometimes my car decides I should take public transportation (bus or train). One of things I always found intriguing is that I always wait way more for the bus than what is expected according to the frequency quoted by the transportation companies at the bus or train stop. For example: if the frequency of the buses is 4 per hour, you should expect a bus each 15 minutes on average, although fluctuations around this value may occur due to traffic conditions. Thus, arriving at the bus stop at random will get you an average of 15/2 = 7.5 minutes of wait. I have the impression I always wait 15 minutes instead. How can this be? Is it that I am so unlucky I always arrive at the bus stop when the previous bus has just left?&lt;/p&gt;
+&lt;p&gt;The answer to this question is the famous &lt;a href=&#34;http://mahalanobis.twoday.net/stories/3486587/&#34;&gt;waiting time paradox&lt;/a&gt; in &lt;a href=&#34;http://en.wikipedia.org/wiki/Queueing_theory&#34;&gt;queueing theory&lt;/a&gt;: in short, let&amp;rsquo;s assume that the times between two buses are given by the variable &lt;code&gt;\(T\)&lt;/code&gt;. In the ideal world, &lt;code&gt;\(T\)&lt;/code&gt; will be a deterministic variable. In the example above, &lt;code&gt;\(T = 15\)&lt;/code&gt; minutes. However, due to traffic conditions and other variables, &lt;code&gt;\(T\)&lt;/code&gt; is distributed around 15 minutes. For example, the following graphic shows the &amp;ldquo;lateness&amp;quot;of non-frequent buses in Great Britain, extracted from the &lt;a href=&#34;http://www.dft.gov.uk/pgr/statistics/datatablespublications/public/buspunctuality/buspunctuality07&#34;&gt;Bus Punctuality Statistics GB 2007 report&lt;/a&gt; &lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/img/posts/lateness1.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;As we can see, although most of the buses were late only less than a couple of minutes, but there is an significant fraction of them that were late more than 5 minutes. And even some of them came earlier than expected! Assuming that our buses come at times &lt;code&gt;\(T\)&lt;/code&gt;drawn from the above distribution, let&amp;rsquo;s see how a day will look like from the bus stop:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/img/posts/diabus.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Buses arrived at the bus stop (vertical lines) with time between them given by &lt;code&gt;\(T_i\)&lt;/code&gt;. After my car breaks down, I arrive at the bus stop at the time given by the vertical arrow. Thus I have to wait a time &lt;code&gt;\(\tau\)&lt;/code&gt;. The question is: what is the average value of &lt;code&gt;\(\tau\)&lt;/code&gt;? Given that my car breaks at random, I can assume that my arrival time is completely at random, uncorrelated with bus time tables. However, if the time I get to the bus stop is random, I have more probability to get to the bus stop in an interval in which the time between buses &lt;code&gt;\(T\)&lt;/code&gt; is bigger. Specifically, the probability that I arrive at an interval with time between buses &lt;code&gt;\(T\)&lt;/code&gt; is &lt;/p&gt;
+&lt;p&gt;&lt;code&gt;$$\frac{T P(T)}{\overline{T}}$$&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;where &lt;code&gt;\(\overline{T}\)&lt;/code&gt; is the average value of time between buses. Given the interval &lt;code&gt;\(T\)&lt;/code&gt;, the waiting time &lt;code&gt;\(\tau\)&lt;/code&gt; is equally distributed (since my arrival is random), and thus we have to multiply the above probability by &lt;code&gt;\(1/T\)&lt;/code&gt;. Finally, we average over all possible &lt;code&gt;\(\tau \leq T\)&lt;/code&gt;, giving
+&lt;code&gt;$$Q(\tau) = \int_\tau^\infty \frac{TP(T)}{\overline T} \frac{1}{T}dT = \frac{1}{\overline T}\int_\tau^\infty P(T) dT$$&lt;/code&gt;
+which give us the distribution of waiting times. The average value of &lt;code&gt;\(\tau\)&lt;/code&gt;is the given by
+$$\overline \tau = \int_0^\infty \tau Q(\tau) d\tau = \frac{\overline{T^2}}{2\overline T^2} = \frac{\overline T}{2}\left(1 + \frac{\sigma_T^2}{\overline{T}^2}\right) $$
+where &lt;code&gt;\(\sigma_T^2\)&lt;/code&gt; is the variance of the times between buses. This equation is the main result. It says:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;If buses come at perfect and regular time intervals, then &lt;code&gt;\(\sigma_T = 0\)&lt;/code&gt; and the waiting time is what we expect: &lt;code&gt;\(\overline{\tau} = \overline{T}/2\)&lt;/code&gt;. That is if we expect a bus each 15 minutes, I will wait (in average) 7.5 minutes.&lt;/li&gt;
+&lt;li&gt;However, in real world, buses do not arrive at perfect times and then &lt;code&gt;\(\sigma_T &amp;gt; 0\)&lt;/code&gt;. Thus, waiting time is always greater than &lt;code&gt;\(\overline{T}/2\)&lt;/code&gt;. In fact, the distribution of lateness above shows that there is a large fraction of buses with long delays and then &lt;code&gt;\(\sigma_T\)&lt;/code&gt; could be very big, controlling the waiting time.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In fact, the GB Bus Punctuality Report shows that in average, waiting time exceeds 40% the expected time &lt;code&gt;\(\overline{T}/2\)&lt;/code&gt;. That is: due to the variance in times between buses, you (and me) end up waiting a time greater than the average time between buses. And that is my feeling: if trains/buses come each 15 minutes, I end up waiting 15 minutes, not 7.5.&lt;/p&gt;
+&lt;p&gt;In a ideal world, bus timetables would quote both the frequency of the buses &lt;code&gt;\(\overline{T}\)&lt;/code&gt; and their variance &lt;code&gt;\(\sigma_T\)&lt;/code&gt;, so we can estimate the waiting time. Unfortunately, they just tell us part of the story&amp;hellip;&lt;/p&gt;
+</description>
     </item>
     
   </channel>

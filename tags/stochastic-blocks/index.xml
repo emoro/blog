@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Stochastic Blocks on </title>
@@ -6,16 +5,21 @@
     <description>Recent content in Stochastic Blocks on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Wed, 12 Sep 2012 12:19:43 +0000</lastBuildDate><atom:link href="https://estebanmoro.org/tags/stochastic-blocks/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 12 Sep 2012 12:19:43 +0000</lastBuildDate>
+    
+        <atom:link href="https://estebanmoro.org/tags/stochastic-blocks/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Predicting Human Preferences Using the Block Structure of Complex Social Networks</title>
       <link>https://estebanmoro.org/post/2012-09-12-predicting-human-preferences-using-the-block-structure-of-complex-social-networks/</link>
       <pubDate>Wed, 12 Sep 2012 12:19:43 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2012-09-12-predicting-human-preferences-using-the-block-structure-of-complex-social-networks/</guid>
-      <description>Authors: Roger Guimerà, Alejandro Llorente, Esteban Moro y Marta Sales-Pardo
-Journal: PLoS ONE 7, e44620 (2012) LINK
-Abstract: With ever-increasing available data, predicting individuals&#39; preferences and helping them locate the most relevant information has become a pressing need. Understanding and predicting preferences is also important from a fundamental point of view, as part of what has been called a “new” computational social science. Here, we propose a novel approach based on stochastic block models, which have been developed by sociologists as plausible models of complex networks of social interactions.</description>
+      <description>&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Roger Guimerà, Alejandro Llorente, Esteban Moro y Marta Sales-Pardo&lt;br&gt;
+&lt;em&gt;Journal&lt;/em&gt;: PLoS ONE &lt;strong&gt;7&lt;/strong&gt;, e44620 (2012) &lt;strong&gt;&lt;a href=&#34;http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0044620&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; With ever-increasing available data, predicting individuals&amp;rsquo; preferences and helping them locate the most relevant information has become a pressing need. Understanding and predicting preferences is also important from a fundamental point of view, as part of what has been called a “new” computational social science. Here, we propose a novel approach based on stochastic block models, which have been developed by sociologists as plausible models of complex networks of social interactions. Our model is in the spirit of predicting individuals&amp;rsquo; preferences based on the preferences of others but, rather than fitting a particular model, we rely on a Bayesian approach that samples over the ensemble of all possible models. We show that our approach is considerably more accurate than leading recommender algorithms, with major relative improvements between 38% and 99% over industry-level algorithms. Besides, our approach sheds light on decision-making processes by identifying groups of individuals that have consistently similar preferences, and enabling the analysis of the characteristics of those groups.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

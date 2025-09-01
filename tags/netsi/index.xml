@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>NetSI on </title>
@@ -6,15 +5,47 @@
     <description>Recent content in NetSI on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Fri, 20 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://estebanmoro.org/tags/netsi/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 20 Oct 2023 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://estebanmoro.org/tags/netsi/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Phd Positions at SUN, NetSI, Northeastern University</title>
       <link>https://estebanmoro.org/post/2023-10-20-phd-positions-at-sun-netsi-northeastern-university/</link>
       <pubDate>Fri, 20 Oct 2023 00:00:00 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2023-10-20-phd-positions-at-sun-netsi-northeastern-university/</guid>
-      <description>PhD Positions to work with my team at the Network Science Institute, Northeastern University
-The Social Urban Networks (SUN) group, led by Dr. Esteban Moro, focuses on developing computational social science tools to address urban challenges, from climate change and inequality to health and economic development. By using large datasets of human behavior, tools and ideas from physics, applied mathematics, complex systems or network science, and collaborations with industry, government, and local communities, we seek not only to advance the understanding of the temporal dynamics of social systems to unprecedented levels but also to transform our findings into tools and policies to help achieve resilient and equitable adaptation of our societies.</description>
+      <description>&lt;p&gt;&lt;strong&gt;PhD Positions to work with my team at the Network Science Institute, Northeastern University&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&#34;https://socialurban.net&#34;&gt;Social Urban Networks (SUN) group&lt;/a&gt;, led by Dr. Esteban Moro, focuses on developing computational social science tools to address urban challenges, from climate change and inequality to health and economic development. By using large datasets of human behavior, tools and ideas from physics, applied mathematics, complex systems or network science, and collaborations with industry, government, and local communities, we seek not only to advance the understanding of the temporal dynamics of social systems to unprecedented levels but also to transform our findings into tools and policies to help achieve resilient and equitable
+adaptation of our societies. Check more of our work at &lt;a href=&#34;http://socialurban.net&#34;&gt;http://socialurban.net&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;We are recruiting students to join my SUN group as graduate researchers in Fall 2024. We are seeking highly motivated students to explore the following subjects:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://estebanmoro.org/post/2019-02-02-behavioral-fundations-of-inequality/&#34;&gt;Fighting inequality in urban areas&lt;/a&gt;: mapping the inequality in the social fabric of cities at an unprecedented scale using high-resolution mobility and activity data.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://estebanmoro.org/post/2022-10-25-creating-resilient-urban-labor-economies/&#34;&gt;Creating resilient labor and urban economies&lt;/a&gt;: detecting economic resilience encoded in the dependency networks of agents, business, cities, or jobs.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://estebanmoro.org/post/2022-10-25-behavioral-network-determinants-of-health-outcomes/&#34;&gt;Understanding behavioral-network determinants of health outcomes in our cities&lt;/a&gt;, by modeling physical exposure between people and healthy environments.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Our work heavily depends on data-driven, evidence-based modeling and collaboration with practitioners. We seek students with experience in network science, physics, big data, behavior modeling, urban science, complex systems, machine learning, visualization, or geospatial analysis. Programming (Python, R), statistics,
+and data science skills are essential.&lt;/p&gt;
+&lt;p&gt;If you are interested, send the following documents to &lt;a href=&#34;mailto:e.moroegido@northeastern.edu&#34;&gt;e.moroegido@northeastern.edu&lt;/a&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A cover letter detailing your research interests and fit for the position.&lt;/li&gt;
+&lt;li&gt;CV, including a list of publications, academic/professional background, and skills.&lt;/li&gt;
+&lt;li&gt;Names and contact details for 2 references.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Network Science PhD Program at Northeastern University&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Candidates need to apply to the Network Science Ph.D. Program at
+Northeastern University. The Network Science PhD program at Northeastern
+University is a pioneering interdisciplinary program that provides the tools and concepts to understand the structure and dynamics of networks arising from the interplay of human
+behavior, socio-technical infrastructures, information diffusion, and biological agents.
+The application deadline for Fall 2024 is December 1, 2023. &lt;a href=&#34;https://www.networkscienceinstitute.org/phd&#34;&gt;Apply HERE&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Network Science Institute at Northeastern University&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&#34;https://www.networkscienceinstitute.org&#34;&gt;Network Science Institute (NetSI)&lt;/a&gt; at Northeastern University is a world-leading
+center for research and education in network science. NetSI faculty and researchers
+are working to advance the understanding of complex systems through the lens of
+networks, and to apply this knowledge to solve real-world problems in a wide range
+of fields, including urban science, public health, social science, and economics.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -23,8 +54,34 @@ The Social Urban Networks (SUN) group, led by Dr. Esteban Moro, focuses on devel
       <pubDate>Fri, 22 Sep 2023 00:00:00 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2023-09-22-postdoc-positions-at-sun-netsi-northeastern/</guid>
-      <description>Postdoc Positions to work with my team at the Network Science Institute, Northeastern University:
-The Network Science Institute is seeking researchers at the postdoctoral and associate levels to join the new Social Urban Networks (SUN) group. The Social Urban Networks (SUN) group, led by Dr. Esteban Moro, focuses on developing computational social science tools to address urban challenges, from climate change and inequality to health and economic development. By using large datasets of human behavior, tools and ideas from physics, applied mathematics, complex systems or network science, and collaborations with industry, government, and local communities, we seek not only to advance the understanding of the temporal dynamics of social systems to unprecedented levels but also to transform our findings into tools and policies to help achieve resilient and equitable adaptation of our societies.</description>
+      <description>&lt;p&gt;&lt;strong&gt;Postdoc Positions to work with my team at the Network Science Institute, Northeastern University&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;The Network Science Institute is seeking researchers at the postdoctoral and associate levels to join the new &lt;a href=&#34;https://socialurban.net&#34;&gt;Social Urban Networks (SUN) group&lt;/a&gt;. The Social Urban Networks (SUN) group, led by Dr. Esteban Moro, focuses on developing computational social science tools to address urban challenges, from climate change and inequality to health and economic development. By using large datasets of human behavior, tools and ideas from physics, applied mathematics, complex systems or network science, and collaborations with industry, government, and local communities, we seek not only to advance the understanding of the temporal dynamics of social systems to unprecedented levels but also to transform our findings into tools and policies to help achieve resilient and equitable adaptation of our societies. Check more of our work at &lt;a href=&#34;https://socialurban.net&#34;&gt;https://socialurban.net&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;We are recruiting postdoc researchers to join my SUN group. We offer one/two year positions, and we are seeking highly motivated researchers to explore the following subjects:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://estebanmoro.org/post/2019-02-02-behavioral-fundations-of-inequality/&#34;&gt;Fighting inequality in urban areas&lt;/a&gt;: mapping the inequality in the social fabric of cities at an unprecedented scale using high-resolution mobility and activity data.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://estebanmoro.org/post/2022-10-25-creating-resilient-urban-labor-economies/&#34;&gt;Creating resilient labor and urban economies&lt;/a&gt;: detecting economic resilience encoded in the dependency networks of agents, business, cities, or jobs.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://estebanmoro.org/post/2022-10-25-behavioral-network-determinants-of-health-outcomes/&#34;&gt;Understanding behavioral-network determinants of health outcomes in our cities&lt;/a&gt;, by modeling physical exposure between people and healthy environments.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Our work heavily depends on data-driven, evidence-based modeling and collaboration with practitioners. We seek researchers with expertise in network science, physics, big data, behavior modeling, urban science, complex systems, machine learning, visualization, and geospatial analysis. Programming (Python, R), statistics, and data science skills are essential.&lt;/p&gt;
+&lt;p&gt;If you are interested, please submit the following materials with your application:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A cover letter detailing your research interests and fit for the position.&lt;/li&gt;
+&lt;li&gt;CV with a list of publications.&lt;/li&gt;
+&lt;li&gt;Names and contact details for 2 references.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://northeastern.wd1.myworkdayjobs.com/careers/job/Boston-MA-Main-Campus/Postdoctoral-Research-Associate-Associate-Research-Scientist---Social-Urban-Networks_R119961&#34;&gt;&amp;raquo; Apply here &amp;laquo;&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Objectives and research goals for this position&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Research Focus&lt;/em&gt;: The primary focus of these postdoc positions is to conduct cutting-edge research at the intersection of complex systems, network science, data science, and urban dynamics. Successful candidates must be able to undertake substantially full-time research or scholarship and work under the supervision of a senior scholar. More experienced candidates, who will be considered for the Associate Research Scientist position, must demonstrate progressively more responsible experience and ability to plan and execute research.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Data-Driven Insights&lt;/em&gt;: Utilize large datasets of human behavior to gain deep insights into the temporal dynamics of social systems, pushing the boundaries of understanding in this field.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Translational Research&lt;/em&gt;: Transform research findings into practical tools and policies that can contribute to the achievement of resilient and equitable urban adaptation.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Interdisciplinary Collaboration&lt;/em&gt;: Collaborate with industry, government, and local communities to bridge the gap between research and practical solutions.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Collaborative environment&lt;/em&gt;: The researcher is anticipated to engage in cooperative efforts with group members at NetSI, fellow researchers, graduate and doctoral students, agencies and companies.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Professional development&lt;/em&gt;: We provide a rich and collaborative research environment that encourages our researchers for the development of leadership skills, grant-writing abilities, and project management experience.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Network Science Institute at Northeastern University&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&#34;https://www.networkscienceinstitute.org&#34;&gt;Network Science Institute&lt;/a&gt; (NetSI) at Northeastern University is a multi-disciplinary research community supporting innovative research and training in network science. NetSI houses multiple labs specializing in various focus areas. Our research and training programs are dedicated to understanding networks by discovering the underlying principles, properties, and purpose of their connectivity. Our goal is to create new tools and perspectives that empower all people to better interact with networks, and ultimately improve the sustainability and wellness of our societies.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

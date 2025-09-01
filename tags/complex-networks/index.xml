@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Complex Networks on </title>
@@ -6,15 +5,32 @@
     <description>Recent content in Complex Networks on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Sat, 11 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://estebanmoro.org/tags/complex-networks/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 11 Jan 2025 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://estebanmoro.org/tags/complex-networks/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Behaviour-based dependency networks between places shape urban economic resilience</title>
       <link>https://estebanmoro.org/post/2025-01-11-behaviour-based-dependency-networks/</link>
       <pubDate>Sat, 11 Jan 2025 00:00:00 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2025-01-11-behaviour-based-dependency-networks/</guid>
-      <description>Authors: Takahiro Yabe, Bernardo García Bulle Bueno, Morgan R Frank, Alex Pentland, Esteban Moro Publication: Nature Human Behavior (2024) LINK
-Abstract: Disruptions, such as closures of businesses during pandemics, not only affect businesses and amenities directly but also influence how people move, spreading the impact to other businesses and increasing the overall economic shock. However, it is unclear how much businesses depend on each other during disruptions. Leveraging human mobility data and same-day visits in five US cities, we quantify dependencies between points of interest encompassing businesses, stores and amenities.</description>
+      <description>
+
+
+&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Takahiro Yabe, Bernardo García Bulle Bueno, Morgan R Frank, Alex Pentland, Esteban Moro
+&lt;br&gt;
+&lt;em&gt;Publication&lt;/em&gt;: Nature Human Behavior (2024) &lt;strong&gt;&lt;a href=&#34;https://www.nature.com/articles/s41562-024-02072-7&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Disruptions, such as closures of businesses during pandemics, not only affect businesses and amenities directly but also influence how people move, spreading the impact to other businesses and increasing the overall economic shock. However, it is unclear how much businesses depend on each other during disruptions. Leveraging human mobility data and same-day visits in five US cities, we quantify dependencies between points of interest encompassing businesses, stores and amenities. We find that dependency networks computed from human mobility exhibit significantly higher rates of long-distance connections and biases towards specific pairs of point-of-interest categories. We show that using behaviour-based dependency relationships improves the predictability of business resilience during shocks by around 40% compared with distance-based models, and that neglecting behaviour-based dependencies can lead to underestimation of the spatial cascades of disruptions. Our findings underscore the importance of measuring complex relationships in patterns of human mobility to foster urban economic resilience to shocks.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Media&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://news.northeastern.edu/2025/01/06/remote-work-research-urban-economies/&#34;&gt;Remote work affects urban economies far beyond downtown hubs, Northeastern research finds&lt;/a&gt;, Northeastern Global News&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://engineering.nyu.edu/news/new-research-reveals-economic-ripple-effects-business-closures-remote-work-and-other&#34;&gt;New research reveals economic ripple effects of business closures, remote work and other disruptions&lt;/a&gt; NYU Tandon School of Engineering&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://phys.org/news/2025-01-reveals-economic-ripple-effects-business.html&#34;&gt;New research reveals economic ripple effects of business closures, remote work and other disruptions&lt;/a&gt;, Phys.org&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://phys.org/news/2025-01-behavior-based-networks-resilience-cities.html&#34;&gt;Behavior-based dependency networks can shape the resilience of cities following economic shocks&lt;/a&gt;, Phys.org&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -23,8 +39,13 @@ Abstract: Disruptions, such as closures of businesses during pandemics, not only
       <pubDate>Fri, 18 Nov 2022 00:00:00 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2022-11-18-social-media-sensors-to-detect-early-warnings-of-influenza-at-scale/</guid>
-      <description>Authors: David Martín-Corral, Manuel García-Herranz, Manuel Cebrian, Esteban Moro Publication: medRxiv 2022.11.15.22282355 LINK
-Abstract: Detecting early signs of an outbreak in a viral process is challenging due to its exponential nature, yet crucial given the benefits to public health it can provide. If available, the network structure where infection happens can provide rich information about the very early stages of viral outbreaks. For example, more central nodes have been used as social network sensors in biological or informational diffusion processes to detect early contagious outbreaks.</description>
+      <description>
+
+
+&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: David Martín-Corral, Manuel García-Herranz, Manuel Cebrian, Esteban Moro &lt;br&gt;
+&lt;em&gt;Publication&lt;/em&gt;: medRxiv 2022.11.15.22282355 &lt;strong&gt;&lt;a href=&#34;https://www.medrxiv.org/content/10.1101/2022.11.15.22282355v1&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Detecting early signs of an outbreak in a viral process is challenging due to its exponential nature, yet crucial given the benefits to public health it can provide. If available, the network structure where infection happens can provide rich information about the very early stages of viral outbreaks. For example, more central nodes have been used as social network sensors in biological or informational diffusion processes to detect early contagious outbreaks. Here we aim to put together both approaches to detect early warnings of a biological viral process (influenza-like illness, ILI), using its informational epidemic coverage in public social media. We use a large social media dataset covering three years in a country. We demonstrate that it is possible to use highly central users on the platform, more precisely high out-degree users from Twitter, as sensors to detect the early warning outbreaks of ILI in the physical world without monitoring the whole population. We also investigate other behavioral and content features that distinguish those early sensors in social media beyond centrality. We find that while high centrality on Twitter is the most distinctive feature of sensors, we see that they are more likely to talk about local news, language, politics, or government than the rest of the users. Our new approach could detect a better and smaller set of social sensors for epidemic outbreaks and is more operationally efficient and privacy respectful than previous ones, not requiring the collection of vast amounts of data.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -33,8 +54,11 @@ Abstract: Detecting early signs of an outbreak in a viral process is challenging
       <pubDate>Thu, 07 Jan 2016 00:00:00 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2016-01-07-talk-dynamics-in-complex-networks-analysing-real-world-data/</guid>
-      <description>Video of my talk &amp;ldquo;Dynamics in Complex Networks: Analysing Real-world Data&amp;rdquo; at the Workshop on Complex Network Mining and Analysis in Wrocław, Poland, January 2016
- You can also find the transparencies here</description>
+      <description>&lt;p&gt;Video of my talk &amp;ldquo;Dynamics in Complex Networks: Analysing Real-world Data&amp;rdquo; at the &lt;a href=&#34;http://engine.pwr.edu.pl/dpcn2016/&#34;&gt;Workshop on Complex Network Mining and Analysis&lt;/a&gt; in Wrocław, Poland, January 2016&lt;/p&gt;
+&lt;iframe src=&#34;https://www.youtube.com/embed/bEN6vGWqL8c?start=&#34;
+  style=&#34;position: absolute; top: 0; left: 0; width: 560; height: 315;&#34; allowfullscreen frameborder=&#34;0&#34; title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;p&gt;You can also find the transparencies &lt;a href=&#34;http://engine.pwr.edu.pl/dpcn2016/wp-content/uploads/2016/01/Prof.-Esteban-Moro-Dynamics-in-comple-networks.-Analysing-real-world-mobile-data.pdf&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
+</description>
     </item>
     
   </channel>

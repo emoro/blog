@@ -1,20 +1,33 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>influence on </title>
+    <title>Influence on </title>
     <link>https://estebanmoro.org/tags/influence/</link>
-    <description>Recent content in influence on </description>
+    <description>Recent content in Influence on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Wed, 21 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://estebanmoro.org/tags/influence/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 21 Jun 2023 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://estebanmoro.org/tags/influence/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Long-Range Social Influence in Phone Communication Networks on Offline Adoption Decisions</title>
       <link>https://estebanmoro.org/post/2023-06-21-long-range-social-influence-in-phone-communication-networks-on-offline-adoption-decisions/</link>
       <pubDate>Wed, 21 Jun 2023 00:00:00 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2023-06-21-long-range-social-influence-in-phone-communication-networks-on-offline-adoption-decisions/</guid>
-      <description>Authors: Yan Leng , Xiaowen Dong, Esteban Moro, Alex Pentland Publication: Information Systems Research, Articles in Advance 21 Jun (2023) LINK
-Abstract: We use high-resolution mobile phone data with geolocation information and pro- pose a novel technical framework to study how social influence propagates within a phone communication network and affects the offline decision to attend a performance event. Our fine-grained data are based on the universe of phone calls made in a European country between January and July 2016.</description>
+      <description>
+
+
+&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Yan Leng , Xiaowen Dong, Esteban Moro, Alex Pentland &lt;br&gt;
+&lt;em&gt;Publication&lt;/em&gt;: Information Systems Research, Articles in Advance 21 Jun (2023) &lt;strong&gt;&lt;a href=&#34;https://pubsonline.informs.org/doi/full/10.1287/isre.2023.1231&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; We use high-resolution mobile phone data with geolocation information and pro- pose a novel technical framework to study how social influence propagates within a phone communication network and affects the offline decision to attend a performance event. Our fine-grained data are based on the universe of phone calls made in a European country between January and July 2016. We isolate social influence from observed and latent homophily by taking advantage of the rich spatial-temporal information and the social interactions available from the longitudinal behavioral data. We find that influence stemming from phone communication is significant and persists up to four degrees of separation in the communica- tion network. Building on this finding, we introduce a new “influence” centrality measure that captures the empirical pattern of influence decay over successive connections. A validation test shows that the average influence centrality of the adopters at the beginning of each observational period can strongly predict the number of eventual adopters and has a stronger predictive power than other prevailing centrality measures such as the eigenvector centrality and state-of-the-art measures such as diffusion centrality. Our centrality measure can be used to improve optimal seeding strategies in contexts with influence over phone calls, such as targeted or viral marketing campaigns. Finally, we quantitatively demonstrate how raising the communication probability over each connection, as well as the number of initial seeds, can significantly amplify the expected adoption in the network and raise net revenue after taking into account the cost of these interventions.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Media&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://phys.org/news/2023-06-communication-spurs-cascading-effect-social.html&#34;&gt;Phone communication spurs a cascading effect on social influence&lt;/a&gt;, Phys.org&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/texas-mccombs/phone-lines-of-connection-43daeeade404&#34;&gt;Phone Lines of Connection&lt;/a&gt; Big Ideas Story, McCombs School of Business.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
   </channel>

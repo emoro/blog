@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Algorithms on </title>
@@ -6,16 +5,24 @@
     <description>Recent content in Algorithms on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Sat, 03 Mar 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://estebanmoro.org/tags/algorithms/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 03 Mar 2018 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://estebanmoro.org/tags/algorithms/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>La era del algoritmo ha llegado y tus datos son un tesoro</title>
       <link>https://estebanmoro.org/post/2019-01-01-la-era-del-algoritmo-ha-llegado-y-tus-datos-son-un-tesoro/</link>
       <pubDate>Sat, 03 Mar 2018 00:00:00 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2019-01-01-la-era-del-algoritmo-ha-llegado-y-tus-datos-son-un-tesoro/</guid>
-      <description>Article in El País (in Spanish) about how algorithms are now the big asset of companies, agencies and researchers to transform data into value
-La era del algoritmo ha llegado y tus datos son un tesoro
- “La primera revolución llegó hace unos años con el almacenamiento de inmensas cantidades de datos procedentes de las huellas electrónicas que todos dejamos. La segunda, en la que estamos inmersos, procede de la capacidad que tanto empresarios como usuarios o investigadores tienen para analizar estos datos.</description>
+      <description>&lt;p&gt;Article in El País (in Spanish) about how algorithms are now the big asset of companies, agencies and researchers to transform data into value&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://elpais.com/economia/2018/03/01/actualidad/1519921981_137226.html&#34;&gt;La era del algoritmo ha llegado y tus datos son un tesoro&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“La primera revolución llegó hace unos años con el almacenamiento de inmensas cantidades de datos procedentes de las huellas electrónicas que todos dejamos. La segunda, en la que estamos inmersos, procede de la capacidad que tanto empresarios como usuarios o investigadores tienen para analizar estos datos. Esta segunda revolución procede de los algoritmos supercapaces y de lo que algunos llaman inteligencia artificial pero yo prefiero denominar superexpertos”, explica Estaban Moro, profesor de la Universidad Carlos III de Madrid y del MediaLab del MIT de Boston.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Esteban Moro, investigador de la Universidad Carlos III y del Massachusetts Institute of Technology (MIT) centra el debate en una palabra: la escala. “El problema no es que los algoritmos tengan sesgo, porque los humanos también los tenemos. El problema es que estas fórmulas matemáticas pueden afectar a cientos de millones de personas y tomar decisiones con efectos mucho mayores que las sentencias de un juez”, explica. Así, una persona que busca empleo puede librarse de la tiranía de los gustos o prejuicios del director de recursos de una u otra empresa. Pero a cambio se enfrenta a los criterios que comparten macroportales de ofertas de trabajo. El monstruo se hace más grande.&lt;/p&gt;&lt;/blockquote&gt;
+</description>
     </item>
     
   </channel>

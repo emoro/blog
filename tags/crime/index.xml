@@ -1,21 +1,32 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>crime on </title>
+    <title>Crime on </title>
     <link>https://estebanmoro.org/tags/crime/</link>
-    <description>Recent content in crime on </description>
+    <description>Recent content in Crime on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Sun, 02 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://estebanmoro.org/tags/crime/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 02 Apr 2023 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://estebanmoro.org/tags/crime/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Diversity beyond density: Experienced social mixing of urban streets</title>
       <link>https://estebanmoro.org/post/2023-04-03-diversity-beyond-density-experienced-social-mixing-of-urban-streets/</link>
       <pubDate>Sun, 02 Apr 2023 00:00:00 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2023-04-03-diversity-beyond-density-experienced-social-mixing-of-urban-streets/</guid>
-      <description>Authors: Zhuangyuan Fan, Tianyu Su, Maoran Sun, Ariel Noyman, Fan Zhang, Alex ‘Sandy’ Pentland, Esteban Moro
-Publication: PNAS Nexus, Volumen 2, Issue 4, pgad077, 2023 LINK
-Abstract: Urban density, in the form of residents’ and visitors’ concentration, is long considered to foster diverse exchanges of interpersonal knowledge and skills, which are intrinsic to sustainable human settlements. However, with current urban studies primarily devoted to city- and district-level analyses, we cannot unveil the elemental connection between urban density and diversity.</description>
+      <description>
+
+
+&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Zhuangyuan Fan, Tianyu Su, Maoran Sun, Ariel Noyman, Fan Zhang, Alex ‘Sandy’ Pentland, Esteban Moro&lt;br&gt;
+&lt;em&gt;Publication&lt;/em&gt;: PNAS Nexus, Volumen 2, Issue 4, pgad077, 2023 &lt;br&gt; &lt;strong&gt;&lt;a href=&#34;https://academic.oup.com/pnasnexus/advance-article/doi/10.1093/pnasnexus/pgad077/7075905&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Urban density, in the form of residents’ and visitors’ concentration, is long considered to foster diverse exchanges of interpersonal knowledge and skills, which are intrinsic to sustainable human settlements. However, with current urban studies primarily devoted to city- and district-level analyses, we cannot unveil the elemental connection between urban density and diversity. Here we use an anonymized and privacy-enhanced mobile dataset of 0.5 million opted-in users from three metropolitan areas in the United States to show that at the scale of urban streets, density is not the only path to diversity. We represent the diversity of each street with the experienced social mixing (ESM), which describes the chances of people meeting diverse income groups throughout their daily experience. We conduct multiple experiments and show that the concentration of visitors only explains 26% of street-level ESM. However, adjacent amenities, residential diversity, and income level account for 44% of the ESM. Moreover, using longitudinal business data, we show that streets with an increased number of food businesses have seen an increased ESM from 2016 to 2018. Lastly, although streets with more visitors are more likely to have crime, diverse streets tend to have fewer crimes. These findings suggest that cities can leverage many tools beyond density to curate a diverse and safe street experience for people.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Media&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Great streets: visualization of the main results &lt;a href=&#34;http://greatstreets.mit.edu&#34; class=&#34;uri&#34;&gt;http://greatstreets.mit.edu&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
   </channel>

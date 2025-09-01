@@ -1,20 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>visualization on </title>
+    <title>Visualization on </title>
     <link>https://estebanmoro.org/tags/visualization/</link>
-    <description>Recent content in visualization on </description>
+    <description>Recent content in Visualization on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Thu, 31 Oct 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://estebanmoro.org/tags/visualization/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 31 Oct 2019 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://estebanmoro.org/tags/visualization/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Exploring the Atlas of Inequality in US Cities</title>
       <link>https://estebanmoro.org/post/2019-10-31-exploring-the-atlas-of-inequality-in-us-cities/</link>
       <pubDate>Thu, 31 Oct 2019 00:00:00 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2019-10-31-exploring-the-atlas-of-inequality-in-us-cities/</guid>
-      <description>Video of my talk &amp;ldquo;Exploring the Atlas of Inequality in US Cities&amp;rdquo; at the Spatial Data Science Conference in University of Columbia (NY), October 2019
- </description>
+      <description>&lt;p&gt;Video of my talk &amp;ldquo;Exploring the Atlas of Inequality in US Cities&amp;rdquo; at the &lt;a href=&#34;http://engine.pwr.edu.pl/dpcn2016/&#34;&gt;Spatial Data Science Conference&lt;/a&gt; in University of Columbia (NY), October 2019&lt;/p&gt;
+&lt;iframe src=&#34;https://www.youtube.com/embed/X2VdluCW6Qw?start=&#34;
+  style=&#34;position: absolute; top: 0; left: 0; width: 560; height: 315;&#34; allowfullscreen frameborder=&#34;0&#34; title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+</description>
     </item>
     
     <item>
@@ -23,8 +28,13 @@
       <pubDate>Sat, 02 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2019-03-02-the-atlas-of-segregation/</guid>
-      <description>Segregation is hurting our societies and specially our cities. But economic inequality isn&amp;rsquo;t just limited to neighborhoods. The restaurants, stores, and other places we visit in cities are all unequal in their own way.
-The Atlas of Inequality shows the income inequality of people who visit different places in the Boston metro area. It uses aggregated anonymous location data from digital devices to estimate people&amp;rsquo;s incomes and where they spend their time.</description>
+      <description>&lt;p&gt;&lt;strong&gt;Segregation is hurting our societies and specially our cities. But economic inequality isn&amp;rsquo;t just limited to neighborhoods. The restaurants, stores, and other places we visit in cities are all unequal in their own way.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The Atlas of Inequality  shows the income inequality of people who visit different places in the Boston metro area. It uses aggregated anonymous location data from digital devices to estimate people&amp;rsquo;s incomes and where they spend their time. Using that data, we&amp;rsquo;ve made our own place inequality metric to capture how unequal the incomes of visitors to each place are. Economic inequality isn&amp;rsquo;t just limited to neighborhoods; it&amp;rsquo;s part of the places you visit every day.&lt;/p&gt;
+&lt;p&gt;Try it yourself here:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://inequality.media.mit.edu&#34;&gt;The Atlas of Inequality&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The Atlas of Inequality is a project from the Human Dynamics group at the &lt;a href=&#34;http://media.mit.edu&#34;&gt;MIT Media Lab&lt;/a&gt; and the Department of Mathematics at &lt;a href=&#34;http://www.uc3m.es&#34;&gt;Universidad Carlos III de Madrid&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;It is part of a broader initiative to understand human behavior in our cities and how large-scale problems like transportation, housing, segregation, or inequality depend in part on the emergent patterns of people’s individual opportunities and choices.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

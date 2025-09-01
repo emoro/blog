@@ -1,21 +1,29 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>inequality on </title>
+    <title>Inequality on </title>
     <link>https://estebanmoro.org/tags/inequality/</link>
-    <description>Recent content in inequality on </description>
+    <description>Recent content in Inequality on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Wed, 26 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://estebanmoro.org/tags/inequality/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 26 Feb 2025 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://estebanmoro.org/tags/inequality/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Using human mobility data to quantify experienced urban inequalities</title>
       <link>https://estebanmoro.org/post/2025-02-26-using-human-mobility-data-to-quantify-experienced-urban-inequalities/</link>
       <pubDate>Wed, 26 Feb 2025 00:00:00 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2025-02-26-using-human-mobility-data-to-quantify-experienced-urban-inequalities/</guid>
-      <description>Authors: Fengli Xu, Qi Wang, Esteban Moro, Arianna Salazar Miranda, Marta C. González, Chaoming Song, Carlo Ratti, Luis Bettencourt, James Evans
-Publication: Nature Human Behavior (2025) LINK
-Abstract: The lived experience of urban life is shaped by personal mobility through dynamic relationships and resources, marked not only by access and opportunity, but also inequality and segregation. The recent availability of fine-grained mobility data and context attributes ranging from venue type to demographic mixture offer researchers a deeper understanding of experienced inequalities at scale, and pose many new questions.</description>
+      <description>
+
+
+&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Fengli Xu, Qi Wang, Esteban Moro, Arianna Salazar Miranda, Marta C. González, Chaoming Song, Carlo Ratti, Luis Bettencourt, James Evans&lt;br&gt;
+&lt;em&gt;Publication&lt;/em&gt;: Nature Human Behavior (2025) &lt;strong&gt;&lt;a href=&#34;https://www.nature.com/articles/s41562-024-02079-0&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; The lived experience of urban life is shaped by personal mobility through dynamic relationships and resources, marked not only by access and opportunity, but also inequality and segregation. The recent availability of fine-grained mobility data and context attributes ranging from venue type to demographic mixture offer researchers a deeper understanding of experienced inequalities at scale, and pose many new questions. Here we review emerging uses of urban mobility behaviour data, and propose an analytic framework to represent mobility patterns as a temporal bipartite network between people and places. As this network reconfigures over time, analysts can track experienced inequality along three critical dimensions: social mixing with others from specific demographic backgrounds, access to different types of facilities, and spontaneous adaptation to unexpected events, such as epidemics, conflicts or disasters. This framework traces the dynamic, lived experiences of urban inequality and complements prior work on static inequalities experience at home and work.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Media&lt;/strong&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -24,10 +32,20 @@ Abstract: The lived experience of urban life is shaped by personal mobility thro
       <pubDate>Sat, 18 Nov 2023 00:00:00 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2023-11-20-population-mobility-data-provides-meaningful-indicators-of-fast-food-intake-and-diet-related-diseases-in-diverse-populations/</guid>
-      <description>Authors: Abigail L. Horn, Brooke M. Bell, Bernardo Garcia Bulle Bueno, Mohsen Bahrami, Burcin Bozkaya, Yan Cui, John P. Wilson, Alex Pentland, Esteban Moro, Kayla de la Haye
-Publication: NPJ Digital Medicine 6, 208 (2023)
-LINK
-Abstract: The characteristics of food environments people are exposed to, such as the density of fast food (FF) outlets, can impact their diet and risk for diet-related chronic disease. Previous studies examining the relationship between food environments and nutritional health have produced mixed findings, potentially due to the predominant focus on static food environments around people’s homes.</description>
+      <description>
+
+
+&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Abigail L. Horn, Brooke M. Bell, Bernardo Garcia Bulle Bueno, Mohsen Bahrami, Burcin Bozkaya, Yan Cui, John P. Wilson, Alex Pentland, Esteban Moro, Kayla de la Haye&lt;br&gt;
+&lt;em&gt;Publication&lt;/em&gt;: NPJ Digital Medicine &lt;strong&gt;6&lt;/strong&gt;, 208 (2023)&lt;br&gt; &lt;strong&gt;&lt;a href=&#34;https://www.nature.com/articles/s41746-023-00949-x&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; The characteristics of food environments people are exposed to, such as the density of fast food (FF) outlets, can impact their diet and risk for diet-related chronic disease. Previous studies examining the relationship between food environments and nutritional health have produced mixed findings, potentially due to the predominant focus on static food environments around people’s homes. As smartphone ownership increases, large-scale data on human mobility (i.e., smartphone geolocations) represents a promising resource for studying dynamic food environments that people have access to and visit as they move throughout their day. This study investigates whether mobility data provides meaningful indicators of diet, measured as FF intake, and diet-related disease, evaluating its usefulness for food environment research. Using a mobility dataset consisting of 14.5 million visits to geolocated food outlets in Los Angeles County (LAC) across a representative sample of 243,644 anonymous and opted-in adult smartphone users in LAC, we construct measures of visits to FF outlets aggregated over users living in neighborhood. We find that the aggregated measures strongly and significantly correspond to self-reported FF intake, obesity, and diabetes in a diverse, representative sample of 8,036 LAC adults included in a population health survey carried out by the LAC Department of Public Health. Visits to FF outlets were a better predictor of individuals’ obesity and diabetes than their self-reported FF intake, controlling for other known risks. These findings suggest mobility data represents a valid tool to study people’s use of dynamic food environments and links to diet and health.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Media&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://viterbischool.usc.edu/news/2023/11/are-you-at-risk-for-diet-related-disease-where-you-spend-your-day-plays-a-role/&#34;&gt;Are You at Risk for Diet-Related Disease? Where You Spend Your Day Plays a Role&lt;/a&gt; USC Viterbi News.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://interestingengineering.com/innovation/smartphone-location-data-used-to-evaluate-risk-of-diet-related-disease&#34;&gt;Smartphone location data used to evaluate risk of diet-related disease&lt;/a&gt;, Interesting Engineering.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.techtimes.com/articles/299261/20231129/smartphones-help-evaluate-diet-related-diseases-users-location-study.htm&#34;&gt;Smartphones Can Help Evaluate Diet-Related Diseases, All Based on a User’s Location, Study Suggests&lt;/a&gt;, Tech Times.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://ustimespost.com/smartphone-data-reveals-link-between-fast-food-outlets-and-diet-related-illnesses/&#34;&gt;Smartphone data reveals link between fast food outlets and diet-related illnesses&lt;/a&gt; US Times Post.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -36,9 +54,26 @@ Abstract: The characteristics of food environments people are exposed to, such a
       <pubDate>Fri, 21 Apr 2023 00:00:00 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2023-04-21-behavioral-changes-during-the-covid-19-pandemic-decreased-income-diversity-of-urban-encounters/</guid>
-      <description>Authors: Takahiro Yabe, Bernardo García Bulle Bueno, Xiaowen Dong, Alex Pentland &amp;amp; Esteban Moro
-Publication: Nature Communications volume 14, Article number: 2310 (2023) LINK
-Abstract: Diversity of physical encounters in urban environments is known to spur economic productivity while also fostering social capital. However, mobility restrictions during the pandemic have forced people to reduce urban encounters, raising questions about the social implications of behavioral changes. In this paper, we study how individual income diversity of urban encounters changed during the pandemic, using a large-scale, privacy-enhanced mobility dataset of more than one million anonymized mobile phone users in Boston, Dallas, Los Angeles, and Seattle, across three years spanning before and during the pandemic.</description>
+      <description>
+
+
+&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Takahiro Yabe, Bernardo García Bulle Bueno, Xiaowen Dong, Alex Pentland &amp;amp; Esteban Moro&lt;br&gt;
+&lt;em&gt;Publication&lt;/em&gt;: Nature Communications volume 14, Article number: 2310 (2023) &lt;br&gt; &lt;strong&gt;&lt;a href=&#34;https://www.nature.com/articles/s41467-023-37913-y&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Diversity of physical encounters in urban environments is known to spur economic productivity while also fostering social capital. However, mobility restrictions during the pandemic have forced people to reduce urban encounters, raising questions about the social implications of behavioral changes. In this paper, we study how individual income diversity of urban encounters changed during the pandemic, using a large-scale, privacy-enhanced mobility dataset of more than one million anonymized mobile phone users in Boston, Dallas, Los Angeles, and Seattle, across three years spanning before and during the pandemic. We find that the diversity of urban encounters has substantially decreased (by 15% to 30%) during the pandemic and has persisted through late 2021, even though aggregated mobility metrics have recovered to pre-pandemic levels. Counterfactual analyses show that behavioral changes including lower willingness to explore new places further decreased the diversity of encounters in the long term. Our findings provide implications for managing the trade-off between the stringency of COVID-19 policies and the diversity of urban encounters as we move beyond the pandemic.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Media&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://news.mit.edu/2023/study-covid-19-reduced-diverse-urban-interactions-0428&#34;&gt;Study: Covid-19 has reduced diverse urban interactions&lt;/a&gt;, MIT News.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.techexplorist.com/comparative-study-urban-interactions-before-after-covid-19/59561/?utm_source=rss&amp;amp;utm_medium=rss&amp;amp;utm_campaign=comparative-study-urban-interactions-before-after-covid-19&#34;&gt;A comparative study of urban interactions before and after covid-19&lt;/a&gt; Tech Explorist.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://phys.org/news/2023-04-mobility-related-pandemic-limited-breadth-people.html&#34;&gt;Mobility-related data show the pandemic has limited the breadth of places people visit in cities&lt;/a&gt;, Phys.org.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.bostonglobe.com/2023/05/10/opinion/covid-reduced-wealthy-poor-interactions&#34;&gt;COVID made us retreat into our corners. A worrisome new study says we haven’t left them&lt;/a&gt;, Boston Globe&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://eng.ox.ac.uk/news/covid-19-has-reduced-diverse-urban-interactions/&#34;&gt;Covid-19 has reduced diverse urban interactions&lt;/a&gt; University of Oxford.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://socialsciences.nature.com/posts/covid-19-has-reduced-diverse-urban-interactions&#34;&gt;Behind the paper: COVID-19 reduced diverse urban interactions&lt;/a&gt; Behavioral and Social Sciences at Nature Portfolio.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.bloomberg.com/news/articles/2023-05-18/residents-of-us-cities-are-stuck-in-post-pandemic-socialization-rut&#34;&gt;Americans Have Become Less Willing to Explore Their Own Cities&lt;/a&gt; CityLab Bloomberg.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.fox4news.com/news/americans-are-not-exploring-their-own-cities-like-they-used-to-study-says&#34;&gt;Americans are not exploring their own cities like they used to, study says&lt;/a&gt;, Fox 4 News&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.seattletimes.com/seattle-news/in-seattle-were-seeing-the-splitting-of-a-city/&#34;&gt;In Seattle, we’re seeing the splitting of a city&lt;/a&gt;, The Seattle Times.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.geekwire.com/2023/study-shows-how-pandemic-decreased-income-diversity-of-urban-encounters-even-after-lockdowns/&#34;&gt;Study shows how pandemic decreased income diversity of urban encounters, even after lockdowns&lt;/a&gt;, Geek Wire.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -47,7 +82,38 @@ Abstract: Diversity of physical encounters in urban environments is known to spu
       <pubDate>Mon, 03 Oct 2022 00:00:00 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2019-02-02-behavioral-fundations-of-inequality/</guid>
-      <description>Inequality is one of the most important problems in our societies. For example, economic inequality is today higher than it was in the 1970’s and by some metrics stands at levels not seen since the last Great Depression. A special form of segregation is that happening in our cities. We share the public places, our workplaces and our residential neighborhoods with people like us: same type of jobs, same education, similar economic status, and political opinions.</description>
+      <description>&lt;p&gt;Inequality is one of the most important problems in our societies. For example, economic inequality is today higher than it was in the 1970’s and by some metrics stands at levels not seen since the last Great Depression. A special form of segregation is that happening in our cities. We share the public places, our workplaces and our residential neighborhoods with people like us: same type of jobs, same education, similar economic status, and political opinions.&lt;/p&gt;
+&lt;p&gt;That segregation has an enormous costs in our societies: for example, top 1 percent income group live 10 to 15 years longer than their counterparts in the bottom 1 percent income group. Children with more exposure to distressed neighborhoods have worse educational outcomes and higher levels of segregation are associated with high homicide rates, slower economic growth or less innovation over time. To understand this problem most interest and policies for cities are focused on neighborhoods. The assumption is that our behavior is mainly determined by the place where we live. However, most of our daily activities happen well beyond our residence and we interact and encounter people in many different places around the city. This implies that &lt;strong&gt;segregation or isolation in our cities is  mainly encoded in our choices, our daily behavior, not where we live&lt;/strong&gt;. The unavailability of high resolution data about those daily choices have prevented researchers to understand behavioral segregation, limiting our understanding of what is happening in cities to residential segregation or very small studies based on personal surveys. We have partnered with Location Based Services companies to access massive datasets about people&amp;rsquo;s movements in big cities in the US. Our plan is to go beyond residential segregation and develop the tools and models to understand &lt;em&gt;economic&lt;/em&gt; segregation at the level of public places, workplaces, shopping centers, but also to come up with measures of how even a single individual is segregated. Also that information will allow us to create high-resolution temporal encounter networks in the city that can be use not only to study segregation, but other problems like disease propagation, crime prediction, etc. We plan to create the most detail map of how people encounter and interact in the city. This tool will allow researchers to have better models of mobility, city planners can make better data-driven decisions about how to shape their communities, how to invest their money or where to locate their new business while mitigate segregation.&lt;/p&gt;
+&lt;p&gt;Knowing also what are the behavioral traits (preferences, commuting patterns, leisure activities, exercise habits) of individual users in their segregation will allow companies and city planers to design behavioral interventions to change our segregated behavior. To test that, our plan is to use our modeling of individual segregation to be able to partner with decision-makers, city planers or companies in deploying small intervention experiments in local neighborhood. This is a rather interdisciplinary research and we are reaching out to scientists in Social Sciences, Civil Engineering in Harvard, Northeastern University, MIT or the Boston Area Research Initiative to help us build those tools.&lt;/p&gt;
+&lt;p&gt;Recent publications:
+&lt;small&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;b&gt;Rhythm of the streets: a street classification framework based on street activity patterns&lt;/b&gt;&lt;br&gt;
+Tianyu Su, Maoran Sun, Zhuangyuan Fan, Ariel Noyman, Alex Pentland, Esteban Moro&lt;br&gt;
+EPJ Data Science &lt;strong&gt;11&lt;/strong&gt; 43 (2022)&lt;br&gt;
+&lt;a href=&#34;https://estebanmoro.org/pdf/Rhythm_of_the_streets__a_street_classification_framework_based_on_street_activity_patterns.pdf&#34; class=&#34;BUTTON_JEL&#34;&gt;PDF&lt;/a&gt; &lt;a href=&#34;https://epjds.epj.org/articles/epjdata/abs/2022/01/13688_2022_Article_355/13688_2022_Article_355.html&#34; class=&#34;BUTTON_JEL&#34;&gt;Journal&lt;/a&gt; &lt;div data-badge-popover=&#34;right&#34; data-badge-type=&#34;2&#34; data-doi=&#34;10.1140/epjds/s13688-022-00355-5&#34; data-hide-no-mentions=&#34;true&#34; data-hide-less-than=&#34;10&#34; class=&#34;altmetric-embed&#34;&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;b&gt;Generating synthetic mobility data for a realistic population with RNNs to improve utility and privacy&lt;/b&gt;&lt;br&gt;
+Alex Berke, Ronan Doorley, Kent Larson, Esteban Moro&lt;br&gt;
+In Proceedings of the 37th ACM/SIGAPP Symposium on Applied Computing (2022)&lt;br&gt;
+&lt;a href=&#34;https://estebanmoro.org/pdf/Generating_synthetic_mobility_data_for_a_realistic_population_with_RNNs_to_improve_utility_and_privacy.pdf&#34; class=&#34;BUTTON_JEL&#34;&gt;PDF&lt;/a&gt; &lt;a href=&#34;https://dl.acm.org/doi/abs/10.1145/3477314.3507230&#34; class=&#34;BUTTON_JEL&#34;&gt;Proceedings&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;b&gt;Mobility patterns are associated with experienced income segregation in large US cities&lt;/b&gt;&lt;br&gt;
+Esteban Moro, Dan Calacci, Xiaowen Dong, Alex Pentland&lt;br&gt;
+Nature Communications &lt;strong&gt;12&lt;/strong&gt; 4633 (2021)&lt;br&gt;
+&lt;a href=&#34;https://estebanmoro.org/pdf/Mobility_patterns_are_associated_with_experienced_income_segregation_in_large_US_cities.pdf&#34; class=&#34;BUTTON_JEL&#34;&gt;PDF&lt;/a&gt; &lt;a href=&#34;https://www.nature.com/articles/s41467-021-24899-8&#34; class=&#34;BUTTON_JEL&#34;&gt;Journal&lt;/a&gt; &lt;div data-badge-popover=&#34;right&#34; data-badge-type=&#34;2&#34; data-doi=&#34;10.1038/s41467-021-24899-8&#34; data-hide-no-mentions=&#34;true&#34; data-hide-less-than=&#34;10&#34; class=&#34;altmetric-embed&#34;&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;b&gt;Segregated interactions in urban and online space&lt;/b&gt;&lt;br&gt;
+Xiaowen Dong, Alfredo J. Morales, Eaman Jahani, Esteban Moro, Bruno Lepri, Burcin Bozkaya, Carlos Sarraute, Yaneer Bar-Yam, Alex Pentland&lt;br&gt;
+EPJ Data Science &lt;strong&gt;9&lt;/strong&gt; 20 (2020)&lt;br&gt;
+&lt;a href=&#34;https://estebanmoro.org/pdf/Segregated_interactions_in_urban_and_online_space.pdf&#34; class=&#34;BUTTON_JEL&#34;&gt;PDF&lt;/a&gt; &lt;a href=&#34;https://epjds.epj.org/articles/epjdata/abs/2020/01/13688_2020_Article_238/13688_2020_Article_238.html&#34; class=&#34;BUTTON_JEL&#34;&gt;Journal&lt;/a&gt; &lt;div data-badge-popover=&#34;right&#34; data-badge-type=&#34;2&#34; data-doi=&#34;10.1140/epjds/s13688-020-00238-7&#34; data-hide-no-mentions=&#34;true&#34; data-hide-less-than=&#34;10&#34; class=&#34;altmetric-embed&#34;&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -56,8 +122,18 @@ Abstract: Diversity of physical encounters in urban environments is known to spu
       <pubDate>Wed, 01 Dec 2021 00:00:00 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2021-12-01-news-or-social-media-socio-economic-divide-of-mobile-service-consumption/</guid>
-      <description>Authors: Iñaki Ucar, Marco Gramaglia, Marco Fiore, Zbigniew Smoreda, and Esteban Moro Publication: J. R. Soc. Interface (2021). Link
-Abstract: Reliable and timely information on socio-economic status and divides is critical to social and economic research and policing. Novel data sources from mobile communication platforms have enabled new cost-effective approaches and models to investigate social disparity, but their lack of interpretability, accuracy or scale has limited their relevance to date.</description>
+      <description>&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Iñaki Ucar, Marco Gramaglia, Marco Fiore, Zbigniew Smoreda,  and Esteban Moro
+&lt;em&gt;Publication&lt;/em&gt;: J. R. Soc. Interface (2021). &lt;strong&gt;&lt;a href=&#34;https://royalsocietypublishing.org/doi/10.1098/rsif.2021.0350&#34;&gt;Link&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Reliable and timely information on socio-economic status and divides is critical to social and economic research and policing. Novel data sources from mobile communication platforms have enabled new cost-effective approaches and models to investigate social disparity, but their lack of interpretability, accuracy or scale has limited their relevance to date. We investigate the divide in digital mobile service usage with a large dataset of 3.7 billion time-stamped and geo-referenced mobile traffic records in a major European country, and find profound geographical unevenness in mobile service usage—especially on news, e-mail, social media consumption and audio/video streaming. We relate such diversity with income, educational attainment and inequality, and reveal how low-income or low-education areas are more likely to engage in video streaming or social media and less in news consumption, information searching, e-mail or audio streaming. The digital usage gap is so large that we can accurately infer the socio-economic status of a small area or even its Gini coefficient only from aggregated data traffic. Our results make the case for an inexpensive, privacy-preserving, real-time and scalable way to understand the digital usage divide and, in turn, poverty, unemployment or economic growth in our societies through mobile phone data.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Media:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://phys.org/news/2022-01-digital-gap-internet-usage-rich.html&#34;&gt;Researchers report a new digital gap in internet usage between rich and poor people
+&lt;/a&gt; in Phys.org&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://elpais.com/tecnologia/2021-12-02/del-correo-y-las-noticias-a-facebook-y-youtube-asi-se-usa-internet-segun-barrios-ricos-y-pobres.html&#34;&gt;Del correo y las noticias a Facebook y Youtube: así se usa internet según barrios ricos y pobres&lt;/a&gt; in El Pais (Spain).&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.newtral.es/brecha-de-uso-renta-media-nivel-educativo/20220202/&#34;&gt;No vemos la misma internet: así es la brecha de uso entre ricos y pobres&lt;/a&gt; in Newtral (Spain).&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.uc3m.es/ss/Satellite/UC3MInstitucional/en/Detalle/Comunicacion_C/1371324218037/1371215537949/A_new_digital_gap_in_internet_usage_between_rich_and_poor_people_has_been_detected&#34;&gt;A new digital gap in internet usage between rich and poor people has been detected&lt;/a&gt;, UC3M news.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -66,8 +142,10 @@ Abstract: Reliable and timely information on socio-economic status and divides i
       <pubDate>Fri, 10 Jul 2020 00:00:00 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2020-07-10-segregated-interactions-in-urban-and-online-space/</guid>
-      <description>Authors: Xiaowen Dong , Alfredo J. Morales, Eaman Jahani, Esteban Moro, Bruno Lepri, Burcin Bozkaya, Carlos Sarraute, Yaneer Bar-Yam and Alex Pentland Publication: EPJ Data Science 9, Article number: 20 LINK
-Abstract: Urban income segregation is a widespread phenomenon that challenges societies across the globe. Classical studies on segregation have largely focused on the geographic distribution of residential neighborhoods rather than on patterns of social behaviors and interactions. In this study, we analyze segregation in economic and social interactions by observing credit card transactions and Twitter mentions among thousands of individuals in three culturally different metropolitan areas.</description>
+      <description>&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Xiaowen Dong , Alfredo J. Morales, Eaman Jahani, Esteban Moro, Bruno Lepri, Burcin Bozkaya, Carlos Sarraute, Yaneer Bar-Yam and Alex Pentland &lt;br&gt;
+&lt;em&gt;Publication&lt;/em&gt;: EPJ Data Science &lt;b&gt;9&lt;/b&gt;, Article number: 20 &lt;strong&gt;&lt;a href=&#34;https://link.springer.com/article/10.1140/epjds/s13688-020-00238-7&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Urban income segregation is a widespread phenomenon that challenges societies across the globe. Classical studies on segregation have largely focused on the geographic distribution of residential neighborhoods rather than on patterns of social behaviors and interactions. In this study, we analyze segregation in economic and social interactions by observing credit card transactions and Twitter mentions among thousands of individuals in three culturally different metropolitan areas. We show that segregated interaction is amplified relative to the expected effects of geographic segregation in terms of both purchase activity and online communication. Furthermore, we find that segregation increases with difference in socio-economic status but is asymmetric for purchase activity, i.e., the amount of interaction from poorer to wealthier neighborhoods is larger than vice versa. Our results provide novel insights into the understanding of behavioral segregation in human interactions with significant socio-political and economic implications.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -76,8 +154,13 @@ Abstract: Urban income segregation is a widespread phenomenon that challenges so
       <pubDate>Sat, 02 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2019-03-02-the-atlas-of-segregation/</guid>
-      <description>Segregation is hurting our societies and specially our cities. But economic inequality isn&amp;rsquo;t just limited to neighborhoods. The restaurants, stores, and other places we visit in cities are all unequal in their own way.
-The Atlas of Inequality shows the income inequality of people who visit different places in the Boston metro area. It uses aggregated anonymous location data from digital devices to estimate people&amp;rsquo;s incomes and where they spend their time.</description>
+      <description>&lt;p&gt;&lt;strong&gt;Segregation is hurting our societies and specially our cities. But economic inequality isn&amp;rsquo;t just limited to neighborhoods. The restaurants, stores, and other places we visit in cities are all unequal in their own way.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The Atlas of Inequality  shows the income inequality of people who visit different places in the Boston metro area. It uses aggregated anonymous location data from digital devices to estimate people&amp;rsquo;s incomes and where they spend their time. Using that data, we&amp;rsquo;ve made our own place inequality metric to capture how unequal the incomes of visitors to each place are. Economic inequality isn&amp;rsquo;t just limited to neighborhoods; it&amp;rsquo;s part of the places you visit every day.&lt;/p&gt;
+&lt;p&gt;Try it yourself here:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://inequality.media.mit.edu&#34;&gt;The Atlas of Inequality&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The Atlas of Inequality is a project from the Human Dynamics group at the &lt;a href=&#34;http://media.mit.edu&#34;&gt;MIT Media Lab&lt;/a&gt; and the Department of Mathematics at &lt;a href=&#34;http://www.uc3m.es&#34;&gt;Universidad Carlos III de Madrid&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;It is part of a broader initiative to understand human behavior in our cities and how large-scale problems like transportation, housing, segregation, or inequality depend in part on the emergent patterns of people’s individual opportunities and choices.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

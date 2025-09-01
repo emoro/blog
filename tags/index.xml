@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on </title>
@@ -6,7 +5,11 @@
     <description>Recent content in Tags on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Wed, 26 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://estebanmoro.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 26 Feb 2025 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://estebanmoro.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>2025</title>
       <link>https://estebanmoro.org/tags/2025/</link>
@@ -17,7 +20,7 @@
     </item>
     
     <item>
-      <title>inequality</title>
+      <title>Inequality</title>
       <link>https://estebanmoro.org/tags/inequality/</link>
       <pubDate>Wed, 26 Feb 2025 00:00:00 +0000</pubDate>
       
@@ -71,7 +74,7 @@
     </item>
     
     <item>
-      <title>economy</title>
+      <title>Economy</title>
       <link>https://estebanmoro.org/tags/economy/</link>
       <pubDate>Sat, 11 Jan 2025 00:00:00 +0000</pubDate>
       
@@ -98,7 +101,7 @@
     </item>
     
     <item>
-      <title>epidemics</title>
+      <title>Epidemics</title>
       <link>https://estebanmoro.org/tags/epidemics/</link>
       <pubDate>Mon, 15 Jul 2024 00:00:00 +0000</pubDate>
       
@@ -125,7 +128,7 @@
     </item>
     
     <item>
-      <title>Human behavior</title>
+      <title>Human Behavior</title>
       <link>https://estebanmoro.org/tags/human-behavior/</link>
       <pubDate>Sat, 23 Mar 2024 00:00:00 +0000</pubDate>
       
@@ -134,7 +137,7 @@
     </item>
     
     <item>
-      <title>accessibility</title>
+      <title>Accessibility</title>
       <link>https://estebanmoro.org/tags/accessibility/</link>
       <pubDate>Thu, 14 Mar 2024 00:00:00 +0000</pubDate>
       
@@ -152,7 +155,7 @@
     </item>
     
     <item>
-      <title>environments</title>
+      <title>Environments</title>
       <link>https://estebanmoro.org/tags/environments/</link>
       <pubDate>Thu, 14 Mar 2024 00:00:00 +0000</pubDate>
       
@@ -161,7 +164,7 @@
     </item>
     
     <item>
-      <title>food</title>
+      <title>Food</title>
       <link>https://estebanmoro.org/tags/food/</link>
       <pubDate>Thu, 14 Mar 2024 00:00:00 +0000</pubDate>
       
@@ -170,7 +173,7 @@
     </item>
     
     <item>
-      <title>nutrition</title>
+      <title>Nutrition</title>
       <link>https://estebanmoro.org/tags/nutrition/</link>
       <pubDate>Thu, 14 Mar 2024 00:00:00 +0000</pubDate>
       
@@ -206,7 +209,7 @@
     </item>
     
     <item>
-      <title>covid19</title>
+      <title>Covid19</title>
       <link>https://estebanmoro.org/tags/covid19/</link>
       <pubDate>Sun, 19 Nov 2023 00:00:00 +0000</pubDate>
       
@@ -278,7 +281,7 @@
     </item>
     
     <item>
-      <title>adoption</title>
+      <title>Adoption</title>
       <link>https://estebanmoro.org/tags/adoption/</link>
       <pubDate>Wed, 21 Jun 2023 00:00:00 +0000</pubDate>
       
@@ -287,7 +290,7 @@
     </item>
     
     <item>
-      <title>influence</title>
+      <title>Influence</title>
       <link>https://estebanmoro.org/tags/influence/</link>
       <pubDate>Wed, 21 Jun 2023 00:00:00 +0000</pubDate>
       
@@ -296,7 +299,7 @@
     </item>
     
     <item>
-      <title>marketing</title>
+      <title>Marketing</title>
       <link>https://estebanmoro.org/tags/marketing/</link>
       <pubDate>Wed, 21 Jun 2023 00:00:00 +0000</pubDate>
       
@@ -305,7 +308,7 @@
     </item>
     
     <item>
-      <title>latent</title>
+      <title>Latent</title>
       <link>https://estebanmoro.org/tags/latent/</link>
       <pubDate>Thu, 18 May 2023 00:00:00 +0000</pubDate>
       
@@ -314,7 +317,7 @@
     </item>
     
     <item>
-      <title>machine learning</title>
+      <title>Machine Learning</title>
       <link>https://estebanmoro.org/tags/machine-learning/</link>
       <pubDate>Thu, 18 May 2023 00:00:00 +0000</pubDate>
       
@@ -323,7 +326,7 @@
     </item>
     
     <item>
-      <title>crime</title>
+      <title>Crime</title>
       <link>https://estebanmoro.org/tags/crime/</link>
       <pubDate>Sun, 02 Apr 2023 00:00:00 +0000</pubDate>
       
@@ -359,7 +362,7 @@
     </item>
     
     <item>
-      <title>wordle</title>
+      <title>Wordle</title>
       <link>https://estebanmoro.org/tags/wordle/</link>
       <pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate>
       
@@ -386,7 +389,7 @@
     </item>
     
     <item>
-      <title>resilience</title>
+      <title>Resilience</title>
       <link>https://estebanmoro.org/tags/resilience/</link>
       <pubDate>Sun, 02 Jan 2022 00:00:00 +0000</pubDate>
       
@@ -413,7 +416,7 @@
     </item>
     
     <item>
-      <title>walking</title>
+      <title>Walking</title>
       <link>https://estebanmoro.org/tags/walking/</link>
       <pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate>
       
@@ -422,7 +425,7 @@
     </item>
     
     <item>
-      <title>super-spreading</title>
+      <title>Super-Spreading</title>
       <link>https://estebanmoro.org/tags/super-spreading/</link>
       <pubDate>Fri, 18 Dec 2020 00:00:00 +0000</pubDate>
       
@@ -431,7 +434,7 @@
     </item>
     
     <item>
-      <title>maps</title>
+      <title>Maps</title>
       <link>https://estebanmoro.org/tags/maps/</link>
       <pubDate>Mon, 19 Oct 2020 00:00:00 +0000</pubDate>
       
@@ -449,7 +452,7 @@
     </item>
     
     <item>
-      <title>visualization</title>
+      <title>Visualization</title>
       <link>https://estebanmoro.org/tags/visualization/</link>
       <pubDate>Thu, 31 Oct 2019 00:00:00 +0000</pubDate>
       
@@ -458,7 +461,7 @@
     </item>
     
     <item>
-      <title>Prediction algorithms</title>
+      <title>Prediction Algorithms</title>
       <link>https://estebanmoro.org/tags/prediction-algorithms/</link>
       <pubDate>Tue, 22 Oct 2019 00:00:00 +0000</pubDate>
       
@@ -476,7 +479,7 @@
     </item>
     
     <item>
-      <title>Dunbar number</title>
+      <title>Dunbar Number</title>
       <link>https://estebanmoro.org/tags/dunbar-number/</link>
       <pubDate>Fri, 06 Sep 2019 00:00:00 +0000</pubDate>
       
@@ -503,7 +506,7 @@
     </item>
     
     <item>
-      <title>blog</title>
+      <title>Blog</title>
       <link>https://estebanmoro.org/tags/blog/</link>
       <pubDate>Sat, 02 Feb 2019 00:00:00 +0000</pubDate>
       
@@ -512,7 +515,7 @@
     </item>
     
     <item>
-      <title>hugo</title>
+      <title>Hugo</title>
       <link>https://estebanmoro.org/tags/hugo/</link>
       <pubDate>Sat, 02 Feb 2019 00:00:00 +0000</pubDate>
       
@@ -539,7 +542,7 @@
     </item>
     
     <item>
-      <title>blogdown</title>
+      <title>Blogdown</title>
       <link>https://estebanmoro.org/tags/blogdown/</link>
       <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
       
@@ -647,7 +650,7 @@
     </item>
     
     <item>
-      <title>Image processing</title>
+      <title>Image Processing</title>
       <link>https://estebanmoro.org/tags/image-processing/</link>
       <pubDate>Tue, 24 Apr 2018 11:20:47 +0000</pubDate>
       
@@ -755,7 +758,7 @@
     </item>
     
     <item>
-      <title>igraph</title>
+      <title>Igraph</title>
       <link>https://estebanmoro.org/tags/igraph/</link>
       <pubDate>Mon, 21 Dec 2015 21:17:18 +0000</pubDate>
       
@@ -863,7 +866,7 @@
     </item>
     
     <item>
-      <title>theory</title>
+      <title>Theory</title>
       <link>https://estebanmoro.org/tags/theory/</link>
       <pubDate>Mon, 25 Mar 2013 18:58:09 +0000</pubDate>
       
@@ -881,7 +884,7 @@
     </item>
     
     <item>
-      <title>Recommendation algorithms</title>
+      <title>Recommendation Algorithms</title>
       <link>https://estebanmoro.org/tags/recommendation-algorithms/</link>
       <pubDate>Wed, 12 Sep 2012 12:19:43 +0000</pubDate>
       
@@ -944,7 +947,7 @@
     </item>
     
     <item>
-      <title>conference</title>
+      <title>Conference</title>
       <link>https://estebanmoro.org/tags/conference/</link>
       <pubDate>Mon, 28 Mar 2011 14:51:50 +0000</pubDate>
       
@@ -953,7 +956,7 @@
     </item>
     
     <item>
-      <title>humans</title>
+      <title>Humans</title>
       <link>https://estebanmoro.org/tags/humans/</link>
       <pubDate>Mon, 28 Mar 2011 14:51:50 +0000</pubDate>
       
@@ -962,7 +965,7 @@
     </item>
     
     <item>
-      <title>diffusion</title>
+      <title>Diffusion</title>
       <link>https://estebanmoro.org/tags/diffusion/</link>
       <pubDate>Thu, 25 Nov 2010 10:19:44 +0000</pubDate>
       
@@ -971,7 +974,7 @@
     </item>
     
     <item>
-      <title>ciencia</title>
+      <title>Ciencia</title>
       <link>https://estebanmoro.org/tags/ciencia/</link>
       <pubDate>Wed, 07 Oct 2009 06:00:00 +0000</pubDate>
       
@@ -980,7 +983,7 @@
     </item>
     
     <item>
-      <title>no-tijeras</title>
+      <title>No-Tijeras</title>
       <link>https://estebanmoro.org/tags/no-tijeras/</link>
       <pubDate>Wed, 07 Oct 2009 06:00:00 +0000</pubDate>
       
@@ -989,7 +992,7 @@
     </item>
     
     <item>
-      <title>arcsin law</title>
+      <title>Arcsin Law</title>
       <link>https://estebanmoro.org/tags/arcsin-law/</link>
       <pubDate>Tue, 14 Apr 2009 11:37:02 +0000</pubDate>
       
@@ -998,7 +1001,7 @@
     </item>
     
     <item>
-      <title>brownian motion</title>
+      <title>Brownian Motion</title>
       <link>https://estebanmoro.org/tags/brownian-motion/</link>
       <pubDate>Tue, 14 Apr 2009 11:37:02 +0000</pubDate>
       
@@ -1016,7 +1019,7 @@
     </item>
     
     <item>
-      <title>journal</title>
+      <title>Journal</title>
       <link>https://estebanmoro.org/tags/journal/</link>
       <pubDate>Mon, 30 Mar 2009 06:46:26 +0000</pubDate>
       
@@ -1025,7 +1028,7 @@
     </item>
     
     <item>
-      <title>papers</title>
+      <title>Papers</title>
       <link>https://estebanmoro.org/tags/papers/</link>
       <pubDate>Mon, 30 Mar 2009 06:46:26 +0000</pubDate>
       
@@ -1034,7 +1037,7 @@
     </item>
     
     <item>
-      <title>self-advertising</title>
+      <title>Self-Advertising</title>
       <link>https://estebanmoro.org/tags/self-advertising/</link>
       <pubDate>Mon, 30 Mar 2009 06:46:26 +0000</pubDate>
       
@@ -1061,7 +1064,7 @@
     </item>
     
     <item>
-      <title>Queueing theory</title>
+      <title>Queueing Theory</title>
       <link>https://estebanmoro.org/tags/queueing-theory/</link>
       <pubDate>Wed, 28 Jan 2009 10:54:22 +0000</pubDate>
       
@@ -1070,7 +1073,7 @@
     </item>
     
     <item>
-      <title>Add new tag</title>
+      <title>Add New Tag</title>
       <link>https://estebanmoro.org/tags/add-new-tag/</link>
       <pubDate>Mon, 12 Jan 2009 08:08:00 +0000</pubDate>
       
@@ -1079,7 +1082,7 @@
     </item>
     
     <item>
-      <title>impact factor</title>
+      <title>Impact Factor</title>
       <link>https://estebanmoro.org/tags/impact-factor/</link>
       <pubDate>Mon, 12 Jan 2009 08:08:00 +0000</pubDate>
       
@@ -1088,7 +1091,7 @@
     </item>
     
     <item>
-      <title>long tail</title>
+      <title>Long Tail</title>
       <link>https://estebanmoro.org/tags/long-tail/</link>
       <pubDate>Mon, 12 Jan 2009 08:08:00 +0000</pubDate>
       
@@ -1097,7 +1100,7 @@
     </item>
     
     <item>
-      <title>einstein</title>
+      <title>Einstein</title>
       <link>https://estebanmoro.org/tags/einstein/</link>
       <pubDate>Thu, 18 Dec 2008 09:27:47 +0000</pubDate>
       
@@ -1106,7 +1109,7 @@
     </item>
     
     <item>
-      <title>news</title>
+      <title>News</title>
       <link>https://estebanmoro.org/tags/news/</link>
       <pubDate>Thu, 11 Dec 2008 08:19:12 +0000</pubDate>
       
@@ -1115,7 +1118,7 @@
     </item>
     
     <item>
-      <title>quotes</title>
+      <title>Quotes</title>
       <link>https://estebanmoro.org/tags/quotes/</link>
       <pubDate>Thu, 11 Dec 2008 08:19:12 +0000</pubDate>
       
@@ -1124,7 +1127,7 @@
     </item>
     
     <item>
-      <title>arxiv</title>
+      <title>Arxiv</title>
       <link>https://estebanmoro.org/tags/arxiv/</link>
       <pubDate>Tue, 09 Dec 2008 09:05:42 +0000</pubDate>
       
@@ -1133,7 +1136,7 @@
     </item>
     
     <item>
-      <title>preprint</title>
+      <title>Preprint</title>
       <link>https://estebanmoro.org/tags/preprint/</link>
       <pubDate>Tue, 09 Dec 2008 09:05:42 +0000</pubDate>
       
@@ -1142,7 +1145,7 @@
     </item>
     
     <item>
-      <title>Stochastic differential equation</title>
+      <title>Stochastic Differential Equation</title>
       <link>https://estebanmoro.org/tags/stochastic-differential-equation/</link>
       <pubDate>Thu, 04 Dec 2008 16:45:32 +0000</pubDate>
       
@@ -1151,7 +1154,7 @@
     </item>
     
     <item>
-      <title>wiener</title>
+      <title>Wiener</title>
       <link>https://estebanmoro.org/tags/wiener/</link>
       <pubDate>Thu, 04 Dec 2008 16:45:32 +0000</pubDate>
       
@@ -1160,7 +1163,7 @@
     </item>
     
     <item>
-      <title>response rate</title>
+      <title>Response Rate</title>
       <link>https://estebanmoro.org/tags/response-rate/</link>
       <pubDate>Tue, 02 Dec 2008 09:47:23 +0000</pubDate>
       
@@ -1169,7 +1172,7 @@
     </item>
     
     <item>
-      <title>spam</title>
+      <title>Spam</title>
       <link>https://estebanmoro.org/tags/spam/</link>
       <pubDate>Tue, 02 Dec 2008 09:47:23 +0000</pubDate>
       
@@ -1178,7 +1181,7 @@
     </item>
     
     <item>
-      <title>wikipedia</title>
+      <title>Wikipedia</title>
       <link>https://estebanmoro.org/tags/wikipedia/</link>
       <pubDate>Tue, 02 Dec 2008 09:47:23 +0000</pubDate>
       
@@ -1196,7 +1199,7 @@
     </item>
     
     <item>
-      <title>nobel prize</title>
+      <title>Nobel Prize</title>
       <link>https://estebanmoro.org/tags/nobel-prize/</link>
       <pubDate>Mon, 01 Dec 2008 07:40:05 +0000</pubDate>
       
@@ -1205,7 +1208,7 @@
     </item>
     
     <item>
-      <title>emergence</title>
+      <title>Emergence</title>
       <link>https://estebanmoro.org/tags/emergence/</link>
       <pubDate>Wed, 26 Nov 2008 15:03:29 +0000</pubDate>
       
@@ -1223,7 +1226,7 @@
     </item>
     
     <item>
-      <title>meissner effects</title>
+      <title>Meissner Effects</title>
       <link>https://estebanmoro.org/tags/meissner-effects/</link>
       <pubDate>Mon, 09 Oct 2006 08:09:49 +0000</pubDate>
       
@@ -1232,7 +1235,7 @@
     </item>
     
     <item>
-      <title>superconductivity</title>
+      <title>Superconductivity</title>
       <link>https://estebanmoro.org/tags/superconductivity/</link>
       <pubDate>Mon, 09 Oct 2006 08:09:49 +0000</pubDate>
       
@@ -1241,7 +1244,7 @@
     </item>
     
     <item>
-      <title>youtube</title>
+      <title>Youtube</title>
       <link>https://estebanmoro.org/tags/youtube/</link>
       <pubDate>Mon, 09 Oct 2006 08:09:49 +0000</pubDate>
       
@@ -1250,7 +1253,7 @@
     </item>
     
     <item>
-      <title>high energy physics</title>
+      <title>High Energy Physics</title>
       <link>https://estebanmoro.org/tags/high-energy-physics/</link>
       <pubDate>Wed, 04 Oct 2006 07:24:25 +0000</pubDate>
       
@@ -1259,7 +1262,7 @@
     </item>
     
     <item>
-      <title>nothing</title>
+      <title>Nothing</title>
       <link>https://estebanmoro.org/tags/nothing/</link>
       <pubDate>Wed, 04 Oct 2006 07:24:25 +0000</pubDate>
       
@@ -1268,7 +1271,7 @@
     </item>
     
     <item>
-      <title>hoax</title>
+      <title>Hoax</title>
       <link>https://estebanmoro.org/tags/hoax/</link>
       <pubDate>Tue, 03 Oct 2006 08:12:00 +0000</pubDate>
       
@@ -1277,7 +1280,7 @@
     </item>
     
     <item>
-      <title>physics</title>
+      <title>Physics</title>
       <link>https://estebanmoro.org/tags/physics/</link>
       <pubDate>Tue, 03 Oct 2006 08:12:00 +0000</pubDate>
       
@@ -1286,7 +1289,7 @@
     </item>
     
     <item>
-      <title>prize</title>
+      <title>Prize</title>
       <link>https://estebanmoro.org/tags/prize/</link>
       <pubDate>Wed, 06 Sep 2006 08:13:26 +0000</pubDate>
       
@@ -1295,7 +1298,7 @@
     </item>
     
     <item>
-      <title>journals</title>
+      <title>Journals</title>
       <link>https://estebanmoro.org/tags/journals/</link>
       <pubDate>Tue, 21 Mar 2006 08:17:20 +0000</pubDate>
       
@@ -1304,7 +1307,7 @@
     </item>
     
     <item>
-      <title>wiki</title>
+      <title>Wiki</title>
       <link>https://estebanmoro.org/tags/wiki/</link>
       <pubDate>Tue, 21 Mar 2006 08:17:20 +0000</pubDate>
       
@@ -1313,7 +1316,7 @@
     </item>
     
     <item>
-      <title>kolmogorov</title>
+      <title>Kolmogorov</title>
       <link>https://estebanmoro.org/tags/kolmogorov/</link>
       <pubDate>Wed, 15 Mar 2006 08:25:04 +0000</pubDate>
       
@@ -1322,7 +1325,7 @@
     </item>
     
     <item>
-      <title>causality</title>
+      <title>Causality</title>
       <link>https://estebanmoro.org/tags/causality/</link>
       <pubDate>Wed, 25 Jan 2006 08:22:56 +0000</pubDate>
       
@@ -1331,7 +1334,7 @@
     </item>
     
     <item>
-      <title>correlation</title>
+      <title>Correlation</title>
       <link>https://estebanmoro.org/tags/correlation/</link>
       <pubDate>Wed, 25 Jan 2006 08:22:56 +0000</pubDate>
       
@@ -1340,7 +1343,7 @@
     </item>
     
     <item>
-      <title>flying spaghetti monster</title>
+      <title>Flying Spaghetti Monster</title>
       <link>https://estebanmoro.org/tags/flying-spaghetti-monster/</link>
       <pubDate>Wed, 25 Jan 2006 08:22:56 +0000</pubDate>
       
@@ -1349,7 +1352,7 @@
     </item>
     
     <item>
-      <title>curiosity</title>
+      <title>Curiosity</title>
       <link>https://estebanmoro.org/tags/curiosity/</link>
       <pubDate>Wed, 21 Dec 2005 07:35:08 +0000</pubDate>
       
@@ -1358,7 +1361,7 @@
     </item>
     
     <item>
-      <title>glaciers</title>
+      <title>Glaciers</title>
       <link>https://estebanmoro.org/tags/glaciers/</link>
       <pubDate>Wed, 21 Dec 2005 07:35:08 +0000</pubDate>
       
@@ -1367,7 +1370,7 @@
     </item>
     
     <item>
-      <title>email</title>
+      <title>Email</title>
       <link>https://estebanmoro.org/tags/email/</link>
       <pubDate>Wed, 16 Nov 2005 07:36:34 +0000</pubDate>
       
@@ -1376,7 +1379,7 @@
     </item>
     
     <item>
-      <title>bibliometrics</title>
+      <title>Bibliometrics</title>
       <link>https://estebanmoro.org/tags/bibliometrics/</link>
       <pubDate>Sun, 13 Nov 2005 07:37:57 +0000</pubDate>
       
@@ -1385,7 +1388,7 @@
     </item>
     
     <item>
-      <title>h-index</title>
+      <title>H-Index</title>
       <link>https://estebanmoro.org/tags/h-index/</link>
       <pubDate>Sun, 13 Nov 2005 07:37:57 +0000</pubDate>
       

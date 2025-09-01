@@ -1,21 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>diffusion on </title>
+    <title>Diffusion on </title>
     <link>https://estebanmoro.org/tags/diffusion/</link>
-    <description>Recent content in diffusion on </description>
+    <description>Recent content in Diffusion on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Thu, 25 Nov 2010 10:19:44 +0000</lastBuildDate><atom:link href="https://estebanmoro.org/tags/diffusion/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 25 Nov 2010 10:19:44 +0000</lastBuildDate>
+    
+        <atom:link href="https://estebanmoro.org/tags/diffusion/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Dynamical strength of social ties in information spreading</title>
       <link>https://estebanmoro.org/post/2010-11-25-the-dynamical-strength-of-social-ties-in-information-spreading/</link>
       <pubDate>Thu, 25 Nov 2010 10:19:44 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2010-11-25-the-dynamical-strength-of-social-ties-in-information-spreading/</guid>
-      <description>Authors: Giovanna Miritello, Esteban Moro y Rubén Lara
-Journal: Physical Review E (Rapid Comm) 83, 045102 (2011). LINK | arXiv
-Abstract: We investigate the temporal patterns of human communication and its influence on the spreading of information in social networks. The analysis of mobile phone calls of 20 million people in one country shows that human communication is bursty and happens in group conversations. These features have opposite effects in information reach: while bursts hinder propagation at large scales, conversations favor local rapid cascades.</description>
+      <description>&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Giovanna Miritello, Esteban Moro y Rubén Lara&lt;br&gt;
+&lt;em&gt;Journal&lt;/em&gt;: Physical Review E (Rapid Comm) &lt;strong&gt;83&lt;/strong&gt;, 045102 (2011). &lt;strong&gt;&lt;a href=&#34;https://www.sciencedirect.com/science/article/pii/S0378873310000596&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt; | &lt;strong&gt;&lt;a href=&#34;https://arxiv.org/abs/1011.5367&#34;&gt;arXiv&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; We investigate the temporal patterns of human communication and its influence on the spreading of information in social networks. The analysis of mobile phone calls of 20 million people in one country shows that human communication is bursty and happens in group conversations. These features have opposite effects in information reach: while bursts hinder propagation at large scales, conversations favor local rapid cascades. To explain these phenomena we define the dynamical strength of social ties, a quantity that encompasses both the topological and temporal patterns of human communication.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -24,7 +28,20 @@ Abstract: We investigate the temporal patterns of human communication and its in
       <pubDate>Mon, 11 Jan 2010 09:16:09 +0000</pubDate>
       
       <guid>https://estebanmoro.org/2010/01/relationship-mining/</guid>
-      <description>Each day trillions of emails, phone calls, comments on blogs, twitter messages, exchanges in online social networks, etc. are done. Not only the number of communications has increased, but also each of these transactions leaves a digital trace that can be recorded to reconstruct our high-frequency human activity. It is not only the amount and variety of data that is recorded what is important. Also its high-frequency character and its comprehensive nature have allowed researchers, companies and agencies to investigate individual and group dynamics at an unprecedented level of detail and applied them to client modeling, organizational analysis or epidemic spreading [1].</description>
+      <description>&lt;p&gt;Each day trillions of emails, phone calls, comments on blogs, twitter messages, exchanges in online social networks, etc. are done. Not only the number of communications has increased, but also each of these transactions leaves a digital trace that can be recorded to reconstruct our high-frequency human activity. It is not only the amount and variety of data that is recorded what is important. Also its high-frequency character and its comprehensive nature have allowed researchers, companies and agencies to investigate individual and group dynamics at an unprecedented level of detail and applied them to client modeling, organizational analysis or epidemic spreading [1].&lt;/p&gt;
+&lt;p&gt;However, for technical or privacy reasons only the existence but not of the content of those exchanges is known. Thus we can quantify the intensity and frequency of the interaction but not its type. For decades, social science has measured relationships between individuals in the currency of tie strength, introduced by Granovetter [1]. Weak ties (loose acquaintances) can help to disseminate ideas and/or innovations between different groups, help to find a job or new information; while strong ties (family, trusted friends) hold together organizations and social groups and can affect emotional health. Despite its success to explain these phenomena, tie strength of human relationships is vaguely defined in most large-scale social empirical work. Specifically, relationships are generally quantified by the intensity or duration of communication, although they are known to have significant drawbacks as tie strength predictor [3,4]. Multiplexity, rhythm and depth of the communication seem to be better predictors of tie strength than intensity [4]. Incorporating those metrics in the data mining of online communication might improve the definition of relationships between individuals and in turn transform our understanding of individual dynamics and its impact in our lives, organizations and society [5]. The challenge is to unveil social relationships in social media and not just mere interactions between individuals, which in general over-represent the real structure of a social group [6] (see figure). And this is of paramount importance to understand the propagation of ideas, opinions, commercial messages, etc. in social networks, since most links declared in social networks might be meaningless from a relationship point of view.&lt;/p&gt;
+&lt;p&gt;[caption id=&amp;ldquo;attachment_441&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; width=&amp;ldquo;500&amp;rdquo; caption=&amp;ldquo;Undressing the social network: considering all e-mail interactions in a academic social network (left) yields to a highly dense and connected social network, while strong interactions (based on the individual relative frequency of communication) render the social group sparser and disconnected&amp;rdquo;]&lt;img src=&#34;http://estebanmoro.org/wp-content/uploads/2010/01/undressing1.jpg&#34; alt=&#34;undressing1&#34;&gt;
+[/caption]&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;References&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  1. D. Lazer et al. _Computational Social Science_, Science **323**, 721 (2009)
+  2. M. S. Granovetter, _The Strength of Weak Ties_, The American Journal of Sociology **78(6)**, 1360 (1973)
+  3. P. V. Marsden, and K. E. Campbell _Measuring Tie Strength_ Social Forces **63(2)**, 482 (1990).
+  4. E. Gilbert and K. Karahalios, _Predicting Tie Strength with Social Media_, presented in CHI 2009.
+  5. C. T. Butts, _Revisting the Foundations of Network Analysis_, Science **325**, 414 (2009)
+  6. B. A. Huberman, D. M. Romero, and F. Wu, _Social networks that matter_, First Monday **14(1)** (2009).
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Note: This article appears in the Catalog of the exhibition &amp;ldquo;Culturas del Cambio: Átomos Sociales y Vidas Electrónicas&amp;rdquo; in the Center _&lt;a href=&#34;http://www.artssantamonica.cat/&#34;&gt;Arts Santa Mónica&lt;/a&gt;. _Thanks to  &lt;a href=&#34;http://www.ffn.ub.es/perello/&#34;&gt;Josep Perelló&lt;/a&gt; for his kind invitation to contribute&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -33,7 +50,15 @@ Abstract: We investigate the temporal patterns of human communication and its in
       <pubDate>Thu, 09 Feb 2006 07:31:36 +0000</pubDate>
       
       <guid>https://estebanmoro.org/2006/02/humans-are-superdiffusive/</guid>
-      <description>When tea is poured in a cup of hot water, we observe a phenomenon called diffusion: in the end particles of tea spread evenly throughout the mass of water and we enjoy our cup of tea. Diffusion occurs as a result of the second law of thermodynamics (increase of entropy) and can be modeled quantitatively using the diffusion equation (or heat equation). This is a funny equation, since it establishes that the velocity of spreading is infinite while the mean root square fluctuations of the position of the particles grows in time as</description>
+      <description>&lt;p&gt;When tea is poured in a cup of hot water, we observe a phenomenon called &lt;a href=&#34;http://en.wikipedia.org/wiki/Diffusion&#34;&gt;diffusion&lt;/a&gt;: in the end particles of tea spread evenly throughout the mass of water and we enjoy our cup of tea. Diffusion occurs as a result of the &lt;a href=&#34;http://en.wikipedia.org/wiki/Second_Law_of_Thermodynamics&#34;&gt;second law of thermodynamics&lt;/a&gt; (increase of entropy) and can be modeled quantitatively using the diffusion equation (or heat equation). This is a funny equation, since it establishes that the velocity of spreading is infinite while the mean root square fluctuations of the position of the particles grows in time as&lt;/p&gt;
+&lt;p&gt;$$ \langle x^2 \rangle  = 2 D t$$&lt;/p&gt;
+&lt;p&gt;Specifically, this means that the typical volume covered by the particles of tea in the cup grows like the square root of time, while there is always a chance to find a particle anywhere in the cup. The coefficient &lt;em&gt;D&lt;/em&gt; is called the diffusion constant and depends on thermodynamical properties of the liquid. It was &lt;a href=&#34;http://en.wikipedia.org/wiki/Albert_Einstein&#34;&gt;Einstein&lt;/a&gt; in his miraculous year (1905) who found the &lt;a href=&#34;http://en.wikipedia.org/wiki/Einstein_relation&#34;&gt;relationship with temperature&lt;/a&gt; and mobility of particles in the liquid which is named after him. There are numerous examples of diffusion processes (also known as Brownian motions) from the erratic motion of particles in water found by the botanist Brown in 1827 to the description of price fluctuations in stock markets made by &lt;a href=&#34;http://en.wikipedia.org/wiki/Louis_Bachelier&#34;&gt;Bachelier&lt;/a&gt; in 1900.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/img/posts/baggage.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Of course, not everything in nature is diffusive. Actually, diffusive behavior is related to the &lt;a href=&#34;http://mathworld.wolfram.com/CentralLimitTheorem.html&#34;&gt;Central Limit Theory&lt;/a&gt; and the fact that the mean root square fluctuations is growing linearly in time is telling us that the sum of the kicks than a particle of coffee suffers in the cup add like random numbers to get the CLT result: the variance grows linearly in time. The ubiquity of diffusive behavior is related to the fact that convergence in CLT does not depend on the microscopic details of the random numbers that are summed.&lt;/p&gt;
+&lt;p&gt;In a &lt;a href=&#34;http://www.nature.com/nature/journal/v439/n7075/full/nature04292.html&#34;&gt;recent study published in Nature&lt;/a&gt; and made by D. Brockmann, L. Hufnagel and T. Geisel, these researchers have obtained quantitative assessment of the displacements of humans by analyzing the circulation of bank notes in the United States obtained in the &lt;a href=&#34;http://www.wheresgeorge.com/&#34;&gt;Where is George?&lt;/a&gt; website. They observe that human travel is somehow a random process governed by super-diffusive jumps to get&lt;/p&gt;
+&lt;p&gt;$$\langle x^2 \rangle = 2 D_1 t$$&lt;/p&gt;
+&lt;p&gt;which says that the typical area covered by humans when traveling is linear in time. This behavior is nothing unexpected, since humans tend to mix short travels around their neighborhood with business or holiday travels. The authors study several statistical properties of the travel of humans to find that it can be described by a &lt;a href=&#34;http://www.weizmann.ac.il/ESER/People/Brian/CTRW/&#34;&gt;Continuous Time Random Walk &lt;/a&gt;(CTRW). Their study can be relevant to any other thing carried by humans, like viruses or diseases and thus it pertains to epidemiology.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

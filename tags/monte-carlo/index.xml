@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Monte Carlo on </title>
@@ -6,17 +5,23 @@
     <description>Recent content in Monte Carlo on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Mon, 25 Aug 2003 09:44:10 +0000</lastBuildDate><atom:link href="https://estebanmoro.org/tags/monte-carlo/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 25 Aug 2003 09:44:10 +0000</lastBuildDate>
+    
+        <atom:link href="https://estebanmoro.org/tags/monte-carlo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Emergence of pulled fronts in fermionic microscopic particle models</title>
       <link>https://estebanmoro.org/post/2003-08-25-emergence-of-pulled-fronts-in-fermionic-microscopic-particle-models/</link>
       <pubDate>Mon, 25 Aug 2003 09:44:10 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2003-08-25-emergence-of-pulled-fronts-in-fermionic-microscopic-particle-models/</guid>
-      <description>Authors: Esteban Moro
-Phys. Rev. E, Rapid Communication, 68, 025102 (2003). LINK | arXiv
-Abstract:
-We study the emergence and dynamics of pulled fronts described by the Fisher-Kolmogorov-Petrovsky-Piscounov (FKPP) equation in the microscopic reaction-diffusion process \(A\leftrightarrow A+A\) on the lattice when only a particle is allowed per site. To this end we identify the parameter that controls the strength of internal fluctuations in this model, namely, the number of particles per correlated volume.</description>
+      <description>&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Esteban Moro&lt;br&gt;
+Phys. Rev. E, Rapid Communication, &lt;strong&gt;68&lt;/strong&gt;, 025102 (2003). &lt;strong&gt;&lt;a href=&#34;https://journals.aps.org/pre/abstract/10.1103/PhysRevE.68.025102&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt; |  &lt;strong&gt;&lt;a href=&#34;https://arxiv.org/abs/cond-mat/0307378&#34;&gt;arXiv&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;We study the emergence and dynamics of pulled fronts described by the Fisher-Kolmogorov-Petrovsky-Piscounov (FKPP) equation in the microscopic reaction-diffusion process &lt;code&gt;\(A\leftrightarrow A+A\)&lt;/code&gt; on the lattice when only a particle is allowed per site. To this end we identify the parameter that controls the strength of internal fluctuations in this model, namely, the number of particles per correlated volume. When internal fluctuations are suppressed, we explictly see the matching between the deterministic FKPP description and the microscopic particle model&lt;/p&gt;
+&lt;!--- **Press:** ----&gt;
+</description>
     </item>
     
   </channel>

@@ -1,20 +1,99 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>blog on </title>
+    <title>Blog on </title>
     <link>https://estebanmoro.org/tags/blog/</link>
-    <description>Recent content in blog on </description>
+    <description>Recent content in Blog on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Sat, 02 Feb 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://estebanmoro.org/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 02 Feb 2019 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://estebanmoro.org/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Setting up your blog with RStudio and blogdown II: Workflow</title>
       <link>https://estebanmoro.org/post/2019-02-01-setting-up-your-blog-with-rstudio-and-blogdown/</link>
       <pubDate>Sat, 02 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2019-02-01-setting-up-your-blog-with-rstudio-and-blogdown/</guid>
-      <description>This is Part III of my series of posts about how to setup you blog with RStudio and blogdown. The other parts are:
-   Part I about to setup the blog using Hugo, RStudio and blogdown Part II explains my workflow of creating new posts. Part III on how to modify the theme.   Workflow In Part I of this series of post we setup our new blog using blogdown and Hugo.</description>
+      <description>
+
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;This is Part III of my series of posts about how to setup you blog with RStudio and blogdown. The other parts are:&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;&lt;a href=&#34;https://estebanmoro.org/post/2019-02-02-setting-up-your-blog-with-rstudio-and-blogdown-i-creating-the-blog/&#34;&gt;Part I&lt;/a&gt; about to setup the blog using Hugo, RStudio and blogdown&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Part II explains my workflow of creating new posts.&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;&lt;a href=&#34;https://estebanmoro.org/post/2019-02-04-setting-up-your-blog-with-rstudio-and-blogdown-iii-modify-your-theme/&#34;&gt;Part III&lt;/a&gt; on how to modify the theme.&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;div id=&#34;workflow&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Workflow&lt;/h2&gt;
+&lt;p&gt;In &lt;a href=&#34;https://estebanmoro.org/post/2019-02-02-setting-up-your-blog-with-rstudio-and-blogdown-i-creating-the-blog/&#34;&gt;Part I&lt;/a&gt; of this series of post we setup our new blog using blogdown and Hugo. Once the blog is configured, this is the typical workflow I follow to write new posts and update my blog online:&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;em&gt;Open your blog project with RStudio&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Load the blogdown library&lt;/em&gt; and start the Hugo server and browser&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(blogdown)
+blogdown::serve_site()&lt;/code&gt;&lt;/pre&gt;
+&lt;ol start=&#34;3&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;em&gt;Create new post&lt;/em&gt;: the best way is to use the RStudio Addins → New post. The Addins menu is in the top bar of RStudio, but you can also get it using&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;blogdown:::new_post_addin()&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Then you will get a window like this&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/img/posts/new_post_blogdown.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Fill in all the details. Don’t forget to choose plain markdown or R markdown. Use the latter if you want to include some R code.&lt;/p&gt;
+&lt;p&gt;A new markdown will open with the YAML header filled with the title, author, date, etc. of the posts.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/img/posts/new_post_yaml.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Take some time here to change/add categories and tags to your blog. You can also:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Add a featured image which will appear at the top of the post in some themes (like the casper-two that I chose)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;code&gt;image: /img/posts/image_for_this_post.png&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Since you will take some time to write your new post (even some days), I suggest to include also the variable:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;code&gt;draft: true&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;in the YAML. If you do this, the post will show up in the Rstudio/Hugo local developing environment. But it will not be rendered when we build the deploy version of the blog. Once you have finished writint it change it to &lt;code&gt;draft: false&lt;/code&gt; so next time we build the deployment version of the blog the post will be included.&lt;/p&gt;
+&lt;ol start=&#34;4&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;After that start writing your amazing post. Everytime you save a new version of the R/markdown file, the Hugo server will render the new version of the blog and you will get in the console something like this&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/img/posts/server_built.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Editing a R/markdown is super easy. You can find some really good guides to do that here&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://rmarkdown.rstudio.com/lesson-1.html&#34;&gt;Introduction to R Markdown&lt;/a&gt; from Rstudio.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.markdownguide.org/getting-started&#34;&gt;Mardown Guide&lt;/a&gt; by Matt Cone&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Underneath Hugo is taking care of converting everything into HTML. This means that you can also use &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/&#34;&gt;Hugo shortcodes&lt;/a&gt; in the markdown to do things like inserting a tweet or a youtube video. Shortcodes are simple shortcuts to render HTML, iframes, etc. in those cases. Shortcodes appear in your R/markdown like this in markdown&lt;/p&gt;
+&lt;p&gt;{{&amp;lt;/* myshortcode */&amp;gt;}}&lt;/p&gt;
+&lt;p&gt;of like this in R markdown&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;{{ % ... %}}&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;For example, if we want to include this youtube video &lt;a href=&#34;https://www.youtube.com/watch?v=2WTWx0yknQQ&#34;&gt;https://www.youtube.com/watch?v=2WTWx0yknQQ&lt;/a&gt; in your R/markdown, you simply have to include the following code in your text:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;{{&amp;lt; youtube 2WTWx0yknQQ &amp;gt;}}&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Or to include this tweet &lt;a href=&#34;https://twitter.com/xieyihui/status/817461069014859780&#34;&gt;https://twitter.com/xieyihui/status/817461069014859780&lt;/a&gt; simply use this code&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;{{&amp;lt; x user=&#34;xieyihui&#34; id=&#34;817461069014859780&#34; &amp;gt;}}&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Check the complete list of already available shortcodes &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/&#34;&gt;here&lt;/a&gt;. You can even write your own ones as we will see later in Part III of this tutorial.&lt;/p&gt;
+&lt;ol start=&#34;5&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;If you are happy with your post, remove the &lt;code&gt;draft: true&lt;/code&gt; line in the YAML and we are ready to deploy the new version of your blog to our domain. Here is the commands in RStudio I use to do that:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;system(&amp;quot;rm -r ~/best_blog_ever/public/*&amp;quot;)
+blogdown::hugo_build(local=F)
+system(&amp;quot;~/best_blog_ever/deploy.sh&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The fist command simply erases the &lt;code&gt;public&lt;/code&gt; directory that contained the old version of the blog. This is probably not needed, but it gives me peace of mind :).&lt;/p&gt;
+&lt;p&gt;The second command builds the blog. Note the &lt;code&gt;local=F&lt;/code&gt; flag which tells Hugo to build a deployment version of the blog, meaning that all the posts with &lt;code&gt;draft: true&lt;/code&gt; will not be rendered.&lt;/p&gt;
+&lt;p&gt;The third command is my personal deployment script. Although most of the &lt;a href=&#34;https://bookdown.org/yihui/blogdown/deployment.html&#34;&gt;guides out there&lt;/a&gt; show you how to deploy your blog using &lt;a href=&#34;https://www.netlify.com&#34;&gt;Netlify&lt;/a&gt; and/or GitHub, I am using my own domain and space at Dreamhost. Then to update my blog I simply synchronize (using &lt;code&gt;rsync&lt;/code&gt;) the &lt;code&gt;public&lt;/code&gt; directory with the root directory of my domain. Here is my &lt;code&gt;deploy.sh&lt;/code&gt; script&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;#!/bin/sh 
+USER=your_user_to_your_blog_domain
+HOST=your_dream_host_machine.dreamhost.com
+DIR=your_blog_domain/
+rsync -avz --exclude-from &amp;#39;exclude-list.txt&amp;#39; --delete public/ ${USER}@${HOST}:~/${DIR}
+exit 0&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;you might also notice that I have excluded some files in the synchronization which are specified in the file &lt;code&gt;exclude-list.txt&lt;/code&gt;. In my case I only have the &lt;code&gt;.htacces&lt;/code&gt; file there.&lt;/p&gt;
+&lt;p&gt;All done!&lt;/p&gt;
+&lt;/div&gt;
+</description>
     </item>
     
     <item>
@@ -23,8 +102,259 @@
       <pubDate>Sat, 02 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2019-02-04-setting-up-your-blog-with-rstudio-and-blogdown-iii-modify-your-theme/</guid>
-      <description>This is Part III of my series of posts about how to setup you blog with RStudio and blogdown. The other parts are:
-   Part I about to setup the blog using Hugo, RStudio and blogdown Part II explains my workflow of creating new posts. Part III (this one) how to modify the theme.   In this post I am going to show how I modified the original theme casper-two that I use for my blog.</description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;This is Part III of my series of posts about how to setup you blog with RStudio and blogdown. The other parts are:&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;&lt;a href=&#34;https://estebanmoro.org/post/2019-02-02-setting-up-your-blog-with-rstudio-and-blogdown-i-creating-the-blog/&#34;&gt;Part I&lt;/a&gt; about to setup the blog using Hugo, RStudio and blogdown&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;&lt;a href=&#34;https://estebanmoro.org/post/2019-02-01-setting-up-your-blog-with-rstudio-and-blogdown/&#34;&gt;Part II&lt;/a&gt; explains my workflow of creating new posts.&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Part III (this one) how to modify the theme.&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/blockquote&gt;
+&lt;p&gt;In this post I am going to show how I modified the original theme &lt;code&gt;casper-two&lt;/code&gt; that I use for my blog. It is a great theme, but for sure you would like to change the menus, the appearance, the structure of the information in the blog, etc.&lt;/p&gt;
+&lt;p&gt;Content:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#hugo-internals&#34;&gt;Hugo internals&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#changing-the-main-menu&#34;&gt;Changing the main menu&lt;/a&gt;&lt;/li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#google-analytics&#34;&gt;Google Analytics&lt;/a&gt;&lt;/li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#math-equations&#34;&gt;Math equations&lt;/a&gt;&lt;/li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#custom-css&#34;&gt;Custom CSS&lt;/a&gt;&lt;/li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#altmetrics&#34;&gt;Altmetrics&lt;/a&gt;&lt;/li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#show-only-some-posts-in-the-main-page&#34;&gt;Show only some posts in the main page&lt;/a&gt;&lt;/li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#fixing-youtube&#34;&gt;Fixing Youtube&lt;/a&gt;&lt;/li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;hugo-internals&#34;&gt;Hugo internals&lt;/h2&gt;
+&lt;p&gt;But before that we have to learn a little bit about how Hugo and our theme works underneath our blog. If you have a look the folder where your blog is, you will find this structure&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/img/posts/folder-structure.png&#34; alt=&#34;&#34;&gt;{width=80%}&lt;/p&gt;
+&lt;p&gt;The last directory (&lt;code&gt;hugo-casper-two&lt;/code&gt;) contains the theme files and has this structure:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/img/posts/theme-folder.png&#34; alt=&#34;&#34;&gt;{width=80%}&lt;/p&gt;
+&lt;p&gt;The folder &lt;code&gt;layouts&lt;/code&gt; contains a lot of html files in HUGO format that specify how our pages are going to be rendered. Each file is a mixture of html and HUGO variables. For example, this is how the &lt;code&gt;index.html&lt;/code&gt; looks like&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;{{ partial &amp;#34;head&amp;#34; . }}
+
+&amp;lt;body class=&amp;#34;home-template&amp;#34;&amp;gt;&amp;lt;div class=&amp;#34;site-wrapper&amp;#34;&amp;gt;
+
+{{ partial &amp;#34;header&amp;#34; . }}
+
+&amp;lt;main id=&amp;#34;site-main&amp;#34; class=&amp;#34;site-main outer&amp;#34; role=&amp;#34;main&amp;#34;&amp;gt;
+  &amp;lt;div class=&amp;#34;inner&amp;#34;&amp;gt;
+    &amp;lt;div class=&amp;#34;post-feed&amp;#34;&amp;gt;
+      {{ partial &amp;#34;post-list-main&amp;#34; . }}
+    &amp;lt;/div&amp;gt;
+
+    &amp;lt;nav class=&amp;#34;pagination&amp;#34; role=&amp;#34;navigation&amp;#34;&amp;gt;
+      {{if .Paginator.HasPrev}}
+          &amp;lt;a class=&amp;#34;newer-posts&amp;#34; href=&amp;#34;{{ .Paginator.Prev.URL }}&amp;#34;&amp;gt;&amp;amp;larr; 
+               &amp;lt;span class=&amp;#34;hide&amp;#34;&amp;gt;Next Posts&amp;lt;/span&amp;gt;&amp;lt;/a&amp;gt;
+      {{end}}
+      &amp;lt;span class=&amp;#34;page-number&amp;#34;&amp;gt;&amp;lt;span class=&amp;#34;hide&amp;#34;&amp;gt;Page {{ .Paginator.PageNumber }} 
+            of {{.Paginator.TotalPages}}&amp;lt;/span&amp;gt;&amp;amp;nbsp;&amp;lt;/span&amp;gt;
+      {{if .Paginator.HasNext}}
+          &amp;lt;a class=&amp;#34;older-posts&amp;#34; href=&amp;#34;{{ .Paginator.Next.URL }}&amp;#34;&amp;gt;
+          &amp;lt;span class=&amp;#34;hide&amp;#34;&amp;gt;Previous Posts&amp;lt;/span&amp;gt; &amp;amp;rarr;&amp;lt;/a&amp;gt;
+      {{end}}
+    &amp;lt;/nav&amp;gt;
+  &amp;lt;/div&amp;gt;
+&amp;lt;/main&amp;gt;
+
+{{ partial &amp;#34;footer&amp;#34; . }}
+&amp;lt;/div&amp;gt;{{ partial &amp;#34;js&amp;#34; . }}&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Each &lt;code&gt;{{ }}&lt;/code&gt; command tells Hugo to do something. In particular the first one (&lt;code&gt;{{ partial &amp;quot;head&amp;quot; . }}&lt;/code&gt;) includes in that position the partial &lt;code&gt;head.html&lt;/code&gt; which is also in the layouts folder. Then it comes some HTML, another partial &lt;code&gt;header.html&lt;/code&gt;, etc. You can also put controls/functions for the final code (see for example the &lt;em&gt;if&lt;/em&gt; control &lt;code&gt;{{if .Paginator.HasPrev}}&lt;/code&gt;) or output some variables in the code depending on the context (&lt;code&gt;{{ .Paginator.Prev.URL }}&lt;/code&gt;), etc. Variables and parameters are preceded by a dot. For example .Site.BaseURL` is the base URL for the site.&lt;/p&gt;
+&lt;p&gt;Have a look at how Hugo manages the content in the templates in the &lt;a href=&#34;https://gohugo.io/content-management/&#34;&gt;Hugo webpage&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Modifying the template requires to changing the files for the different layouts. But instead of modifying the original template files in the &lt;code&gt;themes&lt;/code&gt; folder, it is better to &lt;a href=&#34;https://bookdown.org/yihui/blogdown/custom-layouts.html&#34;&gt;follow the advise here&lt;/a&gt; and replicate the layouts structure outside the &lt;code&gt;themes&lt;/code&gt; folder. Hugo will read first our own &lt;code&gt;layout&lt;/code&gt; folder and then the &lt;code&gt;layout&lt;/code&gt; folder in the original theme. For example, in this post we are going to modify &lt;code&gt;index.html&lt;/code&gt;, &lt;code&gt;js.html&lt;/code&gt;, etc. And create new layouts &lt;code&gt;post-list-main.html&lt;/code&gt; or shortcodes like &lt;code&gt;yt.html&lt;/code&gt;. So your final blog folder will look like this.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/img/posts/folder_layouts.png&#34; alt=&#34;&#34;&gt;{width=80%}&lt;/p&gt;
+&lt;h2 id=&#34;changing-the-main-menu&#34;&gt;Changing the main menu&lt;/h2&gt;
+&lt;p&gt;This is really easy. Go to your &lt;code&gt;config.toml&lt;/code&gt; and you will see a number of &lt;code&gt;[[menu.main]]&lt;/code&gt; items in it. Change them to link to&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Category pages, showing all the posts in a category. Like this:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;[[menu.main]]
+  name = &amp;#34;Publications&amp;#34;
+  url = &amp;#34;/categories/publications&amp;#34;
+  weight = 150
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Individual pages. A link to a particular page/post in your blog&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;[[menu.main]]
+  name = &amp;#34;About&amp;#34;
+  url = &amp;#34;/about/&amp;#34;
+  weight = 94
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;External pages. A link to a external page not in your blog&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;[[menu.main]]
+  name = &amp;#34;My University&amp;#34;
+  url = &amp;#34;http://www.uc3m.es&amp;#34;
+  weight = 32
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;The &lt;code&gt;weight&lt;/code&gt; controls the order in which they appear. Higher weights mean they will appear in the leftmost positions.&lt;/p&gt;
+&lt;h2 id=&#34;google-analytics&#34;&gt;Google Analytics&lt;/h2&gt;
+&lt;p&gt;If you want to use Google Analytics for your blog, you can do it by specifying your Google Analytics tracking id in the &lt;code&gt;config.toml&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;googleAnalytics = &amp;quot;UA-XXXXYYZZY-X&amp;quot;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;It works great, but there is something that I didn&amp;rsquo;t like: the tracking works even in your production environment when you are running the &lt;code&gt;blogdown::serve_site()&lt;/code&gt;. This means that when you are writing a post, updating locally your pictures, etc., and you navigate your blog in Rstudio, it will count as visits to your blog in Google Analytics.&lt;/p&gt;
+&lt;p&gt;We are going to modify the theme so that only visits from others are counted in Google Analytics. To do that we are going to copy the file &lt;code&gt;js.html&lt;/code&gt; to our local &lt;code&gt;layouts&lt;/code&gt; folder. If you edit it you will see that the Google Analytics script is the following part:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;{{ with .Site.Params.googleAnalytics }}
+  {{ &amp;#34;&amp;lt;!-- Google Analytics --&amp;gt;&amp;#34; | safeHTML }}
+  &amp;lt;script&amp;gt;
+    var _gaq=[[&amp;#39;_setAccount&amp;#39;,&amp;#39;{{ . }}&amp;#39;],[&amp;#39;_trackPageview&amp;#39;]];
+    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+    g.src=(&amp;#39;https:&amp;#39;==location.protocol?&amp;#39;//ssl&amp;#39;:&amp;#39;//www&amp;#39;)+&amp;#39;.google-analytics.com/ga.js&amp;#39;;
+    s.parentNode.insertBefore(g,s)}(document,&amp;#39;script&amp;#39;));
+  &amp;lt;/script&amp;gt;
+{{ end }}
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;But we are going to tell Hugo to include this script only if the webpage is in the final domain, that is, if we build the final deployment version of our blog. To do that you have to change the above code to&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;{{ $baseurl := printf &amp;#34;%s&amp;#34; .Site.BaseURL }}
+
+{{ if eq $baseurl &amp;#34;http://estebanmoro.org/&amp;#34; }}
+
+{{ with .Site.Params.googleAnalytics }}
+  {{ &amp;#34;&amp;lt;!-- Google Analytics --&amp;gt;&amp;#34; | safeHTML }}
+  &amp;lt;script&amp;gt;
+    var _gaq=[[&amp;#39;_setAccount&amp;#39;,&amp;#39;{{ . }}&amp;#39;],[&amp;#39;_trackPageview&amp;#39;]];
+    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+    g.src=(&amp;#39;https:&amp;#39;==location.protocol?&amp;#39;//ssl&amp;#39;:&amp;#39;//www&amp;#39;)+&amp;#39;.google-analytics.com/ga.js&amp;#39;;
+    s.parentNode.insertBefore(g,s)}(document,&amp;#39;script&amp;#39;));
+  &amp;lt;/script&amp;gt;
+{{ end }}
+
+{{ end }}
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Note the &lt;code&gt;if&lt;/code&gt; before the script that tells Hugo to include it only if the base URL for the site coincides with the domain (in this case my domain &lt;code&gt;http://estebanmoro.org)&lt;/code&gt;). I have tried other solutions mentioned &lt;a href=&#34;https://discourse.gohugo.io/t/how-to-exclude-google-analytics-when-running-under-hugo-local-server/6092&#34;&gt;here&lt;/a&gt; and &lt;a href=&#34;https://simpleit.rocks/golang/hugo/avoid-loading-portions-of-code-locally-in-hugo/&#34;&gt;here&lt;/a&gt;, but this is the only that worked for me.&lt;/p&gt;
+&lt;h2 id=&#34;math-equations&#34;&gt;Math equations&lt;/h2&gt;
+&lt;p&gt;One of the best thing (at least for me) of R markdown is the ability to type directly into &lt;code&gt;\(\LaTeX\)&lt;/code&gt;. This way I can type&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;$\int_0^\infty f(x) dx$ &lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;and it will be rendered as&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;\(\int_0^\infty f(x) dx\)&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;However, the &lt;code&gt;casper-two&lt;/code&gt; theme does not come with the MathJax javascript library which displays mathematical equations in the browser. To include it we have to add the javascript somewhere in the head of all pages. Let&amp;rsquo;s do it using the &lt;code&gt;js.html&lt;/code&gt;. Once again, edit the file in your &lt;code&gt;layouts&lt;/code&gt; folder and add the following line at the top:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;&amp;lt;script type=&amp;#34;text/javascript&amp;#34;
+src=&amp;#34;https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML&amp;#34;&amp;gt;&amp;lt;/script&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;altmetrics&#34;&gt;Altmetrics&lt;/h2&gt;
+&lt;p&gt;For those of us that work in academia, we use the number of citations or alternative ways to measure the impact of a paper. One of them is &lt;a href=&#34;https://www.altmetric.com&#34;&gt;Altmetric&lt;/a&gt; which is particularly useful to track who is talking about your research in social media, newspapers, blogs, etc.&lt;/p&gt;
+&lt;p&gt;Here is how the Altmetric page looks for one of my papers:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.altmetric.com/details/24733392&#34;&gt;&lt;img src=&#34;https://estebanmoro.org/img/posts/altmetric_badge.png&#34; alt=&#34;&#34;&gt;{width=80%}&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;On the top left you can see the Altmetric &lt;strong&gt;bagde&lt;/strong&gt; for your paper, which is a sum of the mention in news outlets, blogs, Twitter users, etc.&lt;/p&gt;
+&lt;p&gt;Altmetric provides free javascript to embed that badge in your webpage (in a lab or personal homepage), so I decided to use it in each of my papers. Here are the instructions from the &lt;a href=&#34;http://api.altmetric.com/embeds.html&#34;&gt;Altmetric page&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Firstly, we have to include the Altmetric javascript in our pages. Edit the &lt;code&gt;js.html&lt;/code&gt; again to include:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;&amp;lt;script id=&amp;#34;altmetric-embed-js&amp;#34; type=&amp;#34;text/javascript&amp;#34;
+src=&amp;#39;https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js&amp;#39;&amp;gt;&amp;lt;/script&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Note that I have included the &lt;code&gt;id=&amp;quot;altmetric-embed-js&amp;quot;&lt;/code&gt; part to the script. The instructions at Altmetrics do not mention the &lt;code&gt;id&lt;/code&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Get the DOI for your article. The DOI is a universal identification number for each paper. Most likely you can get it from the journal publication page. For the my paper is &lt;code&gt;10.1371/journal.pone.0195750&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;If you want to include your badge in your R/markdown:&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;&amp;lt;div class=&amp;#39;altmetric-embed&amp;#39; data-badge-type=&amp;#39;donut&amp;#39;
+data-badge-popover=&amp;#34;right&amp;#34;
+data-doi=&amp;#34;10.1371/journal.pone.0195750&amp;#34;&amp;gt;&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;If everything worked you will see something like this:&lt;/p&gt;
+&lt;center&gt;&lt;div class=&#39;altmetric-embed&#39; data-badge-type=&#39;large-donut&#39; data-badge-popover=&#34;right&#34;  data-doi=&#34;10.1371/journal.pone.0195750&#34;&gt;&lt;/div&gt;&lt;/center&gt;
+&lt;p&gt;You can modify and build your own badge. Check &lt;a href=&#34;http://api.altmetric.com/embeds.html&#34;&gt;all the options here&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;custom-css&#34;&gt;Custom CSS&lt;/h2&gt;
+&lt;p&gt;You can also modify the style of your webpage through CSS. Although the CSS file of &lt;code&gt;casper-two&lt;/code&gt; theme is buried in the theme folder, there is a possibility to override some of the styles by using a custom CSS. To do that you have to edit the &lt;code&gt;customCSS = [&amp;quot;&amp;quot;]&lt;/code&gt; in your &lt;code&gt;config.toml&lt;/code&gt;. In my case I added a file &lt;code&gt;overrides.css&lt;/code&gt; to the &lt;code&gt;static/css&lt;/code&gt; folder and change the &lt;code&gt;config.toml&lt;/code&gt; file to:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;customCSS = [&amp;quot;css/overrides.css&amp;quot;]&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Here are the contents of my &lt;code&gt;overrides.css&lt;/code&gt; in case you want to use it. It basically changes the title font size and weight:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;.site-title {
+    font-weight: 200;
+    font-size: 7rem;
+}
+.site-header:before {
+    background: rgba(0, 0, 0, 0.5);
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;show-only-some-posts-in-the-main-page&#34;&gt;Show only some posts in the main page&lt;/h2&gt;
+&lt;p&gt;On the things that I missed in my new blog is the ability to show in the main page only the posts that I want. For example, I have a &lt;a href=&#34;https://estebanmoro.org/post/list-of-publications/&#34;&gt;list of publications&lt;/a&gt; that I update regularly but I don&amp;rsquo;t want it to show in the main page. Or you could have a tutorial and you only want it to show up in a specific part of your blog.&lt;/p&gt;
+&lt;p&gt;To do that we are going to add a new parameter (by post) &lt;code&gt;hidden&lt;/code&gt; that tells Hugo to show the post in the main page (&lt;code&gt;hidden: false&lt;/code&gt;) or not (&lt;code&gt;hidden: true&lt;/code&gt;). Edit your post and include it in the post YAML as it is done here:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;---
+title: List of Publications
+author: Esteban Moro
+date: &amp;#39;2019-01-31&amp;#39;
+slug: list-of-publications
+hidden: true
+categories:
+  - Publications
+image: &amp;#34;img/Publications.jpg&amp;#34;
+---
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Next thing is to modify the layouts of your theme so that when your blog is rendered by Hugo it does not show posts with &lt;code&gt;hidden: true&lt;/code&gt; in your main page.&lt;/p&gt;
+&lt;p&gt;The way I did it is the following:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Copy the &lt;code&gt;post-list.hml&lt;/code&gt; partial in the &lt;code&gt;layout/partials&lt;/code&gt; folder of the theme to your own &lt;code&gt;layout/partials&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Rename the &lt;code&gt;post-list.html&lt;/code&gt; to &lt;code&gt;post-list-main.html&lt;/code&gt;. The reason for this is that we are going to change the latter by we want the theme to use the former when necessary.&lt;/li&gt;
+&lt;li&gt;Edit the &lt;code&gt;post-list-main.html&lt;/code&gt; it looks like this&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;{{ $paginator := .Paginate (where .Data.Pages.ByDate.Reverse &amp;#34;Type&amp;#34; &amp;#34;post&amp;#34;) }}
+{{ range $paginator.Pages }}
+{{ if not .Params.hidden }}
+
+&amp;lt;article class=&amp;#34;post-card post&amp;#34;&amp;gt; 
+    {{if .Params.image}}
+    &amp;lt;a class=&amp;#34;post-card-image-link&amp;#34; href=&amp;#34;{{ .Permalink }}&amp;#34;&amp;gt;
+      &amp;lt;div class=&amp;#34;post-card-image&amp;#34; style=&amp;#34;background-image: url({{.Params.image | absURL}})&amp;#34;&amp;gt;&amp;lt;/div&amp;gt;
+    &amp;lt;/a&amp;gt;
+    {{else}}
+    &amp;lt;a class=&amp;#34;post-card-image-link&amp;#34; href=&amp;#34;{{ .Permalink }}&amp;#34;&amp;gt;
+    &amp;lt;div class=&amp;#34;post-card-image&amp;#34; style=&amp;#34;background-image: url({{$.Site.BaseURL}}defimg/{{ index (seq 7 | shuffle) 0 }}.jpg)&amp;#34;&amp;gt;&amp;lt;/div&amp;gt;
+    &amp;lt;/a&amp;gt;    
+    {{end}}
+
+    &amp;lt;div class=&amp;#34;post-card-content&amp;#34;&amp;gt;
+      &amp;lt;a class=&amp;#34;post-card-content-link&amp;#34; href=&amp;#34;{{ .Permalink }}&amp;#34;&amp;gt;
+          &amp;lt;header class=&amp;#34;post-card-header&amp;#34;&amp;gt;
+              {{if .Params.tags }}&amp;lt;span class=&amp;#34;post-card-tags&amp;#34;&amp;gt;{{ range $index, $tag := .Params.tags }}
+              #{{$tag}} {{end}} &amp;lt;/span&amp;gt;
+              {{ end }}
+              &amp;lt;h2 class=&amp;#34;post-card-title&amp;#34;&amp;gt;{{.Title}}&amp;lt;/h2&amp;gt;
+          &amp;lt;/header&amp;gt;
+          &amp;lt;section class=&amp;#34;post-card-excerpt&amp;#34;&amp;gt;
+              {{ if .Description }} 
+                &amp;lt;p&amp;gt;{{ .Description | markdownify }}&amp;lt;/p&amp;gt;
+              {{else}}
+                &amp;lt;p&amp;gt;{{ .Summary | plainify | safeHTML }}{{ if .Truncated }} ... {{end}} &amp;lt;/p&amp;gt;
+              {{end}}
+          &amp;lt;/section&amp;gt;
+      &amp;lt;/a&amp;gt;
+
+      &amp;lt;footer class=&amp;#34;post-card-meta&amp;#34;&amp;gt;
+          &amp;lt;img class=&amp;#34;author-profile-image&amp;#34; src=&amp;#34;{{ (.Params.authorAvatar | default .Site.Params.authorAvatar) | absURL}}&amp;#34; alt=&amp;#34;Author&amp;#34; /&amp;gt;
+          &amp;lt;span class=&amp;#34;post-card-author&amp;#34;&amp;gt;&amp;lt;a href=&amp;#34;/&amp;#34;&amp;gt;{{.Params.author | default .Site.Params.author}}&amp;lt;/a&amp;gt;&amp;lt;/span&amp;gt;
+      &amp;lt;/footer&amp;gt;
+    &amp;lt;/div&amp;gt;
+&amp;lt;/article&amp;gt;
+{{ end }}
+
+{{ end }}
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Note the &lt;code&gt;if&lt;/code&gt; in the third line that only renders each of the posts if &lt;code&gt;.Params.hidden&lt;/code&gt; is not true.&lt;/p&gt;
+&lt;p&gt;Finally we have to modify &lt;code&gt;index.html&lt;/code&gt; (once again copy it to your local &lt;code&gt;layouts&lt;/code&gt; folder) to tell Hugo to use the new &lt;code&gt;post-list-main.html&lt;/code&gt; instead of the old &lt;code&gt;post-list.html&lt;/code&gt;. If you edit &lt;code&gt;index.html&lt;/code&gt; change these lines:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;  &amp;lt;div class=&amp;#34;post-feed&amp;#34;&amp;gt;
+      {{ partial &amp;#34;post-list&amp;#34; . }}
+  &amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;to this one:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;  &amp;lt;div class=&amp;#34;post-feed&amp;#34;&amp;gt;
+      {{ partial &amp;#34;post-list-main&amp;#34; . }}
+  &amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;And you are done. All posts with &lt;code&gt;hidden: true&lt;/code&gt; in their YAML will not be shown in the main page. But they will appear in the categories, recommended posts, etc. If you don&amp;rsquo;t want them to show in those pages, edit the partials for each of them to include the &lt;code&gt;{{ if not .Params.hidden }}&lt;/code&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;fixing-youtube&#34;&gt;Fixing Youtube&lt;/h2&gt;
+&lt;p&gt;Hugo has a &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/&#34;&gt;number of shortcodes&lt;/a&gt; to embed tweets, videos, gist, etc. For example to embed a youtube video at &lt;code&gt;https://www.youtube.com/watch?v=w7Ft2ymGmfc&lt;/code&gt; you simply have to put this in your R/markdown:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/w7Ft2ymGmfc?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;However, this does not work with the &lt;code&gt;casper-two&lt;/code&gt; theme, an issue that &lt;a href=&#34;https://github.com/eueung/hugo-casper-two/issues/5&#34;&gt;has been reported&lt;/a&gt; in the theme homepage, but has not been fixed yet.&lt;/p&gt;
+&lt;p&gt;To fix it, you can use the solution proposed by &lt;a href=&#34;https://github.com/softinio&#34;&gt;Softinio&lt;/a&gt; in the opened issue page. It is very simple but requires to create a Hugo shortcode:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Create a new file named &lt;code&gt;yt.hml&lt;/code&gt; in your &lt;code&gt;layouts/shortcodes&lt;/code&gt; folder.&lt;/li&gt;
+&lt;li&gt;Put the following code in that file:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;&amp;lt;iframe src=&amp;#34;https://www.youtube.com/embed/{{ index .Params 0 }}?start={{ index .Params 1 }}&amp;#34;
+style=&amp;#34;position: absolute; top: 0; left: 0; width: 560; height: 315;&amp;#34;
+allowfullscreen frameborder=&amp;#34;0&amp;#34; title=&amp;#34;YouTube Video&amp;#34;&amp;gt;&amp;lt;/iframe&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;You can now use the new shortcode in your R/markdown like this:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;code&gt;&lt;iframe src=&#34;https://www.youtube.com/embed/w7Ft2ymGmfc?start=&#34;
+  style=&#34;position: absolute; top: 0; left: 0; width: 560; height: 315;&#34; allowfullscreen frameborder=&#34;0&#34; title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;
+&lt;p&gt;That&amp;rsquo;s it. It&amp;rsquo;s a long post (sorry), but I hope you might find it useful. Let me know if there is a better way to do these modifications! 🚀&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -33,8 +363,127 @@
       <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2019-02-02-setting-up-your-blog-with-rstudio-and-blogdown-i-creating-the-blog/</guid>
-      <description>Last month I migrated my blog from Wordpress to Hugo and blogdown. Now I can post from RStudio using R/markdown, which allow me to create interactive posts including R code. It has been such a good experience that I decide to write down how to do it with three posts to help others.
- This one about to setup the blog. Part II explains my workflow of creating new posts. and Part III on how to modify the theme.</description>
+      <description>&lt;p&gt;Last month I migrated my blog from Wordpress to Hugo and &lt;code&gt;blogdown&lt;/code&gt;. Now I can post from RStudio using R/markdown, which allow me to create interactive posts including R code. It has been such a good experience that I decide to write down how to do it with three posts to help others.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;This one about to setup the blog.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://estebanmoro.org/post/2019-02-01-setting-up-your-blog-with-rstudio-and-blogdown/&#34;&gt;Part II&lt;/a&gt; explains my workflow of creating new posts.&lt;/li&gt;
+&lt;li&gt;and &lt;a href=&#34;https://estebanmoro.org/post/2019-02-04-setting-up-your-blog-with-rstudio-and-blogdown-iii-modify-your-theme/&#34;&gt;Part III&lt;/a&gt; on how to modify the theme.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;But before starting, a disclaimer: I am not a programer, designer or web developer. Just a normal user of Rstudio and blogdown. This is not a technical guide, just some notes about how I set up my blog to help other people like me. So maybe there is a simpler, cleaner and more standard way to do it. If so, comments are welcome!&lt;/p&gt;
+&lt;p&gt;First let&amp;rsquo;s take a look at the different tools that we are going to use:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt;: is a open-source framework for creating static websites. No need for a database to store our posts again (Wordpress) or to use website builders (Squarespace). The good thing about a static website is that it is much faster than other solutions. Pages are clean and download fast, which is the main reason I migrated from the bloated-pages Wordpress experience. Hugo will be the engine behind the creation of our blog.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://bookdown.org/yihui/blogdown/&#34;&gt;Blogdown&lt;/a&gt;: is a R package to create websites using R/markdown as our language and Hugo as our engine to render our posts into html. As you will see blogdown takes care of the Hugo part, so no need to install anything else to start your new blog.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://rmarkdown.rstudio.com&#34;&gt;R Markdown&lt;/a&gt; We will write posts using R/markdown. If you are not familiar with this format, have a look into it. Basically a R/markdown file is a plain text file in which you have:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A YAML header at the beginning (with author, date, title, parameters, etc.) surrounded by &lt;code&gt;---&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;After that you can start typing our text, formating it using simple codes or,&lt;/li&gt;
+&lt;li&gt;Introduce R code chunks whose output will be rendered in the final HTML.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;creating-the-blog&#34;&gt;Creating the blog&lt;/h2&gt;
+&lt;p&gt;Creating a new blog cannot be easier. Before starting this is what we need:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;em&gt;RStudio and the blogdown package&lt;/em&gt;:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;install.packages&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;blogdown&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;&lt;em&gt;Choose a theme&lt;/em&gt;. Yes, you have &lt;a href=&#34;https://themes.gohugo.io&#34;&gt;many themes&lt;/a&gt; in Hugo. And believe me, this &lt;strong&gt;step is crucial&lt;/strong&gt;, because you are going invest some time to organize our posts, the look of the theme, etc. Creating the new blog could be just 5 minutes, but modifying the theme and adapting our content to it can take weeks. So you might want to spend some time figuring out what theme is best for you. In my case, here are some themes that I considered:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://themes.gohugo.io/academic/&#34;&gt;Academic&lt;/a&gt;: If you are in academia this is probably the best theme for you. It is well documented, contains some extensions and a lot of people are using it, so there is a whole community behind it. But it takes a lot of work to adapt the content to it, specially if you have a lot of papers, talks, posts, etc. or you are coming from another platform like Wordpress. This is why I didn&amp;rsquo;t chose it.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://themes.gohugo.io/hugo-tranquilpeak-theme/&#34;&gt;Tranquilpeak&lt;/a&gt;: This is a great simple theme. It is easy customizable. This is a good option if you have a list of posts and what to set up a beautiful and simple blog.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://themes.gohugo.io/hugo-casper-two/&#34;&gt;Casper Two&lt;/a&gt;: Casper Two is a personal blogging theme. It is beautiful and simple and it was by choice, since it looked similar to my previous Wordpress theme (which I did like).&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Once you have decide the theme is important to locate its repository. Look for the &lt;code&gt;Homepage&lt;/code&gt; button in the Theme page you like. Here is the one for Casper-two:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/img/posts/casper-two-homepage.png&#34; alt=&#34;&#34;&gt;{width=80%}&lt;/p&gt;
+&lt;p&gt;As you can see in the top left corner of the webpage, the repository for this theme is maintained by &lt;code&gt;eueung&lt;/code&gt; in the folder &lt;code&gt;hugo-casper-two&lt;/code&gt;. So write it down or copy that as &lt;code&gt;eueung/hugo-casper-two&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Once you have chosen the theme, we are ready to go in 3 simple steps:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Open a new project in RStudio: File → New Project  → New Directory  → Website using Blogdown&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/img/posts/new_blog_project.png&#34; alt=&#34;&#34;&gt;{width=60%}&lt;/p&gt;
+&lt;p&gt;In the next window, specify the directory name of the blog, the subdirectory where the blog is going to be place and the theme. Here is what it looks in my case&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/img/posts/new_blog_ever.png&#34; alt=&#34;&#34;&gt;{width=60%}&lt;/p&gt;
+&lt;p&gt;Hit the &lt;code&gt;Create Project&lt;/code&gt; and you are done! You have just created your fist blog.&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;The fist thing you will see in Rstudio is the &lt;code&gt;config.toml&lt;/code&gt; file containing all the parameters to setup the blog. At this point:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;Change you &lt;code&gt;baseurl&lt;/code&gt; to be the final one. In my case is &lt;code&gt;baseurl = &amp;quot;http://estebanmoro.org&amp;quot;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;You can also change the &lt;code&gt;title&lt;/code&gt;, &lt;code&gt;subtitle&lt;/code&gt;, &lt;code&gt;description&lt;/code&gt; etc.&lt;/li&gt;
+&lt;li&gt;Use your Google analytics code (&lt;code&gt;googleAnalytics = &amp;quot;&amp;quot;&lt;/code&gt;) and your disqus shortname (&lt;code&gt;disqusShortname = &amp;quot;&amp;quot;&lt;/code&gt;) to add analytics and comments to our blog. Here is a &lt;a href=&#34;https://notes.peter-baumgartner.net/tutorial/how-to-install-disqus-on-hugo/&#34;&gt;nice post&lt;/a&gt; by Peter Baumgartner about how to install disqus on Hugo.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;Let&amp;rsquo;s build the blog! You can do it one-time using&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;blogdown&lt;span style=&#34;color:#f92672&#34;&gt;::&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;hugo_build&lt;/span&gt;()
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;or interactively using&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;blogdown&lt;span style=&#34;color:#f92672&#34;&gt;::&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;serve_site&lt;/span&gt;()
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;In the latter case, a server is running underneath so everytime you edit/change a post, put a new image in &lt;code&gt;/img&lt;/code&gt; (see below) or the modify the &lt;code&gt;config.toml&lt;/code&gt;, the site is rebuilt by Hugo. Also the blog appears in the viewer pane. This is the best way if you are creating a new post or modifying the theme.&lt;/p&gt;
+&lt;p&gt;If didn&amp;rsquo;t set it before, blogdown has also installed some post examples so you can have an idea of how it looks like.&lt;/p&gt;
+&lt;h2 id=&#34;understanding-the-blog-directory-structure&#34;&gt;Understanding the blog directory structure&lt;/h2&gt;
+&lt;p&gt;Before starting to post to our new blog, let&amp;rsquo;s have a look at the directory structure that has been created. In my case, I created the blog in &lt;code&gt;~/best_blog_ever&lt;/code&gt; which looks like this&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://estebanmoro.org/img/posts/folder-structure.png&#34; alt=&#34;&#34;&gt;{width=80%}&lt;/p&gt;
+&lt;p&gt;The first file &lt;code&gt;best_blog_ever.Rproj&lt;/code&gt; is the blog project we have just created. All the new posts go into the &lt;code&gt;content/post&lt;/code&gt; folder. You can see there that already we have a number of them. They are in the markdown format (&lt;code&gt;.md&lt;/code&gt;) and there is one in the R markdown format (&lt;code&gt;.Rmd&lt;/code&gt;).&lt;/p&gt;
+&lt;p&gt;You also have a folder named &lt;code&gt;static&lt;/code&gt;. Think of it as the root folder for the new blog. That means that if there is file there named &lt;code&gt;cv.pdf&lt;/code&gt; it can be access as &lt;code&gt;http:/estebanmoro.org/cv.pdf&lt;/code&gt;. The folder &lt;code&gt;img&lt;/code&gt; is the perfect place to put our images/pictures. For example, if there is a file &lt;code&gt;picture_vacations.png&lt;/code&gt; in the &lt;code&gt;img&lt;/code&gt; folder, you can include it in our markdown post using&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;![](/img/picture_vacations.png)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;When Hugo builds the blog, the final html files and structure go into the &lt;code&gt;public&lt;/code&gt; folder. This is the static version of the blog and the one we will deploy to our domain.&lt;/p&gt;
+&lt;p&gt;Finally the folder &lt;code&gt;themes&lt;/code&gt; contains all the formating for the new theme. I don&amp;rsquo;t recommend to touch it unless you really know what you are doing. We will see in Part III how to modify the theme.&lt;/p&gt;
+&lt;h2 id=&#34;migrating-our-content&#34;&gt;Migrating our content&lt;/h2&gt;
+&lt;p&gt;I had a lot of posts in my previous Wordpress blog and didn&amp;rsquo;t want to lose them. Luckily there are &lt;a href=&#34;https://gohugo.io/tools/migrations/&#34;&gt;some tools&lt;/a&gt; to migrate your posts from Wordpress to Hugo. I chose &lt;code&gt;exitwp&lt;/code&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Download &lt;code&gt;exitwp&lt;/code&gt; by cloning or downloading the zip file of the &lt;a href=&#34;https://github.com/wooni005/exitwp-for-hugo&#34;&gt;repo&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Export your Wordpress blog using xml. To do this, access the admin of our Wordpress blog (MySite -&amp;gt; Settintg -&amp;gt; Export) and export all. &lt;a href=&#34;https://en.support.wordpress.com/export/&#34;&gt;Here&lt;/a&gt; is a guide that shows you how to do it.&lt;/li&gt;
+&lt;li&gt;Put our Wordpress &lt;code&gt;xml&lt;/code&gt; file in the &lt;code&gt;wordpress-xml&lt;/code&gt; folder of our &lt;code&gt;exitwp&lt;/code&gt; directory.&lt;/li&gt;
+&lt;li&gt;Edit the &lt;code&gt;config.yaml&lt;/code&gt; file to change our setups for the migration. For example, you can change the directory where the migrated posts are going to be created by changing the &lt;code&gt;build_dir&lt;/code&gt; parameter.&lt;/li&gt;
+&lt;li&gt;Run it by typing &lt;code&gt;./exitwp.py&lt;/code&gt; in the console from the directory of the unzipped archive.&lt;/li&gt;
+&lt;li&gt;If everything went well you will have a new &lt;code&gt;build&lt;/code&gt; directory with all the posts in markdown format. Select the ones you want to keep and move them to the &lt;code&gt;content/post&lt;/code&gt; folder of our blog. Depending on our old blog structure you might also have other files in the &lt;code&gt;build&lt;/code&gt; directory.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;deploying-the-blog&#34;&gt;Deploying the blog&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;CAUTION: we are going to overwrite the blog in our actual domain, so before proceeding, make a backup of it or export it as explained before.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;Now we are ready to deploy it to our new domain. Here is the commands in RStudio that I have to do it:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;system&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;rm -r ~/best_blog_ever/public/*&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;blogdown&lt;span style=&#34;color:#f92672&#34;&gt;::&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;hugo_build&lt;/span&gt;(local&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;F)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;system&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;~/best_blog_ever/deploy.sh&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The fist command simply erases the &lt;code&gt;public&lt;/code&gt; directory where the new version of the blog is going to be built. This is probably not needed, but it gives me peace of mind :).&lt;/p&gt;
+&lt;p&gt;The second command builds the blog. Note the &lt;code&gt;local=F&lt;/code&gt; flag which tells Hugo to build a deployment version of the blog, meaning that all the posts with &lt;code&gt;draft: true&lt;/code&gt; in the YAML will not be rendered. This will be explained better in &lt;a href=&#34;https://estebanmoro.org/posts/2019-02-01-setting-up-your-blog-with-rstudio-and-blogdown/&#34;&gt;Part II&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The third command is my personal deployment script. Although most of the &lt;a href=&#34;https://bookdown.org/yihui/blogdown/deployment.html&#34;&gt;guides out there&lt;/a&gt; show you how to deploy your new blog using &lt;a href=&#34;https://www.netlify.com&#34;&gt;Netlify&lt;/a&gt; and/or GitHub, I am using my own domain and space at Dreamhost. Then to update my blog I simply synchronize the &lt;code&gt;public&lt;/code&gt; directory with the root directory of my domain. Here is the &lt;code&gt;deploy.sh&lt;/code&gt; script&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;#!/bin/sh 
+USER=your_user_to_our_blog_domain
+HOST=your_dream_host_machine.dreamhost.com
+DIR=our_blog_domain/
+rsync -avz --exclude-from &amp;#39;exclude-list.txt&amp;#39; --delete public/ ${USER}@${HOST}:~/${DIR}
+exit 0
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Change your &lt;code&gt;your_user_to_our_blog_domain&lt;/code&gt; and &lt;code&gt;your_dream_host_machine&lt;/code&gt; to your own dreamhost user and machine. The synchronization is down using &lt;code&gt;rysnc&lt;/code&gt;. You might also notice that I have excluded some files in the synchronization which are specified in the file &lt;code&gt;exclude-list.txt&lt;/code&gt;. In my case I only have the &lt;code&gt;.htacces&lt;/code&gt; file there.&lt;/p&gt;
+&lt;p&gt;And that&amp;rsquo;s it. If everything went well, you have migrated your blog from Wordpress to blogdown in no time.&lt;/p&gt;
+&lt;h2 id=&#34;comments&#34;&gt;Comments&lt;/h2&gt;
+&lt;p&gt;Although I love blogdown and how fast is to built and create new content, there is a couple of things that you might consider before using blogdown for our blog:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;No search:&lt;/strong&gt; The content generated is static. That means that you have lost the possibility for the users to search your content. In most Hugo themes there is no &amp;ldquo;search&amp;rdquo; button. There is however &lt;a href=&#34;https://gohugo.io/tools/search/&#34;&gt;a possibility&lt;/a&gt; to implement searching in our blog using search engines like &lt;code&gt;lunr&lt;/code&gt; or &lt;code&gt;angolia&lt;/code&gt;. But my experience is that those are difficult to implement. If searching within your blog is crucial, look for a theme that have &lt;a href=&#34;https://themes.gohugo.io/tags/search/&#34;&gt;search already implemented&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Permalinks structure and slugs:&lt;/strong&gt; you don&amp;rsquo;t want to lose the backlinks to your old blog. Have a look a the permalink structure in your older Wordpress blog. In my case a typical post had this structure:&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;code&gt;http://estebanmoro.org/2016/02/more-people-more-fun-the-scaling-of-events-in-cities/&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;so the &lt;code&gt;slug&lt;/code&gt; for that particular post was &lt;code&gt;2016/02/more-people-more-fun-the-scaling-of-events-in-cities/&lt;/code&gt;. Most likely, &lt;code&gt;exitwp&lt;/code&gt; has put our old &lt;code&gt;slug&lt;/code&gt; (the URL valid name for our post) in each of the new markdown post&amp;rsquo;s YAML, so there is no need to change anything. But check it just in case. Specially for those posts in your blog that have a lot of backlinks.&lt;/p&gt;
+&lt;p&gt;If you want to keep that format for the permalinks for new posts, modify the &lt;code&gt;[permalinks]&lt;/code&gt; parameter in the &lt;code&gt;config.toml&lt;/code&gt; accordingly.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

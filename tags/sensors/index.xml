@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sensors on </title>
@@ -6,15 +5,26 @@
     <description>Recent content in Sensors on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Mon, 15 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://estebanmoro.org/tags/sensors/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 15 Jul 2024 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://estebanmoro.org/tags/sensors/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Social media sensors as early signals of influenza outbreaks at scale</title>
       <link>https://estebanmoro.org/post/2024-07-15-social-media-sensors-as-early-signals-of-influenza-outbreaks-at-scale/</link>
       <pubDate>Mon, 15 Jul 2024 00:00:00 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2024-07-15-social-media-sensors-as-early-signals-of-influenza-outbreaks-at-scale/</guid>
-      <description>Authors: David Martín-Corral, Manuel García-Herranz, Manuel Cebrián &amp;amp; Esteban Moro Publication: EPJ Data Science (2024) 13:43 LINK
-Abstract: Detecting early signals of an outbreak in a viral process is challenging due to its exponential nature, yet crucial given the benefits to public health it can provide. If available, the network structure where infection happens can provide rich information about the very early stages of viral outbreaks. For example, more central nodes have been used as social network sensors in biological or informational diffusion processes to detect early contagious outbreaks.</description>
+      <description>
+
+
+&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: David Martín-Corral, Manuel García-Herranz, Manuel Cebrián &amp;amp; Esteban Moro
+&lt;br&gt;
+&lt;em&gt;Publication&lt;/em&gt;: EPJ Data Science (2024) 13:43 &lt;strong&gt;&lt;a href=&#34;https://epjdatascience.springeropen.com/articles/10.1140/epjds/s13688-024-00474-1&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Detecting early signals of an outbreak in a viral process is challenging due to its exponential nature, yet crucial given the benefits to public health it can provide. If available, the network structure where infection happens can provide rich information about the very early stages of viral outbreaks. For example, more central nodes have been used as social network sensors in biological or informational diffusion processes to detect early contagious outbreaks. We aim to combine both approaches to detect early signals of a biological viral process (influenza-like illness, ILI), using its informational epidemic coverage in public social media. We use a large social media dataset covering three years in a country. We demonstrate that it is possible to use highly central users on social media, more precisely high out-degree users from Twitter, as sensors to detect the early signals of ILI outbreaks in the physical world without monitoring the whole population. We also investigate other behavioral and content features that distinguish those early sensors in social media beyond centrality. While high centrality on Twitter is the most distinctive feature of sensors, they are more likely to talk about local news, language, politics, or government than the rest of the users. Our new approach could detect a better and smaller set of social sensors for epidemic outbreaks and is more operationally efficient and privacy respectful than previous ones, not requiring the collection of vast amounts of data.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Media&lt;/strong&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -23,8 +33,13 @@ Abstract: Detecting early signals of an outbreak in a viral process is challengi
       <pubDate>Fri, 18 Nov 2022 00:00:00 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2022-11-18-social-media-sensors-to-detect-early-warnings-of-influenza-at-scale/</guid>
-      <description>Authors: David Martín-Corral, Manuel García-Herranz, Manuel Cebrian, Esteban Moro Publication: medRxiv 2022.11.15.22282355 LINK
-Abstract: Detecting early signs of an outbreak in a viral process is challenging due to its exponential nature, yet crucial given the benefits to public health it can provide. If available, the network structure where infection happens can provide rich information about the very early stages of viral outbreaks. For example, more central nodes have been used as social network sensors in biological or informational diffusion processes to detect early contagious outbreaks.</description>
+      <description>
+
+
+&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: David Martín-Corral, Manuel García-Herranz, Manuel Cebrian, Esteban Moro &lt;br&gt;
+&lt;em&gt;Publication&lt;/em&gt;: medRxiv 2022.11.15.22282355 &lt;strong&gt;&lt;a href=&#34;https://www.medrxiv.org/content/10.1101/2022.11.15.22282355v1&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Detecting early signs of an outbreak in a viral process is challenging due to its exponential nature, yet crucial given the benefits to public health it can provide. If available, the network structure where infection happens can provide rich information about the very early stages of viral outbreaks. For example, more central nodes have been used as social network sensors in biological or informational diffusion processes to detect early contagious outbreaks. Here we aim to put together both approaches to detect early warnings of a biological viral process (influenza-like illness, ILI), using its informational epidemic coverage in public social media. We use a large social media dataset covering three years in a country. We demonstrate that it is possible to use highly central users on the platform, more precisely high out-degree users from Twitter, as sensors to detect the early warning outbreaks of ILI in the physical world without monitoring the whole population. We also investigate other behavioral and content features that distinguish those early sensors in social media beyond centrality. We find that while high centrality on Twitter is the most distinctive feature of sensors, we see that they are more likely to talk about local news, language, politics, or government than the rest of the users. Our new approach could detect a better and smaller set of social sensors for epidemic outbreaks and is more operationally efficient and privacy respectful than previous ones, not requiring the collection of vast amounts of data.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -33,8 +48,45 @@ Abstract: Detecting early signs of an outbreak in a viral process is challenging
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2019-02-02-social-networks-as-sensors/</guid>
-      <description>Temporal, structural and activity patterns in social networks are related to human behavior. Thus, networks do have different shape and dynamics under different exogenous and endogenous shocks or conditions. In the last years we have addressed the question of whether we can use our understanding of social networks to anticipate, predict or measure important phenomena as information propagation, disaster damage, unemployment shocks, weather conditions, gender digital divide, etc.
-For example in a series of papers, we demonstrated for the first time the ability of the so-called &amp;ldquo;friendship paradox&amp;rdquo; in social networks to get better collection of users (sensors) that can anticipate meme, news or event-related information propagation in networks.</description>
+      <description>&lt;p&gt;Temporal, structural and activity patterns in social networks are related to human behavior. Thus, networks do have different shape and dynamics under different exogenous and endogenous shocks or conditions. In the last years we have addressed the question of &lt;strong&gt;whether we can use our understanding of social networks to anticipate, predict or measure important phenomena as information propagation, disaster damage, unemployment shocks, weather conditions, gender digital divide, etc.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;For example in a series of papers, we demonstrated for the first time the ability of the so-called &amp;ldquo;friendship paradox&amp;rdquo; in social networks to get better collection of users (&lt;em&gt;sensors&lt;/em&gt;) that can anticipate meme, news or event-related &lt;a href=&#34;https://estebanmoro.org/post/2014-04-09-using-friends-as-sensors/&#34;&gt;information propagation in networks&lt;/a&gt;. Even those sensors can be user to disaster management as &lt;a href=&#34;https://estebanmoro.org/post/2016-03-14-rapid-assessment-of-disaster-damage/&#34;&gt;we found during Hurricane Sandy&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;We also found that social media behaviors like mobility around economical areas (see figure), diversity of interactions between areas or the gramatical correctness of posts are &lt;a href=&#34;https://estebanmoro.org/post/2014-11-13-social-media-fingerprints-of-unemployment/&#34;&gt;deeply related to unemployment in those areas&lt;/a&gt;. Those findings have been corroborated in other countries, showing the universal character of those fingerprints of socio-economic status in social media. In the last years we have also used data from social media to understand gender inequality. By developing a unique large-scale dataset from Facebook, we have seen the relation between the activity of 1.4 billion users in 217 countries, the digital gender gap and other inequality measures related to education, health or economic opportunity. This research was published in PNAS \cite{Garcia:2018bv} and together with the methodology in &lt;a href=&#34;https://estebanmoro.org/post/2014-11-13-social-media-fingerprints-of-unemployment/&#34;&gt;previous papers&lt;/a&gt; we have use these results in a collaboration with &lt;a href=&#34;https://www.unicef.org/innovation/stories/how-do-we-keep-socio-economic-estimates-date&#34;&gt;UNICEF to measure Human Development Indexes in third world countries&lt;/a&gt;, where official data is scarce or incomplete.&lt;/p&gt;
+&lt;p&gt;Some recent papers:
+&lt;small&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;b&gt;Analyzing gender inequality through large-scale Facebook advertising data&lt;/b&gt;&lt;br&gt;
+David Garcia, Yonas Mitike Kassa, Angel Cuevas, Manuel Cebrian, Esteban Moro, Iyad Rahwan, Ruben Cuevas&lt;br&gt;
+Proceedings Of The National Academy Of Sciences &lt;strong&gt;115&lt;/strong&gt; 6958&amp;ndash;6963 (2018)&lt;br&gt;
+&lt;a href=&#34;https://estebanmoro.org/pdf/Analyzing_gender_inequality_through_large_scale_Facebook_advertising_data.pdf&#34; class=&#34;BUTTON_JEL&#34;&gt;PDF&lt;/a&gt; &lt;a href=&#34;http://www.pnas.org/lookup/doi/10.1073/pnas.1717781115&#34; class=&#34;BUTTON_JEL&#34;&gt;Journal&lt;/a&gt; &lt;a href=&#34;http://www.altmetric.com/details.php?citation_id=43888153&#34; class=&#34;BUTTON_JEL&#34;&gt;Altmetric: 203&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;b&gt;Social Media Fingerprints of Unemployment&lt;/b&gt;&lt;br&gt;
+Alejandro Llorente, Manuel Garcia-Herranz, Manuel Cebrian, Esteban Moro&lt;br&gt;
+PLoS ONE &lt;strong&gt;10&lt;/strong&gt; e0128692 (2015)&lt;br&gt;
+&lt;a href=&#34;https://estebanmoro.org/pdf/Social_Media_Fingerprints_of_Unemployment.pdf&#34; class=&#34;BUTTON_JEL&#34;&gt;PDF&lt;/a&gt; &lt;a href=&#34;https://dx.plos.org/10.1371/journal.pone.0128692&#34; class=&#34;BUTTON_JEL&#34;&gt;Journal&lt;/a&gt; &lt;a href=&#34;http://www.altmetric.com/details.php?citation_id=2882502&#34; class=&#34;BUTTON_JEL&#34;&gt;Altmetric: 325&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;b&gt;Using friends as sensors to detect global-scale contagious outbreaks.&lt;/b&gt;&lt;br&gt;
+Manuel Garcia-Herranz, Esteban Moro, Manuel Cebrian, Nicholas A Christakis, James H Fowler&lt;br&gt;
+PLoS ONE &lt;strong&gt;9&lt;/strong&gt; e92413&amp;ndash; (2014)&lt;br&gt;
+&lt;a href=&#34;https://estebanmoro.org/pdf/Using_friends_as_sensors_to_detect_global_scale_contagious_outbreaks_.pdf&#34; class=&#34;BUTTON_JEL&#34;&gt;PDF&lt;/a&gt; &lt;a href=&#34;http://adsabs.harvard.edu/cgi-bin/nph-data_query?bibcode=2014PLoSO...992413G&amp;link_type=EJOURNAL&#34; class=&#34;BUTTON_JEL&#34;&gt;Journal&lt;/a&gt; &lt;a href=&#34;http://www.altmetric.com/details.php?citation_id=2268575&#34; class=&#34;BUTTON_JEL&#34;&gt;Altmetric: 251&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;b&gt;Rapid assessment of disaster damage using social media activity&lt;/b&gt;&lt;br&gt;
+Yury Kryvasheyeu, Haohui Chen, Nick Obradovich, Esteban Moro, Pascal Van Hentenryck, James Fowler, Manuel Cebrian&lt;br&gt;
+Science Advances &lt;strong&gt;2&lt;/strong&gt; e1500779 (2016)&lt;br&gt;
+&lt;a href=&#34;https://estebanmoro.org/pdf/Rapid_assessment_of_disaster_damage_using_social_media_activity.pdf&#34; class=&#34;BUTTON_JEL&#34;&gt;PDF&lt;/a&gt; &lt;a href=&#34;http://advances.sciencemag.org/lookup/doi/10.1126/sciadv.1500779&#34; class=&#34;BUTTON_JEL&#34;&gt;Journal&lt;/a&gt; &lt;a href=&#34;http://www.altmetric.com/details.php?citation_id=6165647&#34; class=&#34;BUTTON_JEL&#34;&gt;Altmetric: 521&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/small&gt;
+&lt;p&gt;Talks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://estebanmoro.org/talks/Network_Interventions_2018.pdf&#34;&gt;From individual behavior to social processes: using human traces for social good&lt;/a&gt; Invited talk at ICCS 2018 (Boston).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Videos:&lt;/p&gt;
+&lt;p&gt;Media:&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -43,9 +95,22 @@ For example in a series of papers, we demonstrated for the first time the abilit
       <pubDate>Wed, 09 Apr 2014 13:37:55 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2014-04-09-using-friends-as-sensors/</guid>
-      <description>Authors: Manuel Garcia-Herranz, Esteban Moro, Manuel Cebrian, Nicholas A. Christakis and James H. Fowler
-Journal: PLoS ONE 9(4): e92413 (2014) LINK
-SummaryRecent research has focused on the monitoring of global–scale online data for improved detection of epidemics, mood patterns, movements in the stock market political revolutions, box-office revenues, consumer behaviour and many other important phenomena. However, privacy considerations and the sheer scale of data available online are quickly making global monitoring infeasible, and existing methods do not take full advantage of local network structure to identify key nodes for monitoring.</description>
+      <description>&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Manuel Garcia-Herranz, Esteban Moro, Manuel Cebrian, Nicholas A. Christakis and James H. Fowler&lt;br&gt;
+&lt;em&gt;Journal&lt;/em&gt;: PLoS ONE 9(4): e92413 (2014) &lt;strong&gt;&lt;a href=&#34;http://dx.plos.org/10.1371/journal.pone.0092413&#34;&gt;LINK&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Summary&lt;/strong&gt;Recent research has focused on the monitoring of global–scale online data for improved detection of epidemics, mood patterns, movements in the stock market political revolutions, box-office revenues, consumer behaviour and many other important phenomena. However, privacy considerations and the sheer scale of data available online are quickly making global monitoring infeasible, and existing methods do not take full advantage of local network structure to identify key nodes for monitoring. Here, we develop a model of the contagious spread of information in a global-scale, publicly- articulated social network and show that a simple method can yield not just early detection, but advance warning of contagious outbreaks. In this method, we randomly choose a small fraction of nodes in the network and then we randomly choose a friend of each node to include in a group for local monitoring. Using six months of data from most of the full Twittersphere, we show that this friend group is more central in the network and it helps us to detect viral outbreaks of the use of novel hashtags about 7 days earlier than we could with an equal-sized randomly chosen group. Moreover, the method actually works better than expected due to network structure alone because highly central actors are both more active and exhibit increased diversity in the information they transmit to others. These results suggest that local monitoring is not just more efficient, but also more effective, and it may be applied to monitor contagious processes in global–scale networks.&lt;/p&gt;
+&lt;p&gt;Press coverage:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  * The science of going viral, [The Chronicle of Higher Education](http://chronicle.com/blogs/percolator/the-science-of-going-viral/34145)
+  * How to Use Twitter Friends as Sensors to Detect Disease Outbreaks, [Technology Review MIT](http://www.technologyreview.com/view/508091/how-to-use-twitter-friends-as-sensors-to-detect-disease-outbreaks/)
+  * Going viral: How &#39;social contagion&#39; begins and escalates, [Bloomberg Businessweek](http://investing.businessweek.com/research/markets/news/article.asp?docKey=600-201404101313M2______EUPR_____7af500000170ad87_3600-1)
+  * Nice summary of our work at the [Robert Wood Johnson Foundation](http://www.rwjf.org/en/research-publications/find-rwjf-research/2014/04/using-friends-as-sensors-to-detect-global-scale-contagious-outbr.html) webpage
+  * How &#39;social contagion&#39; begins and escalates, [PhysOrg](http://phys.org/news/2014-04-social-contagion-escalates.html)
+  * System detects global trends in social networks two months in advance, [ScienceDaily](http://www.sciencedaily.com/releases/2014/04/140428094211.htm)
+  * Tus tuits predicen el futuro, [Huffington Post](http://www.huffingtonpost.es/2014/04/29/twitter-predice-el-futuro_n_5231224.html)
+  * Predicting contagious outbreaks using your most popular friends [FastCompany.com](http://www.fastcoexist.com/3029058/predicting-contagious-outbreaks-using-your-most-popular-friends)
+  * The Case for Journeying to the Center of Our Social Networks, [RWJF.com](http://www.rwjf.org/en/blogs/pioneering-ideas/2014/05/the_case_for_journey.html?cid=xtw_pioneer)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;** **&lt;/p&gt;
+</description>
     </item>
     
   </channel>

@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Privacy on </title>
@@ -6,16 +5,28 @@
     <description>Recent content in Privacy on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Mon, 31 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://estebanmoro.org/tags/privacy/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 31 Jan 2022 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://estebanmoro.org/tags/privacy/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Generating synthetic mobility data for a realistic population with RNNs to improve utility and privacy</title>
       <link>https://estebanmoro.org/post/2022-01-31-generating-synthetic-mobility-data-for-a-realistic-population-with-rnns-to-improve-utility-and-privacy/</link>
       <pubDate>Mon, 31 Jan 2022 00:00:00 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2022-01-31-generating-synthetic-mobility-data-for-a-realistic-population-with-rnns-to-improve-utility-and-privacy/</guid>
-      <description>Authors: Alex Berke, Ronan Doorley, Kent Larson, Esteban Moro
-Publication: arXiv preprint arXiv:2201.01139 (2022). Link
-Abstract: Location data collected from mobile devices represent mobility behaviors at individual and societal levels. These data have important applications ranging from transportation planning to epidemic modeling. However, issues must be overcome to best serve these use cases: The data often represent a limited sample of the population and use of the data jeopardizes privacy.</description>
+      <description>
+&lt;script src=&#34;https://estebanmoro.org/post/2022-01-31-generating-synthetic-mobility-data-for-a-realistic-population-with-rnns-to-improve-utility-and-privacy/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Alex Berke, Ronan Doorley, Kent Larson, Esteban Moro&lt;br&gt;
+&lt;em&gt;Publication&lt;/em&gt;: arXiv preprint arXiv:2201.01139 (2022). &lt;strong&gt;&lt;a href=&#34;https://arxiv.org/abs/2201.01139&#34;&gt;Link&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Location data collected from mobile devices represent mobility behaviors at individual and societal levels. These data have important applications ranging from transportation planning to epidemic modeling. However, issues must be overcome to best serve these use cases: The data often represent a limited sample of the population and use of the data jeopardizes privacy.
+To address these issues, we present and evaluate a system for generating synthetic mobility data using a deep recurrent neural network (RNN) which is trained on real location data. The system takes a population distribution as input and generates mobility traces for a corresponding synthetic population.
+Related generative approaches have not solved the challenges of capturing both the patterns and variability in individuals’ mobility behaviors over longer time periods, while also balancing the generation of realistic data with privacy. Our system leverages RNNs’ ability to generate complex and novel sequences while retaining patterns from training data. Also, the model introduces randomness used to calibrate the variation between the synthetic and real data at the individual level. This is to both capture variability in human mobility, and protect user privacy.
+Location based services (LBS) data from more than 22,700 mobile devices were used in an experimental evaluation across utility and privacy metrics. We show the generated mobility data retain the characteristics of the real data, while varying from the real data at the individual level, and where this amount of variation matches the variation within the real data.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -24,9 +35,10 @@ Abstract: Location data collected from mobile devices represent mobility behavio
       <pubDate>Tue, 22 Oct 2019 00:00:00 +0000</pubDate>
       
       <guid>https://estebanmoro.org/post/2019-10-22-how-to-hide-one-s-relationships-from-link-prediction-algorithms/</guid>
-      <description>Authors: Marcin Waniek, Kai Zhou, Yevgeniy Vorobeychik, Esteban Moro, Tomasz P Michalak, Talal Rahwan
-Journal: Scientific Reports volume 9, Article number: 12208 (2019) Link
-Abstract: Our private connections can be exposed by link prediction algorithms. To date, this threat has only been addressed from the perspective of a central authority, completely neglecting the possibility that members of the social network can themselves mitigate such threats. We fill this gap by studying how an individual can rewire her own network neighborhood to hide her sensitive relationships.</description>
+      <description>&lt;p&gt;&lt;em&gt;Authors&lt;/em&gt;: Marcin Waniek, Kai Zhou, Yevgeniy Vorobeychik, Esteban Moro, Tomasz P Michalak, Talal Rahwan&lt;br&gt;
+&lt;em&gt;Journal&lt;/em&gt;: Scientific Reports volume 9, Article number: 12208 (2019) &lt;strong&gt;&lt;a href=&#34;https://www.nature.com/articles/s41598-019-48583-6&#34;&gt;Link&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Our private connections can be exposed by link prediction algorithms. To date, this threat has only been addressed from the perspective of a central authority, completely neglecting the possibility that members of the social network can themselves mitigate such threats. We fill this gap by studying how an individual can rewire her own network neighborhood to hide her sensitive relationships. We prove that the optimization problem faced by such an individual is NP-complete, meaning that any attempt to identify an optimal way to hide one’s relationships is futile. Based on this, we shift our attention towards developing effective, albeit not optimal, heuristics that are readily-applicable by users of existing social media platforms to conceal any connections they deem sensitive. Our empirical evaluation reveals that it is more beneficial to focus on “unfriending” carefully-chosen individuals rather than befriending new ones. In fact, by avoiding communication with just 5 individuals, it is possible for one to hide some of her relationships in a massive, real-life telecommunication network, consisting of 829,725 phone calls between 248,763 individuals. Our analysis also shows that link prediction algorithms are more susceptible to manipulation in smaller and denser networks. Evaluating the error vs. attack tolerance of link prediction algorithms reveals that rewiring connections randomly may end up exposing one’s sensitive relationships, highlighting the importance of the strategic aspect. In an age where personal relationships continue to leave digital traces, our results empower the general public to proactively protect their private relationships.&lt;/p&gt;
+</description>
     </item>
     
   </channel>
